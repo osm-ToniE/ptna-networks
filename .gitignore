@@ -1,0 +1,13 @@
+# ignore created HTML pages
+*.html
+
+# ignore save and diff files
+*.save
+*.diff
+
+# ignore log files
+*.log
+
+# ignore downloaded XML data
+*-Data.xml
+
