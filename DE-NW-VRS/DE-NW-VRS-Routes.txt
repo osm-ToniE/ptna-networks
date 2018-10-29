@@ -53,7 +53,7 @@
 == Zug
 
 RE1;train;;;;
-RE5;train;;;;
+RE5;train;;Wesel;Koblenz;
 RE6;train;;;;
 RE7;train;;;;
 RE8;train;;;;
@@ -61,7 +61,7 @@ RE9;train;;;;
 RE12;train;;;;
 RE22/RB22;train;Eine Linie, zwei unterschiedliche Service;;;
 # RB22;train;;;;
-RB23;train;;;;
+RB23;train;Erfttalbahn;Euskirchen;Bad Münstereifel;
 RB24;train;;;;
 RB25;train;;;;
 RB26;train;;;;
@@ -80,7 +80,7 @@ S11;train;;;;
 S12;train;;;;
 S13;train;;;;
 S19;train;;;;
-S23;train;;;;
+S23;train;Voreifelbahn;Bonn;Euskirchen;
 
 == U-Bahn/Straßenbahn
 
@@ -130,8 +130,8 @@ N41;bus;;;;
 N42;bus;;;;
 N43;bus;;;;
 N44;bus;;;;
-N45;bus;;;;
-N46;bus;;;;
+N45;bus;via Bensberg, Herkenrath;;;
+N46;bus;via Herkenrath, Bensberg;;;
 N47;bus;;;;
 
 === Schnellbus
@@ -143,7 +143,7 @@ SB60;bus;;;;
 SB69;bus;;;;
 SB82;bus;;;;
 
-=== Bus 100 ...
+=== Bus 100 Köln ...
 
 106;bus;;;;
 120;bus;;;;
@@ -153,34 +153,34 @@ SB82;bus;;;;
 125;bus;;;;
 126;bus;;;;
 127;bus;;;;
-130;bus;;;;
-131;bus;;;;
+130;bus;;Sürth;Universität;
+131;bus;;Sürth;Sülz;
 132;bus;;;;
 133;bus;;;;
-135;bus;;;;
+135;bus;;Rodenkirchen;Meschenich;
 136;bus;;;;
 138;bus;;;;
 139;bus;;;;
 140;bus;;;;
 #141, 143;bus;;;;
-141;bus;;;;
+141;bus;;Weiden;Vogelsang;
 142;bus;;;;
-143;bus;;;;
-144;bus;;;;
-145;bus;;;;
+143;bus;;Lövenich;Bocklemünd;
+144;bus;;Lövenich;Müngersdorf;
+145;bus;;Bocklemünd;Bachem;
 146;bus;;;;
 147;bus;;;;
-149;bus;;;;
-150;bus;;;;
+149;bus;Weiden-Widdersdorf-Weiden;;;
+150;bus;;Kalk;Mülheim;
 151;bus;;;;
 152;bus;;;;
 153;bus;;;;
 154;bus;;;;
-155;bus;;;;
+155;bus;Mühlheim-Dünnwald-Stammheim;;;
 156;bus;;;;
 157;bus;;;;
 158;bus;;;;
-159;bus;;;;
+159;bus;;Poll;Buchheim;
 160;bus;;;;
 161;bus;;;;
 162;bus;;;;
@@ -190,7 +190,7 @@ SB82;bus;;;;
 185;bus;;;;
 190;bus;;;;
 191;bus;;;;
-192;bus;;;;
+192;bus;;Köln-Meschenich;Hürth-Kalscheuren;
 
 === Bus 200 ...
 
