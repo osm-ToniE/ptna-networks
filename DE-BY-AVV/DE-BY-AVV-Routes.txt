@@ -34,16 +34,23 @@
 - Verweis auf mehr [[Talk:Augsburg/Transportation/Analyse|Informationen]] im Wiki.
 
 == Tram
+
 === Straßenbahn
+
 1;tram;;Lechhausen Neuer Ostfriedhof;Göggingen;
 2;tram;;Augsburg West P+R;Haunstetten Nord;
-3;tram;;Stadtbergen;Haunstetten West P+R;
+3;tram;;Stadtbergen;Haunstetten West;P+R;
 4;tram;;Oberhausen Nord P+R;Hauptbahnhof;
 6;tram;;Hauptbahnhof;Friedberg West P+R;
+
 === Fußballlinie
-8;tram;;Hauptbahnhof;Fußball-Arena;
+
+8;tram;Stadion-Linie, Bedienung nur bei Bedarf;Königsplatz;Fußball-Arena;
+
 == Bus
+
 === Stadtbus
+
 21;bus;;Bärenkeller Süd;Bärenwirt/DRvS;
 22;bus;;Firnhaberau;Königsplatz;
 23;bus;;Firnhaberau;Königsplatz;
@@ -63,108 +70,127 @@
 43;bus;;Diakonissenhaus;Anna-Hintermayr-Stift;
 44;bus;;Hammerschmiede;Königsplatz;
 48;bus;;Berliner Allee;Medienzentrum;
+
 === Regionalbus
+
+==== Regionalbus 1 .. 99
+
 27;bus;;Bärenwirt/DRvS;Rettenbergen West;
 51;bus;;Oberhausen Nord P+R;Langweid;
 52;bus;;Oberhausen Nord P+R;Gersthofen Am Ballonstartplatz;
 54;bus;;Oberhausen Nord P+R;Langweid;
 55;bus;;Gersthofen Bahnhof;Gersthofen Stifter-Siedlung;
-56;bus;;Gersthofen Pestalozzischule / Oberhausen Nord P+R;Rettenbergen West;
-57;bus;;Oberhaus Nord P+R;Oberhausen Nord P+R;
-58;bus;;Oberhausen Nord P+R;Augsburg IKEA;
-59;bus;;Oberhausen Nord P+R;GVZ;
-==== Regionalbus 100 ...
+56;bus;;Gersthofen Pestalozzischule;Rettenbergen West;
+57;bus;;Oberhausen Nord P+R;Oberhausen Nord P+R;
+58;bus;Endhaltestelle auch Gersthofen Bf;Oberhausen Nord P+R;Augsburg IKEA;
+59;bus;Endhaltestelle auch Gersthofen Bf;Oberhausen Nord P+R;GVZ;
+
+==== Regionalbus 100 .. 199
+
 100;bus;;Königsbrunn;Mering;
-102;bus;;Mering;Kissing Bf;
+102;bus;;Mering;Augsburg Hochzoll;
 103;bus;;Mering;Friedberg;
 104;bus;;Mittelstetten;Mering;
 106;bus;;Steindorf;Mering;
 108;bus;;Schmiechen;Mering;
-==== Regionalbus 200 ...
+
+==== Regionalbus 200 .. 299
+
 200;bus;;Friedberg West P+R;Friedberg Ost;
 201;bus;;Friedberg West P+R;Friedberg Ost;
 202;bus;;Friedberg West P+R;Friedberg Grundschule Süd;
-203;bus;;Friedberg;Irschenhofen;
+203;bus;;Friedberg;Schloßberg;
 204;bus;;Friedberg;Klingen;
-205;bus;;Friedberg;Dasing;
-206;bus;;Friedberg;Dasing;
-207;bus;;Friedberg;Eurasburg;
-208;bus;;Friedberg;Bachern;
+205;bus;;Friedberg;Aichach;
+206;bus;;Friedberg;Aichach;
+207;bus;;Friedberg;Unterumbach;
+208;bus;;Friedberg;Asbach;
 209;bus;;Friedberg;Aichach;
 210;bus;;Augsburg;Friedberg;
 211;bus;;Augsburg;Derching;
 212;bus;;Augsburg;Derching;
-213;bus;;Friedberg;Derching;
+213;bus;;Friedberg;Aulzhausen;
 221;bus;;Affing;Aichach;
 222;bus;;Edenried;Aichach;
-225;bus;;Augsburg;Inchenhofen;
+225;bus;;Augsburg;Mainbach;
 226;bus;;Affing;Aichach;
 227;bus;;Rehling;Aichach;
-228;bus;;Gaulzhofen;Edenhausen;
-229;bus;;Gundelsdorf;Oberbachern;
+228;bus;;Gaulzhofen;Aichach;
+229;bus;;Gundelsdorf;Inchenhofen;
 230;bus;;Pöttmes;Aichach;
 240;bus;;Unterbernbach;Aichach;
-241;bus;;Unterbernbach;Kühbach;
-242;bus;;Metzenried;Schiltberg;
+241;bus;;Unterbernbach;Aichach;
+242;bus;Einzelne Fahrten über Unterschönbach – Oberschönbach;Metzenried;Aichach;
 243;bus;;Schiltberg;Aichach;
-244;bus;;Xyger;Aichach;
+244;bus;Einzelne Fahrten über Klingen;Xyger;Aichach;
 250;bus;;Adelzhausen;Aichach;
-==== Regionalbus 300 ...
-301;bus;;Augsburg;Affing;
-302;bus;;Augsburg;Affing;
-303;bus;;Augsburg;Affing;
+261;bus;;Friedberg West P+R;Augsburg Schleiermacherstraße;
+262;bus;;Friedberg, West P+R;Friedberg, West P+R;
+
+==== Regionalbus 300 .. 399
+
+301;bus;;Augsburg;Pöttmes;
+302;bus;Endhaltestelle auch Ebenried Stuben;Augsburg;Ebenried;
+303;bus;;Augsburg;Gebenhofen;
 305;bus;;Augsburg;Aindling;
-306;bus;;Oberhausen Nord P+R;Gersthofen;
+306;bus;;Oberhausen Nord P+R;Aindling;
 310;bus;;Langweid;Unterach;
-314;bus;;Aindling;Rehling;
+314;bus;;Aindling;St. Stephan;
 315;bus;;Aindling;Edenhausen;
 316;bus;;Oberach;Aindling;
 317;bus;;Aindling;Gaulzhofen;
-320;bus;;Pöttmes;;
+320;bus;;Pöttmes;Indersdorf;
 323;bus;;Pöttmes;Grimolzhausen;
-==== Regionalbus 400 ...
+
+==== Regionalbus 400 .. 499
+
 400;bus;;Meitingen;Wertingen;
-401;bus;;Augsburg;Langweid;
+401;bus;;Augsburg;Wertingen;
 402;bus;;Meitingen;Wertingen;
 403;bus;;Wertingen;Biberbach;
 404;bus;;Nordendorf;Wertingen;
 405;bus;;Mertingen;Wertingen;
 406;bus;;Meitingen;Wertingen;
-410;bus;;Oberhausen Nord P+R;Meitingen;
-411;bus;;Thierhaupten Ortsverkehr;;
+410;bus;Endhaltestelle auch Pöttmes;Oberhausen Nord P+R;Reicherstein;
+411;bus;;Ortsverkehr Thierhaupten;;
 412;bus;;Nordendorf;Allmannshofen;
 413;bus;;Meitingen;Nordendorf;
-415;bus;;Rufbus Meitingen;;
 420;bus;;Augsburg;Achsheim;
 459;bus;;Lützelburg;Gersthofen;
-==== Regionalbus 500 ...
+
+==== Regionalbus 500 .. 599
+
 500;bus;;Augsburg;Aystetten;
 501;bus;;Augsburg;Welden;
-502;bus;;Augsburg;Emersacker;
+502;bus;;Augsburg;Wertingen;
 503;bus;;Augsburg;Schlipsheim;
 504;bus;;Neusäß;Streitheim;
-505;bus;;Augsburg;Zusmarshausen;
-506;bus;;Augsburg;Horgau;
-507;bus;;Augsburg;;
-510;bus;;Neusäß;Schlipsheim;
-511;bus;;Täfertingen;Steppach;
+505;bus;;Augsburg;Wertingen;
+506;bus;;Augsburg;Baiershofen;
+507;bus;;Augsburg;Au;
+510;bus;;Neusäß;Biburg;
+511;bus;Starthaltestelle auch Hammel;Täfertingen;Diedorf;
 512;bus;;Gersthofen;Steppach / Stadtbergen;
-520;bus;;Wertingen;Altenmünster;
+520;bus;Endhaltestellen auch Steinekirch, Gabelbach;Wertingen;;Zusmarshausen;
 521;bus;;Welden;Wertingen;
-530;bus;;Rufbus;Zusmarshausen;
-==== Regionalbus 600 ...
-600;bus;;Augsburg;Gessertshausen;
+
+==== Regionalbus 600 .. 699
+
+600;bus;Endhaltestellen auch Ried, Breitenbronn, Holzara, Thannhausen, Krumbach;Augsburg;Ustersbach;
 601;bus;;Augsburg;Anhausen;
 604;bus;;Gessertshausen;Markt Wald;
-605;bus;;Gessertshausen;Döpshofen;
-606;bus;;Gessertshausen;Siegertshofen;
-607;bus;;Gessertshausen;Mickhausen;
+605;bus;Endhaltestellen auch Kreuzanger, Waldberg;Gessertshausen;Döpshofen;
+606;bus;Endhaltestelle auch Münster;Gessertshausen;Siegertshofen;
+607;bus;Endhaltestelle auch Münster;Gessertshausen;Mickhausen;
 610;bus;;Dinkelscherben;Anried;
-611;bus;;Dinkelscherben;;
+611;bus;;Dinkelscherben;Gabelbach/Gabelbachergreut;
 612;bus;;Zusmarshausen;Dinkelscherben;
 640;bus;;Leitershofen;Neusäß;
 641;bus;;Pfersee;Augsburg West P+R;
-==== Regionalbus 700 ...
+650;bus;;Leitershofen;Diedorf;
+
+==== Regionalbus 700 .. 799
+
 700;bus;;Augsburg;Schwabmünchen;
 701;bus;;Schwabmünchen;Gennach / Schwabmühlhausen;
 702;bus;;Schwabmünchen;Gennach;
@@ -172,23 +198,58 @@
 705;bus;;Schwabmünchen;Scherstetten;
 706;bus;;Schwabmünchen;Mickhausen;
 707;bus;;Schwabmünchen;Mickhausen;
-709;bus;;Rufbus;Schwabmünchen;
 712;bus;;Schwabmünchen;Bobingen;
 720;bus;;Bobingen;Mickhausen;
 721;bus;;Göggingen;Schwabmünchen;
-722;bus;;Straßberg;Münster;
-723;bus;;Bobingen Bf;Bobingen Bf;
-730;bus;;Königsbrunn;Klosterlechfeld;
-731;bus;;Königsbrunn;Obermeitingen;
+722;bus;;Bobingen Straßberg;Münster;
+723;bus;;Bobingen Bf;Bobingen Ost;
+730;bus;;Königsbrunn;Schwabstadl;
+731;bus;;Königsbrunn;Schwabmünchen;
 733;bus;;Haunstetten Nord;Königsbrunn Eichenplatz;
 734;bus;;Haunstetten Nord;Königsbrunn Gartenstraße;
 735;bus;;Haunstetten West P+R;Bobingen;
 739;bus;;Augsburg;Königsbrunn;
-740;bus;;Schnellbus;Augsburg;
+740;bus;Schnellbus;Augsburg;Königsbrunn;
 782;bus;;Königsbrunn Zentrum;Bobingen;
+
+=== Rufbus
+
+415;bus;2 Routen;Meitingen;;
+530;bus;;Zusmarshausen;Welden;
+709;bus;;Schwabmünchen;Leuthau;
+710;bus;;Mickhausen/Münster;Mickhausen/Münster;
+711;bus;;Walkertshofen;Walkertshofen;
+799;bus;;Straßberg;Waldberg;
+
+=== Anruf-Sammel-Taxi
+
+27;share_taxi;;Oberhausen Nord P+R;Rettenbergen;
+70;share_taxi;;Göggingen Seniorenheim;Welfenstraße;
+71;share_taxi;;Siebenbrunn;Haunstetten Nord;
+72;share_taxi;;Wellenburg;Göggingen;
+73;share_taxi;;Schwaben Center;Schillerstraße;
+74;share_taxi;;Pfersee;Bergstraße;
+76;share_taxi;;Inningen;Bergheim;
+103;share_taxi;;Mering;Friedberg;
+206;share_taxi;;Aichach;Gallenbach;
+208;share_taxi;;Friedberg;Ried;
+210;share_taxi;;Friedberg;Derching;
+227;share_taxi;;Aichach;Rehling;
+230;share_taxi;;Aichach;Baar;
+241;share_taxi;;Aichach;Unterbernbach;
+243;share_taxi;;Aichach;Metzenried;
+244;share_taxi;;Aichach;Untermauerbach;
+420;share_taxi;;Oberhausen Nord P+R;Achsheim;
+503;share_taxi;;Westheim Bf;Schlipsheim;
+620;share_taxi;;Augsburg West P+R;Kreppen;
+628;share_taxi;;Pfersee;Leitershofen;
+641;share_taxi;;Leitershofen;Augsburg P+R West;
+642;share_taxi;;Stadtbergen;Deuringen;
+
 === Nachtbus
+
 90;bus;;Rudolf-Diesel-Gymnasium;Inningen;
-91;bus;;Steppach;Stadtbergen;
+91;bus;;Steppach;Steppach;
 92;bus;;Neusäß;Haunstetten;
 93;bus;;Lechhausen Schlößle;Hochzoll Süd;
 94;bus;;Friedberg;Haunstetten;
@@ -198,42 +259,16 @@
 694;bus;;Augsburg;Mickhausen;
 797;bus;;Göggingen;Untermeitingen PM;
 798;bus;;Haunstetten Nord;Königsbrunn;
-799;bus;;Rufbus;Straßberg;
+
 == Regional-Bahn
+
 === Regionalzug
+
 R1;train;;Augsburg Hbf;Mering;
-R2;train;;Augsburg Hbf;Friedberg;
+R2;train;;Augsburg Hbf;Radersdorf;
 R4;train;;Augsburg Hbf;Donauwörth;
-R6;train;;Augsburg Hbf;Gessertshausen;
+R6;train;;Augsburg Hbf;Dinkelscherben;
 R7;train;;Augsburg Hbf;Schwabmünchen;
 R8;train;;Augsburg Hbf;Klosterlechfeld;
 R11;train;;Augsburg Hbf;Schmiechen;
-
-== Anruf-Sammel-Taxi (AST)
-- Taging als:
-- * route=share_taxi oder
-- * route=bus?
-
-=== AST
-AST 27;share_taxi;;Oberhausen Nord P+R;Rettenbergen;
-AST 70;bus;;Göggingen Seniorenheim;Welfenstraße;
-AST 71;bus;;Siebenbrunn;Haunstetten Nord;
-AST 72;bus;;Wellenburg;Pfersee Radegundis;
-AST 73;share_taxi;;Schwaben Center;Zoo/Botanischer Garten;
-AST 74;share_taxi;;Pfersee;Bergstraße;
-AST 76;bus;;Inningen;Bergheim;
-AST 103;bus;;Mering;;
-AST 206;bus;;Aichach;;
-AST 208;bus;;Friedberg;;
-AST 227;share_taxi;;Aichach;;
-AST 230;bus;;Aichach;;
-AST 241;share_taxi;;Aichach;;
-AST 243;bus;;Aichach;;
-AST 244;bus;;Aichach;;
-AST 420;bus;;Oberhausen Nord P+R;;
-AST 503;share_taxi;;Westheim Bf;;
-AST 620;bus;;Augsburg West P+R;Kreppen;
-AST 628;bus;;Pfersee;Leitershofen;
-AST 641;bus;;Leitershofen;;
-AST 642;bus;;Stadtbergen;Deuringen;
 </pre>

@@ -192,7 +192,7 @@ SB82;bus;;;;
 191;bus;;;;
 192;bus;;Köln-Meschenich;Hürth-Kalscheuren;
 
-=== Bus 200 ...
+=== Bus 200 Leverkusen ...
 
 201;bus;;;;
 202;bus;;;;
@@ -253,29 +253,29 @@ SB82;bus;;;;
 283;bus;;;;
 298;bus;;;;
 
-=== Bus 300 ...
+=== Bus 300 Oberbergischer Kreis ...
 
 301;bus;;;;
 302;bus;;;;
 303;bus;;;;
 306;bus;;;;
 307;bus;;;;
-308;bus;;;;
+308;bus;;Marienheide;Frielingsdorf;
 310;bus;;;;
-311;bus;;;;
+311;bus;;Nümbrecht;Waldbröl;
 312;bus;;;;
-313;bus;;;;
-314;bus;;;;
-315;bus;;;;
+313;bus;Rundkurs;;;
+314;bus;Rundkurs;;;
+315;bus;Rundkurs;;;
 316;bus;;;;
 317;bus;;;;
-318;bus;;;;
-319;bus;;;;
-320;bus;;;;
-321;bus;;;;
+318;bus;;Gummersbach;Piene;
+319;bus;;Much;Ründeroth;
+320;bus;;Marienheide;Meinerzhagen;
+321;bus;;Wiehl;Eckenhagen;
 322;bus;;;;
-323;bus;;;;
-324;bus;;;;
+323;bus;;Nümbrecht;Drabenderhöhe;
+324;bus;;Wiehl;Nümbrecht;
 325;bus;;;;
 331;bus;;;;
 332;bus;;;;
@@ -338,7 +338,7 @@ SB82;bus;;;;
 456;bus;;;;
 457;bus;;;;
 
-=== Bus 500 ...
+=== Bus 500 Rhein-Sieg-Kreis (rechtsrheinisch) ...
 
 501/164;bus;;;;
 501/167;bus;;;;
@@ -409,7 +409,7 @@ SB82;bus;;;;
 578;bus;;;;
 579;bus;;;;
 
-=== Bus 600 ...
+=== Bus 600 Bonn ...
 
 600;bus;;;;
 601;bus;;;;
@@ -437,7 +437,7 @@ SB82;bus;;;;
 638;bus;;;;
 640;bus;;;;
 
-=== Bus 700 ...
+=== Bus 700 Brühl / Hürth ...
 
 702;bus;;;;
 703;bus;;;;
@@ -462,7 +462,7 @@ SB82;bus;;;;
 749;bus;;;;
 750;bus;;Meckenheim;Lüftelberg;
 
-=== Bus 800 ...
+=== Bus 800 Rhein-Sieg-Kreis (linksrheinisch) ...
 
 800;bus;;;;
 801;bus;;;;
