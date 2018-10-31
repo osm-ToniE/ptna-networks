@@ -30,9 +30,8 @@
 
 = Überblick über die ÖPNV-Linien des Verkehrsgemeinschaft Emsland-Süd
 
-- Verweis auf die Datei mit den [[Emsland-Süd/Transport/Analyse/DE-NI-VGE-Linien|VGE-Linien]] im Wiki.
--
-- Verweis auf mehr [[Talk:Emsland-Süd/Transport/Analyse|Informationen]] im Wiki.
+- Verweis auf die Datei mit den [[Emsland-Süd/Transportation/Analyse/DE-NI-VGE-Linien|VGE-Linien]] im Wiki.
+- Verweis auf mehr [[Talk:Emsland-Süd/Transportation/Analyse|Informationen]] im Wiki.
 
 # http://www.vge-emsland-sued.de/liniennetz.php
 

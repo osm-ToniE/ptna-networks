@@ -30,11 +30,10 @@
 
 = Überblick über die ÖPNV-Linien des Verkehrsgemeinschaft Osnabrück
 
-- Verweis auf die Datei mit den [[Osnabrück/Transport/Analyse/DE-NI-VOS-Linien|VOS-Linien]] im Wiki.
--
-- Verweis auf mehr [[Talk:Osnabrück/Transport/Analyse|Informationen]] im Wiki.
+- Verweis auf die Datei mit den [[Osnabrück/Transportation/Analyse/DE-NI-VOS-Linien|VOS-Linien]] im Wiki.
+- Verweis auf mehr [[Talk:Osnabrück/Transportation/Analyse|Informationen]] im Wiki.
 
-=== Bus
+== Bus
 
 === VOS Nord
 

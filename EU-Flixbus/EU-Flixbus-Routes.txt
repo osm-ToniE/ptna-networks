@@ -599,32 +599,32 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 
 K326;bus;;;;
 K380;bus;;;;
-K471;bus;;;;
+K471;bus;Seit 31.12.2017 nicht mehr buchbar, wurde eingestellt.;;;
 K472;bus;;;;
-K473;bus;;;;
-K474;bus;;;;
+K473;bus;Seit 31.12.2017 nicht mehr buchbar, wurde eingestellt.;;;
+K474;bus;Seit 31.12.2017 nicht mehr buchbar, wurde eingestellt.;;;
 K476;bus;;;;
-K487;bus;;;;
-K490;bus;;;;
+K487;bus;Seit 30.09.2017 nicht mehr buchbar, wurde eingestellt.;;;
+K490;bus;Seit 30.09.2017 nicht mehr buchbar, wurde eingestellt.;;;
 K780;bus;;;;
-K781;bus;;;;
+K781;bus;Seit 03.09.2017 nicht mehr buchbar, wurde eingestellt.;;;
 K782;bus;;;;
 K783;bus;;;;
 K784;bus;;;;
-K785;bus;;;;
+K785;bus;Seit 02.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
 K786;bus;;;;
 
 
 == Kooperationslinien mit Fernbusunternehmen Polskibus aus Polen
 
-KPB1;bus;;;;
-KPB2;bus;;;;
-KPB3;bus;;;;
-KPB5;bus;;;;
+KPB1;bus;Seite nicht mehr verfügbar.;;;
+KPB2;bus;Seite nicht mehr verfügbar.;;;
+KPB3;bus;Seite nicht mehr verfügbar.;;;
+KPB5;bus;Seite nicht mehr verfügbar.;;;
 
 P1;bus;;;;
 P3;bus;;;;
-P5;bus;;;;
+P5;bus;Seit 06.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
 P7;bus;;;;
 P12;bus;;;;
 P13;bus;;;;
@@ -637,17 +637,17 @@ P24;bus;;;;
 
 == Skibusse
 
-SKI41;bus;;;;
-SKI44;bus;;;;
-SKI45;bus;;;;
+SKI41;bus;Seit 05.04.2018 nicht mehr buchbar, wurde eingestellt.;;;
+SKI44;bus;Seit 05.04.2018 nicht mehr buchbar, wurde eingestellt.;;;
+SKI45;bus;Seit 05.04.2018 nicht mehr buchbar, wurde eingestellt.;;;
 SKI71;bus;;;;
-SKI77;bus;;;;
+SKI72;bus;Seit 02.04.2018 nicht mehr buchbar, wurde eingestellt.;;;
 
 
 == Expressbusse
 
 X06;bus;;;;
-X11;bus;;;;
+X11;bus;ab 05.11.2018 nicht mehr buchbar, wird eingestellt;;;
 X28;bus;;;;
 X31;bus;;Berlin;Amsterdam;FlixMobility GmbH
 X50;bus;;;;
@@ -661,7 +661,7 @@ X96;bus;;;;
 == Nachtbuslinien
 
 N05;bus;;;;
-N06;bus;;;;
+N06;bus;ab 06.11.2018 nicht mehr buchbar, wird eingestellt;;;
 N07;bus;;;;
 N11;bus;;;;
 N13;bus;;Berlin;Saarbrücken;FlixMobility GmbH
@@ -684,7 +684,7 @@ N60;bus;;;;
 N61;bus;;;;
 N66;bus;;;;
 N67;bus;;;;
-N69;bus;;;;
+N69;bus;ab 05.11.2018 nicht mehr buchbar, wird eingestellt.;;;
 N70;bus;;;;
 N71;bus;;;;
 N73;bus;;;;

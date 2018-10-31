@@ -30,9 +30,8 @@
 
 = Überblick über die ÖPNV-Linien des Busverkehr Emsland-Mitte/Nord
 
-- Verweis auf die Datei mit den [[Emsland-Mitte-Nord/Transport/Analyse/DE-NI-BVE-Linien|BVE-Linien]] im Wiki.
--
-- Verweis auf mehr [[Talk:Emsland-Mitte-Nord/Transport/Analyse|Informationen]] im Wiki.
+- Verweis auf die Datei mit den [[Emsland-Mitte-Nord/Transportation/Analyse/DE-NI-BVE-Linien|BVE-Linien]] im Wiki.
+- Verweis auf mehr [[Talk:Emsland-Mitte-Nord/Transportation/Analyse|Informationen]] im Wiki.
 
 
 == Bus

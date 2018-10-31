@@ -30,9 +30,8 @@
 
 = Überblick über die ÖPNV-Linien des Verkehrsgemeinschaft Cloppenburg
 
-- Verweis auf die Datei mit den [[Cloppenburg/Transport/Analyse/DE-NI-VGC-Linien|VGC-Linien]] im Wiki.
--
-- Verweis auf mehr [[Talk:Cloppenburg/Transport/Analyse|Informationen]] im Wiki.
+- Verweis auf die Datei mit den [[Cloppenburg/Transportation/Analyse/DE-NI-VGC-Linien|VGC-Linien]] im Wiki.
+- Verweis auf mehr [[Talk:Cloppenburg/Transport/Transportation|Informationen]] im Wiki.
 
 # http://www.bus-vgc.de/inhalt/datei.php?id=MzM7LTsvdXNyL2xvY2FsL2h0dHBkL3ZodGRvY3Mvd2lsbWVyaW5nL3ZnYy9tZWRpZW4vZG9rdW1lbnRlL2xpbmllbm5ldHpwbGFuX2NscF8odmdjKV9hNC5wZGY%3D 
 

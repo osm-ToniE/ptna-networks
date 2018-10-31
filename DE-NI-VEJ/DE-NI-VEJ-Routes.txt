@@ -30,9 +30,8 @@
 
 = Überblick über die ÖPNV-Linien des Verkehrsverbund Ems-Jade
 
-- Verweis auf die Datei mit den [[Ems-Jade/Transport/Analyse/DE-NI-VEJ-Linien|VEJ-Linien]] im Wiki.
--
-- Verweis auf mehr [[Talk:Ems-Jade/Transport/Analyse|Informationen]] im Wiki.
+- Verweis auf die Datei mit den [[Ems-Jade/Transportation/Analyse/DE-NI-VEJ-Linien|VEJ-Linien]] im Wiki.
+- Verweis auf mehr [[Talk:Ems-Jade/Transportation/Analyse|Informationen]] im Wiki.
 
 
 == Bus
