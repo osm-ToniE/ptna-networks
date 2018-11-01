@@ -708,14 +708,14 @@ N98;bus;;;;
 N99;bus;;;;
 
 N100;bus;;;;
-N101;bus;;;;
+N101;bus;Ab 05.11.2018 nicht mehr buchbar, wird eingestellt.;;;
 N106;bus;;;;
 N109;bus;;;;
 N110;bus;;;;
-N116;bus;;;;
+N116;bus;Seite nicht mehr verfügbar.;;;
 N121;bus;Ab 05.11.2018 nicht mehr buchbar, wird eingestellt.;;;
 N122;bus;;;;
-N131;bus;;;;
+N131;bus;Seit 04.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
 N136;bus;;;;
 N150;bus;;;;
 N158;bus;;Antwerpen;Berlin;FlixMobility GmbH
@@ -725,14 +725,14 @@ N177;bus;;;;
 N179;bus;;;;
 N184;bus;;;;
 
-N207;bus;;;;
+N207;bus;Ab 05.11.2018 nicht mehr buchbar, wird eingestellt.;;;
 N236;bus;;Paris;Wien;FlixMobility GmbH
 N260;bus;;;;
 N261;bus;;;;
 N277;bus;;;;
 
-N307;bus;;;;
-N367;bus;;;;
+N307;bus;Seite nicht mehr verfügbar.;;;
+N367;bus;Seite nicht mehr verfügbar.;;;
 N391;bus;;Freiburg im Breisgau;Budapest Népliget;FlixMobility GmbH
 
 N401;bus;;;;
@@ -741,7 +741,7 @@ N403;bus;;;;
 N405;bus;;;;
 N406;bus;;;;
 N420;bus;;;;
-N421;bus;;;;
+N421;bus;Seit 30.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
 N422;bus;;;;
 N424;bus;;;;
 N425;bus;;;;
@@ -751,7 +751,7 @@ N433;bus;;;;
 N440;bus;;;;
 N444;bus;;;;
 N452;bus;;;;
-N453;bus;;;;
+N453;bus;Seit 07.10.2018 nicht mehr buchbar, wurde eingestellt.;;;
 N467;bus;;;;
 N468;bus;;;;
 N491;bus;;;;
@@ -770,7 +770,7 @@ N526;bus;;;;
 N530;bus;;;;
 N531;bus;;;;
 N533;bus;;;;
-N535;bus;;;;
+N535;bus;Seit 30.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
 N536;bus;;;;
 N537;bus;;;;
 N539;bus;;;;
@@ -782,12 +782,12 @@ N569;bus;;;;
 N570;bus;;;;
 N573;bus;;;;
 N574;bus;;;;
-N575;bus;;;;
-N580;bus;;;;
+N575;bus;Seit 09.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
+N580;bus;Seite nicht mehr verfügbar.;;;
 
 N600;bus;;;;
 N601;bus;;;;
-N630;bus;;;;
+N630;bus;Ab 06.11.2018 nicht mehr buchbar, wird eingestellt.;;;
 
 N700;bus;;;;
 N701;bus;;;;
@@ -797,7 +797,7 @@ N706;bus;;;;
 N707;bus;;;;
 N708;bus;;;;
 N709;bus;;;;
-N710;bus;;;;
+N710;bus;Linie in Winterpause, evtl. ganz eingestellt?;;;
 N712;bus;;;;
 N716;bus;;;;
 N717;bus;;;;
@@ -812,7 +812,7 @@ N730;bus;;;;
 N740;bus;;;;
 N749;bus;;;;
 N759;bus;;Tremblay-en-France;Strasbourg;FlixMobility GmbH
-N765;bus;;;;
+N765;bus;Seit 03.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
 N769;bus;;;;
 N770;bus;;;;
 N788;bus;;;;
@@ -830,7 +830,7 @@ N819;bus;;;;
 N831;bus;;Amsterdam;Zürich;FlixMobility GmbH
 N836;bus;;;;
 N844;bus;;Kopenhagen;Rotterdam;FlixMobility GmbH
-N890;bus;;;;
+N890;bus;Seit 15.01.2018 nicht mehr buchbar, wurde eingestellt.;;;
 N899;bus;;;;
 
 N900;bus;;München;Zagreb;FlixMobility GmbH
@@ -838,32 +838,32 @@ N903;bus;;;;
 N905;bus;;;;
 N906;bus;;;;
 N907;bus;;;;
-N909;bus;;;;
+N909;bus;Seit 01.10.2018 nicht mehr buchbar, wurde eingestellt.;;;
 N910;bus;;;;
 N911;bus;;;;
 N913;bus;;;;
-N914;bus;;;;
-N915;bus;;;;
+N914;bus;Seit 25.04.2018 nicht mehr buchbar, wurde eingestellt.;;;
+N915;bus;Ab 05.11.2018 nicht mehr buchbar, wird eingestellt.;;;
 N918;bus;;;;
-N920;bus;;;;
+N920;bus;Seit 15.10.2018 nicht mehr buchbar, wurde eingestellt.;;;
 N943;bus;;;;
 N948;bus;;;;
-N949;bus;;;;
+N949;bus;Seit 23.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
 N950;bus;;Karlsruhe;Osijek;FlixMobility GmbH
 N952;bus;;;;
 N953;bus;;;;
 N959;bus;;;;
-N960;bus;;;;
+N960;bus;Ab 04.11.2018 nicht mehr buchbar, wird eingestellt.;;;
 N963;bus;;;;
 N971;bus;;Dortmund;Sarajevo;FlixMobility GmbH
-N979;bus;;;;
+N979;bus;Seit 09.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
 N980;bus;;;;
 N982;bus;;;;
 N990;bus;;;;
 N997;bus;;;;
 N998;bus;;;;
 
-N1960;bus;;;;
+N1960;bus;Ab 04.11.2018 nicht mehr buchbar, wird eingestellt.;;;
 N1962;bus;;;;
 N1970;bus;;;;
 N1971;bus;;;;

@@ -46,7 +46,7 @@
 
 == Bahn
 
-- noch zu definieren
+- noch zu definieren, Struktur als Vorschlag
 
 == Tram
 
@@ -64,7 +64,7 @@ RT5;tram;;Kassel;Melsungen;RBK
 
 == Busse
 
-- noch zu definieren, Struktur als Vorschlag
+- nur osm - Bestandslinien eingetragen, der NVV reagiert nicht auf Anfragen.
 
 === 10 .. 99
 10;bus;;Rasenallee;Auestadion;KVG
@@ -130,18 +130,88 @@ RT5;tram;;Kassel;Melsungen;RBK
 97;bus;Ast Wohnstadt Waldau;;;KVG
 
 === 100 .. 199
-100;bus;;Bahnhof Wilhelmshöhe;Calden;
-110;bus;;Bahnhof Wilhelmshöhe;Wolfhagen;
+100;bus;;Bahnhof Wilhelmshöhe;Calden;Reisedienst Bonte
+110;bus;;Bahnhof Wilhelmshöhe;Wolfhagen;HLB Hessenbus
 111;bus;Stadtbus Wolfhagen;Gasterfeld;Viesebeck;HLB Hessenbus
+112;bus;Stadtbus Wolfhagen;Hessenklinik;Hessenklinik;
+117;bus;;Habichtswald;Oelshausen;
+120;bus;;Wolfhagen;Warburg;
+130;bus;;Volkmarsen;Grebenstein;HLB Hessenbus
+140;bus;;Hofgeismar;Warburg;
+142;bus;;Bad Emstal;Wolfhagen;
+152;bus;;Heimershausen;Breitenbach;Reisedienst Bonte
+154;bus;;Fritzlar;Naumburg;Reisedienst Bonte
+173;bus;;Immenhausen;Immenhausen;
+180;bus;;Hofgeismar;Karlshafen;
+190;bus;;Hofgeismar;Hann. Münden;
+191;bus;;Vaake;Hofgeismar;
+193;bus;;Gottstreu;Karlshafen;
+195;bus;;Geiselwerder;Hann. Münden;
 
 === 200 .. 299
 200;bus;;Eschwege;Hessisch Lichtenau;EOV Frölich
-290;bus;;Eschwege;Hessisch Lichtenau;EOV Frölich
+205;bus;;Großalmerode;Hessisch Lichtenau;Frölich-Reisen
+210;bus;;Helsa;Witzenhausen;Frölich-Reisen
+214;bus;;Neu-Eichenberg;Witzenhausen;RKH
+218;bus;;Witzenhausen;Gertenbach;Omnibusbetrieb Sallwey
+231.1;bus;StadtBus Eschwege;Heuberg;Döhlestraße;StadtBus Eschwege
+231.2;bus;StadtBus Eschwege;Stadtmitte;Heuberg;StadtBus Eschwege
+231.4;bus;StadtBus Eschwege;Oberhone;Rotenburger Straße/Schulzentrum;StadtBus Eschwege
+235;bus;;Eschwege;Meinhard;Frölich
+240;bus;;Eschwege;Ringgau;DB Regio Bus Mitte
+290;bus;Fahrplan mit 200;Eschwege;Hessisch Lichtenau;EOV Frölich
 
 === 300 .. 399
+300;bus;Bäderlinie;Bad Hersfeld;Bad Salzungen;Verkehrsgesellschaft Wartburgkreis
+302;bus;;Rotenburg;Atzelrode;DB Regio Bus Mitte
+303;bus;Stadtverkehr Rotenburg;Bahnhof;Herz-Kreislauf-Zentrum;DB Regio Bus Mitte
+313;bus;Stadtverkehr Bebra;Bahnhof;Luisenstraße;DB Regio Bus Mitte
+314;bus;Stadtverkehr Bebra;Bahnhof;Industriegebiet;DB Regio Bus Mitte
+331;bus;;Obersuhl/Herfa;Heringen;RöhnEnergie Bus
+360;bus;;Eiterfeld;Bad Hersfeld;Omnibusbetrieb Käberich
+380;bus;;Bad Hersfeld;Kirchheim;Omnibusbetrieb Käberich
 
 === 400 .. 499
+400;bus;;Hessisch Lichtenau;Fritzlar;
+422;bus;;Homberg(Efze);Homberg(Efze);
+426;bus;;Schwarzenborn;Homberg(Efze);
+427;bus;;Hergetsfeld;Homberg(Efze);
+442;bus;;Malsfeld-Ostheim/Wolfershausen;Gensungen;
+450;bus;;Knüllwald;Fritzlar;
+460;bus;;Schwalmtal;Jesberg;
+461;bus;;Gilserberg;Schwalmstadt-Treysa;
+470;bus;;Bad Hersfeld;Schwalmstadt;
+472;bus;;Siebertshausen;Schwalmstadt;
+473;bus;;Schwarzenborn;Schwalmstadt;
+477;bus;;Schwalmstadt;Schwalmstadt;
+478;bus;;Schrecksbach;Ziegenhain;
+479;bus;;Neuenkirchen;Neuenkirchen;
+481;bus;;Willingshausen;Schwalmstadt;
+490;bus;;Melsungen;Schwalmstadt;
+491;bus;;Melsungen;Homberg;
+493;bus;;Homberg;Schwalmstadt;
 
 === 500 .. 599
+500;bus;;Kassel;Bad Wildungen;BKW Bad Wildungen
+502;bus;;Korbach;Lichtenfels;BKW Bad Wildungen
+504;bus;;Basdorf;Korbach;BKW Bad Wildungen
+505;bus;;Volkmarsen;Korbach;ALV Oberhessen
+506;bus;;Bad Arolsen;Willingen;ALV Oberhessen
+507;bus;;Korbach;Brilon Wald;ALV Oberhessen
+508;bus;;Diemelsee;Korbach;ALV Oberhessen
+510;bus;Sommerfahrplan;Korbach;Bad Wildungen;BKW Bad Wildungen
+512;bus;;Frebershausen;Bad Wildungen;BKW Bad Wildungen
+515;bus;;Bad Wildungen;Edertal-Bringshausen;BKW Bad Wildungen
+520;bus;;Frankenberg;Bad Wildungen;ALV Oberhessen
+521;bus;;Frankenau;Herzhausen;BKW Bad Wildungen
+525;bus;;Frankenberg;Gemünden;BKW Bad Wildungen
+526;bus;;Bad Arolsen;Diemelstadt;ALV Oberhessen
+530;bus;;Frankenberg;Medebach;ALV Oberhessen
+550;;Medebach;Korbach;BKW Bad Wildungen
+597.1;bus;Stadtbus Korbach;Hauptbahnhof;Hauptbahnhof;DB Regio Bus Mitte
+597.2;bus;Stadtbus Korbach;Hauptbahnhof;Hauptbahnhof;DB Regio Bus Mitte
+597.3;bus;Stadtbus Korbach;Hauptbahnhof;Hauptbahnhof;DB Regio Bus Mitte
+597.4;bus;Stadtbus Korbach;Hauptbahnhof;Hauptbahnhof;DB Regio Bus Mitte
+597.5;bus;Stadtbus Korbach;Hauptbahnhof;Hauptbahnhof;DB Regio Bus Mitte
 
 </pre>

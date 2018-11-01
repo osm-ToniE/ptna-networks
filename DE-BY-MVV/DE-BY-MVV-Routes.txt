@@ -59,11 +59,11 @@ S20;train;;Höllriegelskreuth;Geltendorf;DB Regio AG/S-Bahn München
 12;tram;;Scheidplatz;Romanplatz;SWM/MVG
 15;tram;;Max-Weber-Platz;Großhesseloher Brücke;SWM/MVG
 16;tram;;Romanplatz;Effnerplatz (- St. Emmeram);SWM/MVG
-17;tram;;Amalienburgstraße;St. Emmeram ;SWM/MVG
-18;tram;;Gondrellplatz;Schwanseestraße ;SWM/MVG
+17;tram;;Amalienburgstraße;St. Emmeram;SWM/MVG
+18;tram;;Gondrellplatz;Schwanseestraße;SWM/MVG
 19;tram;;Pasing Bf;St.-Veit-Straße;SWM/MVG
 20;tram;;Moosach;Karlsplatz (Stachus);SWM/MVG
-21;tram;;Westfriedhof;Karlsplatz (Stachus);SWM/MVG
+21;tram;Ab 29.10.2018: Verlängerung nach St.-Veit-Straße;Westfriedhof;St.-Veit-Straße;SWM/MVG
 22;tram;;Hochschule München;Karlsplatz (Stachus);SWM/MVG
 23;tram;;Schwabing Nord;Münchner Freiheit;SWM/MVG
 25;tram;;Max-Weber-Platz;Grünwald;SWM/MVG
@@ -87,8 +87,8 @@ X98;bus;ExpressBus;Hauptbahnhof;Tierpark (Alemannenstraße);SWM/MVG
 50;bus;;OEZ U;Johanneskirchen S;SWM/MVG
 51;bus;;Moosach U S R;Aidenbachstraße U;SWM/MVG
 52;bus;;Marienplatz Süd;Tierpark (Alemannenstraße);SWM/MVG
-53;bus;;Münchner Freiheit U ;Aidenbachstraße U;SWM/MVG
-54;bus;;Münchner Freiheit U ;Lorettoplatz;SWM/MVG
+53;bus;;Münchner Freiheit U;Aidenbachstraße U;SWM/MVG
+54;bus;;Münchner Freiheit U;Lorettoplatz;SWM/MVG
 55;bus;;Ostbahnhof U S R;Waldperlach/Putzbrunn;SWM/MVG
 56;bus;;Schloss Blutenburg;Fürstenried West U;SWM/MVG
 57;bus;;Neuaubing West;Laimer Platz U;SWM/MVG
@@ -100,21 +100,21 @@ X98;bus;ExpressBus;Hauptbahnhof;Tierpark (Alemannenstraße);SWM/MVG
 68;bus;Cityring Außen;Hbf;Hbf;SWM/MVG
 #
 === Nacht-Bus (München)
-N40;bus;;Kieferngarten;Klinikum Großhadern;MVG
-N41;bus;;Feldmoching Bf;Fürstenried West;MVG
-N43;bus;Ringlinie;Ostbahnhof;Ostbahnhof;MVG
-N44;bus;Ringlinie;Ostbahnhof;Ostbahnhof;MVG
-N45;bus;;Münchner Freiheit;Waldperlach Süd;MVG
-N71;bus;;Karlsfeld, Gartenstraße;Westfriedhof;MVG
-N72;bus;;St. Emmeram;Herkomerplatz;MVG
-N74;bus;;Ostbahnhof;Messestadt Ost;MVG
-N75;bus;;Ostbahnhof;Kiefernstraße;MVG
-N76;bus;;Dülferstraße;Petuelring;MVG
-N77;bus;;Neuaubing West;Pasing;MVG
-N78;bus;;Blutenburg;Blumenau;MVG
-N79;bus;;Neuperlach Süd;Haar, Ludwig-Moser-Straße;MVG
-N80;bus;;Pasing;Pasing;MVG
-N81;bus;;Pasing;Pasing;MVG
+N40;bus;;Kieferngarten;Klinikum Großhadern;SWM/MVG
+N41;bus;;Feldmoching Bf;Fürstenried West;SWM/MVG
+N43;bus;Ringlinie;Ostbahnhof;Ostbahnhof;SWM/MVG
+N44;bus;Ringlinie;Ostbahnhof;Ostbahnhof;SWM/MVG
+N45;bus;;Münchner Freiheit;Waldperlach Süd;SWM/MVG
+N71;bus;;Karlsfeld, Gartenstraße;Westfriedhof;SWM/MVG
+N72;bus;;St. Emmeram;Herkomerplatz;SWM/MVG
+N74;bus;;Ostbahnhof;Messestadt Ost;SWM/MVG
+N75;bus;;Ostbahnhof;Kiefernstraße;SWM/MVG
+N76;bus;;Dülferstraße;Petuelring;SWM/MVG
+N77;bus;;Neuaubing West;Pasing;SWM/MVG
+N78;bus;;Blutenburg;Blumenau;SWM/MVG
+N79;bus;;Neuperlach Süd;Haar, Ludwig-Moser-Straße;SWM/MVG
+N80;bus;;Pasing;Pasing;SWM/MVG
+N81;bus;;Pasing;Pasing;SWM/MVG
 #
 === Stadt-Bus (München)
 O7;bus;MVG-Museum-Shuttle;Giesing U S;MVG-Museum;SWM/MVG
@@ -126,7 +126,7 @@ O7;bus;MVG-Museum-Shuttle;Giesing U S;MVG-Museum;SWM/MVG
 136;bus;;Wolfratshauser Straße;Solln S;SWM/MVG
 139;bus;;Klinikum Harlaching;Messestadt West U;SWM/MVG
 140;bus;;Kieferngarten U;Scheidplatz U;SWM/MVG
-141;bus;;Dülferstraße U ;Scheidplatz U;SWM/MVG
+141;bus;;Dülferstraße U;Scheidplatz U;SWM/MVG
 142;bus;;Scheidplatz U;Münchner Freiheit U;SWM/MVG
 143;bus;;Freiham, Möbel Höffner;OEZ U;SWM/MVG
 144;bus;;Scheidplatz U;Rotkreuzplatz U;SWM/MVG
@@ -186,16 +186,16 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 #
 === Regionalbus (Verbundlandkreise)
 ==== Landkreis München - 200 - 299
-210;bus;;Brunnthal, Zusestraße ;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
-211;bus;;Harthausen ;Campeon;Verkehrsbetrieb Ettenhuber GmbH
-212;bus;;Grasbrunn ;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
+210;bus;;Brunnthal, Zusestraße;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
+211;bus;;Harthausen;Campeon;Verkehrsbetrieb Ettenhuber GmbH
+212;bus;;Grasbrunn;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
 213;bus;;Ostbahnhof U S R;Taufkirchen, Lilienthalstraße;RVO/Geldhauser
-214;bus;;Riemerling, Altenheim ;Hohenbrunn;Verkehrsbetrieb Ettenhuber GmbH
-215;bus;;Lohhof S Süd ;Lohhof S Nord;VBR GmbH, München
-216;bus;;Faistenhaar/Otterloh ;Brunnthal Nord;RVO/Geldhauser
+214;bus;;Riemerling, Altenheim;Hohenbrunn;Verkehrsbetrieb Ettenhuber GmbH
+215;bus;;Lohhof S Süd;Lohhof S Nord;VBR GmbH, München
+216;bus;;Faistenhaar/Otterloh;Brunnthal Nord;RVO/Geldhauser
 217;bus;;Neuperlach Süd U S;Unterhaching S;Demmelmair GmbH & Co
-219;bus;;Garching-Hochbrück U;Unterschleißheim S Ost ;VBR GmbH, München
-220;bus;;Winning ;Giesing U S;Verkehrsbetrieb Ettenhuber GmbH
+219;bus;;Garching-Hochbrück U;Unterschleißheim S Ost;VBR GmbH, München
+220;bus;;Winning;Giesing U S;Verkehrsbetrieb Ettenhuber GmbH
 221;bus;;Unterhaching S;München, Waldheimplatz;Verkehrsbetrieb Ettenhuber GmbH
 222;bus;;Deisenhofen S;Neuperlach Süd U S;Busservice Watzinger
 223;bus;;Sauerlach S;Arget;RVO/Geldhauser
@@ -204,33 +204,33 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 226;bus;;Sauerlach S;Otterloh/Gumpertshausen;RVO/Geldhauser
 227;bus;;Ortsbus Oberhaching;;Busservice Watzinger
 229;bus;;Ottobrunn, Phönix Bad;Neuperlach Süd U S;Geldhauser
-230;bus;;Fischerhäuser  ;Garching-Forschungszentrum U;VBR GmbH, München
+230;bus;;Fischerhäuser;Garching-Forschungszentrum U;VBR GmbH, München
 231;bus;;Ismaning S;Studentenstadt U;VBR GmbH, München
 232;bus;;Unterföhring, Fichtenstraße;St. Emmeram;Hadersdorfer/Scharf
 233;bus;;Studentenstadt U;Unterföhring U;Geldhauser
 234;bus;;Messestadt West U;Unterföhring U;Geldhauser
-240;bus;;Harthausen ;Neukeferloh;DB Regio Bus Bayern GmbH
+240;bus;;Harthausen;Neukeferloh;DB Regio Bus Bayern GmbH
 241;bus;;Haar S;Taufkirchen, Friedhof;Verkehrsbetrieb Ettenhuber GmbH
 242;bus;;Haar S;Gronsdorf S;DB Regio Bus Bayern GmbH
 243;bus;;Haar, Hans-Stießberger-Straße;Neukeferloh;DB Regio Bus Bayern GmbH
 258;bus;;Gräfelfing S;Starnberger Straße;Busservice Watzinger
 260;bus;;Germering-Unterpfaffenhofen S;Fürstenried West U;Busservice Watzinger
-261;bus;;Neuried ;Fürstenried West U;Busservice Watzinger
+261;bus;;Neuried;Fürstenried West U;Busservice Watzinger
 262;bus;;Heimstetten S;Kirchheim, Gewerbegebiet;Verkehrsbetrieb Ettenhuber GmbH
 263;bus;;Messestadt West U;Feldkirchen S;Verkehrsbetrieb Ettenhuber GmbH
 264;bus;;Messestadt West U;Riem S Dornach;Verkehrsbetrieb Ettenhuber GmbH
 265;bus;;Pasing S R;Planegg S;Busservice Watzinger
 266;bus;;Planegg S;Klinikum Großhadern U;Busservice Watzinger
-267;bus;;Neuaubing ;Fürstenried West U;Busservice Watzinger
-268;bus;;Waldfriedhof ;Gräfelfing S;Busservice Watzinger
-269;bus;;Neuried ;Klinikum Großhadern U;Busverkehr Südbayern
+267;bus;;Neuaubing;Fürstenried West U;Busservice Watzinger
+268;bus;;Waldfriedhof;Gräfelfing S;Busservice Watzinger
+269;bus;;Neuried;Klinikum Großhadern U;Busverkehr Südbayern
 270;bus;;Höllriegelskreuth S;Solln S;Demmelmair GmbH & Co
 271;bus;;Höllriegelskreuth S;Dietramszell;Geldhauser/RVO
 285;bus;;Haar S;Ismaning S;Verkehrsbetrieb Ettenhuber GmbH
 290;bus;;Stadtbus Garching;;Verkehrsbetrieb Ettenhuber GmbH
 291;bus;;Oberschleißheim;Dachau S R;Busverkehr Südbayern
 292;bus;;Garching-Forschungszentrum U;Sonnenstraße;Boos/Hadersdorfer/Scharf
-293;bus;;Dirnismaning ;Garching U;Verkehrsbetrieb Ettenhuber GmbH
+293;bus;;Dirnismaning;Garching U;Verkehrsbetrieb Ettenhuber GmbH
 294;bus;;Am Hart U;Garching-Hochbrück U;Verkehrsbetrieb Ettenhuber GmbH
 295;bus;;Am Hart U;Oberschleißheim;Hadersdorfer/Boos/Scharf
 #
@@ -312,21 +312,21 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 617;bus;;Rudelzhausen;Freising S R;Hadersdorfer
 618;bus;;Sünzhausen;Freising S R;Hadersdorfer
 619;bus;;Petershausen S R;Freising S R;Boos
-620;bus;Stadtverkehr Freising ;Freising S R;Freising S R;PVG
-621;bus;Stadtverkehr Freising ;Freising S R;Freising S R;PVG
-622;bus;Stadtverkehr Freising ;Freising S R;Freising S R;PVG
-623;bus;Stadtverkehr Freising ;Freising P+R-Platz;Freising P+R-Platz;PVG
-624;bus;Stadtverkehr Freising ;Freising P+R-Platz;Freising P+R-Platz;PVG
-630;bus;Stadtverkehr Freising ;Freising S R;Freising S R;PVG
-631;bus;Stadtverkehr Freising ;Freising S R;Freising S R;PVG
-633;bus;Stadtverkehr Freising ;Gutenbergstraße;Marzling;PVG
-634;bus;Stadtverkehr Freising ;Freising P+R-Platz;Attaching;PVG
+620;bus;Stadtverkehr Freising;Freising S R;Freising S R;PVG
+621;bus;Stadtverkehr Freising;Freising S R;Freising S R;PVG
+622;bus;Stadtverkehr Freising;Freising S R;Freising S R;PVG
+623;bus;Stadtverkehr Freising;Freising P+R-Platz;Freising P+R-Platz;PVG
+624;bus;Stadtverkehr Freising;Freising P+R-Platz;Freising P+R-Platz;PVG
+630;bus;Stadtverkehr Freising;Freising S R;Freising S R;PVG
+631;bus;Stadtverkehr Freising;Freising S R;Freising S R;PVG
+633;bus;Stadtverkehr Freising;Gutenbergstraße;Marzling;PVG
+634;bus;Stadtverkehr Freising;Freising P+R-Platz;Attaching;PVG
 635;bus;;Freising S R;Flughafen Terminal 2;Regionalverkehr Obb., Erding
-637;bus;Stadtverkehr Freising ;Freising S R;Hohenbachern;PVG
-638;bus;Stadtverkehr Freising ;Freising S R;Hittostraße / Fraunhofer-Institut;PVG
-639;bus;Stadtverkehr Freising ;Freising S R;Freising S R;PVG
-640;bus;Stadtverkehr Freising ;Freising S R;Freising S R;PVG
-641;bus;Stadtverkehr Freising ;Freising S R;Freising S R;PVG
+637;bus;Stadtverkehr Freising;Freising S R;Hohenbachern;PVG
+638;bus;Stadtverkehr Freising;Freising S R;Hittostraße / Fraunhofer-Institut;PVG
+639;bus;Stadtverkehr Freising;Freising S R;Freising S R;PVG
+640;bus;Stadtverkehr Freising;Freising S R;Freising S R;PVG
+641;bus;Stadtverkehr Freising;Freising S R;Freising S R;PVG
 680;bus;;Thann;Moosburg;RVO/DRB/Bayernbus
 6800;bus;Ruftaxi;Palzing;Sixthaselbach;Bayernbus/HOV Hadersdorfer Omnibus
 681;bus;;Au;Moosburg;RVO/DRB/Bayernbus
@@ -346,14 +346,14 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 702;bus;;Karlsfeld S;Dachau, Schulen;Busverkehr Südbayern
 703;bus;;Gaggers;München, Karlsfelder Straße;Geldhauser
 704;bus;;Lauterbach, Abzweigung;Dachau S R;Regionalverkehr Obb.
-705;bus;;Altomünster S ;München, Karlsfelder Straße;Huber
+705;bus;;Altomünster S;München, Karlsfelder Straße;Huber
 706;bus;;(Klenau/Schiltberg);Karlsfeld (-München, Allach);Regionalverkehr Obb.
-707;bus;;Altomünster S ;Petershausen, P+R-Platz S R;Steiner KG
+707;bus;;Altomünster S;Petershausen, P+R-Platz S R;Steiner KG
 708;bus;;Markt Indersdorf S;Kammerberg;Geldhauser
-710;bus;;Moosach   ;Dachau S R;Busverkehr Südbayern
+710;bus;;Moosach;Dachau S R;Busverkehr Südbayern
 711;bus;;Karlsfeld S;Karlsfeld S;Busverkehr Südbayern
 712;bus;;Karlsfeld S;Karlsfeld S;Busverkehr Südbayern
-715;bus;;Altomünster S ;Kleinberghofen S;Huber
+715;bus;;Altomünster S;Kleinberghofen S;Huber
 716;bus;Stadtverkehr Dachau;Dachau S R;Dachau S;Stadtwerke Dachau
 717;bus;Stadtverkehr Dachau;Dachau S R;Dachau, Moosstraße;Stadtwerke Dachau
 718;bus;Stadtverkehr Dachau;Dachau S R;Dachau S R;Stadtwerke Dachau
@@ -460,8 +460,8 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 #
 = Nicht zum MVV gehörende Linien mit Bezug zu München
 == Regional-Bahn, Teilstrecken mit Anerkennung des MVV-Tarifs
-- Die Nummern hier werden beim MVV als "R xxx" verwendet, gebräuchliche Angaben sind auch "KBS xxx".
--
+- Die Nummern hier werden beim MVV als "R xxx" verwendet.
+
 900;train;Petershausen - Ingolstadt nicht im MVV-Tarif;München Hauptbahnhof;Ingolstadt;DB Regio
 930;train;Moosburg - Landshut nicht im MVV-Tarif;München Hauptbahnhof;Landshut;Alex;DB AG
 940;train;Markt Schwaben - Mühldorf nicht im MVV-Tarif;München Hauptbahnhof;Mühldorf;DB Regio
@@ -489,11 +489,11 @@ X400;bus;Parsdorf Express;Messestadt-Ost U;Messestadt-Ost U;Münchner Linien Gmb
 
 === Ortsbus, zum Teil mit Anerkennung des MVV-Tarifs
 Badebus;bus;Badebus;Lochhausen;Langwieder See;Münchner Linien GmbH und Co. KG
-BBB;bus;;;;BBB e.V.
-BBG;bus;;;;
-ET1;bus;;;;Verkehrsbetrieb Ettenhuber GmbH
-LTG;bus;;;;Gemeinde Grünwald
-NGW;bus;;;;Gemeinde Grünwald
+BBB;bus;Biberger-Bürger-Bus;;;BBB e.V.
+BBG;bus;Bürger-Bus Gauting;;;
+ET1;bus;Glonn: Ettenhuber 1;;;Verkehrsbetrieb Ettenhuber GmbH
+LTG;bus;Linien-Taxi Grünwald;;;Gemeinde Grünwald
+NGW;bus;nacht-Bus Grünwald;;;Gemeinde Grünwald
 #
 == Anruf-Sammel-Taxi (AST) ohne Anerkennung des MVV-Tarifs
 === Landkreis Freising
