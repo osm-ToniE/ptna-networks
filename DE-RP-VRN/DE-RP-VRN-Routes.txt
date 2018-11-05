@@ -35,6 +35,10 @@
 
 == Hinweis
 
+- Diese Auswertung ist der Anfang einer strukturierten IST-Analyse. 
+- Die Daten hier sind in keiner Weise mit den im VRN existierenden Linien abgeglichen.
+- Es wurden keinerlei Daten vom VRN (weder direkt noch indirekt via Web-Site) verwendet.
+-
 - bei der Analyse ist 'network' derzeit entweder
 - * "VRN"                           short form, oder
 - * "Verkehrsverbund Rhein-Neckar"  long form, oder

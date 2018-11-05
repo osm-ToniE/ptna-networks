@@ -36,8 +36,11 @@
 == Hinweis
 
 - bei der Analyse ist 'network' derzeit entweder
+-
 - * "HVV"                           short form, oder
+-
 - * "Hamburger Verkehrsverbund"  long form, oder
+-
 - * leer, d.h. nicht gesetzt
 -
 #

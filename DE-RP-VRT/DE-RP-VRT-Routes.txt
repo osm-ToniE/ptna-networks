@@ -36,8 +36,11 @@
 == Hinweis
 
 - bei der Analyse ist 'network' derzeit entweder
+-
 - * "VRT"                           short form, oder
+-
 - * "Verkehrsverbund Region Trier"  long form, oder
+-
 - * leer, d.h. nicht gesetzt
 -
 #
