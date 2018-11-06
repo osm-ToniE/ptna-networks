@@ -58,6 +58,9 @@ RB22;train;;;;
 RB24;train;;;;
 RB71;train;;;;
 RB81;train;;;;
+RB82;train;;;;
+#RB83;train;;;; neue Line über Trier-West, PT noch nicht in Betrieb
+#RB84;train;;;; neue Line über Trier-West, PT noch nicht in Betrieb
 RB85;train;;;;
 
 == Bus
@@ -81,6 +84,7 @@ RB85;train;;;;
 17;bus;;;;
 18;bus;;;;
 19;bus;;;;
+30;bus;;;;
 81;bus;;;;
 82;bus;;;;
 83;bus;;;;
@@ -94,16 +98,26 @@ RB85;train;;;;
 221;bus;;;;
 300;bus;;;;
 301;bus;;;;
+302;bus;;;;
 304;bus;;;;
 305;bus;;;;
+314;bus;;;;
+322;bus;;;;
 328;bus;;;;
 333;bus;;;;
+346;bus;;;;
+353;bus;;;;
 401;bus;;;;
 404;bus;;;;
 407;bus;;;;
 411;bus;;;;
+437;bus;;;;
+438;bus;;;;
 441;bus;;;;
 500;bus;;;;
 505;bus;;;;
+523;bus;;;;
+524;bus;;;;
+R200;bus;;;;
 
 </pre>

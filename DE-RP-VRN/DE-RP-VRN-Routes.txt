@@ -47,23 +47,33 @@
 #
 #ref;type;comment;from;to;operator
 
-== S-Bahn
+== S-Bahn Rhein-Neckar
 
 S1;train;;;;
 S2;train;;;;
 S3;train;;;;
+S33;train;;;;
 S4;train;;;;
 S 5;train;;;;
 S51;train;;;;
+S6;train;;;;
 
 == Stadtbahn Heilbronn
 
 S41;train;;;;
 S42;train;;;;
 
-== Regional_Express
+== Regional-Express
+
+=== SÜWEX
+
+RE1;train;;;;
+RE4;train;;;;
+RE14;train;;;;
 
 == Regional-Bahn
+
+RB2;train;;;;
 
 == Stadtbahn
 
@@ -103,8 +113,15 @@ S42;train;;;;
 
 === 6xx
 
-=== Wiesloch (70x)
+=== 7xx
 
-=== Sinsheim (76x bis 79x und 741)
+==== Wiesloch (70x)
+
+==== 71x
+
+717;bus;;;;
+718;bus;;;;
+
+==== Sinsheim (76x bis 79x und 741)
 
 </pre>

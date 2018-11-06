@@ -146,7 +146,7 @@ RT5;tram;;Kassel;Melsungen;RBK
 190;bus;;Hofgeismar;Hann. Münden;
 191;bus;;Vaake;Hofgeismar;
 193;bus;;Gottstreu;Karlshafen;
-195;bus;;Geiselwerder;Hann. Münden;
+195;bus;;Gieselwerder;Hann. Münden;
 
 === 200 .. 299
 200;bus;;Eschwege;Hessisch Lichtenau;EOV Frölich
@@ -154,9 +154,9 @@ RT5;tram;;Kassel;Melsungen;RBK
 210;bus;;Helsa;Witzenhausen;Frölich-Reisen
 214;bus;;Neu-Eichenberg;Witzenhausen;RKH
 218;bus;;Witzenhausen;Gertenbach;Omnibusbetrieb Sallwey
-231.1;bus;StadtBus Eschwege;Heuberg;Döhlestraße;StadtBus Eschwege
-231.2;bus;StadtBus Eschwege;Stadtmitte;Heuberg;StadtBus Eschwege
-231.4;bus;StadtBus Eschwege;Oberhone;Rotenburger Straße/Schulzentrum;StadtBus Eschwege
+231.1;bus;StadtBus Eschwege;Heuberg;Döhlestraße;EOV Frölich
+231.2;bus;StadtBus Eschwege;Stadtmitte;Heuberg;EOV Frölich
+231.4;bus;StadtBus Eschwege;Oberhone;Rotenburger Straße/Schulzentrum;EOV Frölich
 235;bus;;Eschwege;Meinhard;Frölich
 240;bus;;Eschwege;Ringgau;DB Regio Bus Mitte
 290;bus;Fahrplan mit 200;Eschwege;Hessisch Lichtenau;EOV Frölich
