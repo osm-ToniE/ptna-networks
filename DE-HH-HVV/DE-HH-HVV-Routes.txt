@@ -34,6 +34,7 @@
 - Verweis auf mehr [[Talk:Hamburger_Verkehrsverbund/Analyse|Informationen]] im Wiki.
 
 == Hinweis
+- Daten Stand: 2. November 2018 seitens HVV
 
 - bei der Analyse ist 'network' derzeit entweder
 -
@@ -45,7 +46,6 @@
 -
 #
 #ref;type;comment;from;to;operator
-== Daten Stand: 2. November 2018
 
 == RE-/RB-Eisenbahn
 A1;train;;;;
