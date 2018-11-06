@@ -46,24 +46,64 @@
 #
 #ref;type;comment;from;to;operator
 
+== Regionalexpress
+RE1;train;;;;
+RE11;train;;;;
+RE12;train;;;;
+RE16;train;;;;
+RE22;train;;;;
+
+== Regionalbahn
+RB22;train;;;;
+RB24;train;;;;
+RB71;train;;;;
+RB81;train;;;;
+RB85;train;;;;
+
 == Bus
-=== Stadt Trier
 
-01;bus;;;;
-02;bus;;;;
-03;bus;;;;
-04;bus;;;;
-05;bus;;;;
-06;bus;;;;
-07;bus;;;;
-08;bus;;;;
-
-=== Landkreis Trier-Saarburg
-
-=== Landkreis Bitburg-Prüm
-
-=== Landkreis Daun
-
-=== Landkreis Bernkastel-Wittlich
+1;bus;;;;
+2;bus;;;;
+3;bus;;;;
+4;bus;;;;
+5;bus;;;;
+6;bus;;;;
+7;bus;;;;
+8;bus;;;;
+9;bus;;;;
+10;bus;;;;
+11;bus;;;;
+12;bus;;;;
+13;bus;;;;
+14;bus;;;;
+15;bus;;;;
+16;bus;;;;
+17;bus;;;;
+18;bus;;;;
+19;bus;;;;
+81;bus;;;;
+82;bus;;;;
+83;bus;;;;
+84;bus;;;;
+85;bus;;;;
+86;bus;;;;
+87;bus;;;;
+201;bus;;;;
+204;bus;;;;
+207;bus;;;;
+221;bus;;;;
+300;bus;;;;
+301;bus;;;;
+304;bus;;;;
+305;bus;;;;
+328;bus;;;;
+333;bus;;;;
+401;bus;;;;
+404;bus;;;;
+407;bus;;;;
+411;bus;;;;
+441;bus;;;;
+500;bus;;;;
+505;bus;;;;
 
 </pre>
