@@ -7,7 +7,7 @@
 PREFIX="DE-SL-saarVV"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=public_transport][name='Saarländischer Verkehrsverbund'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(r.routes););out;"
-NETWORK_LONG="Der Saarländische Verkehrsverbund"
+NETWORK_LONG="Saarländischer Verkehrsverbund"
 NETWORK_SHORT="saarVV"
 
 ANALYSIS_PAGE="Germany:Public_Transport/saarVV/Analyse"
