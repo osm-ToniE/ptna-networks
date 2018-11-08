@@ -41,7 +41,7 @@
 -
 - * "saarVV"                           short form, oder
 -
-- * "Der Saarländische Verkehrsverbund"  long form, oder
+- * "Saarländischer Verkehrsverbund"  long form, oder
 -
 - * leer, d.h. nicht gesetzt
 -
