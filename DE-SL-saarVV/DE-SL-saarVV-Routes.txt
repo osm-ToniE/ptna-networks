@@ -30,8 +30,8 @@
 
 = Überblick über die ÖPNV-Linien des "Saarländischer Verkehrsverbund"
 
-#- Verweis auf die Datei mit den [[Germany:Public_Transport/saarVV/Analyse/DE-SL-saarVV-Routes|saarVV Linien]] im Wiki.
-#- Verweis auf mehr [[Talk:Germany:Public_Transport/saarVV/Analyse|Informationen]] im Wiki.
+- Verweis auf die Datei mit den [[saarVV/Analyse/DE-SL-saarVV-Routes|saarVV Linien]] im Wiki.
+- Verweis auf mehr [[Talk:saarVV/Analyse|Informationen]] im Wiki.
 
 == Hinweis
 
