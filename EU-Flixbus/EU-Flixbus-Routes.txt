@@ -30,6 +30,7 @@
 = Überblick Buslinien Flixbus/Mein Fernbus 
 
 - Verweis auf die Datei mit den [[Europa/Transportation/Analyse/Flixbuslinien|Flixbuslinien]] im Wiki.
+- Verweis auf mehr [[Talk:Europa/Transportation/Analyse/Flixbus|Informationen]] im Wiki.
 
 
 == Zuglinien

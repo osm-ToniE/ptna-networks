@@ -10,8 +10,8 @@ OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=public
 NETWORK_LONG="Saarländischer Verkehrsverbund"
 NETWORK_SHORT="saarVV"
 
-ANALYSIS_PAGE="Germany:Public_Transport/saarVV/Analyse"
-WIKI_ROUTES_PAGE="Germany:Public_Transport/saarVV/Analyse/DE-SL-saarVV-Routes"
+ANALYSIS_PAGE="saarVV/Analyse"
+WIKI_ROUTES_PAGE="saarVV/Analyse/DE-SL-saarVV-Routes"
 
 ANALYSIS_OPTIONS="--check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --expect-network-short"
 

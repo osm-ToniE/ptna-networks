@@ -48,5 +48,23 @@
 #
 #ref;type;comment;from;to;operator
 
+== Stadtbahn
+S1;light_rail;;Sarreguemines;Lebach;Saarbahn GmbH
 
+== Bus
+=== Regional
+R1;bus;;Merzig Bahnhof;Wadern ZOB;Saar-Mobil GmbH
+R2;bus;;St.Wendel ZOB;ZOB Wadern;Saar-Mobil GmbH
+R3;bus;;ZOB Wadern;Lebach Bahnhof;Kreisverkehrsbetriebe Saarlouis GmbH
+R4;bus;;Lebach Bahnhof;St.Wendel ZOB;Stadtbus Zweibrücken GmbH
+R5;bus;;Saarlouis ZOB Kleiner Markt;Lebach Bahnhof;Kreisverkehrsbetriebe Saarlouis GmbH
+R6;bus;;Neunkirchen Hauptbahnhof (Vorplatz);St.Ingbert Bahnhof;Saar-Mobil GmbH
+R7;bus;;Homburg (Saar) Hauptbahnhof;Stadtmitte (ZOB);Saar-Mobil GmbH
+R8;bus;;Kusel Bahnhof;Homburg Talstraße;Saar-Pfalz-Bus GmbH
+R10;bus;;Blieskastel Freizeitzentrum;Saarbrücken Hauptbahnhof;Saar-Mobil GmbH
+R11;bus;;Selbach Am Sengert:Türkismühle Bahnhof;Saar-Mobil GmbH
+R12;bus;;St.Wendel ZOB;Neunkirchen Lindenallee;
+R13;bus;;Bisten Neues Rathaus;Saarbrücken Hauptbahnhof;Aloys Baron GmbH
+R14;bus;;Homburg (Saar) Hauptbahnhof;Kleinblittersdorf Bahnhof;
+R200;bus;;Trier Hauptbahnhof;Türkismühle Bahnhof;Nikolaus Kirsch GmbH
 </pre>
