@@ -35,8 +35,8 @@
 
 == Hinweis
 - Daten Stand: 2. November 2018 seitens HVV
-
-- bei der Analyse ist 'network' derzeit entweder
+-
+- Bei der Analyse ist 'network' derzeit entweder
 -
 - * "HVV"                           short form, oder
 -
