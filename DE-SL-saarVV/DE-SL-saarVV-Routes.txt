@@ -67,4 +67,71 @@ R12;bus;;St.Wendel ZOB;Neunkirchen Lindenallee;
 R13;bus;;Bisten Neues Rathaus;Saarbrücken Hauptbahnhof;Aloys Baron GmbH
 R14;bus;;Homburg (Saar) Hauptbahnhof;Kleinblittersdorf Bahnhof;
 R200;bus;;Trier Hauptbahnhof;Türkismühle Bahnhof;Nikolaus Kirsch GmbH
+
+=== Nachtbus
+==== Landesnetz
+N1;bus;;Saarbrücken Trierer Straße;Blieskastel Busbahnhof;
+N2;bus;;Saarbrücken Trierer Straße;Bexbach Bahnhof;
+N3;bus;;Saarbrücken Trierer Straße;St. Wendel ZOB;
+N4;bus;;Saarbrücken Universität Busterminal;Dillingen Krankenhaus;
+N5;bus;;Saarbrücken Rathaus;Saarhölzbach;
+N6;bus;;St.Wendel Ziegeleistraße;Lebach Bahnhof;
+N7;bus;;St.Wendel ZOB;Wadern ZOB;
+
+=== 100-119 Saarbrücken
+101;bus;;Füllengarten Siedlung;Dudweiler Dudoplatz;Saarbahn GmbH
+102;bus;;Altenkessel Talstraße;Dudweiler Dudoplatz;Saarbahn GmbH
+103;bus;;Klarenthal Jägerpfad;Altenwald Skatezentrum;Saarbahn GmbH
+104;bus;;Klarenthal Weidenstraße;Elversberg;Saarbahn GmbH
+105;bus;;Rodenhof Kálmánstraße;Eschberg Tilsiter Str.;Saarbahn GmbH
+106;bus;;Folsterhöhe Siedlung;Rotenbühl;Saarbahn GmbH
+107;bus;;Folsterhöhe Siedlung;Saarbasar;Saarbahn GmbH
+108;bus;;Luisenthal Bahnhof;Klinikum Saarbrücken;Saarbahn GmbH
+109;bus;;Goldene Bremm;Universität Busterminal;Saarbahn GmbH
+110;bus;;Saarbrücken Rathaus;Völklingen Weltkulturerbe;Saarbahn GmbH,Völklinger Verkehrsbetriebe GmbH (VVG)
+111;bus;;Saarbrücken Rathaus;Universität Busterminal;Saarbahn GmbH
+112;bus;;Saarbrücken Hauptbahnhof;Universität Busterminal;Saarbahn GmbH
+
+=== 120-139 Saarbrücken
+120;bus;;Brebach Bahnhof;Ensheim Sportplatz;Saarbahn GmbHSaarbahn GmbH
+121;bus;;Hauptbahnhof;Rathaus;;Saarbahn GmbHSaarbahn GmbH
+121;bus;;40er Grab;Wohnstift Reppersberg;Saarbahn GmbH
+122;bus;;Füllengarten Siedlung;Schafbrücke;Saarbahn GmbH
+123;bus;;Habsterdick;Hauptbahnhof;Saarbahn GmbH
+124;bus;;Betriebshof;Universität Busterminal;Saarbahn GmbH
+125;bus;;Rodenhof Kálmánstraße;Dudweiler Dudoplatz;Saarbahn GmbH
+126;bus;;Goldene Bremm;Brebach Bahnhof;Saarbahn GmbH
+128;bus;;Rastpfuhl;Wackenberg;Saarbahn GmbH
+129;bus;;Rußhütte;Rathaus;Saarbahn GmbH
+130;bus;;Römerkastell;Nachtweide;Saarbahn GmbH
+131;bus;;Brebach Bahnhof;Bübinger Berg;Saarbahn GmbH
+132;bus;;Dudweiler;Sulzbach;Munz-Wobido GbR
+133;bus;;Dudweiler Dudoplatz;Dudweiler Dudoplatz;Saarbahn GmbH
+134;bus;;Rastpfuhl Bernkasteler Platz − Dellbrückschacht;
+135;bus;;Römerkastell;Scheidt Im Flürchen;Saarbahn GmbH
+136;bus;;Klinikum Saarbrücken;Dudweiler Dudoplatz;Saarbahn GmbH
+137;bus;;Römerkastell;Brebach Bahnhof;Saarbahn GmbH
+138;bus;;Dudweiler Dudoplatz;Römerkastell;Saarbahn GmbH
+139;bus;;Römerkastell;Römerkastell;Saarbahn GmbH
+
+== Zug
+=== RegionalBahn (RB)
+RB68;train;;Saarbrücken;Pirmasens;DB Regio Südwest
+RB70;train;;Kaiserslautern;Merzig(Saar);DB Regio Südwest
+RB71;train;;Homburg(Saar);Trier;DB Regio Mitte
+RB72;train;;Saarbrücken;Lebach-Jabach;DB Regio Südwest
+RB73;train;;Saarbrücken;Neubrücke (Nahe);DB Regio Südwest
+RB74;train;;Illingen;Homburg(Saar);DB Regio Südwest
+RB76;train;;Saarbrücken;Homburg(Saar);DB Regio Südwest
+RB77;train;;Niedaltdorf;Dillingen(Saar);DB Regio Südwest
+RB82;train;;Perl;Wittlich Hbf;DB Regio Mitte
+
+=== RegionalExpress(RE)
+RE1;train;;Koblenz;Mannheim;DB Regio Mitte
+RE3;train;;Saarbrücken;Mainz;vlexx GmbH
+RE14;train;;Saarbrücken;Metz;
+RE16;train;;Trier;Metz Ville;DB Regio Südwest
+
+=== S-Bahn
+S1;train;;Homburg(Saar);Osterburken;DB Regio Mitte
 </pre>
