@@ -49,7 +49,7 @@
 #ref;type;comment;from;to;operator
 
 == Stadtbahn
-S1;light_rail;;Sarreguemines;Lebach;Saarbahn GmbH
+S 1;light_rail;;Sarreguemines;Lebach;Saarbahn GmbH
 
 == Bus
 === Regional
