@@ -81,31 +81,30 @@ N7;bus;;St.Wendel ZOB;Wadern ZOB;
 === 100-119 Saarbrücken
 101;bus;;Füllengarten Siedlung;Dudweiler Dudoplatz;Saarbahn GmbH
 102;bus;;Altenkessel Talstraße;Dudweiler Dudoplatz;Saarbahn GmbH
-103;bus;;Klarenthal Jägerpfad;Altenwald Skatezentrum;Saarbahn GmbH
-104;bus;;Klarenthal Weidenstraße;Elversberg;Saarbahn GmbH
+103;bus;;Klarenthal Jägerpfad/Klarenthal Birkenweg;Altenwald Skatezentrum;Saarbahn GmbH
+104;bus;;Klarenthal Weidenstraße/Klarenthal Birkenweg;Elversberg;Saarbahn GmbH
 105;bus;;Rodenhof Kálmánstraße;Eschberg Tilsiter Str.;Saarbahn GmbH
 106;bus;;Folsterhöhe Siedlung;Rotenbühl;Saarbahn GmbH
 107;bus;;Folsterhöhe Siedlung;Saarbasar;Saarbahn GmbH
-108;bus;;Luisenthal Bahnhof;Klinikum Saarbrücken;Saarbahn GmbH
+108;bus;;Luisenthal Bahnhof/Matzenberg Siedlun;Klinikum Saarbrücken;Saarbahn GmbH
 109;bus;;Goldene Bremm;Universität Busterminal;Saarbahn GmbH
 110;bus;;Saarbrücken Rathaus;Völklingen Weltkulturerbe;Saarbahn GmbH,Völklinger Verkehrsbetriebe GmbH (VVG)
-111;bus;;Saarbrücken Rathaus;Universität Busterminal;Saarbahn GmbH
+111;bus;;Saarbrücken Rathaus/Rabbiner-Rülf-Platz;Universität Busterminal;Saarbahn GmbH
 112;bus;;Saarbrücken Hauptbahnhof;Universität Busterminal;Saarbahn GmbH
 
 === 120-139 Saarbrücken
-120;bus;;Brebach Bahnhof;Ensheim Sportplatz;Saarbahn GmbHSaarbahn GmbH
-121;bus;;Hauptbahnhof;Rathaus;;Saarbahn GmbHSaarbahn GmbH
-121;bus;;40er Grab;Wohnstift Reppersberg;Saarbahn GmbH
+120;bus;;Brebach Bahnhof;Ormesheim/Ensheim Sportplatz;Saarbahn GmbH
+121;bus;;Hauptbahnhof/40er Grab;Rathaus/Wohnstift Reppersberg;;Saarbahn GmbH
 122;bus;;Füllengarten Siedlung;Schafbrücke;Saarbahn GmbH
 123;bus;;Habsterdick;Hauptbahnhof;Saarbahn GmbH
 124;bus;;Betriebshof;Universität Busterminal;Saarbahn GmbH
 125;bus;;Rodenhof Kálmánstraße;Dudweiler Dudoplatz;Saarbahn GmbH
 126;bus;;Goldene Bremm;Brebach Bahnhof;Saarbahn GmbH
-128;bus;;Rastpfuhl;Wackenberg;Saarbahn GmbH
+128;bus;;Rastpfuhl/Rußhütte;Wackenberg/Klinikum Saarbrücken;Saarbahn GmbH
 129;bus;;Rußhütte;Rathaus;Saarbahn GmbH
 130;bus;;Römerkastell;Nachtweide;Saarbahn GmbH
 131;bus;;Brebach Bahnhof;Bübinger Berg;Saarbahn GmbH
-132;bus;;Dudweiler;Sulzbach;Munz-Wobido GbR
+132;bus;;Dudweiler;Quierschied/Sulzbach;Munz-Wobido GbR
 133;bus;;Dudweiler Dudoplatz;Dudweiler Dudoplatz;Saarbahn GmbH
 134;bus;;Rastpfuhl Bernkasteler Platz − Dellbrückschacht;
 135;bus;;Römerkastell;Scheidt Im Flürchen;Saarbahn GmbH
@@ -113,6 +112,25 @@ N7;bus;;St.Wendel ZOB;Wadern ZOB;
 137;bus;;Römerkastell;Brebach Bahnhof;Saarbahn GmbH
 138;bus;;Dudweiler Dudoplatz;Römerkastell;Saarbahn GmbH
 139;bus;;Römerkastell;Römerkastell;Saarbahn GmbH
+
+=== 140-149 Saarbrücken-Umgebung
+140;bus;;Heusweiler Markt;Riegelsberg Süd;Saarbahn GmbH
+142;bus;;Riegelsberg Süd;Walpershofen Mitte;
+147;bus;;Bliesransbach;Rilchingen-Hanweiler;
+149;bus;;;;
+
+=== 150-179 Saarbrücken-besonders + Suburban
+150;bus;;Saarbrücken;Sulzbach;Aloys Baron GmbH
+160;bus;;St.Ingbert Rendezvous-Platz;Sulzbach Bahnhof/Dudweiler Dudoplatz;
+161;bus;;Römerkastell;Funkhaus Halberg;Saarbahn GmbH
+163;bus;;Dudweiler Bahnhof;Universität Busterminal;Saarbahn GmbH
+164;bus;;Dudweiler Dudoplatz;Welkertswiesen;
+167;bus;;Naßweiler;Geislautern;Aloys Baron GmbH
+168;bus;;Von der Heydt;Heinrichshaus;Saarbahn GmbH
+170;bus;;St.Ingbert Bahnhof;St.Ingbert Bahnhof;Saar-Mobil GmbH
+172;bus;;Saarbrücken Hbf;Göttelborn Friedhof;Aloys Baron GmbH
+173;bus;;Sulzbach Wendeschleife;Göttelborn Friedhof;
+175;bus;;Hüttigweiler Apotheke;Saarbrücken Hauptbahnhof;Aloys Baron GmbH
 
 == Zug
 === RegionalBahn (RB)
