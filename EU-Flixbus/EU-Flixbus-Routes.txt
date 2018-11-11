@@ -692,7 +692,7 @@ N71;bus;;;;
 N73;bus;;;;
 N74;bus;;;;
 N75;bus;via Groningen,Bremen,Hamburg;Amsterdam;Berlin (ZOB);FlixMobility GmbH
-N76;bus;;;;
+N76;bus;;München;Turin;FlixMobility GmbH
 N77;bus;;;;
 N79;bus;;;;
 N80;bus;;;;

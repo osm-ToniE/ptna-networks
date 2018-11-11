@@ -39,7 +39,7 @@
 -
 - * "RGTR|AVL|TICE|CFL|Luxtram"                           short form, oder
 -
-- * ""  long form do be defined yet, or
+- * "Autobus de la Ville de Luxembourg|Régime Général des Transports Routiers|Chemins de Fer Luxembourgeois|Transport Intercommunal de personnes dans le Canton d'Esch-sur-Alzette"  long form, or
 -
 - * empty string, i.e. not set
 -
