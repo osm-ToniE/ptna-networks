@@ -7,7 +7,7 @@
 PREFIX="LU-All"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level=2][int_name='Luxembourg'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(r.routes););out;"
-NETWORK_LONG=""
+NETWORK_LONG="Autobus de la Ville de Luxembourg|Régime Général des Transports Routiers|Chemins de Fer Luxembourgeois|Transport Intercommunal de personnes dans le Canton d'Esch-sur-Alzette"
 NETWORK_SHORT="RGTR|AVL|TICE|CFL|Luxtram"
 
 ANALYSIS_PAGE="WikiProject_Luxembourg/Public_Transport/Analysis"
