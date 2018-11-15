@@ -156,6 +156,7 @@ RT5;tram;;Kassel;Melsungen;RBK
 218;bus;;Witzenhausen;Gertenbach;Omnibusbetrieb Sallwey
 231.1;bus;StadtBus Eschwege;Heuberg;Döhlestraße;EOV Frölich
 231.2;bus;StadtBus Eschwege;Stadtmitte;Heuberg;EOV Frölich
+231.3;bus;StadtBus Eschwege;Niddawitzhausen;Oberdünzebach;EOV Frölich
 231.4;bus;StadtBus Eschwege;Oberhone;Rotenburger Straße/Schulzentrum;EOV Frölich
 235;bus;;Eschwege;Meinhard;Frölich
 240;bus;;Eschwege;Ringgau;DB Regio Bus Mitte
@@ -208,6 +209,7 @@ RT5;tram;;Kassel;Melsungen;RBK
 526;bus;;Bad Arolsen;Diemelstadt;ALV Oberhessen
 530;bus;;Frankenberg;Medebach;ALV Oberhessen
 550;;Medebach;Korbach;BKW Bad Wildungen
+597;bus;Stadtbus Korbach;;;DB Regio Bus Mitte
 597.1;bus;Stadtbus Korbach;Hauptbahnhof;Hauptbahnhof;DB Regio Bus Mitte
 597.2;bus;Stadtbus Korbach;Hauptbahnhof;Hauptbahnhof;DB Regio Bus Mitte
 597.3;bus;Stadtbus Korbach;Hauptbahnhof;Hauptbahnhof;DB Regio Bus Mitte
