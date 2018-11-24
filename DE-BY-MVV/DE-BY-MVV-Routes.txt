@@ -228,7 +228,7 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 271;bus;;Höllriegelskreuth S;Dietramszell;Geldhauser/RVO
 285;bus;;Haar S;Ismaning S;Verkehrsbetrieb Ettenhuber GmbH
 290;bus;;Stadtbus Garching;;Verkehrsbetrieb Ettenhuber GmbH
-291;bus;;Oberschleißheim;Dachau S R;Busverkehr Südbayern
+291;bus;;Oberschleißheim, Bruckmannring;Dachau S R;Busverkehr Südbayern
 292;bus;;Garching-Forschungszentrum U;Sonnenstraße;Boos/Hadersdorfer/Scharf
 293;bus;;Dirnismaning;Garching U;Verkehrsbetrieb Ettenhuber GmbH
 294;bus;;Am Hart U;Garching-Hochbrück U;Verkehrsbetrieb Ettenhuber GmbH

@@ -45,7 +45,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 001;bus;;Freiburg im Breisgau;München;FlixMobility GmbH
 002;bus;;Leipzig;Rostock;FlixMobility GmbH
 005;bus;seit 25.04.2018 nicht mehr buchbar, wurde eingestellt.;Hamburg;Hessisch Oldendorf;FlixMobility GmbH
-006;bus;;Zür.ich;Berlin;FlixMobility GmbH
+006;bus;;Zürich;Berlin;FlixMobility GmbH
 007;bus;;Zürich;Hamburg;FlixMobility GmbH
 008;bus;;Tübingen;Freiburg im Breisgau;FlixMobility GmbH
 009;bus;;Ludwigshafen;Berlin;FlixMobility GmbH
@@ -104,7 +104,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 073;bus;;;;
 074;bus;;;;
 075;bus;;Hamburg;Amsterdam;FlixMobility GmbH
-076;bus;;;;
+076;bus;;München;Mailand/Turin;FlixMobility GmbH;
 079;bus;;;;
 080;bus;;;;
 081;bus;;;;
@@ -162,7 +162,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 160;bus;;;;
 161;bus;;;;
 162;bus;;;;
-163;bus;;;;
+163;bus;;München;Füssen;FlixMobility GmbH
 164;bus;via Magdeburg,Braunschweig,Celle;Berlin;Hamburg;
 167;bus;;;;
 168;bus;Seit 06.11.2017 nicht mehr buchbar, wurde eingestellt.;;;
@@ -212,7 +212,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 272;bus;;;;
 274;bus;ab 05.11.2018 nicht mehr buchbar, wird eingestellt;;;
 275;bus;;;;
-277;bus;Stuttgart;Venedig;FlixMobility GmbH;;;
+277;bus;;Stuttgart;Venedig;FlixMobility GmbH
 280;bus;;;;
 283;bus;;Zürich;Prag;FlixMobility GmbH
 284;bus;;;;
@@ -247,7 +247,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 373;bus;;;;
 374;bus;ab 05.11.2018 nicht mehr buchbar, wird eingestellt;;;
 381;bus;Seit 25.04.2018 nicht mehr buchbar, wurde eingestellt.;;;
-383;bus;;;;
+383;bus;;München;Passau/Prag;FlixMobility GmbH
 391;bus;Seit 03.01.2018 nicht mehr buchbar, wurde eingestellt.;;;
 
 
@@ -273,7 +273,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 419;bus;;;;
 420;bus;;;;
 421;bus;;;;
-423;bus;;;;
+423;bus;;Turin;Ferrara;FlixMobility GmbH
 424;bus;;;;
 426;bus;Seit 16.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
 428;bus;Seit 16.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
@@ -292,9 +292,9 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 470;bus;;;;
 471;bus;;;;
 472;bus;;;;
-481;bus;;;;
+481;bus;;Genua;Venedig;FlixMobility GmbH
 482;bus;;;;
-491;bus;;;;
+491;bus;;München;Venedig;FlixMobility GmbH
 492;bus;;;;
 494;bus;;;;
 
@@ -647,7 +647,7 @@ SKI72;bus;Seit 02.04.2018 nicht mehr buchbar, wurde eingestellt.;;;
 
 == Expressbusse
 
-X06;bus;;;;
+X06;bus;;München;Zürich;FlixMobilty GmbH
 X11;bus;ab 05.11.2018 nicht mehr buchbar, wird eingestellt;;;
 X28;bus;;;;
 X31;bus;;Berlin;Amsterdam;FlixMobility GmbH
@@ -673,7 +673,7 @@ N20;bus;;;;
 N23;bus;;;;
 N24;bus;;;;
 N27;bus;;;;
-N28;bus;Düsseldorf;Venedig;FlixMobility GmbH
+N28;bus;;Düsseldorf;Venedig;FlixMobility GmbH
 N30;bus;;;;
 N31;bus;;;;
 N36;bus;;Antwerpen;Bratislava;FlixMobility GmbH
@@ -770,7 +770,7 @@ N523;bus;;;;
 N524;bus;;;;
 N526;bus;;;;
 N530;bus;;;;
-N531;bus;München;Rom;FlixMobility GmbH;;;
+N531;bus;;München;Rom;FlixMobility GmbH;;;
 N533;bus;;;;
 N535;bus;Seit 30.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
 N536;bus;;;;

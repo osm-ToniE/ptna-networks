@@ -194,6 +194,7 @@ RT5;tram;;Kassel;Melsungen;RBK
 
 === 500 .. 599
 500;bus;;Kassel;Bad Wildungen;BKW Bad Wildungen
+501;bus;;Korbach;Frankenberg;BKW Bad Wildungen
 502;bus;;Korbach;Lichtenfels;BKW Bad Wildungen
 504;bus;;Basdorf;Korbach;BKW Bad Wildungen
 505;bus;;Volkmarsen;Korbach;ALV Oberhessen
@@ -208,7 +209,7 @@ RT5;tram;;Kassel;Melsungen;RBK
 525;bus;;Frankenberg;Gemünden;BKW Bad Wildungen
 526;bus;;Bad Arolsen;Diemelstadt;ALV Oberhessen
 530;bus;;Frankenberg;Medebach;ALV Oberhessen
-550;;Medebach;Korbach;BKW Bad Wildungen
+550;bus;;Medebach;Korbach;BKW Bad Wildungen
 597;bus;Stadtbus Korbach;;;DB Regio Bus Mitte
 597.1;bus;Stadtbus Korbach;Hauptbahnhof;Hauptbahnhof;DB Regio Bus Mitte
 597.2;bus;Stadtbus Korbach;Hauptbahnhof;Hauptbahnhof;DB Regio Bus Mitte
