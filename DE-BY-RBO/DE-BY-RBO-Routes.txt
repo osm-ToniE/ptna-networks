@@ -73,7 +73,7 @@
 2408;bus;(=VGN 408=VAS 8);;;
 2409;bus;(=VGN 409=VAS 9);;;
 2410;bus;(=VGN 410=VAS 10);;;
-2411;Bus;(=VGN 411=VAS 11);;;
+2411;bus;(=VGN 411=VAS 11);;;
 2412;bus;(=VGN 412=VAS 12);;;
 2414;bus;(=VGN 414=VAS 14);;;
 

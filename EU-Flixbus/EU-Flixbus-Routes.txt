@@ -97,7 +97,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 066;bus;;Hamburg;Prag;FlixMobility GmbH
 067;bus;ab 05.11.2018 nicht mehr buchbar, wir eingestellt.;Dresden;Amsterdam;FlixMobility GmbH
 068;bus;;Frankfurt am Main;Prag;FlixMobility GmbH
-069;bus;;seit 06.11.2017 nicht mehr buchbar, wurde eingestellt.Amsterdam;Kassel;FlixMobility GmbH
+069;bus;;seit 06.11.2017 nicht mehr buchbar, wurde eingestellt.;Amsterdam;Kassel;FlixMobility GmbH
 070;bus;;;;
 071;bus;;;;
 072;bus;;;;
@@ -259,7 +259,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 403;bus;;;;
 404;bus;;;;
 405;bus;;;;
-406;bus;;;;
+406;bus;;Nizza;Rijeka;FlixMobility GmbH
 407;bus;;;;
 408;bus;;;;
 409;bus;;;;
@@ -316,12 +316,12 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 518;bus;;;;
 519;bus;;;;
 520;bus;;;;
-522;bus;;;;
+522;bus;;Bergamo;Rom;FlixMobility GmbH
 527;bus;;;;
 528;bus;;;;
 529;bus;;;;
 531;bus;;München;Rom;FlixMobility GmbH
-532;bus;;;;
+532;bus;;Bergamo;Neapel;FlixMobility GmbH
 533;bus;;;;
 534;bus;;;;
 535;bus;Seit 20.09.2017 nicht mehr buchbar, wurde eingestellt.;;;
