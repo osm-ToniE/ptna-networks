@@ -37,7 +37,11 @@
 
 - Die folgende Liste wurde am 14.03.2018 mit freundlicher Genehmigung des VMS aus der [https://www.vms.de/fileadmin/user_upload/antraege_formulare/tbest_anlage_6_2018-02-26.pdf "Anlage 6 - Linienverzeichnis"] (Stand 26.02.2018) erstellt.
 -
-- Die Analyse und Ausgabe von mehrfach vorkommenden Buslinien mit identischem "Betreiber" wie die Linien A, B, C, ... muss noch verbessert werden.
+- Im VMS gibt es mehrere Buslinien mit der selben Nummer mehrfach in verschiedenen Gemeinden/Städten (z.B. 'A', 'B', ...).
+-
+- Zur Unterscheidung sollten bei den betroffenen Linien die Angaben in Datei (siehe: [[Saxony/Transportation/Verkehrsverbund_Mittelsachsen/Analyse/DE-SN-VMS-Linien|VMS-Linien]]) überprüft und mit den 'operator', 'from' sowie 'to' Angaben der OSM-Relationen in Einklang gebracht werden.
+-
+- Zu beachten ist daher in dieser Auswertung auch der Abschnitt [http://ptna.openstreetmap.de/results/DE/SN/DE-SN-VMS-Analysis.html#unassigned "Nicht eindeutig zugeordnete Linien"]. Dort werden Probleme mit der Zuordnung der Linien aufgezeigt. Bei den dort aufgelisteten Linien besteht Handlungsbedarf.
 
 
 == Stadtverkehr
@@ -87,16 +91,16 @@ N17;bus;Zentralhaltestelle - Talanger;;;CVAG
 N18;bus;Zentralhaltestelle - Omnibusbahnhof -Borna;;;CVAG
 
 === Freiberg
-A;bus;Busbahnhof - Olbernhauer Straße - Wasserberg - Anton-Günther-Straße - Busbahnhof;;;RBM
-B;bus;Brand-Erbisdorf - Zug - Freiberg, Busbahnhof - Freiberg, Clausthaler Straße;;;RBM
-C;bus;Busbahnhof - Meißner Ring - Uni-Gelände - Friedeburg - Wasserberg - Häuersteig - Seilerberg - Busbahnhof;;;RBM
-D;bus;Busbahnhof - Anton-Günther-Straße - Wasserberg - Olbernhauer Straße - Busbahnhof - Frauensteiner Straße - Dammstraße - Busbahnhof;;;RBM
-E;bus;Busbahnhof - Schlossplatz - Friedeburg - Schlossplatz - Busbahnhof;;;RBM
-F;bus;Freiberg, Busbahnhof (- Wasserberg) - Freiberg, Häuersteig - Brand-E., Am Goldbachtal - Brand-E.;;;RBM
-G;bus;Brand-Erbisdorf - St. Michaelis - Oberschöna;;;RBM
-H;bus;Freiberg, Busbahnhof - Tuttendorf - Halsbrücke, Wendeschleife;;;RBM
-I;bus;Tour 1: Brand-Erbisdorf - Zug - Industriegebiet Saxonia - GWG Freiberg Ost;;;RBM
-I;bus;Tour 2: Freiberg (Friedeburg - Wasserberg - Seilerberg) - Busbahnhof - Industriegebiet Saxonia - GWG - Pulvermühlenweg - Halsbrücke;;;RBM
+A;bus;Busbahnhof - Olbernhauer Straße - Wasserberg - Anton-Günther-Straße - Busbahnhof;Freiberg, Busbahnhof;Freiberg, Busbahnhof;RBM
+B;bus;Brand-Erbisdorf - Zug - Freiberg, Busbahnhof - Freiberg, Clausthaler Straße;Brand-Erbisdorf;Freiberg, Clausthaler Straße;RBM
+C;bus;Busbahnhof - Meißner Ring - Uni-Gelände - Friedeburg - Wasserberg - Häuersteig - Seilerberg - Busbahnhof;Freiberg, Busbahnhof;Freiberg, Busbahnhof;RBM
+D;bus;Freiberg, Busbahnhof - Anton-Günther-Straße - Wasserberg - Olbernhauer Straße - Busbahnhof - Frauensteiner Straße - Dammstraße - Freiberg, Busbahnhof;Freiberg, Busbahnhof;Freiberg, Busbahnhof;RBM
+E;bus;Busbahnhof - Schlossplatz - Friedeburg - Schlossplatz - Busbahnhof;Freiberg, Busbahnhof;Freiberg, Busbahnhof;RBM
+F;bus;Freiberg, Busbahnhof (- Wasserberg) - Freiberg, Häuersteig - Brand-E., Am Goldbachtal - Brand-E.;Freiberg, Busbahnhof;Brand-Erbisdorf;RBM
+G;bus;Brand-Erbisdorf - St. Michaelis - Oberschöna;Brand-Erbisdorf;Oberschöna;RBM
+H;bus;Freiberg, Busbahnhof - Tuttendorf - Halsbrücke, Wendeschleife;Freiberg, Busbahnhof;Halsbrücke, Wendeschleife;RBM
+I;bus;Tour 1: Brand-Erbisdorf - Zug - Industriegebiet Saxonia - GWG Freiberg Ost;Brand-Erbisdorf;GWG Freiberg Ost;RBM
+I;bus;Tour 2: Freiberg (Friedeburg - Wasserberg - Seilerberg) - Busbahnhof - Industriegebiet Saxonia - GWG - Pulvermühlenweg - Halsbrücke;Freiberg;Halsbrücke;RBM
 
 ===  Zwickau
 3;tram;Eckersbach - Neuplanitz;;;SVZ
@@ -106,7 +110,7 @@ I;bus;Tour 2: Freiberg (Friedeburg - Wasserberg - Seilerberg) - Busbahnhof - Ind
 10;bus;Zwickau, Niederhohndorf / Weißenborn - Neumarkt - Hauptbahnhof - Zwickau, Planitz - Wilkau-Haßlau;;;SVZ
 13/136;bus;Neumarkt / Zentralhaltestelle - Wilkau-Haßlau - Kirchberg - Rothenkirchen;;;SVZ;RVW
 18;bus;Neumarkt - Georgenplatz - Königswalde / Hartmannsdorf;;;SVZ
-20;bus;Planitz, Markt - Rottmannsdorf / Hüttelsgrün;;;SVZ
+20;bus;Planitz, Markt - Rottmannsdorf / Hüttelsgrün;Planitz, Markt;Rottmannsdorf / Hüttelsgrün;SVZ
 21;bus;Neumarkt - Georgenplatz - Brand - Weißenbrunn, Mühlensteig;;;SVZ
 22;bus;Zentralhaltestelle - (Newtonstraße -) Niederhohndorf;;;SVZ
 23/141;bus;Zwickau, Hbf - Zwickau, Oberhohndorf - Reinsdorf - Vielau - Wildenfels - Hartenstein - Langenbach;;;SVZ;RVW
@@ -115,9 +119,9 @@ I;bus;Tour 2: Freiberg (Friedeburg - Wasserberg - Seilerberg) - Busbahnhof - Ind
 27 E;bus;Zwickau, Baikal - Lichtentanne, Kirche;;;SVZ
 28;bus;Dresdner Straße - Eckersbach - Weißenborn;;;SVZ
 29/181;bus;Zwickau - Lichtentanne / Schönfels - Neumark - Reichenbach;;;SVZ;RVW
-A;bus;Nachtbus: Hauptmarkt - Neumarkt - Hbf - Marienthal - Neuplanitz - Cainsdorf - Wilkau-Haßlau - Hauptmarkt;;;SVZ
-B;bus;Nachtbus: Hauptbahnhof - Neumarkt - Nordvorstadt - Eckersbach;;;SVZ
-C;bus;Nachtbus: Hauptmarkt - Neumarkt - Weißenborn;;;SVZ
+A;bus;Nachtbus: Hauptmarkt - Neumarkt - Hbf - Marienthal - Neuplanitz - Cainsdorf - Wilkau-Haßlau - Hauptmarkt;Hauptmarkt;Hauptmarkt;SVZ
+B;bus;Nachtbus: Hauptbahnhof - Neumarkt - Nordvorstadt - Eckersbach;Hauptbahnhof;Eckersbach;SVZ
+C;bus;Nachtbus: Hauptmarkt - Neumarkt - Weißenborn;Hauptmarkt;Weißenborn;SVZ
 
 == Kleiner Stadtverkehr
 
@@ -131,71 +135,71 @@ F;bus;Cunersdorf - Buchholz;Cunersdorf;Buchholz;RVE
 G;bus;Markt - Cunersdorf;Markt;Cunersdorf;RVE
 
 === Aue
-A;bus;Postplatz - Zeller Berg - Postplatz;Postplatz;Postplatz;RVE
-B;bus;Postplatz - Eichert - Postplatz;Postplatz;Postplatz;RVE
-C;bus;Postplatz - Brünlasberg - Postplatz;Postplatz;Postplatz;RVE
-D;bus;Postplatz - Neudörfel - Postplatz;Postplatz;Postplatz;RVE
+A;bus;Postplatz - Zeller Berg - Postplatz;Aue, Postplatz;Aue, Postplatz;RVE
+B;bus;Postplatz - Eichert - Postplatz;Aue, Postplatz;Aue, Postplatz;RVE
+C;bus;Postplatz - Brünlasberg - Postplatz;Aue, Postplatz;Aue, Postplatz;RVE
+D;bus;Postplatz - Neudörfel - Postplatz;Aue, Postplatz;Aue, Postplatz;RVE
 
 === Burgstädt
 A;bus;Sportzentrum - Bahnhof - Friedhof - Heiersdorf;Sportzentrum;Heiersdorf;RBM
 B;bus;Heiersdorf - Friedhof - Bahnhof - Sportzentrum;Heiersdorf;Sportzentrum;RBM
 
 === Döbeln
-A;bus;Hauptbahnhof - Busbahnhof - (Krankenhaus -) Unnaer Str - Hauptbahnhof;;;RBM
-B;bus;Marktkauf - Busbahnhof - Muldenterasse - Technitz;;;RBM
-C;bus;Rotes Kreuz - Busbahnhof - Hauptbahnhof - Gärtitz;;;RBM
-D;bus;Busbahnhof - Ebersbach - Busbahnhof;;;RBM
+A;bus;Hauptbahnhof - Busbahnhof - (Krankenhaus -) Unnaer Str - Hauptbahnhof;Döbeln, Hauptbahnhof;Döbeln, Hauptbahnhof;RBM
+B;bus;Marktkauf - Busbahnhof - Muldenterasse - Technitz;Marktkauf;Technitz;RBM
+C;bus;Rotes Kreuz - Busbahnhof - Hauptbahnhof - Gärtitz;Rotes Kreuz;Gärtitz;RBM
+D;bus;Busbahnhof - Ebersbach - Busbahnhof;Döbeln, Busbahnhof;Döbeln, Busbahnhof;RBM
 
 === Flöha
-1;bus;Am Sattelgut - Busbahnhof - Lessingstraße - Gymnasium - Lärchenstraße;;;RBM
-2;bus;Am Sattelgut - Feldstraße - Am Mörbitzbach - Straße des Friedens - Busbahnhof;;;RBM
+1;bus;Am Sattelgut - Busbahnhof - Lessingstraße - Gymnasium - Lärchenstraße;Flöha, Am Sattelgut;Flöha, Lärchenstraße;RBM
+2;bus;Am Sattelgut - Feldstraße - Am Mörbitzbach - Straße des Friedens - Busbahnhof;Flöha, Am Sattelgut;Flöha, Busbahnhof;RBM
 
 === Frankenberg
-D;bus;Süd - Neubaugebiet - Süd;;;RBM
-E;bus;Süd - Lützelhöhe - Süd;;;RBM
+D;bus;Frankenberg, Süd - Neubaugebiet - Frankenberg, Süd;Frankenberg, Süd;Frankenberg, Süd;RBM
+E;bus;Frankenberg, Süd - Lützelhöhe - Frankenberg, Süd;Frankenberg, Süd;Frankenberg, Süd;RBM
 
 === Hohenstein-Ernstthal
-1;bus;Bahnhof - Hüttengrund - Heiterer Blick - Bahnhof - Sonnenstraße - Wüstenbrand - Bahnhof;;;RVE
-2;bus;Bahnhof - Ernst-Thälmann-Siedlung - Fritz-Heckert-Siedlung - Bahnhof;;;RVE
+1;bus;Bahnhof - Hüttengrund - Heiterer Blick - Bahnhof - Sonnenstraße - Wüstenbrand - Bahnhof;Hohenstein-Ernstthal, Bahnhof;Hohenstein-Ernstthal, Bahnhof;RVE
+2;bus;Bahnhof - Ernst-Thälmann-Siedlung - Fritz-Heckert-Siedlung - Bahnhof;Hohenstein-Ernstthal, Bahnhof;Hohenstein-Ernstthal, Bahnhof;RVE
 
 === Kurort Oberwiesenthal
-A;bus;Fichtelberg-Plateau - Bahnhof - Sparingberg - Bahnhof - Fichtelberg-Plateau;;;RVE
+A;bus;Fichtelberg-Plateau - Bahnhof - Sparingberg - Bahnhof - Fichtelberg-Plateau;Fichtelberg-Plateau;Fichtelberg-Plateau;RVE
 
 === Limbach-Oberfrohna
 C1;bus;City-Bus Limbach-Oberfrohna;;;FRI
 C2;bus;City-Bus Limbach-Oberfrohna;;;FRI
 
 === Lößnitz
-A;bus;Neustadt - Markt - Ostsiedlung - Neustadt;;;RVE
+A;bus;Neustadt - Markt - Ostsiedlung - Neustadt;Lößnitz, Neustadt;Lößnitz, Neustadt;RVE
 
 === Marienberg
-A;bus;Markt - Mooshaide - Mühlberg - Markt - Gewerbegebiet;;;RVE
-B;bus;Markt - Dörfel - Gelobtland - Gebirge - Dörfel - Markt;;;KRM
-D;bus;Marienberg - Lauterbach - Pobershau -Marienberg;;;KRM
-E;bus;Marienberg - Gebirge - Pobershau - Zöblitz - Marienberg;;;KRM
+A;bus;Markt - Mooshaide - Mühlberg - Markt - Gewerbegebiet;Marienberg, Markt;Marienberg, Gewerbegebiet;RVE
+B;bus;Markt - Dörfel - Gelobtland - Gebirge - Dörfel - Markt;Marienberg, Markt;Marienberg, Markt;KRM
+D;bus;Marienberg - Lauterbach - Pobershau - Marienberg;Marienberg;Marienberg;KRM
+E;bus;Marienberg - Gebirge - Pobershau - Zöblitz - Marienberg;Marienberg;Marienberg;KRM
 
 === Mittweida
-A;bus;Baumwollspinnerei Wendeschleife - Markt - Bahnhof;;;RBM
-B;bus;Kaufland - Lauenhainer Straße - Krankenhaus - Busbahnhof - Lauenhainer Straße - Kaufland;;;RBM
-C;bus;Lauenhain - Mittweida - Altmittweida;;;RBM
-F;bus;Baumwollspinnerei Wendeschleife - Busbahnhof - Kaufland - Bahnhof;;;RBM
+A;bus;Baumwollspinnerei Wendeschleife - Markt - Bahnhof;Baumwollspinnerei Wendeschleife;Mittweida, Bahnhof;RBM
+B;bus;Kaufland - Lauenhainer Straße - Krankenhaus - Busbahnhof - Lauenhainer Straße - Kaufland;Mittweida, Kaufland;Mittweida, Kaufland;RBM
+C;bus;Lauenhain - Mittweida - Altmittweida;Lauenhain;Altmittweida;RBM
+F;bus;Baumwollspinnerei Wendeschleife - Busbahnhof - Kaufland - Bahnhof;Baumwollspinnerei Wendeschleife;Mittweida, Bahnhof;RBM
 
 === Rochlitz
-R;bus;Rathausstraße - Bahnhof - Obere Lindenbergstraße - Rathausstraße;;;RBM
+R;bus;Rathausstraße - Bahnhof - Obere Lindenbergstraße - Rathausstraße;Rochlitz, Rathausstraße;Rochlitz, Rathausstraße;RBM
 
 === Schwarzenberg
-A;bus;Heide - Busbahnhof - Sonnenleithe - Busbahnhof - Heide;;;RVE
-B;bus;Busbahnhof - Wildenau - Neuwelt - Bermsgrün - Busbahnhof;;;RVE
+A;bus;Heide - Busbahnhof - Sonnenleithe - Busbahnhof - Heide;Schwarzenberg, Heide;Schwarzenberg, Heide;RVE
+B;bus;Busbahnhof - Wildenau - Neuwelt - Bermsgrün - Busbahnhof;Schwarzenberg, Busbahnhof;Schwarzenberg, Busbahnhof;RVE
 
 === Stollberg
 STL 1;bus;Stadtlinie 1;;;RVE
 STL 2;bus;Stadtlinie 2;;;RVE
 
 === Zschopau
-1;bus;Hohndorf - Zschopau - Gornau, Einkaufszentrum;;;RVE
+1;bus;Hohndorf - Zschopau - Gornau, Einkaufszentrum;Hohndorf;Gornau, Einkaufszentrum;RVE
 
 == Omnibus-Regionalverkehr
-20;bus;Greiz - Teichwolframsdorf - Seelingstädt;;;PRG
+20;bus;Greiz - Teichwolframsdorf - Seelingstädt;Greiz;Seelingstädt;PRG
 101;bus;Glauchau, Bahnhof - Schönbörnchen, Südhang;;;RVW
 102;bus;Glauchau, Friedenshöhe - Glauchau, Bahnhof;;;RVW
 105;bus;Glauchau - Meerane;;;RVW
@@ -319,8 +323,8 @@ STL 2;bus;Stadtlinie 2;;;RVE
 360;bus;Aue - Schneeberg - Zwickau;;;RVE
 361;bus;Aue - Zwönitz - Thalheim;;;RVE
 362;bus;Aue - Schneeberg - Griesbacher Hang - Schneeberg - Aue;;;RVE
-363;bus;Aue - Lößnitz - Affalter - Zwönitz;;;RVE
-363;bus;Freital - Tharandt - Fördergersdorf - Grillenburg - Naundorf - Klingenberg;;;RVD
+363;bus;Aue - Lößnitz - Affalter - Zwönitz;Aue;Zwönitz;RVE
+363;bus;Freital - Tharandt - Fördergersdorf - Grillenburg - Naundorf - Klingenberg;Freital;Klingenberg;RVD
 364;bus;Wildbach - Schlema - Schneeberg - Lindenau;;;RVE
 365;bus;Aue - Schlema - Schneeberg - Schlema - Aue;;;RVE
 365;bus;Schmiedeberg - Frauenstein - Hermsdorf - Seyde;;;RVD
@@ -336,8 +340,8 @@ STL 2;bus;Stadtlinie 2;;;RVE
 376;bus;Aue - Lauter;;;RVE
 377;bus;Zwönitz - Kühnhaide;;;RVE
 378;bus;Aue - Lößnitz, Neustadt - Alberoda - Aue;;;RVE
-379;bus;Aue - Zschorlau - Albernau - Bockau - Aue;;;RVE
-379;bus;Ruppendorf - Klingenberg - Pretzschendorf - Hartmannsdorf - Frauenstein;;;RVD
+379;bus;Aue - Zschorlau - Albernau - Bockau - Aue;Aue;Aue;RVE
+379;bus;Ruppendorf - Klingenberg - Pretzschendorf - Hartmannsdorf - Frauenstein;Ruppendorf;Frauenstein;RVD
 380;bus;Aue - Stollberg;;;RVE
 385;bus;Aue - Schneeberg - Rothenkirchen ;;;RVE
 400;bus;Annaberg-Buchholz - Freiberg - Hetzdorf - Dresden;;;RBM;RVE
