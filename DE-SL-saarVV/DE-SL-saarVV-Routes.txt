@@ -151,5 +151,5 @@ RE14;train;;Saarbrücken;Metz;
 RE16;train;;Trier;Metz Ville;DB Regio Südwest
 
 === S-Bahn
-S1;train;;Homburg(Saar);Osterburken;DB Regio Mitte
+- Die z.T. im Saarland verkehrende S1 ist nicht in den saarVV eingegliedert.
 </pre>

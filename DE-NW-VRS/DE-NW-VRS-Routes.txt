@@ -429,7 +429,7 @@ SB82;bus;;;;
 615;bus;;;;
 630;bus;;;;
 631;bus;;;;
-632;bus;Linie ist jetzt im Regelbetrieb;;;
+632;bus;Fahrplan 2019 neue Linienführung ohne erweiterte Fahrradbeförderung;Uniklinikum;Beuel Bf;
 633;bus;;;;
 635;bus;;;;
 636;bus;;;;

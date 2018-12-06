@@ -63,7 +63,7 @@ S20;train;;Höllriegelskreuth;Geltendorf;DB Regio AG/S-Bahn München
 18;tram;;Gondrellplatz;Schwanseestraße;SWM/MVG
 19;tram;;Pasing Bf;St.-Veit-Straße;SWM/MVG
 20;tram;;Moosach;Karlsplatz (Stachus);SWM/MVG
-21;tram;Ab 29.10.2018: Verlängerung nach St.-Veit-Straße;Westfriedhof;St.-Veit-Straße;SWM/MVG
+21;tram;;Westfriedhof;St.-Veit-Straße;SWM/MVG
 22;tram;;Hochschule München;Karlsplatz (Stachus);SWM/MVG
 23;tram;;Schwabing Nord;Münchner Freiheit;SWM/MVG
 25;tram;;Max-Weber-Platz;Grünwald;SWM/MVG
@@ -71,7 +71,6 @@ S20;train;;Höllriegelskreuth;Geltendorf;DB Regio AG/S-Bahn München
 28;tram;;Scheidplatz;Sendlinger Tor;SWM/MVG
 #
 === Nacht-Tram
-#N16;tram;N16 wurde am 10.12.2017 in N17 umbenannt
 N17;tram;;Amalienburgstraße;Effnerplatz;SWM/MVG
 N19;tram;;Pasing Bf;St.-Veit-Straße;SWM/MVG
 N20;tram;;Moosach;Karlsplatz (Stachus);SWM/MVG
@@ -81,6 +80,7 @@ N27;tram;;Petuelring;Großhesseloher Brücke;SWM/MVG
 == Bus
 === Express-Bus (München)
 X30;bus;ExpressBus;Harras U S R;Ostbahnhof U S R;SWM/MVG
+#X50;bus;ExpressBus !Neue Buslinie ab 09.12.2018!;Moosach U S R;Alte Heide U;SWM/MVG,
 X98;bus;ExpressBus;Hauptbahnhof;Tierpark (Alemannenstraße);SWM/MVG
 #
 === Metro-Bus (München)
@@ -192,7 +192,9 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 213;bus;;Ostbahnhof U S R;Taufkirchen, Lilienthalstraße;RVO/Geldhauser
 214;bus;;Riemerling, Altenheim;Hohenbrunn;Verkehrsbetrieb Ettenhuber GmbH
 215;bus;;Lohhof S Süd;Lohhof S Nord;VBR GmbH, München
+#215;bus;!Änderung ab 09.12.2018: Teile werden von 218 übernommen!;Lohhof S Süd;Unterschleißheim S Ost;VBR GmbH, München
 216;bus;;Faistenhaar/Otterloh;Brunnthal Nord;RVO/Geldhauser
+#216;bus;!Änderung ab 09.12.2018: Komplett neue Fahrstrecke, vereinafcht!;Taufkirchen, Hugo-Junkers-Straße;Faistenhaar;RVO/Geldhauser
 217;bus;;Neuperlach Süd U S;Unterhaching S;Demmelmair GmbH & Co
 #218;bus;!Neue Buslinie ab 09.12.2018!;Unterschleißheim S West;Lohhof S Süd;VBR GmbH/Busverkehr Südbayern GmbH
 219;bus;;Garching-Hochbrück U;Unterschleißheim S Ost;VBR GmbH, München
@@ -200,9 +202,11 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 221;bus;;Unterhaching S;München, Waldheimplatz;Verkehrsbetrieb Ettenhuber GmbH
 222;bus;;Deisenhofen S;Neuperlach Süd U S;Busservice Watzinger
 223;bus;;Sauerlach S;Arget;RVO/Geldhauser
+#223;bus;!Änderung ab 09.12.2018: Kleinere Änderungen!;Sauerlach S;Arget;RVO/Geldhauser
 224;bus;;Unterhaching S;Höllriegelskreuth S;Demmelmair GmbH & Co
 225;bus;;Taufkirchen S;Gewerbegebiet Potzham;Geldhauser
 226;bus;;Sauerlach S;Otterloh/Gumpertshausen;RVO/Geldhauser
+#226;bus;!Änderung ab 09.12.2018: Verlängert nach Deisenhofen (S/R)!;Sauerlach S;Deisenhofen S R;RVO/Geldhauser
 227;bus;;Ortsbus Oberhaching;;Busservice Watzinger
 229;bus;;Ottobrunn, Phönix Bad;Neuperlach Süd U S;Geldhauser
 230;bus;;Fischerhäuser;Garching-Forschungszentrum U;VBR GmbH, München
@@ -216,6 +220,7 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 243;bus;;Haar, Hans-Stießberger-Straße;Neukeferloh;DB Regio Bus Bayern GmbH
 #244;bus;!Neue Buslinie ab 09.12.2018!;Taufkirchen, Hugo-Junkers-Straße;Sauerlach S;Verkehrsbetrieb Ettenhuber GmbH
 258;bus;;Gräfelfing S;Starnberger Straße;Busservice Watzinger
+#259;bus;!Neue Buslinie ab 09.12.2018!;Pasing Bf S R;Martinsried;Demmelmair GmbH & Co
 260;bus;;Germering-Unterpfaffenhofen S;Fürstenried West U;Busservice Watzinger
 261;bus;;Neuried;Fürstenried West U;Busservice Watzinger
 262;bus;;Heimstetten S;Kirchheim, Gewerbegebiet;Verkehrsbetrieb Ettenhuber GmbH
@@ -228,9 +233,11 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 269;bus;;Neuried;Klinikum Großhadern U;Busverkehr Südbayern
 270;bus;;Höllriegelskreuth S;Solln S;Demmelmair GmbH & Co
 271;bus;;Höllriegelskreuth S;Dietramszell;Geldhauser/RVO
+#N272;bus;!Neue Buslinie ab 09.12.2018! Nachtbuslinie Grünwald;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzinger,
 285;bus;;Haar S;Ismaning S;Verkehrsbetrieb Ettenhuber GmbH
 290;bus;;Stadtbus Garching;;Verkehrsbetrieb Ettenhuber GmbH
 291;bus;;Oberschleißheim, Bruckmannring;Dachau S R;Busverkehr Südbayern
+#291;bus;!Änderung ab 09.12.2018: Verlängerung von Oberschleißheim nach Unterschleißheim (S)!;Dachau S R;Unterschleißheim S;Busverkehr Südbayern
 292;bus;;Garching-Forschungszentrum U;Sonnenstraße;Boos/Hadersdorfer/Scharf
 293;bus;;Dirnismaning;Garching U;Verkehrsbetrieb Ettenhuber GmbH
 294;bus;;Am Hart U;Garching-Hochbrück U;Verkehrsbetrieb Ettenhuber GmbH
@@ -295,6 +302,7 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 562;bus;;Taufkirchen (Vils);Berufsschule/Klinikum;Bayernbus GmbH
 5621;bus;Ruftaxi;Taufkirchen (Vils);Taufkirchen (Vils);Kistler Bustouristik GmbH, Dorfen
 564;bus;;Grüntegernbach;Erding, Klinikum Süd/Berufsschule;Bayernbus GmbH
+#564;bus;!Änderung ab 09.12.2018: Anpassungen der Fahrstrecke beider Richtungen zw. Dorfen, Bahnhof und Kirchasch!;Grüntegernbach;Erding, Klinikum Süd/Berufsschule;Bayernbus GmbH
 565;bus;Rufbus;Dorfen, Bahnhof R;Erding S;Bayernbus GmbH
 567;bus;;Dorfen;Berufsschule;Bayernbus GmbH
 5670;bus;Ruftaxi;Walpertskirchen;Erding S;Taxiservice Pawelczyk
@@ -396,6 +404,7 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 829;bus;;Mammendorf S;Moorenweis;
 830;bus;;Lochhausen S;Puchheim S Nord;Waibel Bus GmbH
 832;bus;;Olching S;Puchheim S Nord;Griensteidl
+#832;bus;!Änderung ab 09.12.2018: Änderung des Linienweges in Puchheim!;Olching S;Puchheim S Nord;Griensteidl
 833;bus;;Eichenau S Nord;Olching, Cronenbergstraße;Demmelmair GmbH & Co
 834;bus;;Eichenau S Nord;Olching, Cronenbergstraße;Demmelmair GmbH & Co
 835;bus;;Olching S;Esting, Schloß;Enders Reisen
@@ -418,6 +427,7 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 870;bus;;Waltenhofen;Maisach S;Geldhauser/RVO
 871;bus;;Maisach S;Pfaffenhofen (a. d. Glonn);RVO/Geldhauser
 872;bus;;Maisach S;Gernlinden S;RVO/Geldhauser
+#872;bus;!Änderung ab 09.12.2018: wird über Weyhern hinaus nach Ebersried verlängert!;Maisach S;Gernlinden S;RVO/Geldhauser
 873;bus;;Fürstenfeldbruck S;Maisach S;Waibel Bus GmbH
 874;bus;;Maisach;Egenhofen, Dirlesried;RVO/Geldhauser
 889;bus;;Althegnenberg;Oberschweinbach;Enders Reisen
@@ -425,7 +435,9 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 8200;bus;Ruftaxi;Landsberied/Jesenwang/Adelshofen/Moorenweis;;Zeiler GmbH
 8300;bus;Ruftaxi;Gernlinden/Olching/Puchheim/Gröbenzell;;Zeiler GmbH
 8400;bus;Ruftaxi;Alling/Schöngeising/Grafrath/Türkenfeld;;Zeiler GmbH
+#8400;bus;!Änderung ab 09.12.2018: wird auf Herrsching und Seefeld ausgeweitet!Ruftaxi;Alling/Schöngeising/Grafrath/Türkenfeld;;Zeiler GmbH
 8500;bus;Ruftaxi;Fürstenfeldbruck/Alling/Eichenau/Puchheim Ort/Germering-Unterpfaffenhofen;;Zeiler GmbH
+#8500;bus;!Änderung ab 09.12.2018: wird auf Gilching ausgeweitet!Ruftaxi;Fürstenfeldbruck/Alling/Eichenau/Puchheim Ort/Germering-Unterpfaffenhofen;;Zeiler GmbH
 8800;bus;Ruftaxi;Mammendorf/Oberschweinbach/Hattenhofen/Althegnenberg/Mittelstetten;;Zeiler GmbH
 #
 ==== Landkreis Starnberg - 900 - 999
@@ -463,7 +475,7 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 = Nicht zum MVV gehörende Linien mit Bezug zu München
 == Regional-Bahn, Teilstrecken mit Anerkennung des MVV-Tarifs
 - Die Nummern hier werden beim MVV als "R xxx" verwendet.
-
+#Flughafenexpress;train;!Neue Linie ab 09.12.2018!;Regensburg;München Flughafen Terminal;DB Regio
 900;train;Petershausen - Ingolstadt nicht im MVV-Tarif;München Hauptbahnhof;Ingolstadt;DB Regio
 930;train;Moosburg - Landshut nicht im MVV-Tarif;München Hauptbahnhof;Landshut;Alex;DB AG
 940;train;Markt Schwaben - Mühldorf nicht im MVV-Tarif;München Hauptbahnhof;Mühldorf;DB Regio
