@@ -13,7 +13,7 @@ NETWORK_SHORT="VVM"
 ANALYSIS_PAGE="Mittelschwaben/Transportation/Analyse"
 WIKI_ROUTES_PAGE="Mittelschwaben/Transportation/VVM-Linien-gesamt"
 
-ANALYSIS_OPTIONS="--max-error=10 --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=allow --positive-notes --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=de_DE --max-error=10 --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=allow --positive-notes --coloured-sketchline"
 
 # --check-bus-stop 
 # --expect-network-long

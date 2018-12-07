@@ -150,13 +150,15 @@ SB82;bus;;;;
 121;bus;;;;
 122;bus;;;;
 123;bus;;;;
+124;bus;;Breslauer Platz/Hbf;Gewerbegebiet Feldkassel;KVB
 125;bus;;;;
 126;bus;;;;
-127;bus;;;;
-130;bus;;Sürth;Universität;
+127;bus;;Ebertplatz;Longerich;KVB
+130;bus;;Sürth;Universität;KVB
 131;bus;;Sürth;Sülz;
 132;bus;;;;
 133;bus;;;;
+134;bus;;Sürth;Universität;KVB
 135;bus;;Rodenkirchen;Meschenich;
 136;bus;;;;
 138;bus;;;;
@@ -166,7 +168,7 @@ SB82;bus;;;;
 141;bus;;Weiden;Vogelsang;
 142;bus;;;;
 143;bus;;Lövenich;Bocklemünd;
-144;bus;;Lövenich;Müngersdorf;
+144;bus;;Lövenich;Gewerbegebiet Vogelsang;KVB
 145;bus;;Bocklemünd;Bachem;
 146;bus;;;;
 147;bus;;;;
@@ -176,7 +178,7 @@ SB82;bus;;;;
 152;bus;;;;
 153;bus;;;;
 154;bus;;;;
-155;bus;Mühlheim-Dünnwald-Stammheim;;;
+155;bus;;Mühlheim;Stammheim;KVB
 156;bus;;;;
 157;bus;;;;
 158;bus;;;;
@@ -187,6 +189,8 @@ SB82;bus;;;;
 165;bus;;;;
 166;bus;;;;
 167;bus;;;;
+179;bus;;Neubrück;Deutz;KVB
+184;bus;Taxibus; Ebertplatz | Neusser Str./Gürtel ;Lentpark;KVB
 185;bus;;;;
 190;bus;Linie existiert nicht mehr im Fahrplan 2018;;;
 191;bus;;;;
