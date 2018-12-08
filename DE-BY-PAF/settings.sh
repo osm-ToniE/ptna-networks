@@ -13,7 +13,7 @@ NETWORK_SHORT="PAF|INGV|RBA|MVV|VLK|RBO|VGND"
 ANALYSIS_PAGE="Pfaffenhofen an der Ilm/Transportation/Analyse"
 WIKI_ROUTES_PAGE="Pfaffenhofen_an_der_Ilm/Transportation/Analyse/DE-BY-PAF-Linien"
 
-ANALYSIS_OPTIONS="--language=de_DE --max-error=10 --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=allow --positive-notes --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=de_DE.UTF-8 --max-error=10 --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=allow --positive-notes --coloured-sketchline"
 
 # --check-bus-stop 
 # --expect-network-long

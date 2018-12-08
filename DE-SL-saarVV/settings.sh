@@ -13,7 +13,7 @@ NETWORK_SHORT="saarVV"
 ANALYSIS_PAGE="saarVV/Analyse"
 WIKI_ROUTES_PAGE="saarVV/Analyse/DE-SL-saarVV-Routes"
 
-ANALYSIS_OPTIONS="--language=de_DE --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --expect-network-short"
+ANALYSIS_OPTIONS="--language=de_DE.UTF-8 --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --expect-network-short"
 
 # --check-bus-stop 
 # --expect-network-long

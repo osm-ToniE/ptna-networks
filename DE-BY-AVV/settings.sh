@@ -13,7 +13,7 @@ NETWORK_SHORT="AVV"
 ANALYSIS_PAGE="Augsburg/Transportation/Analyse"
 WIKI_ROUTES_PAGE="Augsburg/Transportation/AVV-Linien-gesamt"
 
-ANALYSIS_OPTIONS="--language=de_DE --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=de_DE.UTF-8 --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
 # --max-error=
 # --check-bus-stop 

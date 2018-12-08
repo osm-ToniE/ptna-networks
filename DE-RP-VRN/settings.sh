@@ -13,7 +13,7 @@ NETWORK_SHORT="VRN"
 ANALYSIS_PAGE="Verkehrsverbund_Rhein-Neckar/Analyse"
 WIKI_ROUTES_PAGE="Verkehrsverbund_Rhein-Neckar/Analyse/DE-RP-VRN-Linien"
 
-ANALYSIS_OPTIONS="--language=de_DE --max-error=10 --check-access --check-stop-position --check-sequence --check-osm-separator --check-osm-separator --check-motorway-link --positive-notes --check-name --multiple-ref-type-entries=analyze --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=de_DE.UTF-8 --max-error=10 --check-access --check-stop-position --check-sequence --check-osm-separator --check-osm-separator --check-motorway-link --positive-notes --check-name --multiple-ref-type-entries=analyze --coloured-sketchline"
 
 # --check-bus-stop 
 # --expect-network-long
