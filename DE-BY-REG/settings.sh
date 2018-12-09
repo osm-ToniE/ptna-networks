@@ -13,7 +13,7 @@ NETWORK_SHORT="REG|WBA"
 ANALYSIS_PAGE="Regen/Transportation/Analyse"
 WIKI_ROUTES_PAGE="Regen/Transportation/Analyse/DE-BY-REG-Linien"
 
-ANALYSIS_OPTIONS="--language=de_DE.UTF-8 --max-error=10 --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=allow --positive-notes --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=allow --positive-notes --coloured-sketchline"
 
 # --check-bus-stop 
 # --expect-network-long

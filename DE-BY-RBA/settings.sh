@@ -13,7 +13,7 @@ NETWORK_SHORT="RBA|VDR|RBI|bodo|VVM|LVG"
 ANALYSIS_PAGE="Region_Augsburg/Transportation/Analyse"
 WIKI_ROUTES_PAGE="Region_Augsburg/Transportation/Analyse/DE-BY-RBA-Linien"
 
-ANALYSIS_OPTIONS="--language=de_DE.UTF-8 --max-error=10 --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=allow --positive-notes --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=allow --positive-notes --coloured-sketchline"
 
 # --check-bus-stop 
 # --expect-network-long
