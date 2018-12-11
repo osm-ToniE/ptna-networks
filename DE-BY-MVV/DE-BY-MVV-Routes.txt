@@ -197,8 +197,7 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 214;bus;;Riemerling, Altenheim;Hohenbrunn;Verkehrsbetrieb Ettenhuber GmbH
 #215;bus;;Lohhof S Süd;Lohhof S Nord;VBR GmbH, München
 215;bus;!Änderung ab 09.12.2018: Teile werden von 218 übernommen!;Lohhof S Süd;Unterschleißheim S Ost;VBR GmbH, München
-#216;bus;;Faistenhaar/Otterloh;Brunnthal Nord;RVO/Geldhauser
-216;bus;!Änderung ab 09.12.2018: Komplett neue Fahrstrecke, vereinfacht!;Taufkirchen, Hugo-Junkers-Straße;Faistenhaar;RVO/Geldhauser
+216;bus;;Taufkirchen, Hugo-Junkers-Straße;Faistenhaar;RVO/Geldhauser
 217;bus;;Neuperlach Süd U S;Unterhaching S;Demmelmair GmbH & Co
 218;bus;!Neue Buslinie ab 09.12.2018!;Unterschleißheim S West;Lohhof S Süd;VBR GmbH/Busverkehr Südbayern GmbH
 219;bus;;Garching-Hochbrück U;Unterschleißheim S Ost;VBR GmbH, München
@@ -222,7 +221,7 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 241;bus;;Haar S;Taufkirchen, Friedhof;Verkehrsbetrieb Ettenhuber GmbH
 242;bus;;Haar S;Gronsdorf S;DB Regio Bus Bayern GmbH
 243;bus;;Haar, Hans-Stießberger-Straße;Neukeferloh;DB Regio Bus Bayern GmbH
-244;bus;!Neue Buslinie ab 09.12.2018!;Taufkirchen, Hugo-Junkers-Straße;Sauerlach S;Verkehrsbetrieb Ettenhuber GmbH
+244;bus;;Taufkirchen, Hugo-Junkers-Straße;Sauerlach S;Verkehrsbetrieb Ettenhuber GmbH
 258;bus;;Gräfelfing S;Starnberger Straße;Busservice Watzinger
 259;bus;!Neue Buslinie ab 09.12.2018!;Pasing Bf S R;Martinsried;Demmelmair GmbH & Co
 260;bus;;Germering-Unterpfaffenhofen S;Fürstenried West U;Busservice Watzinger
@@ -237,11 +236,10 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 269;bus;;Neuried;Klinikum Großhadern U;Busverkehr Südbayern
 270;bus;;Höllriegelskreuth S;Solln S;Demmelmair GmbH & Co
 271;bus;;Höllriegelskreuth S;Dietramszell;Geldhauser/RVO
-N272;bus;!Neue Buslinie ab 09.12.2018! Nachtbuslinie Grünwald;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzinger,
+N272;bus;;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzinger,
 285;bus;;Haar S;Ismaning S;Verkehrsbetrieb Ettenhuber GmbH
 290;bus;;Stadtbus Garching;;Verkehrsbetrieb Ettenhuber GmbH
-#291;bus;;Oberschleißheim, Bruckmannring;Dachau S R;Busverkehr Südbayern
-291;bus;!Änderung ab 09.12.2018: Verlängerung von Oberschleißheim nach Unterschleißheim (S)!;Dachau S R;Unterschleißheim S;Busverkehr Südbayern
+291;bus;;Dachau S R;Unterschleißheim S;Busverkehr Südbayern
 292;bus;;Garching-Forschungszentrum U;Sonnenstraße;Boos/Hadersdorfer/Scharf
 293;bus;;Dirnismaning;Garching U;Verkehrsbetrieb Ettenhuber GmbH
 294;bus;;Am Hart U;Garching-Hochbrück U;Verkehrsbetrieb Ettenhuber GmbH
@@ -511,7 +509,6 @@ BBB;bus;Biberger-Bürger-Bus;;;BBB e.V.
 BBG;bus;Bürger-Bus Gauting;;;
 ET1;bus;Glonn: Ettenhuber 1;;;Verkehrsbetrieb Ettenhuber GmbH
 LTG;bus;Linien-Taxi Grünwald;;;Gemeinde Grünwald
-NGW;bus;nacht-Bus Grünwald;;;Gemeinde Grünwald
 #
 == Anruf-Sammel-Taxi (AST) ohne Anerkennung des MVV-Tarifs
 === Landkreis Freising

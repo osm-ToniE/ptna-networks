@@ -253,7 +253,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 
 == 4xx-Linien (Überwiegend in Italien)
 
-400;bus;;;;
+400;bus;;Mailand;Venedig;FlixMobility GmbH
 401;bus;;;;
 402;bus;;;;
 403;bus;;Turin;Budapest;FlixMobility GmbH
@@ -680,29 +680,29 @@ N23;bus;;;;
 N24;bus;;;;
 N27;bus;;;;
 N28;bus;;Düsseldorf;Venedig;FlixMobility GmbH
-N30;bus;;;;
+N30;bus;bis 10.04.2019 buchbar, wird eingestellt?;;;
 N31;bus;;;;
 N36;bus;;Antwerpen;Bratislava;FlixMobility GmbH
 N38;bus;;;;
 N40;bus;ab 05.11.2018 nicht mehr buchbar, wird eingestellt.;Innsbruck;Berlin;FlixMobility GmbH
 N42;bus;;;;
-N44;bus;via Groningen,Uplengen,Oldenburg,Bremen,Hamburg,Berlin (ZOB);Amsterdam;Berlin (Alexanderplatz);FlixMobility GmbH
+N44;bus;bis 10.04.2019 buchbar, wird eingestellt? via Groningen,Uplengen,Oldenburg,Bremen,Hamburg,Berlin (ZOB);Amsterdam;Berlin (Alexanderplatz);FlixMobility GmbH
 N50;bus;;;;
 N60;bus;;;;
 N61;bus;;;;
-N66;bus;;;;
+N66;bus;bis 10.04.2019 buchbar, wird eingestellt?;;;
 N67;bus;;;;
 N69;bus;ab 05.11.2018 nicht mehr buchbar, wird eingestellt.;;;
 N70;bus;;;;
 N71;bus;;;;
 N73;bus;;;;
 N74;bus;;;;
-N75;bus;via Groningen,Bremen,Hamburg;Amsterdam;Berlin (ZOB);FlixMobility GmbH
+N75;bus;bis 06.01.2020 buchbar, wird eingestellt? via Groningen,Bremen,Hamburg;Amsterdam;Berlin (ZOB);FlixMobility GmbH
 N76;bus;;München;Turin;FlixMobility GmbH
 N77;bus;;;;
 N79;bus;;;;
 N80;bus;;;;
-N81;bus;;Berlin;Brüssel;FlixMobility GmbH
+N81;bus;bis 10.04.2019 buchbar, wird eingestellt?;Berlin;Brüssel;FlixMobility GmbH
 N83;bus;;München;Prag;FlixMobility GmbH
 N84;bus;;;;
 N86;bus;;;;
@@ -718,7 +718,7 @@ N99;bus;;;;
 N100;bus;;;;
 N101;bus;Ab 05.11.2018 nicht mehr buchbar, wird eingestellt.;;;
 N106;bus;;;;
-N109;bus;;;;
+N109;bus;bis 10.04.2019 buchbar, wird eingestellt?;;;
 N110;bus;;;;
 N116;bus;Seite nicht mehr verfügbar.;;;
 N121;bus;Ab 05.11.2018 nicht mehr buchbar, wird eingestellt.;;;
@@ -740,7 +740,7 @@ N261;bus;;;;
 N277;bus;;;;
 
 N307;bus;Seite nicht mehr verfügbar.;;;
-N367;bus;Seite nicht mehr verfügbar.;;;
+N367;bus;bis 10.04.2019 buchbar, wird eingestellt?;;;
 N391;bus;;Freiburg im Breisgau;Budapest Népliget;FlixMobility GmbH
 
 N401;bus;;;;
@@ -753,7 +753,7 @@ N421;bus;Seit 30.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
 N422;bus;;;;
 N424;bus;;;;
 N425;bus;;;;
-N431;bus;;;;
+N431;bus;;Bergamo;Lecce;FlixMobility GmbH
 N432;bus;;;;
 N433;bus;;;;
 N440;bus;;;;
@@ -768,7 +768,7 @@ N501;bus;;;;
 N503;bus;;;;
 N504;bus;;;;
 N507;bus;;;;
-N519;bus;;;;
+N519;bus;;Aosta;Rom;FlixMobility GmbH;;;
 N520;bus;;;;
 N521;bus;;;;
 N522;bus;;;;
