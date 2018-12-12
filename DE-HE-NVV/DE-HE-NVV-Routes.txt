@@ -181,9 +181,14 @@ RT5;tram;;Kassel;Melsungen;RBK
 450;bus;;Knüllwald;Fritzlar;
 460;bus;;Schwalmtal;Jesberg;
 461;bus;;Gilserberg;Schwalmstadt-Treysa;
+462;bus;;Gilserberg;Schwalmstadt;Knieling Touristik
+463;bus;;Lischeid;Schwalmstadt;Knieling Touristik
 470;bus;;Bad Hersfeld;Schwalmstadt;
 472;bus;;Siebertshausen;Schwalmstadt;
 473;bus;;Schwarzenborn;Schwalmstadt;
+474;bus;;Oberaula;Alsfeld;Zulauf Reisen
+475;bus;;Schwarzenborn;Oberaula;Zulauf Reisen
+476;bus;;Neuenkirchen;Wincherode;Zulauf Reisen
 477;bus;;Schwalmstadt;Schwalmstadt;
 478;bus;;Schrecksbach;Ziegenhain;
 479;bus;;Neuenkirchen;Neuenkirchen;
@@ -202,8 +207,10 @@ RT5;tram;;Kassel;Melsungen;RBK
 507;bus;;Korbach;Brilon Wald;ALV Oberhessen
 508;bus;;Diemelsee;Korbach;ALV Oberhessen
 510;bus;Sommerfahrplan;Korbach;Bad Wildungen;BKW Bad Wildungen
+510.2;bus;;Korbach;Waldeck;BKW Bad Wildungen
 512;bus;;Frebershausen;Bad Wildungen;BKW Bad Wildungen
 515;bus;;Bad Wildungen;Edertal-Bringshausen;BKW Bad Wildungen
+516;bus;;Bad Arolsen;Volkhardinghausen;ALV Oberhessen
 520;bus;;Frankenberg;Bad Wildungen;ALV Oberhessen
 521;bus;;Frankenau;Herzhausen;BKW Bad Wildungen
 525;bus;;Frankenberg;Gemünden;BKW Bad Wildungen

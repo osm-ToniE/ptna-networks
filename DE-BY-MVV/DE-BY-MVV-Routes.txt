@@ -204,8 +204,7 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 220;bus;;Winning;Giesing U S;Verkehrsbetrieb Ettenhuber GmbH
 221;bus;;Unterhaching S;München, Waldheimplatz;Verkehrsbetrieb Ettenhuber GmbH
 222;bus;;Deisenhofen S;Neuperlach Süd U S;Busservice Watzinger
-#223;bus;;Sauerlach S;Arget;RVO/Geldhauser
-223;bus;!Änderung ab 09.12.2018: Kleinere Änderungen!;Sauerlach S;Arget;RVO/Geldhauser
+223;bus;;Sauerlach S;Arget;Verkehrsbetrieb Ettenhuber GmbH
 224;bus;;Unterhaching S;Höllriegelskreuth S;Demmelmair GmbH & Co
 225;bus;;Taufkirchen S;Gewerbegebiet Potzham;Geldhauser
 #226;bus;;Sauerlach S;Otterloh/Gumpertshausen;RVO/Geldhauser

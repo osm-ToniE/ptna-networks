@@ -266,7 +266,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 410;bus;;;;
 411;bus;;;;
 412;bus;ab 04.11.2018 nicht mehr buchbar, wird eingestellt;;;
-414;bus;;;;
+414;bus;;Bellinzona;Verona;FlixMobility GmbH
 415;bus;;;;
 416;bus;;;;
 418;bus;;;;
