@@ -1,30 +1,38 @@
 <pre>
 #
-# Formatierung:
+# Formatierung: die Formatierung lehnt sich ans Wiki an.
 #
-# Überschriften beginnen mit '=', '==', '===', '====', ... am Anfang einer Zeile, die Formatierung lehnt sich ans Wiki an
+# Links: [[...|...]] sind (wie im OSM-Wiki) interne Verweise ins OSM-Wiki
+#        [... ...] sind (wie im OSM-Wiki) externe Verweise ins Internet
 #
-# Einfacher Text beginnt mit '-' am Anfang einer Zeile, die Formatierung lehnt sich ans Wiki an, Zeilen hier werden im Wiki mit <br /> abgeschlossen (neue Zeile).
-# Einfacher Text darf nur direkt hinter einer Überschrift stehen.
+# Überschriften beginnen mit '=', '==', '===', '====', ... am Anfang einer Zeile
 #
-# Links: [[...|...]] sind interne Verweise im Wiki
-#        [... ...] sind externe Verweise
+# Einfacher Text beginnt mit '-' am Anfang einer Zeile.
+#     Einfacher Text darf nur direkt hinter einer Überschrift stehen.
+#     !!!Text mit gelbem Hintergrund!!! im einfachen Text
+#     '''''Text mit dicken, kursiven Buchstaben''''' im einfachen Text
+#     '''Text mit dicken Buchstaben''' im einfachen Text
+#     ''Text mit kursiven Buchstaben'' im einfachen Text
+#     -   d.h. ein einfaches '-' am Anfang der Zeile gefolgt von 'nichts', 
+#         erzeugt einen Zeilen Umbruch (bzw. packt das bisher ausgegebenen in einen Paragraphen <p> ... </p>)
 #
-# Kommentare beginnen mit '#' am Anfang einer Zeile. Kommentare mittendrin werden nicht erkannt.
+# Kommentare beginnen mit '#' am Anfang einer Zeile. Kommentare mittendrin werden nicht erkannt, d.h. '#' darf innerhalb von Text vorkommen.
 #
-# Format der Datei: UNIX (LF), UTF-8
+# Format der Datei: UTF-8
 #
 #
-# Inhalt im CSV-Format
+# Definition von Linieninformationen: Inhalt im CSV-Format
 #
 # ref;type;comment;from;to;operator
 #
 # - ref       == tag 'ref' von route oder route_master
 # - type      == inhalt des tags 'route' bzw. 'route_master'
 # - comment   == kann Kommentar enthalten wie; Ruftaxi, Bus, Expressbus, ...  wird nicht ausgewertet, lediglich ausgegeben
+#                !Text mit gelbem Hintergrund! im comment (umgeben von einfachem !)
 # - from      == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
 # - to        == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
-# - operator  == wird bei mehreren Linie mit identischem ref und type Differenzierung herangezogen (Der Wert von 'operator' darf ';' enthalten)
+# - operator  == wird bei mehreren Linie mit identischem ref und type Differenzierung herangezogen
+#                Der Wert von 'operator' darf ';' enthalten
 #
 
 
@@ -52,14 +60,14 @@
 
 == Zug
 
-RE1;train;;;;
-RE5;train;;Wesel;Koblenz;
+RE1;train;!Ab 9.6.2019 Betreiber National Express Rail GmbH (RRX)!;Aachen;Hamm (Westf);
+RE5;train;!Ab 9.6.2019 Betreiber National Express Rail GmbH (RRX)!;Wesel;Koblenz;
 RE6;train;;;;
 RE7;train;;;;
 RE8;train;;;;
 RE9;train;;;;
 RE12;train;;;;
-RE22/RB22;train;Eine Linie, zwei unterschiedliche Service;;;
+RE22/RB22;train;Betreiber als "NRW Regionalverkehr,VRT" eingetragen, Linie in Gerolstein geteilt;Köln;Trier;
 # RB22;train;;;;
 RB23;train;Erfttalbahn;Euskirchen;Bad Münstereifel;
 RB24;train;;;;
@@ -150,7 +158,7 @@ SB82;bus;;;;
 121;bus;;;;
 122;bus;;;;
 123;bus;;;;
-124;bus;;Breslauer Platz/Hbf;Gewerbegebiet Feldkassel;KVB
+124;bus;!Neue Linie Fahrplan 2019!;Breslauer Platz/Hbf;Gewerbegebiet Feldkassel;KVB
 125;bus;;;;
 126;bus;;;;
 127;bus;;Ebertplatz;Longerich;KVB
@@ -158,7 +166,7 @@ SB82;bus;;;;
 131;bus;;Sürth;Sülz;
 132;bus;;;;
 133;bus;;;;
-134;bus;;Sürth;Universität;KVB
+134;bus;!Neue Linie Fahrplan 2019!;Sürth;Universität;KVB
 135;bus;;Rodenkirchen;Meschenich;
 136;bus;;;;
 138;bus;;;;
@@ -178,7 +186,7 @@ SB82;bus;;;;
 152;bus;;;;
 153;bus;;;;
 154;bus;;;;
-155;bus;;Mühlheim;Stammheim;KVB
+155;bus;!Ab Fahrplan 2019 Montag-Freitag bis „Mülheim Wiener Platz“ verlängert!;Mühlheim;Stammheim;KVB
 156;bus;;;;
 157;bus;;;;
 158;bus;;;;
@@ -189,10 +197,10 @@ SB82;bus;;;;
 165;bus;;;;
 166;bus;;;;
 167;bus;;;;
-179;bus;;Neubrück;Deutz;KVB
+179;bus;!Neu im Fahrplan 2019!;Neubrück;Deutz;KVB
 184;bus;Taxibus; Ebertplatz | Neusser Str./Gürtel ;Lentpark;KVB
 185;bus;;;;
-190;bus;Linie existiert nicht mehr im Fahrplan 2018;;;
+# 190;bus;Linie existiert nicht mehr im Fahrplan 2018;;;
 191;bus;;;;
 192;bus;;Köln-Meschenich;Hürth-Kalscheuren;
 
@@ -259,9 +267,10 @@ SB82;bus;;;;
 
 === Bus 300 Oberbergischer Kreis ...
 
-301;bus;;;;
-302;bus;;;;
-303;bus;;;;
+301;bus;;Gummersbach;Olpe;OVEG
+302;bus;!Ab Fahrplan 2019 zwischen Gummersbach und Wiehl als Schnellbus!;Gummersbach;Waldbröl;OVEG
+303;bus;!Im Fahrplan 2019 geänderte Struktur!;Gummersbach;Waldbröl;OVEG
+304;bus;!Neu im Fahrplan 2019, übernimmt den Abschnitt Gummersbach - Wiehl von Linie 302!;Gummersbach;Morsbach;OVEG
 306;bus;;;;
 307;bus;;;;
 308;bus;;Marienheide;Frielingsdorf;
@@ -295,6 +304,7 @@ SB82;bus;;;;
 342;bus;;;;
 343;bus;;;;
 344;bus;;;;
+345;bus;!Neu im Fahrplan 2019, übernimmt Teile der Linie 303!;Eckenhagen;Waldbröl;OVEG
 346;bus;Schulverkehr Nümbrecht;;;
 348;bus;;;;
 347;bus;Verkehrsverbund Rhein Mosel;Wissen;Morsbach;H. Ochsenbrücher GmbH
@@ -384,20 +394,23 @@ SB82;bus;;;;
 539;bus;;Oberpleis;Asbach;
 #540;bus;Die Linie gibt es seit dem 12.12.2010 nicht mehr;;;
 541;bus;;;;
-542;bus;;;;
-543;bus;;;;
-544;bus;;;;
-545;bus;Schulverkehr;Lohmar;Neuhonrath;
-546;bus;;;;
-547;bus;Schulverkehr;Lohmar;Wahlscheid;
-548;bus;Rundkurs Schulverkehr;Lohmar;Lohmar;
-549;bus;Schulverkehr;Lohmar;Hollenberg;
+542;bus;!Schulverkehr Lohmar, entfällt mit Fahrplan 2019!;;;
+543;bus;!Schulverkehr Lohmar, entfällt mit Fahrplan 2019!;;;
+544;bus;!Schulverkehr Lohmar, entfällt mit Fahrplan 2019!;;;
+545;bus;!Schulverkehr Lohmar, entfällt mit Fahrplan 2019!;Lohmar;Neuhonrath;
+546;bus;!Schulverkehr Lohmar, entfällt mit Fahrplan 2019!;;;
+547;bus;!Schulverkehr Lohmar, entfällt mit Fahrplan 2019!;Lohmar;Wahlscheid;
+548;bus;!Rundkurs Schulverkehr Lohmar, entfällt mit Fahrplan 2019!;Lohmar;Lohmar;
+549;bus;!Schulverkehr Lohmar, entfällt mit Fahrplan 2019!;Lohmar;Hollenberg;
 550/163;bus;;;;
 551;bus;;;;
-554;bus;;;;
+553;bus;!Neu im Fahrplan 2019!;Lohmar;Neuhohnrath
+554;bus;!2019 geänderte Linienführung via Birk und Heide!;Lohmar;Lohmar;
+555;bus;!Neu im Fahrplan 2019!;Siegburg;Pohlhausen;
 556;bus;;;;
 557;bus;;;;
-558;bus;;;;
+558;bus;!2019 neue Linienführung via Agger und Honrath!;Lohmar;Dahlhausen;
+559;bus;!Neu im Fahrplan 2019!;Lohmar;Kern;
 560;bus;;;;
 562;bus;;;;
 564;bus;;;;
@@ -408,10 +421,11 @@ SB82;bus;;;;
 572;bus;;;;
 573;bus;;;;
 575;bus;;;;
-576;bus;;;;
+576;bus;!2019 neue Linienführung über Schreck, dafür entfallen Birk und Geber!;Siegburg;Much;
 577;bus;;;;
 578;bus;;;;
 579;bus;;;;
+590;bus;!Neu im Fahrplan 2019, Schulverkehr Lohmar!;;;
 
 === Bus 600 Bonn ...
 
@@ -433,7 +447,7 @@ SB82;bus;;;;
 615;bus;;;;
 630;bus;;;;
 631;bus;;;;
-632;bus;Fahrplan 2019 neue Linienführung ohne erweiterte Fahrradbeförderung;Uniklinikum;Beuel Bf;
+632;bus;!Fahrplan 2019 neue Linienführung über Poppelsdorf, Endenich und Nordstadt!;Uniklinikum;Beuel Bf;
 633;bus;;;;
 635;bus;;;;
 636;bus;;;;
@@ -442,6 +456,7 @@ SB82;bus;;;;
 640;bus;;;;
 
 === Bus 700 Brühl / Hürth / Euskirchen ...
+- !!!Kreis Euskichen, Rhein-Erft-Kreis und Rhein-Sieg-Kreis linksrheinisch!!!
 
 702;bus;;;;
 703;bus;;;;
@@ -461,12 +476,15 @@ SB82;bus;;;;
 720;bus;;;;
 721;bus;Stadtverkehr Wesseling;Urfeld;Wesseling;
 722;bus;;;;
+723;bus;!Neu im Fahrplan 2019!;Keldenich;Wesseling
 731;bus;;;;
-747;bus;Ersetzt Bus 805;Rheinbach;Oedingen;
+747;bus;Ersetzt Bus 805, !2019 zusätzliche Haltestellen in Odendorf!;Rheinbach;Odendorf;
 749;bus;;;;
 750;bus;;Meckenheim;Lüftelberg;
+#771;bus;!Neu im Fahrplan 2019!: Fahrradbus (nur Sommer);Schmidtheim;Hellenthal;
 
-=== Bus 800 Rhein-Sieg-Kreis (linksrheinisch) ...
+
+=== Bus 800 Kreis Euskirchen ...
 
 800;bus;;;;
 801;bus;;;;
@@ -542,6 +560,7 @@ TB 835;bus;;;;
 899;bus;Keine Information beim VRS verfügbar;;;
 
 === Bus 900 Bergheim, Erftstadt, ...
+- Rhein-Erft-Kreis
 
 920;bus;;;;
 921;bus;Rundkurs;Sindorf;Sindorf;

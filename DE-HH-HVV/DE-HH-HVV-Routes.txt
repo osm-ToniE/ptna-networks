@@ -1,30 +1,38 @@
 <pre>
 #
-# Formatierung:
+# Formatierung: die Formatierung lehnt sich ans Wiki an.
 #
-# Überschriften beginnen mit '=', '==', '===', '====', ... am Anfang einer Zeile, die Formatierung lehnt sich ans Wiki an
+# Links: [[...|...]] sind (wie im OSM-Wiki) interne Verweise ins OSM-Wiki
+#        [... ...] sind (wie im OSM-Wiki) externe Verweise ins Internet
 #
-# Einfacher Text beginnt mit '-' am Anfang einer Zeile, die Formatierung lehnt sich ans Wiki an, Zeilen hier werden im Wiki mit <br /> abgeschlossen (neue Zeile).
-# Einfacher Text darf nur direkt hinter einer Überschrift stehen.
+# Überschriften beginnen mit '=', '==', '===', '====', ... am Anfang einer Zeile
 #
-# Links: [[...|...]] sind interne Verweise im Wiki
-#        [... ...] sind externe Verweise
+# Einfacher Text beginnt mit '-' am Anfang einer Zeile.
+#     Einfacher Text darf nur direkt hinter einer Überschrift stehen.
+#     !!!Text mit gelbem Hintergrund!!! im einfachen Text
+#     '''''Text mit dicken, kursiven Buchstaben''''' im einfachen Text
+#     '''Text mit dicken Buchstaben''' im einfachen Text
+#     ''Text mit kursiven Buchstaben'' im einfachen Text
+#     -   d.h. ein einfaches '-' am Anfang der Zeile gefolgt von 'nichts', 
+#         erzeugt einen Zeilen Umbruch (bzw. packt das bisher ausgegebenen in einen Paragraphen <p> ... </p>)
 #
-# Kommentare beginnen mit '#' am Anfang einer Zeile. Kommentare mittendrin werden nicht erkannt.
+# Kommentare beginnen mit '#' am Anfang einer Zeile. Kommentare mittendrin werden nicht erkannt, d.h. '#' darf innerhalb von Text vorkommen.
 #
-# Format der Datei: UNIX (LF), UTF-8
+# Format der Datei: UTF-8
 #
 #
-# Inhalt im CSV-Format
+# Definition von Linieninformationen: Inhalt im CSV-Format
 #
 # ref;type;comment;from;to;operator
 #
 # - ref       == tag 'ref' von route oder route_master
 # - type      == inhalt des tags 'route' bzw. 'route_master'
 # - comment   == kann Kommentar enthalten wie; Ruftaxi, Bus, Expressbus, ...  wird nicht ausgewertet, lediglich ausgegeben
+#                !Text mit gelbem Hintergrund! im comment (umgeben von einfachem !)
 # - from      == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
 # - to        == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
-# - operator  == wird bei mehreren Linie mit identischem ref und type Differenzierung herangezogen (Der Wert von 'operator' darf ';' enthalten)
+# - operator  == wird bei mehreren Linie mit identischem ref und type Differenzierung herangezogen
+#                Der Wert von 'operator' darf ';' enthalten
 #
 
 
@@ -34,7 +42,7 @@
 - Verweis auf mehr [[Talk:Hamburger_Verkehrsverbund/Analyse|Informationen]] im Wiki.
 
 == Hinweis
-- Grunddaten Stand 2.11.18 zzgl. Anpassungen Fahrplanwechsel Stand 8.12.18.
+- Grunddaten Stand 6.12.18
 -
 - Bei der Analyse ist 'network' derzeit entweder
 -
@@ -91,7 +99,6 @@ U4;subway;;;;
 61;ferry;;;;
 62;ferry;;;;
 64;ferry;;;;
-68;ferry;;;;
 72;ferry;;;;
 73;ferry;;;;
 75;ferry;;;;
@@ -130,12 +137,15 @@ HBEL;ferry;;;;
 35;bus;;;;
 36;bus;;;;
 37;bus;;;;
+39;bus;;;;
 48;bus;;;;
 49;bus;;;;
 
 == EilBus
 E30;bus;;;;
 E40;bus;;;;
+E62;bus;;;;
+E69;bus;;;;
 E69;bus;;;;
 E86;bus;;;;
 
@@ -168,6 +178,7 @@ E86;bus;;;;
 642;bus;;;;
 643;bus;;;;
 644;bus;;;;
+647;bus;;;;
 648;bus;;;;
 649;bus;;;;
 658;bus;;;;
@@ -190,6 +201,7 @@ E86;bus;;;;
 137;bus;;;;
 138;bus;;;;
 139;bus;;;;
+140;bus;;;;
 141;bus;;;;
 142;bus;;;;
 143;bus;;;;
@@ -218,7 +230,6 @@ E86;bus;;;;
 172;bus;;;;
 173;bus;;;;
 174;bus;;;;
-175;bus;;;;
 176;bus;;;;
 177;bus;;;;
 178;bus;;;;
@@ -268,6 +279,7 @@ E86;bus;;;;
 257;bus;;;;
 260;bus;;;;
 261;bus;;;;
+262;bus;;;;
 263;bus;;;;
 264;bus;;;;
 268;bus;;;;
@@ -277,6 +289,7 @@ E86;bus;;;;
 274;bus;;;;
 275;bus;;;;
 276;bus;;;;
+277;bus;;;;
 278;bus;;;;
 281;bus;;;;
 283;bus;;;;
@@ -320,8 +333,11 @@ E86;bus;;;;
 375;bus;;;;
 376;bus;;;;
 378;bus;;;;
+385;bus;;;;
+388;bus;;;;
 389;bus;;;;
 391;bus;;;;
+392;bus;;;;
 393;bus;;;;
 395;bus;;;;
 410;bus;;;;
@@ -345,13 +361,13 @@ E86;bus;;;;
 454;bus;;;;
 461;bus;;;;
 462;bus;;;;
-463;bus;;;;
 464;bus;;;;
 465;bus;;;;
 469;bus;;;;
 474;bus;;;;
 476;bus;;;;
 478;bus;;;;
+488;bus;;;;
 489;bus;;;;
 493;bus;;;;
 494;bus;;;;
@@ -372,6 +388,7 @@ E86;bus;;;;
 574;bus;;;;
 576;bus;;;;
 578;bus;;;;
+588;bus;;;;
 589;bus;;;;
 593;bus;;;;
 594;bus;;;;
@@ -391,6 +408,7 @@ E86;bus;;;;
 
 == Busse im Umland
 1705;bus;;;;
+1824;bus;;;;
 2001;bus;;;;
 2002;bus;;;;
 2004;bus;;;;
@@ -405,6 +423,7 @@ E86;bus;;;;
 2027;bus;;;;
 2028;bus;;;;
 2030;bus;;;;
+2034;bus;;;;
 2035;bus;;;;
 2036;bus;;;;
 2037;bus;;;;
@@ -527,6 +546,7 @@ E86;bus;;;;
 4684;bus;;;;
 4700;bus;;;;
 4701;bus;;;;
+4705;bus;;;;
 4710;bus;;;;
 4714;bus;;;;
 4715;bus;;;;
@@ -621,6 +641,7 @@ E86;bus;;;;
 6543;bus;;;;
 6544;bus;;;;
 6551;bus;;;;
+6552;bus;;;;
 6660;bus;;;;
 6661;bus;;;;
 6663;bus;;;;
@@ -644,11 +665,9 @@ E86;bus;;;;
 7580;bus;;;;
 7590;bus;;;;
 7600;bus;;;;
-7609;bus;;;;
 7650;bus;;;;
 7651;bus;;;;
 7652;bus;;;;
-7653;bus;;;;
 7660;bus;;;;
 7670;bus;;;;
 7671;bus;;;;
@@ -678,8 +697,8 @@ E86;bus;;;;
 8101;bus;;;;
 8102;bus;;;;
 8103;bus;;;;
+8104;bus;;;;
 8105;bus;;;;
-8109;bus;;;;
 8110;bus;;;;
 8111;bus;;;;
 8112;bus;;;;
@@ -692,7 +711,6 @@ E86;bus;;;;
 8120;bus;;;;
 8121;bus;;;;
 8122;bus;;;;
-8129;bus;;;;
 8130;bus;;;;
 8131;bus;;;;
 8133;bus;;;;
@@ -747,7 +765,6 @@ E86;bus;;;;
 8761;bus;;;;
 8762;bus;;;;
 8763;bus;;;;
-8769;bus;;;;
 8770;bus;;;;
 8771;bus;;;;
 8772;bus;;;;
@@ -788,13 +805,10 @@ E86;bus;;;;
 8881;bus;;;;
 8882;bus;;;;
 8884;bus;;;;
-8888;bus;;;;
-8889;bus;;;;
 8890;bus;;;;
 8891;bus;;;;
 8892;bus;;;;
 8893;bus;;;;
 8894;bus;;;;
 8895;bus;;;;
-
 </pre>

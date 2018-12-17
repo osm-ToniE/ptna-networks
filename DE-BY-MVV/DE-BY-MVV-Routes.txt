@@ -1,30 +1,38 @@
 <pre>
 #
-# Formatierung:
+# Formatierung: die Formatierung lehnt sich ans Wiki an.
 #
-# Überschriften beginnen mit '=', '==', '===', '====', ... am Anfang einer Zeile, die Formatierung lehnt sich ans Wiki an
+# Links: [[...|...]] sind (wie im OSM-Wiki) interne Verweise ins OSM-Wiki
+#        [... ...] sind (wie im OSM-Wiki) externe Verweise ins Internet
 #
-# Einfacher Text beginnt mit '-' am Anfang einer Zeile, die Formatierung lehnt sich ans Wiki an, Zeilen hier werden im Wiki mit <br /> abgeschlossen (neue Zeile).
-# Einfacher Text darf nur direkt hinter einer Überschrift stehen.
+# Überschriften beginnen mit '=', '==', '===', '====', ... am Anfang einer Zeile
 #
-# Links: [[...|...]] sind interne Verweise im Wiki
-#        [... ...] sind externe Verweise
+# Einfacher Text beginnt mit '-' am Anfang einer Zeile.
+#     Einfacher Text darf nur direkt hinter einer Überschrift stehen.
+#     !!!Text mit gelbem Hintergrund!!! im einfachen Text
+#     '''''Text mit dicken, kursiven Buchstaben''''' im einfachen Text
+#     '''Text mit dicken Buchstaben''' im einfachen Text
+#     ''Text mit kursiven Buchstaben'' im einfachen Text
+#     -   d.h. ein einfaches '-' am Anfang der Zeile gefolgt von 'nichts', 
+#         erzeugt einen Zeilen Umbruch (bzw. packt das bisher ausgegebenen in einen Paragraphen <p> ... </p>)
 #
-# Kommentare beginnen mit '#' am Anfang einer Zeile. Kommentare mittendrin werden nicht erkannt.
+# Kommentare beginnen mit '#' am Anfang einer Zeile. Kommentare mittendrin werden nicht erkannt, d.h. '#' darf innerhalb von Text vorkommen.
 #
-# Format der Datei: UNIX (LF), UTF-8
+# Format der Datei: UTF-8
 #
 #
-# Inhalt im CSV-Format
+# Definition von Linieninformationen: Inhalt im CSV-Format
 #
 # ref;type;comment;from;to;operator
 #
 # - ref       == tag 'ref' von route oder route_master
 # - type      == inhalt des tags 'route' bzw. 'route_master'
 # - comment   == kann Kommentar enthalten wie; Ruftaxi, Bus, Expressbus, ...  wird nicht ausgewertet, lediglich ausgegeben
+#                !Text mit gelbem Hintergrund! im comment (umgeben von einfachem !)
 # - from      == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
 # - to        == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
-# - operator  == wird bei mehreren Linie mit identischem ref und type Differenzierung herangezogen (Der Wert von 'operator' darf ';' enthalten)
+# - operator  == wird bei mehreren Linie mit identischem ref und type Differenzierung herangezogen
+#                Der Wert von 'operator' darf ';' enthalten
 #
 
 
@@ -45,7 +53,7 @@ U4;subway;;Westendstraße;Arabellapark;SWM/MVG
 U5;subway;;Laimer Platz;Neuperlach Süd;SWM/MVG
 U6;subway;;Garching, Forschungszentrum;Klinikum Großhadern;SWM/MVG
 U7;subway;;Olympia-Einkaufszentrum;Neuperlach Zentrum;SWM/MVG
-U8;subway;;Olympiazentrum;Sendlinger Tor;SWM/MVG
+U8;subway;!Änderung ab 09.12.2018: Samstags bis Neuperlach Zentrum!;Olympiazentrum;Sendlinger Tor;SWM/MVG
 #
 == S-Bahn
 S1;train;;Flughafen München / Freising;Ostbahnhof;DB Regio AG/S-Bahn München
@@ -65,7 +73,7 @@ S20;train;;Höllriegelskreuth;Geltendorf;DB Regio AG/S-Bahn München
 16;tram;;Romanplatz;Effnerplatz (- St. Emmeram);SWM/MVG
 17;tram;;Amalienburgstraße;St. Emmeram;SWM/MVG
 18;tram;;Gondrellplatz;Schwanseestraße;SWM/MVG
-19;tram;;Pasing Bf;St.-Veit-Straße;SWM/MVG
+19;tram;;Pasing Bf;Berg-am Laim;SWM/MVG
 20;tram;;Moosach;Karlsplatz (Stachus);SWM/MVG
 21;tram;;Westfriedhof;St.-Veit-Straße;SWM/MVG
 22;tram;;Hochschule München;Karlsplatz (Stachus);SWM/MVG
@@ -85,6 +93,7 @@ N27;tram;;Petuelring;Großhesseloher Brücke;SWM/MVG
 === Express-Bus (München)
 X30;bus;ExpressBus;Harras U S R;Ostbahnhof U S R;SWM/MVG
 X50;bus;!Neue Buslinie ab 09.12.2018! ExpressBus;Moosach U S R;Alte Heide U;SWM/MVG,
+X80;bus;!Neue Buslinie ab 09.12.2018! ExpressBus;Moosach U S R;Puchheim Süd (S);SWM/MVG,
 X98;bus;ExpressBus;Hauptbahnhof;Tierpark (Alemannenstraße);SWM/MVG
 #
 === Metro-Bus (München)
@@ -195,19 +204,17 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 212;bus;;Grasbrunn;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
 213;bus;;Ostbahnhof U S R;Taufkirchen, Lilienthalstraße;RVO/Geldhauser
 214;bus;;Riemerling, Altenheim;Hohenbrunn;Verkehrsbetrieb Ettenhuber GmbH
-#215;bus;;Lohhof S Süd;Lohhof S Nord;VBR GmbH, München
 215;bus;!Änderung ab 09.12.2018: Teile werden von 218 übernommen!;Lohhof S Süd;Unterschleißheim S Ost;VBR GmbH, München
 216;bus;;Taufkirchen, Hugo-Junkers-Straße;Faistenhaar;RVO/Geldhauser
 217;bus;;Neuperlach Süd U S;Unterhaching S;Demmelmair GmbH & Co
 218;bus;!Neue Buslinie ab 09.12.2018!;Unterschleißheim S West;Lohhof S Süd;VBR GmbH/Busverkehr Südbayern GmbH
-219;bus;;Garching-Hochbrück U;Unterschleißheim S Ost;VBR GmbH, München
+219;bus;!Änderung ab 09.12.2018: neue Haltestelle St.-Korbinian in Unterschleißheim!;Garching-Hochbrück U;Unterschleißheim S Ost;VBR GmbH, München
 220;bus;;Winning;Giesing U S;Verkehrsbetrieb Ettenhuber GmbH
 221;bus;;Unterhaching S;München, Waldheimplatz;Verkehrsbetrieb Ettenhuber GmbH
 222;bus;;Deisenhofen S;Neuperlach Süd U S;Busservice Watzinger
 223;bus;;Sauerlach S;Arget;Verkehrsbetrieb Ettenhuber GmbH
 224;bus;;Unterhaching S;Höllriegelskreuth S;Demmelmair GmbH & Co
 225;bus;;Taufkirchen S;Gewerbegebiet Potzham;Geldhauser
-#226;bus;;Sauerlach S;Otterloh/Gumpertshausen;RVO/Geldhauser
 226;bus;!Änderung ab 09.12.2018: Verlängert nach Deisenhofen (S/R) / Abt-Petto-Straße (Gymnasium)!;Sauerlach S;Deisenhofen S R;RVO/Geldhauser
 227;bus;;Ortsbus Oberhaching;;Busservice Watzinger
 229;bus;;Ottobrunn, Phönix Bad;Neuperlach Süd U S;Geldhauser
@@ -230,12 +237,12 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 264;bus;;Messestadt West U;Riem S Dornach;Verkehrsbetrieb Ettenhuber GmbH
 265;bus;;Pasing S R;Planegg S;Busservice Watzinger
 266;bus;;Planegg S;Klinikum Großhadern U;Busservice Watzinger
-267;bus;;Neuaubing;Fürstenried West U;Busservice Watzinger
+267;bus;!Änderung ab 09.12.2018: Neue Haltestelle Lena-Christ-Straße!;Neuaubing;Fürstenried West U;Busservice Watzinger
 268;bus;;Waldfriedhof;Gräfelfing S;Busservice Watzinger
 269;bus;;Neuried;Klinikum Großhadern U;Busverkehr Südbayern
-270;bus;;Höllriegelskreuth S;Solln S;Demmelmair GmbH & Co
+270;bus;!Änderung ab 09.12.2018: Neue Haltestelle Whistlerweg!;Höllriegelskreuth S;Solln S;Demmelmair GmbH & Co
 271;bus;;Höllriegelskreuth S;Dietramszell;Geldhauser/RVO
-N272;bus;;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzinger,
+N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzinger,
 285;bus;;Haar S;Ismaning S;Verkehrsbetrieb Ettenhuber GmbH
 290;bus;;Stadtbus Garching;;Verkehrsbetrieb Ettenhuber GmbH
 291;bus;;Dachau S R;Unterschleißheim S;Busverkehr Südbayern
@@ -269,8 +276,8 @@ N272;bus;;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzinger,
 445;bus;;Ebersberg S R;Erding S;Larcher, Markt Schwaben
 446;bus;;Markt Schwaben S R;Ebersberg S R;Larcher, Markt Schwaben
 447;bus;;Aßling, Rathaus;Grafing Bahnhof S R;Omnibusverkehr Reisberger GmbH
-451;bus;;Vaterstetten S;Vaterstetten S;Larcher, Markt Schwaben
-452;bus;;Vaterstetten S;Grub S Süd;Larcher, Markt Schwaben
+451;bus;!Änderung ab 09.12.2018: 3 neue Haltestellen in Vaterstetten Nord-West!;Vaterstetten S;Vaterstetten S;Larcher, Markt Schwaben
+452;bus;!Änderung ab 09.12.2018: 3 neue Haltestellen in Vaterstetten Nord-West!;Vaterstetten S;Grub S Süd;Larcher, Markt Schwaben
 453;bus;;Glonn;Zorneding S;Verkehrsbetrieb Ettenhuber GmbH
 460;bus;;Poing S Nord;Poing S Nord;Larcher, Markt Schwaben
 461;bus;;Poing S Süd;Obelfing;Larcher, Markt Schwaben
@@ -302,10 +309,9 @@ N272;bus;;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzinger,
 561;bus;Rufbus;Wartenberg;Erding S;Scharf, Thalheim
 562;bus;;Taufkirchen (Vils);Berufsschule/Klinikum;Bayernbus GmbH
 5621;bus;Ruftaxi;Taufkirchen (Vils);Taufkirchen (Vils);Kistler Bustouristik GmbH, Dorfen
-#564;bus;;Grüntegernbach;Erding, Klinikum Süd/Berufsschule;Bayernbus GmbH
-564;bus;!Änderung ab 09.12.2018: Anpassungen der Fahrstrecke beider Richtungen zw. Dorfen, Bahnhof und Kirchasch!;Grüntegernbach;Erding, Klinikum Süd/Berufsschule;Bayernbus GmbH
-565;bus;Rufbus;Dorfen, Bahnhof R;Erding S;Bayernbus GmbH
-567;bus;;Dorfen;Berufsschule;Bayernbus GmbH
+564;bus;!Änderung ab 09.12.2018: Neue Haltestelle Waxeneck!;Grüntegernbach;Erding, Klinikum Süd/Berufsschule;Bayernbus GmbH
+565;bus;!Änderung ab 09.12.2018: Anpassungen der Fahrstrecke beider Richtungen zw. Dorfen, Bahnhof und Kirchasch! Rufbus;Dorfen, Bahnhof R;Erding S;Bayernbus GmbH
+567;bus;!Änderung ab 09.12.2018: Neue Haltestelle in Wimpasing!;Dorfen;Berufsschule;Bayernbus GmbH
 5670;bus;Ruftaxi;Walpertskirchen;Erding S;Taxiservice Pawelczyk
 568;bus;;Markt Schwaben S R;Erding S;Regionalverkehr Obb., Erding
 5680;bus;Ruftaxi;Markt Schwaben S R;Erding S;Taxi Köhler
@@ -404,7 +410,6 @@ N272;bus;;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzinger,
 828;bus;;Grafrath;Egling a.d. Paar;
 829;bus;;Mammendorf S;Moorenweis;
 830;bus;;Lochhausen S;Puchheim S Nord;Waibel Bus GmbH
-#832;bus;;Olching S;Puchheim S Nord;Griensteidl
 832;bus;!Änderung ab 09.12.2018: Änderung des Linienweges in Puchheim!;Olching S;Puchheim S Nord;Griensteidl
 833;bus;;Eichenau S Nord;Olching, Cronenbergstraße;Demmelmair GmbH & Co
 834;bus;;Eichenau S Nord;Olching, Cronenbergstraße;Demmelmair GmbH & Co
@@ -426,25 +431,22 @@ N272;bus;;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzinger,
 857;bus;;Harthaus S;Germering-Unterpfaffenhofen S;Busverkehr Südbayern
 858;bus;;Germering, An der Markung;Germering, GEP;Busservice Watzinger
 870;bus;;Waltenhofen;Maisach S;Geldhauser/RVO
-871;bus;;Maisach S;Pfaffenhofen (a. d. Glonn);RVO/Geldhauser
-#872;bus;;Maisach S;Gernlinden S;RVO/Geldhauser
-872;bus;!Änderung ab 09.12.2018: wird über Weyhern hinaus nach Ebersried verlängert!;Maisach S;Gernlinden S;RVO/Geldhauser
+871;bus;!Änderung ab 09.12.2018: wird über Weyhern hinaus nach Ebersried verlängert!;Maisach S;Pfaffenhofen (a. d. Glonn);RVO/Geldhauser
+872;bus;;Maisach S;Gernlinden S;RVO/Geldhauser
 873;bus;;Fürstenfeldbruck S;Maisach S;Waibel Bus GmbH
 874;bus;;Maisach;Egenhofen, Dirlesried;RVO/Geldhauser
 889;bus;;Althegnenberg;Oberschweinbach;Enders Reisen
-8000;bus;Ruftaxi;Fürstenfeldbruck/Emmering;;Zeiler GmbH
+8000;bus;!Änderung ab 09.12.2018: neue Haltestelle Viscardistraße! Ruftaxi;Fürstenfeldbruck/Emmering;;Zeiler GmbH
 8200;bus;Ruftaxi;Landsberied/Jesenwang/Adelshofen/Moorenweis;;Zeiler GmbH
 8300;bus;Ruftaxi;Gernlinden/Olching/Puchheim/Gröbenzell;;Zeiler GmbH
-#8400;bus;Ruftaxi;Alling/Schöngeising/Grafrath/Türkenfeld;;Zeiler GmbH
 8400;bus;!Änderung ab 09.12.2018: wird auf Herrsching und Seefeld ausgeweitet! Ruftaxi;Alling/Schöngeising/Grafrath/Türkenfeld;;Zeiler GmbH
-#8500;bus;Ruftaxi;Fürstenfeldbruck/Alling/Eichenau/Puchheim Ort/Germering-Unterpfaffenhofen;;Zeiler GmbH
 8500;bus;!Änderung ab 09.12.2018: wird auf Gilching ausgeweitet! Ruftaxi;Fürstenfeldbruck/Alling/Eichenau/Puchheim Ort/Germering-Unterpfaffenhofen;;Zeiler GmbH
 8800;bus;Ruftaxi;Mammendorf/Oberschweinbach/Hattenhofen/Althegnenberg/Mittelstetten;;Zeiler GmbH
 #
 ==== Landkreis Starnberg - 900 - 999
-901;bus;;Starnberg Nord S;Starnberg Nord S;Waibel Bus GmbH
-902;bus;;Starnberg Nord S;Söcking;Waibel Bus GmbH
-903;bus;;Starnberg S;Perchting;Waibel Bus GmbH
+901;bus;!Änderung ab 09.12.2018: neue Haltestellen Abt-Hörl-Weg in Hanfeld und Friedenskirche, Hst Leutstettener Straße entfällt!;Starnberg Nord S;Starnberg Nord S;Waibel Bus GmbH
+902;bus;!Änderung ab 09.12.2018: neue Haltestelle Friedenskirche, Hst Leutstettener Straße entfällt!;Starnberg Nord S;Söcking;Waibel Bus GmbH
+903;bus;!Änderung ab 09.12.2018: neue Haltestelle Friedenskirche, Hst Leutstettener Straße entfällt!;Starnberg S;Perchting;Waibel Bus GmbH
 904;bus;;Starnberg Nord S;Starnberg Nord S;DB Regio Bus Bayern GmbH
 906;bus;;Planegg S West;Oberbrunn;Demmelmair GmbH & Co
 907;bus;;Germering;Gauting S;Busverkehr Südbayern
@@ -469,8 +471,8 @@ N272;bus;;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzinger,
 967;bus;;Planegg S;Krailling, Altenheim Maria Eich;Demmelmair GmbH & Co
 968;bus;;Planegg S;Gauting, Schulzentrum;Demmelmair GmbH & Co
 974;bus;;Icking S;Höhenrain;DB Regio Bus Bayern GmbH
-975;bus;;Wolfratshausen S;Starnberg S;DB Regio Bus Bayern GmbH
-982;bus;;Starnberg Nord S;Aschering;Geldhauser/RVO
+975;bus;!Änderung ab 09.12.2018: neue Haltestelle Friedenskirche, Hst Leutstettener Straße entfällt!;Wolfratshausen S;Starnberg S;DB Regio Bus Bayern GmbH
+982;bus;!Änderung ab 09.12.2018: neue Haltestelle Friedenskirche, Hst Leutstettener Straße entfällt!;Starnberg Nord S;Aschering;Geldhauser/RVO
 #
 #
 = Nicht zum MVV gehörende Linien mit Bezug zu München
