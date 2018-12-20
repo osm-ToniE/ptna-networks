@@ -146,7 +146,6 @@ E30;bus;;;;
 E40;bus;;;;
 E62;bus;;;;
 E69;bus;;;;
-E69;bus;;;;
 E86;bus;;;;
 
 == Nachtbus

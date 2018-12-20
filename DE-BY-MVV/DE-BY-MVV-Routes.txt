@@ -240,7 +240,7 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 267;bus;!Änderung ab 09.12.2018: Neue Haltestelle Lena-Christ-Straße!;Neuaubing;Fürstenried West U;Busservice Watzinger
 268;bus;;Waldfriedhof;Gräfelfing S;Busservice Watzinger
 269;bus;;Neuried;Klinikum Großhadern U;Busverkehr Südbayern
-270;bus;!Änderung ab 09.12.2018: Neue Haltestelle Whistlerweg!;Höllriegelskreuth S;Solln S;Demmelmair GmbH & Co
+270;bus;;Höllriegelskreuth S;Solln S;Demmelmair GmbH & Co
 271;bus;;Höllriegelskreuth S;Dietramszell;Geldhauser/RVO
 N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzinger,
 285;bus;;Haar S;Ismaning S;Verkehrsbetrieb Ettenhuber GmbH

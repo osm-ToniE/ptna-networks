@@ -137,7 +137,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 105;bus;;;;
 106;bus;;;;
 107;bus;;;;
-108;bus;;;;
+108;bus;;Frankfurt am Main;Zürich;FlixMobility GmbH
 109;bus;seit 06.11.2017 nicht mehr buchbar, wurde eingestellt.;;;
 110;bus;;Osnabrück;Firedrichshafen;FlixMobility GmbH
 113;bus;;Frankfurt;Saarbrücken;FlixMobility GmbH
@@ -192,7 +192,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 == 2xx-Linien (Überwiegend Deutschland + Nachbarländer)
 
 205;bus;;;;
-206;bus;;;;
+206;bus;;München;Lörrach;FlixMobility GmbH
 207;bus;;;;
 208;bus;bis 27.10.2020 buchbar, wird eingestellt?;;;
 210;bus;ab 05.11.2018 nicht mehr buchbar, wird eingestellt;;;
@@ -640,7 +640,7 @@ KPB5;bus;Seite nicht mehr verfügbar.;;;
 P1;bus;;;;
 P3;bus;;;;
 P5;bus;Seit 06.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
-P6:bus;;;;
+P6;bus;;;;
 P7;bus;;;;
 P12;bus;;;;
 P13;bus;Seit 13.06.2018 nicht mehr buchbar, wurde eingestellt.;;;

@@ -31,7 +31,7 @@
 #                !Text mit gelbem Hintergrund! im comment (umgeben von einfachem !)
 # - from      == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
 # - to        == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
-# - operator  == wird bei mehreren Linie mit identischem ref und type Differenzierung herangezogen
+# - operator  == wird bei mehreren Linie mit identischem ref und type zur Differenzierung herangezogen
 #                Der Wert von 'operator' darf ';' enthalten
 #
 
@@ -44,7 +44,8 @@
 == Quelle
 -
 - Diese automatisch erstellte Auswertung enthält derzeit zum Einen eine '''Bestandsaufnahme der in OSM gefundenen VRS-Linien'''.
-- Zum Anderen wurden hier manuell '''Daten aus der [[VRS|VRS-Wiki Seite]]''' eingepflegt.
+- Zum Anderen wurden hier manuell '''Daten aus der [[VRS|VRS-Wiki Seite]]''' eingepflegt. 
+- Zum Dritten werden Änderungen zu den Fahrplanwechsel anhand der [https://www.vrsinfo.de/aktuelles/aenderungen-zum-fahrplanwechsel.html VRS-Informationen] manuell hier eingepflegt. 
 -
 - Ziel ist aber die Erstellung dieser Datei aus VRS-Daten mit allen zum VRS gehörigen Linien. 
 - Die Liste kommt idealerweise direkt vom und mit Hilfe des VRS (copyright!).
@@ -56,6 +57,19 @@
 -
 - kann aber auch andere regulärer Ausdrücke enthalten: z.B. "VRS|ABC|DEF|usw."
 -
+-
+=== Fahrplanwechsel 2019 (09.12.2018) 
+-
+- Siehe die Infos des VRS zum [https://www.vrsinfo.de/aktuelles/aenderungen-zum-fahrplanwechsel.html Fahrplanwechsel] 
+-
+- Viele Änderungen sind Angebotsverbesserungen abends und/oder am Wochenende, diese werden nicht extra markiert. 
+- Einige Haltestellen sind umbenannt worden, auch das ist in dieser Liste nicht markiert. 
+-
+- Größere Änderungen im Linienweg, '''eingestellte und neue Linien''' sind im Kommentar vermerkt und !!!gelb!!! hinterlegt. 
+-
+- Eingetragen sind bisher Züge + Stadt-/Straßenbahnen, Busse 1xx (Köln), 3xx (Oberbergischer Kreis), 5xx (Rhein-Sieg-Kreis rechtsrheinisch), 6xx (Bonn), 7xx (mehrere Kreise linksrheinisch) und 8xx (Kreis Euskirchen). Die 2xx, 4xx  und 9xx Buslinien sind noch nicht eingearbeitet. 
+- Nacht- und Schnell-Busse sind bei ihren jeweiligen Hauptnummernkreise in den VRS-Infos enthalten. 
+- 
 
 
 == Zug
@@ -80,6 +94,7 @@ RB38;train;;;;
 RB39;train;;;;
 RB48;train;;;;
 RB90;train;;;;
+-
 
 == S-Bahn
 
@@ -89,6 +104,7 @@ S12;train;;;;
 S13;train;;;;
 S19;train;;;;
 S23;train;Voreifelbahn;Bonn;Euskirchen;
+-
 
 == U-Bahn/Straßenbahn
 
@@ -101,16 +117,17 @@ S23;train;Voreifelbahn;Bonn;Euskirchen;
 12;tram;;;;
 13;tram;;;;
 15;tram;;;;
-16;tram;;;;
+16;tram;Rheinuferbahn;;;
 17;tram;;;;
-18;tram;;;;
+18;tram;Vorgebirgsbahn;;;
 61;tram;;;;
 62;tram;;;;
 63;tram;;;;
 65;tram;;;;
-66;tram;;;;
+66;tram;via Bonn Hbf;;;
 67;tram;;;;
 68;tram;;;;
+-
 
 == Bus
 
@@ -133,7 +150,7 @@ N22;bus;;;;
 N23;bus;;;;
 N24;bus;;;;
 N25;bus;;;;
-N26;bus;;;;
+N26;bus;verkehrt nur in Richtung Wermelskirchen;Köln Hbf;Wermelskirchen;RVK
 N41;bus;Rundkurs über Paffrath, Odenthal;Berg. Gladbach;Berg. Gladbach;
 N42;bus;Rundkurs über Odenthal, Paffrath;Berg. Gladbach;Berg. Gladbach;
 N43;bus;;;;
@@ -141,6 +158,7 @@ N44;bus;;;;
 N45;bus;via Bensberg, Herkenrath;;;
 N46;bus;via Herkenrath, Bensberg;;;
 N47;bus;;;;
+-
 
 === Schnellbus
 
@@ -150,6 +168,7 @@ SB56;bus;;;;
 SB60;bus;;;;
 SB69;bus;;;;
 SB82;bus;;;;
+-
 
 === Bus 100 Köln ...
 
@@ -158,15 +177,15 @@ SB82;bus;;;;
 121;bus;;;;
 122;bus;;;;
 123;bus;;;;
-124;bus;!Neue Linie Fahrplan 2019!;Breslauer Platz/Hbf;Gewerbegebiet Feldkassel;KVB
+124;bus;!Neu im Fahrplan 2019!;Breslauer Platz/Hbf;Gewerbegebiet Feldkassel;KVB
 125;bus;;;;
 126;bus;;;;
-127;bus;;Ebertplatz;Longerich;KVB
+127;bus;!Abschnitt Ebertplatz - Lentpark entfällt im Fahrplan 2019!;Ebertplatz;Longerich;KVB
 130;bus;;Sürth;Universität;KVB
 131;bus;;Sürth;Sülz;
 132;bus;;;;
 133;bus;;;;
-134;bus;!Neue Linie Fahrplan 2019!;Sürth;Universität;KVB
+134;bus;!Neu im Fahrplan 2019!;Sürth;Universität;KVB
 135;bus;;Rodenkirchen;Meschenich;
 136;bus;;;;
 138;bus;;;;
@@ -200,9 +219,10 @@ SB82;bus;;;;
 179;bus;!Neu im Fahrplan 2019!;Neubrück;Deutz;KVB
 184;bus;Taxibus; Ebertplatz | Neusser Str./Gürtel ;Lentpark;KVB
 185;bus;;;;
-# 190;bus;Linie existiert nicht mehr im Fahrplan 2018;;;
+# 190;bus;Linie existiert nicht mehr im Fahrplan 2018 und 2019;;;
 191;bus;;;;
 192;bus;;Köln-Meschenich;Hürth-Kalscheuren;
+-
 
 === Bus 200 Leverkusen ...
 
@@ -221,7 +241,7 @@ SB82;bus;;;;
 213;bus;;;;
 214;bus;;;;
 215;bus;;;;
-# 216;bus;;;; existiert nicht
+# 216;bus;Nicht im Fahrplan 2018 und 2019;;; existiert nicht
 217;bus;;;;
 #219;bus;;;;
 220;bus;;;;
@@ -230,7 +250,7 @@ SB82;bus;;;;
 223;bus;;;;
 224;bus;;;;
 225;bus;;;;
-#226;bus;Linie vermutlich aufgehoben;;;
+#226;bus;Linie vermutlich aufgehoben, nicht im Fahrplan 2018 und 2019;;;
 227;bus;;;;
 229;bus;;;;
 231;bus;;;;
@@ -264,12 +284,13 @@ SB82;bus;;;;
 276;bus;;;;
 283;bus;;;;
 298;bus;;;;
+-
 
 === Bus 300 Oberbergischer Kreis ...
 
 301;bus;;Gummersbach;Olpe;OVEG
 302;bus;!Ab Fahrplan 2019 zwischen Gummersbach und Wiehl als Schnellbus!;Gummersbach;Waldbröl;OVEG
-303;bus;!Im Fahrplan 2019 geänderte Struktur!;Gummersbach;Waldbröl;OVEG
+303;bus;!Im Fahrplan 2019 geänderte Struktur, Abschnitt Eckenhagen - Waldbröl teils bei der neuen Linie 345!;Gummersbach;Waldbröl;OVEG
 304;bus;!Neu im Fahrplan 2019, übernimmt den Abschnitt Gummersbach - Wiehl von Linie 302!;Gummersbach;Morsbach;OVEG
 306;bus;;;;
 307;bus;;;;
@@ -316,6 +337,7 @@ SB82;bus;;;;
 365;bus;;;;
 398;bus;;Lindlar;Schmitzhöhe;
 399;bus;Ortsverkehr Marienheide;;;
+-
 
 === Bus 400 ...
 
@@ -351,6 +373,7 @@ SB82;bus;;;;
 455;bus;;;;
 456;bus;;;;
 457;bus;;;;
+-
 
 === Bus 500 Rhein-Sieg-Kreis (rechtsrheinisch) ...
 
@@ -426,6 +449,7 @@ SB82;bus;;;;
 578;bus;;;;
 579;bus;;;;
 590;bus;!Neu im Fahrplan 2019, Schulverkehr Lohmar!;;;
+-
 
 === Bus 600 Bonn ...
 
@@ -447,13 +471,14 @@ SB82;bus;;;;
 615;bus;;;;
 630;bus;;;;
 631;bus;;;;
-632;bus;!Fahrplan 2019 neue Linienführung über Poppelsdorf, Endenich und Nordstadt!;Uniklinikum;Beuel Bf;
+632;bus;!Im Fahrplan 2019 neue Linienführung über Poppelsdorf, Endenich, Nordstadt!;Uniklinikum;Beuel Bf;
 633;bus;;;;
 635;bus;;;;
 636;bus;;;;
 637;bus;;;;
 638;bus;;;;
 640;bus;;;;
+-
 
 === Bus 700 Brühl / Hürth / Euskirchen ...
 - !!!Kreis Euskichen, Rhein-Erft-Kreis und Rhein-Sieg-Kreis linksrheinisch!!!
@@ -465,7 +490,7 @@ SB82;bus;;;;
 706;bus;;;;
 707;bus;;;;
 709;bus;;;;
-710;bus;Keine Information beim VRS mehr verfügbar;;;
+710;bus;2018 und 2019 keine Information beim VRS verfügbar;;;
 711;bus;;;;
 712;bus;;;;
 713;bus;;;;
@@ -481,26 +506,29 @@ SB82;bus;;;;
 747;bus;Ersetzt Bus 805, !2019 zusätzliche Haltestellen in Odendorf!;Rheinbach;Odendorf;
 749;bus;;;;
 750;bus;;Meckenheim;Lüftelberg;
-#771;bus;!Neu im Fahrplan 2019!: Fahrradbus (nur Sommer);Schmidtheim;Hellenthal;
-
+#771;bus;!Neu im Fahrplan 2019: Fahrradbus (nur Sommer)!;Schmidtheim;Hellenthal;
+-
 
 === Bus 800 Kreis Euskirchen ...
+- In Kall wird 2019 das Bahnhofsumfeld umgebaut, daher halten alle Buslinien 2019 am Busbahnhof Kall 
+-
+- Einige Haltestellen in Eusirchen und Kirchheim umbenannt. Neue Haltstellen in Bornheim, Merten, Waldorf. Entfall von Haltestellen in Karbach
 
 800;bus;;;;
-801;bus;;;;
+801;bus;!Neu 2019 Erschliessung des Ortsteils Kirspenich!;Euskirchen;Bad Münstereifel;RVK
 802;bus;;;;
-805;bus;Linie existiert seit Fahrplanwechsel 2015 nicht mehr, wurde durch die Linie 747 ersetzt.;;;
+#805;bus;Linie existiert seit Fahrplanwechsel 2015 nicht mehr, wurde durch die Linie 747 ersetzt.;;;
 806;bus;;;;
-807;bus;;;;
-808;bus;;;;
+807;bus;!2019 Änderungen in Euskirchen!;Euskirchen;Erftstadt;RVK
+808;bus;!2019 Änderungen in Mechernich!;Euskirchen;Kall;RVK
 809;bus;;;;
 810;bus;;;;
 811;bus;;;;
 812;bus;;;;
 813;bus;;;;
-814;bus;Nicht mehr im VRS nur noch der VRM-Teil. Änderungen sind zum 1.7.2018 zu erwarten;;;
-817;bus;;;;
-818;bus;;;;
+814;bus;Nicht mehr im VRS 2018 und 2019 nur noch der VRM-Teil.;;;
+817;bus;!2019 neue Haltestelle Bornheim Kalkstraße!;Rheinbach;Hersel;RVK
+818;bus;!2019 neue Haltestellen in Merten + Waldorf, Entfall von Haltestellen in Kardorf!;Sechtem;Hersel;RVK
 819;bus;;Bad Münstereifel;Rupperath;
 820;bus;;Nettersheim-Buir;Nettersheim-Marmagen;
 821;bus;;Bad Münstereifel;Nettersheim;
@@ -527,10 +555,10 @@ TB 835;bus;;;;
 843;bus;;;;
 844;bus;Nicht mehr im VRS nur noch der VRM-Teil existiert. Änderungen sind zum 1.7.2018 zu erwarten;;;
 845;bus;;;;
-846;bus;Kein Fahrplan mehr;Rheinbach;Buschhoven;
+846;bus;Kein Fahrplan mehr in 2018 und 2019;Rheinbach;Buschhoven;
 848;bus;;;;
 849;bus;;;;
-852;bus;Linie gehört zum Verbund VRM;;;
+852;bus;!Seit 2018 oder früher gehört Linie zum Verbund VRM und hat keinen Anteil im VRS-Gebiet mehr.!;Bad Bodenborf;Remagen;
 854;bus;;;;
 855;bus;;;;
 856;bus;;;;
@@ -540,24 +568,27 @@ TB 835;bus;;;;
 860;bus;;;;
 867;bus;via Antweiler;Satzvey;Mechernich;
 868;bus;via Firmenich;Satzvey;Mechernich;
-869;bus;;;;
-870;bus;;;;
+869;bus;!Ab Fahrplan 2019 Betreiber RVK!;Euskirchen;Weilerswist Lommersum;RVK
+870;bus;!2019 Umbenung von Haltestellen! Rundkurs via Wüschheim, Kirchheim;Euskirchen;Euskirchen;SVE
 871;bus;;;;
 872;bus;;;;
 873;bus;;;;
-874;bus;;;;
+874;bus;;Euskirchen;Kirchheim;SVE
 875;bus;;;;
 876;bus;;;;
 877;bus;;;;
 878;bus;;;;
 881;bus;siehe Abschnitt Anruf-Sammel-Taxi;;;
 882;bus;;;;
+889;bus;!Nachtbus, neu im Fahrplan 2019!;Bonn;Lüftelberg;Kreis Euskirchen Verkehrsunternehmen
+892;bus;!Neu im Fahrplan 2019, ersetzt ehemaliges Sammeltaxi in Zülpich!;;;
 893;bus;;Mechernich;Kommern;
 894;bus;Keine Information beim VRS verfügbar;;;
 896;bus;;Mechernich;Berg;
 897;bus;;Mechernich;Voißel;
 898;bus;;Mechernich;Wallemthal;
 899;bus;Keine Information beim VRS verfügbar;;;
+-
 
 === Bus 900 Bergheim, Erftstadt, ...
 - Rhein-Erft-Kreis
@@ -600,6 +631,7 @@ TB 835;bus;;;;
 987;bus;;;;
 988;bus;;;;
 990;bus;;;;
+-
 
 === Anruf-Sammel-Taxi
 
@@ -650,6 +682,7 @@ AST 889;bus;;;;
 AST 890;bus;;;;
 AST 881;bus;;;;
 AST 892;bus;;;;
+-
 
 === Bürgerbus (nicht Teil des VRS)
 
