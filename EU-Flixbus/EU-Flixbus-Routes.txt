@@ -135,7 +135,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 
 101;bus;;;;
 105;bus;;;;
-106;bus;;;;
+106;bus;;München;Lyon;FlixMobility GmbH
 107;bus;;;;
 108;bus;;Frankfurt am Main;Zürich;FlixMobility GmbH
 109;bus;seit 06.11.2017 nicht mehr buchbar, wurde eingestellt.;;;
@@ -145,8 +145,8 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 117;bus;;;;
 120;bus;;;;
 121;bus;;;;
-122;bus;;;;
-124;bus;;;;
+122;bus;;Frankfurt am Main;Lyon;FlixMobility GmbH
+124;bus;;Ulm;Mailand;FlixMobility GmbH
 125;bus;;;;
 128;bus;;;;
 129;bus;;;;
@@ -193,7 +193,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 
 205;bus;;;;
 206;bus;;München;Lörrach;FlixMobility GmbH
-207;bus;;;;
+207;bus;;Düsseldorf;Mailand;FlixMobility GmbH
 208;bus;bis 27.10.2020 buchbar, wird eingestellt?;;;
 210;bus;ab 05.11.2018 nicht mehr buchbar, wird eingestellt;;;
 211;bus;ab 05.11.2018 nicht mehr buchbar, wird eingestellt;;;
@@ -234,7 +234,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 
 301;bus;ab 05.11.2018 nicht mehr buchbar, wird eingestellt;;;
 305;bus;ab 05.11.2018 nicht mehr buchbar, wird eingestellt;;;
-306;bus;;;;
+306;bus;;Ulm;Lyon;FlixMobility GmbH
 306;bus;;;;
 310;bus;;;;
 320;bus;;;;
@@ -283,7 +283,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 420;bus;;;;
 421;bus;;;;
 423;bus;;Turin;Ferrara;FlixMobility GmbH
-424;bus;;;;
+424;bus;;Innsbruck;Cuneo;FlixMobility GmbH
 426;bus;Seit 16.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
 428;bus;Seit 16.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
 429;bus;;;;
@@ -296,7 +296,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 450;bus;Seit 07.10.2018 nicht mehr buchbar, wurde eingestellt.;;;
 451;bus;Seit 07.10.2018 nicht mehr buchbar, wurde eingestellt.;;;
 452;bus;Seit 21.11.2017 nicht mehr buchbar, wurde eingestellt.;;;
-453;bus;;;;
+453;bus;;München;Ancona;FlixMobility GmbH
 454;bus;bis 04.11.2020 buchbar, wird eingestellt?;;;
 470;bus;;;;
 471;bus;;;;
@@ -408,7 +408,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 717;bus;Seit 02.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
 718;bus;;;;
 719;bus;;;;
-720;bus;;;;
+720;bus;;Stuttgart;Grenoble;FlixMobility GmbH
 721;bus;;;;
 722;bus;;;;
 723;bus;;;;
@@ -542,7 +542,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 940;bus;;;;
 941;bus;;;;
 943;bus;Seit 06.11.2017 nicht mehr buchbar, wurde eingestellt;;;
-944;bus;;;;
+944;bus;;München;Crikvenica;FlixMobility GmbH
 946;bus;;;;
 948;bus;Seit 04.10.2017 nicht mehr buchbar, wurde eingestellt;;;
 950;bus;;;;
@@ -586,13 +586,13 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 
 ==19xx-Linien (Rumänien + Verbindungen Rumänien mit Rest-Europa)
 
-1920;bus;;;;
-1921;bus;;;;
-1922;bus;;;;
-1923;bus;;;;
-1924;bus;;;;
-1925;bus;;;;
-1926;bus;;;;
+1920;bus;;London;Bukarest;FlixMobility GmbH
+1921;bus;;Bilbao;Bukarest;FlixMobility GmbH
+1922;bus;;Bordeaux;Bukarest;FlixMobility GmbH
+1923;bus;;Rennes;Bukarest;FlixMobility GmbH
+1924;bus;;Amsterdam;Bukarest;FlixMobility GmbH
+1925;bus;;Dortmund;Bukarest;FlixMobility GmbH
+1926;bus;;Hamburg;Bukarest;FlixMobility GmbH
 1927;bus;Seit 25.04.2018 nicht mehr buchbar, wurde eingestellt;;;
 1929;bus;;Brüssel;Bukarest;FlixMobility GmbH
 1940;bus;;;;
@@ -726,7 +726,7 @@ N99;bus;;;;
 
 N100;bus;;;;
 N101;bus;Ab 05.11.2018 nicht mehr buchbar, wird eingestellt.;;;
-N106;bus;;;;
+N106;bus;;München;Lyon;FlixMobility GmbH
 N109;bus;bis 10.04.2019 buchbar, wird eingestellt?;;;
 N110;bus;;;;
 N116;bus;Seite nicht mehr verfügbar.;;;
@@ -771,12 +771,12 @@ N452;bus;;;;
 N453;bus;Seit 07.10.2018 nicht mehr buchbar, wurde eingestellt.;;;
 N467;bus;;;;
 N468;bus;;;;
-N491;bus;;;;
+N491;bus;;München;Venedig;FlixMobility GmbH
 
 N501;bus;;;;
 N503;bus;;;;
 N504;bus;;;;
-N507;bus;;;;
+N507;bus;;Stuttgart;Nizza;FlixMobility GmbH
 N519;bus;;Aosta;Rom;FlixMobility GmbH;;;
 N520;bus;;;;
 N521;bus;;;;
@@ -806,7 +806,7 @@ N600;bus;;;;
 N601;bus;;;;
 N630;bus;Ab 06.11.2018 nicht mehr buchbar, wird eingestellt.;;;
 
-N700;bus;;;;
+N700;bus;;Paris;London;FlixMobility GmbH;;
 N701;bus;;;;
 N703;bus;;;;
 N705;bus;;;;
@@ -823,7 +823,7 @@ N719;bus;;;;
 N720;bus;;;;
 N721;bus;;;;
 N724;bus;;;;
-N728;bus;;;;
+N728;bus;;München;Barcelona;FlixMobility GmbH
 N729;bus;;Mailand/Venedig;Paris;FlixMobility GmbH
 N730;bus;;;;
 N740;bus;;;;
@@ -854,7 +854,7 @@ N900;bus;;München;Zagreb;FlixMobility GmbH
 N903;bus;;;;
 N905;bus;;;;
 N906;bus;;;;
-N907;bus;;;;
+N907;bus;;Wien;Venedig;FlixMobility GmbH
 N909;bus;Seit 01.10.2018 nicht mehr buchbar, wurde eingestellt.;;;
 N910;bus;;;;
 N911;bus;;;;
@@ -863,8 +863,8 @@ N914;bus;Seit 25.04.2018 nicht mehr buchbar, wurde eingestellt.;;;
 N915;bus;Ab 05.11.2018 nicht mehr buchbar, wird eingestellt.;;;
 N918;bus;;;;
 N920;bus;Seit 15.10.2018 nicht mehr buchbar, wurde eingestellt.;;;
-N943;bus;;;;
-N948;bus;;;;
+N943;bus;;München;Pula;FlixMobility GmbH
+N948;bus;;Frankfurt am Main;Split;FlixMobility GmbH
 N949;bus;Seit 23.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
 N950;bus;;Karlsruhe;Osijek;FlixMobility GmbH
 N952;bus;;;;
@@ -877,20 +877,21 @@ N979;bus;Seit 09.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
 N980;bus;;;;
 N982;bus;;;;
 N990;bus;;;;
-N997;bus;;;;
+N997;bus;;Rom;Zagreb;FlixMobility GmbH
 N998;bus;;;;
 
 N1960;bus;Ab 04.11.2018 nicht mehr buchbar, wird eingestellt.;;;
-N1962;bus;;;;
-N1970;bus;;;;
-N1971;bus;;;;
-N1972;bus;;;;
+N1961;bus;;Dortmund;Tuzla;FlixMobility GmbH
+N1962;bus;;Hamburg;Tuzla;FlixMobility GmbH
+N1970;bus;;Berlin;Sarajevo;FlixMobility GmbH
+N1971;bus;;Dortmund;Sarajevo;FlixMobility GmbH
+N1972;bus;;Bremen;Sarajevo;FlixMobility GmbH
 
-N3200;bus;;;;
-N3201;bus;;;;
-N3202;bus;;;;
-N3203;bus;;;;
-N3300;bus;;;;
+N3200;bus;;Köln;Kiev;FlixMobility GmbH
+N3201;bus;;Rostock;Kiev;FlixMobility GmbH
+N3202;bus;;Karlsruhe;Kiev;FlixMobility GmbH
+N3203;bus;;Stuttgart;Kiev;FlixMobility GmbH
+N3300;bus;;Wien;Kiev;FlixMobility GmbH
 
 
 == Buslinien in den USA

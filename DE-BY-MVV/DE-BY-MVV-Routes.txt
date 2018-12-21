@@ -276,8 +276,8 @@ N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzing
 445;bus;;Ebersberg S R;Erding S;Larcher, Markt Schwaben
 446;bus;;Markt Schwaben S R;Ebersberg S R;Larcher, Markt Schwaben
 447;bus;;Aßling, Rathaus;Grafing Bahnhof S R;Omnibusverkehr Reisberger GmbH
-451;bus;!Änderung ab 09.12.2018: 3 neue Haltestellen in Vaterstetten Nord-West!;Vaterstetten S;Vaterstetten S;Larcher, Markt Schwaben
-452;bus;!Änderung ab 09.12.2018: 3 neue Haltestellen in Vaterstetten Nord-West!;Vaterstetten S;Grub S Süd;Larcher, Markt Schwaben
+451;bus;;Vaterstetten S;Vaterstetten S;Larcher, Markt Schwaben
+452;bus;;Vaterstetten S;Grub S Süd;Larcher, Markt Schwaben
 453;bus;;Glonn;Zorneding S;Verkehrsbetrieb Ettenhuber GmbH
 460;bus;;Poing S Nord;Poing S Nord;Larcher, Markt Schwaben
 461;bus;;Poing S Süd;Obelfing;Larcher, Markt Schwaben

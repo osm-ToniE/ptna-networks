@@ -39,24 +39,32 @@
 = Überblick über die ÖPNV-Linien des Verkehrsverbundes Rhein-Sieg
 
 - Verweis auf die Datei mit den [[VRS/Analyse/VRS-Linien|VRS-Linien]] im Wiki.
+-
 - Verweis auf mehr [[Talk:VRS/Analyse|Informationen]] im Wiki.
 
+- .
 == Quelle
 -
 - Diese automatisch erstellte Auswertung enthält derzeit zum Einen eine '''Bestandsaufnahme der in OSM gefundenen VRS-Linien'''.
+-
 - Zum Anderen wurden hier manuell '''Daten aus der [[VRS|VRS-Wiki Seite]]''' eingepflegt. 
+-
 - Zum Dritten werden Änderungen zu den Fahrplanwechsel anhand der [https://www.vrsinfo.de/aktuelles/aenderungen-zum-fahrplanwechsel.html VRS-Informationen] manuell hier eingepflegt. 
 -
 - Ziel ist aber die Erstellung dieser Datei aus VRS-Daten mit allen zum VRS gehörigen Linien. 
 - Die Liste kommt idealerweise direkt vom und mit Hilfe des VRS (copyright!).
 -
 - bei der Analyse ist 'network' derzeit entweder
+-
 - * "VRS"                                             short form, oder
+-
 - * "Verkehrsverbund Rhein-Sieg|NRW Regionalverkehr"  long form, oder
+-
 - * leer, d.h. nicht gesetzt
 -
 - kann aber auch andere regulärer Ausdrücke enthalten: z.B. "VRS|ABC|DEF|usw."
 -
+- .
 -
 === Fahrplanwechsel 2019 (09.12.2018) 
 -
@@ -67,10 +75,11 @@
 -
 - Größere Änderungen im Linienweg, '''eingestellte und neue Linien''' sind im Kommentar vermerkt und !!!gelb!!! hinterlegt. 
 -
-- Eingetragen sind bisher Züge + Stadt-/Straßenbahnen, Busse 1xx (Köln), 3xx (Oberbergischer Kreis), 5xx (Rhein-Sieg-Kreis rechtsrheinisch), 6xx (Bonn), 7xx (mehrere Kreise linksrheinisch) und 8xx (Kreis Euskirchen). Die 2xx, 4xx  und 9xx Buslinien sind noch nicht eingearbeitet. 
+- Eingetragen sind bisher Züge + Stadt-/Straßenbahnen, Busse 1xx (Köln), 3xx (Oberbergischer Kreis), 5xx (Rhein-Sieg-Kreis rechtsrheinisch), 
+- 6xx (Bonn), 7xx (mehrere Kreise linksrheinisch), 8xx (Kreis Euskirchen). Die 2xx, 4xx, 9xx Buslinien und Sammeltaxis sind noch nicht eingearbeitet. 
 - Nacht- und Schnell-Busse sind bei ihren jeweiligen Hauptnummernkreise in den VRS-Infos enthalten. 
-- 
 
+- .
 
 == Zug
 
@@ -81,9 +90,9 @@ RE7;train;;;;
 RE8;train;;;;
 RE9;train;;;;
 RE12;train;;;;
-RE22/RB22;train;Betreiber als "NRW Regionalverkehr,VRT" eingetragen, Linie in Gerolstein geteilt;Köln;Trier;
-# RB22;train;;;;
-RB23;train;Erfttalbahn;Euskirchen;Bad Münstereifel;
+RE22;train;Linie ab Gerolstein RB22;Köln;Gerolstein;DB Regio NRW
+RB22;train;Fortsetzung der RE22 als Regionalbahn, network=VRT;Gerolstein;Trier;
+RB23;train;Erfttalbahn;Euskirchen;Bad Münstereifel;DB Regio NRW
 RB24;train;;;;
 RB25;train;;;;
 RB26;train;;;;
@@ -94,8 +103,8 @@ RB38;train;;;;
 RB39;train;;;;
 RB48;train;;;;
 RB90;train;;;;
--
 
+- .
 == S-Bahn
 
 S6;train;;;;
@@ -103,9 +112,9 @@ S11;train;;;;
 S12;train;;;;
 S13;train;;;;
 S19;train;;;;
-S23;train;Voreifelbahn;Bonn;Euskirchen;
--
+S23;train;Voreifelbahn;Bonn;Euskirchen;DB Regio NRW
 
+- .
 == U-Bahn/Straßenbahn
 
 1;tram;;;;
@@ -127,8 +136,8 @@ S23;train;Voreifelbahn;Bonn;Euskirchen;
 66;tram;via Bonn Hbf;;;
 67;tram;;;;
 68;tram;;;;
--
 
+- .
 == Bus
 
 === Nachtbus
@@ -158,8 +167,8 @@ N44;bus;;;;
 N45;bus;via Bensberg, Herkenrath;;;
 N46;bus;via Herkenrath, Bensberg;;;
 N47;bus;;;;
--
 
+- .
 === Schnellbus
 
 SB40;bus;;;;
@@ -168,8 +177,8 @@ SB56;bus;;;;
 SB60;bus;;;;
 SB69;bus;;;;
 SB82;bus;;;;
--
 
+- .
 === Bus 100 Köln ...
 
 106;bus;;;;
@@ -222,7 +231,7 @@ SB82;bus;;;;
 # 190;bus;Linie existiert nicht mehr im Fahrplan 2018 und 2019;;;
 191;bus;;;;
 192;bus;;Köln-Meschenich;Hürth-Kalscheuren;
--
+
 
 === Bus 200 Leverkusen ...
 
@@ -284,7 +293,7 @@ SB82;bus;;;;
 276;bus;;;;
 283;bus;;;;
 298;bus;;;;
--
+
 
 === Bus 300 Oberbergischer Kreis ...
 
@@ -337,7 +346,7 @@ SB82;bus;;;;
 365;bus;;;;
 398;bus;;Lindlar;Schmitzhöhe;
 399;bus;Ortsverkehr Marienheide;;;
--
+
 
 === Bus 400 ...
 
@@ -373,7 +382,6 @@ SB82;bus;;;;
 455;bus;;;;
 456;bus;;;;
 457;bus;;;;
--
 
 === Bus 500 Rhein-Sieg-Kreis (rechtsrheinisch) ...
 
@@ -449,7 +457,7 @@ SB82;bus;;;;
 578;bus;;;;
 579;bus;;;;
 590;bus;!Neu im Fahrplan 2019, Schulverkehr Lohmar!;;;
--
+
 
 === Bus 600 Bonn ...
 
@@ -478,7 +486,6 @@ SB82;bus;;;;
 637;bus;;;;
 638;bus;;;;
 640;bus;;;;
--
 
 === Bus 700 Brühl / Hürth / Euskirchen ...
 - !!!Kreis Euskichen, Rhein-Erft-Kreis und Rhein-Sieg-Kreis linksrheinisch!!!
@@ -507,12 +514,12 @@ SB82;bus;;;;
 749;bus;;;;
 750;bus;;Meckenheim;Lüftelberg;
 #771;bus;!Neu im Fahrplan 2019: Fahrradbus (nur Sommer)!;Schmidtheim;Hellenthal;
--
+
 
 === Bus 800 Kreis Euskirchen ...
 - In Kall wird 2019 das Bahnhofsumfeld umgebaut, daher halten alle Buslinien 2019 am Busbahnhof Kall 
 -
-- Einige Haltestellen in Eusirchen und Kirchheim umbenannt. Neue Haltstellen in Bornheim, Merten, Waldorf. Entfall von Haltestellen in Karbach
+- Einige Haltestellen in Euskirchen und Kirchheim umbenannt. Neue Haltestellen in Bornheim, Merten, Waldorf. Entfall von Haltestellen in Karbach
 
 800;bus;;;;
 801;bus;!Neu 2019 Erschliessung des Ortsteils Kirspenich!;Euskirchen;Bad Münstereifel;RVK
@@ -587,51 +594,62 @@ TB 835;bus;;;;
 896;bus;;Mechernich;Berg;
 897;bus;;Mechernich;Voißel;
 898;bus;;Mechernich;Wallemthal;
-899;bus;Keine Information beim VRS verfügbar;;;
--
+#899;bus;Keine Information beim VRS verfügbar;;;
+
 
 === Bus 900 Bergheim, Erftstadt, ...
 - Rhein-Erft-Kreis
-
-920;bus;;;;
-921;bus;Rundkurs;Sindorf;Sindorf;
-922;bus;;Bergheim (Erft);Kerpen;
-923;bus;Stadtverkehr Bergheim;;;
-924;bus;;;;
-930;bus;;;;
-935;bus;;;;
-939;bus;;;;
-940;bus;Kein Fahrplan über VRS-Info;;;
-941;bus;;;;
-945;bus;;Bergheim Bf;Gewerbegebiet Paffendorf;
-955;bus;;;;
-957;bus;;;;
-960;bus;;;;
-961;bus;;;;
-962;bus;;;;
-963;bus;Kein VRS-Fahrplan über VRS-Info;;;
-964;bus;;;;
-965;bus;;;;
-966;bus;Stadtverkehr;Kerpen;Sindorf;
-967;bus;Stadtverkehr Pulheim;;;
-968;bus;Schulverkehr Frechen;;;
-969;bus;;Bergheim;Quadrath-Ichendorf;
-970;bus;;;;
-971;bus;;;;
-974;bus;Stadtverkehr Erftstadt;;;
-975;bus;;;;
-976;bus;;;;
-977;bus;;;;
-978;bus;;;;
-979;bus;;;;
-980;bus;;;;
-984;bus;;;;
-985;bus;;;;
-986;bus;;;;
-987;bus;;;;
-988;bus;;;;
-990;bus;;;;
 -
+- Zum 1.1.2019 wird die Rhein-Erft-Verkehrsgesellschaft (REVG) die Linien 905-920 und 923-990 vollständig in eigener Regie betreiben.
+-
+- Der Busbahnhofs Bergheim wird im Laufe des Jahres aufgrund von Baumaßnahmen mehrfach den Standort wechseln.
+-
+
+905;bus;;Bedburg;Kaster;REVG
+910;bus;;Frechen;Hürth;REVG
+911;bus;;Brüggen;Sindorf;REVG
+915;bus;;Quadrath-Ichendorf;Neu-Etzweiler;REVG
+920;bus;;Erfstadt;Horrem;REVG
+921;bus;Rundkurs;Sindorf;Sindorf;Omnibusbetrieb Tirtey
+922;bus;;Bergheim (Erft);Kerpen;Omnibusbetrieb Tirtey
+923;bus;Stadtverkehr Bergheim;;;REVG
+924;bus;;Niederaußem;Bedburg;REVG
+927;bus;;Bedburg;Industriegebiet;REVG
+930;bus;;Brühl-Mitte;Wesseling;REVG
+935;bus;;Brühl-Mitte;Hürth-Hermülheim;REVG
+# 939;bus;Kein Fahrplan über VRS-Info;;;
+# 940;bus;Kein Fahrplan über VRS-Info;;;
+941;bus;;Elsdorf;Horrem;REVG
+945;bus;;Bergheim Bf;Gewerbegebiet Paffendorf;REVG
+950;bus;;Weiden;Rödingen;REVG
+955;bus;;Kerpen;Lechenich;REVG
+957;bus;Schulverkehr;Königsdorf;Frechen;REVG
+960;bus;;Bergheim;Hürth-Hermülheim;REVG
+961;bus;;Köln-Weiden;Bergheim;REVG
+962;bus;;Köln-Bocklemund;Frechen-Königsdorf;REVG
+# 963;bus;Kein VRS-Fahrplan über VRS-Info;;;
+964;bus;;Horrem;Frechen;REVG
+965;bus;;Frechen Grube Carl;Köln-Weiden West;REVG
+966;bus;Stadtverkehr;Kerpen;Sindorf;REVG
+967;bus;Stadtverkehr Pulheim;;;REVG
+968;bus;Schulverkehr Frechen;;;REVG
+969;bus;;Bergheim;Quadrath-Ichendorf;REVG
+970;bus;;Köln-Bocklemünd;Niederaußem;REVG
+971;bus;;Bergheim;Rommerskirchen;REVG
+974;bus;Stadtverkehr Erftstadt;;;REVG
+975;bus;;Kaster;Horrem;REVG
+976;bus;;Frechen Europark;Kerpen-Manheim;REVG
+977;bus;;Erfstadt;Frechen Rathaus;REVG
+978;bus;;Köln Hbf;Hürth-Berrenrath;REVG
+979;bus;;Hürth-Hermülheim;Zülpich;REVG
+980;bus;;Köln-Worringen;Frechen Rathaus;REVG
+984;bus;Schulverkehr;;Weilerswist;REVG
+985;bus;;Euskirchen;Brühl Mitte;REVG
+986;bus;;Heimerzheim;Weilerswist;REVG
+987;bus;Schulverkehr Bedburg;;;REVG
+988;bus;;Elsdorf;Bedburg;REVG
+990;bus;;Herrig;Brühl Mitte;REVG
+
 
 === Anruf-Sammel-Taxi
 
@@ -682,7 +700,7 @@ AST 889;bus;;;;
 AST 890;bus;;;;
 AST 881;bus;;;;
 AST 892;bus;;;;
--
+
 
 === Bürgerbus (nicht Teil des VRS)
 
