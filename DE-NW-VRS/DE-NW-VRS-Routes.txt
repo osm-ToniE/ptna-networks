@@ -8,13 +8,14 @@
 # Überschriften beginnen mit '=', '==', '===', '====', ... am Anfang einer Zeile
 #
 # Einfacher Text beginnt mit '-' am Anfang einer Zeile.
-#     Einfacher Text darf nur direkt hinter einer Überschrift stehen.
+#     Einfacher Text darf überall stehen.
 #     !!!Text mit gelbem Hintergrund!!! im einfachen Text
 #     '''''Text mit dicken, kursiven Buchstaben''''' im einfachen Text
 #     '''Text mit dicken Buchstaben''' im einfachen Text
 #     ''Text mit kursiven Buchstaben'' im einfachen Text
 #     -   d.h. ein einfaches '-' am Anfang der Zeile gefolgt von 'nichts', 
-#         erzeugt einen Zeilen Umbruch (bzw. packt das bisher ausgegebenen in einen Paragraphen <p> ... </p>)
+#         - wenn davor einfacher Text stand wird ein Zeilenumbruch erzeugt und das bisher ausgegebenen in einen Paragraphen <p> ... </p> gepackt
+#         - wenn vorher kein enfacher Text stand bzw. ein Zeilenumbruch erzeugt wurde, so wird eine Leerzeile erzeugt mit Hilfe von <p>&amp;nbsp;</p>
 #
 # Kommentare beginnen mit '#' am Anfang einer Zeile. Kommentare mittendrin werden nicht erkannt, d.h. '#' darf innerhalb von Text vorkommen.
 #
@@ -41,10 +42,10 @@
 - Verweis auf die Datei mit den [[VRS/Analyse/VRS-Linien|VRS-Linien]] im Wiki.
 -
 - Verweis auf mehr [[Talk:VRS/Analyse|Informationen]] im Wiki.
-
+-
 - .
 == Quelle
--
+
 - Diese automatisch erstellte Auswertung enthält derzeit zum Einen eine '''Bestandsaufnahme der in OSM gefundenen VRS-Linien'''.
 -
 - Zum Anderen wurden hier manuell '''Daten aus der [[VRS|VRS-Wiki Seite]]''' eingepflegt. 
@@ -64,45 +65,50 @@
 -
 - kann aber auch andere regulärer Ausdrücke enthalten: z.B. "VRS|ABC|DEF|usw."
 -
+-
+- Eine nützliche Quelle ist die VRS-Seite mit [https://www.vrsinfo.de/fahrplan/haltestellen-und-linieninformationen.html?L=0 Haltestellen und Linieninfornationen]
+-
 - .
--
 === Fahrplanwechsel 2019 (09.12.2018) 
--
+
 - Siehe die Infos des VRS zum [https://www.vrsinfo.de/aktuelles/aenderungen-zum-fahrplanwechsel.html Fahrplanwechsel] 
 -
 - Viele Änderungen sind Angebotsverbesserungen abends und/oder am Wochenende, diese werden nicht extra markiert. 
 - Einige Haltestellen sind umbenannt worden, auch das ist in dieser Liste nicht markiert. 
 -
-- Größere Änderungen im Linienweg, '''eingestellte und neue Linien''' sind im Kommentar vermerkt und !!!gelb!!! hinterlegt. 
+- Größere Änderungen im Linienweg, '''eingestellte und neue Linien''' sind im Kommentar vermerkt und !!!gelb!!! hinterlegt.
 -
 - Eingetragen sind bisher Züge + Stadt-/Straßenbahnen, Busse 1xx (Köln), 3xx (Oberbergischer Kreis), 5xx (Rhein-Sieg-Kreis rechtsrheinisch), 
-- 6xx (Bonn), 7xx (mehrere Kreise linksrheinisch), 8xx (Kreis Euskirchen). Die 2xx, 4xx, 9xx Buslinien und Sammeltaxis sind noch nicht eingearbeitet. 
+- 6xx (Bonn), 7xx (mehrere Kreise linksrheinisch), 8xx (Kreis Euskirchen) und 9xx (Rhein-Erft-Kreis). Die 2xx, 4xx Buslinien und Sammeltaxis sind noch nicht eingearbeitet. 
 - Nacht- und Schnell-Busse sind bei ihren jeweiligen Hauptnummernkreise in den VRS-Infos enthalten. 
 
+
 - .
-
 == Zug
+-
+- Überwiegend Angebotsverbesserungen
 
-RE1;train;!Ab 9.6.2019 Betreiber National Express Rail GmbH (RRX)!;Aachen;Hamm (Westf);
-RE5;train;!Ab 9.6.2019 Betreiber National Express Rail GmbH (RRX)!;Wesel;Koblenz;
-RE6;train;;;;
-RE7;train;;;;
-RE8;train;;;;
-RE9;train;;;;
-RE12;train;;;;
-RE22;train;Linie ab Gerolstein RB22;Köln;Gerolstein;DB Regio NRW
-RB22;train;Fortsetzung der RE22 als Regionalbahn, network=VRT;Gerolstein;Trier;
+RE1;train;!Ab 9.6.2019 Betreiber National Express Rail GmbH (RRX)!;Aachen;Hamm (Westf);DB Regio NRW
+RE5;train;!Ab 9.6.2019 Betreiber National Express Rail GmbH (RRX)!;Wesel;Koblenz;DB Regio NRW
+RE6;train;;Minden;Flughafen Köln-Bonn;DB Regio NRW
+RE7;train;über Köln Hbf;Rheine;Krefeld;National Express Rail 
+RE8;train;;Mönchengladbach;Koblenz;DB Regio NRW
+RE9;train;;Siegen;Aachen;DB Regio NRW
+RE12;train;;Trier;Köln;DB Regio NRW
+RE22;train;ab Gerolstein Fortführung als Linie RB22 bis Trier;Köln;Gerolstein;DB Regio NRW
+#RB22;train;nur noch im Gebiet des VRT;Gerolstein;Trier;
 RB23;train;Erfttalbahn;Euskirchen;Bad Münstereifel;DB Regio NRW
-RB24;train;;;;
-RB25;train;;;;
-RB26;train;;;;
-RB27;train;;;;
-RB28;train;;;;
-RB30;train;;;;
-RB38;train;;;;
-RB39;train;;;;
-RB48;train;;;;
-RB90;train;;;;
+RB24;train;;Köln;Gerolstein;DB Regio NRW
+RB25;train;;Köln;Lüdenscheid;DB Regio NRW
+RB26;train;;Köln;Mainz;Trans Regio
+RB27;train;;Mönchengladbach;Koblenz;DB Regio Mitte
+RB28;train;;Euskirchen;Düren;Rurtalbahn
+RB30;train;;Bonn;Ahrbrück;DB Regio NRW
+RB38;train;;Köln;Bedburg (Erft);DB Regio NRW
+RB39;train;;Bedburg (Erft);Düsseldorf;VIAS
+RB48;train;;Bonn-Mehlem;Wuppertal;National Express Rail
+RB90;train;;Limburg (Lahn);Siegen;Vectus
+
 
 - .
 == S-Bahn
@@ -113,6 +119,7 @@ S12;train;;;;
 S13;train;;;;
 S19;train;;;;
 S23;train;Voreifelbahn;Bonn;Euskirchen;DB Regio NRW
+
 
 - .
 == U-Bahn/Straßenbahn
@@ -136,6 +143,7 @@ S23;train;Voreifelbahn;Bonn;Euskirchen;DB Regio NRW
 66;tram;via Bonn Hbf;;;
 67;tram;;;;
 68;tram;;;;
+
 
 - .
 == Bus
@@ -168,6 +176,7 @@ N45;bus;via Bensberg, Herkenrath;;;
 N46;bus;via Herkenrath, Bensberg;;;
 N47;bus;;;;
 
+
 - .
 === Schnellbus
 
@@ -177,6 +186,7 @@ SB56;bus;;;;
 SB60;bus;;;;
 SB69;bus;;;;
 SB82;bus;;;;
+
 
 - .
 === Bus 100 Köln ...
@@ -233,6 +243,7 @@ SB82;bus;;;;
 192;bus;;Köln-Meschenich;Hürth-Kalscheuren;
 
 
+- .
 === Bus 200 Leverkusen ...
 
 201;bus;;;;
@@ -295,6 +306,7 @@ SB82;bus;;;;
 298;bus;;;;
 
 
+- .
 === Bus 300 Oberbergischer Kreis ...
 
 301;bus;;Gummersbach;Olpe;OVEG
@@ -348,7 +360,8 @@ SB82;bus;;;;
 399;bus;Ortsverkehr Marienheide;;;
 
 
-=== Bus 400 ...
+- .
+=== Bus 400 Rheinisch-Bergischer Kreis ...
 
 400;bus;;;;
 #404;bus;;;;
@@ -383,6 +396,8 @@ SB82;bus;;;;
 456;bus;;;;
 457;bus;;;;
 
+
+- .
 === Bus 500 Rhein-Sieg-Kreis (rechtsrheinisch) ...
 
 501/164;bus;;;;
@@ -459,6 +474,7 @@ SB82;bus;;;;
 590;bus;!Neu im Fahrplan 2019, Schulverkehr Lohmar!;;;
 
 
+- .
 === Bus 600 Bonn ...
 
 600;bus;;;;
@@ -487,8 +503,10 @@ SB82;bus;;;;
 638;bus;;;;
 640;bus;;;;
 
+
+- .
 === Bus 700 Brühl / Hürth / Euskirchen ...
-- !!!Kreis Euskichen, Rhein-Erft-Kreis und Rhein-Sieg-Kreis linksrheinisch!!!
+- Kreis Euskichen, Rhein-Erft-Kreis und Rhein-Sieg-Kreis linksrheinisch
 
 702;bus;;;;
 703;bus;;;;
@@ -516,7 +534,9 @@ SB82;bus;;;;
 #771;bus;!Neu im Fahrplan 2019: Fahrradbus (nur Sommer)!;Schmidtheim;Hellenthal;
 
 
+- .
 === Bus 800 Kreis Euskirchen ...
+
 - In Kall wird 2019 das Bahnhofsumfeld umgebaut, daher halten alle Buslinien 2019 am Busbahnhof Kall 
 -
 - Einige Haltestellen in Euskirchen und Kirchheim umbenannt. Neue Haltestellen in Bornheim, Merten, Waldorf. Entfall von Haltestellen in Karbach
@@ -597,13 +617,19 @@ TB 835;bus;;;;
 #899;bus;Keine Information beim VRS verfügbar;;;
 
 
+- .
 === Bus 900 Bergheim, Erftstadt, ...
+
 - Rhein-Erft-Kreis
 -
 - Zum 1.1.2019 wird die Rhein-Erft-Verkehrsgesellschaft (REVG) die Linien 905-920 und 923-990 vollständig in eigener Regie betreiben.
 -
 - Der Busbahnhofs Bergheim wird im Laufe des Jahres aufgrund von Baumaßnahmen mehrfach den Standort wechseln.
 -
+- Die Baumaßnahmen rund um den Bahnhof Erftstadt sind abgeschlossen. Es gibt jetzt zwei lange Bus-Haltestellen A und B. 
+- Welche Buslinie wo hält, siehe den aktuellen Lageplan von 
+- [https://ekapweb.vrsinfo.de/uploads/tx_ekap/haltestellen/lageplan/u_Erftstadt_Bf.pdf?1544315845 Erftstadt].
+- Veränderung gibt es dadurch bei den Buslinien 920, 955, 977, 979 und 990.
 
 905;bus;;Bedburg;Kaster;REVG
 910;bus;;Frechen;Hürth;REVG
@@ -615,12 +641,14 @@ TB 835;bus;;;;
 923;bus;Stadtverkehr Bergheim;;;REVG
 924;bus;;Niederaußem;Bedburg;REVG
 927;bus;;Bedburg;Industriegebiet;REVG
-930;bus;;Brühl-Mitte;Wesseling;REVG
-935;bus;;Brühl-Mitte;Hürth-Hermülheim;REVG
+930;bus; !Ab 2019 zusätzliche Halte in Brühl und Wesseling nur noch im Schulverkehr!;Brühl Mitte;Wesseling (Stadtbahn);REVG
+933;bus;;Manheim;Kerpen;REVG
+935;bus;;Brühl Mitte;Hürth-Hermülheim;REVG
 # 939;bus;Kein Fahrplan über VRS-Info;;;
 # 940;bus;Kein Fahrplan über VRS-Info;;;
 941;bus;;Elsdorf;Horrem;REVG
 945;bus;;Bergheim Bf;Gewerbegebiet Paffendorf;REVG
+949;bus;;Brauweiler;Weiden Zentrum;REVG
 950;bus;;Weiden;Rödingen;REVG
 955;bus;;Kerpen;Lechenich;REVG
 957;bus;Schulverkehr;Königsdorf;Frechen;REVG
@@ -639,7 +667,7 @@ TB 835;bus;;;;
 974;bus;Stadtverkehr Erftstadt;;;REVG
 975;bus;;Kaster;Horrem;REVG
 976;bus;;Frechen Europark;Kerpen-Manheim;REVG
-977;bus;;Erfstadt;Frechen Rathaus;REVG
+977;bus; 2019 neue Haltestelle "Türnich REVG-Betriebshof";Erfstadt;Frechen Rathaus;REVG
 978;bus;;Köln Hbf;Hürth-Berrenrath;REVG
 979;bus;;Hürth-Hermülheim;Zülpich;REVG
 980;bus;;Köln-Worringen;Frechen Rathaus;REVG
@@ -651,6 +679,7 @@ TB 835;bus;;;;
 990;bus;;Herrig;Brühl Mitte;REVG
 
 
+- .
 === Anruf-Sammel-Taxi
 
 - Ist das tagging mit route=bus korrekt, oder kann route=share_taxi verwendet werden?

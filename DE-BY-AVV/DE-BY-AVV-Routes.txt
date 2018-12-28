@@ -79,6 +79,10 @@
 44;bus;;Hammerschmiede;Königsplatz;
 48;bus;;Berliner Allee;Medienzentrum;
 
+=== Stadtbus Neusä
+
+513;bus;;Neusäß;Schlipsheim;
+
 === Regionalbus
 
 ==== Regionalbus 1 .. 99

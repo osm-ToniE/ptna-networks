@@ -54,17 +54,39 @@
 #ref;type;comment;from;to;operator
 
 == Regionalexpress
-RE1;train;;;;
+
+RE1;train;;Koblenz;Mannheim;
 RE11;train;;;;
 RE2;train;;;;
 RE5;train;;;;
 RE8;train;;;;
 RE17;train;;;;
 RE25;train;;;;
+
 == Regionalbahn
+
 RB10;train;;;;
 RB23;train;;;;
 RB26;train;;;;
 RB27;train;;;;
+RB30;train;Rhein-Ahr-Bahn;Bonn;Ahrbrück;DB Regio 
+RB39;train;Ahrtalbahn;Remagen;Ahrbrück;DB Regio 
 RB81;train;;;;
+
+== Busse
+
+=== Kreis Ahrweiler
+
+310;bus;;Andernach;Maria Laach;RMV
+344;bus;;Mayen;Herresbach;RMV
+528;bus;;Niederbaar;Adenau;Hoffmann
+529;bus;;Nohn;Antweiler:Hoffmann
+740;bus;;Rheinbach;Hilberath;RVK
+749;bus;;Meckenheim;Rheinbach;RVK 
+800;bus;RegioBus;Bad Breisig;Bad Neuenahr;Verkehrsbetriebe Mittelrhein (VMR)
+801;bus;;Niederzissen;Bad Breisig;VMR
+882;bus;;Antweiler;Bauler;Hoffmann
+976;bus;;Glees;Mendig;RMV
+977;bus;;Volkesfeld;Mendig;FriBus 
+
 </pre>
