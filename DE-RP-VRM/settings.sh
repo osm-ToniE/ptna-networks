@@ -13,12 +13,11 @@ NETWORK_SHORT="VRM"
 ANALYSIS_PAGE="Verkehrsverbund_Rhein-Mosel/Analyse"
 WIKI_ROUTES_PAGE="Verkehrsverbund_Rhein-Mosel/Analyse/DE-RP-VRM-Routes"
 
-ANALYSIS_OPTIONS="--language=de --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --multiple-ref-type-entries=analyze --coloured-sketchline --expect-network-short"
+ANALYSIS_OPTIONS="--language=de --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --multiple-ref-type-entries=analyze --coloured-sketchline --expect-network-short --relaxed-begin-end-for=train,light_rail,tram"
 
 # --check-bus-stop 
 # --expect-network-long
 # --expect-network-short-for=
 # --expect-network-long-for=
-# --relaxed-begin-end-for=
 # --max-error=10 
 
