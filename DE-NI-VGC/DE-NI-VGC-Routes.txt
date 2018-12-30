@@ -8,13 +8,15 @@
 # Überschriften beginnen mit '=', '==', '===', '====', ... am Anfang einer Zeile
 #
 # Einfacher Text beginnt mit '-' am Anfang einer Zeile.
-#     Einfacher Text darf nur direkt hinter einer Überschrift stehen.
-#     !!!Text mit gelbem Hintergrund!!! im einfachen Text
-#     '''''Text mit dicken, kursiven Buchstaben''''' im einfachen Text
-#     '''Text mit dicken Buchstaben''' im einfachen Text
-#     ''Text mit kursiven Buchstaben'' im einfachen Text
-#     -   d.h. ein einfaches '-' am Anfang der Zeile gefolgt von 'nichts', 
-#         erzeugt einen Zeilen Umbruch (bzw. packt das bisher ausgegebenen in einen Paragraphen <p> ... </p>)
+#     Einfacher Text darf überall stehen.
+#     Ein einfaches '-' am Anfang der Zeile gefolgt von 'nichts':
+#     - wenn davor einfacher Text stand wird ein Zeilenumbruch erzeugt und das bisher ausgegebenen in einen Paragraphen <p> ... </p> gepackt
+#     - wenn vorher kein einfacher Text stand bzw. ein Zeilenumbruch erzeugt wurde, so wird eine Leerzeile erzeugt mit Hilfe von <p>&amp;nbsp;</p>
+#
+# !!!Text mit gelbem Hintergrund!!! in einfachem Text oder Überschriften
+# '''''Text mit dicken, kursiven Buchstaben''''' in einfachem Text oder Überschriften
+# '''Text mit dicken Buchstaben''' in einfachem Text oder Überschriften
+# ''Text mit kursiven Buchstaben'' in einfachem Text oder Überschriften
 #
 # Kommentare beginnen mit '#' am Anfang einer Zeile. Kommentare mittendrin werden nicht erkannt, d.h. '#' darf innerhalb von Text vorkommen.
 #
@@ -34,6 +36,7 @@
 # - operator  == wird bei mehreren Linie mit identischem ref und type Differenzierung herangezogen
 #                Der Wert von 'operator' darf ';' enthalten
 #
+
 
 
 = Überblick über die ÖPNV-Linien des Verkehrsgemeinschaft Cloppenburg

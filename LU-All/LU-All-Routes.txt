@@ -8,17 +8,19 @@
 # Headers start with '=', '==', '===', '====', ... at the beginning of a line
 #
 # Simple text starts with '-' at the beginning of a line.
-#     Simple text starts may only be placed directly after a header line.
-#     !!!Text yellow background!!! in simple text
-#     '''''Text mit dicken, kursiven Buchstaben''''' in simple text
-#     '''Text with bold chars''' in simple text
-#     ''Text with italic chars'' in simple text
-#     -   i.e. a single '-' at the beginning of a line, followed by nothing, 
-#         creates a line feed (resp. encloses the text in a paragraph <p> ... </p>)
+#    Simple text starts may only be placed directly after a header line.
+#    A single '-' at the beginning of a line, followed by nothing:
+#    - if there was simple text before, it creates a line feed (i.e. encloses the text in a paragraph <p> ... </p>)
+#    - if there was no simple text before or a line feed, it creates an empty line (i.e. <p>&amp;nbsp;</p>)
+#
+# !!!Text yellow background!!! in simple text or headers
+# '''''Text mit bold and italics''''' in simple text or headers
+# '''Text with bold chars''' in simple text or headers
+# ''Text with italic chars'' in simple text or headers
 #
 # Comments start with '#' at the beginning of a line. '#' inside text is not recognized as the start of a comment, i.e.. '#' may occur inside of text.
 #
-# Format of the file: UNIX (LF), UTF-8
+# Format of the file: UTF-8
 #
 #
 # Cotents in CSV-Format
@@ -27,8 +29,8 @@
 #
 # - ref       == tag 'ref' of route or route_master
 # - type      == contents of tags 'route' respectively 'route_master'
-# - comment   == can include comments like; Bus, Expressbus, ...  will not be analyze, but simply be printed out
-#                !Text with yellow background! in comment (sourrounded by single !)
+# - comment   == can include comments like; Bus, Expressbus, ...  will not be analyzed, but simply be printed out
+#                !Text with yellow background! in comment (surrounded by single !)
 # - from      == if there is more than one entry with "ref;type" and "operator" is the same, then 'from' and 'to are also used to distinguish between same line number in different cities/villages
 # - to        == if there is more than one entry with "ref;type" and "operator" is the same, then 'from' and 'to are also used to distinguish between same line number in different cities/villages
 # - operator  == if there is more than one entry with "ref;type", then "operator" is used to distinguish between same line number in different cities/villages

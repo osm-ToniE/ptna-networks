@@ -1,31 +1,42 @@
 <pre>
 #
-# Formatierung:
+# Formatierung: die Formatierung lehnt sich ans Wiki an.
 #
-# Überschriften beginnen mit '=', '==', '===', '====', ... am Anfang einer Zeile, die Formatierung lehnt sich ans Wiki an
+# Links: [[...|...]] sind (wie im OSM-Wiki) interne Verweise ins OSM-Wiki
+#        [... ...] sind (wie im OSM-Wiki) externe Verweise ins Internet
 #
-# Einfacher Text beginnt mit '-' am Anfang einer Zeile, die Formatierung lehnt sich ans Wiki an, Zeilen hier werden im Wiki mit <br /> abgeschlossen (neue Zeile).
-# Einfacher Text darf nur direkt hinter einer Überschrift stehen.
+# Überschriften beginnen mit '=', '==', '===', '====', ... am Anfang einer Zeile
 #
-# Links: [[...|...]] sind interne Verweise im Wiki
-#        [... ...] sind externe Verweise
+# Einfacher Text beginnt mit '-' am Anfang einer Zeile.
+#     Einfacher Text darf überall stehen.
+#     Ein einfaches '-' am Anfang der Zeile gefolgt von 'nichts':
+#     - wenn davor einfacher Text stand wird ein Zeilenumbruch erzeugt und das bisher ausgegebenen in einen Paragraphen <p> ... </p> gepackt
+#     - wenn vorher kein einfacher Text stand bzw. ein Zeilenumbruch erzeugt wurde, so wird eine Leerzeile erzeugt mit Hilfe von <p>&amp;nbsp;</p>
 #
-# Kommentare beginnen mit '#' am Anfang einer Zeile. Kommentare mittendrin werden nicht erkannt.
+# !!!Text mit gelbem Hintergrund!!! in einfachem Text oder Überschriften
+# '''''Text mit dicken, kursiven Buchstaben''''' in einfachem Text oder Überschriften
+# '''Text mit dicken Buchstaben''' in einfachem Text oder Überschriften
+# ''Text mit kursiven Buchstaben'' in einfachem Text oder Überschriften
 #
-# Format der Datei: UNIX (LF), UTF-8
+# Kommentare beginnen mit '#' am Anfang einer Zeile. Kommentare mittendrin werden nicht erkannt, d.h. '#' darf innerhalb von Text vorkommen.
+#
+# Format der Datei: UTF-8
 #
 #
-# Inhalt im CSV-Format
+# Definition von Linieninformationen: Inhalt im CSV-Format
 #
 # ref;type;comment;from;to;operator
 #
 # - ref       == tag 'ref' von route oder route_master
 # - type      == inhalt des tags 'route' bzw. 'route_master'
 # - comment   == kann Kommentar enthalten wie; Ruftaxi, Bus, Expressbus, ...  wird nicht ausgewertet, lediglich ausgegeben
+#                !Text mit gelbem Hintergrund! im comment (umgeben von einfachem !)
 # - from      == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
 # - to        == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
-# - operator  == wird bei mehreren Linie mit identischem ref und type Differenzierung herangezogen (Der Wert von 'operator' darf ';' enthalten)
+# - operator  == wird bei mehreren Linie mit identischem ref und type Differenzierung herangezogen
+#                Der Wert von 'operator' darf ';' enthalten
 #
+
 
 
 = Überblick Buslinien Verkehrsgmeinschaft Altmühltal (VGA) allgemein 

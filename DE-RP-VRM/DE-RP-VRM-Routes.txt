@@ -8,13 +8,15 @@
 # Überschriften beginnen mit '=', '==', '===', '====', ... am Anfang einer Zeile
 #
 # Einfacher Text beginnt mit '-' am Anfang einer Zeile.
-#     Einfacher Text darf nur direkt hinter einer Überschrift stehen.
-#     !!!Text mit gelbem Hintergrund!!! im einfachen Text
-#     '''''Text mit dicken, kursiven Buchstaben''''' im einfachen Text
-#     '''Text mit dicken Buchstaben''' im einfachen Text
-#     ''Text mit kursiven Buchstaben'' im einfachen Text
-#     -   d.h. ein einfaches '-' am Anfang der Zeile gefolgt von 'nichts', 
-#         erzeugt einen Zeilen Umbruch (bzw. packt das bisher ausgegebenen in einen Paragraphen <p> ... </p>)
+#     Einfacher Text darf überall stehen.
+#     Ein einfaches '-' am Anfang der Zeile gefolgt von 'nichts':
+#     - wenn davor einfacher Text stand wird ein Zeilenumbruch erzeugt und das bisher ausgegebenen in einen Paragraphen <p> ... </p> gepackt
+#     - wenn vorher kein einfacher Text stand bzw. ein Zeilenumbruch erzeugt wurde, so wird eine Leerzeile erzeugt mit Hilfe von <p>&amp;nbsp;</p>
+#
+# !!!Text mit gelbem Hintergrund!!! in einfachem Text oder Überschriften
+# '''''Text mit dicken, kursiven Buchstaben''''' in einfachem Text oder Überschriften
+# '''Text mit dicken Buchstaben''' in einfachem Text oder Überschriften
+# ''Text mit kursiven Buchstaben'' in einfachem Text oder Überschriften
 #
 # Kommentare beginnen mit '#' am Anfang einer Zeile. Kommentare mittendrin werden nicht erkannt, d.h. '#' darf innerhalb von Text vorkommen.
 #
@@ -36,56 +38,139 @@
 #
 
 
+
 = Überblick über die ÖPNV-Linien des Verkehrsverbundes Rhein-Mosel
 
 - Verweis auf die Datei mit den [[Verkehrsverbund_Rhein-Mosel/Analyse/DE-RP-VRM-Routes|VRM Linien]] im Wiki.
+-
 - Verweis auf mehr [[Talk:Verkehrsverbund_Rhein-Mosel/Analyse|Informationen]] im Wiki.
+-
+- .
+== Quellen 
 
+- Eine nützliche Quelle ist die [http://www.vrminfo.de/fahrplan/fahrgastinfo-auskunft/fahrplaene-nach-region/ Übersicht der Fahrpläne des VRM nach Kreisen]
+-
+-.
 == Hinweis
+
 - Bei der Analyse ist 'network' derzeit entweder
 -
-- * "VRM"                           short form, oder
+- * "'''VRM'''"                          short form, oder
 -
-- * "Verkehrsverbund Rhein-Mosel"  long form, oder
+- * "'''Verkehrsverbund Rhein-Mosel'''"  long form, oder
 -
-- * leer, d.h. nicht gesetzt
+- * '''leer''', d.h. nicht gesetzt
 -
+- .
+=== Operator Abkürzungen 
+
+- * '''DB Regio''' -
+-
+- * '''DB AG''' -
+-
+- * '''trans regio''' -
+-
+- * '''Rhenus Veniro''' - 
+-
+- * '''VLEXX''' - 
+-
+- * '''WEBA''' - 
+-
+- * '''HLB''' - Hessenbahn
+-
+- * '''CFL''' - Luxemburgische Staatsbahn
+-
+- * '''VIAS''' - 
+-
+- .
+-
+- * '''RMV''' - Rhein Mosel Verkehrsgesellschaft
+-
+- * '''VMR''' - Verkehrsbetriebe Mittelrhein
+-
+- * '''RVK''' - Regionalverkehr Köln
+-
+- * '''DB Regio Bus''' - 
+-
+- * '''Hoffmann''' - 
+-
+- * '''Fribus''' - 
+-
+- * '''xxx''' - 
+-
+- * '''xxx''' - 
+
 #
 #ref;type;comment;from;to;operator
 
-== Regionalexpress
+-
+- .
+== Züge 
 
-RE1;train;;Koblenz;Mannheim;
-RE11;train;;;;
-RE2;train;;;;
-RE5;train;;;;
-RE8;train;;;;
-RE17;train;;;;
-RE25;train;;;;
+=== Regionalexpress
 
-== Regionalbahn
+RE1;train;über Trier, Saarbrücken;Koblenz;Mannheim;DB AG
+RE2;train;;Koblenz;Frankfurt;
+RE5;train;Rhein-Express;Koblenz;Wesel;
+RE8;train;Rhein-Erft-Express;Koblenz;Mönchengladbach;
+RE9;train;Rhein-Sieg-Express;Aachen;Siegen;DB Regio NRW
+RE11;train;;Koblenz;Luxemburg;
+RE17;train;;Koblenz;Kaiserslautern;
+RE25;train;Lahntal-Express;Koblenz;Gießen;DB AG
 
-RB10;train;;;;
-RB23;train;;;;
-RB26;train;;;;
-RB27;train;;;;
-RB30;train;Rhein-Ahr-Bahn;Bonn;Ahrbrück;DB Regio 
-RB39;train;Ahrtalbahn;Remagen;Ahrbrück;DB Regio 
-RB81;train;;;;
+- .
+=== Regionalbahn
 
+RB10;train;Rechte-Rhein-Strecke;Neuwied;Frankfurt;VIAS
+RB23;train;Lahn-Eifel-Bahn;Mayen;Limburg;DB AG
+RB26;train;Mitttelrheinbahn;Mainz;Köln;trans regio
+RB27;train;Rhein-Erft-Bahn;Koblenz;Mönchengladbach;DB AG
+RB29;train;Unterwesterwald-Bahn;Limburg;Siershahn;HLB
+RB30;train;Rhein-Ahr-Bahn;Bonn;Ahrbrück;DB Regio
+RB37;train;Hunsrück-Bahn;Boppard;Emelshausen;Rhenus Veniro
+RB38;train;Pellenz-Eifel-Bahn;Andernach;Kaisersesch;DB AG
+RB39;train;Rhein-Ahr-Bahn;Remagen;Ahrbrück;DB Regio
+
+RB81;train;Moseltal-Bahn;Koblenz;Trier;DB AG
+RB85;train;Moselwein-Bahn;Bullay;Traben-Trarbach;Rhenus Veniro
+RB90;train;Westerwald-Sieg-Bahn;Limburg;Siegen;HLB
+RB93;train;Rothaar-Bahn;Betzdorf (Sieg);Bad Berleburg;
+RB96;train;Hellertalbahn;Betzdorf;Dillenburg;HLB
+RB97;train;Daadetalbahn;Betzdorf;Daaden;Westerwaldbahn
+
+- .
 == Busse
 
+- .
 === Kreis Ahrweiler
 
 310;bus;;Andernach;Maria Laach;RMV
 344;bus;;Mayen;Herresbach;RMV
 528;bus;;Niederbaar;Adenau;Hoffmann
-529;bus;;Nohn;Antweiler:Hoffmann
+529;bus;;Nohn;Antweiler;Hoffmann
 740;bus;;Rheinbach;Hilberath;RVK
-749;bus;;Meckenheim;Rheinbach;RVK 
-800;bus;RegioBus;Bad Breisig;Bad Neuenahr;Verkehrsbetriebe Mittelrhein (VMR)
+749;bus;;Meckenheim;Rheinbach;RVK
+
+800;bus;RegioBus;Bad Breisig;Bad Neuenahr;VMR
 801;bus;;Niederzissen;Bad Breisig;VMR
+802;bus;;Brohl;Rolandswerth;DB Regio Bus
+803;bus;;Bad Breisig;Bad Neuenahr;VMR
+804;bus;;Niederzissen;Bad Neuenahr;VMR
+805;bus;;Kempenic;Niederzissen;VMR
+806;bus;;Wollscheid/Brenk;Niederzissen;VMR
+807;bus;;Wehr;Niederzissen;VMR
+809;bus;;Niederlützingen/Niederzissen;Remagen;VMR 
+
+861;bus;;Adenau;Kottenborn;RMV
+862;bus;;Altenahr;Liers;RMV
+863;bus;;Ahrbrüc;Adenau;RMV
+864;bus;;Müsch;Adenau;RMV
+867;bus;;Kirchsahr;Altenburg;VMR
+868;bus;;Kirchsahr;Altenburg;VMR
+869;bus;;Altenburg;Bad Neuenahr;DB Regio Bus
+881;bus;;Winnerath;Adenau;Hoffmann 
 882;bus;;Antweiler;Bauler;Hoffmann
+
 976;bus;;Glees;Mendig;RMV
 977;bus;;Volkesfeld;Mendig;FriBus 
 
