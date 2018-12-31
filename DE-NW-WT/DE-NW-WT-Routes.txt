@@ -1,0 +1,234 @@
+<pre>
+#
+# Formatierung: die Formatierung lehnt sich ans Wiki an.
+#
+# Links: [[...|...]] sind (wie im OSM-Wiki) interne Verweise ins OSM-Wiki
+#        [... ...] sind (wie im OSM-Wiki) externe Verweise ins Internet
+#
+# Überschriften beginnen mit '=', '==', '===', '====', ... am Anfang einer Zeile
+#
+# Einfacher Text beginnt mit '-' am Anfang einer Zeile.
+#     Einfacher Text darf überall stehen.
+#     Ein einfaches '-' am Anfang der Zeile gefolgt von 'nichts':
+#     - wenn davor einfacher Text stand wird ein Zeilenumbruch erzeugt und das bisher ausgegebenen in einen Paragraphen <p> ... </p> gepackt
+#     - wenn vorher kein einfacher Text stand bzw. ein Zeilenumbruch erzeugt wurde, so wird eine Leerzeile erzeugt mit Hilfe von <p>&amp;nbsp;</p>
+#
+# !!!Text mit gelbem Hintergrund!!! in einfachem Text oder Überschriften
+# '''''Text mit dicken, kursiven Buchstaben''''' in einfachem Text oder Überschriften
+# '''Text mit dicken Buchstaben''' in einfachem Text oder Überschriften
+# ''Text mit kursiven Buchstaben'' in einfachem Text oder Überschriften
+#
+# Kommentare beginnen mit '#' am Anfang einer Zeile. Kommentare mittendrin werden nicht erkannt, d.h. '#' darf innerhalb von Text vorkommen.
+#
+# Format der Datei: UTF-8
+#
+#
+# Definition von Linieninformationen: Inhalt im CSV-Format
+#
+# ref;type;comment;from;to;operator
+#
+# - ref       == tag 'ref' von route oder route_master
+# - type      == inhalt des tags 'route' bzw. 'route_master'
+# - comment   == kann Kommentar enthalten wie; Ruftaxi, Bus, Expressbus, ...  wird nicht ausgewertet, lediglich ausgegeben
+#                !Text mit gelbem Hintergrund! im comment (umgeben von einfachem !)
+# - from      == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
+# - to        == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
+# - operator  == wird bei mehreren Linie mit identischem ref und type Differenzierung herangezogen
+#                Der Wert von 'operator' darf ';' enthalten
+#
+
+
+
+= Überblick über die ÖPNV-Linien des Verkehrsverbundes "WestfalenTarif"
+
+#- Verweis auf die Datei mit den [[WestfalenTarif/Analyse/WestfalenTarif-Linien|WestfalenTarif-Linien]] im Wiki.
+#-
+#- Verweis auf mehr [[Talk:WestfalenTarif/Analyse|Informationen]] im Wiki.
+#-
+
+
+- Diese automatisch erstellte Auswertung enthält derzeit '''Bestandsaufnahme der in OSM gefundenen WestfalenTarif-Linien'''.
+-
+- Ziel ist aber die Erstellung dieser Datei aus WestfalenTarif-Daten mit allen zum WestfalenTarif gehörigen Linien. 
+- Die Liste kommt idealerweise direkt vom und mit Hilfe des Betreibers/Verkehrsverbundes (copyright!).
+-
+-
+
+== Teilraum Münsterland
+
+=== Stadt Münster
+
+1;bus;;;;Stadtwerke Münster
+2;bus;;;;Stadtwerke Münster
+4;bus;;;;Stadtwerke Münster
+7;bus;;;;Stadtwerke Münster / Regionalverkehr Münsterland GmbH
+9;bus;;;;Stadtwerke Münster
+11;bus;;;;Stadtwerke Münster
+12;bus;;;;Stadtwerke Münster
+
+=== Kreis Stenfurt
+
+=== Kreis Warendorf
+
+=== Kires Coesfeld
+
+=== Kreis Borken
+
+-
+
+== Teilraum TeutoOWL
+
+=== Stadt Bielefeld
+
+=== Kreis Gütersloh
+
+=== Kreise Herford und Minden-Lübbecke
+
+1;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+2;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+3;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+4;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+7;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+11;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+12;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+
+=== Kreis Lippe
+
+=== Stadt Bielefeld
+
+=== Übergangsgebiet TeutoOWL -> Niedersachsen
+
+-
+
+== Teilraum Ruhr-Lippe
+
+=== Stadt Hamm
+
+1;bus;;;;Stadtwerke Hamm GmbH Verkehr
+2;bus;;;;Stadtwerke Hamm GmbH Verkehr
+3;bus;;;;Stadtwerke Hamm GmbH Verkehr
+4;bus;;;;Stadtwerke Hamm GmbH Verkehr
+6;bus;;;;Stadtwerke Hamm GmbH Verkehr
+7;bus;;;;Stadtwerke Hamm GmbH Verkehr
+9;bus;;;;Stadtwerke Hamm GmbH Verkehr
+10;bus;;;;Stadtwerke Hamm GmbH Verkehr
+11;bus;;;;Stadtwerke Hamm GmbH Verkehr
+12;bus;;;;Stadtwerke Hamm GmbH Verkehr
+15;bus;;;;Stadtwerke Hamm GmbH Verkehr
+17;bus;;;;Stadtwerke Hamm GmbH Verkehr
+18;bus;;;;Stadtwerke Hamm GmbH Verkehr
+21;bus;;;;Stadtwerke Hamm GmbH Verkehr
+22;bus;;;;Stadtwerke Hamm GmbH Verkehr
+27;bus;;;;Stadtwerke Hamm GmbH Verkehr
+28;bus;;;;Stadtwerke Hamm GmbH Verkehr
+29;bus;;;;Stadtwerke Hamm GmbH Verkehr
+30;bus;;;;Stadtwerke Hamm GmbH Verkehr
+31;bus;;;;Stadtwerke Hamm GmbH Verkehr
+33;bus;;;;Stadtwerke Hamm GmbH Verkehr
+83;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E14;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E25;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E30;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E32;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E33;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E34;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E35;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E36;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E37;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E38;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E39;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E40;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E50;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E52;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E53;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E54;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E55;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E56;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E57;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E58;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E60;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E65;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E66;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E70;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E71;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E72;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E73;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E74;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E75;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E76;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E78;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E79;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E80;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E81;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E82;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E87;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E92;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E95;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E97;bus;;;;Stadtwerke Hamm GmbH Verkehr
+E300;bus;;;;Stadtwerke Hamm GmbH Verkehr
+N103;bus;;;;Stadtwerke Hamm GmbH Verkehr
+N104;bus;;;;Stadtwerke Hamm GmbH Verkehr
+N107;bus;;;;Stadtwerke Hamm GmbH Verkehr
+N111;bus;;;;Stadtwerke Hamm GmbH Verkehr
+N122;bus;;;;Stadtwerke Hamm GmbH Verkehr
+N183;bus;;;;Stadtwerke Hamm GmbH Verkehr
+T1;bus;;;;Stadtwerke Hamm GmbH Verkehr
+T3;bus;;;;Stadtwerke Hamm GmbH Verkehr
+T4;bus;;;;Stadtwerke Hamm GmbH Verkehr
+T6;bus;;;;Stadtwerke Hamm GmbH Verkehr
+T10;bus;;;;Stadtwerke Hamm GmbH Verkehr
+T12;bus;;;;Stadtwerke Hamm GmbH Verkehr
+T13;bus;;;;Stadtwerke Hamm GmbH Verkehr
+T17;bus;;;;Stadtwerke Hamm GmbH Verkehr
+T28;bus;;;;Stadtwerke Hamm GmbH Verkehr
+T32;bus;;;;Stadtwerke Hamm GmbH Verkehr
+T33N;bus;;;;Stadtwerke Hamm GmbH Verkehr
+T34;bus;;;;Stadtwerke Hamm GmbH Verkehr
+T53;bus;;;;Stadtwerke Hamm GmbH Verkehr
+T114;bus;;;;Stadtwerke Hamm GmbH Verkehr
+
+=== Kreis Unna
+
+=== Hochsauerlandkreis
+
+=== Kreis Soest
+
+=== Märkischer Kreis
+
+1;bus;;;;Märkische Verkehrsgesellschaft
+7;bus;;;;Märkische Verkehrsgesellschaft
+9;bus;;;;Märkische Verkehrsgesellschaft
+11;bus;;;;Märkische Verkehrsgesellschaft
+12;bus;;;;Märkische Verkehrsgesellschaft
+
+-
+
+== Teilraum Hochstift
+
+=== Kreis Paderborn
+
+1;bus;;;;Padersprinter
+2;bus;;;;Padersprinter
+3;bus;;;;Padersprinter
+4;bus;;;;Padersprinter
+5;bus;;;;Padersprinter
+7;bus;;;;Padersprinter
+9;bus;;;;Padersprinter
+11;bus;;;;Padersprinter
+12;bus;;;;Padersprinter
+
+
+=== Kreis Höxter
+
+-
+
+== Teilraum Westfalen-Süd
+
+=== Kreis Siegen-Wittgenstein
+
+=== Kreis Olpe
+
+-
+
+</pre>
