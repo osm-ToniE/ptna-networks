@@ -41,18 +41,19 @@
 
 = Überblick über die ÖPNV-Linien des Verkehrsverbundes "WestfalenTarif"
 
-#- Verweis auf die Datei mit den [[WestfalenTarif/Analyse/WestfalenTarif-Linien|WestfalenTarif-Linien]] im Wiki.
-#-
-#- Verweis auf mehr [[Talk:WestfalenTarif/Analyse|Informationen]] im Wiki.
-#-
+- Verweis auf die Datei mit den [[DE:WestfalenTarif/Analyse/WestfalenTarif-Linien|WestfalenTarif-Linien]] im Wiki.
+-
+- Verweis auf mehr [[DE_Talk:WestfalenTarif/Analyse|Informationen]] im Wiki.
+-
 
 
-- Diese automatisch erstellte Auswertung enthält derzeit '''Bestandsaufnahme der in OSM gefundenen WestfalenTarif-Linien'''.
+- Diese Auswertung enthält derzeit eine !!!'''Bestandsaufnahme der in OSM gefundenen WestfalenTarif-Linien'''!!!.
 -
 - Ziel ist aber die Erstellung dieser Datei aus WestfalenTarif-Daten mit allen zum WestfalenTarif gehörigen Linien. 
 - Die Liste kommt idealerweise direkt vom und mit Hilfe des Betreibers/Verkehrsverbundes (copyright!).
 -
--
+- Viele Liniennummer kommen mehrfach in verschiedenen Städten/Gemeinden vor.
+- Es ist für die Auswertung daher wichtig, dass (mindestens) der Betreiber einer Linie hier [[DE:WestfalenTarif/Analyse/WestfalenTarif-Linien|in diesen Daten]] mit angegeben wird und in den Route-Master- und Route-Relationen das 'operator' Feld entsprechend gesetzt ist.
 
 == Teilraum Münsterland
 
@@ -61,18 +62,44 @@
 1;bus;;;;Stadtwerke Münster
 2;bus;;;;Stadtwerke Münster
 4;bus;;;;Stadtwerke Münster
+5;bus;;;;Stadtwerke Münster
+6;bus;;;;Stadtwerke Münster
 7;bus;;;;Stadtwerke Münster / Regionalverkehr Münsterland GmbH
 9;bus;;;;Stadtwerke Münster
+10;bus;;;;Stadtwerke Münster
 11;bus;;;;Stadtwerke Münster
 12;bus;;;;Stadtwerke Münster
+15;bus;;;;Stadtwerke Münster
+17;bus;;;;Stadtwerke Münster
+18;bus;;;;Stadtwerke Münster
+22;bus;;;;Stadtwerke Münster / Regionalverkehr Münsterland GmbH
+33;bus;;;;Stadtwerke Münster
+T1;bus;;;;Stadtwerke Münster
+T4;bus;;;;Stadtwerke Münster
+T10;bus;;;;Stadtwerke Münster
 
-=== Kreis Stenfurt
+=== Kreis Steinfurt
+
+T6;bus;;;;Regionalverkehr Münsterland GmbH
+T12;bus;;Hopsten, Schulzentrum;Recke, Poststraße;Regionalverkehr Münsterland GmbH
+T17;bus;;;;Veelker GmbH & Co. KG
+T28;bus;;;;Regionalverkehr Münsterland GmbH
+
 
 === Kreis Warendorf
 
-=== Kires Coesfeld
+T12;bus;;Herbern, Mense Mühle;Mersch, Bahnhof;Regionalverkehr Münsterland GmbH
+
+=== Kreis Coesfeld
+
+T4;bus;;Lüdinghausen, Busbahnhof;Selm, Disco;Regionalverkehr Münsterland GmbH
 
 === Kreis Borken
+
+T4;bus;;Gronau, Bahnhof;Gronau, Erlöserkirche;Regionalverkehr Münsterland GmbH
+T10;bus;;;;Regionalverkehr Münsterland
+T12;bus;;;;StadtBus Bocholt
+T12;bus;;Ahaus, Bahnhof;Wüllen, Pineweg;Regionalverkehr Münsterland GmbH
 
 -
 
@@ -88,13 +115,27 @@
 2;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 3;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 4;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+5;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+6;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 7;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 11;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+10;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 12;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+22;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 
 === Kreis Lippe
 
 === Stadt Bielefeld
+
+21;bus;;;;moBiel GmbH
+22;bus;;;;moBiel GmbH
+27;bus;;;;moBiel GmbH
+28;bus;;;;moBiel GmbH
+29;bus;;;;moBiel GmbH
+30;bus;;;;moBiel GmbH
+31;bus;;;;moBiel GmbH
+33;bus;;;;moBiel GmbH
+83;bus;;;;TWE-Bus - Transdev Ostwestfalen GmbH
 
 === Übergangsgebiet TeutoOWL -> Niedersachsen
 
@@ -116,14 +157,14 @@
 12;bus;;;;Stadtwerke Hamm GmbH Verkehr
 15;bus;;;;Stadtwerke Hamm GmbH Verkehr
 17;bus;;;;Stadtwerke Hamm GmbH Verkehr
-18;bus;;;;Stadtwerke Hamm GmbH Verkehr
-21;bus;;;;Stadtwerke Hamm GmbH Verkehr
+18;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
+21;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
 22;bus;;;;Stadtwerke Hamm GmbH Verkehr
 27;bus;;;;Stadtwerke Hamm GmbH Verkehr
-28;bus;;;;Stadtwerke Hamm GmbH Verkehr
-29;bus;;;;Stadtwerke Hamm GmbH Verkehr
-30;bus;;;;Stadtwerke Hamm GmbH Verkehr
-31;bus;;;;Stadtwerke Hamm GmbH Verkehr
+28;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
+29;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
+30;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
+31;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
 33;bus;;;;Stadtwerke Hamm GmbH Verkehr
 83;bus;;;;Stadtwerke Hamm GmbH Verkehr
 E;bus;;;;Stadtwerke Hamm GmbH Verkehr
@@ -190,6 +231,9 @@ T114;bus;;;;Stadtwerke Hamm GmbH Verkehr
 
 === Kreis Unna
 
+T17;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+T53;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+
 === Hochsauerlandkreis
 
 === Kreis Soest
@@ -197,10 +241,18 @@ T114;bus;;;;Stadtwerke Hamm GmbH Verkehr
 === Märkischer Kreis
 
 1;bus;;;;Märkische Verkehrsgesellschaft
+5;bus;;;;Märkische Verkehrsgesellschaft GmbH
+6;bus;;;;Märkische Verkehrsgesellschaft
 7;bus;;;;Märkische Verkehrsgesellschaft
 9;bus;;;;Märkische Verkehrsgesellschaft
 11;bus;;;;Märkische Verkehrsgesellschaft
 12;bus;;;;Märkische Verkehrsgesellschaft
+15;bus;;;;Märkische Verkehrsgesellschaft
+17;bus;;;;Märkische Verkehrsgesellschaft
+18;bus;;;;BRS Busverkehr Ruhr-Sieg
+21;bus;;;;MVG
+22;bus;;;;Märkische Verkehrsgesellschaft
+27;bus;;;;Märkische Verkehrsgesellschaft GmbH
 
 -
 
@@ -213,10 +265,12 @@ T114;bus;;;;Stadtwerke Hamm GmbH Verkehr
 3;bus;;;;Padersprinter
 4;bus;;;;Padersprinter
 5;bus;;;;Padersprinter
+6;bus;;;;Padersprinter
 7;bus;;;;Padersprinter
 9;bus;;;;Padersprinter
 11;bus;;;;Padersprinter
 12;bus;;;;Padersprinter
+28;bus;;;;Padersprinter
 
 
 === Kreis Höxter
