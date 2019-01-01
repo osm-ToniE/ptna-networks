@@ -506,6 +506,8 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 853;bus;;;;
 854;bus;;;;
 855;bus;Seit 09.06.2018 nicht mehr buchbar, wurde eingestellt;;;
+856;bus;;;;
+858;bus;;;;
 
 
 == 9xx-Linien (Gebiet Slowenien, Kroatien, Slowakei, Ungarn westl. Rumänien etwa)
@@ -593,6 +595,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 1351;bus;;Warschau;Bromberg;FlixMobility GmbH
 1360;bus;;Berlin;Rzeszów/Przemyśl;FlixMobility GmbH
 1361;bus;;Berlin;Kattowitz/Tschenstochau;FlixMobility GmbH
+1380;bus;;Gdingen;Prag;FlixMobility GmbH
 1381;bus;;Berlin;Posen/Toruń;FlixMobility GmbH
 
 
@@ -940,6 +943,7 @@ N997;bus;;Rom;Zagreb;FlixMobility GmbH
 N998;bus;;;;
 
 N1210;bus;;Warschau;Gdingen;FlixMobility GmbH
+N1291;bus;;Wien;Krakau;FlixMobility GmbH
 
 N1300;bus;;Warschau;Prag;FlixMobility GmbH
 N1321;bus;;Berlin;Warschau;FlixMobility GmbH

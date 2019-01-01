@@ -47,7 +47,7 @@
 -
 
 
-- Diese Auswertung enthält derzeit eine !!!'''Bestandsaufnahme der in OSM gefundenen WestfalenTarif-Linien'''!!!.
+- Diese Auswertung enthält derzeit '''der Beginn''' einer !!!'''Bestandsaufnahme der in OSM gefundenen WestfalenTarif-Linien'''!!!.
 -
 - Ziel ist aber die Erstellung dieser Datei aus WestfalenTarif-Daten mit allen zum WestfalenTarif gehörigen Linien. 
 - Die Liste kommt idealerweise direkt vom und mit Hilfe des Betreibers/Verkehrsverbundes (copyright!).
@@ -74,32 +74,63 @@
 18;bus;;;;Stadtwerke Münster
 22;bus;;;;Stadtwerke Münster / Regionalverkehr Münsterland GmbH
 33;bus;;;;Stadtwerke Münster
+
 T1;bus;;;;Stadtwerke Münster
 T4;bus;;;;Stadtwerke Münster
+T7;bus;Taxibus;;;Stadtwerke Münster
+T8;bus;Taxibus;;;Stadtwerke Münster
+T9;bus;Taxibus;;;Stadtwerke Münster
 T10;bus;;;;Stadtwerke Münster
+T80;bus;Taxibus;;;Stadtwerke Münster
+T81;bus;Taxibus;;;Stadtwerke Münster
+T82;bus;Taxibus;;;Stadtwerke Münster
+T83;bus;Taxibus;;;Stadtwerke Münster
+T84;bus;Taxibus;;;Stadtwerke Münster
+T85;bus;Taxibus;;;Stadtwerke Münster
+T87;bus;Taxibus;;;Stadtwerke Münster
+
+R41;bus;;;;Stadtwerke Münster; Regionalverkehr Münsterland GmbH
 
 === Kreis Steinfurt
 
+143;bus;;;;
+147;bus;;;;
+
+BB;bus;;;;Veelker GmbH & Co. KG
+
+R41;bus;;;;Regionalverkehr Münsterland GmbH
 T6;bus;;;;Regionalverkehr Münsterland GmbH
 T12;bus;;Hopsten, Schulzentrum;Recke, Poststraße;Regionalverkehr Münsterland GmbH
 T17;bus;;;;Veelker GmbH & Co. KG
 T28;bus;;;;Regionalverkehr Münsterland GmbH
+T89;bus;;;;Veelker GmbH & Co. KG
+
+X150;bus;;;;Stadtwerke Osnabrück
 
 
 === Kreis Warendorf
 
+T7;bus;;;;Verkehrsgesellschaft Ahlen mbH
 T12;bus;;Herbern, Mense Mühle;Mersch, Bahnhof;Regionalverkehr Münsterland GmbH
 
 === Kreis Coesfeld
 
 T4;bus;;Lüdinghausen, Busbahnhof;Selm, Disco;Regionalverkehr Münsterland GmbH
+T8;bus;;;;Regionalverkehr Münsterland GmbH
 
 === Kreis Borken
 
+B1;bus;;;;Regionalverkehr Münsterland GmbH
+B2;bus;;;;Regionalverkehr Münsterland GmbH
+
 T4;bus;;Gronau, Bahnhof;Gronau, Erlöserkirche;Regionalverkehr Münsterland GmbH
+T7;bus;;;;Regionalverkehr Münsterland GmbH
 T10;bus;;;;Regionalverkehr Münsterland
 T12;bus;;;;StadtBus Bocholt
 T12;bus;;Ahaus, Bahnhof;Wüllen, Pineweg;Regionalverkehr Münsterland GmbH
+T75;bus;;;;SWK FAHRSERVICE GmbH
+T79;bus;;;;Regionalverkehr Münsterland GmbH
+T88;bus;;;;Regionalverkehr Münsterland GmbH
 
 -
 
@@ -107,7 +138,50 @@ T12;bus;;Ahaus, Bahnhof;Wüllen, Pineweg;Regionalverkehr Münsterland GmbH
 
 === Stadt Bielefeld
 
+==== Tram
+
+1;tram;;;;moBiel GmH
+2;tram;;;;moBiel GmH
+3;tram;;;;moBiel GmH
+4;tram;;;;moBiel GmH
+10;tram;;;;moBiel GmH
+12;tram;;;;moBiel GmH
+13;tram;;;;moBiel GmH
+18;tram;;;;moBiel GmH
+
+==== Bus
+
+21;bus;;;;moBiel GmbH
+22;bus;;;;moBiel GmbH
+27;bus;;;;moBiel GmbH
+28;bus;;;;moBiel GmbH
+29;bus;;;;moBiel GmbH
+30;bus;;;;moBiel GmbH
+31;bus;;;;moBiel GmbH
+33;bus;;;;moBiel GmbH
+83;bus;;;;TWE-Bus - Transdev Ostwestfalen GmbH
+101;bus;;;;moBiel GmH
+103;bus;;;;moBiel GmH
+104;bus;;;;moBiel GmH
+105;bus;;;;moBiel GmH
+108;bus;;;;moBiel GmH
+109;bus;;;;moBiel GmH
+115;bus;;;;moBiel GmH
+121;bus;;;;moBiel GmH
+122;bus;;;;moBiel GmH
+123;bus;;;;moBiel GmH
+127;bus;;;;moBiel GmH
+128;bus;;;;moBiel GmH
+
+==== Anruf-Sammel-Taxi
+
+AST,share_taxi;;;;moBiel GmH
+
+
 === Kreis Gütersloh
+
+148;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+R41;bus;;;;Stadtwerke Münster; Regionalverkehr Münsterland GmbH
 
 === Kreise Herford und Minden-Lübbecke
 
@@ -124,18 +198,6 @@ T12;bus;;Ahaus, Bahnhof;Wüllen, Pineweg;Regionalverkehr Münsterland GmbH
 22;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 
 === Kreis Lippe
-
-=== Stadt Bielefeld
-
-21;bus;;;;moBiel GmbH
-22;bus;;;;moBiel GmbH
-27;bus;;;;moBiel GmbH
-28;bus;;;;moBiel GmbH
-29;bus;;;;moBiel GmbH
-30;bus;;;;moBiel GmbH
-31;bus;;;;moBiel GmbH
-33;bus;;;;moBiel GmbH
-83;bus;;;;TWE-Bus - Transdev Ostwestfalen GmbH
 
 === Übergangsgebiet TeutoOWL -> Niedersachsen
 
@@ -231,12 +293,53 @@ T114;bus;;;;Stadtwerke Hamm GmbH Verkehr
 
 === Kreis Unna
 
+105;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+106;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+107;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+108;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+109;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+112;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+118;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+119;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+122;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+124;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+126;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+127;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+128;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+140;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
+141;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
+145;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
+146;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
+147;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
+
+B1;bus;;;;Bürgerbusverein Fröndenberg/Ruhr e. V.
+B2;bus;;;;Bürgerbusverein Fröndenberg/Ruhr e. V.
+B3;bus;;;;Bürgerbusverein Fröndenberg/Ruhr e. V.
+B4;bus;;;;Bürgerbusverein Fröndenberg/Ruhr e. V.
+
 T17;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 T53;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+T71;bus;;;;Busverkehr Ruhr-Sieg GmbH
+T93;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 
 === Hochsauerlandkreis
 
+B1;bus;Bestwig;Bestwig;Velmede;Bürgerbus Bestwig e.V.
+B1;bus;Brilon;Brilon;Brilon;DB Bahn Westfalenbus
+B1;bus;Marsberg;Marsberg;Marsberg;DB Bahn Westfalenbus
+B1;bus;Sundern;Sundern, Die Fabrik;Sundern, Am Knick;DB Bahn Westfalenbus
+B1;bus;Winterberg;;;Regionalverkehr Ruhr-Lippe GmbH
+B2;bus;Brilon;;;DB Bahn Westfalenbus
+B2;bus;Winterberg;;;Regionalverkehr Ruhr-Lippe GmbH
+B4;bus;Sundern;;;DB Bahn Westfalenbus
+
+T73;bus;;;;DB Bahn Westfalenbus
+
 === Kreis Soest
+
+526;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
+
+R41;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
 
 === Märkischer Kreis
 
@@ -253,6 +356,8 @@ T53;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 21;bus;;;;MVG
 22;bus;;;;Märkische Verkehrsgesellschaft
 27;bus;;;;Märkische Verkehrsgesellschaft GmbH
+
+BB1;bus;;;;
 
 -
 
@@ -272,14 +377,28 @@ T53;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 12;bus;;;;Padersprinter
 28;bus;;;;Padersprinter
 
+UNI;bus;;;;Padersprinter
+
 
 === Kreis Höxter
+
+W1;bus;;;;BBH BahnBus Hochstift GmbH
+W2;bus;;;;BBH BahnBus Hochstift GmbH
+W3;bus;;;;BBH BahnBus Hochstift GmbH
+W4;bus;;;;BBH BahnBus Hochstift GmbH
 
 -
 
 == Teilraum Westfalen-Süd
 
 === Kreis Siegen-Wittgenstein
+
+R40;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
+BBK-2bus;;;;Bürgerbus Kreuztal
+
+UX1;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
+UX2;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
+UX3;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
 
 === Kreis Olpe
 

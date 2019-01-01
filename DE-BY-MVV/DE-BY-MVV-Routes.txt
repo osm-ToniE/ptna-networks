@@ -480,9 +480,9 @@ N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzing
 = Nicht zum MVV gehörende Linien mit Bezug zu München
 == Regional-Bahn, Teilstrecken mit Anerkennung des MVV-Tarifs
 - Die Nummern hier werden beim MVV als "R xxx" verwendet.
-Fex;train;!Neue Linie ab 09.12.2018!Flughafenexpress;Regensburg;München Flughafen Terminal;DB Regio
 900;train;Petershausen - Ingolstadt nicht im MVV-Tarif;München Hauptbahnhof;Ingolstadt;DB Regio
 930;train;Moosburg - Landshut nicht im MVV-Tarif;München Hauptbahnhof;Landshut;Alex;DB AG
+933;train;Flughafenexpress;Regensburg;München Flughafen Terminal;DB Regio
 940;train;Markt Schwaben - Mühldorf nicht im MVV-Tarif;München Hauptbahnhof;Mühldorf;DB Regio
 #944;train;Südostbyaernbahn: Gesamtstrecke nicht im MVV-Tarif;Mühldorf (Inn);Rosenheim
 948;train;Filzenexpress;München;Wasserburg (Inn) Bahnhof;DB Regio
