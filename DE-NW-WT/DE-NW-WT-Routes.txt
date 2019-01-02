@@ -89,12 +89,12 @@ T84;bus;Taxibus;;;Stadtwerke Münster
 T85;bus;Taxibus;;;Stadtwerke Münster
 T87;bus;Taxibus;;;Stadtwerke Münster
 
-R41;bus;;;;Stadtwerke Münster; Regionalverkehr Münsterland GmbH
+R41;bus;;Münster, Hauptbahnhof;Ottmarsbocholt, Dillenbaum;Stadtwerke Münster; Regionalverkehr Münsterland GmbH
 
 === Kreis Steinfurt
 
 143;bus;;;;
-147;bus;;;;
+147;bus;;;;Regionalverkehr Münsterland GmbH
 
 BB;bus;;;;Veelker GmbH & Co. KG
 
@@ -117,6 +117,7 @@ T12;bus;;Herbern, Mense Mühle;Mersch, Bahnhof;Regionalverkehr Münsterland GmbH
 
 T4;bus;;Lüdinghausen, Busbahnhof;Selm, Disco;Regionalverkehr Münsterland GmbH
 T8;bus;;;;Regionalverkehr Münsterland GmbH
+R41;bus;;Münster, Hauptbahnhof;Ottmarsbocholt, Dillenbaum;Stadtwerke Münster; Regionalverkehr Münsterland GmbH
 
 === Kreis Borken
 
@@ -160,28 +161,27 @@ T88;bus;;;;Regionalverkehr Münsterland GmbH
 31;bus;;;;moBiel GmbH
 33;bus;;;;moBiel GmbH
 83;bus;;;;TWE-Bus - Transdev Ostwestfalen GmbH
-101;bus;;;;moBiel GmH
-103;bus;;;;moBiel GmH
-104;bus;;;;moBiel GmH
-105;bus;;;;moBiel GmH
-108;bus;;;;moBiel GmH
-109;bus;;;;moBiel GmH
-115;bus;;;;moBiel GmH
-121;bus;;;;moBiel GmH
-122;bus;;;;moBiel GmH
-123;bus;;;;moBiel GmH
-127;bus;;;;moBiel GmH
-128;bus;;;;moBiel GmH
+101;bus;;;;moBiel GmbH
+103;bus;;;;moBiel GmbH
+104;bus;;;;moBiel GmbH
+105;bus;;;;moBiel GmbH
+108;bus;;;;moBiel GmbH
+109;bus;;;;moBiel GmbH
+115;bus;;;;moBiel GmbH
+121;bus;;;;moBiel GmbH
+122;bus;;;;moBiel GmbH
+123;bus;;;;moBiel GmbH
+127;bus;;;;moBiel GmbH
+128;bus;;;;moBiel GmbH
 
 ==== Anruf-Sammel-Taxi
 
-AST,share_taxi;;;;moBiel GmH
+AST;share_taxi;;;;moBiel GmbH
 
 
 === Kreis Gütersloh
 
 148;bus;;;;BVO Busverkehr Ostwestfalen GmbH
-R41;bus;;;;Stadtwerke Münster; Regionalverkehr Münsterland GmbH
 
 === Kreise Herford und Minden-Lübbecke
 
@@ -310,7 +310,7 @@ T114;bus;;;;Stadtwerke Hamm GmbH Verkehr
 141;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
 145;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
 146;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
-147;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
+147;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 
 B1;bus;;;;Bürgerbusverein Fröndenberg/Ruhr e. V.
 B2;bus;;;;Bürgerbusverein Fröndenberg/Ruhr e. V.
@@ -394,7 +394,8 @@ W4;bus;;;;BBH BahnBus Hochstift GmbH
 === Kreis Siegen-Wittgenstein
 
 R40;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
-BBK-2bus;;;;Bürgerbus Kreuztal
+R41;bus;;;;Westfalenbus
+BBK-2;bus;;;;Bürgerbus Kreuztal
 
 UX1;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
 UX2;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH

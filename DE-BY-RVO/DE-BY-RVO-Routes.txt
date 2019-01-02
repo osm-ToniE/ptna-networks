@@ -171,6 +171,7 @@
 9555;bus;Tegernsee - Gmund - Hausham - Schliersee - Fischbachau - Bayrischzell
 9556;bus;Tegernsee - Rottach-Egern - Kreuth - Stuben
 9557;bus;Tegernsee - Rottach-Egern - Bad Wiessee - Gmund - Waakirchen - Bad Tölz
+9557a;bus;Direktverbindung Bad Tölz - Miesbach
 9558;bus;Tegernsee - Gmund - Hausham - Agatharied - Miesbach - Irschenberg
 9559;bus;Ringlinie Tegernsee - Rottach-Egern - Bad Wiessee - Gmund - Tegernsee
 9560;bus;Tegernsee - Rottach-Egern - Enterrottach - Monialm - Valepp - Spitzing
