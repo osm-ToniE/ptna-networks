@@ -55,6 +55,16 @@
 - Viele Liniennummer kommen mehrfach in verschiedenen Städten/Gemeinden vor.
 - Es ist für die Auswertung daher wichtig, dass (mindestens) der Betreiber einer Linie hier [[DE:WestfalenTarif/Analyse/WestfalenTarif-Linien|in diesen Daten]] mit angegeben wird und in den Route-Master- und Route-Relationen das 'operator' Feld entsprechend gesetzt ist.
 
+== Bahnlinien
+
+RB32;train;;;;Abellio Rail NRW
+RB64;train;;;;DB Regio NRW
+RB71;train;;;;Eurobahn
+RB91;train;;;;Abellio Rail NRW
+RB92;train;;;;HLB Hessenbahn GmbH
+RE2;train;;;;DB Regio NRW
+RE42;train;;;;DB Regio NRW
+
 == Teilraum Münsterland
 
 === Stadt Münster
@@ -69,9 +79,13 @@
 10;bus;;;;Stadtwerke Münster
 11;bus;;;;Stadtwerke Münster
 12;bus;;;;Stadtwerke Münster
+13;bus;;;;Stadtwerke Münster
+14;bus;;;;Stadtwerke Münster
 15;bus;;;;Stadtwerke Münster
+16;bus;;;;Stadtwerke Münster
 17;bus;;;;Stadtwerke Münster
 18;bus;;;;Stadtwerke Münster
+19;bus;;;;Stadtwerke Münster
 22;bus;;;;Stadtwerke Münster / Regionalverkehr Münsterland GmbH
 33;bus;;;;Stadtwerke Münster
 
@@ -93,6 +107,7 @@ R41;bus;;Münster, Hauptbahnhof;Ottmarsbocholt, Dillenbaum;Stadtwerke Münster; 
 
 === Kreis Steinfurt
 
+140;bus;;;;
 143;bus;;;;
 147;bus;;;;Regionalverkehr Münsterland GmbH
 
@@ -154,6 +169,7 @@ T88;bus;;;;Regionalverkehr Münsterland GmbH
 
 21;bus;;;;moBiel GmbH
 22;bus;;;;moBiel GmbH
+23;bus;;;;moBiel GmbH
 27;bus;;;;moBiel GmbH
 28;bus;;;;moBiel GmbH
 29;bus;;;;moBiel GmbH
@@ -195,7 +211,10 @@ AST;share_taxi;;;;moBiel GmbH
 11;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 10;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 12;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+13;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 22;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+1/546;bus;;;;Stadtverkehrsgesellschaft Bünde mbH
+2/542;bus;;;;Stadtverkehrsgesellschaft Bünde mbH
 
 === Kreis Lippe
 
@@ -350,11 +369,15 @@ R41;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
 9;bus;;;;Märkische Verkehrsgesellschaft
 11;bus;;;;Märkische Verkehrsgesellschaft
 12;bus;;;;Märkische Verkehrsgesellschaft
+13;bus;;;;Märkische Verkehrsgesellschaft
+14;bus;;;;Märkische Verkehrsgesellschaft
 15;bus;;;;Märkische Verkehrsgesellschaft
+16;bus;;;;Märkische Verkehrsgesellschaft
 17;bus;;;;Märkische Verkehrsgesellschaft
 18;bus;;;;BRS Busverkehr Ruhr-Sieg
 21;bus;;;;MVG
 22;bus;;;;Märkische Verkehrsgesellschaft
+23;bus;;;;Märkische Verkehrsgesellschaft GmbH
 27;bus;;;;Märkische Verkehrsgesellschaft GmbH
 
 BB1;bus;;;;
