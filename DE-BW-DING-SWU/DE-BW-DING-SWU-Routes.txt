@@ -1,0 +1,79 @@
+<pre>
+#
+# Formatierung: die Formatierung lehnt sich ans Wiki an.
+#
+# Links: [[...|...]] sind (wie im OSM-Wiki) interne Verweise ins OSM-Wiki
+#        [... ...] sind (wie im OSM-Wiki) externe Verweise ins Internet
+#
+# Überschriften beginnen mit '=', '==', '===', '====', ... am Anfang einer Zeile
+#
+# Einfacher Text beginnt mit '-' am Anfang einer Zeile.
+#     Einfacher Text darf überall stehen.
+#     Ein einfaches '-' am Anfang der Zeile gefolgt von 'nichts':
+#     - wenn davor einfacher Text stand wird ein Zeilenumbruch erzeugt und das bisher ausgegebenen in einen Paragraphen <p> ... </p> gepackt
+#     - wenn vorher kein einfacher Text stand bzw. ein Zeilenumbruch erzeugt wurde, so wird eine Leerzeile erzeugt mit Hilfe von <p>&amp;nbsp;</p>
+#
+# !!!Text mit gelbem Hintergrund!!! in einfachem Text oder Überschriften
+# '''''Text mit dicken, kursiven Buchstaben''''' in einfachem Text oder Überschriften
+# '''Text mit dicken Buchstaben''' in einfachem Text oder Überschriften
+# ''Text mit kursiven Buchstaben'' in einfachem Text oder Überschriften
+#
+# Kommentare beginnen mit '#' am Anfang einer Zeile. Kommentare mittendrin werden nicht erkannt, d.h. '#' darf innerhalb von Text vorkommen.
+#
+# Format der Datei: UTF-8
+#
+#
+# Definition von Linieninformationen: Inhalt im CSV-Format
+#
+# ref;type;comment;from;to;operator
+#
+# - ref       == tag 'ref' von route oder route_master
+# - type      == inhalt des tags 'route' bzw. 'route_master'
+# - comment   == kann Kommentar enthalten wie; Ruftaxi, Bus, Expressbus, ...  wird nicht ausgewertet, lediglich ausgegeben
+#                !Text mit gelbem Hintergrund! im comment (umgeben von einfachem !)
+# - from      == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
+# - to        == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
+# - operator  == wird bei mehreren Linie mit identischem ref und type Differenzierung herangezogen
+#                Der Wert von 'operator' darf ';' enthalten
+#
+
+
+= Überblick über die ÖPNV-Linien der Stadtwerke Ulm im Verkehrsverbund DING
+
+- Verweis auf die Datei mit den [[Ulm_Neu-Ulm/Transportation/SWU-Linien|SWU Linien]] im Wiki.
+- Verweis auf mehr [[Talk:Ulm_Neu-Ulm/Transportation/SWU-Analyse|Informationen]] im Wiki.
+
+
+
+== Straßenbahn
+
+1;tram;;Söflingen;Böfingen;
+2;tram;;Kuhberg;Science Park II;
+
+== Bus
+
+=== Stadtbus
+
+4;bus;;Wiblingen;Böfingen Süd;
+5;bus;;Ludwigsfeld/Wiley;Wissenschaftsstadt;
+6;bus;;Donaustadion;Eselsberg Hasenkopf;
+7;bus;;Willy-Brandt-Platz;Jungingen;
+8;bus;;Grimmeflingen/Kuhberg;Universität Süd;
+9;bus;;Roter Berg;Gleißelstetten;
+10;bus;;Donautal;Blautal-Center;
+14;bus;;Kuhberg–Wiblingen (Pranger);
+15;bus;;Willy-Brandt-Platz–Science Park III;
+
+
+=== Nachtbus
+
+N1;bus;;Ulm ZOB;Einsingen;
+N2;bus;;Ulm ZOB;Herrlingen;
+N3;bus;;Ulm ZOB;Jungingen;
+N4;bus;;Ulm ZOB;Böfingen;
+N5;bus;;Ulm ZOB;Burlafingen;
+N7;bus;;Ulm ZOB;Wiblingen;
+N8;bus;;Ulm ZOB;Donaustetten;
+
+
+</pre>
