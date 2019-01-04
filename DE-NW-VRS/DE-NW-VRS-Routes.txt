@@ -115,11 +115,11 @@ RB90;train;;Limburg (Lahn);Siegen;Vectus
 - .
 == S-Bahn
 
-S6;train;;;;
-S11;train;;;;
-S12;train;;;;
-S13;train;;;;
-S19;train;;;;
+S6;train;;Köln;Essen;DB Regio NRW
+S11;train;via Köln, Neuss;Bergisch Gladbach;Düsseldorf Flughafen;DB Regio NRW
+S12;train;;Horrem;Au (Sieg);DB Regio NRW
+S13;train;via Köln/Bonn Flughafen;Troisdorf;Düren;DB Regio NRW
+S19;train;via Köln/Bonn Flughafen;Düren;Au (Sieg);DB Regio NRW
 S23;train;Voreifelbahn;Bonn;Euskirchen;DB Regio NRW
 
 
@@ -445,11 +445,11 @@ SB82;bus;;;;
 542;bus;!Schulverkehr Lohmar, entfällt mit Fahrplan 2019!;;;
 543;bus;!Schulverkehr Lohmar, entfällt mit Fahrplan 2019!;;;
 544;bus;!Schulverkehr Lohmar, entfällt mit Fahrplan 2019!;;;
-545;bus;!Schulverkehr Lohmar, entfällt mit Fahrplan 2019!;Lohmar;Neuhonrath;
+# 545;bus;!Schulverkehr Lohmar, Linie fehlt entfällt jedoch mit Fahrplan 2019!;Lohmar;Neuhonrath;
 546;bus;!Schulverkehr Lohmar, entfällt mit Fahrplan 2019!;;;
-547;bus;!Schulverkehr Lohmar, entfällt mit Fahrplan 2019!;Lohmar;Wahlscheid;
-548;bus;!Rundkurs Schulverkehr Lohmar, entfällt mit Fahrplan 2019!;Lohmar;Lohmar;
-549;bus;!Schulverkehr Lohmar, entfällt mit Fahrplan 2019!;Lohmar;Hollenberg;
+# 547;bus;!Schulverkehr Lohmar, Linie fehlt entfällt jedoch mit Fahrplan 2019!;Lohmar;Wahlscheid;
+# 548;bus;!Rundkurs Schulverkehr Lohmar, Linie fehlt entfällt jedoch mit Fahrplan 2019!;Lohmar;Lohmar;
+# 549;bus;!Schulverkehr Lohmar, Linie fehlt entfällt jedoch mit Fahrplan 2019!;Lohmar;Hollenberg;
 550/163;bus;;;;
 551;bus;;;;
 553;bus;!Neu im Fahrplan 2019!;Lohmar;Neuhohnrath

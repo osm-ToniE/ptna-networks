@@ -81,7 +81,7 @@
 44;bus;;Hammerschmiede;Königsplatz;
 48;bus;;Berliner Allee;Medienzentrum;
 
-=== Stadtbus Neusä
+=== Stadtbus Neusäß
 
 513;bus;;Neusäß;Schlipsheim;
 
