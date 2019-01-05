@@ -182,12 +182,12 @@ N47;bus;;;;
 - .
 === Schnellbus
 
-SB40;bus;;;;
-SB55;bus;;;;
-SB56;bus;;;;
-SB60;bus;;;;
-SB69;bus;;;;
-SB82;bus;;;;
+SB40;bus;;Köln;Bensberg;RVK
+SB55;bus;;Bonn;Lülsdorf;SWB-V;RSVG
+SB56;bus;;Siegburg;Marienfeld;RSVG
+SB60;bus;;Bonn;Flughafen;SWB-V
+SB69;bus;;Bonn Hbf;Bonn Hardhöhe;SWB-V
+SB82;bus;;Kall;Vogelsang;RVK
 
 
 - .
@@ -226,7 +226,7 @@ SB82;bus;;;;
 152;bus;;;;
 153;bus;;;;
 154;bus;;;;
-155;bus;!Ab Fahrplan 2019 Montag-Freitag bis „Mülheim Wiener Platz“ verlängert!;Mühlheim;Stammheim;KVB
+155;bus;!Ab Fahrplan 2019 Montag-Freitag bis „Mülheim Danzierstraße“ verlängert!;Mühlheim;Stammheim;KVB
 156;bus;;;;
 157;bus;;;;
 158;bus;;;;
@@ -238,7 +238,7 @@ SB82;bus;;;;
 166;bus;;;;
 167;bus;;;;
 179;bus;!Neu im Fahrplan 2019!;Neubrück;Deutz;KVB
-184;bus;Taxibus; Ebertplatz | Neusser Str./Gürtel ;Lentpark;KVB
+184;bus;Taxibus;Ebertplatz | Neusser Str./Gürtel;Lentpark;KVB
 185;bus;;;;
 # 190;bus;Linie existiert nicht mehr im Fahrplan 2018 und 2019;;;
 191;bus;;;;
@@ -555,7 +555,7 @@ SB82;bus;;;;
 811;bus;;;;
 812;bus;;;;
 813;bus;;;;
-814;bus;Nicht mehr im VRS 2018 und 2019 nur noch der VRM-Teil.;;;
+# 814;bus;Nicht mehr im VRS 2018 und 2019 -> per old-814 aussortiert;;;
 817;bus;!2019 neue Haltestelle Bornheim Kalkstraße!;Rheinbach;Hersel;RVK
 818;bus;!2019 neue Haltestellen in Merten + Waldorf, Entfall von Haltestellen in Kardorf!;Sechtem;Hersel;RVK
 819;bus;;Bad Münstereifel;Rupperath;
@@ -582,12 +582,12 @@ TB 835;bus;;;;
 839;bus;;Hellenthal;Losheim;
 842;bus;Kein Fahrplan über VRS-Info;;;
 843;bus;;;;
-844;bus;Nicht mehr im VRS nur noch der VRM-Teil existiert. Änderungen sind zum 1.7.2018 zu erwarten;;;
+# 844;bus;veraltet und zerstückelt -> gelöscht;;;
 845;bus;;;;
 846;bus;Kein Fahrplan mehr in 2018 und 2019;Rheinbach;Buschhoven;
-848;bus;;;;
+# 848;bus;Veraltet und unvollständig -> gelöscht;;;
 849;bus;;;;
-852;bus;!Seit 2018 oder früher gehört Linie zum Verbund VRM und hat keinen Anteil im VRS-Gebiet mehr.!;Bad Bodenborf;Remagen;
+# 852;bus;Seit 2018 oder früher defekt/unvollständig/ohne Fahrplan im VRS -> gelöscht;;;
 854;bus;;;;
 855;bus;;;;
 856;bus;;;;
