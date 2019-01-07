@@ -76,7 +76,7 @@
 -
 - * '''WEBA''' - 
 -
-- * '''HLB''' - Hessenbahn
+- * '''HLB''' - Hessische Landesbahn
 -
 - * '''CFL''' - Luxemburgische Staatsbahn
 -
@@ -160,6 +160,23 @@ RB97;train;Daadetalbahn;Betzdorf;Daaden;Westerwaldbahn
 806;bus;;Wollscheid/Brenk;Niederzissen;VMR
 807;bus;;Wehr;Niederzissen;VMR
 809;bus;;Niederlützingen/Niederzissen;Remagen;VMR 
+
+840;bus;;Ahrbrück;Rheinbach;DB Regio Bus
+841;bus;;Ringen;Remagen;DB Regio Bus
+844;bus;RadBus Ahr-Voreifel;Altenburg;Rheinbach;DB Regio Bus
+846;bus;;Rolandswerth;Mehlem;DB Regio Bus
+847;bus;;Krälingen;Ringen;DB Regio Bus
+848;bus;ExpressBus;Meckenheim;Ringen;DB Regio Bus
+849;bus;RegioBus;Rheinbach;Bad Neuenahr;DB Regio Bus
+
+850;bus;RegioBus;Walporzheim;Sinzig;DB Regio Bus
+851;bus;RegioBus;Sinzig;Remagen;DB Regio Bus
+852;bus;;(Lohrsdorf –) Bad Bodendorf;Remagen;DB Regio Bus
+853;bus;;Gimmigen;Remagen;DB Regio Bus
+854;bus;;Ringen;Bad Neuenahr (– Ahrweiler);DB Regio Bus
+856;bus;;Remagen-Oedingen;Bonn-Bad Godesberg;RVK
+857;bus;;Meckenheim Bf;Bad Godesberg Bf;RVK
+859;bus;;Adenau;Kelberg;RMV
 
 861;bus;;Adenau;Kottenborn;RMV
 862;bus;;Altenahr;Liers;RMV

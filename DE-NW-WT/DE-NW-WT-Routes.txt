@@ -129,6 +129,7 @@ S5;light_rail;;Hannover Flughafen;Paderborn Hbf/Bad Pyrmont;DB Regio AG
 5;bus;;;;Stadtwerke Münster
 6;bus;;;;Stadtwerke Münster
 7;bus;;;;Stadtwerke Münster / Regionalverkehr Münsterland GmbH
+8;bus;;;;Stadtwerke Münster
 9;bus;;;;Stadtwerke Münster
 10;bus;;;;Stadtwerke Münster
 11;bus;;;;Stadtwerke Münster
@@ -142,8 +143,18 @@ S5;light_rail;;Hannover Flughafen;Paderborn Hbf/Bad Pyrmont;DB Regio AG
 19;bus;;;;Stadtwerke Münster
 22;bus;;;;Stadtwerke Münster / Regionalverkehr Münsterland GmbH
 33;bus;;;;Stadtwerke Münster
+34;bus;;;;Stadtwerke Münster
 
 177;bus;;Münster;Borghorst;Reisedienst Veelker GmbH & Co. KG
+
+N80;bus;;;;Stadtwerke Münster
+N81;bus;;;;Stadtwerke Münster
+N82;bus;;;;Stadtwerke Münster
+N83;bus;;;;Stadtwerke Münster
+N84;bus;;;;Stadtwerke Münster
+N85;bus;;;;Stadtwerke Münster
+
+R41;bus;;Münster, Hauptbahnhof;Ottmarsbocholt, Dillenbaum;Stadtwerke Münster; Regionalverkehr Münsterland GmbH
 
 T1;bus;;;;Stadtwerke Münster
 T4;bus;;;;Stadtwerke Münster
@@ -159,8 +170,6 @@ T84;bus;Taxibus;;;Stadtwerke Münster
 T85;bus;Taxibus;;;Stadtwerke Münster
 T87;bus;Taxibus;;;Stadtwerke Münster
 
-R41;bus;;Münster, Hauptbahnhof;Ottmarsbocholt, Dillenbaum;Stadtwerke Münster; Regionalverkehr Münsterland GmbH
-
 === Kreis Steinfurt
 
 140;bus;;;;Regionalverkehr Münsterland GmbH
@@ -172,6 +181,15 @@ R41;bus;;Münster, Hauptbahnhof;Ottmarsbocholt, Dillenbaum;Stadtwerke Münster; 
 176;bus;;;;DB Bahn Westfalenbus GmbH
 177;bus;;Borghorst;Münster;Reisedienst Veelker GmbH & Co. KG
 178;bus;;;;Verkehrsbetrieb Wilhelm Schäpers GmbH & Co.KG
+182;bus;;;;Veelker GmbH & Co. KG
+184;bus;;;;Veelker GmbH & Co. KG
+185;bus;;;;Husmann Reisen GmbH
+186;bus;;;;Westfalenbus
+187;bus;;;;Veelker GmbH & Co. KG
+188;bus;;;;Euregio-Verkehrsgesellschaft GmbH & Co. KG
+190;bus;;;;Veelker GmbH & Co. KG
+192;bus;;;;Gronemann GmbH
+209;bus;;;;RVM
 
 BB;bus;;;;Veelker GmbH & Co. KG
 B2;bus;;Borghorst;Burgsteinfurt;Regionalverkehr Münsterland GmbH
@@ -187,6 +205,23 @@ C6;bus;Rheine;Rheine;Mesum;Stadtwerke Rheine
 C7;bus;Rheine;Rheine;Mesum;Stadtwerke Rheine
 C8;bus;Rheine;Rheine;Dutum;Stadtwerke Rheine
 C9;bus;Rheine;Rheine;Dutum;Stadtwerke Rheine
+C10;bus;Rheine;Rheine;Wadelheim;Stadtwerke Rheine
+C11;bus;Rheine;Rheine;Wadelheim;Stadtwerke Rheine
+C12;bus;Rheine;Rheine;Rheine;Stadtwerke Rheine
+
+D50;bus;;;;Regionalverkehr Münsterland GmbH
+
+MS-A;bus;Rheine;;;Stadtwerke Rheine
+MS-B;bus;Rheine;;;Stadtwerke Rheine
+MS-C;bus;Rheine;;;Stadtwerke Rheine
+MS-D;bus;Rheine;;;Stadtwerke Rheine
+
+N5;bus;;Münster;Burgsteinfurt;DB Bahn Westfalenbus GmbH
+N6;bus;;Münster;Coesfeld;Regionalverkehr Münsterland GmbH
+N9;bus;;Münster;Ibbenbüren;Regionalverkehr Münsterland GmbH
+N16;bus;;;;Regionalverkehr Münsterland GmbH
+N19;bus;;Ibbenbüren;Osnabrück;Regionalverkehr Münsterland GmbH
+N28;bus;;;;Regionalverkehr Münsterland GmbH
 
 R11;bus;;Westerkappeln;Osnabrück;Regionalverkehr Münsterland GmbH
 R41;bus;;Lotte;Lengerich;Regionalverkehr Münsterland GmbH
@@ -332,6 +367,19 @@ T470;bus;;;;Regionalverkehr Münsterland GmbH
 
 === Kreis Coesfeld
 
+B11;bus;;Südkirchen;Capelle;Regionalverkehr Münsterland GmbH
+
+C85;bus;;;;Regionalverkehr Münsterland GmbH
+
+D60;bus;;;;Regionalverkehr Münsterland GmbH
+D90;bus;;;;Regionalverkehr Münsterland GmbH
+
+N4;bus;;Lüdinghausen;Münster;Regionalverkehr Münsterland GmbH
+N6;bus;;Münster;Coesfeld;Regionalverkehr Münsterland GmbH
+N7;bus;;Münster;Coesfeld;DB Bahn Westfalenbus GmbH
+N8;bus;;Münster;Legden;Regionalverkehr Münsterland GmbH
+N64;bus;;;;Reisedienst Veelker GmbH & Co. KG
+
 R41;bus;;Münster;Ottmarsbocholt;Stadtwerke Münster; Regionalverkehr Münsterland GmbH
 R51;bus;;Bocholt;Coesfeld;DB Bahn Westfalenbus GmbH
 R61;bus;;Vreden;Coesfeld;DB Bahn Westfalenbus GmbH
@@ -347,7 +395,8 @@ T54;bus;;Drensteinfurt;Lüdinghausen;Regionalverkehr Münsterland GmbH
 174;bus;;Gronau;Burgsteinfurt;Reisedienst Veelker GmbH & Co. KG
 
 B1;bus;;Ahaus;Legden;Regionalverkehr Münsterland GmbH
-B2;bus;Bürgerbus Vreden;Vreden;Vreden;Regionalverkehr Münsterland GmbH
+B2;bus;Bürgerbus Vreden;Vreden;Vreden;DB Bahn Westfalenbus
+B11;bus;;Gronau;Epe;Regionalverkehr Münsterland GmbH
 
 C1;bus;Gronau;Gronau;Gronau;Regionalverkehr Münsterland GmbH
 C1;bus;Bocholt;Bocholt;Bocholt;StadtBus Bocholt
@@ -360,6 +409,17 @@ C5;bus;Bocholt;Bocholt;Bocholt;StadtBus Bocholt
 C6;bus;Bocholt;Bocholt;Lowick;StadtBus Bocholt
 C7;bus;Bocholt;Bocholt;Dinxperlo;StadtBus Bocholt
 C8;bus;Bocholt;Bocholt;Barlo;StadtBus Bocholt
+C13;bus;Bocholt;Bocholt;Mussum;StadtBus Bocholt
+C87;bus;;;;Regionalverkehr Münsterland GmbH
+
+D72;bus;;;;Regionalverkehr Münsterland GmbH
+D76;bus;;;;Regionalverkehr Münsterland GmbH
+
+N12;bus;;Legden;Vreden;Regionalverkehr Münsterland GmbH
+N14;bus;;Legden;Gronau;Regionalverkehr Münsterland GmbH
+N17;bus;;;;DB Bahn Westfalenbus GmbH
+N20;bus;;;;DB Bahn Westfalenbus GmbH
+N51;bus;;;;DB Bahn Westfalenbus GmbH
 
 R51;bus;;Bocholt;Coesfeld;DB Bahn Westfalenbus GmbH
 R73;bus;;Groß Reken;Lembeck;Regionalverkehr Münsterland GmbH
@@ -426,12 +486,24 @@ T88;bus;;;;Regionalverkehr Münsterland GmbH
 156;bus;;;;moBiel GmbH
 157;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 158;bus;;;;moBiel GmbH
+196;bus;;;;moBiel GmbH
+
 353;bus;;Schildesche;Eilshausen;BVO Busverkehr Ostwestfalen GmbH
 
 N1;bus;;Jahnplatz;Jahnplatz;moBiel GmbH
 N2;bus;;Jahnplatz;Jahnplatz;moBiel GmbH
 N3;bus;;Jahnplatz;Jahnplatz;moBiel GmbH
+N4;bus;;Jahnplatz;Jahnplatz;moBiel GmbH
+N5;bus;;Jahnplatz;Ubbedissen;moBiel GmbH
+N6;bus;;Jahnplatz;Jahnplatz;moBiel GmbH
+N7;bus;;Jahnplatz;Jahnplatz;moBiel GmbH
+N8;bus;;Bielefeld;Bielefeld;moBiel GmbH
+N9;bus;;Jahnplatz;Jahnplatz;moBiel GmbH
 N11;bus;;Bielefeld;Gütersloh;moBiel GmbH
+N12;bus;;Bielefeld;Bünde;moBiel GmbH
+N13;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+N14;bus;;Bielefeld;Steinhagen;moBiel GmbH
+N18;bus;;;;moBiel GmbH
 
 ==== Anruf-Sammel-Taxi
 
@@ -442,6 +514,19 @@ AST;share_taxi;;;;moBiel GmbH
 
 148;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 160;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+188;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+190;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+201;bus;;;;Stadtwerke Gütersloh
+202;bus;;;;Stadtwerke Gütersloh
+203;bus;;;;Stadtwerke Gütersloh
+204;bus;;;;Stadtwerke Gütersloh
+205;bus;;;;Stadtwerke Gütersloh
+206;bus;;;;Stadtwerke Gütersloh
+207;bus;;;;Stadtwerke Gütersloh
+208;bus;;;;Stadtwerke Gütersloh
+209;bus;;;;Stadtwerke Gütersloh
+210;bus;;;;Stadtwerke Gütersloh
+211;bus;;;;Stadtwerke Gütersloh
 
 === Kreise Herford und Minden-Lübbecke
 
@@ -452,6 +537,7 @@ AST;share_taxi;;;;moBiel GmbH
 5;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 6;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 7;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+8;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 11;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 10;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 12;bus;;;;BVO Busverkehr Ostwestfalen GmbH
@@ -465,12 +551,13 @@ AST;share_taxi;;;;moBiel GmbH
 431;bus;;;;WeserWerreBus GmbH
 432;bus;;Löhne;Mennighüffen;WeserWerreBus GmbH
 434;bus;;Herford;Exter;BVO Busverkehr Ostwestfalen GmbH
+435;bus;;Herford;Exter;BVO Busverkehr Ostwestfalen GmbH
 437;bus;;Vlotho;Gohfeld;WeserWerreBus GmbH
 438;bus;;Vlotho;Vlotho;WeserWerreBus GmbH
 458;bus;;Bad Oeynhausen;Vlotho;TWV-Bus Transdev Ostwestfalen GmbH
 461;bus;;Minden;Bad Oeynhausen;BVO Busverkehr Ostwestfalen GmbH
 462;bus;;Löhne;Kirchlengern;Stoffregen-Reisen
-464;bus;;Enger;Spenge;
+464;bus;;Enger;Spenge;BVO Busverkehr Ostwestfalen GmbH
 465;bus;;Herford;Spenge;BVO Busverkehr Ostwestfalen GmbH
 466;bus;;Herford;Spenge;BVO Busverkehr Ostwestfalen GmbH
 467;bus;;Spenge;Spenge;BVO Busverkehr Ostwestfalen GmbH
@@ -478,6 +565,9 @@ AST;share_taxi;;;;moBiel GmbH
 
 1/546;bus;;;;Stadtverkehrsgesellschaft Bünde mbH
 2/542;bus;;;;Stadtverkehrsgesellschaft Bünde mbH
+2/547;bus;;;;Stadtverkehrsgesellschaft Bünde mbH
+
+ALF;bus;;;;Stadtwerke Bad Salzuflen GmbH
 
 === Kreis Lippe
 
@@ -607,6 +697,22 @@ T114;bus;;;;Stadtwerke Hamm GmbH Verkehr
 170;bus;;;;Busverkehr Ruhr-Sieg GmbH
 178;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 179;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+180;bus;;;;Busverkehr Ruhr-Sieg GmbH
+183;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+184;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+185;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+186;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+187;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+188;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+189;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+191;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+192;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+193;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+194;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+195;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+207;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+208;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+
 430;bus;;Hörde;Schwerte;DSW21
 435;bus;;Hörde;Schwerte;DSW21
 
@@ -620,11 +726,41 @@ C2;bus;;Alstedde;Lünen;Verkehrsgesellschaft Kreis Unna mbH
 C4;bus;;Dortmund;Niederaden;Verkehrsgesellschaft Kreis Unna mbH
 C5;bus;;Dortmund;Lünen;Verkehrsgesellschaft Kreis Unna mbH
 C6;bus;;Brambauer;Wethmar;Verkehrsgesellschaft Kreis Unna mbH
+C11;bus;;Bergkamen;Bergkamen;Verkehrsgesellschaft Kreis Unna mbH
+C14;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+C21;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+C22;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+C23;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+C24;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+C31;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+C32;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+C33;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+C40;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+C41;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+C42;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+C43;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+C44;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+C45;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+C71;bus;;;;Busverkehr Ruhr-Sieg GmbH
+C72;bus;;;;Busverkehr Ruhr-Sieg GmbH
+C73;bus;;;;Busverkehr Ruhr-Sieg GmbH
+C74;bus;;;;Busverkehr Ruhr-Sieg GmbH
+C91;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+
+D19;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+D45;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+D79;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+D80;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+D86;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 
 N1;bus;;Lünen;Brambauer;Verkehrsgesellschaft Kreis Unna mbH
 N2;bus;;Lünen;Alstedde;Verkehrsgesellschaft Kreis Unna mbH
+N10;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 N11;bus;;Lünen;Werne;Verkehrsgesellschaft Kreis Unna mbH
+N19;bus;;Lünen;Selm;Verkehrsgesellschaft Kreis Unna mbH
 NE25;bus;;Hörde;Schwerte;DSW21
+N31;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+N32;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 
 R11;bus;;Lünen;Bergkamen;Verkehrsgesellschaft Kreis Unna mbH
 R13;bus;;Bergkamen;Kamen;Verkehrsgesellschaft Kreis Unna mbH
@@ -648,6 +784,7 @@ T93;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 373;bus;;;;DB Bahn Westfalenbus
 431;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
 434;bus;;Sundern;Hellefeld;DB Bahn Westfalenbus GmbH
+435;bus;;Sundern;Sundern;DB Bahn Westfalenbus GmbH
 436;bus;;Sundern;Sundern;DB Bahn Westfalenbus GmbH
 461;bus;;Schmallenberg;Oberkirchen;Regionalverkehr Ruhr-Lippe GmbH
 462;bus;;Schmallenberg;Oberkirchen;Regionalverkehr Ruhr-Lippe GmbH
@@ -669,6 +806,7 @@ B2;bus;Arnsberg;Hüsten;Niedereimer;Regionalverkehr Ruhr-Lippe GmbH
 B2;bus;Brilon;Brilon;Brilon;DB Bahn Westfalenbus
 B2;bus;Winterberg;Winterberg;Neuastenberg;Regionalverkehr Ruhr-Lippe GmbH
 B4;bus;Sundern;Sundern;Langscheid;DB Bahn Westfalenbus
+B11;bus;;Meschede;Meschede;Regionalverkehr Ruhr-Lippe GmbH
 
 C1;bus;Arnsberg;Neheim;Niedereimer;Regionalverkehr Ruhr-Lippe GmbH
 C1;bus;Meschede;Meschede;Meschede;Regionalverkehr Ruhr-Lippe GmbH
@@ -683,8 +821,11 @@ C6;bus;Arnsberg;Hüsten;Neheim;Regionalverkehr Ruhr-Lippe GmbH
 C7;bus;Arnsberg;Neheim-Hüsten;Neheim;Regionalverkehr Ruhr-Lippe GmbH
 C8;bus;Arnsberg;Neheim-Hüsten;Holzen;Regionalverkehr Ruhr-Lippe GmbH
 C9;bus;Arnsberg;Hüsten;Hüsten;Regionalverkehr Ruhr-Lippe GmbH
+C10;bus;Arnsberg;Arnsberg;Arnsberg;Regionalverkehr Ruhr-Lippe GmbH
 
 N3;bus;;Arnsberg;Olsberg;DB Bahn Westfalenbus GmbH
+N5;bus;;Arnsberg;Voßwinkel;Regionalverkehr Ruhr-Lippe GmbH
+N6;bus;;Ense;Sundern;Regionalverkehr Ruhr-Lippe GmbH
 
 R22;bus;;Arnsberg;Sundern;DB Bahn Westfalenbus GmbH
 R54;bus;;Neheim;Ostönnen;Regionalverkehr Ruhr-Lippe GmbH
@@ -745,6 +886,7 @@ N1;bus;;Lippstadt;Anröchte;Regionalverkehr Ruhr-Lippe GmbH
 5;bus;;;;Märkische Verkehrsgesellschaft GmbH
 6;bus;;;;Märkische Verkehrsgesellschaft
 7;bus;;;;Märkische Verkehrsgesellschaft
+8;bus;;;;Märkische Verkehrsgesellschaft
 9;bus;;;;Märkische Verkehrsgesellschaft
 11;bus;;;;Märkische Verkehrsgesellschaft
 12;bus;;;;Märkische Verkehrsgesellschaft
@@ -779,6 +921,7 @@ R61;bus;;Attendorn;Meinerzhagen;Verkehrsbetriebe Westfalen Süd GmbH
 5;bus;;;;Padersprinter
 6;bus;;;;Padersprinter
 7;bus;;;;Padersprinter
+8;bus;;;;Padersprinter
 9;bus;;;;Padersprinter
 11;bus;;;;Padersprinter
 12;bus;;;;Padersprinter
@@ -802,6 +945,17 @@ D4;bus;;;;BahnBus Hochstift GmbH
 N1;bus;;Zentralstation;Marienloh;Padersprinter
 N2;bus;;Zentralstation;Neuenbeken;Padersprinter
 N3;bus;;Zentralstation;Kaukenberg;Padersprinter
+N4;bus;;Zentralstation;Dahl;Padersprinter
+N5;bus;;Zentralstation;Wewer;Padersprinter
+N6;bus;;Zentralstation;Gesseln;Padersprinter
+N7;bus;;Zentralstation;Sande;Padersprinter
+N8;bus;;Zentralstation;Sennelager;Padersprinter
+NE 11;bus;;;;BahnBus Hochstift GmbH
+NE 12;bus;;;;
+NE 15;bus;;;;BahnBus Hochstift GmbH
+NE 16;bus;;;;BahnBus Hochstift GmbH
+NE 17;bus;;;;BahnBus Hochstift GmbH
+NE18;bus;;;;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
 
 R32;bus;;Altenbeken;Bad Lippspringe;fahr mit
 R51;bus;;Paderborn;Horn;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
@@ -836,8 +990,35 @@ W4;bus;;;;BBH BahnBus Hochstift GmbH
 
 167;bus;;;;
 
+BBK-2;bus;;;;Bürgerbus Kreuztal
+
+C100;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
+C101;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
+C102;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
+C103;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
+C104;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
+C105;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
+C106;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
+C107;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
+C109;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
+C111;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
+C112;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
+C113;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
+C116;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
+C117;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
+C123;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
+C125;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
+C130;bus;;;;
+C132;bus;;;;
+C133;bus;;;;
+
+N1;bus;;Siegen;Kreuztal;Verkehrsbetriebe Westfalen Süd GmbH
+N2;bus;;Siegen;Gosenbach;Verkehrsbetriebe Westfalen Süd GmbH
+N4;bus;;Siegen;Freudenberg;Verkehrsbetriebe Westfalen Süd GmbH
+N5;bus;;Siegen;Deuz;Verkehrsbetriebe Westfalen Süd GmbH
+
 R11;bus;;Kreuztal;Hilchenbach;Busverkehr Ruhr-Sieg
-R13;bus;;Siegen;Wilgersdorf;Busverkehr Ruhr-Sieg
+R13;bus;;Siegen;Wilgersdorf;Verkehrsbetriebe Westfalen Süd GmbH
 R14;bus;;Siegen;Eisern;Verkehrsbetriebe Westfalen Süd GmbH
 R15;bus;;Eisern;Altenseelbach;Busverkehr Ruhr-Sieg
 R22;bus;;Siegen;Neunkirchen;BRS Busverkehr Ruhr-Sieg GmbH
@@ -848,11 +1029,6 @@ R38;bus;;Siegen;Freudenberg;Verkehrsbetriebe Westfalen Süd GmbH
 R40;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
 R41;bus;;;;Westfalenbus
 R51;bus;;Olpe;Siegen;Verkehrsbetriebe Westfalen Süd GmbH
-
-BBK-2;bus;;;;Bürgerbus Kreuztal
-
-N1;bus;;Siegen;Kreuztal;Verkehrsbetriebe Westfalen Süd GmbH
-N2;bus;;Siegen;Gosenbach;Verkehrsbetriebe Westfalen Süd GmbH
 
 UX1;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
 UX2;bus;;;;Verkehrsbetriebe Westfalen Süd GmbH
