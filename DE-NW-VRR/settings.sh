@@ -16,7 +16,7 @@ NETWORK_SHORT="VRR"
 ANALYSIS_PAGE="VRR/Analyse"
 WIKI_ROUTES_PAGE="VRR/Analyse/VRR-Linien"
 
-ANALYSIS_OPTIONS="--language=de --positive-notes --max-error=10 --check-access --check-name --check-stop-position --check-sequence --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --relaxed-begin-end-for=train,light_rail,tram --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=de --positive-notes --max-error=10 --check-access --check-name-relaxed --check-stop-position --check-sequence --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --relaxed-begin-end-for=train,light_rail,tram --coloured-sketchline"
 
 # --expect-network-long
 # --check-bus-stop 
