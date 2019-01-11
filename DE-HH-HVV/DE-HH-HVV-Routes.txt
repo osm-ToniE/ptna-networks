@@ -140,9 +140,6 @@ HBEL;ferry;;;;
 35;bus;;;;
 36;bus;;;;
 37;bus;;;;
-39;bus;;;;
-48;bus;;;;
-49;bus;;;;
 
 == EilBus
 E30;bus;;;;

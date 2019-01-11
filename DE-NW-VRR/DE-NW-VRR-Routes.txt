@@ -53,6 +53,14 @@
 - Ziel ist aber die Erstellung dieser Datei aus VRR-Daten mit allen zum VRR gehörigen Linien. 
 - Die Liste kommt idealerweise direkt vom und mit Hilfe des VRR (copyright!).
 -
+- Wir können auf [https://www.openvrr.de/en_AU/dataset/dino-daten DINO Daten des VRR] zugreifen.
+- Für PTNA sind (derzeit) insbesondere die Daten "line.din" und "means_of_transport_desc.din" interessant.
+- Ich werde versuchen, die DINO Daten in die [[VRR/Analyse/VRR-Linien|VRR-Linien]] zu konvertieren.
+-
+- Bzgl. Lizenz der Daten: OK, den VRR AöR in einer zentralen Liste als Contributor zu nennen reicht aus - [[Contributors#Verkehrsverbund_Rhein-Ruhr_A.C3.B6Rer VRR|VRR AöR]].
+-
+- Weitere [[Talk:VRR/Analyse#Quelle_der_Liste_der_Linien|Diskussionen zur Quelle]].
+-
 - bei der Analyse ist 'network' derzeit entweder
 -
 - * "VRR"                                             short form, oder

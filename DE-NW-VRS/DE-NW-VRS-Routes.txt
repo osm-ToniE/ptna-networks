@@ -97,6 +97,7 @@ RE7;train;über Köln Hbf;Rheine;Krefeld;National Express Rail
 RE8;train;;Mönchengladbach;Koblenz;DB Regio NRW
 RE9;train;;Siegen;Aachen;DB Regio NRW
 RE12;train;;Trier;Köln;DB Regio NRW
+
 RE22;train;ab Gerolstein Fortführung als Linie RB22 bis Trier;Köln;Gerolstein;DB Regio NRW
 #RB22;train;nur noch im Gebiet des VRT;Gerolstein;Trier;
 RB23;train;Erfttalbahn;Euskirchen;Bad Münstereifel;DB Regio NRW
@@ -105,6 +106,7 @@ RB25;train;;Köln;Lüdenscheid;DB Regio NRW
 RB26;train;;Köln;Mainz;Trans Regio
 RB27;train;;Mönchengladbach;Koblenz;DB Regio Mitte
 RB28;train;;Euskirchen;Düren;Rurtalbahn
+
 RB30;train;;Bonn;Ahrbrück;DB Regio NRW
 RB38;train;;Köln;Bedburg (Erft);DB Regio NRW
 RB39;train;;Bedburg (Erft);Düsseldorf;VIAS
@@ -132,12 +134,14 @@ S23;train;Voreifelbahn;Bonn;Euskirchen;DB Regio NRW
 5;tram;;;;
 7;tram;;;;
 9;tram;;;;
+
 12;tram;;;;
 13;tram;;;;
 15;tram;;;;
 16;tram;Rheinuferbahn;;;
 17;tram;;;;
 18;tram;Vorgebirgsbahn;;;
+
 61;tram;;;;
 62;tram;;;;
 63;tram;;;;
@@ -163,6 +167,7 @@ N8;bus;Existiert zweimal im VRS: Hier Bonn - Oberkassel;Bonn Hbf;Bonn Hbf;SWB
 N8;bus;Existiert zweimal im VRS: Hier Leichlingen;Leichlingen Bf;Kleine Heide;Wiedenhoff
 N9;bus;;;;
 N10;bus;;;;
+
 N20;bus;;;;
 N21;bus;;;;
 N22;bus;;;;
@@ -170,6 +175,7 @@ N23;bus;;;;
 N24;bus;;;;
 N25;bus;;;;
 N26;bus;verkehrt nur in Richtung Wermelskirchen;Köln Hbf;Wermelskirchen;RVK
+
 N41;bus;Rundkurs über Paffrath, Odenthal;Berg. Gladbach;Berg. Gladbach;
 N42;bus;Rundkurs über Odenthal, Paffrath;Berg. Gladbach;Berg. Gladbach;
 N43;bus;;;;
@@ -202,6 +208,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 125;bus;;;;
 126;bus;;;;
 127;bus;!Abschnitt Ebertplatz - Lentpark entfällt im Fahrplan 2019!;Ebertplatz;Longerich;KVB
+
 130;bus;;Sürth;Universität;KVB
 131;bus;;Sürth;Sülz;
 132;bus;;;;
@@ -211,6 +218,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 136;bus;;;;
 138;bus;;;;
 139;bus;;;;
+
 140;bus;;;;
 #141, 143;bus;;;;
 141;bus;;Weiden;Vogelsang;
@@ -221,6 +229,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 146;bus;;;;
 147;bus;;;;
 149;bus;Weiden-Widdersdorf-Weiden;;;
+
 150;bus;;Kalk;Mülheim;
 151;bus;;;;
 152;bus;;;;
@@ -231,12 +240,14 @@ SB82;bus;;Kall;Vogelsang;RVK
 157;bus;;;;
 158;bus;;;;
 159;bus;;Poll;Buchheim;
+
 160;bus;;;;
 161;bus;;;;
 162;bus;;;;
 165;bus;;;;
 166;bus;;;;
 167;bus;;;;
+
 179;bus;!Neu im Fahrplan 2019!;Neubrück;Deutz;KVB
 184;bus;Taxibus;Ebertplatz | Neusser Str./Gürtel;Lentpark;KVB
 185;bus;;;;
@@ -257,6 +268,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 207;bus;;;;
 208;bus;;;;
 209;bus;;;;
+
 210;bus;;;;
 211;bus;;;;
 212;bus;;;;
@@ -266,6 +278,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 # 216;bus;Nicht im Fahrplan 2018 und 2019;;; existiert nicht
 217;bus;;;;
 #219;bus;;;;
+
 220;bus;;;;
 221;bus;;;;
 222;bus;;;;
@@ -275,6 +288,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 #226;bus;Linie vermutlich aufgehoben, nicht im Fahrplan 2018 und 2019;;;
 227;bus;;;;
 229;bus;;;;
+
 231;bus;;;;
 232;bus;;;;
 233;bus;;;;
@@ -284,6 +298,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 240;bus;Bus AST240 läuft parallel;;;
 244;bus;;;;
 249;bus;;;;
+
 250;bus;;;;
 251;bus;;;;
 252;bus;;;;
@@ -294,6 +309,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 257;bus;;;;
 258;bus;;;;
 259;bus;;;;
+
 260;bus;;;;
 261;bus;;;;
 263;bus;;;;
@@ -318,6 +334,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 306;bus;;;;
 307;bus;;;;
 308;bus;;Marienheide;Frielingsdorf;
+
 310;bus;;;;
 311;bus;;Nümbrecht;Waldbröl;
 312;bus;;;;
@@ -328,12 +345,14 @@ SB82;bus;;Kall;Vogelsang;RVK
 317;bus;;;;
 318;bus;;Gummersbach;Piene;
 319;bus;;Much;Ründeroth;
+
 320;bus;;Marienheide;Meinerzhagen;
 321;bus;;Wiehl;Eckenhagen;
 322;bus;;;;
 323;bus;;Nümbrecht;Drabenderhöhe;
 324;bus;;Wiehl;Nümbrecht;
 325;bus;;;;
+
 331;bus;;;;
 332;bus;;Wipperfürth;Engelskirchen;
 333;bus;;Wipperfürth;Engelskirchen;
@@ -343,6 +362,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 337;bus;Rundkurs über Egen;Wipperfürth;Wipperfürth;
 338;bus;Rundkurs über Kupferberg;Wipperfürth;Wipperfürth;
 339;bus;;;;
+
 340;bus;;;;
 341;bus;;;;
 342;bus;;;;
@@ -353,6 +373,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 348;bus;;;;
 347;bus;Verkehrsverbund Rhein Mosel;Wissen;Morsbach;H. Ochsenbrücher GmbH
 349;bus;Rundkurs Morsbach;;;Oberbergische Verkehrsgesellschaft mbH 
+
 361;bus;;;;
 362;bus;;;;
 363;bus;;;;
@@ -375,6 +396,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 426;bus;;;;
 427;bus;;;;
 429;bus;;;;
+
 430;bus;;;;
 431;bus;;;;
 432;bus;;;;
@@ -385,6 +407,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 437;bus;;;;
 438;bus;;;;
 439;bus;;;;
+
 440;bus;;;;
 441;bus;;;;
 448;bus;;;;
@@ -412,6 +435,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 507;bus;;;;
 508;bus;;;;
 509;bus;;;;
+
 510;bus;;;;
 511;bus;;;;
 512;bus;;;;
@@ -420,6 +444,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 516;bus;;;;
 517;bus;;;;
 518;bus;;;;
+
 520;bus;;;;
 521;bus;;;;
 522;bus;;;;
@@ -430,6 +455,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 527;bus;;;;
 528;bus;;;;
 529;bus;;;;
+
 530;bus;;;;
 531;bus;;;;
 532;bus;;;;
@@ -440,6 +466,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 537;bus;;;;
 #538;bus;Die Linie gibt es seit dem 12.12.2010 nicht mehr;;;
 539;bus;;Oberpleis;Asbach;
+
 #540;bus;Die Linie gibt es seit dem 12.12.2010 nicht mehr;;;
 541;bus;;;;
 542;bus;!Schulverkehr Lohmar, entfällt mit Fahrplan 2019!;;;
@@ -450,6 +477,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 # 547;bus;!Schulverkehr Lohmar, Linie fehlt entfällt jedoch mit Fahrplan 2019!;Lohmar;Wahlscheid;
 # 548;bus;!Rundkurs Schulverkehr Lohmar, Linie fehlt entfällt jedoch mit Fahrplan 2019!;Lohmar;Lohmar;
 # 549;bus;!Schulverkehr Lohmar, Linie fehlt entfällt jedoch mit Fahrplan 2019!;Lohmar;Hollenberg;
+
 550/163;bus;;;;
 551;bus;;;;
 553;bus;!Neu im Fahrplan 2019!;Lohmar;Neuhohnrath
@@ -459,11 +487,13 @@ SB82;bus;;Kall;Vogelsang;RVK
 557;bus;;;;
 558;bus;!2019 neue Linienführung via Agger und Honrath!;Lohmar;Dahlhausen;
 559;bus;!Neu im Fahrplan 2019!;Lohmar;Kern;
+
 560;bus;;;;
 562;bus;;;;
 564;bus;;;;
 565;bus;;;;
 566;bus;;;;
+
 570;bus;;;;
 571;bus;;;;
 572;bus;;;;
@@ -489,12 +519,14 @@ SB82;bus;;Kall;Vogelsang;RVK
 607;bus;;;;
 608;bus;;;;
 609;bus;;;;
+
 610;bus;;;;
 611;bus;;;;
 612;bus;;;;
 613;bus;;;;
 614;bus;;;;
 615;bus;;;;
+
 630;bus;;;;
 631;bus;;;;
 632;bus;!Im Fahrplan 2019 neue Linienführung über Poppelsdorf, Endenich, Nordstadt!;Uniklinikum;Beuel Bf;
@@ -517,6 +549,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 706;bus;;;;
 707;bus;;;;
 709;bus;;;;
+
 710;bus;2018 und 2019 keine Information beim VRS verfügbar;;;
 711;bus;;;;
 712;bus;;;;
@@ -525,6 +558,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 715;bus;;;;
 717;bus;;Hürth-Kendenich;Hürth-Sielsdorf;
 718;bus;;;;
+
 720;bus;;;;
 721;bus;Stadtverkehr Wesseling;Urfeld;Wesseling;
 722;bus;;;;
@@ -551,6 +585,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 807;bus;!2019 Änderungen in Euskirchen!;Euskirchen;Erftstadt;RVK
 808;bus;!2019 Änderungen in Mechernich!;Euskirchen;Kall;RVK
 809;bus;;;;
+
 810;bus;;;;
 811;bus;;;;
 812;bus;;;;
@@ -559,6 +594,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 817;bus;!2019 neue Haltestelle Bornheim Kalkstraße!;Rheinbach;Hersel;RVK
 818;bus;!2019 neue Haltestellen in Merten + Waldorf, Entfall von Haltestellen in Kardorf!;Sechtem;Hersel;RVK
 819;bus;;Bad Münstereifel;Rupperath;
+
 820;bus;;Nettersheim-Buir;Nettersheim-Marmagen;
 821;bus;;Bad Münstereifel;Nettersheim;
 822;bus;;Bad Münstereifel;Wershofen;
@@ -570,6 +606,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 TB 827;bus;;;;
 828;bus;;Scheuren;Bad Münstereifel;
 829;bus;;;;
+
 830;bus;;Mechernich;Zingsheim;
 831;bus;;Gemünd;Schleiden;
 832;bus;;Blankenheim;Ahrdorf;
@@ -580,25 +617,34 @@ TB 835;bus;;;;
 837;bus;;Hellenthal;Hecken;
 838;bus;;Hellenthal;Schnorrenberg;
 839;bus;;Hellenthal;Losheim;
-842;bus;Kein Fahrplan über VRS-Info;;;
-843;bus;;;;
-# 844;bus;veraltet und zerstückelt -> gelöscht;;;
-845;bus;;;;
+
+840;bus;VRM-Linie;Ahrbrück;Rheinbach;DB Regio Bus
+841;bus;VRM-Linie;Ringen;Remagen;DB Regio Bus
+# 842;bus;Kein Fahrplan über VRS-Info;;;
+843;bus;via Bonn-Duisdorf;Alfter;Meckenheim Industriepark;
+# 844;bus;veraltet und zerstückelt -> gelöscht;Meckenheim;Ahrweiler;
+844;bus;RadBus Ahr-Voreifel;Altenburg;Rheinbach;DB Regio Bus
+845;bus;;Bonn;Heimerzheim;RVK
 846;bus;Kein Fahrplan mehr in 2018 und 2019;Rheinbach;Buschhoven;
+846;bus;VRM-Linie;Rolandswerth;Mehlem;DB Regio Bus
 # 848;bus;Veraltet und unvollständig -> gelöscht;;;
-849;bus;;;;
-# 852;bus;Seit 2018 oder früher defekt/unvollständig/ohne Fahrplan im VRS -> gelöscht;;;
-854;bus;;;;
-855;bus;;;;
-856;bus;;;;
-857;bus;;;;
-858;bus;;;;
-859;bus;;;;
-860;bus;;;;
+848;bus;VRM-Linie, ExpressBus;Meckenheim;Ringen;DB Regio Bus
+849;bus;RegioBus;Rheinbach;Bad Neuenahr;DB Regio Bus
+
+# 852;bus;Als VRS-Linie seit 2018 oder früher defekt/unvollständig/ohne -> gelöscht;Bad Godesberg;Sinzig;
+854;bus;VRM-Linie;Ringen;Bad Neuenahr (– Ahrweiler);DB Regio Bus
+855;bus;;Bad Godesberg;Meckenheim;RVK
+856;bus;;Remagen-Oedingen;Bonn-Bad Godesberg;RVK
+857;bus;;Meckenheim Bf;Bad Godesberg Bf;RVK
+858;bus;;Meckenheim Bf;Industriepark;
+859;bus;;Meckenheim Industriepark;Lüftelberg;
+
+860;bus;Ringverkehr Euskirchen;;;
 867;bus;via Antweiler;Satzvey;Mechernich;
 868;bus;via Firmenich;Satzvey;Mechernich;
 869;bus;!Ab Fahrplan 2019 Betreiber RVK!;Euskirchen;Weilerswist Lommersum;RVK
-870;bus;!2019 Umbenung von Haltestellen! Rundkurs via Wüschheim, Kirchheim;Euskirchen;Euskirchen;SVE
+
+870;bus;!2019 Umbennung von Haltestellen! Rundkurs via Wüschheim, Kirchheim;Euskirchen;Euskirchen;SVE
 871;bus;;;;
 872;bus;;;;
 873;bus;;;;
@@ -607,6 +653,7 @@ TB 835;bus;;;;
 876;bus;;;;
 877;bus;;;;
 878;bus;;;;
+
 881;bus;siehe Abschnitt Anruf-Sammel-Taxi;;;
 882;bus;;;;
 889;bus;!Nachtbus, neu im Fahrplan 2019!;Bonn;Lüftelberg;Kreis Euskirchen Verkehrsunternehmen
@@ -637,6 +684,7 @@ TB 835;bus;;;;
 910;bus;;Frechen;Hürth;REVG
 911;bus;;Brüggen;Sindorf;REVG
 915;bus;;Quadrath-Ichendorf;Neu-Etzweiler;REVG
+
 920;bus;;Erfstadt;Horrem;REVG
 921;bus;Rundkurs;Sindorf;Sindorf;Omnibusbetrieb Tirtey
 922;bus;;Bergheim (Erft);Kerpen;Omnibusbetrieb Tirtey
@@ -647,6 +695,7 @@ TB 835;bus;;;;
 933;bus;;Manheim;Kerpen;REVG
 935;bus;;Brühl Mitte;Hürth-Hermülheim;REVG
 # 939;bus;Kein Fahrplan über VRS-Info;;;
+
 # 940;bus;Kein Fahrplan über VRS-Info;;;
 941;bus;;Elsdorf;Horrem;REVG
 945;bus;;Bergheim Bf;Gewerbegebiet Paffendorf;REVG
@@ -654,6 +703,7 @@ TB 835;bus;;;;
 950;bus;;Weiden;Rödingen;REVG
 955;bus;;Kerpen;Lechenich;REVG
 957;bus;Schulverkehr;Königsdorf;Frechen;REVG
+
 960;bus;;Bergheim;Hürth-Hermülheim;REVG
 961;bus;;Köln-Weiden;Bergheim;REVG
 962;bus;;Köln-Bocklemund;Frechen-Königsdorf;REVG
@@ -664,6 +714,7 @@ TB 835;bus;;;;
 967;bus;Stadtverkehr Pulheim;;;REVG
 968;bus;Schulverkehr Frechen;;;REVG
 969;bus;;Bergheim;Quadrath-Ichendorf;REVG
+
 970;bus;;Köln-Bocklemünd;Niederaußem;REVG
 971;bus;;Bergheim;Rommerskirchen;REVG
 974;bus;Stadtverkehr Erftstadt;;;REVG
@@ -672,6 +723,7 @@ TB 835;bus;;;;
 977;bus; 2019 neue Haltestelle "Türnich REVG-Betriebshof";Erfstadt;Frechen Rathaus;REVG
 978;bus;;Köln Hbf;Hürth-Berrenrath;REVG
 979;bus;;Hürth-Hermülheim;Zülpich;REVG
+
 980;bus;;Köln-Worringen;Frechen Rathaus;REVG
 984;bus;Schulverkehr;;Weilerswist;REVG
 985;bus;;Euskirchen;Brühl Mitte;REVG
@@ -694,11 +746,14 @@ AST183;bus;;;;
 TaxiBus 185;bus;;;;
 TaxiBus 186;bus;;;;
 TaxiBus 187;bus;;;;
+
 AST 237;bus;;;;
 TaxiBus 262;bus;;;;
+
 AST 417;bus;;;;
 AST 447;bus;;;;
 AST 481;bus;;;;
+
 TaxiBus 572;bus;;;;
 AST 580;bus;;;;
 AST 581;bus;;;;
@@ -708,9 +763,11 @@ AST 583;bus;;;;
 AST 586;bus;;;;
 AST 587;bus;;;;
 AST 588;bus;;;;
+
 T650;bus;;;;
 T651;bus;;;;
 680;bus;;;;
+
 780;bus;;;;
 AST 781;bus;;;;
 AST 782;bus;;;;
@@ -720,6 +777,7 @@ AST 785;bus;;;;
 AST 786;bus;;;;
 AST 787;bus;;;;
 AST 788;bus;;;;
+
 AST 880;bus;;;;
 AST 883;bus;;;;
 AST 884;bus;;;;
@@ -728,6 +786,7 @@ AST 886;bus;;;;
 AST 887;bus;;;;
 AST 888;bus;;;;
 AST 889;bus;;;;
+
 AST 890;bus;;;;
 AST 881;bus;;;;
 AST 892;bus;;;;
