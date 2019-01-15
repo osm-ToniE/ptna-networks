@@ -273,8 +273,8 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 404;bus;;;;
 405;bus;;;;
 406;bus;;Nizza;Rijeka;FlixMobility GmbH
-407;bus;;;;
-408;bus;;;;
+407;bus;;Meran;Turin;FlixMobility GmbH
+408;bus;;Bozen;Genua;FlixMobility GmbH
 409;bus;;Zürich;Rijeka;FlixMobility GmbH
 410;bus;;;;
 411;bus;;;;
@@ -312,7 +312,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 482;bus;;;;
 491;bus;;München;Venedig;FlixMobility GmbH
 492;bus;;;;
-494;bus;;;;
+494;bus;;Bozen;Nizza;FlixMobility GmbH
 499;bus;Neue Linie via Cortina d'Ampezzo;München;Venedig;FlixMobility GmbH
 
 
@@ -556,6 +556,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 946;bus;;;;
 948;bus;Seit 04.10.2017 nicht mehr buchbar, wurde eingestellt;;;
 950;bus;;;;
+951;bus;;Stuttgart;Zagreb;FlixMobility GmbH
 954;bus;;Erlangen;Zagreb;FlixMobility GmbH
 956;bus;;;;
 958;bus;;;;
@@ -828,10 +829,10 @@ N432;bus;;;;
 N433;bus;;;;
 N440;bus;;;;
 N444;bus;;;;
-N452;bus;;;;
+N452;bus;;Nürnberg;Florenz;FlixMobility GmbH
 N453;bus;Seit 07.10.2018 nicht mehr buchbar, wurde eingestellt.;;;
 N467;bus;;;;
-N468;bus;;;;
+N468;bus;;Bratislava;Mailand;FlixMobility GmbH
 N491;bus;;München;Venedig;FlixMobility GmbH
 
 N501;bus;;;;

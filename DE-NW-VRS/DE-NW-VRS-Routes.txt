@@ -46,13 +46,13 @@
 - Verweis auf mehr [[Talk:VRS/Analyse|Informationen]] im Wiki.
 -
 - .
-== Quelle
+== Quellen
 
 - Diese automatisch erstellte Auswertung enthält derzeit zum Einen eine '''Bestandsaufnahme der in OSM gefundenen VRS-Linien'''.
 -
 - Zum Anderen wurden hier manuell '''Daten aus der [[VRS|VRS-Wiki Seite]]''' eingepflegt. 
 -
-- Zum Dritten werden Änderungen zu den Fahrplanwechsel anhand der [https://www.vrsinfo.de/aktuelles/aenderungen-zum-fahrplanwechsel.html VRS-Informationen] manuell hier eingepflegt. 
+- Zum Dritten werden Änderungen zu den '''Fahrplanwechsel''' anhand der [https://www.vrsinfo.de/aktuelles/aenderungen-zum-fahrplanwechsel.html VRS-Informationen] manuell hier eingepflegt. 
 -
 - Ziel ist aber die Erstellung dieser Datei aus VRS-Daten mit allen zum VRS gehörigen Linien. 
 - Die Liste kommt idealerweise direkt vom und mit Hilfe des VRS (copyright!).
@@ -78,7 +78,8 @@
 - Viele Änderungen sind Angebotsverbesserungen abends und/oder am Wochenende, diese werden nicht extra markiert. 
 - Einige Haltestellen sind umbenannt worden, auch das ist in dieser Liste nicht markiert. 
 -
-- Größere Änderungen im Linienweg, '''eingestellte und neue Linien''' sind im Kommentar vermerkt und !!!gelb!!! hinterlegt.
+- Größere Änderungen im Linienweg, '''eingestellte und neue Linien''' sind im Kommentar vermerkt und !!!gelb!!! hinterlegt. 
+- Bei erledigten Änderungen wird die gelbe Hervorhebung nach einiger Zeit entfernt.
 -
 - Eingetragen sind bisher Züge + Stadt-/Straßenbahnen, Busse 1xx (Köln), 3xx (Oberbergischer Kreis), 5xx (Rhein-Sieg-Kreis rechtsrheinisch), 
 - 6xx (Bonn), 7xx (mehrere Kreise linksrheinisch), 8xx (Kreis Euskirchen) und 9xx (Rhein-Erft-Kreis). Die 2xx, 4xx Buslinien und Sammeltaxis sind noch nicht eingearbeitet. 
@@ -87,31 +88,31 @@
 
 - .
 == Zug
--
-- Überwiegend Angebotsverbesserungen
 
-RE1;train;!Ab 9.6.2019 Betreiber National Express Rail GmbH (RRX)!;Aachen;Hamm (Westf);DB Regio NRW
-RE5;train;!Ab 9.6.2019 Betreiber National Express Rail GmbH (RRX)!;Wesel;Koblenz;DB Regio NRW
+- Zum Fahrplanwechsel überwiegend Angebotsverbesserungen 
+
+RE1;train;!Ab 9.6.2019 Betreiber National Express Rail GmbH (RRX)!, via Köln;Aachen;Hamm (Westf);DB Regio NRW
+RE5;train;!Ab 9.6.2019 Betreiber National Express Rail GmbH (RRX)! linke Rheinstrecke Köln bis Koblenz;Wesel;Koblenz;DB Regio NRW
 RE6;train;;Minden;Flughafen Köln-Bonn;DB Regio NRW
 RE7;train;über Köln Hbf;Rheine;Krefeld;National Express Rail 
-RE8;train;;Mönchengladbach;Koblenz;DB Regio NRW
-RE9;train;;Siegen;Aachen;DB Regio NRW
+RE8;train;über Köln;Mönchengladbach;Koblenz;DB Regio NRW
+RE9;train;über Köln;Siegen;Aachen;DB Regio NRW
 RE12;train;;Trier;Köln;DB Regio NRW
 
 RE22;train;ab Gerolstein Fortführung als Linie RB22 bis Trier;Köln;Gerolstein;DB Regio NRW
 #RB22;train;nur noch im Gebiet des VRT;Gerolstein;Trier;
 RB23;train;Erfttalbahn;Euskirchen;Bad Münstereifel;DB Regio NRW
 RB24;train;;Köln;Gerolstein;DB Regio NRW
-RB25;train;;Köln;Lüdenscheid;DB Regio NRW
-RB26;train;;Köln;Mainz;Trans Regio
-RB27;train;;Mönchengladbach;Koblenz;DB Regio Mitte
+RB25;train;über Gummersbach;Köln;Lüdenscheid;DB Regio NRW
+RB26;train;Linke Rheinstrecke über Koblenz;Köln;Mainz;Trans Regio
+RB27;train;Rechte Rheinstrecke von Köln bis Koblenz;Mönchengladbach;Koblenz;DB Regio Mitte
 RB28;train;;Euskirchen;Düren;Rurtalbahn
 
-RB30;train;;Bonn;Ahrbrück;DB Regio NRW
+RB30;train;über Remagen;Bonn;Ahrbrück;DB Regio NRW
 RB38;train;;Köln;Bedburg (Erft);DB Regio NRW
 RB39;train;;Bedburg (Erft);Düsseldorf;VIAS
-RB48;train;;Bonn-Mehlem;Wuppertal;National Express Rail
-RB90;train;;Limburg (Lahn);Siegen;Vectus
+RB48;train;über Köln, Solingen;Bonn-Mehlem;Wuppertal;National Express Rail
+RB90;train;über Au (Sieg);Limburg (Lahn);Siegen;Vectus
 
 
 - .
@@ -119,7 +120,7 @@ RB90;train;;Limburg (Lahn);Siegen;Vectus
 
 S6;train;;Köln;Essen;DB Regio NRW
 S11;train;via Köln, Neuss;Bergisch Gladbach;Düsseldorf Flughafen;DB Regio NRW
-S12;train;;Horrem;Au (Sieg);DB Regio NRW
+S12;train;via Köln;Horrem;Au (Sieg);DB Regio NRW
 S13;train;via Köln/Bonn Flughafen;Troisdorf;Düren;DB Regio NRW
 S19;train;via Köln/Bonn Flughafen;Düren;Au (Sieg);DB Regio NRW
 S23;train;Voreifelbahn;Bonn;Euskirchen;DB Regio NRW
@@ -183,6 +184,7 @@ N44;bus;;;;
 N45;bus;via Bensberg, Herkenrath;;;
 N46;bus;via Herkenrath, Bensberg;;;
 N47;bus;;;;
+N89;bus;!Neu im Fahrplan 2019!;Bonn;Lüftelberg;Kreis Euskirchen Verkehrsunternehmen
 
 
 - .
@@ -204,16 +206,16 @@ SB82;bus;;Kall;Vogelsang;RVK
 121;bus;;;;
 122;bus;;;;
 123;bus;;;;
-124;bus;!Neu im Fahrplan 2019!;Breslauer Platz/Hbf;Gewerbegebiet Feldkassel;KVB
+124;bus;Neu im Fahrplan 2019;Breslauer Platz/Hbf;Gewerbegebiet Feldkassel;KVB
 125;bus;;;;
 126;bus;;;;
-127;bus;!Abschnitt Ebertplatz - Lentpark entfällt im Fahrplan 2019!;Ebertplatz;Longerich;KVB
+127;bus;Abschnitt Ebertplatz - Lentpark entfällt im Fahrplan 2019;Ebertplatz;Longerich;KVB
 
 130;bus;;Sürth;Universität;KVB
 131;bus;;Sürth;Sülz;
 132;bus;;;;
 133;bus;;;;
-134;bus;!Neu im Fahrplan 2019!;Sürth;Universität;KVB
+134;bus;Neu im Fahrplan 2019;Sürth;Universität;KVB
 135;bus;;Rodenkirchen;Meschenich;
 136;bus;;;;
 138;bus;;;;
@@ -235,7 +237,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 152;bus;;;;
 153;bus;;;;
 154;bus;;;;
-155;bus;!Ab Fahrplan 2019 Montag-Freitag bis „Mülheim Danzierstraße“ verlängert!;Mühlheim;Stammheim;KVB
+155;bus;Ab Fahrplan 2019 Montag-Freitag bis „Mülheim Danzierstraße“ verlängert;Mühlheim;Stammheim;KVB
 156;bus;;;;
 157;bus;;;;
 158;bus;;;;
@@ -248,7 +250,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 166;bus;;;;
 167;bus;;;;
 
-179;bus;!Neu im Fahrplan 2019!;Neubrück;Deutz;KVB
+179;bus;Neu im Fahrplan 2019;Neubrück;Deutz;KVB
 184;bus;Taxibus;Ebertplatz | Neusser Str./Gürtel;Lentpark;KVB
 185;bus;;;;
 # 190;bus;Linie existiert nicht mehr im Fahrplan 2018 und 2019;;;
@@ -503,6 +505,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 577;bus;;;;
 578;bus;;;;
 579;bus;;;;
+
 590;bus;!Neu im Fahrplan 2019, Schulverkehr Lohmar!;;;
 
 
@@ -529,7 +532,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 
 630;bus;;;;
 631;bus;;;;
-632;bus;!Im Fahrplan 2019 neue Linienführung über Poppelsdorf, Endenich, Nordstadt!;Uniklinikum;Beuel Bf;
+632;bus;Im Fahrplan 2019 neue Linienführung über Poppelsdorf, Endenich, Nordstadt;Uniklinikum;Beuel Bf;
 633;bus;;;;
 635;bus;;;;
 636;bus;;;;
@@ -550,21 +553,29 @@ SB82;bus;;Kall;Vogelsang;RVK
 707;bus;;;;
 709;bus;;;;
 
-710;bus;2018 und 2019 keine Information beim VRS verfügbar;;;
+# 710;bus;Linie fehlt, jedoch 2018 und 2019 keine Information beim VRS verfügbar;;;
 711;bus;;;;
 712;bus;;;;
 713;bus;;;;
 714;bus;;;;
 715;bus;;;;
-717;bus;;Hürth-Kendenich;Hürth-Sielsdorf;
+717;bus;Schulverkehr, nur wenige Fahrten;Hürth-Kendenich;Hürth-Sielsdorf;
 718;bus;;;;
 
 720;bus;;;;
 721;bus;Stadtverkehr Wesseling;Urfeld;Wesseling;
 722;bus;;;;
 723;bus;!Neu im Fahrplan 2019!;Keldenich;Wesseling
-731;bus;;;;
-747;bus;Ersetzt Bus 805, !2019 zusätzliche Haltestellen in Odendorf!;Rheinbach;Odendorf;
+
+731;bus;Schulverkehr Euskirchen;Euskirchen;Dom-Esch;
+732;bus;Schulverkehr Euskirchen;Euskirchen;Stotzheim;
+733;bus;Schulverkehr Euskirchen;Euskirchen;Oberwichterich / Wißkirchen;
+735;bus;Schulverkehr Euskirchen;Kuchenheim;Roitzheim;
+736;bus;Schulverkehr Euskirchen;Stotzheim;Rheder;
+737;bus;Schulverkehr Euskirchen;Stotzheim;Flamersheim;
+738;bus;Schulverkehr Euskirchen;Wißkirchen;Billig;
+
+747;bus;!2019 zusätzliche Haltestellen in Odendorf!;Rheinbach;Odendorf;
 749;bus;;;;
 750;bus;;Meckenheim;Lüftelberg;
 #771;bus;!Neu im Fahrplan 2019: Fahrradbus (nur Sommer)!;Schmidtheim;Hellenthal;
@@ -591,6 +602,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 812;bus;;;;
 813;bus;;;;
 # 814;bus;Nicht mehr im VRS 2018 und 2019 -> per old-814 aussortiert;;;
+815;bus;Wald-Linie: Fahrradbus, nur Sonntags im Sommer;Kall;Monschau;
 817;bus;!2019 neue Haltestelle Bornheim Kalkstraße!;Rheinbach;Hersel;RVK
 818;bus;!2019 neue Haltestellen in Merten + Waldorf, Entfall von Haltestellen in Kardorf!;Sechtem;Hersel;RVK
 819;bus;;Bad Münstereifel;Rupperath;
@@ -619,14 +631,14 @@ TB 835;bus;;;;
 839;bus;;Hellenthal;Losheim;
 
 840;bus;VRM-Linie;Ahrbrück;Rheinbach;DB Regio Bus
-841;bus;VRM-Linie;Ringen;Remagen;DB Regio Bus
+# 841;bus;reine VRM-Linie;Ringen;Remagen;DB Regio Bus
 # 842;bus;Kein Fahrplan über VRS-Info;;;
 843;bus;via Bonn-Duisdorf;Alfter;Meckenheim Industriepark;
 # 844;bus;veraltet und zerstückelt -> gelöscht;Meckenheim;Ahrweiler;
 844;bus;RadBus Ahr-Voreifel;Altenburg;Rheinbach;DB Regio Bus
 845;bus;;Bonn;Heimerzheim;RVK
 846;bus;Kein Fahrplan mehr in 2018 und 2019;Rheinbach;Buschhoven;
-846;bus;VRM-Linie;Rolandswerth;Mehlem;DB Regio Bus
+846;bus;VRM-Linie, TaxiBus;Rolandswerth;Mehlem;DB Regio Bus
 # 848;bus;Veraltet und unvollständig -> gelöscht;;;
 848;bus;VRM-Linie, ExpressBus;Meckenheim;Ringen;DB Regio Bus
 849;bus;RegioBus;Rheinbach;Bad Neuenahr;DB Regio Bus
@@ -656,14 +668,15 @@ TB 835;bus;;;;
 
 881;bus;siehe Abschnitt Anruf-Sammel-Taxi;;;
 882;bus;;;;
-889;bus;!Nachtbus, neu im Fahrplan 2019!;Bonn;Lüftelberg;Kreis Euskirchen Verkehrsunternehmen
+
+891;bus;über Kall;Zingsheim:Schleiden;
 892;bus;!Neu im Fahrplan 2019, ersetzt ehemaliges Sammeltaxi in Zülpich!;;;
 893;bus;;Mechernich;Kommern;
-894;bus;Keine Information beim VRS verfügbar;;;
+# 894;bus;Keine Information beim VRS verfügbar;;;
 896;bus;;Mechernich;Berg;
 897;bus;;Mechernich;Voißel;
-898;bus;;Mechernich;Wallemthal;
-#899;bus;Keine Information beim VRS verfügbar;;;
+898;bus;;Mechernich;Wallenthal;
+# 899;bus;Keine Information beim VRS verfügbar;;;
 
 
 - .

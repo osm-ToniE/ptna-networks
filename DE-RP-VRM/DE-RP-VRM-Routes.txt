@@ -48,7 +48,10 @@
 - .
 == Quellen 
 
-- Eine nützliche Quelle ist die [http://www.vrminfo.de/fahrplan/fahrgastinfo-auskunft/fahrplaene-nach-region/ Übersicht der Fahrpläne des VRM nach Kreisen]
+- Eine nützliche Quelle ist die [http://www.vrminfo.de/fahrplan/fahrgastinfo-auskunft/fahrplaene-nach-region/ Übersicht der Fahrpläne des VRM nach Kreisen].
+- Mit der Seite [http://www.vrminfo.de/fahrplan/fahrgastinfo-auskunft/linienfahrplan/ Linienfahrpläne] kann gezielt nach einzelnen Linien gesucht werden.
+- Weiter hilfreich können die [http://www.vrminfo.de/fahrplan/fahrgastinfo-auskunft/uebersichtsplaene/ Übersichtspläne] auf verschiedenen Ebenen sein. 
+- Der Tarifwabenplan zeigt die Ausdehnung des VRM-Gebietes und kann von [http://www.vrminfo.de/fahrkarten/tarif/tarifwabenplan/ dieser Seite] geladen werden (PDF, 2MB).
 -
 -.
 == Hinweis
@@ -160,6 +163,18 @@ RB97;train;Daadetalbahn;Betzdorf;Daaden;Westerwaldbahn
 806;bus;;Wollscheid/Brenk;Niederzissen;VMR
 807;bus;;Wehr;Niederzissen;VMR
 809;bus;;Niederlützingen/Niederzissen;Remagen;VMR 
+
+810;bus;RegioBus;Mayen;Sinzig;VMR
+811;bus;;Kempenich;Ramersbach (...–Bad Neuenahr);VMR
+812;bus;;Kempenich;Ramersbach;VMR
+814;bus;;Cassel;Altenburg;VMR
+815;bus;;Adenau;Kempenich;VMR
+816;bus;;Adenau;Ahrbrück;VMR
+817;bus;;Dorsel;Adenau;Hoffmann
+818;bus;;Brohl;Andernach;VMR
+819;bus;FreizeitBus Vulkanpark;Niedermendig;Kempenich;VMR 
+
+
 
 840;bus;;Ahrbrück;Rheinbach;DB Regio Bus
 841;bus;;Ringen;Remagen;DB Regio Bus

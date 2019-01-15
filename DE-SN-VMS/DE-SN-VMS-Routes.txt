@@ -59,11 +59,11 @@
 
 === Chemnitz
 
-1;tram;Brückenstraße/Freie Presse - Zentralhaltestelle - Schönau;;;CVAG
-2;tram;Bernsdorf - Zentralhaltestelle - Brückenstraße/Freie Presse;;;CVAG
-3;tram;Hauptbahnhof - Zentralhaltestelle - Technopark;;;CVAG
-4;tram;Hutholz - Zentralhaltestelle - Hauptbahnhof;;;CVAG
-5;tram;Hutholz - Zentralhaltestelle - Gablenz;;;CVAG
+1;tram;Brückenstraße/Freie Presse - Zentralhaltestelle - Schönau;;;Chemnitzer Verkehrs-AG
+2;tram;Bernsdorf - Zentralhaltestelle - Brückenstraße/Freie Presse;;;Chemnitzer Verkehrs-AG
+3;tram;Hauptbahnhof - Zentralhaltestelle - Technopark;;;Chemnitzer Verkehrs-AG
+4;tram;Hutholz - Zentralhaltestelle - Hauptbahnhof;;;Chemnitzer Verkehrs-AG
+5;tram;Hutholz - Zentralhaltestelle - Gablenz;;;Chemnitzer Verkehrs-AG
 21;bus;Chemnitz-Center - Zentralhaltestelle - Ebersdorf;;;CVAG
 22;bus;Zentralhaltestelle - Glösa;;;CVAG
 23;bus;Heinersdorf - Zentralhaltestelle - Neefepark;;;CVAG

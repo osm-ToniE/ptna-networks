@@ -48,7 +48,7 @@
 
 == Quelle
 
-- Diese automatisch erstellte Auswertung enthält derzeit den Beginn einer '''Bestandsaufnahme der in OSM gefundenen VRR-Linien'''.
+- Diese automatisch erstellte Auswertung enthält derzeit den grob strukturierten Beginn einer !!!'''Bestandsaufnahme der in OSM gefundenen VRR-Linien'''!!!.
 -
 - Ziel ist aber die Erstellung dieser Datei aus VRR-Daten mit allen zum VRR gehörigen Linien. 
 - Die Liste kommt idealerweise direkt vom und mit Hilfe des VRR (copyright!).
@@ -70,16 +70,1400 @@
 - * leer, d.h. nicht gesetzt
 -
 
-== Zug
 
--
-== S-Bahn
+== Zug/S-Bahn
 
--
-== U-Bahn/Straßenbahn
 
--
+=== RB
+
+RB 94;train;;;;DB RegioNetz Verkehrs GmbH; Kurhessenbahn
+RB20;train;;;;DB Regio AG Region NRW
+RB21;train;;;;Rurtalbahn GmbH
+RB24;train;;;;DB Regio NRW
+RB25;train;;;;DB Regio NRW
+RB26;train;;;;trans regio
+RB27;train;;;;DB Regio Mitte
+RB28;train;;;;Rurtalbahn GmbH
+RB30;train;;;;DB Regio NRW
+RB31;train;;;;NordWestBahn
+RB32;train;;;;Abellio Rail NRW
+RB33;train;;;;DB Regio NRW
+RB34;train;;;;VIAS
+RB35;train;;;;Abellio Rail NRW
+RB35;train;;;;abellio Rail NRW
+RB36;train;;;;NordWestBahn
+RB37;train;;;;DB Regio NRW
+RB38;train;;;;DB Regio NRW
+RB39;train;;;;VIAS
+RB40;train;;;;Abellio Rail NRW
+RB43;train;;;;NordWestBahn
+RB43;train;;;;Deutsche Bahn Regio AG
+RB44;train;;;;NordWestBahn
+RB45;train;;;;NordWestBahn
+RB46;train;;;;Abellio Rail NRW
+RB46;train;;;;Abellio Rail
+RB48;train;;;;National Express Rail GmbH
+RB50;train;;;;Eurobahn
+RB51;train;;;;DB Regio Westfalen
+RB52;train;;;;DB Regio NRW
+RB53;train;;;;DB Regio NRW
+RB54;train;;;;DB Regio NRW
+RB58;train;;;;Westfalenbahn
+RB59;train;;;;Eurobahn
+RB61;train;;;;Eurobahn
+RB63;train;;;;DB Regio NRW
+RB64;train;;;;DB Regio Westfalen
+RB65;train;;;;Eurobahn
+RB66;train;;;;Eurobahn
+RB67;train;;;;NordWestBahn
+RB69;train;;;;Eurobahn
+RB71;train;;;;Eurobahn
+RB72;train;;;;Eurobahn
+RB73;train;;;;Eurobahn
+RB74;train;;;;NordWestBahn
+RB75;train;;;;NordWestBahn
+RB77;train;;;;NordWestBahn
+RB84;train;;;;NordWestBahn
+RB89;train;;;;Eurobahn
+RB90;train;;;;HLB
+RB91;train;;;;Abellio Rail NRW
+RB93;train;;;;DB Regio NRW
+RB95;train;;;;
+RB96;train;;;;HLB
+
+=== RE
+
+RE1;train;;;;DB Regio AG Region NRW
+RE2;train;;;;DB Regio NRW
+RE3;train;;;;Eurobahn
+RE4;train;;;;DB Regio NRW
+RE5;train;;;;DB Regio NRW
+RE6;train;;;;DB Regio NRW
+RE7;train;;;;National Express Rail GmbH
+RE8;train;;;;DB Regio NRW
+RE9;train;;;;DB Regio NRW
+RE10;train;;;;NordWestBahn
+RE11;train;;;;DB Regio NRW
+RE12;train;;;;DB Regio NRW
+RE13;train;;;;Eurobahn
+RE14;train;;;;NordWestBahn
+RE15;train;;;;Westfalenbahn
+RE16;train;;;;Abellio Rail NRW
+RE17;train;;;;DB Regio NRW
+RE19;train;;;;Abellio Rail NRW
+RE42;train;;;;DB Regio NRW
+RE29;train;;;;NMBS/SNCB
+RE57;train;;;;DB Regio NRW
+RE60;train;;;;Westfalenbahn
+RE70;train;;;;Westfalenbahn
+RE78;train;;;;Eurobahn
+RE82;train;;;;Eurobahn
+RE99;train;;;;
+
+=== S
+
+S1;train;;;;DB Regio NRW
+S2;train;;;;DB Regio NRW
+S3;train;;;;DB Regio NRW
+S4;train;;;;DB Regio NRW
+S5;train;;;;DB Regio NRW
+S6;train;;;;DB Regio NRW
+S7;train;;;;Abellio Rail NRW
+S7;train;;;;Abellio Rail
+S8;train;;;;DB Regio NRW
+S9;train;;;;DB Regio NRW
+S11;train;;;;DB Regio NRW
+S12;train;;;;DB Regio NRW
+S13;train;;;;DB Regio NRW
+S19;train;;;;DB Regio NRW
+S28;train;;;;Regiobahn
+S68;train;;;;DB Regio NRW
+
+== U-Bahn
+
+U11;subway;;;;Ruhrbahn
+U17;subway;;;;Ruhrbahn
+U18;subway;;;;Ruhrbahn
+U35;subway;;;;BOGESTRA
+U70;subway;;;;Rheinbahn
+U71;subway;;;;Rheinbahn
+U72;subway;;;;Rheinbahn
+U73;subway;;;;Rheinbahn
+U74;subway;;;;Rheinbahn
+U75;subway;;;;Rheinbahn
+U76;subway;;;;Rheinbahn
+U77;subway;;;;Rheinbahn
+U78;subway;;;;Rheinbahn
+U79;subway;;;;Rheinbahn;DVG
+U83;subway;;;;Rheinbahn
+
+== Tram/Straßenbahn
+
+041;tram;;;;SWK Mobil
+042;tram;;;;SWK Mobil
+043;tram;;;;SWK Mobil
+044;tram;;;;SWK Mobil
+101;tram;;;;Ruhrbahn
+101/106;tram;;;;Ruhrbahn
+102;tram;;;;Ruhrbahn
+103;tram;;;;Ruhrbahn
+104;tram;;;;Ruhrbahn
+105;tram;;;;Ruhrbahn
+106;tram;;;;Ruhrbahn
+107;tram;;;;Ruhrbahn;BOGESTRA
+107;tram;;;;Ruhrbahn
+108;tram;;;;Ruhrbahn
+109;tram;;;;Ruhrbahn
+112;tram;;;;Ruhrbahn;STOAG
+112;tram;;;;Ruhrbahn
+301;tram;;;;BOGESTRA
+302;tram;;;;BOGESTRA
+306;tram;;;;BOGESTRA
+306;tram;;;;Bochum-Gelsenkirchener Straßenbahnen AG
+308;tram;;;;BOGESTRA
+310;tram;;;;BOGESTRA
+318;tram;;;;BOGESTRA
+701;tram;;;;Rheinbahn
+704;tram;;;;Rheinbahn
+705;tram;;;;Rheinbahn
+706;tram;;;;Rheinbahn
+707;tram;;;;Rheinbahn
+708;tram;;;;Rheinbahn
+709;tram;;;;Rheinbahn
+901;tram;;;;DVG
+903;tram;;;;DVG
+BMB;tram;;;;Bergische Museumsbahnen e.V.
+NE12;tram;;;;Ruhrbahn
+U41;tram;;;;DSW21
+U42;tram;;;;DSW21
+U43;tram;;;;DSW21
+U44;tram;;;;DSW21
+U45;tram;;;;DSW21
+U46;tram;;;;DSW21
+U47;tram;;;;DSW21
+U49;tram;;;;DSW21
+
+== Trolley Bus
+
+681;trolleybus;;;;Stadtwerke Solingen
+682;trolleybus;;;;Stadtwerke Solingen
+683;trolleybus;;;;Stadtwerke Solingen
+684;trolleybus;;;;Stadtwerke Solingen
+685;trolleybus;;;;Stadtwerke Solingen
+686;trolleybus;;;;Stadtwerke Solingen
+
 == Bus
 
+=== 1 .. 99
+
+1;bus;;;;Niederrheinische Verkehrsbetriebe
+2;bus;;;;Niederrheinische Verkehrsbetriebe
+3;bus;;;;Niederrheinische Verkehrsbetriebe
+4;bus;;;;Niederrheinische Verkehrsbetriebe
+6;bus;;;;Niederrheinische Verkehrsbetriebe
+7;bus;;;;NIAG Niederrheinische Verkehrsbetriebe AG
+8;bus;;;;Niederrheinische Verkehrsbetriebe
+9;bus;;;;Niederrheinische Verkehrsbetriebe
+16;bus;;;;Niederrheinische Verkehrsbetriebe
+17;bus;;;;Niederrheinische Verkehrsbetriebe
+19;bus;;;;Niederrheinische Verkehrsbetriebe
+25;bus;;;;Niederrheinische Verkehrsbetriebe
+26;bus;;;;Niederrheinische Verkehrsbetriebe
+31;bus;;;;Niederrheinische Verkehrsbetriebe
+31;bus;;;;NIAG
+32;bus;;;;Niederrheinische Verkehrsbetriebe
+33;bus;;;;Niederrheinische Verkehrsbetriebe
+34;bus;;;;Niederrheinische Verkehrsbetriebe
+35;bus;;;;Niederrheinische Verkehrsbetriebe
+36;bus;;;;Niederrheinische Verkehrsbetriebe
+37;bus;;;;Niederrheinische Verkehrsbetriebe
+38;bus;;;;Niederrheinische Verkehrsbetriebe
+39;bus;;;;Niederrheinische Verkehrsbetriebe
+41;bus;;;;Niederrheinische Verkehrsbetriebe
+43;bus;;;;Niederrheinische Verkehrsbetriebe
+44;bus;;;;Regionalverkehr Niederrhein
+45;bus;;;;Niederrheinische Verkehrsbetriebe
+46;bus;;;;BOGESTRA
+46;bus;;;;Niederrheinische Verkehrsbetriebe
+47;bus;;;;Niederrheinische Verkehrsbetriebe
+48;bus;;;;Niederrheinische Verkehrsbetriebe
+49;bus;;;;Niederrheinische Verkehrsbetriebe
+50;bus;;;;Niederrheinische Verkehrsbetriebe
+51;bus;;;;NIAG
+52;bus;;;;BOGESTRA
+52;bus;;;;Niederrheinische Verkehrsbetriebe
+53;bus;;;;Niederrheinische Verkehrsbetriebe
+54;bus;;;;Niederrheinische Verkehrsbetriebe
+55;bus;;;;Niederrheinische Verkehrsbetriebe
+56;bus;;;;NIAG
+57;bus;;;;Niederrheinische Verkehrsbetriebe
+59;bus;;;;Niederrheinische Verkehrsbetriebe
+60;bus;;;;Niederrheinische Verkehrsbetriebe
+61;bus;;;;DB Bahn Rheinlandbus
+63;bus;;;;BOGESTRA
+63;bus;;;;Regionalverkehr Niederrhein
+64;bus;;;;DB Bahn Rheinlandbus
+65;bus;;;;Regionalverkehr Niederrhein
+66;bus;;;;Regionalverkehr Niederrhein
+67;bus;;;;Regionalverkehr Niederrhein
+68;bus;;;;Regionalverkehr Niederrhein
+69;bus;;;;BOGESTRA
+69;bus;;;;Niederrheinische Verkehrsbetriebe
+70;bus;;;;Regionalverkehr Niederrhein
+71;bus;;;;DB Bahn Rheinlandbus
+72;bus;;;;BOGESTRA
+72;bus;;;;DB Bahn Rheinlandbus
+73;bus;;;;Stadtwerke Kevelaer
+74;bus;;;;Regionalverkehr Niederrhein
+75;bus;;;;Regionalverkehr Niederrhein
+80;bus;;;;Regionalverkehr Niederrhein
+81;bus;;;;Rheinlandbus
+82;bus;;;;Niederrheinische Verkehrsbetriebe
+83;bus;;;;Niederrheinische Verkehrsbetriebe
+85;bus;;;;Niederrheinische Verkehrsbetriebe
+86;bus;;;;Niederrheinische Verkehrsbetriebe
+87;bus;;;;Regionalverkehr Niederrhein
+88;bus;;;;Niederrheinische Verkehrsbetriebe
+89;bus;;;;Niederrheinische Verkehrsbetriebe
+90;bus;;;;Niederrheinische Verkehrsbetriebe
+91;bus;;;;Niederrheinische Verkehrsbetriebe
+93;bus;;;;Niederrheinische Verkehrsbetriebe
+94;bus;;;;Niederrheinische Verkehrsbetriebe
+95;bus;;;;Niederrheinische Verkehrsbetriebe AG
+95;bus;;;;BOGESTRA
+96;bus;;;;Niederrheinische Verkehrsbetriebe
+97;bus;;;;Niederrheinische Verkehrsbetriebe
+98;bus;;;;Rheinlandbus
+
+=== 0xx
+
+001;bus;;;;NEW mobil und aktiv Mönchengladbach
+002;bus;;;;NEW mobil und aktiv Mönchengladbach
+003;bus;;;;NEW mobil und aktiv Mönchengladbach
+004;bus;;;;NEW mobil und aktiv Mönchengladbach
+005;bus;;;;NEW mobil und aktiv Mönchengladbach
+006;bus;;;;NEW mobil und aktiv Mönchengladbach
+007;bus;;;;NEW mobil und aktiv Mönchengladbach
+008;bus;;;;NEW mobil und aktiv Mönchengladbach
+009;bus;;;;NEW mobil und aktiv Mönchengladbach
+010;bus;;;;NEW mobil und aktiv Mönchengladbach
+011;bus;;;;NEW mobil und aktiv Mönchengladbach
+012;bus;;;;NEW mobil und aktiv Mönchengladbach
+013;bus;;;;NEW mobil und aktiv Mönchengladbach
+014;bus;;;;NEW mobil und aktiv Mönchengladbach
+015;bus;;;;NEW mobil und aktiv Mönchengladbach
+016;bus;;;;NEW mobil und aktiv Mönchengladbach
+017;bus;;;;NEW mobil und aktiv Mönchengladbach
+018;bus;;;;NEW mobil und aktiv Mönchengladbach
+019;bus;;;;NEW mobil und aktiv Mönchengladbach
+020;bus;;;;NEW mobil und aktiv Mönchengladbach
+021;bus;;;;NEW mobil und aktiv Mönchengladbach
+022;bus;;;;NEW mobil und aktiv Mönchengladbach
+023;bus;;;;NEW mobil und aktiv Mönchengladbach
+024;bus;;;;NEW mobil und aktiv Mönchengladbach
+025;bus;;;;NEW mobil und aktiv Mönchengladbach
+025;bus;;;;NEW
+026;bus;;;;NEW mobil und aktiv Mönchengladbach
+027;bus;;;;NVV AG
+029;bus;;;;NEW mobil und aktiv Mönchengladbach
+031;bus;;;;NEW mobil und aktiv Mönchengladbach
+032;bus;;;;NVV AG
+033;bus;;;;NEW mobil und aktiv Mönchengladbach
+034;bus;;;;NVV AG
+036;bus;;;;NVV AG
+038;bus;;;;
+045;bus;;;;SWK Mobil
+046;bus;;;;SWK Mobil
+047;bus;;;;SWK Mobil
+048;bus;;;;SWK Mobil
+049;bus;;;;SWK Mobil
+051;bus;;;;SWK Mobil
+052;bus;;;;SWK Mobil
+054;bus;;;;SWK Mobil
+055;bus;;;;SWK Mobil
+056;bus;;;;SWK Mobil
+057;bus;;;;SWK Mobil
+058;bus;;;;SWK Mobil
+059;bus;;;;SWK Mobil
+060;bus;;;;SWK Mobil
+061;bus;;;;SWK Mobil
+062;bus;;;;SWK Mobil
+063;bus;;;;SWK Mobil;Niederrheinische Verkehrsbetriebe
+064;bus;;;;SWK Mobil
+065;bus;;;;SWK Mobil
+066;bus;;;;SWK Mobil
+067;bus;;;;SWK Mobil
+068;bus;;;;SWK Mobil
+069;bus;;;;SWK Mobil
+071;bus;;;;BVR
+074;bus;;;;SWK Mobil
+076;bus;;;;Regionalverkehr Niederrhein
+077;bus;;;;Regionalverkehr Niederrhein GmbH
+077;bus;;;;Regionalverkehr Niederrhein
+078;bus;;;;Regionalverkehr Niederrhein
+079;bus;;;;Regionalverkehr Niederrhein
+079;bus;;;;Regionalverkehr Niederrhein GmbH
+080;bus;;;;NEW mobil und aktiv Viersen
+081;bus;;;;NEW mobil und aktiv Viersen
+082;bus;;;;NEW mobil und aktiv Viersen
+083;bus;;;;Niederrheinwerke Viersen mobil
+083;bus;;;;NEW mobil und aktiv Viersen
+084;bus;;;;NEW mobil und aktiv Viersen
+085;bus;;;;NEW mobil und aktiv Viersen
+086;bus;;;;NEW mobil und aktiv Viersen
+087;bus;;;;NEW mobil und aktiv Viersen
+090;bus;;;;NEW mobil und aktiv Mönchengladbach
+091;bus;;;;KVG
+091;bus;;;;NEW mobil und aktiv Mönchengladbach
+092;bus;;;;DB Bahn Rheinlandbus
+093;bus;;;;DB Bahn Rheinlandbus
+094;bus;;;;DB Bahn Rheinlandbus
+094;bus;;;;Busverkehr Rheinland GmbH
+095;bus;;;;DB Bahn Rheinlandbus
+096;bus;;;;DB Bahn Rheinlandbus
+097;bus;;;;NEW mobil und aktiv Mönchengladbach, KVG
+097;bus;;;;NEW (KVG)
+097;bus;;;;NEW mobil und aktiv Mönchengladbach
+098;bus;;;;KVG
+098;bus;;;;NEW mobil und aktiv Mönchengladbach
+
+=== 1xx
+
+122;bus;;;;Ruhrbahn;STOAG
+122;bus;;;;STOAG
+124;bus;;;;Ruhrbahn
+128;bus;;;;Ruhrbahn
+129;bus;;;;Ruhrbahn
+130;bus;;;;Ruhrbahn
+131;bus;;;;Ruhrbahn
+133;bus;;;;Ruhrbahn
+134;bus;;;;Ruhrbahn
+135;bus;;;;Ruhrbahn
+136;bus;;;;Ruhrbahn;STOAG
+136;bus;;;;Ruhrbahn
+138;bus;;;;Ruhrbahn
+140;bus;;;;Ruhrbahn
+141;bus;;;;BOGESTRA;VER
+141;bus;;;;Verkehrsgesellschaft Ennepe-Ruhr
+142;bus;;;;Ruhrbahn
+143;bus;;;;Ruhrbahn / STOAG
+144;bus;;;;Ruhrbahn
+145;bus;;;;Ruhrbahn
+146;bus;;;;Ruhrbahn
+147;bus;;;;Ruhrbahn
+151;bus;;;;Ruhrbahn
+154;bus;;;;Ruhrbahn
+155;bus;;;;Ruhrbahn
+159;bus;;;;Ruhrbahn
+160;bus;;;;Ruhrbahn
+161;bus;;;;Ruhrbahn
+162;bus;;;;Ruhrbahn
+164;bus;;;;Ruhrbahn
+166;bus;;;;Ruhrbahn
+169;bus;;;;Ruhrbahn
+170;bus;;;;Ruhrbahn
+172;bus;;;;
+173;bus;;;;Ruhrbahn
+174;bus;;;;Ruhrbahn
+177;bus;;;;Ruhrbahn
+180;bus;;;;Ruhrbahn
+181;bus;;;;Ruhrbahn
+183;bus;;;;Ruhrbahn
+184;bus;;;;Ruhrbahn
+185;bus;;;;Ruhrbahn
+186;bus;;;;Ruhrbahn
+188;bus;;;;DB Rheinlandbus
+189;bus;;;;BVR
+190;bus;;;;Ruhrbahn
+193;bus;;;;Ruhrbahn
+194;bus;;;;Ruhrbahn; Bogestra
+196;bus;;;;Ruhrbahn
+
+=== 2xx
+
+200;bus;;;;Vestische
+201;bus;;;;Vestische
+202;bus;;;;Vestische
+203;bus;;;;Vestische
+204;bus;;;;Vestische
+208;bus;;;;Vestische
+209;bus;;;;Vestische
+210;bus;;;;Vestische
+211;bus;;;;Vestische
+212;bus;;;;Vestische
+213;bus;;;;Vestische
+215;bus;;;;Vestische
+220;bus;;;;Vestische
+221;bus;;;;
+222;bus;;;;Vestische
+223;bus;;;;Vestische
+224;bus;;;;Vestische
+225;bus;;;;Vestische
+226;bus;;;;Vestische
+227;bus;;;;Vestische
+230;bus;;;;Vestische
+231;bus;;;;Vestische
+232;bus;;;;Vestische
+233;bus;;;;Vestische
+234;bus;;;;Vestische
+235;bus;;;;Vestische
+236;bus;;;;Vestische
+237;bus;;;;Vestische
+238;bus;;;;Vestische
+239;bus;;;;Vestische Straßenbahnen
+240;bus;;;;Vestische
+243;bus;;;;Vestische Straßenbahnen GmbH
+243;bus;;;;Vestische
+244;bus;;;;Vestische
+245;bus;;;;Vestische Straßenbahnen GmbH
+246;bus;;;;Vestische Straßenbahnen GmbH
+247;bus;;;;Vestische
+249;bus;;;;Vestische Straßenbahnen GmbH
+251;bus;;;;Vestische
+252;bus;;;;Vestische
+253;bus;;;;Vestische
+254;bus;;;;Vestische
+255;bus;;;;Vestische
+257;bus;;;;Vestische
+258;bus;;;;Vestische
+259;bus;;;;Vestische
+260;bus;;;;Vestische
+261;bus;;;;Vestische
+262;bus;;;;Vestische
+263;bus;;;;Vestische
+264;bus;;;;Vestische
+265;bus;;;;Vestische
+266;bus;;;;Vestische
+267;bus;;;;Vestische
+268;bus;;;;Vestische
+270;bus;;;;Vestische
+271;bus;;;;Vestische
+272;bus;;;;Vestische
+273;bus;;;;Vestische
+274;bus;;;;Vestische
+275;bus;;;;Vestische
+276;bus;;;;Vestische
+278;bus;;;;Vestische
+280;bus;;;;Vestische
+281;bus;;;;Vestische
+283;bus;;;;Vestische
+284;bus;;;;Vestische
+285;bus;;;;Vestische
+286;bus;;;;Vestische
+288;bus;;;;Vestische
+289;bus;;;;Vestische
+290;bus;;;;Vestische
+293;bus;;;;Regionalverkehr Niederrhein
+294;bus;;;;Vestische
+295;bus;;;;DB Bahn Westfalenbus GmbH
+296;bus;;;;Vestische
+297;bus;;;;Vestische
+298;bus;;;;Vestische
+299;bus;;;;Regionalverkehr Niederrhein
+
+=== 3xx
+
+303;bus;;;;HCR
+311;bus;;;;HCR
+311E;bus;;;;HCR
+312;bus;;;;HCR
+312E;bus;;;;HCR
+313;bus;;;;BOGESTRA
+320;bus;;;;BOGESTRA
+321;bus;;;;HCR
+322;bus;;;;HCR
+323;bus;;;;HCR
+323E;bus;;;;HCR
+324;bus;;;;HCR
+328;bus;;;;HCR
+329;bus;;;;HCR
+330;bus;;;;VER
+331;bus;;;;Verkehrsgesellschaft Ennepe-Ruhr
+332;bus;;;;WSW
+332;bus;;;;VER;WSW
+333;bus;;;;HCR
+336;bus;;;;BOGESTRA
+337;bus;;;;HCR
+340;bus;;;;BOGESTRA
+341;bus;;;;HCR
+342;bus;;;;BOGESTRA
+343;bus;;;;HCR
+344;bus;;;;BOGESTRA
+345;bus;;;;BOGESTRA
+346;bus;;;;BOGESTRA
+347;bus;;;;HCR
+348;bus;;;;BOGESTRA;Ruhrbahn
+349;bus;;;;BOGESTRA
+351;bus;;;;HCR
+352;bus;;;;BOGESTRA
+353;bus;;;;BOGESTRA
+354;bus;;;;BOGESTRA
+355;bus;;;;BOGESTRA
+356;bus;;;;BOGESTRA
+357;bus;;;;BOGESTRA
+358;bus;;;;BOGESTRA
+359;bus;;;;BOGESTRA
+360;bus;;;;BOGESTRA
+361;bus;;;;HCR
+362;bus;;;;HCR
+362E;bus;;;;HCR
+363;bus;;;;BOGESTRA
+363;bus;;;;BOGESTRA;Ruhrbahn
+364;bus;;;;BOGESTRA
+365;bus;;;;BOGESTRA
+366;bus;;;;BOGESTRA
+367;bus;;;;HCR
+368;bus;;;;BOGESTRA
+369;bus;;;;BOGESTRA
+370;bus;;;;BOGESTRA
+371;bus;;;;VER
+371;bus;;;;Verkehrsgesellschaft Ennepe-Ruhr
+372;bus;;;;BOGESTRA
+373;bus;;;;Verkehrsgesellschaft Ennepe-Ruhr
+Bus 373: Holzkamp-Gesamtschule→Stockumer Bruch;bus;;;;Verkehrsgesellschaft Ennepe-Ruhr
+375;bus;;;;BOGESTRA
+376;bus;;;;BOGESTRA
+377;bus;;;;BOGESTRA
+378;bus;;;;BOGESTRA
+379;bus;;;;BOGESTRA
+380;bus;;;;BOGESTRA
+381;bus;;;;BOGESTRA
+382;bus;;;;BOGESTRA
+383;bus;;;;BOGESTRA
+384;bus;;;;BOGESTRA
+385;bus;;;;BOGESTRA
+386;bus;;;;BOGESTRA
+388;bus;;;;BOGESTRA
+389;bus;;;;BOGESTRA
+390;bus;;;;BOGESTRA
+394;bus;;;;BOGESTRA
+395;bus;;;;BOGESTRA
+396;bus;;;;BOGESTRA
+397;bus;;;;BOGESTRA
+398;bus;;;;BOGESTRA
+399;bus;;;;BOGESTRA
+
+=== 4xx
+
+401;bus;;;;STOAG
+410;bus;;;;DSW21
+411;bus;;;;DSW21
+412;bus;;;;DSW21
+414;bus;;;;DSW21
+416;bus;;;;DSW21
+417;bus;;;;DSW21
+420;bus;;;;DSW21
+422;bus;;;;DSW21
+423;bus;;;;DSW21
+424;bus;;;;DSW21
+425;bus;;;;DSW21
+426;bus;;;;DSW21
+427;bus;;;;DSW21
+428;bus;;;;DSW21
+430;bus;;;;DSW21
+431;bus;;;;DSW21
+432;bus;;;;DSW21
+433;bus;;;;DSW21
+434;bus;;;;DSW21
+435;bus;;;;DSW21
+436;bus;;;;DSW21
+437;bus;;;;DSW21
+438;bus;;;;DSW21
+439;bus;;;;DSW21
+440;bus;;;;DSW21
+441;bus;;;;DSW21
+442;bus;;;;DSW21
+443;bus;;;;DSW21
+444;bus;;;;DSW21
+445;bus;;;;DSW21
+446;bus;;;;DSW21
+447;bus;;;;DSW21
+448;bus;;;;DSW21
+449;bus;;;;DSW21
+450;bus;;;;DSW21
+451;bus;;;;DSW21
+452;bus;;;;DSW21
+453;bus;;;;DSW21
+455;bus;;;;DSW21
+456;bus;;;;DSW21
+460;bus;;;;DSW21
+461;bus;;;;DSW21
+462;bus;;;;DSW21
+463;bus;;;;DSW21
+464;bus;;;;DSW21
+465;bus;;;;DSW21
+466;bus;;;;DSW21
+469;bus;;;;DSW21
+470;bus;;;;DSW21
+471;bus;;;;DSW21
+472;bus;;;;DSW21
+473;bus;;;;DSW21
+475;bus;;;;DSW21
+477;bus;;;;DSW21
+478;bus;;;;DSW21
+480;bus;;;;DSW21
+481;bus;;;;Vestische Straßenbahnen GmbH
+482;bus;;;;DSW21
+
+=== 5xx
+
+510;bus;;;;HST
+511;bus;;;;VER
+512;bus;;;;HST
+513;bus;;;;HST
+514;bus;;;;HST
+515;bus;;;;HST
+516;bus;;;;HST
+517;bus;;;;HST
+518;bus;;;;HST
+519;bus;;;;HST
+520;bus;;;;HST
+521;bus;;;;HST
+522;bus;;;;HST
+523;bus;;;;VER
+524;bus;;;;HST
+525;bus;;;;HST
+527;bus;;;;HST
+528;bus;;;;HST
+529;bus;;;;VER
+530;bus;;;;HST
+531;bus;;;;HST
+534;bus;;;;HST
+535;bus;;;;HST
+536;bus;;;;HST
+538;bus;;;;HST
+539;bus;;;;HST
+540;bus;;;;HST
+541;bus;;;;HST
+542;bus;;;;HST
+543;bus;;;;HST
+544;bus;;;;HST
+547;bus;;;;HST
+550;bus;;;;VER
+551;bus;;;;VER
+552;bus;;;;Verkehrsgesellschaft Ennepe-Ruhr
+553;bus;;;;VER
+555;bus;;;;VER
+556;bus;;;;VER
+557;bus;;;;VER
+557;bus;;;;Verkehrsgesellschaft Ennepe-Ruhr
+558;bus;;;;VER
+559;bus;;;;Verkehrsgesellschaft Ennepe-Ruhr
+563;bus;;;;VER
+564;bus;;;;VER
+566;bus;;;;VER
+568;bus;;;;VER
+571;bus;;;;VER
+581;bus;;;;VER
+582;bus;;;;VER
+583;bus;;;;
+584;bus;;;;VER
+585;bus;;;;VER
+586;bus;;;;WSW
+586;bus;;;;VER
+591;bus;;;;BVR
+592;bus;;;;BVR
+593;bus;;;;BVR
+593/1;bus;;;;BVR
+594;bus;;;;Busverkehr Rheinland GmbH
+595;bus;;;;BVR
+599;bus;;;;BVR
+
+=== 6xx
+
+600;bus;;;;WSW
+601;bus;;;;WSW
+602;bus;;;;WSW
+603;bus;;;;WSW
+604;bus;;;;WSW
+605;bus;;;;WSW
+606;bus;;;;WSW
+607;bus;;;;WSW
+608;bus;;;;WSW
+609;bus;;;;WSW
+VRR 609;bus;;;;WSW
+610;bus;;;;WSW
+611;bus;;;;WSW
+612;bus;;;;WSW
+613;bus;;;;WSW
+614;bus;;;;WSW
+615;bus;;;;WSW;Stadtwerke Remscheid
+616;bus;;;;WSW
+617;bus;;;;WSW
+618;bus;;;;WSW
+619;bus;;;;WSW
+620;bus;;;;WSW
+621;bus;;;;WSW
+622;bus;;;;WSW
+623;bus;;;;WSW
+624;bus;;;;WSW
+625;bus;;;;WSW
+626;bus;;;;WSW
+627;bus;;;;WSW
+628;bus;;;;WSW
+629;bus;;;;WSW
+630;bus;;;;WSW
+631;bus;;;;WSW
+632;bus;;;;WSW
+633;bus;;;;WSW
+635;bus;;;;WSW
+636;bus;;;;BVR
+637;bus;;;;WSW
+638;bus;;;;WSW
+639;bus;;;;WSW
+VRR 636;bus;;;;BVR
+640;bus;;;;WSW
+641;bus;;;;WSW
+VRR 641;bus;;;;WSW
+642;bus;;;;WSW
+643;bus;;;;WSW
+644;bus;;;;WSW
+645;bus;;;;WSW
+646;bus;;;;WSW
+647;bus;;;;WSW;VER
+647;bus;;;;WSW
+649;bus;;;;WSW
+650;bus;;;;WSW
+652;bus;;;;Stadtwerke Remscheid
+653;bus;;;;Stadtwerke Remscheid
+654;bus;;;;Stadtwerke Remscheid
+655;bus;;;;Stadtwerke Remscheid
+657;bus;;;;Stadtwerke Remscheid
+658;bus;;;;Stadtwerke Remscheid
+660;bus;;;;Stadtwerke Remscheid
+664;bus;;;;Stadtwerke Remscheid
+665;bus;;;;SWR
+666;bus;;;;Stadtwerke Remscheid
+669;bus;;;;Stadtwerke Remscheid; WSW
+670;bus;;;;Stadtwerke Remscheid
+671;bus;;;;Stadtwerke Remscheid
+672;bus;;;;Stadtwerke Remscheid
+673;bus;;;;Stadtwerke Remscheid
+675;bus;;;;Stadtwerke Remscheid
+680;bus;;;;Stadtwerke Remscheid
+687;bus;;;;Stadtwerke Solingen
+689;bus;;;;Stadtwerke Solingen
+690;bus;;;;Stadtwerke Solingen
+691;bus;;;;Stadtwerke Solingen
+692;bus;;;;Stadtwerke Solingen
+693;bus;;;;Stadtwerke Solingen
+694;bus;;;;Stadtwerke Solingen
+695;bus;;;;Stadtwerke Solingen
+696;bus;;;;Stadtwerke Solingen
+697;bus;;;;Stadtwerke Solingen
+698;bus;;;;Stadtwerke Solingen
+699;bus;;;;Stadtwerke Solingen
+
+=== 7xx
+
+721;bus;;;;Rheinbahn
+722;bus;;;;Rheinbahn
+723;bus;;;;Rheinbahn
+724;bus;;;;Rheinbahn
+725;bus;;;;Rheinbahn
+726;bus;;;;Rheinbahn
+727;bus;;;;Rheinbahn
+728;bus;;;;Rheinbahn
+729;bus;;;;Rheinbahn
+730;bus;;;;Rheinbahn
+731;bus;;;;Rheinbahn
+732;bus;;;;Rheinbahn
+733;bus;;;;Rheinbahn
+734;bus;;;;Rheinbahn
+735;bus;;;;Rheinbahn
+736;bus;;;;Rheinbahn
+737;bus;;;;Rheinbahn
+738;bus;;;;Rheinbahn
+741;bus;;;;Rheinbahn
+742;bus;;;;
+743;bus;;;;Rheinbahn
+745;bus;;;;Rheinbahn
+746;bus;;;;Rheinbahn
+747;bus;;;;Rheinbahn;BVR
+748;bus;;;;Rheinbahn
+749;bus;;;;Rheinbahn
+751;bus;;;;Rheinbahn
+752;bus;;;;Ruhrbahn;Rheinbahn
+753;bus;;;;Rheinbahn;Ruhrbahn
+754;bus;;;;Rheinbahn
+756;bus;;;;Rheinbahn
+757;bus;;;;Rheinbahn;KVGM
+758;bus;;;;Rheinbahn
+759;bus;;;;Rheinbahn
+760;bus;;;;Rheinbahn
+761;bus;;;;Rheinbahn;KVGM
+770;bus;;;;Rheinbahn;BVR
+771;bus;;;;Rheinbahn;BVR
+772;bus;;;;Rheinbahn
+773;bus;;;;
+774;bus;;;;Rheinbahn
+776;bus;;;;Rheinbahn
+777;bus;;;;BSM
+778;bus;;;;Rheinbahn
+779;bus;;;;Rheinbahn
+780;bus;;;;Rheinbahn
+781;bus;;;;Rheinbahn
+782;bus;;;;Rheinbahn
+783;bus;;;;Rheinbahn
+784;bus;;;;Rheinbahn
+785;bus;;;;Rheinbahn
+786;bus;;;;Rheinbahn
+787;bus;;;;Rheinbahn
+788;bus;;;;Rheinbahn
+789;bus;;;;BSM, Rheinbahn
+790;bus;;;;Rheinbahn;BSM
+791;bus;;;;BSM
+792;bus;;;;Rheinbahn
+793;bus;;;;BSM
+
+=== 8xx
+
+800;bus;;;;WSW
+805;bus;;;;Rheinbahn
+810;bus;;;;Rheinbahn
+812;bus;;;;Rheinbahn
+815;bus;;;;Rheinbahn
+817;bus;;;;Rheinbahn
+827;bus;;;;BVR;Rheinbahn
+828;bus;;;;BVR;Rheinbahn
+829;bus;;;;Rheinbahn
+829;bus;;;;Rheinbahn AG
+830;bus;;;;Rheinbahn
+831;bus;;;;Rheinbahn
+833;bus;;;;Rheinbahn
+834;bus;;;;Rheinbahn
+835;bus;;;;Rheinbahn
+836;bus;;;;Rheinbahn
+839;bus;;;;Rheinbahn
+841;bus;;;;SWN
+842;bus;;;;Stadtwerke Neuss GmbH
+843;bus;;;;SWN
+844;bus;;;;SWN
+848;bus;;;;Stadtwerke Neuss
+849;bus;;;;SWN
+850;bus;;;;Stadtwerke Neuss GmbH
+851;bus;;;;SWN
+852;bus;;;;SWN
+854;bus;;;;Stadtwerke Neuss GmbH
+857T;bus;;;;Stadtwerke Neuss
+858;bus;;;;SWN
+860;bus;;;;
+862;bus;;;;Busverkehr Rheinland GmbH
+863;bus;;;;Rheinbahn
+864;bus;;;;Rheinlandbus
+865;bus;;;;BVR
+866;bus;;;;Busverkehr Rheinland GmbH
+869;bus;;;;BVR
+870;bus;;;;DB Bahn Rheinlandbus
+870;bus;;;;NEW mobil und aktiv Mönchengladbach
+871;bus;;;;Busverkehr Rheinland GmbH
+872;bus;;;;BVR
+873;bus;;;;BVR
+874;bus;;;;BVR
+875;bus;;;;Busverkehr Rheinland GmbH
+877;bus;;;;BVR
+877;bus;;;;Busverkehr Rheinland
+878;bus;;;;BVR
+879;bus;;;;BVR
+880;bus;;;;Busverkehr Rheinland
+881;bus;;;;StadtBus Dormagen
+881;bus;;;;Stadtbus Dormagen
+882;bus;;;;StadtBus Dormagen GmbH
+882;bus;;;;Stadtbus Dormagen
+883;bus;;;;StadtBus Dormagen
+883;bus;;;;StadtBus Dormagen GmbH
+884;bus;;;;StadtBus Dormagen GmbH
+885;bus;;;;Stadtbus Dormagen
+886;bus;;;;Stadtbus Dormagen
+887;bus;;;;Stadtbus Dormagen
+891;bus;;;;BVR
+891;bus;;;;Rheinbahn
+892;bus;;;;BVR
+893;bus;;;;Rheinbahn
+893;bus;;;;BVR
+894;bus;;;;Rheinbahn
+896;bus;;;;Rheinbahn
+
+=== 9xx
+
+905;bus;;;;
+906;bus;;;;DVG
+907;bus;;;;DVG
+908;bus;;;;DVG
+909;bus;;;;DVG
+910;bus;;;;
+911;bus;;;;Niederrheinische Verkehrsbetriebe
+912;bus;;;;Niederrheinische Verkehrsbetriebe
+913;bus;;;;Niederrheinische Verkehrsbetriebe
+914;bus;;;;DVG;Niederrheinische Verkehrsbetriebe
+915;bus;;;;Niederrheinische Verkehrsbetriebe
+917;bus;;;;DVG
+918;bus;;;;Niederrheinische Verkehrsbetriebe
+919;bus;;;;DVG
+921;bus;;;;DVG;Niederrheinische Verkehrsbetriebe
+922;bus;;;;DVG
+923;bus;;;;DVG
+923E;bus;;;;DVG
+924;bus;;;;DVG
+924E;bus;;;;DVG
+925;bus;;;;DVG
+926;bus;;;;DVG
+927;bus;;;;SWK Mobil
+928;bus;;;;DVG
+929;bus;;;;Niederrheinische Verkehrsbetriebe
+933;bus;;;;DVG
+934;bus;;;;DVG
+935;bus;;;;DVG;STOAG
+937;bus;;;;DVG
+939;bus;;;;DVG;STOAG
+939;bus;;;;STOAG
+940;bus;;;;DVG
+941;bus;;;;DVG
+942;bus;;;;DVG
+944;bus;;;;DVG
+946;bus;;;;DVG
+954;bus;;;;STOAG
+955;bus;;;;STOAG
+957;bus;;;;STOAG
+958;bus;;;;
+959;bus;;;;STOAG
+960;bus;;;;STOAG
+961;bus;;;;STOAG
+962;bus;;;;STOAG
+966;bus;;;;STOAG
+971;bus;;;;
+975;bus;;;;BVR
+976;bus;;;;STOAG
+979;bus;;;;Vestische;STOAG
+995;bus;;;;DB;Rheinlandbus
+
+=== A
+
+ALT2;bus;;;;Stadtbus Dormagen
+ALT2;bus;;;;StadtBus Dormagen
+ALT3;bus;;;;Stadtbus Dormagen
+ALT3;bus;;;;StadtBus Dormagen
+ALT4;bus;;;;Stadtbus Dormagen
+ALT4;bus;;;;StadtBus Dormagen
+ALT5;bus;;;;Stadtbus Dormagen
+ALT6;bus;;;;StadtBus Dormagen GmbH
+AST;bus;;;;
+AST16;bus;;;;BOGESTRA
+AST26;bus;;;;BOGESTRA
+AST53;bus;;;;BOGESTRA
+AST59;bus;;;;BOGESTRA
+AST97;bus;;;;BOGESTRA
+
+=== B
+
+BB Haltern;bus;;;;Bürgerbus Haltern am See e. V.
+BB1;bus;;;;
+BBL1;bus;;;;WSW
+BBL2;bus;;;;WSW
+BBL3;bus;;;;WSW
+BBL4;bus;;;;WSW
+BBL5;bus;;;;WSW
+BBN1;bus;;;;WSW
+BBN2;bus;;;;WSW
+BBN3;bus;;;;WSW
+BBN4;bus;;;;WSW
+BR1;bus;;;;WSW
+BR2;bus;;;;WSW
+
+=== C
+
+CE31;bus;;;;BOGESTRA
+CE61;bus;;;;WSW
+CE62;bus;;;;WSW
+CE64;bus;;;;WSW
+CE65;bus;;;;WSW
+CE89;bus;;;;NEW mobil und aktiv Viersen
+Campus Bus;bus;;;;WSW
+
+=== D
+
+DL1;bus;;;;Rheinbahn
+DL3;bus;;;;Rheinbahn
+DL4;bus;;;;Rheinbahn
+DL5;bus;;;;Rheinbahn
+DL6;bus;;;;
+
+=== E
+
+E;bus;;;;Stadtbus Dormagen
+E041;bus;;;;SWK
+E1;bus;;;;HST
+E2;bus;;;;HST
+E7;bus;;;;HST
+E8;bus;;;;HST
+E9;bus;;;;HST
+E12;bus;;;;HST
+E13;bus;;;;HST
+E14;bus;;;;HST
+E15;bus;;;;HST
+E16;bus;;;;HST
+E17;bus;;;;HST
+E18;bus;;;;HST
+E21;bus;;;;HST
+E22;bus;;;;HST
+E23;bus;;;;HST
+E25;bus;;;;HST
+E26;bus;;;;HST
+E27;bus;;;;HST
+E28;bus;;;;HST
+E30;bus;;;;HST
+E31;bus;;;;HST
+E32;bus;;;;HST
+E34;bus;;;;HST
+E38;bus;;;;HST
+E39;bus;;;;HST
+E40;bus;;;;HST
+E41;bus;;;;HST
+E42;bus;;;;HST
+E43;bus;;;;HST
+E45;bus;;;;HST
+E47;bus;;;;HST
+E101;bus;;;;HST
+E102;bus;;;;HST
+E104;bus;;;;HST
+E105;bus;;;;HST
+E111;bus;;;;HST
+E112;bus;;;;HST
+E114;bus;;;;HST
+E115;bus;;;;HST
+E118;bus;;;;HST
+E119;bus;;;;HST
+E121;bus;;;;HST
+E122;bus;;;;HST
+E123;bus;;;;HST
+E128;bus;;;;HST
+E129;bus;;;;HST
+E130;bus;;;;HST
+E132;bus;;;;HST
+E133;bus;;;;HST
+E860;bus;;;;WSW
+
+=== M
+
+M1;bus;;;;Rheinbahn
+M2;bus;;;;Rheinbahn
+M3;bus;;;;Rheinbahn
+
+=== N
+
+NE 3;bus;;;;NEW mobil und aktiv Mönchengladbach
+NE1;bus;;;;BOGESTRA
+NE1;bus;;;;Stadtbus Dormagen
+NE1;bus;;;;SWN
+NE1;bus;;;;Vestische
+NE1;bus;;;;WSW
+NE1;bus;;;;DSW21
+NE1;bus;;;;Rheinbahn
+NE1;bus;;;;HST
+NE1;bus;;;;DVG
+NE1;bus;;;;Ruhrbahn
+NE1;bus;;;;StadtBus Dormagen
+NE2;bus;;;;DSW21
+NE2;bus;;;;Rheinbahn
+NE2;bus;;;;BOGESTRA
+NE2;bus;;;;DVG
+NE2;bus;;;;Stadtbus Dormagen
+NE2;bus;;;;WSW
+NE2;bus;;;;Vestische
+NE2;bus;;;;HST
+NE2;bus;;;;SWN
+NE2;bus;;;;Ruhrbahn
+NE3;bus;;;;DSW21
+NE3;bus;;;;BOGESTRA
+NE3;bus;;;;WSW
+NE3;bus;;;;Rheinbahn
+NE3;bus;;;;HST
+NE3;bus;;;;DVG
+NE3;bus;;;;Vestische
+NE3;bus;;;;SWN
+NE3;bus;;;;Ruhrbahn
+NE3;bus;;;;Stadtbus Dormagen
+NE4;bus;;;;Rheinbahn
+NE4;bus;;;;DSW21
+NE4;bus;;;;BOGESTRA
+NE4;bus;;;;WSW
+NE4;bus;;;;HST
+NE4;bus;;;;DVG
+NE4;bus;;;;SWN
+NE4;bus;;;;Ruhrbahn
+NE5;bus;;;;Rheinbahn
+NE5;bus;;;;BOGESTRA
+NE5;bus;;;;WSW
+NE5;bus;;;;DSW21
+NE5;bus;;;;SWK Mobil
+NE5;bus;;;;HST
+NE5;bus;;;;Ruhrbahn
+NE5;bus;;;;Vestische
+NE5;bus;;;;SWN
+NE6;bus;;;;BOGESTRA
+NE6;bus;;;;Rheinbahn
+NE6;bus;;;;WSW
+NE6;bus;;;;DSW21
+NE6;bus;;;;HST
+NE6;bus;;;;Ruhrbahn
+NE6;bus;;;;Vestische
+NE6;bus;;;;SWN
+NE7;bus;;;;DSW21
+NE7;bus;;;;BOGESTRA
+NE7;bus;;;;WSW
+NE7;bus;;;;HST
+NE7;bus;;;;Rheinbahn
+NE7;bus;;;;Ruhrbahn
+NE7;bus;;;;Vestische
+NE8;bus;;;;DSW21
+NE8;bus;;;;Rheinbahn
+NE8;bus;;;;BOGESTRA
+NE8;bus;;;;WSW
+NE8;bus;;;;Ruhrbahn
+NE8;bus;;;;HST
+NE8;bus;;;;Vestische
+NE9;bus;;;;DSW21
+NE9;bus;;;;Vestische
+NE9;bus;;;;Ruhrbahn
+NE10;bus;;;;BOGESTRA
+NE10;bus;;;;HST
+NE10;bus;;;;SWK Mobil
+NE10;bus;;;;Ruhrbahn
+NE11;bus;;;;BOGESTRA
+NE11;bus;;;;DSW21
+NE11;bus;;;;HST
+NE11;bus;;;;BVR
+NE12;bus;;;;DSW21
+NE12;bus;;;;BOGESTRA
+NE12;bus;;;;Stadtwerke Remscheid
+NE12;bus;;;;Ruhrbahn
+NE12;bus;;;;HST
+NE12;bus;;;;BVR
+NE13;bus;;;;BOGESTRA
+NE13;bus;;;;DSW21
+NE13;bus;;;;Stadtwerke Remscheid
+NE13;bus;;;;Ruhrbahn
+NE14;bus;;;;BOGESTRA
+NE14;bus;;;;Vestische
+NE14;bus;;;;Stadtwerke Remscheid
+NE14;bus;;;;Ruhrbahn
+NE15;bus;;;;Stadtwerke Remscheid;WSW
+NE16;bus;;;;Stadtwerke Remscheid
+NE16;bus;;;;Ruhrbahn
+NE17;bus;;;;BOGRSTRA
+NE17;bus;;;;Stadtwerke Remscheid
+NE17;bus;;;;BOGESTRA
+NE18;bus;;;;BOGESTRA
+NE18;bus;;;;Stadtwerke Remscheid
+NE18;bus;;;;Vestische
+NE19;bus;;;;Stadtwerke Remscheid
+NE19;bus;;;;Vestische
+NE19;bus;;;;HST
+NE20;bus;;;;DSW21
+NE20;bus;;;;Stadtwerke Remscheid
+NE21;bus;;;;DSW21
+NE21;bus;;;;Stadtwerke Solingen
+NE21;bus;;;;STOAG;Vestische
+NE21;bus;;;;HST
+NE22;bus;;;;Stadtwerke Solingen
+NE22;bus;;;;DSW21
+NE22;bus;;;;HST
+NE23;bus;;;;Stadtwerke Solingen
+NE24;bus;;;;Stadtwerke Solingen
+NE24;bus;;;;DSW21
+NE25;bus;;;;Stadtwerke Solingen
+NE25;bus;;;;DSW21
+NE28;bus;;;;Stadtwerke Solingen
+NE31;bus;;;;HCR
+NE31;bus;;;;HST
+NE32;bus;;;;HST
+NE32;bus;;;;HCR
+NE33;bus;;;;HCR
+NE34;bus;;;;HCR
+NE40;bus;;;;DSW21
+
+=== O
+
+O1;bus;;;;Rheinbahn
+O3;bus;;;;Rheinbahn
+O5;bus;;;;Rheinbahn;BVR
+O6;bus;;;;Rheinbahn;BVR
+O10;bus;;;;
+O11;bus;;;;Rheinbahn
+O12;bus;;;;
+O13;bus;;;;
+O14;bus;;;;Rheinbahn
+O15;bus;;;;Rheinbahn
+O16;bus;;;;Rheinbahn
+O17;bus;;;;Rheinbahn
+O19;bus;;;;Rheinbahn
+OL2;bus;;;;Gemeindewerke Wachtendonk
+OV1;bus;;;;VGV
+OV2;bus;;;;VGV
+OV2E;bus;;;;VGV
+OV3;bus;;;;VGV
+OV4;bus;;;;VGV
+OV6;bus;;;;VGV
+OV7;bus;;;;VGV
+OV8;bus;;;;VGV
+
+=== S
+
+SB 81;bus;;;;west, NVV AG
+SB 81;bus;;;;NEW mobil und aktiv Mönchengladbach; west
+SB1;bus;;;;NEW mobil und aktiv Mönchengladbach
+SB3;bus;;;;Regionalverkehr Niederrhein
+SB4;bus;;;;NEW mobil und aktiv Mönchengladbach
+SB4;bus;;;;NVV AG
+SB6;bus;;;;Regionalverkehr Niederrhein
+SB7;bus;;;;Regionalverkehr Niederrhein
+SB10;bus;;;;Niederrheinische Verkehrsbetriebe
+SB14;bus;;;;Ruhrbahn
+SB15;bus;;;;Ruhrbahn
+SB16;bus;;;;Vestische;BVR
+SB18;bus;;;;BVR
+SB19;bus;;;;BVR
+SB19;bus;;;;DB Bahn Rheinlandbus
+SB20;bus;;;;Vestische
+SB21;bus;;;;Regionalverkehr Niederrhein
+SB22;bus;;;;Vestische
+SB24;bus;;;;Vestische
+SB25;bus;;;;Vestische
+SB26;bus;;;;Vestische
+SB27;bus;;;;Vestische
+SB27E;bus;;;;Vestische
+SB28;bus;;;;BVR
+SB29;bus;;;;BVR
+SB30;bus;;;;Niederrheinische Verkehrsbetriebe
+SB36;bus;;;;BOGESTRA;Vestische
+SB37;bus;;;;BOGESTRA;VER
+SB38;bus;;;;BVR;VER
+SB38;bus;;;;BVR; VER
+SB40;bus;;;;DVG
+SB42;bus;;;;DVG
+SB50;bus;;;;Rheinbahn
+SB51;bus;;;;Rheinbahn
+SB52;bus;;;;Rheinbahn;BVR
+SB55;bus;;;;Rheinbahn
+SB57;bus;;;;Rheinbahn
+SB58;bus;;;;Niederrheinische Verkehrsbetriebe
+SB66;bus;;;;Rheinlandbus
+SB67;bus;;;;VER
+SB68;bus;;;;Rheinbahn;WSW
+SB68;bus;;;;Rheinbahn
+SB69;bus;;;;WSW
+SB71;bus;;;;HST
+SB78;bus;;;;BSM
+SB79;bus;;;;Bahnen der Stadt Monheim
+SB80;bus;;;;Niederrheinische Verkehrsbetriebe
+SB81;bus;;;;NEW mobil und aktiv Mönchengladbach
+SB83;bus;;;;NEW mobil und aktiv Mönchengladbach
+SB85;bus;;;;Rheinlandbus
+SB86;bus;;;;BVR Busverkehr Rheinland GmbH
+SB87;bus;;;;BVR;NEW mobil und aktiv Viersen
+SB88;bus;;;;NEW mobil und aktiv Mönchengladbach
+SB90;bus;;;;STOAG
+SB91;bus;;;;STOAG;Vestische
+SB92;bus;;;;STOAG
+SB93;bus;;;;STOAG
+SB94;bus;;;;STOAG
+SB97;bus;;;;STOAG
+SB98;bus;;;;STOAG
+SEV;bus;;;;Stadtbus Dormagen
+SL1;bus;;;;Verkehrsbetrieb Geldern
+SL2;bus;;;;Verkehrsbetrieb Geldern
+SL3;bus;;;;Verkehrsbetrieb Geldern
+SL4;bus;;;;Verkehrsbetrieb Geldern
+SL5;bus;;;;Verkehrsbetrieb Geldern
+SL6;bus;;;;Verkehrsbetrieb Geldern
+SL7;bus;;;;Verkehrsbetrieb Geldern
+SL8;bus;;;;Verkehrsbetrieb Geldern
+SL9;bus;;;;Verkehrsbetrieb Geldern
+SL10;bus;;;;Verkehrsbetrieb Geldern
+SL11;bus;;;;Stadtbus Goch
+SL12;bus;;;;Stadtbus Goch
+SL13;bus;;;;Stadtbus Goch
+SL14;bus;;;;Stadtbus Goch
+SL15;bus;;;;Stadtbus Goch
+SL16;bus;;;;Stadtbus Goch
+SL17;bus;;;;Stadtbus Goch
+SL18;bus;;;;Stadtbus Goch
+SL20;bus;;;;Niederrheinische Verkehrsbetriebe
+SL21;bus;;;;Niederrheinische Verkehrsbetriebe
+SL22;bus;;;;Niederrheinische Verkehrsbetriebe
+SL23;bus;;;;Niederrheinische Verkehrsbetriebe
+SL40;bus;;;;Niederrheinische Verkehrsbetriebe
+SL42;bus;;;;Niederrheinische Verkehrsbetriebe
+SL61;bus;;;;Verkehrsbetrieb Straelen
+SL62;bus;;;;Verkehrsbetrieb Straelen
+SL63;bus;;;;Verkehrsbetrieb Straelen
+SL64;bus;;;;Verkehrsbetrieb Straelen
+SL65;bus;;;;Verkehrsbetrieb Straelen
+SL66;bus;;;;Verkehrsbetrieb Straelen
+SL67;bus;;;;Verkehrsbetrieb Straelen
+SL68;bus;;;;Verkehrsbetrieb Straelen
+SW1;bus;;;;Niederrheinische Verkehrsbetriebe
+
+=== T
+
+T1;bus;;;;HST
+T1;bus;;;;Ruhrbahn
+T2;bus;;;;HST
+T2;bus;;;;Ruhrbahn
+T3;bus;;;;Ruhrbahn
+T4;bus;;;;HST
+T4;bus;;;;Ruhrbahn
+T5;bus;;;;NVG
+T6;bus;;;;Ruhrbahn
+T7;bus;;;;Ruhrbahn
+T8;bus;;;;Ruhrbahn
+T9;bus;;;;Ruhrbahn
+T11;bus;;;;Ruhrbahn
+TB205;bus;;;;Vestische
+TB206;bus;;;;Vestische
+TB207;bus;;;;Vestische
+TB216;bus;;;;Vestische
+TB217;bus;;;;Vestische
+TB228;bus;;;;Vestische
+TB229;bus;;;;Vestische
+TB241;bus;;;;Vestische
+TB256;bus;;;;Vestische
+TB265;bus;;;;Vestische
+TB269;bus;;;;Vestische
+TB277;bus;;;;Vestische
+TB279;bus;;;;Vestische
+TB281;bus;;;;Vestische
+TB282;bus;;;;Vestische
+TB284;bus;;;;Vestische
+TB286;bus;;;;Vestische
+TB290;bus;;;;Vestische
+TB294;bus;;;;Vestische
+TB698;bus;;;;Stadtwerke Solingen
+
+=== U ... Z, a ... z
+
+Uni-Express;bus;;;;WSW
+VRR;bus;;;;Stadtbus Dormagen
+WE1;bus;;;;StadtBus Dormagen GmbH
+WE2;bus;;;;StadtBus Dormagen GmbH
+ZFR;bus;;;;BOGESTRA
+bRs;bus;;;;Bürgerbus Remscheid e.V.
+xxx;bus;;;;
+
+== Fähre
+
+Fahrradfähre;ferry;;;;Wittener Gesellschaft für Arbeit und Beschäftigungsförderung
+
+== Mono-Rail
+
+60;monorail;;;;WSW
+H1;monorail;;;;DSW21
+H2;monorail;;;;DSW21
+Skytrain;monorail;;;;Flughafen Düsseldorf
+
+== (Anruf-)Sammel-Taxi
+
+TB691;share_taxi;;;;Stadtwerke Solingen
+TB694;share_taxi;;;;SWS
 
 </pre>
