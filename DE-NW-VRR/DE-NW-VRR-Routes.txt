@@ -76,15 +76,7 @@
 
 === RB
 
-RB 94;train;;;;DB RegioNetz Verkehrs GmbH; Kurhessenbahn
-RB20;train;;;;DB Regio AG Region NRW
-RB21;train;;;;Rurtalbahn GmbH
-RB24;train;;;;DB Regio NRW
-RB25;train;;;;DB Regio NRW
-RB26;train;;;;trans regio
 RB27;train;;;;DB Regio Mitte
-RB28;train;;;;Rurtalbahn GmbH
-RB30;train;;;;DB Regio NRW
 RB31;train;;;;NordWestBahn
 RB32;train;;;;Abellio Rail NRW
 RB33;train;;;;DB Regio NRW
@@ -93,7 +85,6 @@ RB35;train;;;;Abellio Rail NRW
 RB35;train;;;;abellio Rail NRW
 RB36;train;;;;NordWestBahn
 RB37;train;;;;DB Regio NRW
-RB38;train;;;;DB Regio NRW
 RB39;train;;;;VIAS
 RB40;train;;;;Abellio Rail NRW
 RB43;train;;;;NordWestBahn
@@ -107,29 +98,8 @@ RB50;train;;;;Eurobahn
 RB51;train;;;;DB Regio Westfalen
 RB52;train;;;;DB Regio NRW
 RB53;train;;;;DB Regio NRW
-RB54;train;;;;DB Regio NRW
-RB58;train;;;;Westfalenbahn
 RB59;train;;;;Eurobahn
-RB61;train;;;;Eurobahn
-RB63;train;;;;DB Regio NRW
-RB64;train;;;;DB Regio Westfalen
-RB65;train;;;;Eurobahn
-RB66;train;;;;Eurobahn
-RB67;train;;;;NordWestBahn
-RB69;train;;;;Eurobahn
-RB71;train;;;;Eurobahn
-RB72;train;;;;Eurobahn
-RB73;train;;;;Eurobahn
-RB74;train;;;;NordWestBahn
-RB75;train;;;;NordWestBahn
-RB77;train;;;;NordWestBahn
-RB84;train;;;;NordWestBahn
-RB89;train;;;;Eurobahn
-RB90;train;;;;HLB
 RB91;train;;;;Abellio Rail NRW
-RB93;train;;;;DB Regio NRW
-RB95;train;;;;
-RB96;train;;;;HLB
 
 === RE
 
@@ -141,24 +111,15 @@ RE5;train;;;;DB Regio NRW
 RE6;train;;;;DB Regio NRW
 RE7;train;;;;National Express Rail GmbH
 RE8;train;;;;DB Regio NRW
-RE9;train;;;;DB Regio NRW
 RE10;train;;;;NordWestBahn
 RE11;train;;;;DB Regio NRW
-RE12;train;;;;DB Regio NRW
 RE13;train;;;;Eurobahn
 RE14;train;;;;NordWestBahn
-RE15;train;;;;Westfalenbahn
 RE16;train;;;;Abellio Rail NRW
 RE17;train;;;;DB Regio NRW
 RE19;train;;;;Abellio Rail NRW
 RE42;train;;;;DB Regio NRW
-RE29;train;;;;NMBS/SNCB
 RE57;train;;;;DB Regio NRW
-RE60;train;;;;Westfalenbahn
-RE70;train;;;;Westfalenbahn
-RE78;train;;;;Eurobahn
-RE82;train;;;;Eurobahn
-RE99;train;;;;
 
 === S
 
@@ -173,9 +134,6 @@ S7;train;;;;Abellio Rail
 S8;train;;;;DB Regio NRW
 S9;train;;;;DB Regio NRW
 S11;train;;;;DB Regio NRW
-S12;train;;;;DB Regio NRW
-S13;train;;;;DB Regio NRW
-S19;train;;;;DB Regio NRW
 S28;train;;;;Regiobahn
 S68;train;;;;DB Regio NRW
 
@@ -1347,6 +1305,7 @@ SB52;bus;;;;Rheinbahn;BVR
 SB55;bus;;;;Rheinbahn
 SB57;bus;;;;Rheinbahn
 SB58;bus;;;;Niederrheinische Verkehrsbetriebe
+SB59;bus;;;;Rheinbahn
 SB66;bus;;;;Rheinlandbus
 SB67;bus;;;;VER
 SB68;bus;;;;Rheinbahn;WSW

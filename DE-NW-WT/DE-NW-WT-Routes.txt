@@ -47,9 +47,9 @@
 -
 
 
-- Diese Auswertung enthält derzeit '''den Beginn''' einer !!!'''Bestandsaufnahme der in OSM gefundenen WestfalenTarif-Linien'''!!!.
+- Diese Auswertung enthält derzeit eine !!!'''Bestandsaufnahme der in OSM gefundenen WestfalenTarif-Linien'''!!!.
 -
-- Ziel ist aber die Erstellung dieser Datei aus WestfalenTarif-Daten mit allen zum WestfalenTarif gehörigen Linien. 
+- Ziel ist aber die Erstellung dieser Liste aus WestfalenTarif-Daten mit allen zum WestfalenTarif gehörigen Linien. 
 - Die Liste kommt idealerweise direkt vom und mit Hilfe des Betreibers/Verkehrsverbundes (copyright!).
 -
 - Viele Liniennummer kommen mehrfach in verschiedenen Städten/Gemeinden vor.
@@ -219,6 +219,10 @@ T87;bus;Taxibus;;;Stadtwerke Münster
 269;bus;;;;Stadtwerke Rheine
 272;bus;;;;RVM
 283;bus;;;;DB Bahn Westfalenbus GmbH
+700;bus;;;;Veelker GmbH & Co. KG
+771;bus;;Osterwick;Laer;Rheiner Verkehrsbetrieb Mersch GmbH & Co.KG
+772;bus;;Altenberge;Ahaus;Regionalverkehr Münsterland GmbH
+800;bus;;;;Veelker GmbH & Co. KG
 
 BB;bus;;;;Veelker GmbH & Co. KG
 BB1;bus;;Emsdetten;Saerbeck;Regionalverkehr Münsterland GmbH
@@ -274,7 +278,7 @@ R72;bus;;Münster;Altenberge;Regionalverkehr Münsterland GmbH
 R73;bus;;Münster;Burgsteinfurt;DB Bahn Westfalenbus GmbH
 R75;bus;;Emsdetten;Burgsteinfurt;DB Bahn Westfalenbus GmbH
 R80;bus;;Burgsteinfurt;Rheine;Veelker GmbH & Co. KG
-R81;bus;;Burgsteinfurt;Coesfeld;Veelker GmbH & Co. KG
+R81;bus;;Burgsteinfurt;Coesfeld;DB Bahn Westfalenbus GmbH
 R93;bus;;Rheine;Bevergern;Regionalverkehr Münsterland GmbH
 
 S10;bus;;;;Regionalverkehr Münsterland GmbH
@@ -490,6 +494,9 @@ T470;bus;;;;Regionalverkehr Münsterland GmbH
 691;bus;;;;RVM
 692;bus;;;;RVM
 693;bus;;;;
+711;bus;;Coesfeld;Groß Reken;Regionalverkehr Münsterland GmbH
+771;bus;;Altenberge;Laer;Rheiner Verkehrsbetrieb Mersch GmbH & Co.KG
+772;bus;;Altenberge;Schöppingen;Regionalverkehr Münsterland GmbH
 
 B11;bus;;Südkirchen;Capelle;Regionalverkehr Münsterland GmbH
 B12;bus;;Nordkirchen;Südkirchen;Regionalverkehr Münsterland GmbH
@@ -520,7 +527,7 @@ R61;bus;;Vreden;Coesfeld;DB Bahn Westfalenbus GmbH
 R62;bus;;Nottuln;Coesfeld;Reisedienst Veelker GmbH & Co. KG
 R63;bus;;Nottuln;Münster;Reisedienst Veelker GmbH & Co. KG
 R64;bus;;Havixbeck;Münster;Reisedienst Veelker GmbH & Co. KG
-R81;bus;;Burgsteinfurt;Coesfeld;Veelker GmbH & Co. KG
+R81;bus;;Coesfeld;Burgsteinfurt;DB Bahn Westfalenbus GmbH
 
 S60;bus;;Nottuln;Münster;Regionalverkehr Münsterland GmbH
 S90;bus;;Lüdinghausen;Münster;Regionalverkehr Münsterland GmbH
@@ -548,6 +555,50 @@ T612;bus;;;;Euregio-Verkehrsgesellschaft GmbH & Co. KG
 72;bus;;;;DB Bahn Rheinlandbus
 95;bus;;;;Niederrheinische Verkehrsbetriebe AG
 174;bus;;Gronau;Burgsteinfurt;Reisedienst Veelker GmbH & Co. KG
+711;bus;;Groß Reken;Coesfeld;Regionalverkehr Münsterland GmbH
+713;bus;;;;RVM
+714;bus;;;;RVM
+716;bus;;;;RVM
+721;bus;;;;Westfalenbus
+724;bus;;;;Westfalenbus
+731;bus;;;;Westfalenbus
+751;bus;;;;Westfalenbus
+753;bus;;;;RVM
+754;bus;;;;DB Bahn Westfalenbus GmbH
+761;bus;;;;Westfalenbus
+770;bus;;;;Regionalverkehr Münsterland GmbH
+771;bus;;Altenberge;Holtwick;Rheiner Verkehrsbetrieb Mersch GmbH & Co.KG
+772;bus;;Altenberge;Ahaus;Regionalverkehr Münsterland GmbH
+773;bus;;;;RVM
+774;bus;;;;Westfalenbus
+776;bus;;;;Westfalenbus
+781;bus;;;;Veelker GmbH & Co. KG
+782;bus;;;;Westfalenbus
+783;bus;;;;Westfalenbus
+812;bus;;;;
+813;bus;;;;RVM
+819;bus;;;;RVM
+824;bus;;;;RVM
+826;bus;;;;RVM
+827;bus;;;;RVM
+828;bus;;;;RVM
+829;bus;;;;RVM
+853;bus;;;;Kraftverkehr B. Menchen GmbH & Co. KG
+860;bus;;;;RVM
+861;bus;;;;RVM
+862;bus;;;;RVM
+863;bus;;;;Westfalenbus
+864;bus;;;;Westfalenbus
+866;bus;;;;Westfalenbus
+867;bus;;;;Westfalenbus
+868;bus;;;;RVM
+869;bus;;;;RVM
+871;bus;;;;RVM
+872;bus;;;;Westfalenbus
+878;bus;;;;
+886;bus;;;;Westfalenbus
+887;bus;;;;Westfalenbus
+890;bus;;;;Westfalenbus
 
 B1;bus;;Ahaus;Legden;Regionalverkehr Münsterland GmbH
 #B2;bus;Bürgerbus Vreden;Vreden;Vreden;DB Bahn Westfalenbus
@@ -695,6 +746,7 @@ T88;bus;;;;Regionalverkehr Münsterland GmbH
 256;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 352;bus;;Milse;Herford;moBiel GmbH
 353;bus;;Schildesche;Eilshausen;BVO Busverkehr Ostwestfalen GmbH
+739;bus;;Ubbedissen;Lipperreihe;moBiel GmbH
 
 N1;bus;;Jahnplatz;Jahnplatz;moBiel GmbH
 N2;bus;;Jahnplatz;Jahnplatz;moBiel GmbH
@@ -899,6 +951,7 @@ Ha-T4;bus;;;;go.on Gesellschaft für Bus- und Schienenverkehr mbH
 648;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 654;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 667;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+961;bus;;Herford;Aspe;BVO Busverkehr Ostwestfalen GmbH
 
 1/546;bus;;;;Stadtverkehrsgesellschaft Bünde mbH
 2/547;bus;;;;Stadtverkehrsgesellschaft Bünde mbH
@@ -931,8 +984,72 @@ S6;bus;Stadtbus Herford;;;BVO Busverkehr Ostwestfalen GmbH
 369;bus;;;;moBiel GmbH
 390;bus;;;;Karl Köhne Omnibusbetriebe GmbH
 595;bus;;Fürstenau;Rischenau;BBH BahnBus Hochstift GmbH
+700;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+701;bus;;;;SVD Stadtverkehr Detmold GmbH
 702;bus;;;;Stadtverkehr Detmold Gmbh
+703;bus;;;;SVD Stadtverkehr Detmold GmbH
+704;bus;;;;SVD Stadtverkehr Detmold GmbH
+706;bus;;;;SVD Stadtverkehr Detmold GmbH
 707;bus;;;;Stadtverkehr Detmold Gmbh
+707 ALF;bus;;;;Stadtverkehr Detmold Gmbh
+708;bus;;;;SVD Stadtverkehr Detmold GmbH
+709;bus;;;;SVD Stadtverkehr Detmold GmbH
+730;bus;;;;go.on Gesellschaft für Bus- und Schienenverkehr mbH
+732;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+733;bus;;;;go.on Gesellschaft für Bus- und Schienenverkehr mbH
+739;bus;;Lipperreihe;Ubbedissen;moBiel GmbH
+749;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+750;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+755;bus;;;;
+760;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+761;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+762;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+763;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+769;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+770;bus;;Glashütte;Wöbbel;Karl Köhne Omnibusbetriebe GmbH
+772;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+776;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+777;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+780;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+782;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+783;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+784;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+785;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+786;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+788;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+789;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+790;bus;;;;go.on Gesellschaft für Bus- und Schienenverkehr mbH
+792;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+794;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+801;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+802;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+804;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+810;bus;;;;
+834;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+881;bus;;;;Stadtwerke Lemgo GmbH
+882;bus;;;;Stadtwerke Lemgo GmbH
+883;bus;;;;Stadtwerke Lemgo GmbH
+884;bus;;;;Stadtwerke Lemgo GmbH
+885;bus;;;;Stadtwerke Lemgo GmbH
+901;bus;;;;go.on Gesellschaft für Bus- und Schienenverkehr mbH
+912;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+926;bus;;;;Linke Lemgo GmbH
+927;bus;;;;Linke Lemgo GmbH
+931;bus;;;;
+932;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+934;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+941;bus;;;;Stadtwerke Bad Salzuflen GmbH
+942;bus;;;;Stadtwerke Bad Salzuflen GmbH
+943;bus;;;;Stadtwerke Bad Salzuflen GmbH
+946;bus;;;;Stadtwerke Bad Salzuflen GmbH
+947;bus;;;;Stadtwerke Bad Salzuflen GmbH
+948;bus;;;;
+949;bus;;;;Stadtwerke Bad Salzuflen GmbH
+951;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+960;bus;;;;
+961;bus;;Aspe;Herford;BVO Busverkehr Ostwestfalen GmbH
+963;bus;;;;go.on Gesellschaft für Bus- und Schienenverkehr mbH
+981;bus;;;;
 
 S4/S5;bus;;Alter Markt;Alter Markt;BVO Busverkehr Ostwestfalen GmbH
 S5;bus;Stadtbus Herford;Ahmsen;Tierpark;BVO Busverkehr Ostwestfalen GmbH
@@ -1312,7 +1429,7 @@ T73;bus;;;;DB Bahn Westfalenbus
 601;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
 603;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
 605;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
-611;bus;;Wimbern, Heilig-Geist-Kloster/Echthausen, Siedlung;Wickede, Bahnhof/Voßwinkel, Am Stakelberg;Verkehrsgesellschaft Breitenbach mbH & Co.
+611;bus;;Wimbern, Heilig-Geist-Kloster/Echthausen, Siedlung;Wickede, Bahnhof/Voßwinkel, Am Stakelberg;Verkehrsgesellschaft Breitenbach mbH & Co. KG
 612;bus;;;;VGB
 612A;bus;;;;VGB
 612B;bus;;;;VGB
@@ -1608,6 +1725,7 @@ UNI;bus;;;;Padersprinter
 584;bus;;;;Weser-Egge-Bus
 585;bus;;;;Weser-Egge-Bus
 595;bus;;Rischenau;Fürstenau;BBH BahnBus Hochstift GmbH
+770;bus;;Wöbbel;Glashütte;Karl Köhne Omnibusbetriebe GmbH
 
 HX1;bus;;;;BBH BahnBus Hochstift GmbH
 HX2;bus;;;;BBH BahnBus Hochstift GmbH
@@ -1735,7 +1853,7 @@ R52;bus;;Olpe;Meinerzhagen;Verkehrsbetriebe Westfalen-Süd GmbH
 R60;bus;;;;Verkehrsbetriebe Westfalen-Süd GmbH
 R61;bus;;Meinerzhagen;Attendorn;Verkehrsbetriebe Westfalen-Süd GmbH
 R62;bus;;Grevenbrück;Attendorn;Verkehrsbetriebe Westfalen-Süd GmbH
-R68;bus;;;;Verkehrsbetriebe Westfalen-Süd GmbH
+R68;bus;;Eslohe;Grevenbrück;Verkehrsbetriebe Westfalen-Süd GmbH
 R80;bus;;Plettenberg;Finnentrop;DB BAHN Westfalenbus
 R81;bus;;Finnentrop;Eslohe;Verkehrsbetriebe Westfalen-Süd GmbH
 R94;bus;;;;Verkehrsbetriebe Westfalen-Süd GmbH

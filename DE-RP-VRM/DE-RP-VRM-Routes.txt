@@ -174,7 +174,20 @@ RB97;train;Daadetalbahn;Betzdorf;Daaden;Westerwaldbahn
 818;bus;;Brohl;Andernach;VMR
 819;bus;FreizeitBus Vulkanpark;Niedermendig;Kempenich;VMR 
 
+820;bus;;Kempenich;Mayen;VMR
+821;bus;RadBus Nettetal;Kempenich;Mayen;VMR
+822;bus;;Bad Münstereifel;Ohlerath/Wershofen;RVK
+827;bus;;Rolandswerth;Sinzig;DB Regio Bus
+828;bus;via RheinAhrCampus;Remagen Bahnhof;Bahnhof;DB Regio Bus 
 
+830;bus;;Walporzheim;Remagen;DB Regio Bus
+831;bus;;Lohrsdorf;Bad Neuenahr;DB Regio Bus
+832;bus;;Bad Neuenahr Johannisberg;Rathaus;DB Regio Bus
+833;bus;;Bad Neuenahr;Heimersheim;VMR
+834;bus;;Nierendorf;Leimersdorf;DB Regio Bus
+837;bus;;Esch;Gelsdorf;DB Regio Bus
+838;bus;;Krälingen / Gelsdorf / Birresdorf;Bad Neuenahr;DB Regio Bus
+839;bus;;Krälingen / Gelsdorf;Ahrweiler;DB Regio Bus 
 
 840;bus;;Ahrbrück;Rheinbach;DB Regio Bus
 841;bus;;Ringen;Remagen;DB Regio Bus
