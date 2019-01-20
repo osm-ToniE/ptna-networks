@@ -28,6 +28,8 @@
 # ref;type;comment;from;to;operator
 #
 # - ref       == tag 'ref' von route oder route_master
+#                250            definiert, dass hier Linien mit 'ref'='250' erwartet wird
+#                250|250a|250b  definiert, dass hier Linien mit 'ref'='250' und 'ref'='250a' und 'ref'='250b' zulässig sind - ob das nach PTv1/PTv2 erlaubt ist, ist eine andere Sache
 # - type      == inhalt des tags 'route' bzw. 'route_master'
 # - comment   == kann Kommentar enthalten wie; Ruftaxi, Bus, Expressbus, ...  wird nicht ausgewertet, lediglich ausgegeben
 #                !Text mit gelbem Hintergrund! im comment (umgeben von einfachem !)

@@ -28,6 +28,8 @@
 # ref;type;comment;from;to;operator
 #
 # - ref       == tag 'ref' of route or route_master
+#                250            defines that routes with 'ref'='250' are expected
+#                250|250a|250b  defines that routes with 'ref'='250' or 'ref'='250a' or 'ref'='250b' are expected - independent of whether this is allowed according to PTv1/PTv2
 # - type      == contents of tags 'route' respectively 'route_master'
 # - comment   == can include comments like; Bus, Expressbus, ...  will not be analyzed, but simply be printed out
 #                !Text with yellow background! in comment (surrounded by single !)
