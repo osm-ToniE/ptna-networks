@@ -219,4 +219,24 @@ RB97;train;Daadetalbahn;Betzdorf;Daaden;Westerwaldbahn
 976;bus;;Glees;Mendig;RMV
 977;bus;;Volkesfeld;Mendig;FriBus 
 
+- .
+=== Kreis Neuwied
+
+50;bus;Ringverkehr Stadt Neuwied;;;MVB
+51;bus;;NR-Bahnhof;Oberbieber;MVB
+52;bus;;Neuwied/Mini-ZOB;Heimbach-Weis;MVB
+53;bus;;Neuwied/Bf.;Segendorf;MVB
+54;bus;;NR-Marktkirche;Bendorf;MVB
+55;bus;;Neuwied/Mini-ZOB;Heddesdorfer Berg;MVB
+56;bus;;Neuwied/Bf.;Hüllenberg;MVB
+58;bus;;Neuwied/Mini-ZOB;Oberbieber;MVB
+59;bus;;Neuwied/Mini-ZOB;Segendorf;Zickenheiner 
+
+522;bus;;Asbach;Hennef;MB/RSVG
+539 (A);bus;;Asbach;Oberpleis;MB
+561;bus;;Asbach;Neustadt;MB
+562;bus;;Neustadt (Wied);Bad Honnef;MB/RSVG
+564;bus;;Asbach;Eitorf;MB/RSVG
+565;bus;Stadtverkehr;Bad Honnef (Stadtbahn);Linz;MB 
+
 </pre>

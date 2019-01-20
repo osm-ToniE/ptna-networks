@@ -289,16 +289,15 @@ S71;bus;;Münster;Schöppingen;Regionalverkehr Münsterland GmbH
 T6;bus;;;;Regionalverkehr Münsterland GmbH
 T12;bus;;Hopsten, Schulzentrum;Recke, Poststraße;Regionalverkehr Münsterland GmbH
 T17;bus;;;;Veelker GmbH & Co. KG
-T24;bus;;;;Regionalverkehr Münsterland GmbH
 T27;bus;;;;Regionalverkehr Münsterland GmbH
+T28;bus;;;;Regionalverkehr Münsterland GmbH
 T29;bus;;;;Regionalverkehr Münsterland GmbH
-T290;bus;;;;Regionalverkehr Münsterland GmbH
 T40;bus;;Lengerich;Lengerich;Regionalverkehr Münsterland GmbH
 T44;bus;;;;Regionalverkehr Münsterland GmbH
 T50;bus;;Ladbergen;Greven;Regionalverkehr Münsterland GmbH
-T28;bus;;;;Regionalverkehr Münsterland GmbH
 T60;bus;;Bevergen;Hörstel;Regionalverkehr Münsterland GmbH
 T89;bus;;;;Veelker GmbH & Co. KG
+T290;bus;;;;Regionalverkehr Münsterland GmbH
 
 X150;bus;;;;Stadtwerke Osnabrück
 
@@ -505,7 +504,7 @@ B31;bus;;;;Regionalverkehr Münsterland GmbH
 B32;bus;;;;Regionalverkehr Münsterland GmbH
 B51;bus;;;;Regionalverkehr Münsterland GmbH
 B52;bus;;;;Regionalverkehr Münsterland GmbH
-B61;bus;;;;Regionalverkehr Münsterland GmbH
+B61;share_taxi;;;;Regionalverkehr Münsterland GmbH
 B80;bus;;;;Regionalverkehr Münsterland GmbH
 B81;bus;;;;Regionalverkehr Münsterland GmbH
 
@@ -537,6 +536,7 @@ S92;bus;;;;Regionalverkehr Münsterland GmbH
 T4;bus;;Lüdinghausen, Busbahnhof;Selm, Disco;Regionalverkehr Münsterland GmbH
 T8;bus;;;;Regionalverkehr Münsterland GmbH
 T14;bus;;Lüdinghausen;Olfen;Regionalverkehr Münsterland GmbH
+T24;bus;;;;Regionalverkehr Münsterland GmbH
 T51;bus;;Herbern;Ottmarsbocholt;Euregio-Verkehrsgesellschaft GmbH & Co. KG
 T52;bus;;Selm;Werne;Regionalverkehr Münsterland GmbH
 T54;bus;;Drensteinfurt;Lüdinghausen;Regionalverkehr Münsterland GmbH
@@ -1148,6 +1148,9 @@ T114;bus;;;;Stadtwerke Hamm GmbH Verkehr
 
 === Kreis Unna
 
+5;bus;;;;Märkische Verkehrsgesellschaft GmbH
+23;bus;;;;Märkische Verkehrsgesellschaft GmbH
+27;bus;;;;Märkische Verkehrsgesellschaft GmbH
 105;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 106;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 107;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
@@ -1161,6 +1164,7 @@ T114;bus;;;;Stadtwerke Hamm GmbH Verkehr
 126;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 127;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 128;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+132;bus;;;;Busverkehr Ruhr-Sieg GmbH
 138;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 140;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
 141;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG

@@ -1267,6 +1267,7 @@ OV8;bus;;;;VGV
 
 === S
 
+S91;bus;;;; Regionalverkehr Münsterland GmbH;Vestische Straßenbahnen GmbH
 SB 81;bus;;;;west, NVV AG
 SB 81;bus;;;;NEW mobil und aktiv Mönchengladbach; west
 SB1;bus;;;;NEW mobil und aktiv Mönchengladbach

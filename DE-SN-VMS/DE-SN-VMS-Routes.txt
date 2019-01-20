@@ -70,7 +70,7 @@
 26;bus;Schönau - Hutholz;;;CVAG
 31;bus;Yorckgebiet - Zentralhaltestelle - Flemmingstraße;;;CVAG
 32;bus;Dresdner Straße - Rottluff -Reichenbrand;;;CVAG
-33;bus;Bernsdorf - Adelsberg - Schösserholz;;;CVAG
+33;bus;Bernsdorf - Adelsberg - Schösserholz;;;Chemnitzer Verkehrs-AG
 39;bus;Klaffenbach - Hutholz / Neukirchen;;;CVAG
 41;bus;Schönau - Reichenbrand - Grüna;;;CVAG
 42;bus;Schönau - Rabenstein, Grünaer Straße;;;CVAG
@@ -82,7 +82,7 @@
 56;bus;Bernsdorf - Kleinolbersdorf / Altenhain - Bernsdorf;;;CVAG
 62;bus;Flemmingstraße - Gablenz;;;CVAG
 63;bus;Borna - Ebersdorf;;;CVAG
-69;bus;Ebersdorf, Brettmühle - Bahnhof Hilbersdorf;;;CVAG
+69;bus;Ebersdorf, Brettmühle - Bahnhof Hilbersdorf;;;Chemnitzer Verkehrs-AG
 72;bus;Rottluff - Heimgarten;;;CVAG
 73;bus;Altchemnitz - TU Campus;;;CVAG
 76;bus;Eibenberg - Einsiedel - Altchemnitz;;;CVAG
@@ -207,7 +207,7 @@ STL 1;bus;Stadtlinie 1;;;RVE
 STL 2;bus;Stadtlinie 2;;;RVE
 
 === Zschopau
-1;bus;Hohndorf - Zschopau - Gornau, Einkaufszentrum;Hohndorf;Gornau, Einkaufszentrum;RVE
+1;bus;Hohndorf - Zschopau - Gornau, Einkaufszentrum;Hohndorf, Siedlung;Gornau, Einkaufszentrum Zschopau/Gornau;Regionalverkehr Erzgebirge GmbH
 
 == Omnibus-Regionalverkehr
 20;bus;Greiz - Teichwolframsdorf - Seelingstädt;Greiz;Seelingstädt;PRG

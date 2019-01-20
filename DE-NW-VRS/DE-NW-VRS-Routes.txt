@@ -54,6 +54,8 @@
 -
 - Zum Dritten werden Änderungen zu den '''Fahrplanwechsel''' anhand der [https://www.vrsinfo.de/aktuelles/aenderungen-zum-fahrplanwechsel.html VRS-Informationen] manuell hier eingepflegt. 
 -
+- Zum Vierten werden gtfs-Datensätze des VRS manuell hier eingepflegt. 
+-
 - Ziel ist aber die Erstellung dieser Datei aus VRS-Daten mit allen zum VRS gehörigen Linien. 
 - Die Liste kommt idealerweise direkt vom und mit Hilfe des VRS (copyright!).
 -
@@ -87,6 +89,15 @@
 
 
 - .
+=== gtfs Daten Stand 17.01.2019
+- Eingesetzt mit Kommentar "Quelle gtfs".
+- Bei Präzisierungen bitte den Kommentar "Quelle gtfs" der Zeile entfernen.
+-
+- Die Von: und Nach: Angaben basieren auf einer Majoritätsauswertung aller gtfs-Trips, bei der ein Trip als markant herausgerechnet wird.
+- Als Haltestellename ist die dortige Angabe "Ort, Ortsteil Haltestellenname" übernommen.
+- Als Betreiber ist die dortige Angabe meist "Abkürzungsname Langname" übernommen.
+- Beide Angaben sind keine Vorgaben für osm , sondern nur als Hinweis zu verstehen. Insbesondere ist die Gesellschaftsform in osm entbehrlich.
+- . 
 == Zug
 
 - Zum Fahrplanwechsel überwiegend Angebotsverbesserungen 
@@ -129,27 +140,32 @@ S23;train;Voreifelbahn;Bonn;Euskirchen;DB Regio NRW
 - .
 == U-Bahn/Straßenbahn
 
-1;tram;;;;
-3;tram;;;;
-4;tram;;;;
-5;tram;;;;
-7;tram;;;;
-9;tram;;;;
+1;tram;Quelle gtfs;Köln, Weiden West;Bergisch Gladbach, Bensberg;KVB Kölner Verkehrs-Betriebe AG
+#E;tram;Quelle gtfs;Köln, Junkersdorf;Köln, Brück Mauspfad;KVB Kölner Verkehrs-Betriebe AG
+3;tram;Quelle gtfs;Köln, Bocklemünd Görlinger-Zentrum;Köln, Dellbrück Thielenbruch;KVB Kölner Verkehrs-Betriebe AG
+4;tram;Quelle gtfs;Köln, Bocklemünd;Leverkusen, Schlebusch;KVB Kölner Verkehrs-Betriebe AG
+5;tram;Quelle gtfs;Köln, Ossendorf Sparkasse Am Butzweilerhof;Köln, Heumarkt;KVB Kölner Verkehrs-Betriebe AG
+7;tram;Quelle gtfs;Frechen, Benzelrath Frechen-Benzelrath;Köln, Zündorf;KVB Kölner Verkehrs-Betriebe AG
+9;tram;Quelle gtfs;Köln, Sülz Hermeskeiler Platz;Köln, Rath/Heumar Königsforst;KVB Kölner Verkehrs-Betriebe AG
+E;tram;Quelle gtfs;Köln, Chorweiler;Köln, Holweide Vischeringstr.;KVB Kölner Verkehrs-Betriebe AG
 
-12;tram;;;;
-13;tram;;;;
-15;tram;;;;
+12;tram;Quelle gtfs;Köln, Zollstock Südfriedhof;Köln, Merkenich;KVB Kölner Verkehrs-Betriebe AG
+13;tram;Quelle gtfs;Köln, Klettenberg Sülzgürtel;Köln, Holweide Vischeringstr.;KVB Kölner Verkehrs-Betriebe AG
+15;tram;Quelle gtfs;Köln, Ubierring;Köln, Chorweiler;KVB Kölner Verkehrs-Betriebe AG
 16;tram;Rheinuferbahn;;;
-17;tram;;;;
+#16;tram;Quelle gtfs;Bonn, Bad Godesberg Stadthalle;Köln, Niehl Sebastianstr.;KVB Kölner Verkehrs-Betriebe AG
+17;tram;Quelle gtfs;Köln, Rodenkirchen Bf;Köln, Severinstr.;KVB Kölner Verkehrs-Betriebe AG
 18;tram;Vorgebirgsbahn;;;
+#18;tram;Quelle gtfs;Köln, Klettenberg Klettenbergpark;Köln, Dellbrück Thielenbruch;KVB Kölner Verkehrs-Betriebe AG
 
-61;tram;;;;
-62;tram;;;;
-63;tram;;;;
-65;tram;;;;
+61;tram;Quelle gtfs;Bonn, Dottendorf Quirinusplatz;Bonn, Auerberg Kopenhagener Str.;SWB Stadtwerke Bonn Verkehrs GmbH
+62;tram;Quelle gtfs;Bonn, Dottendorf Quirinusplatz;Bonn, Oberkassel Süd/Römlinghoven;SWB Stadtwerke Bonn Verkehrs GmbH
+63;tram;Quelle gtfs;Bonn, Bad Godesberg Stadthalle;Bonn, Tannenbusch Mitte;SWB Stadtwerke Bonn Verkehrs GmbH
+65;tram;Quelle gtfs;Bonn, Beuel Bf;Bonn, Auerberg Kopenhagener Str.;SWB Stadtwerke Bonn Verkehrs GmbH
 66;tram;via Bonn Hbf;;;
-67;tram;;;;
-68;tram;;;;
+#66;tram;Quelle gtfs;Bad Honnef (Stadtbahn);Siegburg Bf;SWB Stadtwerke Bonn Verkehrs GmbH
+67;tram;Quelle gtfs;Bonn, Bad Godesberg Stadthalle;Bonn, Brühler Str.;SWB Stadtwerke Bonn Verkehrs GmbH
+68;tram;Quelle gtfs;Bonn Hbf;Bornheim;SWB Stadtwerke Bonn Verkehrs GmbH
 
 
 - .
@@ -157,34 +173,42 @@ S23;train;Voreifelbahn;Bonn;Euskirchen;DB Regio NRW
 
 === Nachtbus
 
-N1;bus;;;;
-N2;bus;;;;
-N3;bus;;;;
-N4;bus;;;;
-N5;bus;;;;
-N6;bus;;;;
-N7;bus;;;;
+N1;bus;Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
+N2;bus;Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
+N3;bus;Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
+N4;bus;Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
+N5;bus;Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
+N6;bus;Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
+N7;bus;Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
 N8;bus;Existiert zweimal im VRS: Hier Bonn - Oberkassel;Bonn Hbf;Bonn Hbf;SWB
 N8;bus;Existiert zweimal im VRS: Hier Leichlingen;Leichlingen Bf;Kleine Heide;Wiedenhoff
-N9;bus;;;;
-N10;bus;;;;
+N9;bus;Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
 
-N20;bus;;;;
-N21;bus;;;;
-N22;bus;;;;
-N23;bus;;;;
-N24;bus;;;;
-N25;bus;;;;
+N10;bus;Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
+
+N20;bus;Quelle gtfs;Leverkusen, Opladen Busbf;Langenfeld (S);wupsi wupsi GmbH
+N21;bus;Quelle gtfs;Leverkusen, Wiesdorf Rathaus-Galerie;Leverkusen, Lützenkirchen Forellental;wupsi wupsi GmbH
+N22;bus;Quelle gtfs;Leverkusen, Opladen Busbf;Leverkusen, Opladen Busbf;wupsi wupsi GmbH
+N23;bus;Quelle gtfs;Leverkusen, Wiesdorf Rathaus-Galerie;Leverkusen, Wiesdorf Rathaus-Galerie;wupsi wupsi GmbH
+N24;bus;Quelle gtfs;Leverkusen, Wiesdorf Rathaus-Galerie;Leverkusen, Wiesdorf Rathaus-Galerie;wupsi wupsi GmbH
+N25;bus;Quelle gtfs;Leverkusen, Opladen Busbf;Burscheid, Hilgen Raiffeisenplatz;wupsi wupsi GmbH
 N26;bus;verkehrt nur in Richtung Wermelskirchen;Köln Hbf;Wermelskirchen;RVK
 
 N41;bus;Rundkurs über Paffrath, Odenthal;Berg. Gladbach;Berg. Gladbach;
+#N41;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach (S);wupsi wupsi GmbH
 N42;bus;Rundkurs über Odenthal, Paffrath;Berg. Gladbach;Berg. Gladbach;
-N43;bus;;;;
-N44;bus;;;;
+#N42;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach (S);wupsi wupsi GmbH
+N43;bus;Quelle gtfs;Bergisch Gladbach (S);Kürten, Ahlenbacher Mühle;wupsi wupsi GmbH
+N44;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach (S);wupsi wupsi GmbH
 N45;bus;via Bensberg, Herkenrath;;;
+#N45;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach (S);RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
 N46;bus;via Herkenrath, Bensberg;;;
+#N46;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach (S);RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
 N47;bus;;;;
+N47;bus;Quelle gtfs;Bergisch Gladbach, Bensberg;Bergisch Gladbach, Bensberg;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
+
 N89;bus;!Neu im Fahrplan 2019!;Bonn;Lüftelberg;Kreis Euskirchen Verkehrsunternehmen
+#N89;bus;Quelle gtfs;Bonn Hbf;Meckenheim, Lüftelberg Ort;RVK Regionalverkehr Köln GmbH NL Meckenheim
 
 
 - .
@@ -201,126 +225,158 @@ SB82;bus;;Kall;Vogelsang;RVK
 - .
 === Bus 100 Köln ...
 
-106;bus;;;;
-120;bus;;;;
-121;bus;;;;
-122;bus;;;;
-123;bus;;;;
+104;bus;Quelle gtfs;Köln, Dünnwald Leuchterstr.;Köln, Mülheim Wiener Platz;KVB Kölner Verkehrs-Betriebe AG
+106;bus;Quelle gtfs;Köln, Marienburg Südpark;Köln, Heumarkt;KVB Kölner Verkehrs-Betriebe AG
+109;bus;Quelle gtfs;Köln, Sülz Hermeskeiler Platz;Köln, Lindenthal Universitätsstr.;KVB Kölner Verkehrs-Betriebe AG
+
+113;bus;Quelle gtfs;Köln, Braunsfeld Aachener Str./Gürtel;Köln, Ehrenfeld Venloer Str./Gürtel;KVB Kölner Verkehrs-Betriebe AG
+118;bus;Quelle gtfs;Hürth, Efferen;Köln, Sülz Universität;KVB Kölner Verkehrs-Betriebe AG
+
+120;bus;Quelle gtfs;Köln, Chorweiler;Köln, Roggendorf Further Str.;KVB Kölner Verkehrs-Betriebe AG
+121;bus;Quelle gtfs;Köln, Langel linksrheinisch Langel Fähre;Köln, Nippes Neusser Str./Gürtel;KVB Kölner Verkehrs-Betriebe AG
+122;bus;Quelle gtfs;Köln, Longerich Wilhelm-Sollmann-Str.;Köln, Pesch Schulstr.;KVB Kölner Verkehrs-Betriebe AG
+123;bus;Quelle gtfs;Köln, Chorweiler;Köln, Roggendorf Further Str.;KVB Kölner Verkehrs-Betriebe AG
 124;bus;Neu im Fahrplan 2019;Breslauer Platz/Hbf;Gewerbegebiet Feldkassel;KVB
-125;bus;;;;
-126;bus;;;;
+#124;bus;Quelle gtfs;Köln, Breslauer Platz/Hbf;Köln, Langel linksrheinisch Gewerbegebiet Feldkassel;KVB Kölner Verkehrs-Betriebe AG
+125;bus;Quelle gtfs;Köln, Volkhoven/Weiler Weiler;Pulheim, Sinnersdorf Kirche;KVB Kölner Verkehrs-Betriebe AG
+126;bus;Quelle gtfs;Köln, Bocklemünd;Köln, Chorweiler;KVB Kölner Verkehrs-Betriebe AG
 127;bus;Abschnitt Ebertplatz - Lentpark entfällt im Fahrplan 2019;Ebertplatz;Longerich;KVB
+#127;bus;Quelle gtfs;Köln, Ebertplatz;Köln, Longerich Longericher Str.;KVB Kölner Verkehrs-Betriebe AG
 
 130;bus;;Sürth;Universität;KVB
+#130;bus;Quelle gtfs;Köln, Sürth Bf;Köln, Sülz Universität;KVB Kölner Verkehrs-Betriebe AG
 131;bus;;Sürth;Sülz;
-132;bus;;;;
-133;bus;;;;
+#131;bus;Quelle gtfs;Köln, Sürth Bf;Köln, Sülz Berrenrather Str./Gürtel (Linie 131);KVB Kölner Verkehrs-Betriebe AG
+132;bus;Quelle gtfs;Köln, Meschenich Frankenstr.;Köln, Breslauer Platz/Hbf;KVB Kölner Verkehrs-Betriebe AG
+133;bus;Quelle gtfs;Köln, Zollstock Südfriedhof;Köln, Breslauer Platz/Hbf;KVB Kölner Verkehrs-Betriebe AG
 134;bus;Neu im Fahrplan 2019;Sürth;Universität;KVB
+#134;bus;Quelle gtfs;Köln, Sürth Bf;Köln, Sülz Universität;KVB Kölner Verkehrs-Betriebe AG
 135;bus;;Rodenkirchen;Meschenich;
-136;bus;;;;
-138;bus;;;;
-139;bus;;;;
+#135;bus;Quelle gtfs;Köln, Rodenkirchen Uferstr.;Köln, Meschenich Kirche;KVB Kölner Verkehrs-Betriebe AG
+136;bus;Quelle gtfs;Köln, Lindenthal Hohenlind;Köln, Neumarkt;KVB Kölner Verkehrs-Betriebe AG
+138;bus;Quelle gtfs;Köln, Höningen Güterverkehrszentrum Süd;Köln, Zollstock Südfriedhof;KVB Kölner Verkehrs-Betriebe AG
+139;bus;Quelle gtfs;Köln, Bickendorf Äußere Kanalstr.;Köln, Longerich Longericher Str.;KVB Kölner Verkehrs-Betriebe AG
 
-140;bus;;;;
-#141, 143;bus;;;;
+140;bus;Quelle gtfs;Köln, Ebertplatz;Köln, Braunsfeld Aachener Str./Gürtel;KVB Kölner Verkehrs-Betriebe AG
 141;bus;;Weiden;Vogelsang;
-142;bus;;;;
+#141;bus;Quelle gtfs;Köln, Weiden Zentrum;Köln, Vogelsang Kolkrabenweg;KVB Kölner Verkehrs-Betriebe AG
+142;bus;Quelle gtfs;Köln, Ubierring;Köln, Nippes Merheimer Platz;KVB Kölner Verkehrs-Betriebe AG
 143;bus;;Lövenich;Bocklemünd;
+#143;bus;Quelle gtfs;Köln, Lövenich Saarstr.;Köln, Vogelsang Kolkrabenweg;KVB Kölner Verkehrs-Betriebe AG
 144;bus;;Lövenich;Gewerbegebiet Vogelsang;KVB
+#144;bus;Quelle gtfs;Köln, Lövenich Bf Lövenich;Köln, Vogelsang Wasseramselweg;KVB Kölner Verkehrs-Betriebe AG
 145;bus;;Bocklemünd;Bachem;
-146;bus;;;;
-147;bus;;;;
+#145;bus;Quelle gtfs;Köln, Bocklemünd;Frechen, Bachem Wilhelm-Leuschner-Str.;KVB Kölner Verkehrs-Betriebe AG
+146;bus;Quelle gtfs;Köln, Lindenthal Deckstein;Köln, Neumarkt;KVB Kölner Verkehrs-Betriebe AG
+147;bus;Quelle gtfs;Köln, Bilderstöckchen Am Bilderstöckchen;Köln, Niehl;KVB Kölner Verkehrs-Betriebe AG
 149;bus;Weiden-Widdersdorf-Weiden;;;
+#149;bus;Quelle gtfs;Köln, Widdersdorf Im Buschfelde;Köln, Weiden Zentrum;KVB Kölner Verkehrs-Betriebe AG
 
 150;bus;;Kalk;Mülheim;
-151;bus;;;;
-152;bus;;;;
-153;bus;;;;
-154;bus;;;;
+#150;bus;Quelle gtfs;Köln, Kalk Corintostr.;Köln, Mülheim Bf Mülheim;KVB Kölner Verkehrs-Betriebe AG
+151;bus;Quelle gtfs;Köln, Porz Markt;Leverkusen, Wiesdorf CHEMPARK S-Bahn;KVB Kölner Verkehrs-Betriebe AG
+152;bus;Quelle gtfs;Köln, Porz Markt;Leverkusen, Wiesdorf CHEMPARK S-Bahn;KVB Kölner Verkehrs-Betriebe AG
+153;bus;Quelle gtfs;Köln, Deutz Bf Deutz / Messe  LANXESS arena;Köln, Mülheim Neuer Mülheimer Friedhof;KVB Kölner Verkehrs-Betriebe AG
+154;bus;Quelle gtfs;Köln, Porz Markt;Köln, Dünnwald Waldbad;KVB Kölner Verkehrs-Betriebe AG
 155;bus;Ab Fahrplan 2019 Montag-Freitag bis „Mülheim Danzierstraße“ verlängert;Mühlheim;Stammheim;KVB
-156;bus;;;;
-157;bus;;;;
-158;bus;;;;
+#155;bus;Quelle gtfs;Köln, Mülheim Berliner Str.;Köln, Stammheim Bonhoefferstr.;KVB Kölner Verkehrs-Betriebe AG
+156;bus;Quelle gtfs;Köln, Mülheim Wiener Platz;Köln, Mülheim Neuer Mülheimer Friedhof;KVB Kölner Verkehrs-Betriebe AG
+157;bus;Quelle gtfs;Köln, Ostheim;Köln, Dünnwald Aeltgen-Dünwald-Str.;KVB Kölner Verkehrs-Betriebe AG
+158;bus;Quelle gtfs;Köln, Merheim LVR Kliniken;Köln, Merheim;KVB Kölner Verkehrs-Betriebe AG
 159;bus;;Poll;Buchheim;
+#159;bus;Quelle gtfs;Köln, Poll Schüttewerk;Köln, Buchheim Herler Str.;KVB Kölner Verkehrs-Betriebe AG
 
-160;bus;;;;
-161;bus;;;;
-162;bus;;;;
-165;bus;;;;
-166;bus;;;;
-167;bus;;;;
+160;bus;Quelle gtfs;Köln, Porz Markt;Köln, Lind Linder Mauspfad;KVB Kölner Verkehrs-Betriebe AG
+161;bus;Quelle gtfs;Köln, Porz Markt;Köln, Grengel/Flughafen Köln/Bonn Flughafen Bf;KVB Kölner Verkehrs-Betriebe AG
+162;bus;Quelle gtfs;Köln, Porz Markt;Köln, Wahnheide DLR;KVB Kölner Verkehrs-Betriebe AG
+163;bus;Quelle gtfs;Köln, Libur Kirche;Köln, Wahn Schulzentrum Wahn;KVB Kölner Verkehrs-Betriebe AG
+164;bus;Quelle gtfs;Niederkassel, Lülsdorf Nord;Köln, Wahn S-Bahn;KVB Kölner Verkehrs-Betriebe AG
+165;bus;Quelle gtfs;Köln, Porz Markt;Köln, Finkenberg Theodor-Heuss-Str.;KVB Kölner Verkehrs-Betriebe AG
+166;bus;Quelle gtfs;Köln, Porz Markt;Köln, Urbach Kaiserstr.;KVB Kölner Verkehrs-Betriebe AG
+167;bus;Quelle gtfs;Köln, Wahn S-Bahn;Köln, Wahn S-Bahn;KVB Kölner Verkehrs-Betriebe AG
 
 179;bus;Neu im Fahrplan 2019;Neubrück;Deutz;KVB
+#179;bus;Quelle gtfs;Köln, Neu-Brück Ludwig-Quidde-Platz;Köln, Deutz Bf Deutz / Messe  LANXESS arena;KVB Kölner Verkehrs-Betriebe AG
+
 184;bus;Taxibus;Ebertplatz | Neusser Str./Gürtel;Lentpark;KVB
 185;bus;;;;
+
 # 190;bus;Linie existiert nicht mehr im Fahrplan 2018 und 2019;;;
-191;bus;;;;
+191;bus;Quelle gtfs;Köln, Ostheim;Köln, Ostheim Bertha-Benz-Karree;KVB Kölner Verkehrs-Betriebe AG
 192;bus;;Köln-Meschenich;Hürth-Kalscheuren;
+#192;bus;Quelle gtfs;Köln, Meschenich Kirche;Hürth, Kalscheuren Bf;KVB Kölner Verkehrs-Betriebe AG
+193;bus;;Köln-Kalk;Köln-Vingst;
+#193;bus;Quelle gtfs;Köln, Kalk Corintostr.;Köln, Vingst;KVB Kölner Verkehrs-Betriebe AG
+196;bus;;Köln Am grauen Stein;Köln Bf Deutz/LANXESS Arena;
+#196;bus;Quelle gtfs;Köln, Deutz Bf Deutz / Messe  LANXESS arena;Köln, Humboldt/Gremberg Am Grauen Stein;KVB Kölner Verkehrs-Betriebe AG
 
 
 - .
 === Bus 200 Leverkusen ...
 
-201;bus;;;;
-202;bus;;;;
-203;bus;;;;
-204;bus;;;;
-205;bus;;;;
-206;bus;;;;
-207;bus;;;;
-208;bus;;;;
-209;bus;;;;
+201;bus;Quelle gtfs;Leverkusen, Lützenkirchen Forellental;Leverkusen, Wiesdorf CHEMPARK S-Bahn;wupsi wupsi GmbH
+202;bus;Quelle gtfs;Leverkusen, Schlebusch;Leverkusen, Opladen Villa Römer;wupsi wupsi GmbH
+203;bus;Quelle gtfs;Leverkusen, Küppersteg Im Eisholz;Leverkusen, Opladen Busbf;wupsi wupsi GmbH
+204;bus;Quelle gtfs;Leverkusen, Bürrig Reuschenberg Friedhof;Leverkusen, Bürrig Reuschenberg Friedhof;wupsi wupsi GmbH
+205;bus;Quelle gtfs;Leverkusen, Lützenkirchen Mitte;Leverkusen, Quettingen Maurinusstr.;wupsi wupsi GmbH
+206;bus;Quelle gtfs;Leverkusen, Quettingen Torstr.;Leverkusen, Opladen Birkenberg;wupsi wupsi GmbH
+207;bus;Quelle gtfs;Leverkusen, Rheindorf Peenestr.;Leverkusen, Mathildenhof Schöneberger Str.;wupsi wupsi GmbH
+208;bus;Quelle gtfs;Leverkusen, Wiesdorf Rheinallee;Leverkusen, Mathildenhof Wilmersdorfer Str.;wupsi wupsi GmbH
+209;bus;Quelle gtfs;Leverkusen, Quettingen Schützenplatz;Leverkusen, Wiesdorf Doktorsburg;wupsi wupsi GmbH
 
-210;bus;;;;
-211;bus;;;;
-212;bus;;;;
-213;bus;;;;
-214;bus;;;;
-215;bus;;;;
+210;bus;Quelle gtfs;Leverkusen, Rheindorf Peenestr.;Leverkusen, Steinbüchel Alt-Steinbüchel;wupsi wupsi GmbH
+211;bus;Quelle gtfs;Leverkusen, Rheindorf Peenestr.;Leverkusen, Steinbüchel Alt-Steinbüchel;wupsi wupsi GmbH
+212;bus;Quelle gtfs;Leverkusen, Wiesdorf Doktorsburg;Odenthal, Altenberg;wupsi wupsi GmbH
+213;bus;Quelle gtfs;Burscheid, Hilgen Raiffeisenplatz;Leverkusen, Schlebusch Am Mittelberg;wupsi wupsi GmbH
+214;bus;Quelle gtfs;Leverkusen, Fixheide wupsi Betriebshof (Einfahrt);Leverkusen, Wiesdorf Rathaus-Galerie;wupsi wupsi GmbH
+215;bus;Quelle gtfs;Leverkusen, Lützenkirchen Forellental;Leverkusen, Schlebusch;wupsi wupsi GmbH
 # 216;bus;Nicht im Fahrplan 2018 und 2019;;; existiert nicht
-217;bus;;;;
+217;bus;Quelle gtfs;Leverkusen, Fixheide wupsi Betriebshof (Einfahrt);Leverkusen, Wiesdorf CHEMPARK S-Bahn;wupsi wupsi GmbH
 #219;bus;;;;
 
-220;bus;;;;
-221;bus;;;;
-222;bus;;;;
-223;bus;;;;
-224;bus;;;;
-225;bus;;;;
+220;bus;Quelle gtfs;Leverkusen, Lützenkirchen Forellental;Leverkusen, Wiesdorf Rathaus-Galerie;wupsi wupsi GmbH
+221;bus;Quelle gtfs;Leverkusen, Rheindorf Peenestr.;Köln, Flittard CHEMPARK Tor 10;wupsi wupsi GmbH
+222;bus;Quelle gtfs;Bergisch Gladbach (S);Leverkusen, Opladen Busbf;wupsi wupsi GmbH
+223;bus;Quelle gtfs;Leverkusen, Opladen Busbf;Leverkusen, Opladen Busbf;wupsi wupsi GmbH
+224;bus;Quelle gtfs;Leverkusen, Steinbüchel Alt-Steinbüchel;Köln, Flittard CHEMPARK Tor 10;wupsi wupsi GmbH
+225;bus;Quelle gtfs;Leverkusen, Mathildenhof Potsdamer Str.;Köln, Flittard CHEMPARK Tor 10;wupsi wupsi GmbH
 #226;bus;Linie vermutlich aufgehoben, nicht im Fahrplan 2018 und 2019;;;
-227;bus;;;;
-229;bus;;;;
+227;bus;Quelle gtfs;Bergisch Gladbach, Moitzfeld Steinacker;Leverkusen, Wiesdorf Doktorsburg;wupsi wupsi GmbH
+229;bus;Quelle gtfs;Leverkusen, Lützenkirchen Mitte;Burscheid Bf;wupsi wupsi GmbH
 
-231;bus;;;;
-232;bus;;;;
-233;bus;;;;
-238;bus;;;;
-239;bus;;;;
+231;bus;Quelle gtfs;Leverkusen, Mathildenhof Schöneberger Str.;Langenfeld, Turnerstr.;wupsi wupsi GmbH
+232;bus;Quelle gtfs;Leverkusen, Opladen Busbf;Langenfeld, Turnerstr.;wupsi wupsi GmbH
+233;bus;Quelle gtfs;Leverkusen, Wiesdorf Rathaus-Galerie;Monheim am Rhein, Monheim Busbf;wupsi wupsi GmbH
+238;bus;Quelle gtfs;Wermelskirchen, Dabringhausen Mitte;Odenthal Schule;wupsi wupsi GmbH
+239;bus;Quelle gtfs;Burscheid, Hilgen Raiffeisenplatz;Leverkusen, Opladen Busbf;wupsi wupsi GmbH
 #239/240;bus;;;;
-240;bus;Bus AST240 läuft parallel;;;
-244;bus;;;;
+240;bus;Quelle gtfs;Burscheid, Hilgen Raiffeisenplatz;Leverkusen, Opladen Busbf;KGW Kraftverkehr Gebr. Wiedenhoff GmbH&Co.KG
+240;bus;Bus AST240 läuft parallel;Remscheid;Wermelskirchen;Stadtwerke Remscheid
+244;bus;Quelle gtfs;Leverkusen, Hitdorf Concordiastr.;Leverkusen, Opladen Schule an der Wupper;wupsi wupsi GmbH
 249;bus;;;;
 
-250;bus;;;;
-251;bus;;;;
-252;bus;;;;
-253;bus;;;;
-254;bus;;;;
-255;bus;;;;
+250;bus;Quelle gtfs;Solingen, Graf-Wilhelm-Platz;Köln, Breslauer Platz/Hbf;KGW Kraftverkehr Gebr. Wiedenhoff GmbH&Co.KG
+251;bus;Quelle gtfs;Leverkusen, Wiesdorf CHEMPARK Kasino;Leichlingen Busbf;VH Verkehrsbetrieb Hüttebäucker GmbH
+252;bus;Quelle gtfs;Solingen, Graf-Wilhelm-Platz;Burscheid, Hauptstr.;KGW Kraftverkehr Gebr. Wiedenhoff GmbH&Co.KG
+253;bus;Quelle gtfs;Leverkusen, Rheindorf Pützdelle;Leichlingen Busbf;VH Verkehrsbetrieb Hüttebäucker GmbH
+254;bus;Quelle gtfs;Langenfeld (S);Leichlingen Busbf;VH Verkehrsbetrieb Hüttebäucker GmbH
+255;bus;Quelle gtfs;Leichlingen, Witzhelden Kleine Heide;Leverkusen, Wiesdorf Rathaus-Galerie;KGW Kraftverkehr Gebr. Wiedenhoff GmbH&Co.KG
 256;bus;;;;
-257;bus;;;;
-258;bus;;;;
+257;bus;Quelle gtfs;Leichlingen Busbf;Langenfeld, Hardt Gladbacher Str.;wupsi wupsi GmbH
+258;bus;Quelle gtfs;Leichlingen Busbf;Leverkusen, Opladen Busbf;wupsi wupsi GmbH
 259;bus;;;;
 
-260;bus;;;;
-261;bus;;;;
-263;bus;;;;
-264;bus;;;;
-265;bus;;;;
-266;bus;;;;
-267;bus;;;;
-268;bus;;;;
+260;bus;Quelle gtfs;Remscheid, Friedrich-Ebert-Platz;Köln, Breslauer Platz/Hbf;RVK Regionalverkehr Köln GmbH NL Wermelsk.
+261;bus;Quelle gtfs;Wermelskirchen Busbf;Wermelskirchen, Dhünn Halzenberg;RVK Regionalverkehr Köln GmbH NL Wermelsk.
+263;bus;Quelle gtfs;Wermelskirchen Busbf;Wermelskirchen, Dabringhausen Mitte;RVK Regionalverkehr Köln GmbH NL Wermelsk.
+264;bus;Quelle gtfs;Wermelskirchen, Dhünn Hebbinghausen;Wermelskirchen, Im Wolfhagen;RVK Regionalverkehr Köln GmbH NL Wermelsk.
+265;bus;Quelle gtfs;Wermelskirchen Busbf;Wermelskirchen, Dabringhausen Mitte;RVK Regionalverkehr Köln GmbH NL Wermelsk.
+266;bus;Quelle gtfs;Wermelskirchen Busbf;Solingen, Burg Burger Bahnhof;RVK Regionalverkehr Köln GmbH NL Wermelsk.
+267;bus;Quelle gtfs;Wermelskirchen, Reisegarten Eifgen;Odenthal, Herzogenfeld;RVK Regionalverkehr Köln GmbH NL Wermelsk.
+268;bus;Quelle gtfs;Wermelskirchen, Eifgen;Wermelskirchen Busbf;RVK Regionalverkehr Köln GmbH NL Wermelsk.
 269;bus;;;;
+270;bus;Quelle gtfs;Wermelskirchen Busbf;Wermelskirchen, Krankenhaus;RVK Regionalverkehr Köln GmbH NL Wermelsk.
+271;bus;Quelle gtfs;Wermelskirchen Busbf;Wermelskirchen, Am Stadtrand;RVK Regionalverkehr Köln GmbH NL Wermelsk.
 276;bus;;;;
 283;bus;;;;
 298;bus;;;;
@@ -388,40 +444,45 @@ SB82;bus;;Kall;Vogelsang;RVK
 - .
 === Bus 400 Rheinisch-Bergischer Kreis ...
 
-400;bus;;;;
+400;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach, Bensberg;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
 #404;bus;;;;
-420;bus;;;;
-421;bus;;;;
-422;bus;;;;
-423;bus;;;;
-425;bus;;;;
-426;bus;;;;
-427;bus;;;;
-429;bus;;;;
+420;bus;Quelle gtfs;Bergisch Gladbach, Bensberg;Overath Bf;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
+421;bus;Quelle gtfs;Bergisch Gladbach, Bensberg;Lindlar Busbf;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
+422;bus;Quelle gtfs;Overath, Immekeppel Haus Thal;Rösrath Bf;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
+423;bus;Quelle gtfs;Bergisch Gladbach, Bensberg;Köln, Rath/Heumar Königsforst;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
+424;bus;Quelle gtfs;Rösrath, Bitze;Rösrath, Bitze;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
+425;bus;Quelle gtfs;Overath, HIT-Markt;Overath, Untereschbach HIT Markt;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
+426;bus;Quelle gtfs;Bergisch Gladbach (S);Wipperfürth Busbf;OVAG Oberbergische Verkehrsgesellschaft mbH
+426;bus;Quelle gtfs;Bergisch Gladbach (S);Wipperfürth Busbf;wupsi wupsi GmbH
+427;bus;Quelle gtfs;Bergisch Gladbach (S);Wipperfürth Busbf;OVAG Oberbergische Verkehrsgesellschaft mbH
+427;bus;Quelle gtfs;Bergisch Gladbach (S);Kürten, Olpe;wupsi wupsi GmbH
+429;bus;Quelle gtfs;Kürten, Biesfeld;Wipperfürth Busbf;OVAG Oberbergische Verkehrsgesellschaft mbH
+429;bus;Quelle gtfs;Kürten, Olpe Weier;Wipperfürth Busbf;wupsi wupsi GmbH
 
-430;bus;;;;
-431;bus;;;;
-432;bus;;;;
-433;bus;;;;
-434;bus;;;;
-435;bus;;;;
-436;bus;;;;
-437;bus;;;;
-438;bus;;;;
-439;bus;;;;
+430;bus;Quelle gtfs;Bergisch Gladbach (S);Burscheid, Füllsichel;wupsi wupsi GmbH
+431;bus;Quelle gtfs;Bergisch Gladbach (S);Odenthal, In der Follmühle;wupsi wupsi GmbH
+432;bus;Quelle gtfs;Bergisch Gladbach (S);Odenthal, Neschen Schmeisig;wupsi wupsi GmbH
+433;bus;Quelle gtfs;Bergisch Gladbach (S);Odenthal, Küchenberg;wupsi wupsi GmbH
+434;bus;Quelle gtfs;Bergisch Gladbach (S);Köln, Dünnwald Leuchterstr.;wupsi wupsi GmbH
+435;bus;Quelle gtfs;Bergisch Gladbach (S);Köln, Dellbrück S-Bahn;wupsi wupsi GmbH
+436;bus;Quelle gtfs;Bergisch Gladbach (S);Köln, Dellbrück S-Bahn;wupsi wupsi GmbH
+437;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach, Paffrath Kombibad;wupsi wupsi GmbH
+438;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach, Damaschkestr.;wupsi wupsi GmbH
+439;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach, Rommerscheid Margaretenhöhe;wupsi wupsi GmbH
 
-440;bus;;;;
-441;bus;;;;
+440;bus;Quelle gtfs;Overath, Untereschbach;Lindlar, Frielinghausen;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
+441;bus;Quelle gtfs;Rösrath, Hoffnungsthal Rathausplatz;Rösrath Bf;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
 448;bus;;;;
 449;bus;;;;
-450;bus;;;;
-451;bus;;;;
-452;bus;;;;
-453;bus;;;;
-454;bus;;;;
-455;bus;;;;
-456;bus;;;;
-457;bus;;;;
+450;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach (S);wupsi wupsi GmbH
+451;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach, Refrath Halbenmorgen;wupsi wupsi GmbH
+452;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach, Frankenforst Mozartstr.;wupsi wupsi GmbH
+453;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach, Herkenrath Grünenbäumchen;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
+453;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach, Herkenrath Grünenbäumchen;wupsi wupsi GmbH
+454;bus;Quelle gtfs;Bergisch Gladbach, Bensberg;Kürten, Bechen Mitte;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
+455;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach, Bensberg Technologie-Park;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
+456;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach, Hand Kirche;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
+457;bus;Quelle gtfs;Bergisch Gladbach, Bensberg;Bergisch Gladbach, Bensberg;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
 
 
 - .
@@ -429,48 +490,50 @@ SB82;bus;;Kall;Vogelsang;RVK
 
 501/164;bus;;;;
 501/167;bus;Rundkurs Wahn-S, Nachtverkehr als Linie 501 bis Lülsdorf;;;
-502;bus;;;;
-503;bus;;;;
-504;bus;;;;
-505;bus;;;;
-506;bus;;;;
-507;bus;;;;
-508;bus;;;;
-509;bus;;;;
+501;bus;Quelle gtfs;Siegburg Bf;Niederkassel, Rheidt Unterführung;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+502;bus;Quelle gtfs;Siegburg Bf;Siegburg Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+503;bus;Quelle gtfs;Siegburg Bf;Troisdorf, Sieglar RSVG;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+504;bus;Quelle gtfs;Troisdorf, Spich Bf;Niederkassel, Lülsdorf Stahlenstr.;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+505;bus;Quelle gtfs;Köln, Wahn S-Bahn;Troisdorf, Spich Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+506;bus;Quelle gtfs;Lohmar Schulzentrum;Troisdorf, Sieglar RSVG;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+507;bus;Quelle gtfs;Troisdorf, Kriegsdorf Junkersring Gewerbepark;Troisdorf Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+508;bus;Quelle gtfs;Sankt Augustin Zentrum;Troisdorf, Spich Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+509;bus;Quelle gtfs;Siegburg, Nordfriedhof;Siegburg, Nordfriedhof;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 
-510;bus;;;;
-511;bus;;;;
-512;bus;;;;
-513;bus;;;;
+510;bus;Quelle gtfs;Siegburg Bf;Siegburg, Kaldauen Seligenthal;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+511;bus;Quelle gtfs;Siegburg, Schneffelrath;Siegburg Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+512;bus;Quelle gtfs;Königswinter, Ittenbach Busbf;Siegburg Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+513;bus;Quelle gtfs;Königswinter, Oberpleis Busbf;Siegburg Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 #514;bus;Die Linie gibt es seit dem 12.12.2010 nicht mehr;;;
-516;bus;;;;
-517;bus;;;;
-518;bus;;;;
+516;bus;Quelle gtfs;Bonn, Vilich-Müldorf Kirche;Hennef Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+517;bus;Quelle gtfs;Sankt Augustin, Meindorf Kirche;Sankt Augustin, Hangelar Ost;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+518;bus;Quelle gtfs;Sankt Augustin Zentrum;Sankt Augustin, Hangelar Grundschule;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 
-520;bus;;;;
-521;bus;;;;
-522;bus;;;;
+520;bus;Quelle gtfs;Königswinter, Oberpleis Busbf;Königswinter, Niederdollendorf Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+521;bus;Quelle gtfs;Königswinter, Oberpleis Busbf;Königswinter Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+522;bus;Quelle gtfs;Hennef, Uckerath Alter Zoll;Hennef Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 523;bus;;;;
-524;bus;;;;
-525;bus;;;;
+524;bus;Quelle gtfs;Hennef, Uckerath Grundschule;Hennef Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+525;bus;Quelle gtfs;Königswinter, Oberpleis Busbf;Hennef Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 526;bus;;;;
-527;bus;;;;
+527;bus;Quelle gtfs;Hennef Bf;Siegburg Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 528;bus;;;;
-529;bus;;;;
+529;bus;Quelle gtfs;Bonn Hbf;Hennef Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 
-530;bus;;;;
-531;bus;;;;
-532;bus;;;;
-533;bus;;;;
+530;bus;Quelle gtfs;Hennef Bf;Waldbröl Krankenhaus;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+531;bus;Quelle gtfs;Hennef Bf;Ruppichteroth Denkmal;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+532;bus;Quelle gtfs;Hennef Bf;Hennef Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+533;bus;Quelle gtfs;Eitorf Bf;Eitorf Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 534;bus;;;;
-535;bus;;;;
-536;bus;;;;
-537;bus;;;;
+535;bus;Quelle gtfs;Königswinter, Oberpleis Busbf;Sankt Augustin Zentrum;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+536;bus;Quelle gtfs;Königswinter, Eudenbach Sassenberg Wendeschleife;Königswinter, Oberpleis Busbf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+537;bus;Quelle gtfs;Königswinter, Oberpleis Busbf;Bonn Hbf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 #538;bus;Die Linie gibt es seit dem 12.12.2010 nicht mehr;;;
 539;bus;;Oberpleis;Asbach;
+#539;bus;Quelle gtfs;Asbach (Ww), Asbach, Realschule Plus;Königswinter, Oberpleis Busbf;MB Martin Becker GmbH & Co. KG
 
 #540;bus;Die Linie gibt es seit dem 12.12.2010 nicht mehr;;;
-541;bus;;;;
+541;bus;Quelle gtfs;Königswinter, Oberpleis Busbf;Königswinter Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 542;bus;!Schulverkehr Lohmar, entfällt mit Fahrplan 2019!;;;
 543;bus;!Schulverkehr Lohmar, entfällt mit Fahrplan 2019!;;;
 544;bus;!Schulverkehr Lohmar, entfällt mit Fahrplan 2019!;;;
@@ -481,104 +544,158 @@ SB82;bus;;Kall;Vogelsang;RVK
 # 549;bus;!Schulverkehr Lohmar, Linie fehlt entfällt jedoch mit Fahrplan 2019!;Lohmar;Hollenberg;
 
 550/163;bus;;;;
-551;bus;;;;
+#550;bus;Quelle gtfs;Bonn Hbf;Niederkassel, Mondorf Realschule;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+551;bus;Quelle gtfs;Bonn Hbf;Troisdorf Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 553;bus;!Neu im Fahrplan 2019!;Lohmar;Neuhohnrath
+#553;bus;Quelle gtfs;Lohmar Märkte;Lohmar, Neuhonrath Grundschule;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 554;bus;!2019 geänderte Linienführung via Birk und Heide!;Lohmar;Lohmar;
+#554;bus;Quelle gtfs;Lohmar Märkte;Lohmar Märkte;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 555;bus;!Neu im Fahrplan 2019!;Siegburg;Pohlhausen;
-556;bus;;;;
-557;bus;;;;
+#555;bus;Quelle gtfs;Siegburg Bf;Neunkirchen-Seelscheid, Pohlhausen;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+556;bus;Quelle gtfs;Siegburg Bf;Rösrath Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+557;bus;Quelle gtfs;Siegburg Bf;Overath Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 558;bus;!2019 neue Linienführung via Agger und Honrath!;Lohmar;Dahlhausen;
+#558;bus;Quelle gtfs;Lohmar Märkte;Lohmar, Honrath Dahlhaus;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 559;bus;!Neu im Fahrplan 2019!;Lohmar;Kern;
+#559;bus;Quelle gtfs;Lohmar Märkte;Lohmar, Neuhonrath Grundschule;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 
-560;bus;;;;
-562;bus;;;;
-564;bus;;;;
-565;bus;;;;
-566;bus;;;;
+560;bus;Quelle gtfs;Bad Honnef (Stadtbahn);Königswinter, Oberpleis Busbf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+562;bus;Quelle gtfs;Asbach (Ww), Asbach Markt;Bad Honnef (Stadtbahn);RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+564;bus;Quelle gtfs;Eitorf, Obereip;Eitorf Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+565;bus;Quelle gtfs;Bad Honnef (Stadtbahn);Linz (Rhein), Linz Bf;MB Martin Becker GmbH & Co. KG
+566;bus;Quelle gtfs;Bad Honnef, Drieschweg;Bad Honnef, Rhöndorf Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 
-570;bus;;;;
-571;bus;;;;
-572;bus;;;;
-573;bus;;;;
-575;bus;;;;
+570;bus;Quelle gtfs;Eitorf Bf;Hennef, Uckerath Alter Zoll;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+571;bus;Quelle gtfs;Eitorf Bf;Eitorf, Rodder;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+572;bus;Quelle gtfs;Windeck, Leuscheid Markt;Windeck, Herchen Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+573;bus;Quelle gtfs;Eitorf Bf;Eitorf, Obereip Mühleip;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+575;bus;Quelle gtfs;Much Rathaus;Overath Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 576;bus;!2019 neue Linienführung über Schreck, dafür entfallen Birk und Geber!;Siegburg;Much;
-577;bus;;;;
-578;bus;;;;
-579;bus;;;;
+#576;bus;Quelle gtfs;Siegburg Bf;Much Post;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+577;bus;Quelle gtfs;Siegburg Bf;Much Rathaus;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+578;bus;Quelle gtfs;Hennef Bf;Neunkirchen-Seelscheid, Neunkirchen Dahlerhof;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+579;bus;Quelle gtfs;Windeck, Rosbach Bf;Eitorf Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 
 590;bus;!Neu im Fahrplan 2019, Schulverkehr Lohmar!;;;
+#590;bus;Quelle gtfs;Lohmar, Neuhonrath Grundschule;Lohmar, Wahlscheid Kleinhecken;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+592;bus;Quelle gtfs;Hennef, Lanzenbach;Hennef, Söven Grundschule;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+593;bus;Quelle gtfs;Neunkirchen-Seelscheid, Seelscheid Altenheim;Neunkirchen-Seelscheid, Neunkirchen Antoniusplatz;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+598;bus;Quelle gtfs;Hennef, Söven Grundschule;Königswinter, Oberpleis Busbf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+599;bus;Quelle gtfs;Sankt Augustin, Pauluskirchstr.;Sankt Augustin, Meindorf Schule;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 
 
 - .
 === Bus 600 Bonn ...
 
-600;bus;;;;
-601;bus;;;;
-602;bus;;;;
-603;bus;;;;
-604;bus;;;;
-605;bus;;;;
-606;bus;;;;
-607;bus;;;;
-608;bus;;;;
-609;bus;;;;
 
-610;bus;;;;
-611;bus;;;;
-612;bus;;;;
-613;bus;;;;
-614;bus;;;;
-615;bus;;;;
 
-630;bus;;;;
-631;bus;;;;
+600;bus;Quelle gtfs;Bonn, Ippendorf Altenheim;Bonn, Graurheindorf Kranenweg;SWB Stadtwerke Bonn Verkehrs GmbH
+601;bus;Quelle gtfs;Bonn, Venusberg Uniklinikum Süd;Bonn, Tannenbusch Agnetendorfer Str.;SWB Stadtwerke Bonn Verkehrs GmbH
+602;bus;Quelle gtfs;Bonn, Venusberg Waldau;Bonn, Tannenbusch Agnetendorfer Str.;SWB Stadtwerke Bonn Verkehrs GmbH
+603;bus;Quelle gtfs;Bonn, Röttgen Schleife;Bonn, Bechlinghoven Alte Schulstr.;SWB Stadtwerke Bonn Verkehrs GmbH
+604;bus;Quelle gtfs;Bonn, Ückesdorf Mitte;Bornheim, Hersel;SWB Stadtwerke Bonn Verkehrs GmbH
+605;bus;Quelle gtfs;Bonn, Duisdorf Bf;Bonn, Graurheindorf Mondorfer Fähre;SWB Stadtwerke Bonn Verkehrs GmbH
+606;bus;Quelle gtfs;Bonn, Medinghoven Malteser-Krankenhaus;Bonn, Ramersdorf;SWB Stadtwerke Bonn Verkehrs GmbH
+607;bus;Quelle gtfs;Bonn, Medinghoven Malteser-Krankenhaus;Bonn, Ramersdorf;SWB Stadtwerke Bonn Verkehrs GmbH
+608;bus;Quelle gtfs;Bonn, Brüser Berg Hardthöhe/Südwache;Bonn, Holzlar Gielgen;SWB Stadtwerke Bonn Verkehrs GmbH
+609;bus;Quelle gtfs;Bonn, Brüser Berg Hardthöhe/Südwache;Bonn, Holzlar Gielgen;SWB Stadtwerke Bonn Verkehrs GmbH
+
+610;bus;Quelle gtfs;Bonn, Heiderhof Pappelweg;Bonn, Duisdorf Bf;SWB Stadtwerke Bonn Verkehrs GmbH
+611;bus;Quelle gtfs;Bonn, Heiderhof Pappelweg;Bonn, Lessenich/Meßdorf Lessenich Sportplatz;SWB Stadtwerke Bonn Verkehrs GmbH
+612;bus;Quelle gtfs;Bonn, Mehlem Fähre;Bonn, Dottendorf Hindenburgplatz;SWB Stadtwerke Bonn Verkehrs GmbH
+613;bus;Quelle gtfs;Bonn, Mehlem Giselherstr.;Bonn, Bad Godesberg Bf./Rheinallee;SWB Stadtwerke Bonn Verkehrs GmbH
+614;bus;Quelle gtfs;Bonn, Mehlem Im Rosenberg;Bonn, Bad Godesberg Koblenzer Str.;SWB Stadtwerke Bonn Verkehrs GmbH
+615;bus;Quelle gtfs;Bonn, Mehlem Giselherstr.;Bonn, Schweinheim Stadtwald/Ev. Krankenhaus;SWB Stadtwerke Bonn Verkehrs GmbH
+
+626;bus;Quelle gtfs;Radevormwald Busbf;Wuppertal, Barmen Oberbarmen Bf;OVAG Oberbergische Verkehrsgesellschaft mbH
+626;bus;Quelle gtfs;Radevormwald Busbf;Wuppertal, Barmen Oberbarmen Bf;BVR Busverkehr Rheinland GmbH
+
+630;bus;Quelle gtfs;Bonn, Venusberg Uniklinikum Süd;Bonn, Tannenbusch Agnetendorfer Str.;SWB Stadtwerke Bonn Verkehrs GmbH
+631;bus;Quelle gtfs;Bonn, Tannenbusch Agnetendorfer Str.;Bonn, Hochkreuz Robert-Schuman-Platz;SWB Stadtwerke Bonn Verkehrs GmbH
 632;bus;Im Fahrplan 2019 neue Linienführung über Poppelsdorf, Endenich, Nordstadt;Uniklinikum;Beuel Bf;
-633;bus;;;;
-635;bus;;;;
-636;bus;;;;
-637;bus;;;;
-638;bus;;;;
-640;bus;;;;
+#632;bus;Quelle gtfs;Bonn, Venusberg Uniklinikum Süd;Bonn, Beuel Bf;SWB Stadtwerke Bonn Verkehrs GmbH
+633;bus;Quelle gtfs;Bonn, Duisdorf Bf;Bornheim, Sechtem Bf;SWB Stadtwerke Bonn Verkehrs GmbH
+635;bus;Quelle gtfs;Bonn, Ramersdorf;Sankt Augustin, Hangelar Ost;SWB Stadtwerke Bonn Verkehrs GmbH
+636;bus;Quelle gtfs;Bonn, Beuel Konrad-Adenauer-Platz;Sankt Augustin, Hangelar Ost;SWB Stadtwerke Bonn Verkehrs GmbH
+637;bus;Quelle gtfs;Bonn, Bad Godesberg Marienforster Steinweg;Bonn, Hochkreuz Robert-Schuman-Platz;SWB Stadtwerke Bonn Verkehrs GmbH
+638;bus;Quelle gtfs;Bonn, Hochkreuz Robert-Schuman-Platz;Bonn, Hochkreuz Robert-Schuman-Platz;SWB Stadtwerke Bonn Verkehrs GmbH
+
+640;bus;Quelle gtfs;Bonn Hbf;Siegburg Bf;SWB Stadtwerke Bonn Verkehrs GmbH
+
+671;bus;Quelle gtfs;Radevormwald Busbf;Remscheid, Lennep Remscheid Kreishaus;OVAG Oberbergische Verkehrsgesellschaft mbH
+671;bus;Quelle gtfs;Radevormwald Busbf;Remscheid, Lennep Remscheid Kreishaus;SR Stadtwerke Remscheid GmbH
+
+680;bus;Quelle gtfs;Bonn, Lessenich/Meßdorf Lessenich Sportplatz;Alfter, Gielsdorf Wasserturm;SWB Stadtwerke Bonn Verkehrs GmbH
 
 
 - .
 === Bus 700 Brühl / Hürth / Euskirchen ...
 - Kreis Euskichen, Rhein-Erft-Kreis und Rhein-Sieg-Kreis linksrheinisch
 
-702;bus;;;;
-703;bus;;;;
-704;bus;;;;
-705;bus;;;;
-706;bus;;;;
-707;bus;;;;
-709;bus;;;;
+701;bus;Quelle gtfs;Brühl, Heide Schule;Brühl, Giesler Galerie;StWB Stadtwerke Brühl
+702;bus;Quelle gtfs;Brühl, Heide Schule;Brühl, Giesler Galerie;StWB Stadtwerke Brühl
+703;bus;Quelle gtfs;Brühl Mitte;Brühl, Ost Engeldorfer Str.;StWB Stadtwerke Brühl
+704;bus;Quelle gtfs;Brühl, West Roddergrube;Brühl, Vochem Frechener Str.;StWB Stadtwerke Brühl
+705;bus;Quelle gtfs;Brühl, West Am Wasserturm;Brühl Mitte;StWB Stadtwerke Brühl
+706;bus;Quelle gtfs;Brühl, Badorf Metzenmacherweg;Brühl Mitte;StWB Stadtwerke Brühl
+707;bus;Quelle gtfs;Brühl, Badorf Geildorf;Brühl Mitte;StWB Stadtwerke Brühl
+709;bus;Quelle gtfs;Brühl Mitte;Brühl, Ost Engeldorfer Str.;StWB Stadtwerke Brühl
 
 # 710;bus;Linie fehlt, jedoch 2018 und 2019 keine Information beim VRS verfügbar;;;
-711;bus;;;;
-712;bus;;;;
-713;bus;;;;
-714;bus;;;;
-715;bus;;;;
+711;bus;Quelle gtfs;Hürth, Hermülheim Hürth Mitte (ZOB);Hürth, Berrenrath Eifelstr.;SVH Stadtverkehr Hürth AöR, Abt. ÖPNV
+712;bus;Quelle gtfs;Hürth, Hermülheim Hürth Mitte (ZOB);Hürth, Efferen Kalscheurener Str.;SVH Stadtverkehr Hürth AöR, Abt. ÖPNV
+713;bus;Quelle gtfs;Hürth, Hermülheim Hürth Mitte (ZOB);Hürth, Fischenich;SVH Stadtverkehr Hürth AöR, Abt. ÖPNV
+714;bus;Quelle gtfs;Hürth, Hermülheim Hürth Mitte (ZOB);Hürth, Fischenich;SVH Stadtverkehr Hürth AöR, Abt. ÖPNV
+715;bus;Quelle gtfs;Hürth, Hermülheim Deutscher Ring;Hürth, Knapsack Siedlung;SVH Stadtverkehr Hürth AöR, Abt. ÖPNV
 717;bus;Schulverkehr, nur wenige Fahrten;Hürth-Kendenich;Hürth-Sielsdorf;
-718;bus;;;;
+#717;bus;Quelle gtfs;Hürth, Kendenich Steinackerstr.;Hürth, Gleuel Jacob-Eßer-Platz;SVH Stadtverkehr Hürth AöR, Abt. ÖPNV
+718;bus;Quelle gtfs;Hürth, Hermülheim Hürth Mitte (ZOB);Hürth, Fischenich;SVH Stadtverkehr Hürth AöR, Abt. ÖPNV
 
-720;bus;;;;
+720;bus;Quelle gtfs;Hürth, Hermülheim Hürth Mitte (ZOB);Hürth, Hermülheim Hürth-Hermülheim;SVH Stadtverkehr Hürth AöR, Abt. ÖPNV
 721;bus;Stadtverkehr Wesseling;Urfeld;Wesseling;
+#721;bus;Quelle gtfs;Wesseling, Urfeld Kirche;Wesseling;SWW Stadtwerke Wesseling GmbH
 722;bus;;;;
 723;bus;!Neu im Fahrplan 2019!;Keldenich;Wesseling
+#723;bus;Quelle gtfs;Wesseling, Keldenich Auf dem Eichholzer Acker;Wesseling;SWW Stadtwerke Wesseling GmbH
 
 731;bus;Schulverkehr Euskirchen;Euskirchen;Dom-Esch;
+#731;bus;Quelle gtfs;Euskirchen, Kleinbüllesheim Rigaer Str.;Euskirchen, Paul-Gerhardt-Schule;SVE Stadtverkehr Euskirchen GmbH
 732;bus;Schulverkehr Euskirchen;Euskirchen;Stotzheim;
+#732;bus;Quelle gtfs;Euskirchen, Stotzheim Wassermannstr.;Euskirchen, Paul-Gerhardt-Schule;SVE Stadtverkehr Euskirchen GmbH
 733;bus;Schulverkehr Euskirchen;Euskirchen;Oberwichterich / Wißkirchen;
+#733;bus;Quelle gtfs;Euskirchen, Wißkirchen Trotzenberg;Euskirchen, Paul-Gerhardt-Schule;SVE Stadtverkehr Euskirchen GmbH
 735;bus;Schulverkehr Euskirchen;Kuchenheim;Roitzheim;
+#735;bus;Quelle gtfs;Euskirchen, Kuchenheim Bf;Euskirchen, Kuchenheim Grundschule;SVE Stadtverkehr Euskirchen GmbH
 736;bus;Schulverkehr Euskirchen;Stotzheim;Rheder;
+#736;bus;Quelle gtfs;Euskirchen, Rheder Diamantstr.;Euskirchen, Stotzheim Grundschule;SVE Stadtverkehr Euskirchen GmbH
 737;bus;Schulverkehr Euskirchen;Stotzheim;Flamersheim;
+#737;bus;Quelle gtfs;Euskirchen, Stotzheim Markt;Euskirchen, Flamersheim Grundschule;SVE Stadtverkehr Euskirchen GmbH
 738;bus;Schulverkehr Euskirchen;Wißkirchen;Billig;
+#738;bus;Quelle gtfs;Euskirchen, Billiger Wald Veynauer Weg;Euskirchen, Wißkirchen Grundschule;SVE Stadtverkehr Euskirchen GmbH
 
+740;bus;Quelle gtfs;Rheinbach Bf;Rheinbach, Hilberath;RVK Regionalverkehr Köln GmbH NL Meckenheim
+741;bus;Quelle gtfs;Rheinbach Bf;Bad Münstereifel, Wald;RVK Regionalverkehr Köln GmbH NL Meckenheim
 747;bus;!2019 zusätzliche Haltestellen in Odendorf!;Rheinbach;Odendorf;
-749;bus;;;;
+#747;bus;Quelle gtfs;Rheinbach Bf;Swisttal, Odendorf Kirche;RVK Regionalverkehr Köln GmbH NL Meckenheim
+749;bus;Quelle gtfs;Meckenheim Bf;Rheinbach Bf;RVK Regionalverkehr Köln GmbH NL Meckenheim
+
 750;bus;;Meckenheim;Lüftelberg;
-#771;bus;!Neu im Fahrplan 2019: Fahrradbus (nur Sommer)!;Schmidtheim;Hellenthal;
+#750;bus;Quelle gtfs;Meckenheim, Lüftelberg Ort;Meckenheim, Lüftelberg Ort;RVK Regionalverkehr Köln GmbH NL Meckenheim
+751;bus;Quelle gtfs;Swisttal, Buschhoven Grundschule;Swisttal, Morenhoven Schleife;RVK Regionalverkehr Köln GmbH NL Meckenheim
+752;bus;Quelle gtfs;Meckenheim, Merl Schleife;Rheinbach Schulzentrum;RVK Regionalverkehr Köln GmbH NL Meckenheim
+
+760;bus;Quelle gtfs;Blankenheim, Finkenberg Schulzentrum;Schleiden Busbf;RVK Regionalverkehr Köln GmbH NL Euskirchen
+761;bus;Quelle gtfs;Bad Münstereifel, Langscheid Wartehalle;Bad Münstereifel, Klosterplatz;RVK Regionalverkehr Köln GmbH NL Euskirchen
+763;bus;Quelle gtfs;Hellenthal, Neuhaus;Hellenthal Hauptschule;RVK Regionalverkehr Köln GmbH NL Euskirchen
+764;bus;Quelle gtfs;Kall, Golbach Obergolbach Schule;Kall Grundschule;RVK Regionalverkehr Köln GmbH NL Euskirchen
+766;bus;Quelle gtfs;Dahlem, Steinebrück;Schleiden Brücke;RVK Regionalverkehr Köln GmbH NL Euskirchen
+767;bus;Quelle gtfs;Hellenthal, Dommersbach;Kall, Sistig Kirche;RVK Regionalverkehr Köln GmbH NL Euskirchen
+768;bus;Quelle gtfs;Schleiden, Dreiborn Feuerwehr;Kall, Steinfeld Kloster;RVK Regionalverkehr Köln GmbH NL Euskirchen
+769;bus;Quelle gtfs;Weilerswist, Derkum Hausweiler;Weilerswist, Lommersum Grundschule;RVK Regionalverkehr Köln GmbH NL Euskirchen
+
+770;bus;Quelle gtfs;Kall Bf;Wiesbaum, Mirbach;RVK Regionalverkehr Köln GmbH NL Euskirchen
+771;bus;!Neu im Fahrplan 2019: Fahrradbus (nur Sommer)!;Schmidtheim;Hellenthal;
+#771;bus;Quelle gtfs;Dahlem, Schmidtheim Bf;Hellenthal Busbf;RVK Regionalverkehr Köln GmbH NL Euskirchen
 
 
 - .
@@ -588,55 +705,80 @@ SB82;bus;;Kall;Vogelsang;RVK
 -
 - Einige Haltestellen in Euskirchen und Kirchheim umbenannt. Neue Haltestellen in Bornheim, Merten, Waldorf. Entfall von Haltestellen in Karbach
 
-800;bus;;;;
+800;bus;Quelle gtfs;Bonn Hbf;Rheinbach Bf;RVK Regionalverkehr Köln GmbH NL Meckenheim
 801;bus;!Neu 2019 Erschliessung des Ortsteils Kirspenich!;Euskirchen;Bad Münstereifel;RVK
-802;bus;;;;
+#801;bus;Quelle gtfs;Euskirchen Bf;Bad Münstereifel Bf;RVK Regionalverkehr Köln GmbH NL Euskirchen
+802;bus;Quelle gtfs;Euskirchen Bf;Rheinbach Bf;RVK Regionalverkehr Köln GmbH NL Euskirchen
 #805;bus;Linie existiert seit Fahrplanwechsel 2015 nicht mehr, wurde durch die Linie 747 ersetzt.;;;
-806;bus;;;;
+806;bus;Quelle gtfs;Euskirchen Bf;Weilerswist, Metternich Marienstr.;RVK Regionalverkehr Köln GmbH NL Euskirchen
 807;bus;!2019 Änderungen in Euskirchen!;Euskirchen;Erftstadt;RVK
+#807;bus;Quelle gtfs;Euskirchen Bf;Erftstadt, Liblar Erftstadt Bf;RVK Regionalverkehr Köln GmbH NL Euskirchen
 808;bus;!2019 Änderungen in Mechernich!;Euskirchen;Kall;RVK
-809;bus;;;;
+#808;bus;Quelle gtfs;Euskirchen Bf;Mechernich Bf;RVK Regionalverkehr Köln GmbH NL Euskirchen
+809;bus;Quelle gtfs;Euskirchen Bf;Mechernich, Holzheim Weiler Str.;RVK Regionalverkehr Köln GmbH NL Euskirchen
 
-810;bus;;;;
-811;bus;;;;
-812;bus;;;;
-813;bus;;;;
+810;bus;Quelle gtfs;Euskirchen Bf;Zülpich, Schwerfen Beuelstr.;RVK Regionalverkehr Köln GmbH NL Euskirchen
+811;bus;Quelle gtfs;Zülpich, Mülheim Mülheimer Str.;Mechernich Bf;RVK Regionalverkehr Köln GmbH NL Euskirchen
+812;bus;Quelle gtfs;Bonn, Hardtberg Gaußstr.;Alfter, Volmershoven Mehrzweckhalle;RVK Regionalverkehr Köln GmbH NL Meckenheim
+813;bus;Quelle gtfs;Rheinbach, Schweitzerstr.;Rheinbach, Schweitzerstr.;RVK Regionalverkehr Köln GmbH NL Meckenheim
 # 814;bus;Nicht mehr im VRS 2018 und 2019 -> per old-814 aussortiert;;;
 815;bus;Wald-Linie: Fahrradbus, nur Sonntags im Sommer;Kall;Monschau;
+#815;bus;Quelle gtfs;Kall Bf;Monschau, Parkhaus / Schmiede;RVK Regionalverkehr Köln GmbH NL Euskirchen
 817;bus;!2019 neue Haltestelle Bornheim Kalkstraße!;Rheinbach;Hersel;RVK
+#817;bus;Quelle gtfs;Rheinbach Bf;Bornheim, Hersel;RVK Regionalverkehr Köln GmbH NL Meckenheim
 818;bus;!2019 neue Haltestellen in Merten + Waldorf, Entfall von Haltestellen in Kardorf!;Sechtem;Hersel;RVK
+#818;bus;Quelle gtfs;Bornheim, Sechtem Bf;Bornheim, Hersel;RVK Regionalverkehr Köln GmbH NL Meckenheim
 819;bus;;Bad Münstereifel;Rupperath;
+#819;bus;Quelle gtfs;Bad Münstereifel Bf;Bad Münstereifel, Rupperath;RVK Regionalverkehr Köln GmbH NL Euskirchen
 
 820;bus;;Nettersheim-Buir;Nettersheim-Marmagen;
+#820;bus;Quelle gtfs;Nettersheim, Bouderath Kirche;Nettersheim Bf;RVK Regionalverkehr Köln GmbH NL Euskirchen
 821;bus;;Bad Münstereifel;Nettersheim;
+#821;bus;Quelle gtfs;Bad Münstereifel Bf;Bad Münstereifel, Gilsdorf Tempelanlage;RVK Regionalverkehr Köln GmbH NL Euskirchen
 822;bus;;Bad Münstereifel;Wershofen;
+#822;bus;Quelle gtfs;Bad Münstereifel Bf;Bad Münstereifel, Ohlerath;RVK Regionalverkehr Köln GmbH NL Euskirchen
 823;bus;;Weilerswist Bf;Weilerswist-Bodenheim;
+#823;bus;Quelle gtfs;Weilerswist Bf;Weilerswist, Lommersum Bodenheim;RVK Regionalverkehr Köln GmbH NL Euskirchen
 824;bus;;Bad Münstereifel;Blankenheim;
+#824;bus;Quelle gtfs;Blankenheim, Finkenberg Schulzentrum;Nettersheim, Tondorf Spielstr.;RVK Regionalverkehr Köln GmbH NL Euskirchen
 825;bus;;Nettersheim-Tondorf;Blankenheim-Lommersdorf;
 826;bus;;;;
-827;bus;;;;
+827;bus;Quelle gtfs;Nettersheim, Zingsheim Rathaus;Mechernich Bf;SCH Karl Schäfer Reisen GmbH
 TB 827;bus;;;;
 828;bus;;Scheuren;Bad Münstereifel;
-829;bus;;;;
+#828;bus;Quelle gtfs;Bad Münstereifel Bf;Bad Münstereifel, Scheuerheck;RVK Regionalverkehr Köln GmbH NL Euskirchen
+829;bus;Quelle gtfs;Kall Bf;Hellenthal Busbf;RVK Regionalverkehr Köln GmbH NL Euskirchen
 
 830;bus;;Mechernich;Zingsheim;
+#830;bus;Quelle gtfs;Nettersheim, Zingsheim Rathaus;Mechernich Bf;RVK Regionalverkehr Köln GmbH NL Euskirchen
 831;bus;;Gemünd;Schleiden;
+#831;bus;Quelle gtfs;Schleiden, Gemünd Mitte;Schleiden, Dreiborn Feuerwehr;RVK Regionalverkehr Köln GmbH NL Euskirchen
 832;bus;;Blankenheim;Ahrdorf;
+#832;bus;Quelle gtfs;Blankenheim (Wald) Bf;Blankenheim Rathaus;RVK Regionalverkehr Köln GmbH NL Euskirchen
 833;bus;;Blankenheim;Dollendorf;
+#833;bus;Quelle gtfs;Blankenheim Busbf;Blankenheim, Waldorf;RVK Regionalverkehr Köln GmbH NL Euskirchen
 834;bus;;Schmidtheim;Berk;
+#834;bus;Quelle gtfs;Blankenheim Busbf;Dahlem, Berk Siedlung Auf Etscherath;RVK Regionalverkehr Köln GmbH NL Euskirchen
 TB 835;bus;;;;
+#835;bus;Quelle gtfs;Blankenheim (Wald) Bf;Schleiden Busbf;RVK Regionalverkehr Köln GmbH NL Euskirchen
 836;bus;;Schleiden;Schöneseiffen;
+#836;bus;Quelle gtfs;Hellenthal Busbf;Schleiden Busbf;RVK Regionalverkehr Köln GmbH NL Euskirchen
 837;bus;;Hellenthal;Hecken;
+#837;bus;Quelle gtfs;Hellenthal, Blumenthal Reifferscheider Str.;Hellenthal, Paulushof;RVK Regionalverkehr Köln GmbH NL Euskirchen
 838;bus;;Hellenthal;Schnorrenberg;
+#838;bus;Quelle gtfs;Hellenthal, Blumenthal Reifferscheider Str.;Hellenthal, Schnorrenberg;RVK Regionalverkehr Köln GmbH NL Euskirchen
 839;bus;;Hellenthal;Losheim;
+#839;bus;Quelle gtfs;Hellenthal Hauptschule;Hellenthal, Udenbreth Unterdorf;RVK Regionalverkehr Köln GmbH NL Euskirchen
 
 840;bus;VRM-Linie;Ahrbrück;Rheinbach;DB Regio Bus
 # 841;bus;reine VRM-Linie;Ringen;Remagen;DB Regio Bus
 # 842;bus;Kein Fahrplan über VRS-Info;;;
 843;bus;via Bonn-Duisdorf;Alfter;Meckenheim Industriepark;
+#843;bus;Quelle gtfs;Alfter, Hertersplatz;Meckenheim, Industriepark (S);RVK Regionalverkehr Köln GmbH NL Meckenheim
 # 844;bus;veraltet und zerstückelt -> gelöscht;Meckenheim;Ahrweiler;
 844;bus;RadBus Ahr-Voreifel;Altenburg;Rheinbach;DB Regio Bus
 845;bus;;Bonn;Heimerzheim;RVK
+#845;bus;Quelle gtfs;Bonn Hbf;Swisttal, Heimerzheim Fronhof;RVK Regionalverkehr Köln GmbH NL Meckenheim
 846;bus;Kein Fahrplan mehr in 2018 und 2019;Rheinbach;Buschhoven;
 846;bus;VRM-Linie, TaxiBus;Rolandswerth;Mehlem;DB Regio Bus
 # 848;bus;Veraltet und unvollständig -> gelöscht;;;
@@ -646,38 +788,59 @@ TB 835;bus;;;;
 # 852;bus;Als VRS-Linie seit 2018 oder früher defekt/unvollständig/ohne -> gelöscht;Bad Godesberg;Sinzig;
 854;bus;VRM-Linie;Ringen;Bad Neuenahr (– Ahrweiler);DB Regio Bus
 855;bus;;Bad Godesberg;Meckenheim;RVK
+#855;bus;Quelle gtfs;Bonn, Bad Godesberg Rheinufer;Meckenheim Bf;RVK Regionalverkehr Köln GmbH NL Meckenheim
 856;bus;;Remagen-Oedingen;Bonn-Bad Godesberg;RVK
+#856;bus;Quelle gtfs;Remagen, Oedingen Wendeschleife;Bonn, Bad Godesberg Bf./Rheinallee;RVK Regionalverkehr Köln GmbH NL Meckenheim
 857;bus;;Meckenheim Bf;Bad Godesberg Bf;RVK
+#857;bus;Quelle gtfs;Meckenheim Bf;Bonn, Bad Godesberg Bf./Rheinallee;RVK Regionalverkehr Köln GmbH NL Meckenheim
 858;bus;;Meckenheim Bf;Industriepark;
+#858;bus;Quelle gtfs;Meckenheim Bf;Meckenheim, Industriepark (S);RVK Regionalverkehr Köln GmbH NL Meckenheim
 859;bus;;Meckenheim Industriepark;Lüftelberg;
+#859;bus;Quelle gtfs;Meckenheim, Lüftelberg Ort;Meckenheim, Industriepark (S);RVK Regionalverkehr Köln GmbH NL Meckenheim
 
 860;bus;Ringverkehr Euskirchen;;;
+#860;bus;Quelle gtfs;Euskirchen Bf;Euskirchen Bf;SVE Stadtverkehr Euskirchen GmbH
 867;bus;via Antweiler;Satzvey;Mechernich;
+#867;bus;Quelle gtfs;Mechernich, Firmenich Satzvey Schule;Mechernich Bf;SCH Karl Schäfer Reisen GmbH
 868;bus;via Firmenich;Satzvey;Mechernich;
+#868;bus;Quelle gtfs;Mechernich, Firmenich Satzvey Schule;Mechernich, Feytal;SCH Karl Schäfer Reisen GmbH
 869;bus;!Ab Fahrplan 2019 Betreiber RVK!;Euskirchen;Weilerswist Lommersum;RVK
+#869;bus;Quelle gtfs;Euskirchen Bf;Weilerswist, Lommersum Wichtericher Weg;RVK Regionalverkehr Köln GmbH NL Euskirchen
 
 870;bus;!2019 Umbennung von Haltestellen! Rundkurs via Wüschheim, Kirchheim;Euskirchen;Euskirchen;SVE
-871;bus;;;;
-872;bus;;;;
-873;bus;;;;
+#870;bus;Quelle gtfs;Euskirchen Bf;Euskirchen, Kirchheim Arloffer Str.;SVE Stadtverkehr Euskirchen GmbH
+871;bus;Quelle gtfs;Euskirchen, Marienhospital;Euskirchen, Memelstr.;SVE Stadtverkehr Euskirchen GmbH
+872;bus;Quelle gtfs;Euskirchen, Josef-Franke-Str.;Euskirchen, Theodor-Körner-Str.;SVE Stadtverkehr Euskirchen GmbH
+873;bus;Quelle gtfs;Euskirchen Bf;Euskirchen, Niederkastenholz;SVE Stadtverkehr Euskirchen GmbH
 874;bus;;Euskirchen;Kirchheim;SVE
-875;bus;;;;
-876;bus;;;;
-877;bus;;;;
-878;bus;;;;
+#874;bus;Quelle gtfs;Euskirchen Bf;Euskirchen, Kirchheim Arloffer Str.;SVE Stadtverkehr Euskirchen GmbH
+875;bus;Quelle gtfs;Euskirchen Bf;Euskirchen, Großbüllesheim Wüschheim;SVE Stadtverkehr Euskirchen GmbH
+876;bus;Quelle gtfs;Euskirchen Bf;Euskirchen Bf;SVE Stadtverkehr Euskirchen GmbH
+877;bus;Quelle gtfs;Euskirchen Bf;Euskirchen, Kreuzweingarten Wende;SVE Stadtverkehr Euskirchen GmbH
+878;bus;Quelle gtfs;Euskirchen Bf;Euskirchen, Wißkirchen Medardusstr.;SVE Stadtverkehr Euskirchen GmbH
 
 881;bus;siehe Abschnitt Anruf-Sammel-Taxi;;;
-882;bus;;;;
+882;bus;Quelle gtfs;Bornheim, Roisdorf Bf;Bornheim, Roisdorf Bf;RVK Regionalverkehr Köln GmbH NL Meckenheim
+# 885;bus;;Kall;Manscheid;RVK
+#885;bus;Quelle gtfs;Kall, Sistig Kirche;Kall Bf;RVK Regionalverkehr Köln GmbH NL Euskirchen
+# 886;bus;via Marmagen;Kall;Blankenheim;RVK
+#886;bus;Quelle gtfs;Blankenheim (Wald) Bf;Kall Bf;RVK Regionalverkehr Köln GmbH NL Euskirchen
+885 / 886;bus;Eigentlich zwei getrennte Linien;Kall;Manscheid / Blankenheim;RVK
 
 891;bus;über Kall;Zingsheim:Schleiden;
+#891;bus;Quelle gtfs;Kall Bf;Schleiden Busbf;RVK Regionalverkehr Köln GmbH NL Euskirchen
 892;bus;!Neu im Fahrplan 2019, ersetzt ehemaliges Sammeltaxi in Zülpich!;;;
 893;bus;;Mechernich;Kommern;
+#893;bus;Quelle gtfs;Mechernich, Kommern Grundschule;Mechernich Bf;SCH Karl Schäfer Reisen GmbH
 # 894;bus;Keine Information beim VRS verfügbar;;;
 896;bus;;Mechernich;Berg;
+#896;bus;Quelle gtfs;Mechernich, Berg Oberdorf;Mechernich, Feytal;SCH Karl Schäfer Reisen GmbH
 897;bus;;Mechernich;Voißel;
 898;bus;;Mechernich;Wallenthal;
+#898;bus;Quelle gtfs;Mechernich, Kallmuth Kaller Str.;Mechernich, Feytal;SCH Karl Schäfer Reisen GmbH
 # 899;bus;Keine Information beim VRS verfügbar;;;
 
+63;bus;AVV-Linie ins VRS-Gebiet;Simmerath;Schleiden / Vogelsang;
 
 - .
 === Bus 900 Bergheim, Erftstadt, ...
@@ -694,6 +857,7 @@ TB 835;bus;;;;
 - Veränderung gibt es dadurch bei den Buslinien 920, 955, 977, 979 und 990.
 
 905;bus;;Bedburg;Kaster;REVG
+
 910;bus;;Frechen;Hürth;REVG
 911;bus;;Brüggen;Sindorf;REVG
 915;bus;;Quadrath-Ichendorf;Neu-Etzweiler;REVG
@@ -704,15 +868,20 @@ TB 835;bus;;;;
 923;bus;Stadtverkehr Bergheim;;;REVG
 924;bus;;Niederaußem;Bedburg;REVG
 927;bus;;Bedburg;Industriegebiet;REVG
+
 930;bus; !Ab 2019 zusätzliche Halte in Brühl und Wesseling nur noch im Schulverkehr!;Brühl Mitte;Wesseling (Stadtbahn);REVG
+931;bus;Quelle gtfs;Frechen, Königsdorf Widderstr.;Frechen Rathaus;REVG Rhein-Erft-Verkehrsgesellschaft mbH
 933;bus;;Manheim;Kerpen;REVG
 935;bus;;Brühl Mitte;Hürth-Hermülheim;REVG
+937;bus;Quelle gtfs;Elsdorf, Oberembt Mitte;Bergheim Bf;REVG Rhein-Erft-Verkehrsgesellschaft mbH
 # 939;bus;Kein Fahrplan über VRS-Info;;;
 
 # 940;bus;Kein Fahrplan über VRS-Info;;;
 941;bus;;Elsdorf;Horrem;REVG
+944;bus;Quelle gtfs;Kerpen, Brüggen Am alten Bahnhof;Kerpen Europagymnasium;REVG Rhein-Erft-Verkehrsgesellschaft mbH
 945;bus;;Bergheim Bf;Gewerbegebiet Paffendorf;REVG
 949;bus;;Brauweiler;Weiden Zentrum;REVG
+
 950;bus;;Weiden;Rödingen;REVG
 955;bus;;Kerpen;Lechenich;REVG
 957;bus;Schulverkehr;Königsdorf;Frechen;REVG
@@ -743,6 +912,7 @@ TB 835;bus;;;;
 986;bus;;Heimerzheim;Weilerswist;REVG
 987;bus;Schulverkehr Bedburg;;;REVG
 988;bus;;Elsdorf;Bedburg;REVG
+
 990;bus;;Herrig;Brühl Mitte;REVG
 
 

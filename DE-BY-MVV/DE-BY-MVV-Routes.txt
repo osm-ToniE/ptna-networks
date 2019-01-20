@@ -206,10 +206,10 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 212;bus;;Grasbrunn;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
 213;bus;;Ostbahnhof U S R;Taufkirchen, Lilienthalstraße;RVO/Geldhauser
 214;bus;;Riemerling, Altenheim;Hohenbrunn;Verkehrsbetrieb Ettenhuber GmbH
-215;bus;!Änderung ab 09.12.2018: Teile werden von 218 übernommen!;Lohhof S Süd;Unterschleißheim S Ost;VBR GmbH, München
+215;bus;;Lohhof S Süd;Unterschleißheim S Ost;VBR GmbH, München
 216;bus;;Taufkirchen, Hugo-Junkers-Straße;Faistenhaar;RVO/Geldhauser
 217;bus;;Neuperlach Süd U S;Unterhaching S;Demmelmair GmbH & Co
-218;bus;!Neue Buslinie ab 09.12.2018!;Unterschleißheim S West;Lohhof S Süd;VBR GmbH/Busverkehr Südbayern GmbH
+218;bus;;Unterschleißheim S West;Lohhof S Süd;VBR GmbH/Busverkehr Südbayern GmbH
 219;bus;!Änderung ab 09.12.2018: neue Haltestelle St.-Korbinian in Unterschleißheim!;Garching-Hochbrück U;Unterschleißheim S Ost;VBR GmbH, München
 220;bus;;Winning;Giesing U S;Verkehrsbetrieb Ettenhuber GmbH
 221;bus;;Unterhaching S;München, Waldheimplatz;Verkehrsbetrieb Ettenhuber GmbH
@@ -217,7 +217,7 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 223;bus;;Sauerlach S;Arget;Verkehrsbetrieb Ettenhuber GmbH
 224;bus;;Unterhaching S;Höllriegelskreuth S;Demmelmair GmbH & Co
 225;bus;;Taufkirchen S;Gewerbegebiet Potzham;Geldhauser
-226;bus;!Änderung ab 09.12.2018: Verlängert nach Deisenhofen (S/R) / Abt-Petto-Straße (Gymnasium)!;Sauerlach S;Deisenhofen S R;RVO/Geldhauser
+226;bus;;Sauerlach S;Deisenhofen S R;RVO/Geldhauser
 227;bus;;Ortsbus Oberhaching;;Busservice Watzinger
 229;bus;;Ottobrunn, Phönix Bad;Neuperlach Süd U S;Geldhauser
 230;bus;;Fischerhäuser;Garching-Forschungszentrum U;VBR GmbH, München
