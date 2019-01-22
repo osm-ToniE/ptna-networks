@@ -209,9 +209,7 @@ T87;bus;Taxibus;;;Stadtwerke Münster
 243;bus;;;;Regionalverkehr Münsterland GmbH
 247;bus;;;;RVM
 248;bus;;;;
-250;bus;;;;Weilke Reisen
-250a;bus;;;;Weilke Reisen
-250b;bus;;;;Weilke Reisen
+250|250a|250b;bus;;;;Weilke Reisen
 253;bus;;Greven;Schmedehausen;Weilke Reisen
 255;bus;;;;Weilke Reisen
 256;bus;;;;Weilke Reisen
