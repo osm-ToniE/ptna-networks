@@ -117,8 +117,8 @@ RE99;train;;;;DB Regio Hessen
 
 == S-Bahn
 
-S1;light_rail;;Haste;Minden (Westfalen);DB Regio AG
-S5;light_rail;;Hannover Flughafen;Paderborn Hbf/Bad Pyrmont;DB Regio AG
+S1;train;;Haste;Minden (Westfalen);DB Regio AG
+S5;train;;Hannover Flughafen;Paderborn Hbf/Bad Pyrmont;DB Regio AG
 -
 
 == Teilraum Münsterland
@@ -1148,9 +1148,9 @@ T114;bus;;;;Stadtwerke Hamm GmbH Verkehr
 
 === Kreis Unna
 
-5;bus;;;;Märkische Verkehrsgesellschaft GmbH
-23;bus;;;;Märkische Verkehrsgesellschaft GmbH
-27;bus;;;;Märkische Verkehrsgesellschaft GmbH
+5;bus;;Letmathe, Mitte/Iserlohn, Stübbeken/Letmathe, Bahnhof/Letmathe, Gymnasium/Iserlohn, Lasbeck;Ergste, Kirchstraße/Iserlohn, Lasbeck;Märkische Verkehrsgesellschaft GmbH
+23;bus;;Fröndenberg;Menden;Märkische Verkehrsgesellschaft GmbH
+27;bus;;Unna;Menden;Märkische Verkehrsgesellschaft GmbH
 105;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 106;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 107;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
@@ -1164,7 +1164,7 @@ T114;bus;;;;Stadtwerke Hamm GmbH Verkehr
 126;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 127;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 128;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
-132;bus;;;;Busverkehr Ruhr-Sieg GmbH
+132;bus;;Neuenrade, Bahnhof/Balve, Höveringhausen/Balve, Schulzentrum/Garbeck, Schulstraße;Fröndenberg, Bahnhof P+R/Menden, Bahnhof/Menden, Nordwall;Busverkehr Ruhr-Sieg GmbH
 138;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 140;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
 141;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
@@ -1513,7 +1513,7 @@ T661;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
 === Märkischer Kreis
 
 1;bus;;;;Märkische Verkehrsgesellschaft
-5;bus;;;;Märkische Verkehrsgesellschaft GmbH
+5;bus;;Ergste, Kirchstraße/Iserlohn, Lasbeck;Letmathe, Mitte/Iserlohn, Stübbeken/Letmathe, Bahnhof/Letmathe, Gymnasium/Iserlohn, Lasbeck;Märkische Verkehrsgesellschaft GmbH
 6;bus;;;;Märkische Verkehrsgesellschaft
 7;bus;;;;Märkische Verkehrsgesellschaft
 8;bus;;;;Märkische Verkehrsgesellschaft
@@ -1529,11 +1529,11 @@ T661;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
 18;bus;;;;BRS Busverkehr Ruhr-Sieg
 21;bus;;;;MVG
 22;bus;;;;Märkische Verkehrsgesellschaft
-23;bus;;;;Märkische Verkehrsgesellschaft GmbH
+23;bus;;Menden;Fröndenberg;Märkische Verkehrsgesellschaft GmbH
 24;bus;;;;MVG
 25 ALF;bus;;;;MVG
 26 ALF;bus;;;;MVG
-27;bus;;;;Märkische Verkehrsgesellschaft GmbH
+27;bus;;Menden;Unna;Märkische Verkehrsgesellschaft GmbH
 32;bus;;;;Märkische Verkehrsgesellschaft
 34;bus;;;;Märkische Verkehrsgesellschaft
 36;bus;;;;MVG
@@ -1575,7 +1575,7 @@ T661;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
 96;bus;;;;MVG
 98;bus;;;;Märkische Verkehrsgesellschaft
 
-132;bus;;;;Busverkehr Ruhr-Sieg GmbH
+132;bus;;Fröndenberg, Bahnhof P+R/Menden, Bahnhof/Menden, Nordwall;Neuenrade, Bahnhof/Balve, Höveringhausen/Balve, Schulzentrum/Garbeck, Schulstraße;Busverkehr Ruhr-Sieg GmbH
 134;bus;;;;BRS
 137;bus;;;;MVG
 221;bus;;;;MVG

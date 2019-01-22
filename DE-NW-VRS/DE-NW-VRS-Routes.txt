@@ -56,7 +56,7 @@
 -
 - Zum Dritten werden Änderungen zu den '''Fahrplanwechsel''' anhand der [https://www.vrsinfo.de/aktuelles/aenderungen-zum-fahrplanwechsel.html VRS-Informationen] manuell hier eingepflegt. 
 -
-- Zum Vierten werden gtfs-Datensätze des VRS manuell hier eingepflegt. 
+- Zum Vierten werden '''gtfs-Datensätze des VRS''' manuell hier eingepflegt. 
 -
 - Ziel ist aber die Erstellung dieser Datei aus VRS-Daten mit allen zum VRS gehörigen Linien. 
 - Die Liste kommt idealerweise direkt vom und mit Hilfe des VRS (copyright!).
@@ -92,6 +92,7 @@
 
 - .
 === gtfs Daten Stand 17.01.2019
+
 - Eingesetzt mit Kommentar "Quelle gtfs".
 - Bei Präzisierungen bitte den Kommentar "Quelle gtfs" der Zeile entfernen.
 -
@@ -99,6 +100,7 @@
 - Als Haltestellename ist die dortige Angabe "Ort, Ortsteil Haltestellenname" übernommen.
 - Als Betreiber ist die dortige Angabe meist "Abkürzungsname Langname" übernommen.
 - Beide Angaben sind keine Vorgaben für osm , sondern nur als Hinweis zu verstehen. Insbesondere ist die Gesellschaftsform in osm entbehrlich.
+
 - . 
 == Zug
 
@@ -113,7 +115,7 @@ RE9;train;über Köln;Siegen;Aachen;DB Regio NRW
 RE12;train;;Trier;Köln;DB Regio NRW
 
 RE22;train;ab Gerolstein Fortführung als Linie RB22 bis Trier;Köln;Gerolstein;DB Regio NRW
-#RB22;train;nur noch im Gebiet des VRT;Gerolstein;Trier;
+# RB22;train;nur noch im Gebiet des VRT;Gerolstein;Trier;
 RB23;train;Erfttalbahn;Euskirchen;Bad Münstereifel;DB Regio NRW
 RB24;train;;Köln;Gerolstein;DB Regio NRW
 RB25;train;über Gummersbach;Köln;Lüdenscheid;DB Regio NRW
@@ -127,7 +129,6 @@ RB39;train;;Bedburg (Erft);Düsseldorf;VIAS
 RB48;train;über Köln, Solingen;Bonn-Mehlem;Wuppertal;National Express Rail
 RB90;train;über Au (Sieg);Limburg (Lahn);Siegen;Vectus
 
-
 - .
 == S-Bahn
 
@@ -138,34 +139,30 @@ S13;train;via Köln/Bonn Flughafen;Troisdorf;Düren;DB Regio NRW
 S19;train;via Köln/Bonn Flughafen;Düren;Au (Sieg);DB Regio NRW
 S23;train;Voreifelbahn;Bonn;Euskirchen;DB Regio NRW
 
-
 - .
 == U-Bahn/Straßenbahn
 
 1;tram;Quelle gtfs;Köln, Weiden West;Bergisch Gladbach, Bensberg;KVB Kölner Verkehrs-Betriebe AG
-#E;tram;Quelle gtfs;Köln, Junkersdorf;Köln, Brück Mauspfad;KVB Kölner Verkehrs-Betriebe AG
+# E;tram;Kein Fahrplan über VRS-Infos , Quelle gtfs;Köln, Junkersdorf;Köln, Brück Mauspfad;KVB Kölner Verkehrs-Betriebe AG
 3;tram;Quelle gtfs;Köln, Bocklemünd Görlinger-Zentrum;Köln, Dellbrück Thielenbruch;KVB Kölner Verkehrs-Betriebe AG
 4;tram;Quelle gtfs;Köln, Bocklemünd;Leverkusen, Schlebusch;KVB Kölner Verkehrs-Betriebe AG
 5;tram;Quelle gtfs;Köln, Ossendorf Sparkasse Am Butzweilerhof;Köln, Heumarkt;KVB Kölner Verkehrs-Betriebe AG
 7;tram;Quelle gtfs;Frechen, Benzelrath Frechen-Benzelrath;Köln, Zündorf;KVB Kölner Verkehrs-Betriebe AG
 9;tram;Quelle gtfs;Köln, Sülz Hermeskeiler Platz;Köln, Rath/Heumar Königsforst;KVB Kölner Verkehrs-Betriebe AG
-E;tram;Quelle gtfs;Köln, Chorweiler;Köln, Holweide Vischeringstr.;KVB Kölner Verkehrs-Betriebe AG
+E;tram;Kein Fahrplan über VRS-Info , Quelle gtfs;Köln, Chorweiler;Köln, Holweide Vischeringstr.;KVB Kölner Verkehrs-Betriebe AG
 
 12;tram;Quelle gtfs;Köln, Zollstock Südfriedhof;Köln, Merkenich;KVB Kölner Verkehrs-Betriebe AG
 13;tram;Quelle gtfs;Köln, Klettenberg Sülzgürtel;Köln, Holweide Vischeringstr.;KVB Kölner Verkehrs-Betriebe AG
 15;tram;Quelle gtfs;Köln, Ubierring;Köln, Chorweiler;KVB Kölner Verkehrs-Betriebe AG
-16;tram;Rheinuferbahn;;;
-#16;tram;Quelle gtfs;Bonn, Bad Godesberg Stadthalle;Köln, Niehl Sebastianstr.;KVB Kölner Verkehrs-Betriebe AG
+16;tram;Rheinuferbahn , Quelle gtfs;Bonn, Bad Godesberg Stadthalle;Köln, Niehl Sebastianstr.;KVB Kölner Verkehrs-Betriebe AG
 17;tram;Quelle gtfs;Köln, Rodenkirchen Bf;Köln, Severinstr.;KVB Kölner Verkehrs-Betriebe AG
-18;tram;Vorgebirgsbahn;;;
-#18;tram;Quelle gtfs;Köln, Klettenberg Klettenbergpark;Köln, Dellbrück Thielenbruch;KVB Kölner Verkehrs-Betriebe AG
+18;tram;Vorgebirgsbahn , Quelle gtfs;Köln, Klettenberg Klettenbergpark;Köln, Dellbrück Thielenbruch;KVB Kölner Verkehrs-Betriebe AG
 
 61;tram;Quelle gtfs;Bonn, Dottendorf Quirinusplatz;Bonn, Auerberg Kopenhagener Str.;SWB Stadtwerke Bonn Verkehrs GmbH
 62;tram;Quelle gtfs;Bonn, Dottendorf Quirinusplatz;Bonn, Oberkassel Süd/Römlinghoven;SWB Stadtwerke Bonn Verkehrs GmbH
 63;tram;Quelle gtfs;Bonn, Bad Godesberg Stadthalle;Bonn, Tannenbusch Mitte;SWB Stadtwerke Bonn Verkehrs GmbH
 65;tram;Quelle gtfs;Bonn, Beuel Bf;Bonn, Auerberg Kopenhagener Str.;SWB Stadtwerke Bonn Verkehrs GmbH
-66;tram;via Bonn Hbf;;;
-#66;tram;Quelle gtfs;Bad Honnef (Stadtbahn);Siegburg Bf;SWB Stadtwerke Bonn Verkehrs GmbH
+66;tram;via Bonn Hbf , Quelle gtfs;Bad Honnef (Stadtbahn);Siegburg Bf;SWB Stadtwerke Bonn Verkehrs GmbH
 67;tram;Quelle gtfs;Bonn, Bad Godesberg Stadthalle;Bonn, Brühler Str.;SWB Stadtwerke Bonn Verkehrs GmbH
 68;tram;Quelle gtfs;Bonn Hbf;Bornheim;SWB Stadtwerke Bonn Verkehrs GmbH
 
@@ -175,18 +172,17 @@ E;tram;Quelle gtfs;Köln, Chorweiler;Köln, Holweide Vischeringstr.;KVB Kölner 
 
 === Nachtbus
 
-N1;bus;Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
-N2;bus;Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
-N3;bus;Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
-N4;bus;Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
-N5;bus;Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
-N6;bus;Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
-N7;bus;Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
+N1;bus;via Buschdorf , Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
+N2;bus;via Duisdorf  , Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
+N3;bus;via Plittersdorf , Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
+N4;bus;via Gielgen , Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
+N5;bus;via Röttgen , Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
+N6;bus;via Brüser Berg , Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
+N7;bus;via Mehlem , Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
 N8;bus;Existiert zweimal im VRS: Hier Bonn - Oberkassel;Bonn Hbf;Bonn Hbf;SWB
 N8;bus;Existiert zweimal im VRS: Hier Leichlingen;Leichlingen Bf;Kleine Heide;Wiedenhoff
-N9;bus;Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
-
-N10;bus;Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
+N9;bus;via Alfter , Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
+N10;bus;via Heiderhof , Quelle gtfs;Bonn Hbf;Bonn Hbf;SWB Stadtwerke Bonn Verkehrs GmbH
 
 N20;bus;Quelle gtfs;Leverkusen, Opladen Busbf;Langenfeld (S);wupsi wupsi GmbH
 N21;bus;Quelle gtfs;Leverkusen, Wiesdorf Rathaus-Galerie;Leverkusen, Lützenkirchen Forellental;wupsi wupsi GmbH
@@ -196,21 +192,15 @@ N24;bus;Quelle gtfs;Leverkusen, Wiesdorf Rathaus-Galerie;Leverkusen, Wiesdorf Ra
 N25;bus;Quelle gtfs;Leverkusen, Opladen Busbf;Burscheid, Hilgen Raiffeisenplatz;wupsi wupsi GmbH
 N26;bus;verkehrt nur in Richtung Wermelskirchen;Köln Hbf;Wermelskirchen;RVK
 
-N41;bus;Rundkurs über Paffrath, Odenthal;Berg. Gladbach;Berg. Gladbach;
-#N41;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach (S);wupsi wupsi GmbH
-N42;bus;Rundkurs über Odenthal, Paffrath;Berg. Gladbach;Berg. Gladbach;
-#N42;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach (S);wupsi wupsi GmbH
+N41;bus;Rundkurs über Paffrath, Odenthal , Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach (S);wupsi wupsi GmbH
+N42;bus;Rundkurs über Odenthal, Paffrath , Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach (S);wupsi wupsi GmbH
 N43;bus;Quelle gtfs;Bergisch Gladbach (S);Kürten, Ahlenbacher Mühle;wupsi wupsi GmbH
 N44;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach (S);wupsi wupsi GmbH
-N45;bus;via Bensberg, Herkenrath;;;
-#N45;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach (S);RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
-N46;bus;via Herkenrath, Bensberg;;;
-#N46;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach (S);RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
-N47;bus;;;;
-N47;bus;Quelle gtfs;Bergisch Gladbach, Bensberg;Bergisch Gladbach, Bensberg;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
+N45;bus;via Bensberg, Herkenrath , Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach (S);RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
+N46;bus;via Herkenrath, Bensberg , Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach (S);RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
+N47;bus;via Overath , Quelle gtfs;Bergisch Gladbach, Bensberg;Bergisch Gladbach, Bensberg;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
 
-N89;bus;!Neu im Fahrplan 2019!;Bonn;Lüftelberg;Kreis Euskirchen Verkehrsunternehmen
-#N89;bus;Quelle gtfs;Bonn Hbf;Meckenheim, Lüftelberg Ort;RVK Regionalverkehr Köln GmbH NL Meckenheim
+N89;bus;!Neu im Fahrplan 2019! , Quelle gtfs;Bonn Hbf;Meckenheim, Lüftelberg Ort;RVK Regionalverkehr Köln GmbH NL Meckenheim
 
 
 - .
@@ -238,55 +228,41 @@ SB82;bus;;Kall;Vogelsang;RVK
 121;bus;Quelle gtfs;Köln, Langel linksrheinisch Langel Fähre;Köln, Nippes Neusser Str./Gürtel;KVB Kölner Verkehrs-Betriebe AG
 122;bus;Quelle gtfs;Köln, Longerich Wilhelm-Sollmann-Str.;Köln, Pesch Schulstr.;KVB Kölner Verkehrs-Betriebe AG
 123;bus;Quelle gtfs;Köln, Chorweiler;Köln, Roggendorf Further Str.;KVB Kölner Verkehrs-Betriebe AG
-124;bus;Neu im Fahrplan 2019;Breslauer Platz/Hbf;Gewerbegebiet Feldkassel;KVB
-#124;bus;Quelle gtfs;Köln, Breslauer Platz/Hbf;Köln, Langel linksrheinisch Gewerbegebiet Feldkassel;KVB Kölner Verkehrs-Betriebe AG
+124;bus;Neu im Fahrplan 2019 , Quelle gtfs;Köln, Breslauer Platz/Hbf;Köln, Langel linksrheinisch Gewerbegebiet Feldkassel;KVB Kölner Verkehrs-Betriebe AG
 125;bus;Quelle gtfs;Köln, Volkhoven/Weiler Weiler;Pulheim, Sinnersdorf Kirche;KVB Kölner Verkehrs-Betriebe AG
 126;bus;Quelle gtfs;Köln, Bocklemünd;Köln, Chorweiler;KVB Kölner Verkehrs-Betriebe AG
-127;bus;Abschnitt Ebertplatz - Lentpark entfällt im Fahrplan 2019;Ebertplatz;Longerich;KVB
-#127;bus;Quelle gtfs;Köln, Ebertplatz;Köln, Longerich Longericher Str.;KVB Kölner Verkehrs-Betriebe AG
+127;bus;Abschnitt Ebertplatz - Lentpark entfällt im Fahrplan 2019 , Quelle gtfs;Köln, Ebertplatz;Köln, Longerich Longericher Str.;KVB Kölner Verkehrs-Betriebe AG
 
-130;bus;;Sürth;Universität;KVB
-#130;bus;Quelle gtfs;Köln, Sürth Bf;Köln, Sülz Universität;KVB Kölner Verkehrs-Betriebe AG
-131;bus;;Sürth;Sülz;
-#131;bus;Quelle gtfs;Köln, Sürth Bf;Köln, Sülz Berrenrather Str./Gürtel (Linie 131);KVB Kölner Verkehrs-Betriebe AG
+130;bus;Quelle gtfs;Köln, Sürth Bf;Köln, Sülz Universität;KVB Kölner Verkehrs-Betriebe AG
+131;bus;Quelle gtfs;Köln, Sürth Bf;Köln, Sülz Berrenrather Str./Gürtel (Linie 131);KVB Kölner Verkehrs-Betriebe AG
 132;bus;Quelle gtfs;Köln, Meschenich Frankenstr.;Köln, Breslauer Platz/Hbf;KVB Kölner Verkehrs-Betriebe AG
 133;bus;Quelle gtfs;Köln, Zollstock Südfriedhof;Köln, Breslauer Platz/Hbf;KVB Kölner Verkehrs-Betriebe AG
-134;bus;Neu im Fahrplan 2019;Sürth;Universität;KVB
-#134;bus;Quelle gtfs;Köln, Sürth Bf;Köln, Sülz Universität;KVB Kölner Verkehrs-Betriebe AG
-135;bus;;Rodenkirchen;Meschenich;
-#135;bus;Quelle gtfs;Köln, Rodenkirchen Uferstr.;Köln, Meschenich Kirche;KVB Kölner Verkehrs-Betriebe AG
+134;bus;Neu im Fahrplan 2019 , Quelle gtfs;Köln, Sürth Bf;Köln, Sülz Universität;KVB Kölner Verkehrs-Betriebe AG
+135;bus;Quelle gtfs;Köln, Rodenkirchen Uferstr.;Köln, Meschenich Kirche;KVB Kölner Verkehrs-Betriebe AG
 136;bus;Quelle gtfs;Köln, Lindenthal Hohenlind;Köln, Neumarkt;KVB Kölner Verkehrs-Betriebe AG
 138;bus;Quelle gtfs;Köln, Höningen Güterverkehrszentrum Süd;Köln, Zollstock Südfriedhof;KVB Kölner Verkehrs-Betriebe AG
 139;bus;Quelle gtfs;Köln, Bickendorf Äußere Kanalstr.;Köln, Longerich Longericher Str.;KVB Kölner Verkehrs-Betriebe AG
 
 140;bus;Quelle gtfs;Köln, Ebertplatz;Köln, Braunsfeld Aachener Str./Gürtel;KVB Kölner Verkehrs-Betriebe AG
-141;bus;;Weiden;Vogelsang;
-#141;bus;Quelle gtfs;Köln, Weiden Zentrum;Köln, Vogelsang Kolkrabenweg;KVB Kölner Verkehrs-Betriebe AG
+141;bus;Quelle gtfs;Köln, Weiden Zentrum;Köln, Vogelsang Kolkrabenweg;KVB Kölner Verkehrs-Betriebe AG
 142;bus;Quelle gtfs;Köln, Ubierring;Köln, Nippes Merheimer Platz;KVB Kölner Verkehrs-Betriebe AG
-143;bus;;Lövenich;Bocklemünd;
-#143;bus;Quelle gtfs;Köln, Lövenich Saarstr.;Köln, Vogelsang Kolkrabenweg;KVB Kölner Verkehrs-Betriebe AG
-144;bus;;Lövenich;Gewerbegebiet Vogelsang;KVB
-#144;bus;Quelle gtfs;Köln, Lövenich Bf Lövenich;Köln, Vogelsang Wasseramselweg;KVB Kölner Verkehrs-Betriebe AG
-145;bus;;Bocklemünd;Bachem;
-#145;bus;Quelle gtfs;Köln, Bocklemünd;Frechen, Bachem Wilhelm-Leuschner-Str.;KVB Kölner Verkehrs-Betriebe AG
+143;bus;Mo-Fr tagsüber ab/bis Bocklemünd , Quelle gtfs;Köln, Lövenich Saarstr.;Köln, Vogelsang Kolkrabenweg;KVB Kölner Verkehrs-Betriebe AG
+144;bus;Quelle gtfs;Köln, Lövenich Bf Lövenich;Köln, Vogelsang Wasseramselweg;KVB Kölner Verkehrs-Betriebe AG
+145;bus;Quelle gtfs;Köln, Bocklemünd;Frechen, Bachem Wilhelm-Leuschner-Str.;KVB Kölner Verkehrs-Betriebe AG
 146;bus;Quelle gtfs;Köln, Lindenthal Deckstein;Köln, Neumarkt;KVB Kölner Verkehrs-Betriebe AG
 147;bus;Quelle gtfs;Köln, Bilderstöckchen Am Bilderstöckchen;Köln, Niehl;KVB Kölner Verkehrs-Betriebe AG
-149;bus;Weiden-Widdersdorf-Weiden;;;
-#149;bus;Quelle gtfs;Köln, Widdersdorf Im Buschfelde;Köln, Weiden Zentrum;KVB Kölner Verkehrs-Betriebe AG
+149;bus;Quelle gtfs;Köln, Widdersdorf Im Buschfelde;Köln, Weiden Zentrum;KVB Kölner Verkehrs-Betriebe AG
 
-150;bus;;Kalk;Mülheim;
-#150;bus;Quelle gtfs;Köln, Kalk Corintostr.;Köln, Mülheim Bf Mülheim;KVB Kölner Verkehrs-Betriebe AG
+150;bus;Quelle gtfs;Köln, Kalk Corintostr.;Köln, Mülheim Bf Mülheim;KVB Kölner Verkehrs-Betriebe AG
 151;bus;Quelle gtfs;Köln, Porz Markt;Leverkusen, Wiesdorf CHEMPARK S-Bahn;KVB Kölner Verkehrs-Betriebe AG
 152;bus;Quelle gtfs;Köln, Porz Markt;Leverkusen, Wiesdorf CHEMPARK S-Bahn;KVB Kölner Verkehrs-Betriebe AG
 153;bus;Quelle gtfs;Köln, Deutz Bf Deutz / Messe  LANXESS arena;Köln, Mülheim Neuer Mülheimer Friedhof;KVB Kölner Verkehrs-Betriebe AG
 154;bus;Quelle gtfs;Köln, Porz Markt;Köln, Dünnwald Waldbad;KVB Kölner Verkehrs-Betriebe AG
-155;bus;Ab Fahrplan 2019 Montag-Freitag bis „Mülheim Danzierstraße“ verlängert;Mühlheim;Stammheim;KVB
-#155;bus;Quelle gtfs;Köln, Mülheim Berliner Str.;Köln, Stammheim Bonhoefferstr.;KVB Kölner Verkehrs-Betriebe AG
+155;bus;Fahrplan 2019 Mo-Fr bis „Mülheim Danzierstraße“ verlängert , Quelle gtfs;Köln, Mülheim Berliner Str.;Köln, Stammheim Bonhoefferstr.;KVB Kölner Verkehrs-Betriebe AG
 156;bus;Quelle gtfs;Köln, Mülheim Wiener Platz;Köln, Mülheim Neuer Mülheimer Friedhof;KVB Kölner Verkehrs-Betriebe AG
 157;bus;Quelle gtfs;Köln, Ostheim;Köln, Dünnwald Aeltgen-Dünwald-Str.;KVB Kölner Verkehrs-Betriebe AG
 158;bus;Quelle gtfs;Köln, Merheim LVR Kliniken;Köln, Merheim;KVB Kölner Verkehrs-Betriebe AG
-159;bus;;Poll;Buchheim;
-#159;bus;Quelle gtfs;Köln, Poll Schüttewerk;Köln, Buchheim Herler Str.;KVB Kölner Verkehrs-Betriebe AG
+159;bus;Quelle gtfs;Köln, Poll Schüttewerk;Köln, Buchheim Herler Str.;KVB Kölner Verkehrs-Betriebe AG
 
 160;bus;Quelle gtfs;Köln, Porz Markt;Köln, Lind Linder Mauspfad;KVB Kölner Verkehrs-Betriebe AG
 161;bus;Quelle gtfs;Köln, Porz Markt;Köln, Grengel/Flughafen Köln/Bonn Flughafen Bf;KVB Kölner Verkehrs-Betriebe AG
@@ -297,20 +273,16 @@ SB82;bus;;Kall;Vogelsang;RVK
 166;bus;Quelle gtfs;Köln, Porz Markt;Köln, Urbach Kaiserstr.;KVB Kölner Verkehrs-Betriebe AG
 167;bus;Quelle gtfs;Köln, Wahn S-Bahn;Köln, Wahn S-Bahn;KVB Kölner Verkehrs-Betriebe AG
 
-179;bus;Neu im Fahrplan 2019;Neubrück;Deutz;KVB
-#179;bus;Quelle gtfs;Köln, Neu-Brück Ludwig-Quidde-Platz;Köln, Deutz Bf Deutz / Messe  LANXESS arena;KVB Kölner Verkehrs-Betriebe AG
+179;bus;Neu im Fahrplan 2019 , Quelle gtfs;Köln, Neu-Brück Ludwig-Quidde-Platz;Köln, Deutz Bf Deutz / Messe LANXESS arena;KVB Kölner Verkehrs-Betriebe AG
 
 184;bus;Taxibus;Ebertplatz | Neusser Str./Gürtel;Lentpark;KVB
-185;bus;;;;
+185;bus;Abendverkehr;Köln, Porz Markt;Köln, Lind Linder Mauspfad;KVB
 
 # 190;bus;Linie existiert nicht mehr im Fahrplan 2018 und 2019;;;
 191;bus;Quelle gtfs;Köln, Ostheim;Köln, Ostheim Bertha-Benz-Karree;KVB Kölner Verkehrs-Betriebe AG
-192;bus;;Köln-Meschenich;Hürth-Kalscheuren;
-#192;bus;Quelle gtfs;Köln, Meschenich Kirche;Hürth, Kalscheuren Bf;KVB Kölner Verkehrs-Betriebe AG
-193;bus;;Köln-Kalk;Köln-Vingst;
-#193;bus;Quelle gtfs;Köln, Kalk Corintostr.;Köln, Vingst;KVB Kölner Verkehrs-Betriebe AG
-196;bus;;Köln Am grauen Stein;Köln Bf Deutz/LANXESS Arena;
-#196;bus;Quelle gtfs;Köln, Deutz Bf Deutz / Messe  LANXESS arena;Köln, Humboldt/Gremberg Am Grauen Stein;KVB Kölner Verkehrs-Betriebe AG
+192;bus;Quelle gtfs;Köln, Meschenich Kirche;Hürth, Kalscheuren Bf;KVB Kölner Verkehrs-Betriebe AG
+193;bus;Quelle gtfs;Köln, Kalk Corintostr.;Köln, Vingst;KVB Kölner Verkehrs-Betriebe AG
+196;bus;Quelle gtfs;Köln, Deutz Bf Deutz / Messe  LANXESS arena;Köln, Humboldt/Gremberg Am Grauen Stein;KVB Kölner Verkehrs-Betriebe AG
 
 
 - .

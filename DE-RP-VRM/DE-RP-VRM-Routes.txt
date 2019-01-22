@@ -47,7 +47,8 @@
 -
 - Verweis auf mehr [[Talk:Verkehrsverbund_Rhein-Mosel/Analyse|Informationen]] im Wiki.
 -
-- .
+-
+
 == Quellen 
 
 - Eine nützliche Quelle ist die [http://www.vrminfo.de/fahrplan/fahrgastinfo-auskunft/fahrplaene-nach-region/ Übersicht der Fahrpläne des VRM nach Kreisen].
@@ -55,7 +56,8 @@
 - Weiter hilfreich können die [http://www.vrminfo.de/fahrplan/fahrgastinfo-auskunft/uebersichtsplaene/ Übersichtspläne] auf verschiedenen Ebenen sein. 
 - Der Tarifwabenplan zeigt die Ausdehnung des VRM-Gebietes und kann von [http://www.vrminfo.de/fahrkarten/tarif/tarifwabenplan/ dieser Seite] geladen werden (PDF, 2MB).
 -
--.
+-
+
 == Hinweis
 
 - Bei der Analyse ist 'network' derzeit entweder
@@ -66,7 +68,8 @@
 -
 - * '''leer''', d.h. nicht gesetzt
 -
-- .
+-
+
 === Operator Abkürzungen 
 
 - * '''DB Regio''' -
@@ -87,7 +90,8 @@
 -
 - * '''VIAS''' - 
 -
-- .
+-
+
 -
 - * '''RMV''' - Rhein Mosel Verkehrsgesellschaft
 -
@@ -109,7 +113,8 @@
 #ref;type;comment;from;to;operator
 
 -
-- .
+-
+
 == Züge 
 
 === Regionalexpress
@@ -123,7 +128,8 @@ RE11;train;;Koblenz;Luxemburg;
 RE17;train;;Koblenz;Kaiserslautern;
 RE25;train;Lahntal-Express;Koblenz;Gießen;DB AG
 
-- .
+-
+
 === Regionalbahn
 
 RB10;train;Rechte-Rhein-Strecke;Neuwied;Frankfurt;VIAS
@@ -143,10 +149,12 @@ RB93;train;Rothaar-Bahn;Betzdorf (Sieg);Bad Berleburg;
 RB96;train;Hellertalbahn;Betzdorf;Dillenburg;HLB
 RB97;train;Daadetalbahn;Betzdorf;Daaden;Westerwaldbahn
 
-- .
+-
+
 == Busse
 
-- .
+-
+
 === Kreis Ahrweiler
 
 310;bus;;Andernach;Maria Laach;RMV
@@ -221,7 +229,8 @@ RB97;train;Daadetalbahn;Betzdorf;Daaden;Westerwaldbahn
 976;bus;;Glees;Mendig;RMV
 977;bus;;Volkesfeld;Mendig;FriBus 
 
-- .
+-
+
 === Kreis Neuwied
 
 50;bus;Ringverkehr Stadt Neuwied;;;MVB
@@ -232,7 +241,11 @@ RB97;train;Daadetalbahn;Betzdorf;Daaden;Westerwaldbahn
 55;bus;;Neuwied/Mini-ZOB;Heddesdorfer Berg;MVB
 56;bus;;Neuwied/Bf.;Hüllenberg;MVB
 58;bus;;Neuwied/Mini-ZOB;Oberbieber;MVB
-59;bus;;Neuwied/Mini-ZOB;Segendorf;Zickenheiner 
+59;bus;;Neuwied/Mini-ZOB;Segendorf;Zickenheiner
+
+101;bus;Rhein-Westerwald-Express;Neuwied;Horhausen;RMV
+142;bus;;Straßenhaus;Horhausen/Lautzert;DB Regio Bus Rhein-Mosel GmbH
+184;bus;;;;Omnibusbetrieb Auto-Schmidt
 
 522;bus;;Asbach;Hennef;MB/RSVG
 539 (A);bus;;Asbach;Oberpleis;MB
