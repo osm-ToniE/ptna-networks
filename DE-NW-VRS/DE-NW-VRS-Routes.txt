@@ -322,10 +322,8 @@ SB82;bus;;Kall;Vogelsang;RVK
 232;bus;Quelle gtfs;Leverkusen, Opladen Busbf;Langenfeld, Turnerstr.;wupsi wupsi GmbH
 233;bus;Quelle gtfs;Leverkusen, Wiesdorf Rathaus-Galerie;Monheim am Rhein, Monheim Busbf;wupsi wupsi GmbH
 238;bus;Quelle gtfs;Wermelskirchen, Dabringhausen Mitte;Odenthal Schule;wupsi wupsi GmbH
-239;bus;Quelle gtfs;Burscheid, Hilgen Raiffeisenplatz;Leverkusen, Opladen Busbf;wupsi wupsi GmbH
-#239/240;bus;;;;
-240;bus;Quelle gtfs;Burscheid, Hilgen Raiffeisenplatz;Leverkusen, Opladen Busbf;KGW Kraftverkehr Gebr. Wiedenhoff GmbH&Co.KG
-240;bus;Bus AST240 läuft parallel;Remscheid;Wermelskirchen;Stadtwerke Remscheid
+239;bus;;Opladen;Hilgen;wupsi
+240;bus;Bus AST240 läuft parallel;Opladen;Lennep;Stadtwerke Remscheid;Wiedenhoff
 244;bus;Quelle gtfs;Leverkusen, Hitdorf Concordiastr.;Leverkusen, Opladen Schule an der Wupper;wupsi wupsi GmbH
 249;bus;;;;
 
@@ -355,65 +353,86 @@ SB82;bus;;Kall;Vogelsang;RVK
 283;bus;;;;
 298;bus;;;;
 
+# Linien 626 und 671 (Remscheid / Wuppertal - Radevormwald)
+# Liniennummer aus VRR-Raum im Norden des VRS-Gebietes 
+# Die Online-Auskünfte werden teils vom VRS verwaltet. 
+626;bus;;Radevormwald;Barmen;OVAG;BVR
+671;bus;;Radevormwald;Lennep;Stadtwerke Remscheud;OVAG
 
 - .
 === Bus 300 Oberbergischer Kreis ...
 
 301;bus;;Gummersbach;Olpe;OVEG
-302;bus;!Ab Fahrplan 2019 zwischen Gummersbach und Wiehl als Schnellbus!;Gummersbach;Waldbröl;OVEG
-303;bus;!Im Fahrplan 2019 geänderte Struktur, Abschnitt Eckenhagen - Waldbröl teils bei der neuen Linie 345!;Gummersbach;Waldbröl;OVEG
-304;bus;!Neu im Fahrplan 2019, übernimmt den Abschnitt Gummersbach - Wiehl von Linie 302!;Gummersbach;Morsbach;OVEG
-306;bus;;;;
-307;bus;;;;
-308;bus;;Marienheide;Frielingsdorf;
+#301;bus;Quelle gtfs;Gummersbach Bf;Bergneustadt, Pernze Sportplatz;OVAG
+302;bus;!Ab Fahrplan 2019 zwischen Gummersbach und Wiehl als Schnellbus!;Gummersbach;Waldbröl;OVAG
+303;bus;!Im Fahrplan 2019 geänderte Struktur, Abschnitt Eckenhagen - Waldbröl teils bei der neuen Linie 345!;Gummersbach;Waldbröl;OVAG
+304;bus;!Neu im Fahrplan 2019, übernimmt den Abschnitt Gummersbach - Wiehl von Linie 302!;Gummersbach;Morsbach;OVAG
+306;bus;Quelle gtfs;Gummersbach Bf;Wiehl Busbf;OVAG
+307;bus;Quelle gtfs;Gummersbach Bf;Lindlar Busbf;OVAG
+308;bus;;Marienheide;Frielingsdorf;OVAG
+
 
 310;bus;;;;
-311;bus;;Nümbrecht;Waldbröl;
-312;bus;;;;
+310;bus;Quelle gtfs;Gummersbach Bf;Overath Bf;OVAG
+311;bus;;Nümbrecht;Waldbröl;OVAG
+312;bus;Quelle gtfs;Waldbröl Busbf;Engelskirchen, Ründeroth Bf;OVAG
 313;bus;Rundkurs;;;
+#313;bus;Quelle gtfs;Bergneustadt, Graf-Eberhard-Platz / Zentrum;Bergneustadt, Graf-Eberhard-Platz / Zentrum;OVAG
 314;bus;Rundkurs;;;
+#314;bus;Quelle gtfs;Bergneustadt, Graf-Eberhard-Platz / Zentrum;Bergneustadt, Graf-Eberhard-Platz / Zentrum;OVAG
 315;bus;Rundkurs;;;
-316;bus;;;;
-317;bus;;;;
+#315;bus;Quelle gtfs;Bergneustadt, Graf-Eberhard-Platz / Zentrum;Bergneustadt, Graf-Eberhard-Platz / Zentrum;OVAG Oberbergische Verkehrsgesellschaft mbH
+316;bus;Quelle gtfs;Gummersbach Bf;Gummersbach, Dieringhausen Bf;OVAG
+317;bus;Quelle gtfs;Gummersbach Bf;Engelskirchen, Ründeroth Bf;OVAG
 318;bus;;Gummersbach;Piene;
+#318;bus;Quelle gtfs;Gummersbach Bf;Gummersbach, Lieberhausen;OVAG
 319;bus;;Much;Ründeroth;
+#319;bus;Quelle gtfs;Wiehl, Drabenderhöhe Hermannstädter Gasse;Wiehl, Bielstein Busbf;OVAG
 
-320;bus;;Marienheide;Meinerzhagen;
-321;bus;;Wiehl;Eckenhagen;
+320;bus;;Marienheide;Meinerzhagen;OVAG
+321;bus;;Wiehl;Eckenhagen;OVAG
 322;bus;;;;
 323;bus;;Nümbrecht;Drabenderhöhe;
-324;bus;;Wiehl;Nümbrecht;
-325;bus;;;;
+#323;bus;Quelle gtfs;Nümbrecht, Marienberghausen Ort;Nümbrecht Schulzentrum;OVAG
+324;bus;;Wiehl;Nümbrecht;OVAG
+325;bus;Quelle gtfs;Wiehl Busbf;Gummersbach, Dieringhausen Bf;OVAG
 
 331;bus;;;;
-332;bus;;Wipperfürth;Engelskirchen;
-333;bus;;Wipperfürth;Engelskirchen;
+331;bus;Quelle gtfs;Lindlar, Remshagen Horpe;Engelskirchen Bf;OVAG
+332;bus;;Wipperfürth;Engelskirchen;OVAG
+333;bus;;Wipperfürth;Engelskirchen;OVAG
 335;bus;;Frielingsdorf;Bergisch Gladbach;
-336;bus;;;;
+#335;bus;Quelle gtfs;Lindlar, Frielingsdorf Busbf;Kürten, Dürscheid Miebach;OVAG
+336;bus;Quelle gtfs;Gummersbach Bf;Remscheid, Lennep Bf;OVAG
 336R;bus;;Röhnsal;Ohl;
-337;bus;Rundkurs über Egen;Wipperfürth;Wipperfürth;
-338;bus;Rundkurs über Kupferberg;Wipperfürth;Wipperfürth;
-339;bus;;;;
+#336R;bus;Quelle gtfs;Wipperfürth, Ohl/Klaswipper Ohl;Kierspe, Rönsahl Markt;OVAG
+337;bus;Rundkurs über Egen;Wipperfürth;Wipperfürth;OVAG
+338;bus;Rundkurs über Kupferberg;Wipperfürth;Wipperfürth;OVAG
+339;bus;Quelle gtfs;Hückeswagen, Bahnhofstr.;Radevormwald Busbf;OVAG
 
-340;bus;;;;
+340;bus;Quelle gtfs;Waldbröl Busbf;Morsbach Busbf;OVAG
 341;bus;;;;
-342;bus;;;;
-343;bus;;;;
-344;bus;;;;
+342;bus;Quelle gtfs;Waldbröl Busbf;Windeck, Schladern Bf;OVAG
+343;bus;Quelle gtfs;Waldbröl Busbf;Windeck, Leuscheid Markt;OVAG
+344;bus;Quelle gtfs;Waldbröl Busbf;Windeck, Rosbach Bf;OVAG
 345;bus;!Neu im Fahrplan 2019, übernimmt Teile der Linie 303!;Eckenhagen;Waldbröl;OVEG
+#345;bus;Quelle gtfs;Reichshof, Eckenhagen;Waldbröl Busbf;OVAG
 346;bus;Schulverkehr Nümbrecht;;;
-348;bus;;;;
+#346;bus;Quelle gtfs;Nümbrecht Schulzentrum;Nümbrecht Schulzentrum;OVAG
 347;bus;Verkehrsverbund Rhein Mosel;Wissen;Morsbach;H. Ochsenbrücher GmbH
-349;bus;Rundkurs Morsbach;;;Oberbergische Verkehrsgesellschaft mbH 
+348;bus;Quelle gtfs;Gummersbach, Derschlag Busbf;Gummersbach, Dieringhausen Bf;OVAG
+349;bus;Rundkurs Morsbach;;;OVAG 
+#349;bus;Quelle gtfs;Morsbach Busbf;Morsbach Busbf;OVAG
 
-361;bus;;;;
-362;bus;;;;
-363;bus;;;;
-364;bus;;;;
-365;bus;;;;
-398;bus;;Lindlar;Schmitzhöhe;
+361;bus;Quelle gtfs;Gummersbach Bf;Gummersbach, Strombach Weststr.;OVAG
+362;bus;Quelle gtfs;Gummersbach Bf;Gummersbach Bf;OVAG
+363;bus;Quelle gtfs;Gummersbach Bf;Gummersbach Bf;OVAG
+364;bus;Quelle gtfs;Gummersbach Bf;Gummersbach Bf;OVAG
+365;bus;Quelle gtfs;Gummersbach Bf;Gummersbach, Strombach Weststr.;OVAG
+
+398;bus;;Lindlar;Schmitzhöhe;OVAG
 399;bus;Ortsverkehr Marienheide;;;
-
+#399;bus;Quelle gtfs;Marienheide, Holzwipper Börlinghausen;Marienheide Bf;OVAG
 
 - .
 === Bus 400 Rheinisch-Bergischer Kreis ...
@@ -462,10 +481,10 @@ SB82;bus;;Kall;Vogelsang;RVK
 - .
 === Bus 500 Rhein-Sieg-Kreis (rechtsrheinisch) ...
 
-501/164;bus;;;;
+501/164;bus;Gemeinschaftslinie (Köln / Rhein-Sieg-Kreis);Siegburg;Porz Wahn;
 501/167;bus;Rundkurs Wahn-S, Nachtverkehr als Linie 501 bis Lülsdorf;;;
 501;bus;Quelle gtfs;Siegburg Bf;Niederkassel, Rheidt Unterführung;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
-502;bus;Quelle gtfs;Siegburg Bf;Siegburg Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+502;bus;Rundkurs über Brückberg + Wolsdorf , Quelle gtfs;Siegburg Bf;Siegburg Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 503;bus;Quelle gtfs;Siegburg Bf;Troisdorf, Sieglar RSVG;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 504;bus;Quelle gtfs;Troisdorf, Spich Bf;Niederkassel, Lülsdorf Stahlenstr.;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 505;bus;Quelle gtfs;Köln, Wahn S-Bahn;Troisdorf, Spich Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
@@ -478,7 +497,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 511;bus;Quelle gtfs;Siegburg, Schneffelrath;Siegburg Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 512;bus;Quelle gtfs;Königswinter, Ittenbach Busbf;Siegburg Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 513;bus;Quelle gtfs;Königswinter, Oberpleis Busbf;Siegburg Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
-#514;bus;Die Linie gibt es seit dem 12.12.2010 nicht mehr;;;
+# 514;bus;Die Linie gibt es seit dem 12.12.2010 nicht mehr;;;
 516;bus;Quelle gtfs;Bonn, Vilich-Müldorf Kirche;Hennef Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 517;bus;Quelle gtfs;Sankt Augustin, Meindorf Kirche;Sankt Augustin, Hangelar Ost;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 518;bus;Quelle gtfs;Sankt Augustin Zentrum;Sankt Augustin, Hangelar Grundschule;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
@@ -486,27 +505,26 @@ SB82;bus;;Kall;Vogelsang;RVK
 520;bus;Quelle gtfs;Königswinter, Oberpleis Busbf;Königswinter, Niederdollendorf Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 521;bus;Quelle gtfs;Königswinter, Oberpleis Busbf;Königswinter Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 522;bus;Quelle gtfs;Hennef, Uckerath Alter Zoll;Hennef Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
-523;bus;;;;
+523;bus;;Altenkirchen;Ückerath;
 524;bus;Quelle gtfs;Hennef, Uckerath Grundschule;Hennef Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 525;bus;Quelle gtfs;Königswinter, Oberpleis Busbf;Hennef Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
-526;bus;;;;
+526;bus;Rundkurs über Aegidienberg;Ittenbach;Ittenbach;
 527;bus;Quelle gtfs;Hennef Bf;Siegburg Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
-528;bus;;;;
+528;bus;Rundkurs über Hüchel;Ückerath;Ückerath;
 529;bus;Quelle gtfs;Bonn Hbf;Hennef Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 
 530;bus;Quelle gtfs;Hennef Bf;Waldbröl Krankenhaus;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 531;bus;Quelle gtfs;Hennef Bf;Ruppichteroth Denkmal;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 532;bus;Quelle gtfs;Hennef Bf;Hennef Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 533;bus;Quelle gtfs;Eitorf Bf;Eitorf Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
-534;bus;;;;
+534;bus;Taxibus;Neunkirchen;Litterscheid;
 535;bus;Quelle gtfs;Königswinter, Oberpleis Busbf;Sankt Augustin Zentrum;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 536;bus;Quelle gtfs;Königswinter, Eudenbach Sassenberg Wendeschleife;Königswinter, Oberpleis Busbf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 537;bus;Quelle gtfs;Königswinter, Oberpleis Busbf;Bonn Hbf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
-#538;bus;Die Linie gibt es seit dem 12.12.2010 nicht mehr;;;
-539;bus;;Oberpleis;Asbach;
-#539;bus;Quelle gtfs;Asbach (Ww), Asbach, Realschule Plus;Königswinter, Oberpleis Busbf;MB Martin Becker GmbH & Co. KG
+# 538;bus;Die Linie gibt es seit dem 12.12.2010 nicht mehr;;;
+539;bus;Quelle gtfs;Asbach (Ww), Asbach, Realschule Plus;Königswinter, Oberpleis Busbf;MB Martin Becker GmbH & Co. KG
 
-#540;bus;Die Linie gibt es seit dem 12.12.2010 nicht mehr;;;
+# 540;bus;Die Linie gibt es seit dem 12.12.2010 nicht mehr;;;
 541;bus;Quelle gtfs;Königswinter, Oberpleis Busbf;Königswinter Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 542;bus;!Schulverkehr Lohmar, entfällt mit Fahrplan 2019!;;;
 543;bus;!Schulverkehr Lohmar, entfällt mit Fahrplan 2019!;;;
@@ -517,21 +535,16 @@ SB82;bus;;Kall;Vogelsang;RVK
 # 548;bus;!Rundkurs Schulverkehr Lohmar, Linie fehlt entfällt jedoch mit Fahrplan 2019!;Lohmar;Lohmar;
 # 549;bus;!Schulverkehr Lohmar, Linie fehlt entfällt jedoch mit Fahrplan 2019!;Lohmar;Hollenberg;
 
-550/163;bus;;;;
-#550;bus;Quelle gtfs;Bonn Hbf;Niederkassel, Mondorf Realschule;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+550/163;bus;Gemeinschaftsline (Rhein-Sieg-Kreis / Bonn / Köln);Bonn Hbf;Porz Wahn;
+550;bus;Quelle gtfs;Bonn Hbf;Niederkassel, Mondorf Realschule;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 551;bus;Quelle gtfs;Bonn Hbf;Troisdorf Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
-553;bus;!Neu im Fahrplan 2019!;Lohmar;Neuhohnrath
-#553;bus;Quelle gtfs;Lohmar Märkte;Lohmar, Neuhonrath Grundschule;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
-554;bus;!2019 geänderte Linienführung via Birk und Heide!;Lohmar;Lohmar;
-#554;bus;Quelle gtfs;Lohmar Märkte;Lohmar Märkte;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
-555;bus;!Neu im Fahrplan 2019!;Siegburg;Pohlhausen;
-#555;bus;Quelle gtfs;Siegburg Bf;Neunkirchen-Seelscheid, Pohlhausen;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+553;bus;!Neu im Fahrplan 2019! , Quelle gtfs;Lohmar Märkte;Lohmar, Neuhonrath Grundschule;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+554;bus;!2019 geänderte Linienführung via Birk und Heide! , Quelle gtfs;Lohmar Märkte;Lohmar Märkte;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+555;bus;!Neu im Fahrplan 2019! , Quelle gtfs;Siegburg Bf;Neunkirchen-Seelscheid, Pohlhausen;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 556;bus;Quelle gtfs;Siegburg Bf;Rösrath Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 557;bus;Quelle gtfs;Siegburg Bf;Overath Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
-558;bus;!2019 neue Linienführung via Agger und Honrath!;Lohmar;Dahlhausen;
-#558;bus;Quelle gtfs;Lohmar Märkte;Lohmar, Honrath Dahlhaus;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
-559;bus;!Neu im Fahrplan 2019!;Lohmar;Kern;
-#559;bus;Quelle gtfs;Lohmar Märkte;Lohmar, Neuhonrath Grundschule;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+558;bus;!2019 neue Linienführung via Agger und Honrath! , Quelle gtfs;Lohmar Märkte;Lohmar, Honrath Dahlhaus;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+559;bus;!Neu im Fahrplan 2019! , Quelle gtfs;Lohmar Märkte;Lohmar, Neuhonrath Grundschule;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 
 560;bus;Quelle gtfs;Bad Honnef (Stadtbahn);Königswinter, Oberpleis Busbf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 562;bus;Quelle gtfs;Asbach (Ww), Asbach Markt;Bad Honnef (Stadtbahn);RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
@@ -544,14 +557,12 @@ SB82;bus;;Kall;Vogelsang;RVK
 572;bus;Quelle gtfs;Windeck, Leuscheid Markt;Windeck, Herchen Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 573;bus;Quelle gtfs;Eitorf Bf;Eitorf, Obereip Mühleip;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 575;bus;Quelle gtfs;Much Rathaus;Overath Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
-576;bus;!2019 neue Linienführung über Schreck, dafür entfallen Birk und Geber!;Siegburg;Much;
-#576;bus;Quelle gtfs;Siegburg Bf;Much Post;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+576;bus;!2019 neue Linienführung über Schreck, dafür entfallen Birk und Geber , Quelle gtfs;Siegburg Bf;Much Post;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 577;bus;Quelle gtfs;Siegburg Bf;Much Rathaus;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 578;bus;Quelle gtfs;Hennef Bf;Neunkirchen-Seelscheid, Neunkirchen Dahlerhof;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 579;bus;Quelle gtfs;Windeck, Rosbach Bf;Eitorf Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 
-590;bus;!Neu im Fahrplan 2019, Schulverkehr Lohmar!;;;
-#590;bus;Quelle gtfs;Lohmar, Neuhonrath Grundschule;Lohmar, Wahlscheid Kleinhecken;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+590;bus;!Neu im Fahrplan 2019, Schulverkehr Lohmar! , Quelle gtfs;Lohmar, Neuhonrath Grundschule;Lohmar, Wahlscheid Kleinhecken;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 592;bus;Quelle gtfs;Hennef, Lanzenbach;Hennef, Söven Grundschule;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 593;bus;Quelle gtfs;Neunkirchen-Seelscheid, Seelscheid Altenheim;Neunkirchen-Seelscheid, Neunkirchen Antoniusplatz;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 598;bus;Quelle gtfs;Hennef, Söven Grundschule;Königswinter, Oberpleis Busbf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
@@ -581,13 +592,9 @@ SB82;bus;;Kall;Vogelsang;RVK
 614;bus;Quelle gtfs;Bonn, Mehlem Im Rosenberg;Bonn, Bad Godesberg Koblenzer Str.;SWB Stadtwerke Bonn Verkehrs GmbH
 615;bus;Quelle gtfs;Bonn, Mehlem Giselherstr.;Bonn, Schweinheim Stadtwald/Ev. Krankenhaus;SWB Stadtwerke Bonn Verkehrs GmbH
 
-626;bus;Quelle gtfs;Radevormwald Busbf;Wuppertal, Barmen Oberbarmen Bf;OVAG Oberbergische Verkehrsgesellschaft mbH
-626;bus;Quelle gtfs;Radevormwald Busbf;Wuppertal, Barmen Oberbarmen Bf;BVR Busverkehr Rheinland GmbH
-
 630;bus;Quelle gtfs;Bonn, Venusberg Uniklinikum Süd;Bonn, Tannenbusch Agnetendorfer Str.;SWB Stadtwerke Bonn Verkehrs GmbH
 631;bus;Quelle gtfs;Bonn, Tannenbusch Agnetendorfer Str.;Bonn, Hochkreuz Robert-Schuman-Platz;SWB Stadtwerke Bonn Verkehrs GmbH
-632;bus;Im Fahrplan 2019 neue Linienführung über Poppelsdorf, Endenich, Nordstadt;Uniklinikum;Beuel Bf;
-#632;bus;Quelle gtfs;Bonn, Venusberg Uniklinikum Süd;Bonn, Beuel Bf;SWB Stadtwerke Bonn Verkehrs GmbH
+632;bus;Im Fahrplan 2019 neue Linienführung über Poppelsdorf, Endenich, Nordstadt , Quelle gtfs;Bonn, Venusberg Uniklinikum Süd;Bonn, Beuel Bf;SWB Stadtwerke Bonn Verkehrs GmbH
 633;bus;Quelle gtfs;Bonn, Duisdorf Bf;Bornheim, Sechtem Bf;SWB Stadtwerke Bonn Verkehrs GmbH
 635;bus;Quelle gtfs;Bonn, Ramersdorf;Sankt Augustin, Hangelar Ost;SWB Stadtwerke Bonn Verkehrs GmbH
 636;bus;Quelle gtfs;Bonn, Beuel Konrad-Adenauer-Platz;Sankt Augustin, Hangelar Ost;SWB Stadtwerke Bonn Verkehrs GmbH
@@ -596,10 +603,10 @@ SB82;bus;;Kall;Vogelsang;RVK
 
 640;bus;Quelle gtfs;Bonn Hbf;Siegburg Bf;SWB Stadtwerke Bonn Verkehrs GmbH
 
-671;bus;Quelle gtfs;Radevormwald Busbf;Remscheid, Lennep Remscheid Kreishaus;OVAG Oberbergische Verkehrsgesellschaft mbH
-671;bus;Quelle gtfs;Radevormwald Busbf;Remscheid, Lennep Remscheid Kreishaus;SR Stadtwerke Remscheid GmbH
-
 680;bus;Quelle gtfs;Bonn, Lessenich/Meßdorf Lessenich Sportplatz;Alfter, Gielsdorf Wasserturm;SWB Stadtwerke Bonn Verkehrs GmbH
+
+
+# VRR-Linien 626 und 671 (Radevormwald - Remscheid / Wuppertal) ans Ende des 2xx Block verschoben. 
 
 
 - .

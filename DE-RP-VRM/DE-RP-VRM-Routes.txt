@@ -212,7 +212,7 @@ RB97;train;Daadetalbahn;Betzdorf;Daaden;Westerwaldbahn
 852;bus;;(Lohrsdorf –) Bad Bodendorf;Remagen;DB Regio Bus
 853;bus;;Gimmigen;Remagen;DB Regio Bus
 854;bus;;Ringen;Bad Neuenahr (– Ahrweiler);DB Regio Bus
-856;bus;;Remagen-Oedingen;Bonn-Bad Godesberg;RVK
+# 856;bus;Kein VRM-Tarif;Remagen-Oedingen;Bonn-Bad Godesberg;RVK
 857;bus;;Meckenheim Bf;Bad Godesberg Bf;RVK
 859;bus;;Adenau;Kelberg;RMV
 
@@ -234,18 +234,65 @@ RB97;train;Daadetalbahn;Betzdorf;Daaden;Westerwaldbahn
 === Kreis Neuwied
 
 50;bus;Ringverkehr Stadt Neuwied;;;MVB
-51;bus;;NR-Bahnhof;Oberbieber;MVB
+51;bus;;Neuwied Bahnhof;Oberbieber;MVB
 52;bus;;Neuwied/Mini-ZOB;Heimbach-Weis;MVB
-53;bus;;Neuwied/Bf.;Segendorf;MVB
+53;bus;;Neuwied Bahnhof;Segendorf;MVB
 54;bus;;NR-Marktkirche;Bendorf;MVB
 55;bus;;Neuwied/Mini-ZOB;Heddesdorfer Berg;MVB
-56;bus;;Neuwied/Bf.;Hüllenberg;MVB
+56;bus;;Neuwied Bahnhof;Hüllenberg;MVB
 58;bus;;Neuwied/Mini-ZOB;Oberbieber;MVB
 59;bus;;Neuwied/Mini-ZOB;Segendorf;Zickenheiner
+67;bus;;Neuwied/Mini-ZOB;Gladbach;MVB
+70;bus;;Neuwied/Mini-ZOB;Neuwied;MVB
+71;bus;;Neuwied/Mini-ZOB;Neuwied;MVB
+73;bus;;Neuwied/Mini-ZOB;Oberbieber;MVB
+74;bus;;SWN;Gerwerbegebiet Distelfeld;MVB
+75;bus;;Neuwied/Mini-ZOB;Rodenbach;MVB
+76;bus;;Neuwied Bahnhof;Hüllenberg;MVB
 
-101;bus;Rhein-Westerwald-Express;Neuwied;Horhausen;RMV
-142;bus;;Straßenhaus;Horhausen/Lautzert;DB Regio Bus Rhein-Mosel GmbH
+101;bus;Rhein-Westerwald-Express;Neuwied;Horhausen;DB Regio Bus
+103;bus;;Neuwied Bahnhof;Dierdorf;VRW
+104;bus;;Dierdorf;Puderbach;Zickenheiner
+107;bus;;Neuwied/Mini-ZOB;Bendorf;Zickenheiner
+110;bus;;Weißenthurm;Neuwied Bahnhof;VRW
+117;bus;;Neuwied Schloßstraße;Dierdorf;VRW
+120;bus;;Dierdorf/Neustadt;Altenkirchen;RMV
+121;bus;;Puderbach;Altenkirchen;MB
+122;bus;;Seelbach;Altenkirchen;MB
+131;bus;;Neuwied;Asbach;DB Regio Bus
+132;bus;RegioLine;Horhausen;Altenkirchen;Zickenheiner
+133;bus;;Breite Heide;Unkel;MB
+134;bus;;Orsberg;Unkel;MB
+135;bus;Rhein-Höhen-Express;Linz;Neustadt;DB Regio Bus
+136;bus;;Linz;Roßbach;DB Regio Bus
+137;bus;Rhein-Wied-Express;Neuwied/Bad Hönningen;Neustadt;DB Regio Bus
+138;bus;;St. Katharinen-Homscheid;St. Katharinen-Steinshardt/St. Katharinen;DB Regio Bus
+139;bus;;Neustadt;Kalenborn;DB Regio Bus
+140;bus;;Straßenhaus;Buchholz;DB Regio Bus
+142;bus;;Straßenhaus;Horhausen/Lautzert;DB Regio Bus
+144;bus;;Dierdorf;Puderbach;VRW
+145;bus;;Puderbach;Dernbach;VRW
+147;bus;;Puderbach;Dierdorf;VRW
+148;bus;;Dierdorf;Brückrachdorf;VRW
+150;bus;;Bendorf;Bendorf;Zickenheiner
+151;bus;;Sayn;Bendorf:VRW
+160;bus;;Hachenburg;Koblenz;Orthen
+170;bus;;Neuwied;Linz am Rhein;RMV
+171;bus;;Niederbieber;Horhausen;DB Regio Bus
+172;bus;;Reifert;Waldbreitbach;DB Regio Bus
+173;bus;;Obernau/Rengsdorf;Horhausen;DB Regio Bus
+180;bus;;Hanroth;Dierdorf;Zickenheiner
 184;bus;;;;Omnibusbetrieb Auto-Schmidt
+185;bus;Rundverkehr;Waldbreitbach;Gemeinde Hausen;;Auto-Schmidt
+186;bus;;Kurtscheid;Waldbreitbach;Auto-Schmidt
+
+319;bus;;Siershahn;Koblenz/Neuwied;RMV
+335;bus;;Mayen;Neuwied;RMV
+357;bus;;Koblenz;Neuwied;RMV
+370;bus;;Koblenz;Mülheim-Kärlich;RMV
+
+461;bus;;Dierdorf/Selters;Siershahn;DB Regio Bus
+464;bus;;Dierdorf/Hachenburg;Montabaur;FriBus
 
 522;bus;;Asbach;Hennef;MB/RSVG
 539 (A);bus;;Asbach;Oberpleis;MB
@@ -253,5 +300,28 @@ RB97;train;Daadetalbahn;Betzdorf;Daaden;Westerwaldbahn
 562;bus;;Neustadt (Wied);Bad Honnef;MB/RSVG
 564;bus;;Asbach;Eitorf;MB/RSVG
 565;bus;Stadtverkehr;Bad Honnef (Stadtbahn);Linz;MB 
+
+969;bus;;Koblenz/Höhr-Grenzhausen;Neuwied-Niederbieber;RMV
+970;bus;;Deesen;Vallendar;RMV
+985;bus;;Gering;Niederbieber;FriBus
+994;bus;;Neuwied;Oberlahnstein;RMV
+
+AST;bus;;Bad Honnef;St. Katharinen;RSVG
+AST;bus;;Bruchhausen;Unkel;OG Bruchhausen
+AST;bus;;Dattenberg;Linz am Rhein;OG Dattenberg
+AST;bus;;Hesseln/Rothe Kreuz;Bahnhof Linz am Rhein;Stadt Linz am Rhein
+AST;bus;;Kasbach-Ohlenberg;Linz am Rhein;OG Kasbach-Ohlenburg
+AST;bus;;Leubsdorf;Linz Franziskus Krankenhaus;Stadt Linz am Rhein
+AST;bus;;Linz am Rhein;Roniger Hof;Stadt Linz am Rhein
+AST;bus;;Ockenfels;Linz am Rhein;OG Ockenfels
+AST;bus;;Vettelschoß;Franziskus-Krankenhaus;Stadt Linz am Rhein
+
+-
+
+== Fähren
+
+Rheinfähre;ferry;;Bad Honnef;Rolandseck;Fähre Honnef
+Rheinfähre;ferry;;Erpel;Remagen;Linz - Kripp
+Rheinfähre;ferry;;Linz;Kripp;Linz - Kripp 
 
 </pre>
