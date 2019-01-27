@@ -192,6 +192,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 186;bus;;Bamberg;München;FlixMobility GmbH
 189;bus;;Ulm;Berlin;FlixMobility GmbH
 191;bus;Seit 06.11.2017 nicht mehr buchbar, wurde eingestellt.;München;Budapest;FlixMobility GmbH
+197;bus;Prag;Linz;FlixMobility GmbH
 198;bus;;Tübingen;Hamburg;FlixMobility GmbH
 
 
@@ -255,6 +256,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 354;bus;;Saalfeld;Berlin;FlixMobility GmbH
 361;bus;;Essen;Frankfurt am Main;FlixMobility GmbH
 362;bus;;Graz;Salzburg;FlixMobility GmbH
+366;bus;;Wien;Prag;FlixMobility GmbH
 367;bus;Seit 26.04.2018 nicht mehr buchbar, wurde eingestellt.;Bremen;Laatzen;FlixMobility GmbH
 370;bus;seit 05.11.2018 nicht mehr buchbar, wurde eingestellt;Chemnitz;Berlin;FlixMobility GmbH
 373;bus;;Hamburg;Laatzen;FlixMobility GmbH
@@ -505,8 +507,10 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 853;bus;;Prag;Český Krumlov;FlixMobility GmbH
 854;bus;;Karlsbad;Prag;FlixMobility GmbH
 855;bus;Seit 09.06.2018 nicht mehr buchbar, wurde eingestellt;Brünn;Prag;FlixMobility GmbH
-856;bus;;;;
-858;bus;;;;
+856;bus;;Prag;Zlín;FlixMobility GmbH
+857;bus;;Prag;Trenčín;FlixMobility GmbH
+858;bus;;Prag;Most;FlixMobility GmbH
+859;bus;;Prag;Bratislava;FlixMobility GmbH
 
 
 == 9xx-Linien (Gebiet Slowenien, Kroatien, Slowakei, Ungarn westl. Rumänien etwa)
@@ -655,69 +659,69 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 1926;bus;;Hamburg;Bukarest;FlixMobility GmbH
 1927;bus;Seit 25.04.2018 nicht mehr buchbar, wurde eingestellt;Bukarest;Hamburg;FlixMobility GmbH
 1929;bus;;Brüssel;Bukarest;FlixMobility GmbH
-1940;bus;;;;
-1941;bus;;;;
-1942;bus;;;;
-1943;bus;;;;
-1944;bus;;;;
-1945;bus;;;;
-1946;bus;;;;
-1947;bus;;;;
-1948;bus;;;;
-1949;bus;;;;
-1950;bus;;;;
-1951;bus;;;;
-1952;bus;;;;
+1940;bus;;Bukarest;Varna;FlixMobility GmbH
+1941;bus;;Bukarest;Tulcea;FlixMobility GmbH
+1942;bus;;Galați;Bukarest;FlixMobility GmbH
+1943;bus;;Vaslui;Ploiești;FlixMobility GmbH
+1944;bus;;Brașov;Pașcani;FlixMobility GmbH
+1945;bus;;Sibiu;Sighișoara;FlixMobility GmbH
+1946;bus;;Sibiu;Târgoviște;FlixMobility GmbH
+1947;bus;;Sebeș;Reghin;FlixMobility GmbH
+1948;bus;;Deva;Alexandria;FlixMobility GmbH
+1949;bus;;Arad;Iași;FlixMobility GmbH
+1950;bus;;Sofia;Arad;FlixMobility GmbH
+1951;bus;;Arad;Sighetu Marmației;FlixMobility GmbH
+1952;bus;;Arad;Zalău;FlixMobility GmbH
 
 
 == Kooperationslinien mit anderen Busunternehmen
 
-K326;bus;;;;
-K380;bus;;;;
-K471;bus;Seit 31.12.2017 nicht mehr buchbar, wurde eingestellt.;;;
-K472;bus;;;;
-K473;bus;Seit 31.12.2017 nicht mehr buchbar, wurde eingestellt.;;;
-K474;bus;Seit 31.12.2017 nicht mehr buchbar, wurde eingestellt.;;;
-K476;bus;Seit 05.11.2018 nicht mehr buchbar, wurde eingestellt.;;;
-K487;bus;Seit 30.09.2017 nicht mehr buchbar, wurde eingestellt.;;;
-K490;bus;Seit 30.09.2017 nicht mehr buchbar, wurde eingestellt.;;;
-K780;bus;;;;
-K781;bus;Seit 03.09.2017 nicht mehr buchbar, wurde eingestellt.;;;
-K782;bus;;;;
-K783;bus;;;;
-K784;bus;;;;
-K785;bus;Seit 02.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
-K786;bus;Seit 02.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
+K326;bus;;Lautzenhausen;Heidelberg;BBK Barbis Verkehrsleistungen GmbH
+K380;bus;;Breslau Flughafen;Breslau Busbahnhof;Polbus-PKS sp.z o.o.
+K471;bus;Seit 31.12.2017 nicht mehr buchbar, wurde eingestellt.;Wien;Klagenfurt;Blaguss Reisen GmbH
+K472;bus;;Wien Erdberg;Wien Flughafen Schwechat;Blaguss Reisen GmbH
+K473;bus;Seit 31.12.2017 nicht mehr buchbar, wurde eingestellt.;Salzburg;Graz;Blaguss Reisen GmbH
+K474;bus;Seit 31.12.2017 nicht mehr buchbar, wurde eingestellt.;Linz;Graz;Blaguss Reisen GmbH
+K476;bus;Seit 05.11.2018 nicht mehr buchbar, wurde eingestellt.;Linz;Prag;Blaguss Reisen GmbH
+K487;bus;Seit 30.09.2017 nicht mehr buchbar, wurde eingestellt.;Palermo;Genua;GNV
+K490;bus;Seit 30.09.2017 nicht mehr buchbar, wurde eingestellt.;Neapel;Palermo;GNV
+K780;bus;;Lissabon;Luxemburg;SOCIEDAD DE TRANSPORTES S.L.
+K781;bus;Seit 03.09.2017 nicht mehr buchbar, wurde eingestellt.;Madrid;Rennes;SOCIEDAD DE TRANSPORTES S.L.
+K782;bus;;Viana do Castelo;Pierrelaye;SOCIEDAD DE TRANSPORTES S.L.
+K783;bus;;Vagos;Annecy;SOCIEDAD DE TRANSPORTES S.L.
+K784;bus;;Lissabon;Beausoleil;SOCIEDAD DE TRANSPORTES S.L.
+K785;bus;Seit 02.09.2018 nicht mehr buchbar, wurde eingestellt.;Porto;A Coruña;SOCIEDAD DE TRANSPORTES S.L.
+K786;bus;Seit 02.09.2018 nicht mehr buchbar, wurde eingestellt.;Fuengirola(Malaga);Porto;SOCIEDAD DE TRANSPORTES S.L.
 
 
 == Kooperationslinien mit Fernbusunternehmen Polskibus aus Polen
 
-KPB1;bus;Seite nicht mehr verfügbar.;;;
-KPB2;bus;Seite nicht mehr verfügbar.;;;
-KPB3;bus;Seite nicht mehr verfügbar.;;;
-KPB5;bus;Seite nicht mehr verfügbar.;;;
+KPB1;bus;Seite nicht mehr verfügbar.;Lublin;Krakau;Polskibus
+KPB2;bus;Seite nicht mehr verfügbar.;Lublin;Zakopane;Polskibus
+KPB3;bus;Seite nicht mehr verfügbar.;Lublin;Gdingen;Polskibus
+KPB5;bus;Seite nicht mehr verfügbar.;Lublin;Breslau;Polskibus
 
-P1;bus;;;;
-P3;bus;;;;
-P5;bus;Seit 06.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
-P6;bus;;;;
-P7;bus;;;;
-P12;bus;;;;
-P13;bus;Seit 13.06.2018 nicht mehr buchbar, wurde eingestellt.;;;
-P14;bus;;;;
-P15;bus;;;;
-P16;bus;;;;
-P22;bus;Seit 06.09.2018 nicht mehr buchbar, wurde eingestellt.;;;
-P24;bus;;;;
+P1;bus;;Danzig;Warschau;"PolskiBus" Souter Holdings Poland Sp. z o. o.
+P3;bus;Seit 06.09.2018 nicht mehr buchbar, wurde eingestellt.;Berlin;Warschau;"PolskiBus" Souter Holdings Poland Sp. z o. o.
+P5;bus;Seit 06.09.2018 nicht mehr buchbar, wurde eingestellt.;Warschau;Wien;"PolskiBus" Souter Holdings Poland Sp. z o. o.
+P6;bus;;Warschau;Krakau/Zakopane/Budapest;"PolskiBus" Souter Holdings Poland Sp. z o. o.
+P7;bus;;Lublin;Warschau;"PolskiBus" Souter Holdings Poland Sp. z o. o.
+P12;bus;;Danzig;Rzeszów;"PolskiBus" Souter Holdings Poland Sp. z o. o.
+P13;bus;Seit 13.06.2018 nicht mehr buchbar, wurde eingestellt.;Prag;Danzig;"PolskiBus" Souter Holdings Poland Sp. z o. o.
+P14;bus;;Krakau;Breslau;"PolskiBus" Souter Holdings Poland Sp. z o. o.
+P15;bus;;Breslau;Kattowitz;"PolskiBus" Souter Holdings Poland Sp. z o. o.
+P16;bus;Seit 06.09.2018 nicht mehr buchbar, wurde eingestellt.;Berlin;Zakopane;"PolskiBus" Souter Holdings Poland Sp. z o. o.
+P22;bus;Seit 06.09.2018 nicht mehr buchbar, wurde eingestellt.;Krakau;Wien;"PolskiBus" Souter Holdings Poland Sp. z o. o.
+P24;bus;;Berlin;Danzig;"PolskiBus" Souter Holdings Poland Sp. z o. o.
 
 
 == Skibusse
 
-SKI41;bus;Seit 05.04.2018 nicht mehr buchbar, wurde eingestellt.;;;
-SKI44;bus;Seit 05.04.2018 nicht mehr buchbar, wurde eingestellt.;;;
-SKI45;bus;Seit 05.04.2018 nicht mehr buchbar, wurde eingestellt.;;;
-SKI71;bus;;;;
-SKI72;bus;Seit 02.04.2018 nicht mehr buchbar, wurde eingestellt.;;;
+SKI41;bus;Seit 05.04.2018 nicht mehr buchbar, wurde eingestellt.;Bergamo;Cervinia;FlixMobility GmbH
+SKI44;bus;Seit 05.04.2018 nicht mehr buchbar, wurde eingestellt.;Passo de Tonale;Novara;FlixMobility GmbH
+SKI45;bus;Seit 05.04.2018 nicht mehr buchbar, wurde eingestellt.;Mailand;Aosta;FlixMobility GmbH
+SKI71;bus;;Paris;Tignes;FlixMobility GmbH
+SKI72;bus;Seit 02.04.2018 nicht mehr buchbar, wurde eingestellt.;Courbevoie;Chamonix-Mont-Blanc;FlixMobility GmbH
 
 
 == Expressbusse
@@ -945,6 +949,7 @@ N998;bus;;Zürich;Virovitica;FlixMobility GmbH
 
 N1210;bus;;Warschau;Gdingen;FlixMobility GmbH
 N1291;bus;;Wien;Krakau;FlixMobility GmbH
+N1293;bus;;Breslau;Budapest;FlixMobility GmbH
 
 N1300;bus;;Warschau;Prag;FlixMobility GmbH
 N1321;bus;;Berlin;Warschau;FlixMobility GmbH

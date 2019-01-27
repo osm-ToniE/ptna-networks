@@ -129,7 +129,7 @@ S5;train;;Hannover Flughafen;Paderborn Hbf/Bad Pyrmont;DB Regio AG
 2;bus;;;;Stadtwerke Münster
 4;bus;;;;Stadtwerke Münster
 5;bus;;;;Stadtwerke Münster
-6;bus;;;;Stadtwerke Münster
+6|E6;bus;;;;Stadtwerke Münster
 7;bus;;;;Stadtwerke Münster / Regionalverkehr Münsterland GmbH
 8;bus;;;;Stadtwerke Münster
 9;bus;;;;Stadtwerke Münster
@@ -696,36 +696,37 @@ T88;bus;;;;Regionalverkehr Münsterland GmbH
 37;bus;;;;moBiel GmbH
 38;bus;;Oerlinghausen;Stieghorst;moBiel GmbH
 39;bus;;Oerlinghausen;Sennestadt;moBiel GmbH
-46;bus;;;;moBiel GmbH
-47;bus;;;;moBiel GmbH
+46;bus;;Sennestadt;Stukenbrock;moBiel GmbH
+47;bus;;Sennestadt;Schloß Holte;moBiel GmbH
 51;bus;;;;moBiel GmbH
 51E;bus;;;;moBiel GmbH
 52;bus;;;;moBiel GmbH
 53;bus;;Jöllenbeck;Eickum;BVO Busverkehr Ostwestfalen GmbH
-54;bus;;;;moBiel GmbH
-55;bus;;;;moBiel GmbH
-56;bus;;;;moBiel GmbH
+54;bus;;Babenhausen Süd;Enger;moBiel GmbH
+55;bus;;Schildesche;Jöllenbeck;moBiel GmbH
+56;bus;;Babenhausen Süd;Spenge;moBiel GmbH
 57;bus;;Babenhausen Süd;Lohmannshof;moBiel GmbH
 58;bus;;Babenhausen Süd;Lohmannshof;moBiel GmbH
 59;bus;;Neuenkirchen;Bielefeld;BVO Busverkehr Ostwestfalen GmbH
 61;bus;;Bielefeld;Halle;BVO Busverkehr Ostwestfalen GmbH
 62;bus;;Bielefeld;Borgholzhausen;BVO Busverkehr Ostwestfalen GmbH
 63;bus;;Vilsendorf;Werther;BVO Busverkehr Ostwestfalen GmbH
-68;bus;;;;BVO Busverkehr Ostwestfalen GmbH
-80.2;bus;;;;TWV-Bus - Transdev Ostwestfalen GmbH
-81;bus;;;;moBiel GmbH
-82;bus;;;;moBiel GmbH
-83;bus;;;;TWV-Bus - Transdev Ostwestfalen GmbH
-87;bus;;;;moBiel GmbH
-88;bus;;;;BVO Busverkehr Ostwestfalen GmbH
-94;bus;;;;moBiel GmbH
-95;bus;;;;moBiel GmbH
-99;bus;;;;moBiel GmbH
-101;bus;;;;moBiel GmbH
+68;bus;;Schildesche;Steinhagen;BVO Busverkehr Ostwestfalen GmbH
+80.2;bus;;Bielefeld;Verl;TWV-Bus - Transdev Ostwestfalen GmbH
+81;bus;;Sennestadt;Stukenbrock;moBiel GmbH
+82;bus;;Brackwede;Stukenbrock;moBiel GmbH
+83;bus;;Bielefeld;Schoß Holte;TWV-Bus - Transdev Ostwestfalen GmbH
+87;bus;;Bielefeld/Brackwede Gymnasium;Gütersloh/Holtkamp;moBiel GmbH
+88;bus;;Bielefeld;Halle;BVO Busverkehr Ostwestfalen GmbH
+94;bus;;Brackwede;Gütersloh;moBiel GmbH
+95;bus;;Bielefeld/Brackwede Gymnasium;Gütersloh/Ummeln Gröppel;moBiel GmbH
+99;bus;;Milse;Herford;moBiel GmbH
+101;bus;;Schildesche;Herford;moBiel GmbH
 103;bus;;;;moBiel GmbH
 104;bus;;;;moBiel GmbH
 105;bus;;;;moBiel GmbH
 108;bus;;;;moBiel GmbH
+
 109;bus;;;;moBiel GmbH
 115;bus;;;;moBiel GmbH
 121;bus;;;;moBiel GmbH
@@ -742,7 +743,7 @@ T88;bus;;;;Regionalverkehr Münsterland GmbH
 154;bus;;;;moBiel GmbH
 155;bus;;;;moBiel GmbH
 156;bus;;;;moBiel GmbH
-157;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+157;bus;;Bielefeld;Werther;BVO Busverkehr Ostwestfalen GmbH
 158;bus;;;;moBiel GmbH
 196;bus;;;;moBiel GmbH
 224;bus;;;;moBiel GmbH
@@ -750,7 +751,7 @@ T88;bus;;;;Regionalverkehr Münsterland GmbH
 238;bus;;;;moBiel GmbH
 251;bus;;;;moBiel GmbH
 255;bus;;;;moBiel GmbH
-256;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+256;bus;;Jöllenbeck;Enger;BVO Busverkehr Ostwestfalen GmbH
 352;bus;;Milse;Herford;moBiel GmbH
 353;bus;;Schildesche;Eilshausen;BVO Busverkehr Ostwestfalen GmbH
 739;bus;;Ubbedissen;Lipperreihe;moBiel GmbH
@@ -780,10 +781,10 @@ AST;share_taxi;;;;moBiel GmbH
 === Kreis Gütersloh
 
 43;bus;;;;BVO Busverkehr Ostwestfalen GmbH
-46;bus;;Sennestadt;Stukenbrock;moBiel GmbH
-47;bus;;Sennestadt;Schloß Holte;moBiel GmbH
-48;bus;;Bielefeld;Brockhagen;BVO Busverkehr Ostwestfalen GmbH
-59;bus;;Bielefeld;Neuenkirchen;BVO Busverkehr Ostwestfalen GmbH
+46;bus;;Stukenbrock;Sennestadt;moBiel GmbH
+47;bus;;Schloß Holte;Sennestadt;moBiel GmbH
+48;bus;;Brockhagen;Bielefeld;BVO Busverkehr Ostwestfalen GmbH
+59;bus;;Neuenkirchen;Bielefeld;BVO Busverkehr Ostwestfalen GmbH
 60;bus;;Werther;Neuenkirchen;BVO Busverkehr Ostwestfalen GmbH
 61;bus;;Halle;Bielefeld;BVO Busverkehr Ostwestfalen GmbH
 62;bus;;Borgholzhausen;Bielefeld;BVO Busverkehr Ostwestfalen GmbH
@@ -791,7 +792,7 @@ AST;share_taxi;;;;moBiel GmbH
 65;bus;;Steinhagen;Avenwedde;BVO Busverkehr Ostwestfalen GmbH
 66;bus;;Spenge;Häger;BVO Busverkehr Ostwestfalen GmbH
 67;bus;;;;BVO Busverkehr Ostwestfalen GmbH
-68;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+68;bus;;Steinhagen;Schildesche;BVO Busverkehr Ostwestfalen GmbH
 70;bus;;Rheda;Lippstadt;TWV-Bus Transdev Ostwestfalen GmbH
 71;bus;;Gütersloh;Versmold;TWV-Bus Transdev Ostwestfalen GmbH
 71.1;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
@@ -838,20 +839,20 @@ AST;share_taxi;;;;moBiel GmbH
 85;bus;;Schloß Holte;Gütersloh;TWV-Bus Transdev Ostwestfalen GmbH
 85.1;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
 86;bus;;;;BVO Busverkehr Ostwestfalen GmbH
-87;bus;;Bielefeld;Gütersloh;moBiel GmbH
+87;bus;;Gütersloh/Holtkamp;Bielefeld/Brackwede Gymnasium;moBiel GmbH
 88;bus;;Bielefeld;Halle;BVO Busverkehr Ostwestfalen GmbH
 88E;bus;;;;BVO Busverkehr Ostwestfalen GmbH
-89;bus;;Werther;Peckeloh;BVO Busverkehr Ostwestfalen GmbH
-90;bus;;Versmold;Halle;TWV-Bus Transdev Ostwestfalen GmbH
+89;bus;;Werther/Halle;Versmold/Peckeloh;BVO Busverkehr Ostwestfalen GmbH
+90;bus;;Versmold/Borgholzhausen;Borgholzhausen/Halle;TWV-Bus Transdev Ostwestfalen GmbH
 91;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
 92;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
 93;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-94;bus;;Brackwede;Gütersloh;moBiel GmbH
-95;bus;;Bielefeld;Gütersloh;moBiel GmbH
+94;bus;;Gütersloh;Brackwede;moBiel GmbH
+95;bus;;Gütersloh/Ummeln Gröppel;Bielefeld/Brackwede Gymnasium;moBiel GmbH
 98;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 
 148;bus;;;;BVO Busverkehr Ostwestfalen GmbH
-157;bus;;Bielefeld;Werther;BVO Busverkehr Ostwestfalen GmbH
+157;bus;;Werther;Bielefeld;BVO Busverkehr Ostwestfalen GmbH
 160;bus;Bürgerbus Werther;;;BVO Busverkehr Ostwestfalen GmbH
 188;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 190;bus;;;;BVO Busverkehr Ostwestfalen GmbH
@@ -877,7 +878,7 @@ AST;share_taxi;;;;moBiel GmbH
 286;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 287;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 288;bus;;;;BVO Busverkehr Ostwestfalen GmbH
-388;bus;;;;moBiel GmbH
+388;bus;;Schloß Holte;Schildesche;moBiel GmbH
 389;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 
 Ha-T1;bus;;Halle;Ascheloh;go.on Gesellschaft für Bus- und Schienenverkehr mbH
@@ -914,16 +915,16 @@ Hw-T4;bus;;Harsewinkel;Breslauer Straße;TWV-Bus Transdev Ostwestfalen GmbH
 53;bus;;Eickum;Jöllenbeck;BVO Busverkehr Ostwestfalen GmbH
 59;bus;;Bielefeld;Neuenkirchen;BVO Busverkehr Ostwestfalen GmbH
 66;bus;;Häger;Spenge;BVO Busverkehr Ostwestfalen GmbH
-99;bus;;Milse;Herford;moBiel GmbH
-101;bus;;Schildesche;Herford;moBiel GmbH
+99;bus;;Herford;Milse;moBiel GmbH
+101;bus;;Herford;Schildesche;moBiel GmbH
 253;bus;;Herford;Laar;BVO Busverkehr Ostwestfalen GmbH
 256;bus;;Enger;Jöllenbeck;BVO Busverkehr Ostwestfalen GmbH
 333;bus;;Bad Seebruch;Hohenhausen;go.on Gesellschaft für Bus- und Schienenverkehr mbH
 334;bus;;Vlotho;Langenholzhausen;go.on Gesellschaft für Bus- und Schienenverkehr mbH
 352;bus;;Herford;Milse;moBiel GmbH
-353;bus;;Schildesche;Eilshausen;BVO Busverkehr Ostwestfalen GmbH
+353;bus;;Eilshausen;Schildesche;BVO Busverkehr Ostwestfalen GmbH
 408;bus;;Minden;Holzhausen;BVO Busverkehr Ostwestfalen GmbH
-414;bus;;Minden;Hausberge;BVO Busverkehr Ostwestfalen GmbH
+414;bus;;Minden/Lerbeck, Kirchweg;Hausberge/Barkhausen;BVO Busverkehr Ostwestfalen GmbH
 416;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 417;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 418;bus;;;;BVO Busverkehr Ostwestfalen GmbH
@@ -937,8 +938,7 @@ Hw-T4;bus;;Harsewinkel;Breslauer Straße;TWV-Bus Transdev Ostwestfalen GmbH
 431;bus;;;;WeserWerreBus GmbH
 432;bus;;Löhne;Mennighüffen;WeserWerreBus GmbH
 433;bus;;Herford;Bad Salzuflen;BVO Busverkehr Ostwestfalen GmbH
-434;bus;;Herford;Exter;BVO Busverkehr Ostwestfalen GmbH
-434/VB1;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+434|434/VB1;bus;;Herford;Exter;BVO Busverkehr Ostwestfalen GmbH
 435;bus;;Herford;Exter;BVO Busverkehr Ostwestfalen GmbH
 437;bus;;;;WeserWerreBus GmbH
 438;bus;;;;WeserWerreBus GmbH
@@ -954,7 +954,7 @@ Hw-T4;bus;;Harsewinkel;Breslauer Straße;TWV-Bus Transdev Ostwestfalen GmbH
 467;bus;;Spenge;Spenge;BVO Busverkehr Ostwestfalen GmbH
 468;bus;;Herford;Lippinghausen;BVO Busverkehr Ostwestfalen GmbH
 469;bus;;Schweicheln;Lippinghausen;BVO Busverkehr Ostwestfalen GmbH
-470;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+470;bus;;Lippinghausen;Lippinghausen;BVO Busverkehr Ostwestfalen GmbH
 500;bus;;Lahde;Petershagen;MKB-MühlenkreisBus GmbH
 501;bus;;Minden;Petershagen;MKB-MühlenkreisBus GmbH
 502;bus;;Minden;Petershagen;MKB-MühlenkreisBus GmbH
@@ -985,6 +985,7 @@ Hw-T4;bus;;Harsewinkel;Breslauer Straße;TWV-Bus Transdev Ostwestfalen GmbH
 544;bus;;Bünde;Stift Quernheim;Omnibus-Verkehrs-Gesellschaft Eduard Bollmeyer mbH & Co KG
 544/42;bus;;Bünde;Lübbecke;Omnibus-Verkehrs-Gesellschaft Eduard Bollmeyer mbH & Co KG
 545;bus;;Bünde;Klosterbauerschaft;Omnibus-Verkehrs-Gesellschaft Eduard Bollmeyer mbH & Co KG
+550;bus;;;;Stadtverkehrsgesellschaft Bünde mbH
 551;bus;;;;Transdev Ostwestfalen GmbH
 558;bus;;Stift Quernheim;Südlengern;Stoffregen-Omnibusbetrieb GmbH
 559;bus;;Kirchlengern;Bünde;Stoffregen-Omnibusbetrieb GmbH
@@ -1042,8 +1043,7 @@ Hw-T4;bus;;Harsewinkel;Breslauer Straße;TWV-Bus Transdev Ostwestfalen GmbH
 3/548;bus;;;;Stadtverkehrsgesellschaft Bünde mbH
 4/549;bus;;;;Stadtverkehrsgesellschaft Bünde mbH
 
-S1;bus;;;;BVO Busverkehr Ostwestfalen GmbH
-S1/S6;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+S1|S1/S6;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 S2;bus;Stadtbus Herford;;;BVO Busverkehr Ostwestfalen GmbH
 S2;bus;Vlotho;;;VlothoBus
 S3;bus;Stadtbus Herford;;;BVO Busverkehr Ostwestfalen GmbH
@@ -1071,7 +1071,7 @@ S6;bus;Stadtbus Herford;;;BVO Busverkehr Ostwestfalen GmbH
 390;bus;;Detmold;Augustdorf;Karl Köhne Omnibusbetriebe GmbH
 391;bus;Schulbus;;;Karl Köhne Omnibusbetriebe GmbH
 433;bus;;Herford;Bad Salzuflen;BVO Busverkehr Ostwestfalen GmbH
-595;bus;;Fürstenau;Rischenau;BVO Busverkehr Ostwestfalen GmbH
+595;bus;;Rischenau;Fürstenau;BVO Busverkehr Ostwestfalen GmbH
 700;bus;;Lemgo;Bad Pyrmont;Karl Köhne Omnibusbetriebe GmbH
 701;bus;Stadtbus Detmold;Pivitsheide;Berlebeck;SVD Stadtverkehr Detmold GmbH
 702;bus;Stadtbus Detmold;Meiersfeld;Kreishaus;SVD Stadtverkehr Detmold GmbH
@@ -1125,8 +1125,8 @@ S6;bus;Stadtbus Herford;;;BVO Busverkehr Ostwestfalen GmbH
 763;bus;Bürgerbus Lügde;;;Karl Köhne Omnibusbetriebe GmbH
 769;bus;;Lage;Oerlinghausen;BVO Busverkehr Ostwestfalen GmbH
 770;bus;;Glashütte;Wöbbel;Karl Köhne Omnibusbetriebe GmbH
-772;bus;;Detmold;Barntrup;Karl Köhne Omnibusbetriebe GmbH
-776;bus;;Detmold;Schieder/Steimheim;Karl Köhne Omnibusbetriebe GmbH
+772;bus;;Detmold/Bad Meinberg;Bad Meinberg/Blomberg/Barntrup;Karl Köhne Omnibusbetriebe GmbH
+776;bus;;Detmold/Bad Meinberg;Bad Meinberg/Schieder/Steinheim;Karl Köhne Omnibusbetriebe GmbH
 777;bus;;Detmold;Blomberg;Karl Köhne Omnibusbetriebe GmbH
 780;bus;;Detmold;Horn;Karl Köhne Omnibusbetriebe GmbH
 782;bus;;Detmold;Bad Meinberg;Karl Köhne Omnibusbetriebe GmbH
@@ -1144,10 +1144,10 @@ S6;bus;Stadtbus Herford;;;BVO Busverkehr Ostwestfalen GmbH
 803;bus;;;;Karl Köhne Omnibusbetriebe GmbH
 804;bus;;Bösingfeld;Barntrup;Karl Köhne Omnibusbetriebe GmbH
 805;bus;;;;Karl Köhne Omnibusbetriebe GmbH
-807;bus;;;;Karl Köhne Omnibusbetriebe GmbH
-809;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+807;bus;;Barntrup;Barntrup;Karl Köhne Omnibusbetriebe GmbH
+809;bus;;Barntrup;Grießem;Karl Köhne Omnibusbetriebe GmbH
 810;bus;;;;Karl Köhne Omnibusbetriebe GmbH
-834;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+834;bus;;Bösingfeld;Groß Berkel;Karl Köhne Omnibusbetriebe GmbH
 881;bus;Stadtbus Lemgo;Lüerdissen Dorf;Brake Schule;Stadtwerke Lemgo GmbH
 882;bus;Stadtbus Lemgo;Matorf;Stucken;Stadtwerke Lemgo GmbH
 883;bus;Stadtbus Lemgo;Biesterberg;Spiegelberg;Stadtwerke Lemgo GmbH
@@ -1751,8 +1751,8 @@ S3;bus;;;;Märkische Verkehrsgesellschaft
 
 === Kreis Paderborn
 
-1;bus;;;;Padersprinter
-2;bus;;;;Padersprinter
+1;bus;;Hauptbahnhof;Sennelager;Padersprinter
+2;bus;;Marienloh;Wewer;Padersprinter
 3;bus;;;;Padersprinter
 4;bus;;;;Padersprinter
 5;bus;;;;Padersprinter
@@ -1760,7 +1760,7 @@ S3;bus;;;;Märkische Verkehrsgesellschaft
 7;bus;;;;Padersprinter
 8;bus;;;;Padersprinter
 9;bus;;;;Padersprinter
-11;bus;;;;Padersprinter
+11;bus;;Hauptbahnhof;Thuner Siedlung;Padersprinter
 12;bus;;;;Padersprinter
 24;bus;;;;Padersprinter
 28;bus;;;;Padersprinter
@@ -1785,15 +1785,17 @@ S3;bus;;;;Märkische Verkehrsgesellschaft
 425;bus;;;;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
 426;bus;;;;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
 427;bus;;;;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
-431;bus;;;;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
+431;bus;;Paderborn;Bad Driburg;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
 432;bus;;Paderborn;Willebadessen;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
 433;bus;;;;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
-444;bus;;Paderborn;;BVO Busverkehr Ostwestfalen GmbH
+444;bus;;Schloß Neuhaus;Delbrück;BVO Busverkehr Ostwestfalen GmbH
 446;bus;;Delbrück;Heddinghausen;BVO Busverkehr Ostwestfalen GmbH
 447.1;bus;;Paderborn;Delbrück;BVO Busverkehr Ostwestfalen GmbH
 447.2;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+448;bus;;Delbrück;Delbrück;BahnBus Hochstift GmbH
 448.1;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 448.2;bus;;Delbrück;Delbrück;BVO Busverkehr Ostwestfalen GmbH
+449;bus;;Delbrück;Delbrück;BahnBus Hochstift GmbH
 449.1;bus;;Delbrück;Delbrück;BVO Busverkehr Ostwestfalen GmbH
 449.2;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 449.3;bus;;;;BVO Busverkehr Ostwestfalen GmbH
@@ -1812,6 +1814,7 @@ S3;bus;;;;Märkische Verkehrsgesellschaft
 484;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 486;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 487;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+488;bus;Bürgerbus Lichtenau;;;BVO Busverkehr Ostwestfalen GmbH
 491;bus;;Salzkotten;Ahden;BVO Busverkehr Ostwestfalen GmbH
 492;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 493;bus;;;;BVO Busverkehr Ostwestfalen GmbH
@@ -1831,8 +1834,8 @@ Bür6;bus;Stadtbus Büren;;;BVO Busverkehr Ostwestfalen GmbH
 D1;bus;Citybus Delbrück;Delbrück;Delbrück;BVO Busverkehr Ostwestfalen GmbH
 D2;bus;;Delbrück;Schöning;BVO Busverkehr Ostwestfalen GmbH
 D3;bus;;Delbrück;Hövelhof;BVO Busverkehr Ostwestfalen GmbH
-D4;bus;;;;BVO Busverkehr Ostwestfalen GmbH
-D5;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+D4;bus;;Delbrück;;BVO Busverkehr Ostwestfalen GmbH
+D5;bus;;Delbrück;;BVO Busverkehr Ostwestfalen GmbH
 
 N1;bus;;Zentralstation;Marienloh;Padersprinter
 N2;bus;;Zentralstation;Neuenbeken;Padersprinter
@@ -1887,7 +1890,7 @@ UNI;bus;;Uni/Südring;MuseumsForum;Padersprinter
 507;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 508;bus;Bürgerbus Warburg;;;BVO Busverkehr Ostwestfalen GmbH
 509;bus;;;;BVO Busverkehr Ostwestfalen GmbH
-511;bus;;;;Weser-Egge-Bus GmbH & Co. KG
+511;bus;;Rimbeck;Peckelsheim;Weser-Egge-Bus GmbH & Co. KG
 523;bus;;;;Weser-Egge-Bus GmbH & Co. KG
 524;bus;;;;Weser-Egge-Bus GmbH & Co. KG
 525;bus;;Beverungen;Brakel;Weser-Egge-Bus GmbH & Co. KG
@@ -1900,7 +1903,7 @@ UNI;bus;;Uni/Südring;MuseumsForum;Padersprinter
 552;bus;;Brakel;Borgentreich/Dahlhausen;Weser-Egge-Bus GmbH & Co. KG
 553;bus;;;;Weser-Egge-Bus GmbH & Co. KG
 554;bus;Bürgerbus Brakel;;;Weser-Egge-Bus GmbH & Co. KG
-555;bus;;;;Weser-Egge-Bus GmbH & Co. KG
+555;bus;;Brakel;Ottbergen;Weser-Egge-Bus GmbH & Co. KG
 557;bus;;;;Weser-Egge-Bus GmbH & Co. KG
 561S;bus;;;;Weser-Egge-Bus GmbH & Co. KG
 565;bus;;Peckelsheim;Borgentreich;Weser-Egge-Bus GmbH & Co. KG
@@ -1911,14 +1914,14 @@ UNI;bus;;Uni/Südring;MuseumsForum;Padersprinter
 578;bus;;;;Weser-Egge-Bus GmbH & Co. KG
 584;bus;;Nieheim;Vörden;Weser-Egge-Bus GmbH & Co. KG
 585;bus;;Brakel;Vörden;Weser-Egge-Bus GmbH & Co. KG
-588;bus;;;;Weser-Egge-Bus GmbH & Co. KG
+588;bus;;Brakel;Stahle;Weser-Egge-Bus GmbH & Co. KG
 589;bus;;;;Weser-Egge-Bus GmbH & Co. KG
 595;bus;;Rischenau;Fürstenau;BVO Busverkehr Ostwestfalen GmbH
 597;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 770;bus;;Wöbbel;Glashütte;Karl Köhne Omnibusbetriebe GmbH
-773;bus;;;;Karl Köhne Omnibusbetriebe GmbH
-774;bus;;;;Karl Köhne Omnibusbetriebe GmbH
-776;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+773;bus;;Steinheim;;Karl Köhne Omnibusbetriebe GmbH
+774;bus;;Steinheim;;Karl Köhne Omnibusbetriebe GmbH
+776;bus;;Detmold;Steinheim;Karl Köhne Omnibusbetriebe GmbH
 
 HX1;bus;Stadtbus Höxter;;;BVO Busverkehr Ostwestfalen GmbH
 HX2;bus;Stadtbus Höxter;;;BVO Busverkehr Ostwestfalen GmbH

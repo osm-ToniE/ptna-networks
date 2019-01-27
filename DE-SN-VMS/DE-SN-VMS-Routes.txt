@@ -129,7 +129,6 @@ I;bus;Tour 2: Freiberg (Friedeburg - Wasserberg - Seilerberg) - Busbahnhof - Ind
 23/141;bus;Zwickau, Hbf - Zwickau, Oberhohndorf - Reinsdorf - Vielau - Wildenfels - Hartenstein - Langenbach;;;SVZ;RVW
 24;bus;Auerbach - Neumarkt - Pöhlau;;;SVZ
 27;bus;Städtisches Klinikum - Paulusstraße - Neuplanitz - Planitz, Markt;;;SVZ
-27 E;bus;Zwickau, Baikal - Lichtentanne, Kirche;;;SVZ
 28;bus;Dresdner Straße - Eckersbach - Weißenborn;;;SVZ
 29/181;bus;Zwickau - Lichtentanne / Schönfels - Neumark - Reichenbach;;;SVZ;RVW
 A;bus;Nachtbus: Hauptmarkt - Neumarkt - Hbf - Marienthal - Neuplanitz - Cainsdorf - Wilkau-Haßlau - Hauptmarkt;Hauptmarkt;Hauptmarkt;SVZ
@@ -172,8 +171,8 @@ D;bus;Frankenberg, Süd - Neubaugebiet - Frankenberg, Süd;Frankenberg, Süd;Fra
 E;bus;Frankenberg, Süd - Lützelhöhe - Frankenberg, Süd;Frankenberg, Süd;Frankenberg, Süd;RBM
 
 === Hohenstein-Ernstthal
-1;bus;Bahnhof - Hüttengrund - Heiterer Blick - Bahnhof - Sonnenstraße - Wüstenbrand - Bahnhof;Hohenstein-Ernstthal, Bahnhof;Hohenstein-Ernstthal, Bahnhof;RVE
-2;bus;Bahnhof - Ernst-Thälmann-Siedlung - Fritz-Heckert-Siedlung - Bahnhof;Hohenstein-Ernstthal, Bahnhof;Hohenstein-Ernstthal, Bahnhof;RVE
+1;bus;Bahnhof - Hüttengrund - Heiterer Blick - Bahnhof - Sonnenstraße - Wüstenbrand - Bahnhof;Hohenstein-Ernstthal, Bahnhof;Hohenstein-Ernstthal, Bahnhof;RVW
+2;bus;Bahnhof - Ernst-Thälmann-Siedlung - Fritz-Heckert-Siedlung - Bahnhof;Hohenstein-Ernstthal, Bahnhof;Hohenstein-Ernstthal, Bahnhof;RVW
 
 === Kurort Oberwiesenthal
 A;bus;Fichtelberg-Plateau - Bahnhof - Sparingberg - Bahnhof - Fichtelberg-Plateau;Fichtelberg-Plateau;Fichtelberg-Plateau;RVE

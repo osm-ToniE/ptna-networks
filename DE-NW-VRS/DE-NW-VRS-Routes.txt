@@ -372,7 +372,6 @@ SB82;bus;;Kall;Vogelsang;RVK
 308;bus;;Marienheide;Frielingsdorf;OVAG
 
 
-310;bus;;;;
 310;bus;Quelle gtfs;Gummersbach Bf;Overath Bf;OVAG
 311;bus;;Nümbrecht;Waldbröl;OVAG
 312;bus;Quelle gtfs;Waldbröl Busbf;Engelskirchen, Ründeroth Bf;OVAG
@@ -397,7 +396,6 @@ SB82;bus;;Kall;Vogelsang;RVK
 324;bus;;Wiehl;Nümbrecht;OVAG
 325;bus;Quelle gtfs;Wiehl Busbf;Gummersbach, Dieringhausen Bf;OVAG
 
-331;bus;;;;
 331;bus;Quelle gtfs;Lindlar, Remshagen Horpe;Engelskirchen Bf;OVAG
 332;bus;;Wipperfürth;Engelskirchen;OVAG
 333;bus;;Wipperfürth;Engelskirchen;OVAG
@@ -445,12 +443,15 @@ SB82;bus;;Kall;Vogelsang;RVK
 423;bus;Quelle gtfs;Bergisch Gladbach, Bensberg;Köln, Rath/Heumar Königsforst;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
 424;bus;Quelle gtfs;Rösrath, Bitze;Rösrath, Bitze;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
 425;bus;Quelle gtfs;Overath, HIT-Markt;Overath, Untereschbach HIT Markt;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
-426;bus;Quelle gtfs;Bergisch Gladbach (S);Wipperfürth Busbf;OVAG Oberbergische Verkehrsgesellschaft mbH
-426;bus;Quelle gtfs;Bergisch Gladbach (S);Wipperfürth Busbf;wupsi wupsi GmbH
-427;bus;Quelle gtfs;Bergisch Gladbach (S);Wipperfürth Busbf;OVAG Oberbergische Verkehrsgesellschaft mbH
-427;bus;Quelle gtfs;Bergisch Gladbach (S);Kürten, Olpe;wupsi wupsi GmbH
-429;bus;Quelle gtfs;Kürten, Biesfeld;Wipperfürth Busbf;OVAG Oberbergische Verkehrsgesellschaft mbH
-429;bus;Quelle gtfs;Kürten, Olpe Weier;Wipperfürth Busbf;wupsi wupsi GmbH
+426;bus;;Bergisch Gladbach (S);Wipperfürth Busbf;OVAG;wupsi
+#426;bus;Quelle gtfs;Bergisch Gladbach (S);Wipperfürth Busbf;OVAG Oberbergische Verkehrsgesellschaft mbH
+#426;bus;Quelle gtfs;Bergisch Gladbach (S);Wipperfürth Busbf;wupsi wupsi GmbH
+427;bus;;Bergisch Gladbach (S);Wipperfürth Busbf;OVAG;wupsi
+#427;bus;Quelle gtfs;Bergisch Gladbach (S);Wipperfürth Busbf;OVAG Oberbergische Verkehrsgesellschaft mbH
+#427;bus;Quelle gtfs;Bergisch Gladbach (S);Kürten, Olpe;wupsi wupsi GmbH
+429;bus;;Kürten, Biesfeld;Wipperfürth Busbf;OVAG;wupsi
+#429;bus;Quelle gtfs;Kürten, Biesfeld;Wipperfürth Busbf;OVAG Oberbergische Verkehrsgesellschaft mbH
+#429;bus;Quelle gtfs;Kürten, Olpe Weier;Wipperfürth Busbf;wupsi wupsi GmbH
 
 430;bus;Quelle gtfs;Bergisch Gladbach (S);Burscheid, Füllsichel;wupsi wupsi GmbH
 431;bus;Quelle gtfs;Bergisch Gladbach (S);Odenthal, In der Follmühle;wupsi wupsi GmbH
