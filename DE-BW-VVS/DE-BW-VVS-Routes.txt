@@ -62,30 +62,17 @@ U13;light_rail;;Feuerbach;Hedelfingen;
 U14;light_rail;;Mühlhausen;Hauptbahnhof;
 U15;light_rail;;Stammheim;Heumaden;
 U16;light_rail;;Giebel;Fellbach;
-U19;light_rail;;Neugereut;NeckarPark (St.);
-U19;light_rail;;Bad Cannstatt Wilhelmsplatz;NeckarPark (Stadion);
+U19;light_rail;;Neugereut;NeckarPark (Stadion);
 U29;light_rail;;Hauptbahnhof;Botnang;
 U34;light_rail;;Heslach Vogelrain;Vogelsang;
 
-== Express U-Bahn
-
-X10;;;Flughafen/Messe;Kirchheim (T);
-X20;;;Esslingen;Waiblingen;
-X60;;;Flughafen/Messe;Leonberg;
-
-== Straßenbahn
-
-S1;tram;;Kirchheim (T);Herrenberg;
-S2;tram;;Schorndorf;Filderstadt;
-S3;tram;;Backnang;Flughafen/Messe;
-S4;tram;;Backnang;Stuttgart;
-S5;tram;;Bietigheim-Bissingen;Bietigheim-Stuttgart;
-S6;tram;;Weil der Stadt;Stuttgart;
-S11;tram;Stadionlinie;Neckarpark;Herrenberg;
-S60;tram;;Böblingen;Stuttgart;
-S63;tram;;Backnang;Flughafen/Messe;
-
 == Bus
+
+== Express Bus
+
+X10;bus;;Flughafen/Messe;Kirchheim (T);
+X20;bus;;Esslingen;Waiblingen;
+X60;bus;;Flughafen/Messe;Leonberg;
 
 === Bus 1 .. 99
 
@@ -126,7 +113,6 @@ S63;tram;;Backnang;Flughafen/Messe;
 90;bus;;Giebel;Korntal;
 91;bus;;Sindelf. Spitzholz;Feuerbach;
 92;bus;;Heslach Vogelrain;Stuttgart;
-92;bus;;Heslach Vogelrain;Stuttgart;
 94;bus;;Leonb. Waldfriedhof;Blosenbergk.;
 99;bus;;Zuffenhausen;Stammheim;
 
@@ -141,9 +127,6 @@ S63;tram;;Backnang;Flughafen/Messe;
 107;bus;;Plochingen;Aichelberg;
 108;bus;;Dulkhäusle;Esslingen (N) ZOB;
 109;bus;;Rüdern;Esslingen (N) ZOB;
-109;bus;;Rüdern;Esslingen (N) ZOB;
-110;bus;;Wäldenbronn;Esslingen (N) ZOB;
-110;bus;;Wäldenbronn;Esslingen (N) ZOB;
 110;bus;;Wäldenbronn;Esslingen (N) ZOB;
 111;bus;;Neckarhalde;Esslingen ZOB;
 112;bus;;Jägerhaus;Esslingen (N) ZOB;
@@ -168,7 +151,6 @@ S63;tram;;Backnang;Flughafen/Messe;
 145;bus;Stadtverkehr Wernau (Neckar);Wernau (N) Bahnhof;Bahnhof;
 146;bus;Stadtverkehr Wernau (Neckar);Wernau (N) Bahnhof;Bahnhof;
 148;bus;;Reichenbach Siegenberg;Rißhalde;
-149;bus;;Schorndorf;Plochingen;
 149;bus;;Schorndorf;Plochingen;
 151;bus;;Wendlingen (N) ZOB;Wendlingen (N);
 152;bus;;Wendlingen (N) Schulzentrum;Schulzentrum;
@@ -222,7 +204,6 @@ S63;tram;;Backnang;Flughafen/Messe;
 205;bus;;Schmiden;Waiblingen;
 206;bus;;Schnait;Waiblingen;
 207;bus;;Fellbach;Korb;
-207;bus;;Fellbach;Korb;
 208;bus;Citybus 1;Galgenberg;Waiblingen Bf;
 209;bus;;Endersbach;Waiblingen;
 210;bus;;Rems-Murr-Klinikum;Waiblingen;
@@ -236,7 +217,6 @@ S63;tram;;Backnang;Flughafen/Messe;
 228;bus;;Welzheim;Schorndorf;
 229;bus;;Krehwinkel;Miedelsbach;
 230;bus;;Althütte;Lindental;
-242;bus;;Schorndorf Bf;Schorndorf Bf;
 242;bus;;Schorndorf Bahnhof;Bahnhof;
 243;bus;;Plüderhausen;Schorndorf;
 244;bus;;Oppelsbohm;Schorndorf;
@@ -270,27 +250,19 @@ S63;tram;;Backnang;Flughafen/Messe;
 338;bus;;Erlenhof;Erlenhof;
 340;bus;;Winnenden;Hertmannsweiler;
 359;bus;;Lerchenäcker;Backnang ZOB;
-359;bus;;Lerchenäcker;Backnang ZOB;
 360;bus;;Rietenauer Weg;Sachsenweiler;
-360;bus;;Rietenauer Weg;Sachsenweiler;
-361;bus;;Steinbach;Heiningen;
 361;bus;;Steinbach;Heiningen;
 362;bus;;Tausgymnasium;Sachsenweiler;
 363;bus;;Backnang;Backnang;
 364;bus;;Marbach (N);Backnang;
 365;bus;;Oberbrüden;Backnang;
-365;bus;;Oberbrüden;Backnang;
 366;bus;;Däfern;Backnang;
 367;bus;;Kleinaspach;Backnang;
 368;bus;;Staigacker;Backnang;
 369;bus;;Industriegebiet Süd;Backnang ZOB;
-369;bus;;Industriegebiet Süd;Backnang ZOB;
 370;bus;;Murrbäder;Backnang ZOB;
 372;bus;inkl. Limesbus Nord;Mainhardt;Murrhardt;
-372;bus;inkl. Limesbus Nord;Mainhardt;Murrhardt;
 373;bus;;Murrhardt;Murrhardt;
-373;bus;;Murrhardt;Murrhardt;
-374;bus;;Murrhardt;Murrhardt;
 374;bus;;Murrhardt;Murrhardt;
 375;bus;inkl. Limesbus mit Fahrradanhänger;Welzheim;Murrhardt;
 377;bus;;Grab;Murrhardt;
@@ -319,7 +291,6 @@ S63;tram;;Backnang;Flughafen/Messe;
 422;bus;;Schlösslesfeld;Pflugfelden;
 423;bus;;Ludwigsburg Kreisberufsschule;ZOB;
 424;bus;;Ludwigsburg IKEA;ZOB;
-424;bus;;Ludwigsburg IKEA;ZOB;
 425;bus;;Oßweil;Eglosheim;
 426;bus;;Oßweil Nord;Ludwigsburg ZOB;
 427;bus;;Hoheneck;Pattonville;
@@ -329,15 +300,12 @@ S63;tram;;Backnang;Flughafen/Messe;
 432;bus;;Waiblingen;Ludwigsburg;
 433;bus;;Poppenweiler;Asperg;
 443;bus;;Marbach (N);Ludwigsburg;
-444;bus;;Steinheim (M);Ludwigsburg;
 444;bus;;Steinheim;Ludwigsburg;
-446;bus;;Kleiningersheim;Freiberg (N);
 446;bus;;Kleiningersheim;Freiberg (N);
 451;bus;;Aldingen;Marbach (N);
 453;bus;;Marbach (N);Marbach (N);
 455;bus;;Marbach;Backnang;
 456;bus;;Winnenden;Marbach (N);
-457;bus;;Marbach (N) Hörnle;Bahnhof;
 457;bus;;Marbach (N) Hörnle;Bahnhof;
 459;bus;;Besigheim;Freiberg (N);
 460;bus;;Marbach (N);Beilstein;
@@ -358,13 +326,9 @@ S63;tram;;Backnang;Flughafen/Messe;
 508;bus;;Zuffenhausen;Ludwigsburg;
 531;bus;;Schwieberdingen;Asperg;
 532;bus;;Oberriexingen;Ludwigsburg;
-532;bus;;Sachsenheim;Ludwigsburg;
 533;bus;;Markgröningen;Aldingen;
-533;bus;;Markgröningen;Aldingen;
-534;bus;;Hemmingen;Ludwigsburg;
 534;bus;;Hemmingen;Ludwigsburg;
 535;bus;;Ditzingen;Ludwigsburg;
-536;bus;;Möglingen;IKEA;
 536;bus;;Möglingen;IKEA;
 540;bus;;Bissingen Neuer Friedhof;Bietigheim ZOB;
 541;bus;;Unterriexingen;Tamm;
@@ -388,30 +352,22 @@ S63;tram;;Backnang;Flughafen/Messe;
 566;bus;;Vaihingen (E);Bietigheim;
 567;bus;;Murr;Hohenhaslach;
 568;bus;;Ottmarsheim;Freudental;
-568;bus;;Ottmarsheim;Freudental;
-571;bus;;Häfnerhaslach;Bietigheim;
 571;bus;;Häfnerhaslach;Bietigheim;
 572;bus;Wanderbus Stromer;Kirbachtal;Bietigheim;
 573;bus;;Ottmarsheim;Kirchheim (N);
 574;bus;;Bönnigheim;Besigheim;
-574;bus;;Bönnigheim;Besigheim;
 578;bus;;Vaihingen (E);Sersheim;
 579;bus;;Ensingen;Oberriexingen;
 590;bus;;Hohenhaslach;Vaihingen (E);
-590;bus;;Hohenhaslach;Vaihingen (E);
-592;bus;;Hochdorf;Gündelbach;
 592;bus;;Hochdorf;Gündelbach;
 595;bus;;Hochdorf;Vaihingen (E);
 
 === Bus 600 .. 699
 
 612;bus;;Hemmingen;Korntal;
-612;bus;;Hemmingen;Korntal;
 620;bus;;Weissach;Ditzingen;
-623;bus;;Schöckingen;Ditzingen;
-623;bus;;Schöckingen;Weilimdorf;
+623;bus;;Schöckingen;Ditzingen / Weilimdorf;
 624;bus;;Stadtverkehr Ditzingen;Stadtverkehr Ditzingen;
-625;bus;;Gewerbegebiet Süd;Ditzingen Bahnhof Süd;
 625;bus;;Gewerbegebiet Süd;Ditzingen Bahnhof Süd;
 626;bus;;Ditzingen Bahnhof;Industriegebiet Ost;
 631;bus;;Böblingen;Leonberg;
@@ -424,17 +380,10 @@ S63;tram;;Backnang;Flughafen/Messe;
 638;bus;;Leonberg Golfplatz;Ditzingen;
 651;bus;;Hemmingen;Leonberg;
 652;bus;;Weissach Porsche;Leonberg;
-652;bus;;Weissach Porsche;Leonberg;
-653;bus;;Weissach Porsche / Wiernsheim;Leonberg;
 653;bus;;Weissach Porsche / Wiernsheim;Leonberg;
 655;bus;;Rutesheim Rathaus;Bahnhof;
 663;bus;;Hausen;Weil der Stadt;
-663;bus;;Hausen;Weil der Stadt;
 665;bus;;Weil der Stadt Gymnasium;Bf;
-665;bus;;Weil der Stadt Bf;Gymnasium;
-665;bus;;Weil der Stadt Gymnasium;Bf;
-665;bus;;Weil der Stadt Bf;Gymnasium;
-666;bus;;Pforzheim;Weil d. Stadt;
 666;bus;;Pforzheim;Weil d. Stadt;
 670;bus;;Calw;Weil der Stadt;
 
@@ -463,29 +412,20 @@ S63;tram;;Backnang;Flughafen/Messe;
 731;bus;;Dagersheim Ost;Böblingen ZOB;
 732;bus;;Darmsheim;Böblingen ZOB;
 734;bus;;Sindelfingen ZOB;Goldberg;
-734;bus;;Sindelfingen ZOB;Goldberg;
 745;bus;;Sindelfingen;Magstadt;
 747;bus;;Warmbronn;Vaihingen Universität;
 748;bus;;Maichingen;Doggenburg;
 749;bus;;Schafhausen;Sindelfingen;
 752;bus;;Holzgerlingen;Ehningen;
-752;bus;;Holzgerlingen;Ehningen;
-753;bus;;Gärtringen;Rohrau;
 753;bus;;Gärtringen;Rohrau;
 754;bus;;Dettenhausen;Sindelfingen;
-754;bus;;Sindelfingen;Dettenhausen;
 756;bus;;Neuweiler;Holzgerlingen;
 759;bus;;Gärtringen;Liebelsberg;
 760;bus;;Neuenhaus;Sindelfingen;
-760;bus;;Neuenhaus;Sindelfingen;
 761;bus;;Weil im Schönbuch;Sindelfingen;
-761;bus;;Weil i. S.;Sindelfingen;
-763;bus;;Calw;Sindelfingen;
 763;bus;;Calw;Sindelfingen;
 764;bus;;Ehningen Bf;Dachtel;
 766;bus;;Weil der Stadt;Böblingen;
-766;bus;;Weil der Stadt;Böblingen;
-768;bus;;Döffingen;Aidlingen;
 768;bus;;Döffingen;Aidlingen;
 770;bus;Schnellbus;Herrenberg;Altensteig;
 773;bus;;Calw;Herrenberg;
@@ -497,7 +437,6 @@ S63;tram;;Backnang;Flughafen/Messe;
 780;bus;;Herrenberg ZOB;Herrenberg ZOB;
 781;bus;;Herrenb. ZOB Bahnhofstraße;ZOB;
 782;bus;;Herrenberg Waldfriedhof;ZOB;
-790;bus;;Mötzingen;Herrenberg;
 790;bus;;Mötzingen;Herrenberg;
 791;bus;;Entringen;Herrenberg;
 794;bus;;Tailfingen;Herrenberg;
@@ -516,11 +455,6 @@ S63;tram;;Backnang;Flughafen/Messe;
 818;bus;;Stetten;Musberg;
 819;bus;;Citybus Leinfelden-Echterdingen;Citybus Leinfelden-Echterdingen;
 826;bus;;Tübingen;Leinfelden;
-828;bus;;Tübingen;Flughafen;
-828;bus;;Tübingen;Flughafen;
-828;bus;;Tübingen;Flughafen;
-828;bus;;Tübingen;Flughafen;
-828;bus;;Tübingen;Flughafen;
 828;bus;;Tübingen;Flughafen;
 
 === Schnellbus
@@ -631,17 +565,32 @@ S1E;bus;Schienenersatzverkehr;Bad Cannstatt;Esslingen;
 S61E;bus;Schienenersatzverkehr;Korntal;Hemmingen;
 S6E;bus;Ersatzverkehr;Feuerbach;Zuffenhausen;
 
-== Regional-Bahn
+== Bahn
+
+=== S-Bahn
+
+S1;train;;Kirchheim (T);Herrenberg;
+S2;train;;Schorndorf;Filderstadt;
+S3;train;;Backnang;Flughafen/Messe;
+S4;train;;Backnang;Stuttgart;
+S5;train;;Bietigheim-Bissingen;Bietigheim-Stuttgart;
+S6;train;;Weil der Stadt;Stuttgart;
+S8;train;;Herrenberg;Freudenstadt;
+S11;train;Stadionlinie;Neckarpark;Herrenberg;
+S60;train;;Böblingen;Stuttgart;
+S63;train;;Backnang;Flughafen/Messe;
+
+=== Regional-Bahn
 
 R1;train;;Ulm;Stuttgart;
 R2;train;;Aalen;Stuttgart;
-R21;train;;Oberndorf;Schorndorf;
 R3;train;;Crailsheim;Stuttgart;
 R4;train;;Heilbronn;Stuttgart;
 R5;train;;Pforzheim;Stuttgart;
 R7;train;;Stuttgart;Horb/Freudenstadt;
 R8;train;;Tübingen;Stuttgart;
 R11;train;;Kornwestheim;Untertürkheim;
+R21;train;;Oberndorf;Schorndorf;
 R61;train;;Heimerdingen;Korntal;
 R72;train;;Dettenhausen;Holzgerlingen;
 R73;train;;Plochingen;Herrenberg;
@@ -649,7 +598,6 @@ R74;train;;Herrenberg;Freudenstadt;
 R81;train;;Oberlenningen;Kirchheim (T);
 R82;train;;Neuffen;Nürtingen (Tälesbahn);
 R83;train;;Bad Urach;Reutlingen;
-S8;train;;Herrenberg;Freudenstadt;
 
 == Zahnradbahn
 

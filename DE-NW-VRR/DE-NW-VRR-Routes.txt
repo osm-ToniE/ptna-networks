@@ -1811,14 +1811,20 @@ NE1;bus;Quelle gtfs;Ennepetal Voerde Mitte;Gevelsberg Hbf;VER
 E60;bus;Quelle gtfs;W-Vohwinkel Schwebebahn Bstg 3;W-Oberbarmen Bf Bstg 8;WSW
 #E60;bus;Quelle gtfs;W-Vohwinkel Schwebebahn Bstg 3;W-Oberbarmen Bf Bstg 8;VRR
 600;bus;Quelle gtfs;W-Vohwinkel Schwebebahn Bstg 3;Wuppertal Hbf Bstg 5;WSW
+NE1;bus;;Wuppertal Hbf Bstg 5;Wuppertal Obere Engelshöhe;WSW
+#NE 1;bus;Quelle gtfs;Wuppertal Hbf Bstg 5;Wuppertal Obere Engelshöhe;WSW
 601;bus;Quelle gtfs;Wuppertal Hbf Bstg 5;Wülfrath Stadtmitte Bstg 3;WSW
 SB69;bus;Quelle gtfs;Wuppertal Hbf Bstg 2;Wülfrath Stadtmitte Bstg 1;WSW
+NE2;bus;;Wuppertal Hbf Bstg 5;Wuppertal Am Eckbusch Bstg 3;WSW
+#NE 2;bus;Quelle gtfs;Wuppertal Hbf Bstg 5;Wuppertal Am Eckbusch Bstg 3;WSW
 602;bus;Quelle gtfs;Wuppertal Schmitteborn;Sprockh. Haßlingh. Busbf;WSW
 603;bus;Quelle gtfs;Wuppertal Am Eckbusch Bstg 2;W-tal Campus Freudenberg;WSW
 Uni-Express;bus;Quelle gtfs;W-tal Hist. Stadthalle;Wuppertal Universität;WSW
 604;bus;Quelle gtfs;Wuppertal Eichenstraße;Wuppertal Dieselstr. Schleife Bstg 3;WSW
 605;bus;Quelle gtfs;;;WSW
 606;bus;Quelle gtfs;Wuppertal Erlenrode;Wuppertal Schmitteborn;WSW
+NE5;bus;;Wuppertal Hbf Bstg 4;Wuppertal Langerfeld Markt;WSW
+#NE 5;bus;Quelle gtfs;Wuppertal Hbf Bstg 4;Wuppertal Langerfeld Markt;WSW
 607;bus;Quelle gtfs;Wuppertal Hbf Bstg 2;Wuppertal Am Eckbusch Bstg 4;WSW
 608;bus;Quelle gtfs;W-Barmen Bf Bstg 5;Ennepetal Busbahnhof Bstg 3;WSW
 609;bus;Quelle gtfs;Wuppertal Tesche;W-Vohwinkel Schwebebahn Bstg 4;WSW
@@ -1827,24 +1833,36 @@ CE61;bus;Quelle gtfs;Wuppertal Alter Markt Bstg 3;Wuppertal Am Stadtbahnhof;WSW
 610;bus;Quelle gtfs;Wuppertal Alter Markt Bstg 10;W-tal Wichlinghausen Markt Bstg 6;WSW
 611;bus;Quelle gtfs;Wuppertal Birkenhöhe Schleife;Wuppertal Lenneper Straße Bstg 1;WSW
 612;bus;Quelle gtfs;Wuppertal Hbf Bstg 1;Wuppertal Silberkuhle;WSW
+NE4;bus;;Wuppertal Hbf Bstg 4;Wuppertal Sternenberg;WSW
+#NE 4;bus;Quelle gtfs;Wuppertal Hbf Bstg 4;Wuppertal Sternenberg;WSW
 613;bus;Quelle gtfs;Wuppertal Am Eckbusch Bstg 1;W.-tal Schulzentrum Süd Bstg 1;WSW
 614;bus;Quelle gtfs;Wuppertal Eichenstraße;W-Barmen Bf Bstg 5;WSW
-615;bus;Quelle gtfs;Wuppertal Hbf Bstg 3;Remscheid Friedrich-Ebert-Pl. Bstg C/D;WSW
-615;bus;Quelle gtfs;Wuppertal Hbf Bstg 3;Remscheid Friedrich-Ebert-Pl. Bstg C/D;Stadtwerke Remscheid
-615;bus;Quelle gtfs;Wuppertal Hbf Bstg 3;Remscheid Friedrich-Ebert-Pl. Bstg C/D;WSW
+615;bus;;Wuppertal;Remscheid;WSW;Stadtwerke Remscheid
+#615;bus;Quelle gtfs;Wuppertal Hbf Bstg 3;Remscheid Friedrich-Ebert-Pl. Bstg C/D;WSW
+#615;bus;Quelle gtfs;Wuppertal Hbf Bstg 3;Remscheid Friedrich-Ebert-Pl. Bstg C/D;Stadtwerke Remscheid
+#615;bus;Quelle gtfs;Wuppertal Hbf Bstg 3;Remscheid Friedrich-Ebert-Pl. Bstg C/D;WSW
+NE15;bus;;Wuppertal Hbf Bstg 3;Remscheid Hbf Bstg A;Stadtwerke Remscheid;WSW
+#NE15;bus;Quelle gtfs;Remscheid Gerstau;Remscheid Hbf Bstg A;Stadtwerke Remscheid
+#NE 15;bus;Quelle gtfs;Wuppertal Hbf Bstg 3;Remscheid Hbf Bstg A;WSW
 616;bus;Quelle gtfs;W-Oberbarmen Bf Bstg 5;Wuppertal Siegelberg;WSW
-NE 8;bus;Quelle gtfs;W-Barmen Bf Bstg 1;Wuppertal Grünental;WSW
+NE8;bus;;W-Barmen Bf Bstg 1;Wuppertal Grünental;WSW
+#NE 8;bus;Quelle gtfs;W-Barmen Bf Bstg 1;Wuppertal Grünental;WSW
 617;bus;Quelle gtfs;W-Barmen Bf Bstg 5;Wuppertal Am Eckbusch Bstg 3;WSW
 618;bus;Quelle gtfs;Wuppertal Sternenberg;Wuppertal Dieselstr. Schleife Bstg 2;WSW
 619;bus;Quelle gtfs;Wuppertal Hbf Bstg 5;Wuppertal Rabenweg;WSW
 CE62;bus;Quelle gtfs;Wuppertal Hbf Bstg 4;Wuppertal Am Stadtbahnhof;WSW
 620;bus;Quelle gtfs;Wuppertal Kuckelsberg;RS-Lüttringh. Rathaus Bstg A;WSW
+NE6;bus;Quelle gtfs;Wuppertal Hbf Bstg 3;W-Ronsdorf Bf;WSW
+#NE 6;bus;Quelle gtfs;Wuppertal Hbf Bstg 3;W-Ronsdorf Bf;WSW
 621;bus;Quelle gtfs;Wuppertal Dasnöckel Mitte;Wuppertal Wieden Schleife;WSW
 622;bus;Quelle gtfs;Wuppertal Hbf Bstg 1;W-Oberbarmen Bf Bstg 4;WSW
 623;bus;Quelle gtfs;Wuppertal VillaMedia;Wuppertal Sonnenblume;WSW
 624;bus;Quelle gtfs;W-Barmen Bf Bstg 4;Wuppertal Sternenberg;WSW
 625;bus;Quelle gtfs;Wuppertal Am Handweiser;Wuppertal Sudberg;WSW
-NE 7;bus;Quelle gtfs;Wuppertal Hbf Bstg 3;Wuppertal Berghausen;WSW
+NE3;bus;;Wuppertal Hbf Bstg 4;Wuppertal Markland;WSW
+#NE 3;bus;Quelle gtfs;Wuppertal Hbf Bstg 4;Wuppertal Markland;WSW
+NE7;bus;;Wuppertal Hbf Bstg 3;Wuppertal Berghausen;WSW
+#NE 7;bus;Quelle gtfs;Wuppertal Hbf Bstg 3;Wuppertal Berghausen;WSW
 626;bus;Quelle gtfs;W-Oberbarmen Bf Bstg 5;Radevormwald Busbf;BVR
 627;bus;Quelle gtfs;W-Barmen Bf Bstg 5;Velbert Neviges Markt/Bf Bstg 3;WSW
 628;bus;Quelle gtfs;Wuppertal Hamburger Treppe;Wuppertal Sedanstraße;WSW
@@ -1860,9 +1878,10 @@ NE 7;bus;Quelle gtfs;Wuppertal Hbf Bstg 3;Wuppertal Berghausen;WSW
 639;bus;Quelle gtfs;Wuppertal Boltenberg;W-tal Hindenburgstr. / Junk.;WSW
 CE64;bus;Quelle gtfs;Wuppertal Hbf Bstg 3;Solingen Gr.-Wilh.-Pl. Bstg 2c;WSW
 640;bus;Quelle gtfs;Wuppertal Clausenhof;Wuppertal Echoer Straße;WSW
-641;bus;Quelle gtfs;W-Vohwinkel Schwebebahn Bstg 3;Wülfrath Stadtmitte Bstg 3;WSW
-641;bus;Quelle gtfs;Haan-Gruiten;Wülfrath Stadtmitte Ersatzhalt Goethestraße;BVR
-641;bus;Quelle gtfs;Haan-Gruiten;Wülfrath Stadtmitte Bstg 4;WSW
+641;bus;;Vohwinkel / Wülfrath;Gruiten;WSW;BVR
+#641;bus;Quelle gtfs;W-Vohwinkel Schwebebahn Bstg 3;Wülfrath Stadtmitte Bstg 3;WSW
+#641;bus;Quelle gtfs;Haan-Gruiten;Wülfrath Stadtmitte Ersatzhalt Goethestraße;BVR
+#641;bus;Quelle gtfs;Haan-Gruiten;Wülfrath Stadtmitte Bstg 4;WSW
 642;bus;Quelle gtfs;W-Oberbarmen Bf Bstg 4;Wuppertal Hannoverstraße;WSW
 643;bus;Quelle gtfs;Wuppertal Lutherstift;Wuppertal Kirchliche Hochsch.;WSW
 644;bus;Quelle gtfs;Wuppertal Windhornstraße;W-tal Richard-Strauss-Allee Bstg 1;WSW
@@ -1873,44 +1892,60 @@ CE64;bus;Quelle gtfs;Wuppertal Hbf Bstg 3;Solingen Gr.-Wilh.-Pl. Bstg 2c;WSW
 CE65;bus;Quelle gtfs;Wuppertal Am Handweiser;Wuppertal Sudberg;WSW
 650;bus;Quelle gtfs;Wuppertal Klinik Bergisch Land;Wuppertal Monhofsfeld;WSW
 652;bus;Quelle gtfs;Remscheid Friedrich-Ebert-Pl. Bstg C2;Wermelskirchen Markt / Taubengasse;Stadtwerke Remscheid
+NE12;bus;Quelle gtfs;Remscheid Friedrich-Ebert-Pl. Bstg C1;Remscheid Friedrich-Ebert-Pl. Bstg A/B;Stadtwerke Remscheid
 653;bus;Quelle gtfs;Remscheid Hasten Kirche;Remscheid Ehringhsn. Schleife;Stadtwerke Remscheid
+NE13;bus;Quelle gtfs;Remscheid Hbf Bstg A;Remscheid Friedrich-Ebert-Pl. Bstg A/B;Stadtwerke Remscheid
 654;bus;Quelle gtfs;Remscheid Reinshagen Schleife;RS-Lüttr. Klausen/K.-Arnold-S.;Stadtwerke Remscheid
+NE14;bus;Quelle gtfs;Remscheid Friedrich-Ebert-Pl. Bstg D4;Remscheid Hbf Bstg A;Stadtwerke Remscheid
+NE18;bus;Quelle gtfs;Remscheid Hbf Bstg A;Remscheid Hbf Bstg B;Stadtwerke Remscheid
 655;bus;Quelle gtfs;RS Stadtpark / Quimperplatz Bstg A;RS-Lennep Badeparadies H2O Bstg B;Stadtwerke Remscheid
 657;bus;Quelle gtfs;Remscheid Hasten Kirche;Remscheid Blumental Schleife;Stadtwerke Remscheid
 658;bus;Quelle gtfs;Solingen Müngsten Brückenpark;RS Falkenberg / Sperberstraße;Stadtwerke Remscheid
 660;bus;Quelle gtfs;Remscheid Kremenholl/Paulstr.;RS-Lüttringh. Bf (Schleife) Bstg D;Stadtwerke Remscheid
-664;bus;Quelle gtfs;Remscheid Friedrich-Ebert-Pl. Bstg D2;Remscheid-Lennep Bf Bstg B;Stadtwerke Remscheid
+NE20;bus;Quelle gtfs;Remscheid Friedrich-Ebert-Pl. Bstg D3;Remscheid Friedrich-Ebert-Pl. Bstg 664;bus;Quelle gtfs;Remscheid Friedrich-Ebert-Pl. Bstg D2;Remscheid-Lennep Bf Bstg B;Stadtwerke Remscheid
 666;bus;Quelle gtfs;RS-Lüttringh. Rathaus Bstg A;RS-Lüttringh. Bf (Schleife) Bstg C;Stadtwerke Remscheid
-669;bus;Quelle gtfs;RS-Lennep Kreishaus Bstg C;Wuppertal Beyenburg Mitte;Stadtwerke Remscheid
-669;bus;Quelle gtfs;Wuppertal Beyenburg Mitte;RS-Lennep Grenzwall Schleife;WSW
+669;bus;;RS-Lennep Kreishaus Bstg C;Wuppertal Beyenburg Mitte;Stadtwerke Remscheid;WSW
+#669;bus;Quelle gtfs;RS-Lennep Kreishaus Bstg C;Wuppertal Beyenburg Mitte;Stadtwerke Remscheid
+#669;bus;Quelle gtfs;Wuppertal Beyenburg Mitte;RS-Lennep Grenzwall Schleife;WSW
 670;bus;Quelle gtfs;Wuppertal Ronsdorf Markt Bstg 3;Remscheid Honsberg Sportplatz;Stadtwerke Remscheid
+NE16;bus;Quelle gtfs;Remscheid Friedrich-Ebert-Pl. Bstg D4;Remscheid Hbf Bstg A;Stadtwerke Remscheid
 671;bus;Quelle gtfs;RS-Lennep Kreishaus Bstg C;Radevormwald Busbf Bstg B;Stadtwerke Remscheid
+NE19;bus;Quelle gtfs;Remscheid Friedrich-Ebert-Pl. Bstg D4;Remscheid Hbf Bstg A;Stadtwerke Remscheid
 672;bus;Quelle gtfs;Remscheid Friedrich-Ebert-Pl. Bstg C2;Wermelskirchen Busbf Bstg A;Stadtwerke Remscheid
 673;bus;Quelle gtfs;Remscheid Nordstraße / TBR;Remscheid Kremer;Stadtwerke Remscheid
 675;bus;Quelle gtfs;RS Richard-Lindenberg-Platz Bstg C;RS Baisiepen Tennisplatz;Stadtwerke Remscheid
+NE17;bus;Quelle gtfs;Remscheid Hbf Bstg A;Remscheid Friedrich-Ebert-Pl. Bstg C/D;Stadtwerke Remscheid
 680;bus;Quelle gtfs;Remscheid Stockden / Rosenstr. Bstg A;RS Richard-Lindenberg-Platz Bstg A;Stadtwerke Remscheid
-681;bus;Quelle gtfs;Solingen Hästen;Solingen Hbf Bstg 1A;Stadtwerke Solingen
+681;trolleybus;;Solingen Hästen;Solingen Hbf Bstg 1A;Stadtwerke Solingen
+#681;bus;Quelle gtfs;Solingen Hästen;Solingen Hbf Bstg 1A;Stadtwerke Solingen
 NE21;bus;Quelle gtfs;Solingen Gr.-Wilh.-Pl. Bstg 1a;Solingen Hbf Bstg 1A;Stadtwerke Solingen
-682;bus;Quelle gtfs;Solingen Höh.- Brockenberg;Solingen Hbf Bstg 2B;Stadtwerke Solingen
+682;trolleybus;;Solingen Höh.- Brockenberg;Solingen Hbf Bstg 2B;Stadtwerke Solingen
+#682;bus;Quelle gtfs;Solingen Höh.- Brockenberg;Solingen Hbf Bstg 2B;Stadtwerke Solingen
 NE22;bus;Quelle gtfs;Solingen Gr.-Wilh.-Pl. Bstg 1a;Solingen Hbf Bstg 2B;Stadtwerke Solingen
-683;bus;Quelle gtfs;Solingen, Schleife Krahenhöhe;W-Vohwinkel Bf Bstg 5;Stadtwerke Solingen
+683;trolleybus;;Solingen, Schleife Krahenhöhe;W-Vohwinkel Bf Bstg 5;Stadtwerke Solingen
+#683;bus;Quelle gtfs;Solingen, Schleife Krahenhöhe;W-Vohwinkel Bf Bstg 5;Stadtwerke Solingen
 NE23;bus;Quelle gtfs;Solingen Gr.-Wilh.-Pl. Bstg 1b;W-Vohwinkel Bf Bstg 5;Stadtwerke Solingen
-684;bus;Quelle gtfs;Solingen Schule Widdert;Solingen Hasselstraße;Stadtwerke Solingen
+684;trolleybus;;Solingen Schule Widdert;Solingen Hasselstraße;Stadtwerke Solingen
+#684;bus;Quelle gtfs;Solingen Schule Widdert;Solingen Hasselstraße;Stadtwerke Solingen
 TB684;bus;Quelle gtfs;Solingen Stöckerberg Bstg 4;Solingen Kohlfurth;Stadtwerke Solingen
 NE24;bus;Quelle gtfs;Solingen Schule Widdert;Solingen Hasselstraße;Stadtwerke Solingen
-685;bus;Quelle gtfs;Solingen Aufderhöhe Bstg 4;Solingen Gr.-Wilh.-Pl. Bstg 1a;Stadtwerke Solingen
+685;trolleybus;;Solingen Aufderhöhe Bstg 4;Solingen Gr.-Wilh.-Pl. Bstg 1a;Stadtwerke Solingen
+#685;bus;Quelle gtfs;Solingen Aufderhöhe Bstg 4;Solingen Gr.-Wilh.-Pl. Bstg 1a;Stadtwerke Solingen
 NE25;bus;Quelle gtfs;Solingen Gr.-Wilh.-Pl. Bstg 1b;Solingen Hbf Bstg 1C;Stadtwerke Solingen
-686;bus;Quelle gtfs;Solingen Aufderhöhe Bstg 4;Solingen Gr.-Wilh.-Pl. Bstg 5;Stadtwerke Solingen
+686;trolleybus;;Solingen Aufderhöhe Bstg 4;Solingen Gr.-Wilh.-Pl. Bstg 5;Stadtwerke Solingen
+#686;bus;Quelle gtfs;Solingen Aufderhöhe Bstg 4;Solingen Gr.-Wilh.-Pl. Bstg 5;Stadtwerke Solingen
 687;bus;Wanderbus an Sommerwochenenden;Burg;Müngsten;Stadtwerke Solingen
 689;bus;Quelle gtfs;Solingen Höhrath;Solingen-Burg Aue;Stadtwerke Solingen
 690;bus;Quelle gtfs;Solingen Gr.-Wilh.-Pl. Bstg 3c;Solingen Eschbach;Stadtwerke Solingen
 TB690;bus;Quelle gtfs;Solingen Wald Kirche Bstg 2;Solingen Dültgenstal;Stadtwerke Solingen
 691;bus;Quelle gtfs;Solingen St-Lukas-Klinik;Solingen Höhscheid;Stadtwerke Solingen
-TB691;bus;Quelle gtfs;Solingen Hbf Bstg 2A;Solingen Teichstraße;Stadtwerke Solingen
+TB691;share_taxi;;Solingen Hbf Bstg 2A;Solingen Teichstraße;Stadtwerke Solingen
+#TB691;bus;Quelle gtfs;Solingen Hbf Bstg 2A;Solingen Teichstraße;Stadtwerke Solingen
 692;bus;Quelle gtfs;Solingen Gr.-Wilh.-Pl. Bstg 3a;Haan, Markt Bstg 1;Stadtwerke Solingen
 693;bus;Quelle gtfs;Solingen Gr.-Wilh.-Pl. Bstg 3b;Solingen Aufderhöhe Bstg 3;Stadtwerke Solingen
 694;bus;Quelle gtfs;Solingen Hbf Bstg 1B;Leichlingen Busbahnhof Bstg D;Stadtwerke Solingen
-TB694;bus;Quelle gtfs;Solingen Hbf Bstg 1B;Solingen Buchweizenberg;Stadtwerke Solingen
+TB694;share_taxi;;Solingen Hbf Bstg 1B;Solingen Buchweizenberg;Stadtwerke Solingen
+#TB694;bus;Quelle gtfs;Solingen Hbf Bstg 1B;Solingen Buchweizenberg;Stadtwerke Solingen
 695;bus;Quelle gtfs;Solingen Meigen;Solingen Abteiweg;Stadtwerke Solingen
 TB695;bus;Quelle gtfs;Solingen Gräfrath;Solingen, Bechsteinstraße;Stadtwerke Solingen
 696;bus;Quelle gtfs;Solingen Gr.-Wilh.-Pl. Bstg 2b;Solingen Untenkatternberg;Stadtwerke Solingen
@@ -2007,17 +2042,7 @@ E939;bus;Quelle gtfs;Velbert Gymnasium Langenberg;Velbert Rottberger Straße;WSW
 E941;bus;Quelle gtfs;W-tal Ges.Schule Ronsdorf;Wuppertal Cronenberg Rathaus;WSW
 E949;bus;Quelle gtfs;Velbert Realschule Tönisheide;Velbert Lilienstraße;WSW
 240;bus;Quelle gtfs;Remscheid-Lennep Bf Bstg C;Wermelskirchen Busbf Bstg A;Stadtwerke Remscheid
-NE12;bus;Quelle gtfs;Remscheid Friedrich-Ebert-Pl. Bstg C1;Remscheid Friedrich-Ebert-Pl. Bstg A/B;Stadtwerke Remscheid
-NE13;bus;Quelle gtfs;Remscheid Hbf Bstg A;Remscheid Friedrich-Ebert-Pl. Bstg A/B;Stadtwerke Remscheid
-NE14;bus;Quelle gtfs;Remscheid Friedrich-Ebert-Pl. Bstg D4;Remscheid Hbf Bstg A;Stadtwerke Remscheid
-NE15;bus;;Wuppertal Hbf Bstg 3;Remscheid Hbf Bstg A;Stadtwerke Remscheid;WSW
-#NE15;bus;Quelle gtfs;Remscheid Gerstau;Remscheid Hbf Bstg A;Stadtwerke Remscheid
-#NE 15;bus;Quelle gtfs;Wuppertal Hbf Bstg 3;Remscheid Hbf Bstg A;WSW
-NE16;bus;Quelle gtfs;Remscheid Friedrich-Ebert-Pl. Bstg D4;Remscheid Hbf Bstg A;Stadtwerke Remscheid
-NE17;bus;Quelle gtfs;Remscheid Hbf Bstg A;Remscheid Friedrich-Ebert-Pl. Bstg C/D;Stadtwerke Remscheid
-NE18;bus;Quelle gtfs;Remscheid Hbf Bstg A;Remscheid Hbf Bstg B;Stadtwerke Remscheid
-NE19;bus;Quelle gtfs;Remscheid Friedrich-Ebert-Pl. Bstg D4;Remscheid Hbf Bstg A;Stadtwerke Remscheid
-NE20;bus;Quelle gtfs;Remscheid Friedrich-Ebert-Pl. Bstg D3;Remscheid Friedrich-Ebert-Pl. Bstg A/B;Stadtwerke Remscheid
+A/B;Stadtwerke Remscheid
 #~ E ~;bus;Quelle gtfs;;;Stadtwerke Remscheid
 #~ E ~;bus;Quelle gtfs;RS Hohenhagen Gesamtschule Bstg C;RS-Lüttringh. Rathaus Bstg A;Stadtwerke Remscheid
 #~ E ~;bus;Quelle gtfs;RS Hohenhagen Gesamtschule Bstg B;RS-Lennep Badeparadies H2O Bstg B;Stadtwerke Remscheid
@@ -2025,12 +2050,6 @@ NE20;bus;Quelle gtfs;Remscheid Friedrich-Ebert-Pl. Bstg D3;Remscheid Friedrich-E
 #~ E ~;bus;Quelle gtfs;RS Hohenhagen Gesamtschule Bstg C;RS-Lüttringh. Rathaus Bstg A;Stadtwerke Remscheid
 #~ E ~;bus;Quelle gtfs;Remscheid Zentralpunkt Bstg D;RS Hohenhagen Gesamtschule Bstg B;Stadtwerke Remscheid
 #~ E ~;bus;Quelle gtfs;Remscheid Clarenbach Bstg B;RS-Lennep Badeparadies H2O Bstg D;Stadtwerke Remscheid
-NE 1;bus;Quelle gtfs;Wuppertal Hbf Bstg 5;Wuppertal Obere Engelshöhe;WSW
-NE 2;bus;Quelle gtfs;Wuppertal Hbf Bstg 5;Wuppertal Am Eckbusch Bstg 3;WSW
-NE 3;bus;Quelle gtfs;Wuppertal Hbf Bstg 4;Wuppertal Markland;WSW
-NE 4;bus;Quelle gtfs;Wuppertal Hbf Bstg 4;Wuppertal Sternenberg;WSW
-NE 5;bus;Quelle gtfs;Wuppertal Hbf Bstg 4;Wuppertal Langerfeld Markt;WSW
-NE 6;bus;Quelle gtfs;Wuppertal Hbf Bstg 3;W-Ronsdorf Bf;WSW
 
 === 7xx Düsseldorf Hilden ...
 
@@ -2414,7 +2433,8 @@ BB1;bus;Quelle gtfs;Erkrath Bouleplatz;Erkrath Bouleplatz;Rheinbahn
 BB2;bus;Quelle gtfs;Heiligenhaus Basildonplatz;Heiligenhaus Basildonplatz;Rheinbahn
 AST;bus;Quelle gtfs;Remscheid Morsbach Schleife;RS-Lüttringhausen Westen;Stadtwerke Remscheid
 AST;bus;Quelle gtfs;Remscheid-Lennep Bf Bstg C;Wermelskirchen Busbf Bstg G;Stadtwerke Remscheid
-BB;bus;Quelle gtfs;Remscheid Morsbach Schleife;RS-Lüttringhausen Eisernstein Bstg B;Stadtwerke Remscheid
+bRs;bus;Bürgerbus;Remscheid Morsbach Schleife;RS-Lüttringhausen Eisernstein Bstg B;Stadtwerke Remscheid
+#BB;bus;Quelle gtfs;Remscheid Morsbach Schleife;RS-Lüttringhausen Eisernstein Bstg B;Stadtwerke Remscheid
 AST;bus;Quelle gtfs;Hilderather Straße Bstg 3;Mönchengladb. Wickrath Markt Bstg 3;NEW mobil und aktiv Moenchengladbach
 BBK;bus;Quelle gtfs;Korschenbroich Glehn Kirche;Korschenbroich Glehn Kirche;NEW mobil und aktiv Moenchengladbach
 BB2;bus;Quelle gtfs;Hattingen Lindenstr.;Hattingen Homberg;VER
@@ -2445,20 +2465,20 @@ AST84;bus;Quelle gtfs;W-Vohwinkel Bf Bstg 4;Wuppertal Wibbeltrather Weg;WSW
 T1;bus;Quelle gtfs;Wuppertal Alter Markt Bstg 10;Wuppertal Amalienstraße;WSW
 T44;bus;Quelle gtfs;W-Barmen Bf Bstg 7;Wuppertal Windhornstraße;WSW
 T61;bus;Quelle gtfs;Wuppertal Sportpl.Oberberg.Str;Wuppertal Parkstraße;WSW
-BAL;bus;Quelle gtfs;Alpen Bahnhof Bstg 1;Alpen Veen Kirche Bstg 1;Niederrheinische Verkehrsbetriebe
-BEM;bus;Quelle gtfs;Emmerich Bahnhof Bstg 3;Emmerich Max-Planck-Str. Bstg 9;Niederrheinische Verkehrsbetriebe
+BAL;bus;siehe Bürgerbus bAl;Alpen Bahnhof Bstg 1;Alpen Veen Kirche Bstg 1;Niederrheinische Verkehrsbetriebe
+BEM;bus;siehe Bürgerbus bEm;Emmerich Bahnhof Bstg 3;Emmerich Max-Planck-Str. Bstg 9;Niederrheinische Verkehrsbetriebe
 BHB;bus;Quelle gtfs;Hamminkeln Markt Bstg 9;Hamminkeln Verbandssparkasse Bstg 1;Niederrheinische Verkehrsbetriebe
-BHL;bus;Quelle gtfs;Hamminkeln Markt Bstg 9;Bocholt Bustreff Bstg A1;Niederrheinische Verkehrsbetriebe
+BHL;bus;siehe Bürgerbusverein Loikum- Wertherbruch e.V.;Hamminkeln Markt Bstg 9;Bocholt Bustreff Bstg A1;Niederrheinische Verkehrsbetriebe
 BHM;bus;Quelle gtfs;Rees Mehr Ortsmitte Bstg 9;Hamminkeln Markt Bstg 9;Niederrheinische Verkehrsbetriebe
 BKA1;bus;Quelle gtfs;Kalkar Markt Bstg 1;Kalkar Grieth Markt Bstg 1;Niederrheinische Verkehrsbetriebe
 BKA2;bus;Quelle gtfs;Kalkar Markt Bstg 1;Kalkar Steckkuhl Bstg 1;Niederrheinische Verkehrsbetriebe
 BKA3;bus;Quelle gtfs;Kalkar Markt Bstg 1;Kalkar Bergstraße Bstg 1;Niederrheinische Verkehrsbetriebe
 BKA4;bus;Quelle gtfs;Kalkar Markt Bstg 1;Kalkar Haus Horst Bstg 1;Niederrheinische Verkehrsbetriebe
 BKR;bus;Quelle gtfs;Kranenburg Bürgermeisteramt Bstg 8;Kranenburg Wyler Schulweg Bstg 1;Niederrheinische Verkehrsbetriebe
-BKT;bus;Quelle gtfs;Kevelaer Gerberweg Bstg 1;Kevelaer Mittelstraße Bstg 1;Niederrheinische Verkehrsbetriebe
-BRB;bus;Quelle gtfs;Rheinb. Borth W. Schwarzer Weg Bstg 01;Rheinberg Grundschule Orsoy Bstg 9;Niederrheinische Verkehrsbetriebe
-BSO;bus;Quelle gtfs;Alpen Veen Haus Sebastian Bstg 2;Xanten Krankenhaus Bstg 2;Niederrheinische Verkehrsbetriebe
-BUE;bus;Quelle gtfs;Uedem Markt Bstg 9;Weeze Bahnhof Bstg 2;Niederrheinische Verkehrsbetriebe
+BKT;bus;siehe Bürgerbus bKe;Kevelaer Gerberweg Bstg 1;Kevelaer Mittelstraße Bstg 1;Niederrheinische Verkehrsbetriebe
+BRB;bus;siehe Bürgerbus bRb;Rheinb. Borth W. Schwarzer Weg Bstg 01;Rheinberg Grundschule Orsoy Bstg 9;Niederrheinische Verkehrsbetriebe
+BSO;bus;siehe Bürgerbus bSo;Alpen Veen Haus Sebastian Bstg 2;Xanten Krankenhaus Bstg 2;Niederrheinische Verkehrsbetriebe
+BUE;bus;siehe Bürgerbus bUe;Uedem Markt Bstg 9;Weeze Bahnhof Bstg 2;Niederrheinische Verkehrsbetriebe
 Taxibus;bus;Quelle gtfs;Monheim, Busbahnhof Bstg 4;Monheim, Busbahnhof Bstg 4;Bahnen der Stadt Monheim
 
 === Monorails
@@ -2476,7 +2496,7 @@ HB7;bram;Quelle gtfs;Dortmund Technologiezentrum;Dortmund Universität S;DSW21
 === Schnellbusse
 
 CE31;bus;Quelle gtfs;Hattingen Mitte Bstg 1;Bochum Hbf Bstg 06;BOGESTRA
-CE31;bus;Quelle gtfs;Hattingen Mitte Bstg 1;Bochum Hbf Bstg 06;BOGESTRA
+#CE31;bus;Quelle gtfs;Hattingen Mitte Bstg 1;Bochum Hbf Bstg 06;BOGESTRA
 CE89;bus;Quelle gtfs;Viersen Wegweiser;Dülken Industriering;NEW mobil und aktiv Viersen
 SB1;bus;Quelle gtfs;MG Neuwerk Verw.-Stelle Bstg 3;Mönchengl. Schlossbad Ndrh. Bstg 3;NEW mobil und aktiv Moenchengladbach
 SB3;bus;Quelle gtfs;Dinslaken Bahnhof Bstg 3c;Wesel Bahnhof Bstg 3;BVR
@@ -2485,43 +2505,47 @@ SB6;bus;Quelle gtfs;Wesel Bahnhof Bstg 4;Xanten Bahnhof Bstg 4;BVR
 SB7;bus;Quelle gtfs;Geldern Bahnhof Bstg 7;Wesel Bahnhof Bstg 4;BVR
 SB14;bus;Quelle gtfs;Essen Heisingen Baldeneysee Bstg 2;Essen Hauptbahnhof Bstg 4;Ruhrbahn
 SB15;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 7;E-Burgaltendorf Burgruine Bstg 2;Ruhrbahn
-SB16;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 1;Bottrop ZOB Berliner Platz Bstg 11;BVR
-SB16;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 1;Bottrop ZOB Berliner Platz Bstg 04;Vestische
-SB16;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 1;Bottrop ZOB Berliner Platz Bstg 04;VRR
-SB16;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 1;Bottrop ZOB Berliner Platz Bstg 04;Vestische
-SB16;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 1;Bottrop ZOB Berliner Platz Bstg 04;VRR
-SB16;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 1;Bottrop ZOB Berliner Platz Bstg 04;Vestische
-SB16;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 1;Bottrop ZOB Berliner Platz Bstg 04;Vestische
+SB16;bus;;Essen Hauptbahnhof Bstg 1;Bottrop ZOB Berliner Platz Bstg 11;BVR;Vestische
+#SB16;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 1;Bottrop ZOB Berliner Platz Bstg 11;BVR
+#SB16;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 1;Bottrop ZOB Berliner Platz Bstg 04;Vestische
+#SB16;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 1;Bottrop ZOB Berliner Platz Bstg 04;VRR
+#SB16;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 1;Bottrop ZOB Berliner Platz Bstg 04;Vestische
+#SB16;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 1;Bottrop ZOB Berliner Platz Bstg 04;VRR
+#SB16;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 1;Bottrop ZOB Berliner Platz Bstg 04;Vestische
+#SB16;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 1;Bottrop ZOB Berliner Platz Bstg 04;Vestische
 SB18;bus;Quelle gtfs;Schermbeck Rathaus Bstg 01;Dorsten ZOB Dorsten Bstg 05;BVR
-SB19;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 4;Heiligenhaus Rathaus Bstg 1;Rheinbahn
-SB19;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 4;Heiligenhaus Rathaus Bstg 1;BVR
+SB19;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 4;Heiligenhaus Rathaus Bstg 1;Rheinbahn;BVR
+#SB19;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 4;Heiligenhaus Rathaus Bstg 1;Rheinbahn
+#SB19;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 4;Heiligenhaus Rathaus Bstg 1;BVR
 SB20;bus;Quelle gtfs;Recklinghausen Hbf Bstg 05;Herne Bf Bstg 05;Vestische
-SB20;bus;Quelle gtfs;Recklinghausen Hbf Bstg 05;Herne Bf Bstg 05;VRR
-SB20;bus;Quelle gtfs;Recklinghausen Hbf Bstg 05;Herne Bf Bstg 05;Vestische
-SB20;bus;Quelle gtfs;Recklinghausen Hbf Bstg 05;Herne Bf Bstg 05;VRR
-SB20;bus;Quelle gtfs;Recklinghausen Hbf Bstg 05;Herne Bf Bstg 05;Vestische
-SB20E;bus;Quelle gtfs;Recklinghausen Am Neumarkt Bstg 02;Recklinghausen Hbf Bstg 08;VRR
-SB20E;bus;Quelle gtfs;Recklinghausen Am Neumarkt Bstg 02;Recklinghausen Hbf Bstg 08;VRR
+#SB20;bus;Quelle gtfs;Recklinghausen Hbf Bstg 05;Herne Bf Bstg 05;VRR
+#SB20;bus;Quelle gtfs;Recklinghausen Hbf Bstg 05;Herne Bf Bstg 05;Vestische
+#SB20;bus;Quelle gtfs;Recklinghausen Hbf Bstg 05;Herne Bf Bstg 05;VRR
+#SB20;bus;Quelle gtfs;Recklinghausen Hbf Bstg 05;Herne Bf Bstg 05;Vestische
+#SB20E;bus;Quelle gtfs;Recklinghausen Am Neumarkt Bstg 02;Recklinghausen Hbf Bstg 08;VRR
+#SB20E;bus;Quelle gtfs;Recklinghausen Am Neumarkt Bstg 02;Recklinghausen Hbf Bstg 08;VRR
 SB28;bus;Quelle gtfs;Dorsten ZOB Dorsten Bstg 03;GE-Buer Rathaus Bstg 10;BVR
 SB29;bus;Quelle gtfs;Gelsenkirchen Hbf Bstg 01;Bottrop ZOB Berliner Platz Bstg 05;BVR
-SB36;bus;Quelle gtfs;Gelsenkirchen Hbf Bstg 09;Bottrop Schulze-Delitzsch-Str. Bstg 02;BOGESTRA
-SB36;bus;Quelle gtfs;Gelsenkirchen Hbf Bstg 09;Bottrop Schulze-Delitzsch-Str. Bstg 02;Vestische
-SB36;bus;Quelle gtfs;Gelsenkirchen Schloß Horst Bstg 06;Bottrop Schulze-Delitzsch-Str. Bstg 02;VRR
-SB36;bus;Quelle gtfs;Gelsenkirchen Hbf Bstg 09;Bottrop Schulze-Delitzsch-Str. Bstg 02;Vestische
-SB36;bus;Quelle gtfs;Gelsenkirchen Schloß Horst Bstg 06;Bottrop Schulze-Delitzsch-Str. Bstg 02;VRR
-SB36;bus;Quelle gtfs;Gelsenkirchen Hbf Bstg 09;Bottrop Schulze-Delitzsch-Str. Bstg 02;Vestische
-SB36E;bus;Quelle gtfs;Gelsenkirchen Kranefeldstr.;Gladbeck West Bf Bstg 02;VRR
-SB36E;bus;Quelle gtfs;Gelsenkirchen Kranefeldstr.;Gladbeck West Bf Bstg 02;VRR
+SB36;bus;;Gelsenkirchen Hbf Bstg 09;Bottrop Schulze-Delitzsch-Str. Bstg 02;BOGESTRA;Vestische
+#SB36;bus;Quelle gtfs;Gelsenkirchen Hbf Bstg 09;Bottrop Schulze-Delitzsch-Str. Bstg 02;BOGESTRA
+#SB36;bus;Quelle gtfs;Gelsenkirchen Hbf Bstg 09;Bottrop Schulze-Delitzsch-Str. Bstg 02;Vestische
+#SB36;bus;Quelle gtfs;Gelsenkirchen Schloß Horst Bstg 06;Bottrop Schulze-Delitzsch-Str. Bstg 02;VRR
+#SB36;bus;Quelle gtfs;Gelsenkirchen Hbf Bstg 09;Bottrop Schulze-Delitzsch-Str. Bstg 02;Vestische
+#SB36;bus;Quelle gtfs;Gelsenkirchen Schloß Horst Bstg 06;Bottrop Schulze-Delitzsch-Str. Bstg 02;VRR
+#SB36;bus;Quelle gtfs;Gelsenkirchen Hbf Bstg 09;Bottrop Schulze-Delitzsch-Str. Bstg 02;Vestische
+#SB36E;bus;Quelle gtfs;Gelsenkirchen Kranefeldstr.;Gladbeck West Bf Bstg 02;VRR
+#SB36E;bus;Quelle gtfs;Gelsenkirchen Kranefeldstr.;Gladbeck West Bf Bstg 02;VRR
 SB37;bus;Quelle gtfs;Ennepetal Busbahnhof Bstg 5;Bochum Hbf Bstg 05;BOGESTRA
-SB38;bus;Quelle gtfs;Ennepetal Busbahnhof Bstg 5;Hattingen Mitte Bstg 1;VER
-SB38;bus;Quelle gtfs;Ennepetal Busbahnhof Bstg 5;Hattingen Mitte Bstg 5;BVR
+SB38;bus;;Ennepetal Busbahnhof Bstg 5;Hattingen Mitte Bstg 1;VER;BVR
+#SB38;bus;Quelle gtfs;Ennepetal Busbahnhof Bstg 5;Hattingen Mitte Bstg 1;VER
+#SB38;bus;Quelle gtfs;Ennepetal Busbahnhof Bstg 5;Hattingen Mitte Bstg 5;BVR
 SB 40;bus;Quelle gtfs;Duisburg Walsum Overbruch Bstg 1;DU-Hbf Osteingang Bstg 3;DVG
 SB 42;bus;Quelle gtfs;Duisburg An der Cölve Bstg 1;DU-Hbf Osteingang Bstg 3;DVG
 SB49;bus;Quelle gtfs;Recklinghausen Hbf Bstg 05;GE-Buer Rathaus Bstg 03;Vestische
-SB49;bus;Quelle gtfs;Recklinghausen Hbf Bstg 05;GE-Buer Rathaus Bstg 03;VRR
-SB49;bus;Quelle gtfs;Recklinghausen Hbf Bstg 05;GE-Buer Rathaus Bstg 03;Vestische
-SB49;bus;Quelle gtfs;Recklinghausen Hbf Bstg 05;GE-Buer Rathaus Bstg 03;VRR
-SB49;bus;Quelle gtfs;Recklinghausen Hbf Bstg 05;GE-Buer Rathaus Bstg 03;Vestische
+#SB49;bus;Quelle gtfs;Recklinghausen Hbf Bstg 05;GE-Buer Rathaus Bstg 03;VRR
+#SB49;bus;Quelle gtfs;Recklinghausen Hbf Bstg 05;GE-Buer Rathaus Bstg 03;Vestische
+#SB49;bus;Quelle gtfs;Recklinghausen Hbf Bstg 05;GE-Buer Rathaus Bstg 03;VRR
+#SB49;bus;Quelle gtfs;Recklinghausen Hbf Bstg 05;GE-Buer Rathaus Bstg 03;Vestische
 SB50;bus;Quelle gtfs;D-Rheinterrasse;Haan Nachbarsberg;Rheinbahn
 SB51;bus;Quelle gtfs;D-Flughafen Bf Bstg 1;Kaarst Mitte/Holzbüttgen;Rheinbahn
 SB52;bus;Quelle gtfs;Meerbusch Osterath Bf Bstg 2;D-Nordpark/Aquazoo Bstg 3;Rheinbahn
@@ -2554,7 +2578,7 @@ SB91;bus;;GE-Buer Rathaus Bstg 01;OB Bero-Zentrum Bstg 3;STOAG;Vestische
 SB92;bus;Quelle gtfs;OB Fröbelplatz;Oberhausen Falkestr. Bstg 1;STOAG
 SB93;bus;Quelle gtfs;OB Fröbelplatz;Oberhausen Taunusstr.;STOAG
 SB94;bus;Quelle gtfs;Essen Unterstr. Bstg 3;OB Sterkrade Bf. Bstg 5;STOAG
-SB94;bus;Quelle gtfs;Essen Unterstr. Bstg 3;OB Sterkrade Bf. Bstg 5;STOAG
+#SB94;bus;Quelle gtfs;Essen Unterstr. Bstg 3;OB Sterkrade Bf. Bstg 5;STOAG
 SB97;bus;Quelle gtfs;Anne-Frank-RS;OB Sterkrade Bf. Bstg 7;STOAG
 SB98;bus;Quelle gtfs;Oberhausen Falkestr. Bstg 1;OB Fröbelplatz;STOAG
 
@@ -2564,14 +2588,22 @@ U11;subway;Quelle gtfs;Gelsenkirchen Buerer Str. Bstg 04;Essen Messe W.-Süd/Gru
 U17;subway;Quelle gtfs;Essen Karlsplatz Bstg 2;Essen Margarethenhöhe Bstg 2;Ruhrbahn
 U18;subway;Quelle gtfs;Essen Berliner Platz Bstg 2;Mülheim Hauptbahnhof Bstg 1;Ruhrbahn
 U35;subway;Quelle gtfs;Bochum Hustadt (TQ);Herne Schloß Strünkede;BOGESTRA
-U41;subway;Quelle gtfs;Lünen Brambauer Verkehrshof;Dortmund Clarenberg;DSW21
-U42;subway;Quelle gtfs;Dortmund Grevel;Dortmund Grotenbachstraße;DSW21
-U43;subway;Quelle gtfs;Dortmund Dorstfeld Betriebshof;Dortmund Wickede S;DSW21
-U44;subway;Quelle gtfs;DO-Walbertstraße/Schulmuseum;Dortmund Westfalenhütte;DSW21
-U45;subway;Quelle gtfs;Dortmund Hbf;Dortmund Westfalenhallen;DSW21
-U46;subway;Quelle gtfs;Dortmund Brunnenstraße;Dortmund Westfalenhallen;DSW21
-U47;subway;Quelle gtfs;Dortmund Westerfilde S;Dortmund, Aplerbeck;DSW21
-U49;subway;Quelle gtfs;Dortmund Hbf;Dortmund Hacheney;DSW21
+U41;tram;Stadtbahn;Lünen Brambauer Verkehrshof;Dortmund Clarenberg;DSW21
+#U41;subway;Quelle gtfs;Lünen Brambauer Verkehrshof;Dortmund Clarenberg;DSW21
+U42;tram;Stadtbahn;Dortmund Grevel;Dortmund Grotenbachstraße;DSW21
+#U42;subway;Quelle gtfs;Dortmund Grevel;Dortmund Grotenbachstraße;DSW21
+U43;tram;Stadtbahn;Dortmund Dorstfeld Betriebshof;Dortmund Wickede S;DSW21
+#U43;subway;Quelle gtfs;Dortmund Dorstfeld Betriebshof;Dortmund Wickede S;DSW21
+U44;tram;Stadtbahn;DO-Walbertstraße/Schulmuseum;Dortmund Westfalenhütte;DSW21
+#U44;subway;Quelle gtfs;DO-Walbertstraße/Schulmuseum;Dortmund Westfalenhütte;DSW21
+U45;tram;Stadtbahn;Dortmund Hbf;Dortmund Westfalenhallen;DSW21
+#U45;subway;Quelle gtfs;Dortmund Hbf;Dortmund Westfalenhallen;DSW21
+U46;tram;Stadtbahn;Dortmund Brunnenstraße;Dortmund Westfalenhallen;DSW21
+#U46;subway;Quelle gtfs;Dortmund Brunnenstraße;Dortmund Westfalenhallen;DSW21
+U47;tram;Stadtbahn;Dortmund Westerfilde S;Dortmund, Aplerbeck;DSW21
+#U47;subway;Quelle gtfs;Dortmund Westerfilde S;Dortmund, Aplerbeck;DSW21
+U49;tram;Stadtbahn;Dortmund Hbf;Dortmund Hacheney;DSW21
+#U49;subway;Quelle gtfs;Dortmund Hbf;Dortmund Hacheney;DSW21
 U70;subway;Quelle gtfs;Krefeld Rheinstraße Bstg 2;Düsseldorf Hbf Bstg 4;Rheinbahn
 U71;subway;Quelle gtfs;D-Heinrichstraße Bstg 5;D-Benrath Btf Bstg 1;Rheinbahn
 U72;subway;Quelle gtfs;Ratingen Mitte Bstg 1;D-Hellriegelstraße Bstg 1;Rheinbahn

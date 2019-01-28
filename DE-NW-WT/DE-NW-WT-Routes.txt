@@ -129,7 +129,7 @@ S5;train;;Hannover Flughafen;Paderborn Hbf/Bad Pyrmont;DB Regio AG
 2;bus;;;;Stadtwerke Münster
 4;bus;;;;Stadtwerke Münster
 5;bus;;;;Stadtwerke Münster
-6|E6;bus;;;;Stadtwerke Münster
+6;bus;;;;Stadtwerke Münster
 7;bus;;;;Stadtwerke Münster / Regionalverkehr Münsterland GmbH
 8;bus;;;;Stadtwerke Münster
 9;bus;;;;Stadtwerke Münster
@@ -148,7 +148,8 @@ S5;train;;Hannover Flughafen;Paderborn Hbf/Bad Pyrmont;DB Regio AG
 34;bus;;;;Stadtwerke Münster
 177;bus;;Münster;Borghorst;Reisedienst Veelker GmbH & Co. KG
 
-E10;bus;;;;Stadtwerke Münster
+E6;bus;;;;Stadtwerke Münster
+E8;bus;;;;Stadtwerke Münster
 
 N80;bus;;;;Stadtwerke Münster
 N81;bus;;;;Stadtwerke Münster
@@ -169,6 +170,7 @@ T10;bus;;;;Stadtwerke Münster
 T15;bus;;;;Stadtwerke Münster
 T18;bus;;;;Stadtwerke Münster
 T20;bus;;;;Stadtwerke Münster
+T64;bus;;;;Stadtwerke Münster
 T80;bus;Taxibus;;;Stadtwerke Münster
 T81;bus;Taxibus;;;Stadtwerke Münster
 T82;bus;Taxibus;;;Stadtwerke Münster
@@ -176,6 +178,7 @@ T83;bus;Taxibus;;;Stadtwerke Münster
 T84;bus;Taxibus;;;Stadtwerke Münster
 T85;bus;Taxibus;;;Stadtwerke Münster
 T87;bus;Taxibus;;;Stadtwerke Münster
+T341;bus;;;;Stadtwerke Münster
 
 === Kreis Steinfurt
 
@@ -712,10 +715,10 @@ T88;bus;;;;Regionalverkehr Münsterland GmbH
 62;bus;;Bielefeld;Borgholzhausen;BVO Busverkehr Ostwestfalen GmbH
 63;bus;;Vilsendorf;Werther;BVO Busverkehr Ostwestfalen GmbH
 68;bus;;Schildesche;Steinhagen;BVO Busverkehr Ostwestfalen GmbH
-80.2;bus;;Bielefeld;Verl;TWV-Bus - Transdev Ostwestfalen GmbH
+80.2;bus;;Bielefeld;Verl;Transdev Ostwestfalen GmbH
 81;bus;;Sennestadt;Stukenbrock;moBiel GmbH
 82;bus;;Brackwede;Stukenbrock;moBiel GmbH
-83;bus;;Bielefeld;Schoß Holte;TWV-Bus - Transdev Ostwestfalen GmbH
+83;bus;;Bielefeld;Schoß Holte;Transdev Ostwestfalen GmbH
 87;bus;;Bielefeld/Brackwede Gymnasium;Gütersloh/Holtkamp;moBiel GmbH
 88;bus;;Bielefeld;Halle;BVO Busverkehr Ostwestfalen GmbH
 94;bus;;Brackwede;Gütersloh;moBiel GmbH
@@ -781,6 +784,7 @@ AST;share_taxi;;;;moBiel GmbH
 === Kreis Gütersloh
 
 43;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+44;bus;;Gütersloh;Pixel;Transdev Ostwestfalen GmbH
 46;bus;;Stukenbrock;Sennestadt;moBiel GmbH
 47;bus;;Schloß Holte;Sennestadt;moBiel GmbH
 48;bus;;Brockhagen;Bielefeld;BVO Busverkehr Ostwestfalen GmbH
@@ -793,60 +797,61 @@ AST;share_taxi;;;;moBiel GmbH
 66;bus;;Spenge;Häger;BVO Busverkehr Ostwestfalen GmbH
 67;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 68;bus;;Steinhagen;Schildesche;BVO Busverkehr Ostwestfalen GmbH
-70;bus;;Rheda;Lippstadt;TWV-Bus Transdev Ostwestfalen GmbH
-71;bus;;Gütersloh;Versmold;TWV-Bus Transdev Ostwestfalen GmbH
-71.1;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-71.2;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-71.3;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-71.5;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-71.6;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-71.7;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-71.8;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-72;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-72.1;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-72.3;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-72.4;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-72.5;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-72.6;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-72.7;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-72.8;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-73;bus;;Gütersloh;Hövelhof;TWV-Bus Transdev Ostwestfalen GmbH
-73.1;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-73.2;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-73.3;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-74;bus;;Gütersloh;Clarholz;TWV-Bus Transdev Ostwestfalen GmbH
-75;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-75.1;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-76;bus;;Rietberg;Rheda;TWV-Bus Transdev Ostwestfalen GmbH
-77;bus;;Rietberg;Gütersloh;TWV-Bus Transdev Ostwestfalen GmbH
-78;bus;City-Bus Rheda-Wiedenbrück;Rheda;Rheda;TWV-Bus Transdev Ostwestfalen GmbH
-78.1;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-78.2;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-78.3;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-78.4;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-79;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-79.1;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-80.1;bus;;Lippstadt;Avenwedde;TWV-Bus Transdev Ostwestfalen GmbH
-80.2;bus;;Verl;Bielefeld;TWV-Bus Transdev Ostwestfalen GmbH
+70;bus;;Rheda;Lippstadt;Transdev Ostwestfalen GmbH
+71;bus;;Gütersloh;Versmold;Transdev Ostwestfalen GmbH
+71.1;bus;;;;Transdev Ostwestfalen GmbH
+71.2;bus;;;;Transdev Ostwestfalen GmbH
+71.3;bus;;;;Transdev Ostwestfalen GmbH
+71.5;bus;;;;Transdev Ostwestfalen GmbH
+71.6;bus;;;;Transdev Ostwestfalen GmbH
+71.7;bus;;;;Transdev Ostwestfalen GmbH
+71.8;bus;;;;Transdev Ostwestfalen GmbH
+72;bus;;;;Transdev Ostwestfalen GmbH
+72.1;bus;;;;Transdev Ostwestfalen GmbH
+72.3;bus;;;;Transdev Ostwestfalen GmbH
+72.4;bus;;;;Transdev Ostwestfalen GmbH
+72.5;bus;;;;Transdev Ostwestfalen GmbH
+72.6;bus;;;;Transdev Ostwestfalen GmbH
+72.7;bus;;;;Transdev Ostwestfalen GmbH
+72.8;bus;;;;Transdev Ostwestfalen GmbH
+73;bus;;Gütersloh;Hövelhof;Transdev Ostwestfalen GmbH
+73.1;bus;;;;Transdev Ostwestfalen GmbH
+73.2;bus;;;;Transdev Ostwestfalen GmbH
+73.3;bus;;;;Transdev Ostwestfalen GmbH
+74;bus;;Gütersloh;Clarholz;Transdev Ostwestfalen GmbH
+75;bus;;;;Transdev Ostwestfalen GmbH
+75.1;bus;;;;Transdev Ostwestfalen GmbH
+76;bus;;Rietberg;Rheda;Transdev Ostwestfalen GmbH
+77;bus;;Rietberg;Gütersloh;Transdev Ostwestfalen GmbH
+78;bus;City-Bus Rheda-Wiedenbrück;Rheda;Rheda;Transdev Ostwestfalen GmbH
+78.1;bus;;;;Transdev Ostwestfalen GmbH
+78.2;bus;;;;Transdev Ostwestfalen GmbH
+78.3;bus;;;;Transdev Ostwestfalen GmbH
+78.4;bus;;;;Transdev Ostwestfalen GmbH
+79;bus;;;;Transdev Ostwestfalen GmbH
+79.1;bus;;;;Transdev Ostwestfalen GmbH
+80.1;bus;;Lippstadt;Avenwedde;Transdev Ostwestfalen GmbH
+80.2;bus;;Verl;Bielefeld;Transdev Ostwestfalen GmbH
 81;bus;;Sennestadt;Stukenbrock;moBiel GmbH
 82;bus;;Brackwede;Stukenbrock;moBiel GmbH
-83;bus;;Schloß Holte;Bielefeld;TWV-Bus Transdev Ostwestfalen GmbH
-84;bus;;Schoß Holte;Augustdorf;TWV-Bus Transdev Ostwestfalen GmbH
-84.1;bus;;Schoß Holte;Stukenbrock-Senne;TWV-Bus Transdev Ostwestfalen GmbH
-84.2;bus;;Schoß Holte;Liemke;TWV-Bus Transdev Ostwestfalen GmbH
-84.3;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-84.4;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-85;bus;;Schloß Holte;Gütersloh;TWV-Bus Transdev Ostwestfalen GmbH
-85.1;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
+83;bus;;Schloß Holte;Bielefeld;Transdev Ostwestfalen GmbH
+84;bus;;Schoß Holte;Augustdorf;Transdev Ostwestfalen GmbH
+84.1;bus;;Schoß Holte;Stukenbrock-Senne;Transdev Ostwestfalen GmbH
+84.2;bus;;Schoß Holte;Liemke;Transdev Ostwestfalen GmbH
+84.3;bus;;;;Transdev Ostwestfalen GmbH
+84.4;bus;;;;Transdev Ostwestfalen GmbH
+84.5;bus;;;;Transdev Ostwestfalen GmbH
+85;bus;;Schloß Holte;Gütersloh;Transdev Ostwestfalen GmbH
+85.1;bus;;;;Transdev Ostwestfalen GmbH
 86;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 87;bus;;Gütersloh/Holtkamp;Bielefeld/Brackwede Gymnasium;moBiel GmbH
 88;bus;;Bielefeld;Halle;BVO Busverkehr Ostwestfalen GmbH
 88E;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 89;bus;;Werther/Halle;Versmold/Peckeloh;BVO Busverkehr Ostwestfalen GmbH
-90;bus;;Versmold/Borgholzhausen;Borgholzhausen/Halle;TWV-Bus Transdev Ostwestfalen GmbH
-91;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-92;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
-93;bus;;;;TWV-Bus Transdev Ostwestfalen GmbH
+90;bus;;Versmold/Borgholzhausen;Borgholzhausen/Halle;Transdev Ostwestfalen GmbH
+91;bus;;;;Transdev Ostwestfalen GmbH
+92;bus;;;;Transdev Ostwestfalen GmbH
+93;bus;;;;Transdev Ostwestfalen GmbH
 94;bus;;Gütersloh;Brackwede;moBiel GmbH
 95;bus;;Gütersloh/Ummeln Gröppel;Bielefeld/Brackwede Gymnasium;moBiel GmbH
 98;bus;;;;BVO Busverkehr Ostwestfalen GmbH
@@ -855,7 +860,7 @@ AST;share_taxi;;;;moBiel GmbH
 157;bus;;Werther;Bielefeld;BVO Busverkehr Ostwestfalen GmbH
 160;bus;Bürgerbus Werther;;;BVO Busverkehr Ostwestfalen GmbH
 188;bus;;;;BVO Busverkehr Ostwestfalen GmbH
-190;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+190;bus;;;;Transdev Ostwestfalen GmbH
 201;bus;;;;Stadtbus Gütersloh GmbH
 202;bus;;;;Stadtbus Gütersloh GmbH
 203;bus;;;;Stadtbus Gütersloh GmbH
@@ -885,10 +890,10 @@ Ha-T1;bus;;Halle;Ascheloh;go.on Gesellschaft für Bus- und Schienenverkehr mbH
 Ha-T2;bus;;Halle;Künsebeck;go.on Gesellschaft für Bus- und Schienenverkehr mbH
 Ha-T3;bus;;Halle;Kölkebeck;go.on Gesellschaft für Bus- und Schienenverkehr mbH
 Ha-T4;bus;;Halle;Hörste;go.on Gesellschaft für Bus- und Schienenverkehr mbH
-Hw-T1;bus;;Harsewinkel;Zunftstraße;TWV-Bus Transdev Ostwestfalen GmbH
-Hw-T2;bus;;Harsewinkel;Landhagen;TWV-Bus Transdev Ostwestfalen GmbH
-Hw-T3;bus;;Harsewinkel;Behringstraße;TWV-Bus Transdev Ostwestfalen GmbH
-Hw-T4;bus;;Harsewinkel;Breslauer Straße;TWV-Bus Transdev Ostwestfalen GmbH
+Hw-T1;bus;;Harsewinkel;Zunftstraße;Transdev Ostwestfalen GmbH
+Hw-T2;bus;;Harsewinkel;Landhagen;Transdev Ostwestfalen GmbH
+Hw-T3;bus;;Harsewinkel;Behringstraße;Transdev Ostwestfalen GmbH
+Hw-T4;bus;;Harsewinkel;Breslauer Straße;Transdev Ostwestfalen GmbH
 
 
 === Kreise Herford und Minden-Lübbecke
@@ -938,14 +943,14 @@ Hw-T4;bus;;Harsewinkel;Breslauer Straße;TWV-Bus Transdev Ostwestfalen GmbH
 431;bus;;;;WeserWerreBus GmbH
 432;bus;;Löhne;Mennighüffen;WeserWerreBus GmbH
 433;bus;;Herford;Bad Salzuflen;BVO Busverkehr Ostwestfalen GmbH
-434|434/VB1;bus;;Herford;Exter;BVO Busverkehr Ostwestfalen GmbH
+434|434/VB1;bus;;Herford;Vlotho;BVO Busverkehr Ostwestfalen GmbH
 435;bus;;Herford;Exter;BVO Busverkehr Ostwestfalen GmbH
 437;bus;;;;WeserWerreBus GmbH
 438;bus;;;;WeserWerreBus GmbH
 439;bus;Schulbus;;;WeserWerreBus GmbH
 447;bus;;Minden;Wallücke;BVO Busverkehr Ostwestfalen GmbH
 457;bus;;;;Transdev Ostwestfalen GmbH
-458;bus;;Bad Oeynhausen;Vlotho;TWV-Bus Transdev Ostwestfalen GmbH
+458;bus;;Bad Oeynhausen;Vlotho;Transdev Ostwestfalen GmbH
 461;bus;;Minden;Bad Oeynhausen;BVO Busverkehr Ostwestfalen GmbH
 462;bus;;Löhne;Kirchlengern;Stoffregen-Reisen
 464;bus;;Enger;Spenge;BVO Busverkehr Ostwestfalen GmbH
@@ -957,6 +962,7 @@ Hw-T4;bus;;Harsewinkel;Breslauer Straße;TWV-Bus Transdev Ostwestfalen GmbH
 470;bus;;Lippinghausen;Lippinghausen;BVO Busverkehr Ostwestfalen GmbH
 500;bus;;Lahde;Petershagen;MKB-MühlenkreisBus GmbH
 501;bus;;Minden;Petershagen;MKB-MühlenkreisBus GmbH
+501S;bus;;;;MKB
 502;bus;;Minden;Petershagen;MKB-MühlenkreisBus GmbH
 503;bus;;Petershagen;Südfelde;MKB-MühlenkreisBus GmbH
 504;bus;;Petershagen;Buchholz;MKB-MühlenkreisBus GmbH
@@ -1005,6 +1011,7 @@ Hw-T4;bus;;Harsewinkel;Breslauer Straße;TWV-Bus Transdev Ostwestfalen GmbH
 603;bus;;;;Transdev Ostwestfalen GmbH
 604;bus;;;;MKB-MühlenkreisBus GmbH
 605;bus;;;;MKB-MühlenkreisBus GmbH
+606;bus;;;;Transdev Ostwestfalen GmbH
 610;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 611;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 612;bus;;;;BVO Busverkehr Ostwestfalen GmbH
@@ -1355,6 +1362,7 @@ T114;bus;;;;Stadtwerke Hamm GmbH Verkehr
 625;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 626;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 632;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+631;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 633;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 634;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 
@@ -1552,7 +1560,7 @@ T73;bus;;;;DB Bahn Westfalenbus
 
 === Kreis Soest
 
-70;bus;;Lippstadt;Rheda;TWV-Bus Transdev Ostwestfalen GmbH
+70;bus;;Lippstadt;Rheda;Transdev Ostwestfalen GmbH
 
 335;bus;;Beckum;Herzfeld;Regionalverkehr Ruhr-Lippe GmbH
 513;bus;;Hönninger Heide;Hönningen;VGB
@@ -1751,26 +1759,26 @@ S3;bus;;;;Märkische Verkehrsgesellschaft
 
 === Kreis Paderborn
 
-1;bus;;Hauptbahnhof;Sennelager;Padersprinter
-2;bus;;Marienloh;Wewer;Padersprinter
-3;bus;;;;Padersprinter
-4;bus;;;;Padersprinter
-5;bus;;;;Padersprinter
-6;bus;;;;Padersprinter
-7;bus;;;;Padersprinter
-8;bus;;;;Padersprinter
-9;bus;;;;Padersprinter
-11;bus;;Hauptbahnhof;Thuner Siedlung;Padersprinter
-12;bus;;;;Padersprinter
-24;bus;;;;Padersprinter
-28;bus;;;;Padersprinter
-43;bus;;;;Padersprinter
-46;bus;;;;Padersprinter
-47;bus;;;;Padersprinter
-52;bus;;;;Padersprinter
-58;bus;;;;Padersprinter
-61;bus;;;;Padersprinter
-68;bus;;;;Padersprinter
+1;bus;;Hauptbahnhof;Sennelager;PaderSprinter GmbH
+2;bus;;Marienloh;Wewer;PaderSprinter GmbH
+3;bus;;;;PaderSprinter GmbH
+4;bus;;;;PaderSprinter GmbH
+5;bus;;;;PaderSprinter GmbH
+6;bus;;;;PaderSprinter GmbH
+7;bus;;;;PaderSprinter GmbH
+8;bus;;;;PaderSprinter GmbH
+9;bus;;;;PaderSprinter GmbH
+11;bus;;Hauptbahnhof;Thuner Siedlung;PaderSprinter GmbH
+12;bus;;;;PaderSprinter GmbH
+24;bus;;;;PaderSprinter GmbH
+28;bus;;;;PaderSprinter GmbH
+43;bus;;;;PaderSprinter GmbH
+46;bus;;;;PaderSprinter GmbH
+47;bus;;;;PaderSprinter GmbH
+52;bus;;;;PaderSprinter GmbH
+58;bus;;;;PaderSprinter GmbH
+61;bus;;;;PaderSprinter GmbH
+68;bus;;;;PaderSprinter GmbH
 
 410;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 411;bus;;;;BVO Busverkehr Ostwestfalen GmbH
@@ -1837,14 +1845,14 @@ D3;bus;;Delbrück;Hövelhof;BVO Busverkehr Ostwestfalen GmbH
 D4;bus;;Delbrück;;BVO Busverkehr Ostwestfalen GmbH
 D5;bus;;Delbrück;;BVO Busverkehr Ostwestfalen GmbH
 
-N1;bus;;Zentralstation;Marienloh;Padersprinter
-N2;bus;;Zentralstation;Neuenbeken;Padersprinter
-N3;bus;;Zentralstation;Kaukenberg;Padersprinter
-N4;bus;;Zentralstation;Dahl;Padersprinter
-N5;bus;;Zentralstation;Wewer;Padersprinter
-N6;bus;;Zentralstation;Gesseln;Padersprinter
-N7;bus;;Zentralstation;Sande;Padersprinter
-N8;bus;;Zentralstation;Sennelager;Padersprinter
+N1;bus;;Zentralstation;Marienloh;PaderSprinter GmbH
+N2;bus;;Zentralstation;Neuenbeken;PaderSprinter GmbH
+N3;bus;;Zentralstation;Kaukenberg;PaderSprinter GmbH
+N4;bus;;Zentralstation;Dahl;PaderSprinter GmbH
+N5;bus;;Zentralstation;Wewer;PaderSprinter GmbH
+N6;bus;;Zentralstation;Gesseln;PaderSprinter GmbH
+N7;bus;;Zentralstation;Sande;PaderSprinter GmbH
+N8;bus;;Zentralstation;Sennelager;PaderSprinter GmbH
 NE11;bus;;;;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
 NE12;bus;;;;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
 NE15;bus;;;;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
@@ -1877,7 +1885,7 @@ Sk4;bus;Stadtbus Salzkotten;;;BVO Busverkehr Ostwestfalen GmbH
 Sk5;bus;Stadtbus Salzkotten;;;BVO Busverkehr Ostwestfalen GmbH
 Sk6;bus;Stadtbus Salzkotten;;;BVO Busverkehr Ostwestfalen GmbH
 
-UNI;bus;;Uni/Südring;MuseumsForum;Padersprinter
+UNI;bus;;Uni/Südring;MuseumsForum;PaderSprinter GmbH
 
 
 === Kreis Höxter
