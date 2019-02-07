@@ -57,7 +57,7 @@ U4;subway;;Westendstraße;Arabellapark;SWM/MVG
 U5;subway;;Laimer Platz;Neuperlach Süd;SWM/MVG
 U6;subway;;Garching, Forschungszentrum;Klinikum Großhadern;SWM/MVG
 U7;subway;;Olympia-Einkaufszentrum;Neuperlach Zentrum;SWM/MVG
-U8;subway;!Änderung ab 09.12.2018: Samstags bis Neuperlach Zentrum!;Olympiazentrum;Sendlinger Tor;SWM/MVG
+U8;subway;Samstags bis Neuperlach Zentrum;Olympiazentrum;Sendlinger Tor;SWM/MVG
 #
 == S-Bahn
 S1;train;;Flughafen München / Freising;Ostbahnhof;DB Regio AG/S-Bahn München
@@ -232,7 +232,7 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 243;bus;;Haar, Hans-Stießberger-Straße;Neukeferloh;DB Regio Bus Bayern GmbH
 244;bus;;Taufkirchen, Hugo-Junkers-Straße;Sauerlach S;Verkehrsbetrieb Ettenhuber GmbH
 258;bus;;Gräfelfing S;Starnberger Straße;Busservice Watzinger
-259;bus;!Neue Buslinie ab 09.12.2018!;Pasing Bf S R;Martinsried;Demmelmair GmbH & Co
+259;bus;;Pasing Bf S R;Martinsried;Demmelmair GmbH & Co
 260;bus;;Germering-Unterpfaffenhofen S;Fürstenried West U;Busservice Watzinger
 261;bus;;Neuried;Fürstenried West U;Busservice Watzinger
 262;bus;;Heimstetten S;Kirchheim, Gewerbegebiet;Verkehrsbetrieb Ettenhuber GmbH

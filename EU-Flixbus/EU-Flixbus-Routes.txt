@@ -192,7 +192,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 186;bus;;Bamberg;München;FlixMobility GmbH
 189;bus;;Ulm;Berlin;FlixMobility GmbH
 191;bus;Seit 06.11.2017 nicht mehr buchbar, wurde eingestellt.;München;Budapest;FlixMobility GmbH
-197;bus;Prag;Linz;FlixMobility GmbH
+197;bus;;Prag;Linz;FlixMobility GmbH
 198;bus;;Tübingen;Hamburg;FlixMobility GmbH
 
 
@@ -533,11 +533,11 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 918;bus;;Warschau;Wien;FlixMobility GmbH
 919;bus;;Breslau;Wien;FlixMobility GmbH
 920;bus;Seit 15.10.2018 nicht mehr buchbar, wurde eingestellt;Samobor;Dubrovnik;FlixMobility GmbH
-921;bus;Seit 25.04.2018 nicht mehr buchbar, wurde eingestellt;Zagreb;Šibenik;
+921;bus;Seit 25.04.2018 nicht mehr buchbar, wurde eingestellt;Zagreb;Šibenik;FlixMobility GmbH
 922;bus;Seit 15.10.2018 nicht mehr buchbar, wurde eingestellt;Zagreb;Split;FlixMobility GmbH
-923;bus;Seit 15.10.2018 nicht mehr buchbar, wurde eingestellt;Zagreb;Šibenik;
+923;bus;Seit 15.10.2018 nicht mehr buchbar, wurde eingestellt;Zagreb;Šibenik;FlixMobility GmbH
 924;bus;Seit 15.10.2018 nicht mehr buchbar, wurde eingestellt;Zagreb;Split;FlixMobility GmbH
-925;bus;Linie in Winterpause, evtl. ganz eingestellt?;Vukovar;Murter;
+925;bus;Linie in Winterpause, evtl. ganz eingestellt?;Vukovar;Murter;FlixMobility GmbH
 926;bus;Linie in Winterpause, evtl. ganz eingestellt?;Zagreb;Baška;FlixMobility GmbH
 927;bus;;Zadar;Gornja Vrba;FlixMobility GmbH
 928;bus;;Zagreb;Biograd na Moru;FlixMobility GmbH
@@ -631,6 +631,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 1704;bus;;;;
 1714;bus;;;;
 1725;bus;;;;
+1730;bus;;Marseille;Dijon;FlixMobility GmbH
 1733;bus;;Tours;Tremblay-en-France;FlixMobility GmbH
 1735;bus;;Châteauroux;Paris;FlixMobility GmbH
 1748;bus;;;;
@@ -736,7 +737,7 @@ X68;bus;;Heidelberg;Amsterdam;FlixMobility GmbH
 X73;bus;;Köln;Castrup;FlixMobility GmbH
 X75;bus;bis 10.04.2019 buchbar, wird eingestellt;Amsterdam;Kiel;FlixMobility GmbH
 X96;bus;;Schwechat;Graz;FlixMobility GmbH
-X411;bus;;;;
+X411;bus;;Mailand;Cortina d'Ampezzo;FlixMobility GmbH
 
 
 == Nachtbuslinien
@@ -934,12 +935,13 @@ N943;bus;;München;Pula;FlixMobility GmbH
 N948;bus;;Frankfurt am Main;Split;FlixMobility GmbH
 N949;bus;Seit 23.09.2018 nicht mehr buchbar, wurde eingestellt.;Budapest;Makarska;FlixMobility GmbH
 N950;bus;;Karlsruhe;Osijek;FlixMobility GmbH
-N952;bus;;Frankfurt;Vukovar;FlixMobility GmbH
+N952;bus;;Frankfurt am Main;Vukovar;FlixMobility GmbH
 N953;bus;;Zagreb;Basel;FlixMobility GmbH
 N959;bus;;Bukarest;Prag;FlixMobility GmbH
 N960;bus;Ab 04.11.2018 nicht mehr buchbar, wird eingestellt.;Bukarest;Budapest;FlixMobility GmbH
 N963;bus;;Wien;Miercurea Ciuc;FlixMobility GmbH
 N971;bus;;Dortmund;Sarajevo;FlixMobility GmbH
+N978;bus;;Frankfurt am Main;Mostar;FlixMobility GmbH
 N979;bus;Seit 09.09.2018 nicht mehr buchbar, wurde eingestellt.;Budapest;Budva;FlixMobility GmbH
 N980;bus;;Bukarest;Sofia;FlixMobility GmbH
 N982;bus;;Sofia;Wien;FlixMobility GmbH

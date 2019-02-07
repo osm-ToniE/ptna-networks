@@ -362,7 +362,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 - .
 === Bus 300 Oberbergischer Kreis ...
 
-301;bus;;Gummersbach;Olpe;OVEG
+301;bus;Hauptstrecke Gummersbach - Pernze;Gummersbach Bf;Olpe Bf;OVEG
 #301;bus;Quelle gtfs;Gummersbach Bf;Bergneustadt, Pernze Sportplatz;OVAG
 302;bus;!Ab Fahrplan 2019 zwischen Gummersbach und Wiehl als Schnellbus!;Gummersbach;Waldbröl;OVAG
 303;bus;!Im Fahrplan 2019 geänderte Struktur, Abschnitt Eckenhagen - Waldbröl teils bei der neuen Linie 345!;Gummersbach;Waldbröl;OVAG
@@ -375,37 +375,32 @@ SB82;bus;;Kall;Vogelsang;RVK
 310;bus;Quelle gtfs;Gummersbach Bf;Overath Bf;OVAG
 311;bus;;Nümbrecht;Waldbröl;OVAG
 312;bus;Quelle gtfs;Waldbröl Busbf;Engelskirchen, Ründeroth Bf;OVAG
-313;bus;Rundkurs;;;
-#313;bus;Quelle gtfs;Bergneustadt, Graf-Eberhard-Platz / Zentrum;Bergneustadt, Graf-Eberhard-Platz / Zentrum;OVAG
-314;bus;Rundkurs;;;
-#314;bus;Quelle gtfs;Bergneustadt, Graf-Eberhard-Platz / Zentrum;Bergneustadt, Graf-Eberhard-Platz / Zentrum;OVAG
-315;bus;Rundkurs;;;
-#315;bus;Quelle gtfs;Bergneustadt, Graf-Eberhard-Platz / Zentrum;Bergneustadt, Graf-Eberhard-Platz / Zentrum;OVAG Oberbergische Verkehrsgesellschaft mbH
+313;bus;Rundkurs , Quelle gtfs;Bergneustadt, Graf-Eberhard-Platz / Zentrum;Bergneustadt, Graf-Eberhard-Platz / Zentrum;OVAG
+314;bus;Rundkurs , Quelle gtfs;Bergneustadt, Graf-Eberhard-Platz / Zentrum;Bergneustadt, Graf-Eberhard-Platz / Zentrum;OVAG
+315;bus;Rundkurs , Quelle gtfs;Bergneustadt, Graf-Eberhard-Platz / Zentrum;Bergneustadt, Graf-Eberhard-Platz / Zentrum;OVAG Oberbergische Verkehrsgesellschaft mbH
 316;bus;Quelle gtfs;Gummersbach Bf;Gummersbach, Dieringhausen Bf;OVAG
 317;bus;Quelle gtfs;Gummersbach Bf;Engelskirchen, Ründeroth Bf;OVAG
-318;bus;;Gummersbach;Piene;
+318;bus;Hauptstrecke Gummersbach - Lieberhausen;Gummersbach Bf;Piene;OVAG
 #318;bus;Quelle gtfs;Gummersbach Bf;Gummersbach, Lieberhausen;OVAG
-319;bus;;Much;Ründeroth;
+319;bus;Hauptstrecke Drabenderhöhe - Bielstein;Much;Ründeroth;OVAG
 #319;bus;Quelle gtfs;Wiehl, Drabenderhöhe Hermannstädter Gasse;Wiehl, Bielstein Busbf;OVAG
 
 320;bus;;Marienheide;Meinerzhagen;OVAG
 321;bus;;Wiehl;Eckenhagen;OVAG
 322;bus;;;;
-323;bus;;Nümbrecht;Drabenderhöhe;
-#323;bus;Quelle gtfs;Nümbrecht, Marienberghausen Ort;Nümbrecht Schulzentrum;OVAG
+323;bus;Quelle gtfs;Nümbrecht, Marienberghausen Ort;Nümbrecht Schulzentrum;OVAG
 324;bus;;Wiehl;Nümbrecht;OVAG
 325;bus;Quelle gtfs;Wiehl Busbf;Gummersbach, Dieringhausen Bf;OVAG
 
-331;bus;Quelle gtfs;Lindlar, Remshagen Horpe;Engelskirchen Bf;OVAG
+331;bus;Taxibus/Linientaxi;Lindlar Busbf / Freilichtmuseum;Engelskirchen Bf;OVAG
 332;bus;;Wipperfürth;Engelskirchen;OVAG
 333;bus;;Wipperfürth;Engelskirchen;OVAG
 335;bus;;Frielingsdorf;Bergisch Gladbach;
 #335;bus;Quelle gtfs;Lindlar, Frielingsdorf Busbf;Kürten, Dürscheid Miebach;OVAG
 336;bus;Quelle gtfs;Gummersbach Bf;Remscheid, Lennep Bf;OVAG
-336R;bus;;Röhnsal;Ohl;
-#336R;bus;Quelle gtfs;Wipperfürth, Ohl/Klaswipper Ohl;Kierspe, Rönsahl Markt;OVAG
-337;bus;Rundkurs über Egen;Wipperfürth;Wipperfürth;OVAG
-338;bus;Rundkurs über Kupferberg;Wipperfürth;Wipperfürth;OVAG
+336R;bus;Quelle gtfs;Wipperfürth, Ohl/Klaswipper Ohl;Kierspe, Rönsahl Markt;OVAG
+337;bus;Rundkurs über Egen;Wipperfürth Busbf;Wipperfürth Busbf;OVAG
+338;bus;Rundkurs über Kupferberg;Wipperfürth Busbf;Wipperfürth Busbf;OVAG
 339;bus;Quelle gtfs;Hückeswagen, Bahnhofstr.;Radevormwald Busbf;OVAG
 
 340;bus;Quelle gtfs;Waldbröl Busbf;Morsbach Busbf;OVAG
@@ -413,24 +408,22 @@ SB82;bus;;Kall;Vogelsang;RVK
 342;bus;Quelle gtfs;Waldbröl Busbf;Windeck, Schladern Bf;OVAG
 343;bus;Quelle gtfs;Waldbröl Busbf;Windeck, Leuscheid Markt;OVAG
 344;bus;Quelle gtfs;Waldbröl Busbf;Windeck, Rosbach Bf;OVAG
-345;bus;!Neu im Fahrplan 2019, übernimmt Teile der Linie 303!;Eckenhagen;Waldbröl;OVEG
-#345;bus;Quelle gtfs;Reichshof, Eckenhagen;Waldbröl Busbf;OVAG
-346;bus;Schulverkehr Nümbrecht;;;
+345;bus;!Neu im Fahrplan 2019, übernimmt Teile der Linie 303! , Quelle gtfs;Reichshof, Eckenhagen;Waldbröl Busbf;OVAG
+346;bus;Schulverkehr Nümbrecht;Nümbrecht Schulzentrum;Nümbrecht Schulzentrum;OVAG
 #346;bus;Quelle gtfs;Nümbrecht Schulzentrum;Nümbrecht Schulzentrum;OVAG
 347;bus;Verkehrsverbund Rhein Mosel;Wissen;Morsbach;H. Ochsenbrücher GmbH
 348;bus;Quelle gtfs;Gummersbach, Derschlag Busbf;Gummersbach, Dieringhausen Bf;OVAG
-349;bus;Rundkurs Morsbach;;;OVAG 
+349;bus;Rundkurs Morsbach;Morsbach Busbf;Morsbach Busbf;OVAG 
 #349;bus;Quelle gtfs;Morsbach Busbf;Morsbach Busbf;OVAG
 
-361;bus;Quelle gtfs;Gummersbach Bf;Gummersbach, Strombach Weststr.;OVAG
-362;bus;Quelle gtfs;Gummersbach Bf;Gummersbach Bf;OVAG
-363;bus;Quelle gtfs;Gummersbach Bf;Gummersbach Bf;OVAG
-364;bus;Quelle gtfs;Gummersbach Bf;Gummersbach Bf;OVAG
-365;bus;Quelle gtfs;Gummersbach Bf;Gummersbach, Strombach Weststr.;OVAG
+361;bus;über Steinenbrück , Quelle gtfs;Gummersbach Bf;Gummersbach, Strombach Weststr.;OVAG
+362;bus;Rundkurs über Steinberg , Quelle gtfs;Gummersbach Bf;Gummersbach Bf;OVAG
+363;bus;Rundkurs über Hepel , Quelle gtfs;Gummersbach Bf;Gummersbach Bf;OVAG
+364;bus;Rundkurs über Bernberg , Quelle gtfs;Gummersbach Bf;Gummersbach Bf;OVAG
+365;bus;über Berstig , Quelle gtfs;Gummersbach Bf;Gummersbach, Strombach Weststr.;OVAG
 
 398;bus;;Lindlar;Schmitzhöhe;OVAG
-399;bus;Ortsverkehr Marienheide;;;
-#399;bus;Quelle gtfs;Marienheide, Holzwipper Börlinghausen;Marienheide Bf;OVAG
+399;bus;Ortsverkehr Marienheide , Quelle gtfs;Marienheide, Holzwipper Börlinghausen;Marienheide Bf;OVAG
 
 - .
 === Bus 400 Rheinisch-Bergischer Kreis ...

@@ -68,7 +68,7 @@ U34;light_rail;;Heslach Vogelrain;Vogelsang;
 
 == Bus
 
-== Express Bus
+=== Express Bus
 
 X10;bus;;Flughafen/Messe;Kirchheim (T);
 X20;bus;;Esslingen;Waiblingen;
@@ -118,7 +118,7 @@ X60;bus;;Flughafen/Messe;Leonberg;
 
 === Bus 100 .. 199
 
-101;bus;;Obertürkheim;Lerchenäcker;
+101;trolleybus;!Teilweise Oberleitungsbus?!;Obertürkheim;Lerchenäcker;
 102;bus;;Mettingen;Zell;
 103;bus;;Hedelfingen;Zell;
 104;bus;;Deizisau;Esslingen (N) ZOB;
@@ -130,11 +130,11 @@ X60;bus;;Flughafen/Messe;Leonberg;
 110;bus;;Wäldenbronn;Esslingen (N) ZOB;
 111;bus;;Neckarhalde;Esslingen ZOB;
 112;bus;;Jägerhaus;Esslingen (N) ZOB;
-113;bus;;Berkheim;Esslingen (N) ZOB;
+113;bus;!Teilweise Oberleitungsbus?!;Berkheim;Esslingen (N) ZOB;
 114;bus;;Endersbach;Esslingen (N) ZOB;
 115;bus;;Zell;Esslingen (N) ZOB;
 116;bus;;Endersbach;Esslingen (N) ZOB;
-118;bus;;Esslingen ZOB;Esslingen ZOB;
+118;trolleybus;!Teilweise Oberleitungsbus?!;Esslingen ZOB;Esslingen ZOB;
 119;bus;;Denkendorf;Esslingen (N);
 120;bus;;Wolfschlugen;Esslingen (N);
 121;bus;;Neuhausen;Oberesslingen;
@@ -463,7 +463,7 @@ X1;bus;;Hauptbahnhof;Bad Cannstatt Wilhelmsplatz;
 X2;bus;;Leonberg;Rotebühlplatz;
 X74;bus;;Weil der Stadt;Universität;
 
-== Schulbus
+=== Schulbus
 
 75E;bus;Schülerverkehr Interimsvergabe;Filderstadt/Aichtal;Filderstadt/Aichtal;
 114A;bus;Schülerverkehr;Aichwald;Zell Berufliches Schulzentrum;
@@ -509,7 +509,7 @@ X74;bus;;Weil der Stadt;Universität;
 818A;bus;Schülerverkehr;Bonlanden;Musberg;
 826A;bus;Schülerverkehr;Leinfelden;Tübingen;
 
-== Nachtbus
+=== Nachtbus
 
 N1;bus;;Schlossplatz;Schlossplatz;
 N2;bus;;Schlossplatz;Schlossplatz;
@@ -556,7 +556,7 @@ N80;bus;;Herrenberg;Tübingen;
 N81;bus;;Wendlingen;Neckarhausen;
 N92;bus;;Filderstadt;Bernhausen Bf;
 
-== Schienenersatzverkehr
+=== Schienenersatzverkehr
 
 R21E;bus;;Schienenersatzverkehr Schorndorf;Oberndorf;
 R72A;bus;Schienenersatzverkehr;Dettenhausen;Böblingen;

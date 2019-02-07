@@ -90,7 +90,6 @@
 -
 - * '''VIAS''' - 
 -
--
 
 -
 - * '''RMV''' - Rhein Mosel Verkehrsgesellschaft
@@ -113,7 +112,6 @@
 #ref;type;comment;from;to;operator
 
 -
--
 
 == Züge 
 
@@ -132,35 +130,68 @@ RE25;train;Lahntal-Express;Koblenz;Gießen;DB AG
 
 === Regionalbahn
 
-RB10;train;Rechte-Rhein-Strecke;Neuwied;Frankfurt;VIAS
+RB10;train;Rechte-Rhein-Strecke (RRS);Neuwied;Frankfurt;VIAS
 RB23;train;Lahn-Eifel-Bahn;Mayen;Limburg;DB AG
 RB26;train;Mitttelrheinbahn;Mainz;Köln;trans regio
-RB27;train;Rhein-Erft-Bahn;Koblenz;Mönchengladbach;DB AG
-RB29;train;Unterwesterwald-Bahn;Limburg;Siershahn;HLB
-RB30;train;Rhein-Ahr-Bahn;Bonn;Ahrbrück;DB Regio
-RB37;train;Hunsrück-Bahn;Boppard;Emelshausen;Rhenus Veniro
-RB38;train;Pellenz-Eifel-Bahn;Andernach;Kaisersesch;DB AG
+RB27;train;Rhein-Erft-Bahn (RRN);Koblenz;Mönchengladbach;DB AG
+RB29;train;Unterwesterwald-Bahn (UWW);Limburg;Siershahn;HLB
+RB30;train;Rhein-Ahr-Bahn (AHR);Bonn;Ahrbrück;DB Regio
+RB37;train;Hunsrück-Bahn (HUN);Boppard;Emelshausen;Rhenus Veniro
+RB38;train;Pellenz-Eifel-Bahn (PEL);Andernach;Kaisersesch;DB AG
 RB39;train;Rhein-Ahr-Bahn;Remagen;Ahrbrück;DB Regio
 
-RB81;train;Moseltal-Bahn;Koblenz;Trier;DB AG
-RB85;train;Moselwein-Bahn;Bullay;Traben-Trarbach;Rhenus Veniro
+RB81;train;Moseltal-Bahn (MOS);Koblenz;Trier;DB AG
+RB85;train;Moselwein-Bahn (MOW);Bullay;Traben-Trarbach;Hunsrückbahn (Transdev SE & Co. KG, ehem. Rhenus Veniro)
 RB90;train;Westerwald-Sieg-Bahn;Limburg;Siegen;HLB
 RB93;train;Rothaar-Bahn;Betzdorf (Sieg);Bad Berleburg;
-RB96;train;Hellertalbahn;Betzdorf;Dillenburg;HLB
-RB97;train;Daadetalbahn;Betzdorf;Daaden;Westerwaldbahn
+RB96;train;Hellertalbahn (HEL);Betzdorf;Dillenburg;HLB
+RB97;train;Daadetalbahn (DAA);Betzdorf;Daaden;Westerwaldbahn
+
+-
+
+=== Andere Züge (KBS xxx)
+
+- '''Die hier aufgeführten Züge sind eventuell identisch mit oben genannten RBxx oder RExx Zügen - zu prüfen.'''
+-
+
+SIE;train;Sieg-Strecke (KBS 460);Köln;Siegen;DB AG/Hessenbahn
+OWW;train;Oberwesterwald-Strecke (KBS 461);Au (Sieg);Limburg;HLB
+LRN;train;Linke Rheinstrecke (Nord) (KBS 470);Köln;Koblenz;DB AG/trans regio
+LRS;train;Linke Rheinstrecke (Süd) (KBS 471);Koblenz;Frankfurt a. M.;DB AG/trans regio/VLEXX
+LAH;train;Lahntal-Strecke (KBS 625);Koblenz;Gießen;DB AG
+UWW;train;Unterwesterwald-Strecke (KBS 629) = RB29?;Limburg;Siershahn;HLB
+
+- RB96 = HEL;train;Hellertal-Strecke (KBS 462);Betzdorf;Dillenburg;HLB
+-
+- RB97 = DAA;train;Daadetal-Strecke (KBS 463);Betzdorf;Daaden;WEBA
+-
+- RB27 = RRN;train;Rechte Rheinstrecke (Nord) (KBS 465);Mönchengladbach;Koblenz;DB AG/VIAS
+-
+- RB10 = RRS;train;Rechte Rheinstrecke (Süd) (KBS 466);Neuwied;Frankfurt (Main);VIAS
+-
+- RB30 = AHR;train;Ahrtal-Strecke (KBS 477);Ahrbrück;Bonn;DB AG
+-
+- RB38 = PEL;train;Pellenz-Eifel-Strecke (KBS 478);Kaisersesch;Andernach;DB AG
+-
+- RB37 = HUN;train;Hunsrück-Strecke (KBS 479);Boppard;Emmelshausen;Hunsrückbahn (Transdev SE & Co. KG, ehem. Rhenus Veniro)
+-
+- RB81 = MOS;train;Mosel-Strecke (KBS 690);Trier;Koblenz;DB AG/CFL
+-
+- RB85 = MOW;train;Moselwein-Strecke (KBS 691);Bullay;Traben-Trarbach;Hunsrückbahn (Transdev SE & Co. KG, ehem. Rhenus Veniro)
+-
 
 -
 
 == Busse
 
--
-
 === Kreis Ahrweiler
 
 310;bus;;Andernach;Maria Laach;RMV
 344;bus;;Mayen;Herresbach;RMV
+
 528;bus;;Niederbaar;Adenau;Hoffmann
 529;bus;;Nohn;Antweiler;Hoffmann
+
 740;bus;;Rheinbach;Hilberath;RVK
 749;bus;;Meckenheim;Rheinbach;RVK
 
@@ -173,7 +204,6 @@ RB97;train;Daadetalbahn;Betzdorf;Daaden;Westerwaldbahn
 806;bus;;Wollscheid/Brenk;Niederzissen;VMR
 807;bus;;Wehr;Niederzissen;VMR
 809;bus;;Niederlützingen/Niederzissen;Remagen;VMR 
-
 810;bus;RegioBus;Mayen;Sinzig;VMR
 811;bus;;Kempenich;Ramersbach (...–Bad Neuenahr);VMR
 812;bus;;Kempenich;Ramersbach;VMR
@@ -183,13 +213,11 @@ RB97;train;Daadetalbahn;Betzdorf;Daaden;Westerwaldbahn
 817;bus;;Dorsel;Adenau;Hoffmann
 818;bus;;Brohl;Andernach;VMR
 819;bus;FreizeitBus Vulkanpark;Niedermendig;Kempenich;VMR 
-
 820;bus;;Kempenich;Mayen;VMR
 821;bus;RadBus Nettetal;Kempenich;Mayen;VMR
 822;bus;;Bad Münstereifel;Ohlerath/Wershofen;RVK
 827;bus;;Rolandswerth;Sinzig;DB Regio Bus
 828;bus;via RheinAhrCampus;Remagen Bahnhof;Bahnhof;DB Regio Bus 
-
 830;bus;;Walporzheim;Remagen;DB Regio Bus
 831;bus;;Lohrsdorf;Bad Neuenahr;DB Regio Bus
 832;bus;;Bad Neuenahr Johannisberg;Rathaus;DB Regio Bus
@@ -198,7 +226,6 @@ RB97;train;Daadetalbahn;Betzdorf;Daaden;Westerwaldbahn
 837;bus;;Esch;Gelsdorf;DB Regio Bus
 838;bus;;Krälingen / Gelsdorf / Birresdorf;Bad Neuenahr;DB Regio Bus
 839;bus;;Krälingen / Gelsdorf;Ahrweiler;DB Regio Bus 
-
 840;bus;;Ahrbrück;Rheinbach;DB Regio Bus
 841;bus;;Ringen;Remagen;DB Regio Bus
 844;bus;RadBus Ahr-Voreifel;Altenburg;Rheinbach;DB Regio Bus
@@ -206,7 +233,6 @@ RB97;train;Daadetalbahn;Betzdorf;Daaden;Westerwaldbahn
 847;bus;;Krälingen;Ringen;DB Regio Bus
 848;bus;ExpressBus;Meckenheim;Ringen;DB Regio Bus
 849;bus;RegioBus;Rheinbach;Bad Neuenahr;DB Regio Bus
-
 850;bus;RegioBus;Walporzheim;Sinzig;DB Regio Bus
 851;bus;RegioBus;Sinzig;Remagen;DB Regio Bus
 852;bus;;(Lohrsdorf –) Bad Bodendorf;Remagen;DB Regio Bus
@@ -215,7 +241,6 @@ RB97;train;Daadetalbahn;Betzdorf;Daaden;Westerwaldbahn
 # 856;bus;Kein VRM-Tarif;Remagen-Oedingen;Bonn-Bad Godesberg;RVK
 857;bus;;Meckenheim Bf;Bad Godesberg Bf;RVK
 859;bus;;Adenau;Kelberg;RMV
-
 861;bus;;Adenau;Kottenborn;RMV
 862;bus;;Altenahr;Liers;RMV
 863;bus;;Ahrbrüc;Adenau;RMV
@@ -228,6 +253,122 @@ RB97;train;Daadetalbahn;Betzdorf;Daaden;Westerwaldbahn
 
 976;bus;;Glees;Mendig;RMV
 977;bus;;Volkesfeld;Mendig;FriBus 
+
+-
+
+=== Kreis Altenkirchen
+
+101;bus;Rhein-Westerwald-Express;(Altenkirchen-) Horhausen;Neuwied;DB Regio Bus Rhein-Mosel GmbH
+120;bus;;Altenkirchen;Dierdorf/Neustadt;DB Regio Bus Rhein-Mosel GmbH
+121;bus;;Altenkirchen;Puderbach;MB
+122;bus;;Altenkirchen;Seelbach;MB
+123;bus;;Altenkirchen;Altenkirchen;MB
+124;bus;;Altenkirchen;Altenkirchen;MB
+132;bus;RegioLine;Altenkirchen;Horhausen (-Neuwied);Zickenheiner
+140;bus;;Buchholz;Straßenhaus;DB Regio Bus Rhein-Mosel GmbH
+142;bus;;Horhausen/Lautzert;Straßenhaus;DB Regio Bus Rhein-Mosel GmbH
+173;bus;;Horhausen;Obernau/Rengsdorf;DB Regio Bus Rhein-Mosel GmbH
+
+250;bus;;Uckerath;Altenkirchen;MB
+251;bus;;Weyerbusch;Altenkirchen;MB
+252;bus;;Hemmelzen;Weyerbusch;MB
+253;bus;;Kraam;Weyerbusch;MB
+254;bus;;Kircheib;Weyerbusch;MB
+255;bus;;Mudenbach;Altenkirchen;MB
+256;bus;;Wissen Bahnhof;Wissen Bahnhof;MB
+257;bus;;Steckenstein;Wissen;Westerwaldbus GmbH
+258;bus;;Wallmenroth Dasberg;Wissen;MB
+259;bus;;Pirzenthal;Wissen;MB
+260;bus;;Forst;Hamm;Marenbach
+261;bus;;Hamm;Hilgenroth;Marenbach
+262;bus;;Forst;Herchen;Marenbach
+263;bus;;Forst;Wissen;Marenbach
+268;bus;;Gebhardshain;Wissen;Westerwaldbus GmbH
+269;bus;;Gebhardshain;Wissen;Westerwaldbus GmbH
+270;bus;RegioBus;Hachenburg;Betzdorf;Westerwaldbus GmbH
+271;bus;;Friedewald;Betzdorf;Westerwaldbus GmbH
+272;bus;;Gebhardshain;Steineroth;Westerwaldbus GmbH
+273;bus;;Marienstatt;Kirchen;Westerwaldbus GmbH
+276;bus;;Daaden;Betzdorf;Westerwaldbus GmbH
+276 (A);bus;;Freudenberg;Morsbach;Ochsenbrücher
+277;bus;;Nisterberg / Nauroth;Daaden;Westerwaldbus GmbH
+278;bus;;Dermbach;Betzdorf;Westerwaldbus GmbH
+279;bus;;Oberdreisbach;Gebhardshain;Westerwaldbus GmbH
+280;bus;;Altenkirchen;Wissen;MB
+282;bus;RegioBus;Au (Sieg);Roth;MB
+284;bus;;Au;Breitscheidt;MB
+285;bus;;Altenkirchen;Hamm;MB
+286;bus;;Wickhausen;Hamm;MB
+287;bus;;Breitscheidt;Altenkirchen;MB
+289;bus;;Nisterbrück;Altenkirchen;MB
+290;bus;RegioBus;Büschergrund;Betzdorf;Westerwaldbus GmbH
+291;bus;StadtBus;Wallmenroth;Kirchen;Westerwaldbus GmbH
+292;bus;;Betzdorf;Betzdorf;Westerwaldbus GmbH
+293;bus;;Betzdorf;Betzdorf;Westerwaldbus GmbH
+294;bus;;Kirchen;Kirchen;Westerwaldbus GmbH
+295;bus;;Daaden;Betzdorf;Westerwaldbus GmbH
+296;bus;;Niederschelderhütte;Betzdorf;Westerwaldbus GmbH
+297;bus;;Brachbach;Niederschelderhütte;Westerwaldbus GmbH
+298;bus;;Friesenhagen;Freudenberg;Westerwaldbus GmbH
+299;bus;;Hinhausen;Niederfischbach;Westerwaldbus GmbH
+
+304;bus;;Gummersbach;Morsbach;OVAG
+340;bus;;Waldbröl;Morsbach;OVAG
+347;bus;;Wissen;Katzwinkel;Ochsenbrücher
+
+408;bus;;Borod;Hachenburg / Altenkirchen;MB
+410;bus;;Wissen;Hachenburg;MESO
+455;bus;;Bad Marienberg;Daaden;RMV
+
+522;bus;;Asbach;Hennef;MB/RSVG
+
+933;bus;;Rettersen;Herchen;MB
+934;bus;;Altenkirchen;Herchen;MB AK
+
+C 101;bus;;Siegen;Auf der Alm/Oberschelden;VWS
+
+L 152;bus;;Freudenberg;Bethesda Krankenhaus;VWS
+
+R 22;bus;;Siegen;Neunkirchen;VWS
+R 23;bus;;NeunkirchenDaaden;VWS
+R 39;bus;;Siegen, ZOB;Niederfischbach;VWS
+R 42;bus;;FreudenbergWenden / Olpe;VWS
+
+Schulbus;bus;;Niederdreisbach;Biersdorf;Westerwaldbus GmbH
+
+N2;bus;NachtBus;Siegen;Gosenbach;VWS
+N71;bus;NachtBus;Betzdorf;Freudenberg;Westerwaldbus GmbH
+N72;bus;NachtBus;Betzdorf;Friedewald / Betzdorf;Westerwaldbus GmbH
+N73;bus;NachtBus;Betzdorf;Betzdorf;Westerwaldbus GmbH
+
+-
+
+=== Kreis Cochem-Zell
+
+-
+
+=== Stadt Koblenz
+
+1;bus;;Goldgrube;Altstadt;evm
+2/12;bus;;Karthause;Wallersheim;evm
+3/13;bus;;KO-Zentrum;Güls;evm
+4;bus;;Globus;KO-Zentrum;evm
+5/15;bus;;Oberwerth;Metternich;evm
+6/16;bus;;Horchheimer Höhe;Moselweiß;evm
+7;bus;;Vallendar;Höhr-Grenzhausen;evm
+8;bus;;KO-Zentrum;Sayn;evm
+9;bus;;KO-Zentrum;Immendorf;evm
+10;bus;;KO-Zentrum;Arzheim;evm
+20;bus;;KO-Zentrum;Rübenach;evm
+27;bus;;Koblenz Hbf;KO-Asterstein;MB AK
+116;bus;;Koblenz;Rennerod / Bad Marienberg;RMV
+160;bus;;;Koblenz;HachenburgOrthen
+
+E;bus;Schülerbeförderung/Verstärkung;;;evm
+
+-
+
+=== Kreis Mayen-Koblenz
 
 -
 
@@ -250,26 +391,26 @@ RB97;train;Daadetalbahn;Betzdorf;Daaden;Westerwaldbahn
 75;bus;;Neuwied/Mini-ZOB;Rodenbach;MVB
 76;bus;;Neuwied Bahnhof;Hüllenberg;MVB
 
-101;bus;Rhein-Westerwald-Express;Neuwied;Horhausen;DB Regio Bus
+101;bus;Rhein-Westerwald-Express;Neuwied;Horhausen (-Altenkirchen);DB Regio Bus Rhein-Mosel GmbH
 103;bus;;Neuwied Bahnhof;Dierdorf;VRW
 104;bus;;Dierdorf;Puderbach;Zickenheiner
 107;bus;;Neuwied/Mini-ZOB;Bendorf;Zickenheiner
 110;bus;;Weißenthurm;Neuwied Bahnhof;VRW
 117;bus;;Neuwied Schloßstraße;Dierdorf;VRW
-120;bus;;Dierdorf/Neustadt;Altenkirchen;RMV
+120;bus;;Dierdorf/Neustadt;Altenkirchen;DB Regio Bus Rhein-Mosel GmbH
 121;bus;;Puderbach;Altenkirchen;MB
 122;bus;;Seelbach;Altenkirchen;MB
-131;bus;;Neuwied;Asbach;DB Regio Bus
-132;bus;RegioLine;Horhausen;Altenkirchen;Zickenheiner
+131;bus;;Neuwied;Asbach;DB Regio Bus Rhein-Mosel GmbH
+132;bus;RegioLine;(Neuwied-) Horhausen;Altenkirchen;Zickenheiner
 133;bus;;Breite Heide;Unkel;MB
 134;bus;;Orsberg;Unkel;MB
-135;bus;Rhein-Höhen-Express;Linz;Neustadt;DB Regio Bus
-136;bus;;Linz;Roßbach;DB Regio Bus
-137;bus;Rhein-Wied-Express;Neuwied/Bad Hönningen;Neustadt;DB Regio Bus
-138;bus;;St. Katharinen-Homscheid;St. Katharinen-Steinshardt/St. Katharinen;DB Regio Bus
-139;bus;;Neustadt;Kalenborn;DB Regio Bus
-140;bus;;Straßenhaus;Buchholz;DB Regio Bus
-142;bus;;Straßenhaus;Horhausen/Lautzert;DB Regio Bus
+135;bus;Rhein-Höhen-Express;Linz;Neustadt;DB Regio Bus Rhein-Mosel GmbH
+136;bus;;Linz;Roßbach;DB Regio Bus Rhein-Mosel GmbH
+137;bus;Rhein-Wied-Express;Neuwied/Bad Hönningen;Neustadt;DB Regio Bus Rhein-Mosel GmbH
+138;bus;;St. Katharinen-Homscheid;St. Katharinen-Steinshardt/St. Katharinen;DB Regio Bus Rhein-Mosel GmbH
+139;bus;;Neustadt;Kalenborn;DB Regio Bus Rhein-Mosel GmbH
+140;bus;;Straßenhaus;Buchholz;DB Regio Bus Rhein-Mosel GmbH
+142;bus;;Straßenhaus;Horhausen/Lautzert;DB Regio Bus Rhein-Mosel GmbH
 144;bus;;Dierdorf;Puderbach;VRW
 145;bus;;Puderbach;Dernbach;VRW
 147;bus;;Puderbach;Dierdorf;VRW
@@ -278,9 +419,9 @@ RB97;train;Daadetalbahn;Betzdorf;Daaden;Westerwaldbahn
 151;bus;;Sayn;Bendorf:VRW
 160;bus;;Hachenburg;Koblenz;Orthen
 170;bus;;Neuwied;Linz am Rhein;RMV
-171;bus;;Niederbieber;Horhausen;DB Regio Bus
-172;bus;;Reifert;Waldbreitbach;DB Regio Bus
-173;bus;;Obernau/Rengsdorf;Horhausen;DB Regio Bus
+171;bus;;Niederbieber;Horhausen;DB Regio Bus Rhein-Mosel GmbH
+172;bus;;Reifert;Waldbreitbach;DB Regio Bus Rhein-Mosel GmbH
+173;bus;;Obernau/Rengsdorf;Horhausen;DB Regio Bus Rhein-Mosel GmbH
 180;bus;;Hanroth;Dierdorf;Zickenheiner
 184;bus;;;;Omnibusbetrieb Auto-Schmidt
 185;bus;Rundverkehr;Waldbreitbach;Gemeinde Hausen;;Auto-Schmidt
@@ -291,10 +432,10 @@ RB97;train;Daadetalbahn;Betzdorf;Daaden;Westerwaldbahn
 357;bus;;Koblenz;Neuwied;RMV
 370;bus;;Koblenz;Mülheim-Kärlich;RMV
 
-461;bus;;Dierdorf/Selters;Siershahn;DB Regio Bus
+461;bus;;Dierdorf/Selters;Siershahn;DB Regio Bus Rhein-Mosel GmbH
 464;bus;;Dierdorf/Hachenburg;Montabaur;FriBus
 
-522;bus;;Asbach;Hennef;MB/RSVG
+522;bus;;Hennef;Asbach;MB/RSVG
 539 (A);bus;;Asbach;Oberpleis;MB
 561;bus;;Asbach;Neustadt;MB
 562;bus;;Neustadt (Wied);Bad Honnef;MB/RSVG
@@ -318,10 +459,169 @@ AST;bus;;Vettelschoß;Franziskus-Krankenhaus;Stadt Linz am Rhein
 
 -
 
-== Fähren
+=== Rhein-Hunsrück-Kreis
+
+-
+
+=== Rhein-Lahn-Kreis
+
+-
+
+=== Westerwaldkreis
+
+7;bus;;Vallendar;Höhr-Grenzhausen;emv
+
+115;bus;;Hachenburg;Montabaur;FriBus
+116;bus;;Rennerod / Bad Marienberg;Koblenz;RMV
+123;bus;;Altenkirchen;Altenkirchen;MB
+124;bus;;Altenkirchen;Altenkirchen;MB
+144;bus;;Dierdorf;Puderbach;VRW
+160;bus;;Hachenburg/Dierdorf;Koblenz;Orthen
+180;bus;;Hanroth;Dierdorf;Zickenheiner
+181;bus;;Höhr-Grenzhausen;Westerburg (Ausbildungsbus);WWH Touristik
+
+270;bus;RegioBus;Betzdorf;Hachenburg;Westerwaldbus GmbH
+271;bus;RegioBus;Betzdorf;Friedewald;Westerwaldbus GmbH
+272;bus;;Gebhardshain;Steineroth;Westerwaldbus GmbH
+273;bus;;Marienstatt;Kirchen;Westerwaldbus GmbH
+281;bus;;Limburg;Wilsenroth/Salz;DB BvH
+
+319;bus;;Koblenz/Neuwied;Siershahn;RMV
+382;bus;;Vallendar Mallendarer Berg;Arzbach;Modigell & Scherer
+
+408;bus;;Borod;Hachenburg / Altenkirchen;MB
+410;bus;;Wissen;Hachenburg;MESO
+411;bus;;Mörsbach;Hachenburg;MESO
+412;bus;;Gehlert;Hachenburg;MESO
+413;bus;;Borod;Hachenburg;MESO
+415;bus;;Herschbach;Hachenburg / Marienstatt;FriBus
+430;bus;;Steinebach;Hachenburg;AUTO-MÜLLER
+431;bus;;Hachenburg;Selters;AUTO-MÜLLER
+432;bus;Schulverkehr;Hartenfels;Selters;AUTO-MÜLLER
+433;bus;;Hachenburg;Dreifelden;AUTO-MÜLLER
+434;bus;Schulverkehr;Herschbach;Ewighausen;AUTO-MÜLLER
+435;bus;Schulverkehr;Ewighausen;Selters;AUTO-MÜLLER
+436;bus;;Kindergarten Ewighausen;Wölferlingen;AUTO-MÜLLER
+440;bus;;Heiligenroth;Montabaur;VG Montabaur
+441;bus;;Görgeshausen;Montabaur;VG Montabaur
+442;bus;;Heilberscheid;Montabaur;VG Montabaur
+443;bus;;Hübingen;Montabaur;VG Montabaur
+444;bus;;Welschneudorf;Montabaur;VG Montabaur
+445;bus;;Horressen;Montabaur;VG Montabaur
+446;bus;;Montabaur;Augst;VG Montabaur
+447;bus;Stadtgebiet Montabaur;;;VG Montabaur
+450;bus;;Montabaur;Limburg;RMV
+453;bus;Linie Gelbachtal;;;RMV
+455;bus;;Bad Marienberg;Daaden;RMV
+456;bus;;Nassau / Bad Ems;Montabaur;RMV
+458;bus;;Laurenburg;Montabaur;RMV
+459;bus;;Montabaur;Heilgenroth Industriegebiet;RMV
+460;bus;;Koblenz;Montabaur;RMV
+461;bus;;Dierdorf /Selters;Siershahn;DB Regio Bus
+462;bus;;Montabaur;Bendorf;FriBus
+463;bus;;Montabaur;Oberroßbach;RMV
+464;bus;;Montabaur;Dierdorf / Hachenburg;FriBus
+465;bus;;Neuhäusel/Vallendar;Höhr-Grenzhausen;RMV
+480;bus;;Rehe;Montabaur;RMV
+481;bus;;Westerburg;Montabaur;RMV
+483;bus;;Hachenburg;Rennerod / Westerburg;RMV
+484;bus;;Rennerod;Westerburg;RMV
+485;bus;;Koblenz;Siershahn;Griesar
+
+520;bus;;Rennerod/Waldaubach;Herborn;VLDW
+521;bus;;Rennerod;Herborn;VLDW
+
+957;bus;;Neustadt / Irmtraut;Rennerod;RMV
+958;bus;;Mogendorf / Helferskirchen;Wirges;RMV
+959;bus;;Arnshöfen/Niederahr;Wallmerod;DB Regio Bus
+960;bus;;Mörlen/Dreisbach;Bad Marienberg;RMV
+962;bus;;Bad Marienberg;Marienstatt;RMV
+963;bus;;Hübingen/Dies;Montabaur;RMV
+964;bus;;Oberhaid/Nauort;Baumbach;RMV
+965;bus;;Höhn / Brandscheid;Westerburg;RMV
+966;bus;Schülerbeförderung Bendorf;;;RMV
+968;bus;;Hundsdorf;Höhr-Grenzhausen;RMV
+969;bus;;Koblenz/Höhr-Grenzhausen;Neuwied-Niederbieber;RMV
+970;bus;;Deesen;Vallendar;RMV
+971;bus;;Willingen;Rennerod;RMV
+972;bus;;Zehnhausen;Nister-Möhrendorf;RMV
+973;bus;;Salz / Wallmerod;Rothenbach;DB Regio Bus
+995;bus;;Ettersdorf;Montabaur;RMV
+995;bus;;Ettersdorf;Montabaur;RMV
+996;bus;;Großholbach;Girod;RMV
+997;bus;;Boden / Heiligenroth;Nentershausen;RMV
+998;bus;;Boden;Ruppach-Goldhausen;RMV
+
+LM11;bus;;Limburg / Hadamar;Salz;DB BvH
+
+N11;bus;;Hbf;Montabaur;RMV
+
+-
+
+== Schiffahrt
+
+10204;ferry;Loreley;St. Goar;St. Goarshausen;Fähre Loreley
+
+Rheinfähre;ferry;;Boppard;Filsen;Boppard
+
+-
+
+= Nahverkehr außerhalb des VRM-Tarifsystems
+
+- Einige der hier aufgeführten Linien sind beim VRM mit Fahrplaninformationen abrufbar, aber nicht im VRM intergriert.
+-
+
+== Züge
+
+12426;train;Brohltalbahn (KBS 12426);Brohl;Engeln;BSEG
+12427;train;Kasbachtalbahn (KBS 12427) Nostalgiebahn;Linz;Kalenborn;RSE
+
+Vulkan-Expreß;train;;;;
+
+-
+
+== Drahtseilbahn
+
+Kurwaldbahn;funicular;Bergbahn Kurwaldbahn Bad Ems;;;Kurwaldbahn GmbH
+
+-
+
+== Schrägaufzug
+
+Schrägaufzug Ehrenbreitstein;tram;;;;
+
+-
+
+== Selbahn
+
+Seilbahn Koblenz;aerialway;;Koblenz;Ehrenbreitstein;
+
+-
+
+
+== Schifffahrt
+
+10200;ferry;Köln – Koblenz – Mainz – Koblenz – Köln;Köln;Mainz;KD Köln-Düsseldorfer
+10250;ferry;Koblenz - Cochem - Koblenz;Koblenz;Cochem;KD Köln-Düsseldorfer
+F;ferry;Köln - Bonn - Linz - Koblenz - Winningen / St. Goarshausen;Köln;Winningen / St. Goarshausen;Bonner Personen-Schifffahrt
 
 Rheinfähre;ferry;;Bad Honnef;Rolandseck;Fähre Honnef
 Rheinfähre;ferry;;Erpel;Remagen;Linz - Kripp
-Rheinfähre;ferry;;Linz;Kripp;Linz - Kripp 
+Rheinfähre;ferry;;Kaub;Pützenbach;Kaub
+Rheinfähre;ferry;;Linz;Kripp;Linz - Kripp
+Rheinfähre;ferry;;Koblenz;Ehrenbreitstein;Gilles Personenschifffahrt GmbH
+
+Moselfähre;ferry;Alf - Bullay - Alf;Alf;Bullay;Michael Salker
+Moselfähre;ferry;;Alken;Burgen;Michael Salker
+Moselfähre;ferry;Klotten - Cochem Freizeitzentrum - Klotten;Klotten;Cochem Freizeitzentrum;GV Klotten
+
+F;ferry;;Koblenz;Brodenbach:;MS Goldstück
+F;ferry;Alf/Bullay - Zell - Briedel - Pünderich - Reil - Enkirch;Alf/Bullay;Enkirch;Gebr. Kolb
+F;ferry;Beilstein - Ellenz-Poltersdorf - Beilstein;Beilstein;Ellenz-Poltersdorf;Gebr. Kolb
+F;ferry;Cochem - Bernkastel - Trier - Saarburg;Cochem;Saarburg;Gebr. Kolb
+F;ferry;;Oberfell;Cochem;MS Goldstück
+
+-
+
 
 </pre>

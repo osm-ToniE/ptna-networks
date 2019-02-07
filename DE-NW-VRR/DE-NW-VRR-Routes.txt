@@ -430,8 +430,9 @@ NE6;bus;Quelle gtfs;Neuss Hauptbahnhof Bstg 1;Neuss Hoisten Schleife;SWN
 189;bus;Quelle gtfs;Essen Boyer Str. Bstg 6;Gladbeck Oberhof Bstg 05;BVR
 190;bus;Quelle gtfs;Essen Kettwiger Markt Bstg 2;Essen Ruhrlandklinik Bstg 1;Ruhrbahn
 193;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 7;Essen Versorgungsamt Bstg 1;Ruhrbahn
-194;bus;Quelle gtfs;Gelsenkirchen Hbf;Essen Erbach Bstg 2;Ruhrbahn
-194;bus;Quelle gtfs;Essen Erbach Bstg 1;Gelsenkirchen Hbf;BOGESTRA
+194;bus;;Gelsenkirchen Hbf;Essen Erbach Bstg 2;Ruhrbahn;BOGESTRA
+#194;bus;Quelle gtfs;Gelsenkirchen Hbf;Essen Erbach Bstg 2;Ruhrbahn
+#194;bus;Quelle gtfs;Essen Erbach Bstg 1;Gelsenkirchen Hbf;BOGESTRA
 196;bus;Quelle gtfs;Essen Hafenverwaltung Bstg 1;Essen Betr. Schweriner Str. Bstg 2;Ruhrbahn
 
 NE1;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 1;Gelsenkirchen Essener Str.;Ruhrbahn
@@ -1820,6 +1821,7 @@ NE2;bus;;Wuppertal Hbf Bstg 5;Wuppertal Am Eckbusch Bstg 3;WSW
 602;bus;Quelle gtfs;Wuppertal Schmitteborn;Sprockh. Haßlingh. Busbf;WSW
 603;bus;Quelle gtfs;Wuppertal Am Eckbusch Bstg 2;W-tal Campus Freudenberg;WSW
 Uni-Express;bus;Quelle gtfs;W-tal Hist. Stadthalle;Wuppertal Universität;WSW
+Campus Bus;bus;;Wuppertal Universität;W-tal Campus Freudenberg;WSW
 604;bus;Quelle gtfs;Wuppertal Eichenstraße;Wuppertal Dieselstr. Schleife Bstg 3;WSW
 605;bus;Quelle gtfs;;;WSW
 606;bus;Quelle gtfs;Wuppertal Erlenrode;Wuppertal Schmitteborn;WSW
@@ -1827,8 +1829,9 @@ NE5;bus;;Wuppertal Hbf Bstg 4;Wuppertal Langerfeld Markt;WSW
 #NE 5;bus;Quelle gtfs;Wuppertal Hbf Bstg 4;Wuppertal Langerfeld Markt;WSW
 607;bus;Quelle gtfs;Wuppertal Hbf Bstg 2;Wuppertal Am Eckbusch Bstg 4;WSW
 608;bus;Quelle gtfs;W-Barmen Bf Bstg 5;Ennepetal Busbahnhof Bstg 3;WSW
-609;bus;Quelle gtfs;Wuppertal Tesche;W-Vohwinkel Schwebebahn Bstg 4;WSW
-609;bus;Quelle gtfs;W-Vohwinkel Schwebebahn Bstg 4;W.-tal Simonshöfchen / Derken;WSW
+609;bus;;Tesche;Simonshöfchen;WSW
+#609;bus;Quelle gtfs;Wuppertal Tesche;W-Vohwinkel Schwebebahn Bstg 4;WSW
+#609;bus;Quelle gtfs;W-Vohwinkel Schwebebahn Bstg 4;W.-tal Simonshöfchen / Derken;WSW
 CE61;bus;Quelle gtfs;Wuppertal Alter Markt Bstg 3;Wuppertal Am Stadtbahnhof;WSW
 610;bus;Quelle gtfs;Wuppertal Alter Markt Bstg 10;W-tal Wichlinghausen Markt Bstg 6;WSW
 611;bus;Quelle gtfs;Wuppertal Birkenhöhe Schleife;Wuppertal Lenneper Straße Bstg 1;WSW
@@ -1902,7 +1905,8 @@ NE18;bus;Quelle gtfs;Remscheid Hbf Bstg A;Remscheid Hbf Bstg B;Stadtwerke Remsch
 657;bus;Quelle gtfs;Remscheid Hasten Kirche;Remscheid Blumental Schleife;Stadtwerke Remscheid
 658;bus;Quelle gtfs;Solingen Müngsten Brückenpark;RS Falkenberg / Sperberstraße;Stadtwerke Remscheid
 660;bus;Quelle gtfs;Remscheid Kremenholl/Paulstr.;RS-Lüttringh. Bf (Schleife) Bstg D;Stadtwerke Remscheid
-NE20;bus;Quelle gtfs;Remscheid Friedrich-Ebert-Pl. Bstg D3;Remscheid Friedrich-Ebert-Pl. Bstg 664;bus;Quelle gtfs;Remscheid Friedrich-Ebert-Pl. Bstg D2;Remscheid-Lennep Bf Bstg B;Stadtwerke Remscheid
+NE20;bus;Quelle gtfs;Remscheid Friedrich-Ebert-Pl. Bstg D3;Remscheid Friedrich-Ebert-Pl. Bstg A/B;Stadtwerke Remscheid
+664;bus;Quelle gtfs;Remscheid Friedrich-Ebert-Pl. Bstg D2;Remscheid-Lennep Bf Bstg B;Stadtwerke Remscheid
 666;bus;Quelle gtfs;RS-Lüttringh. Rathaus Bstg A;RS-Lüttringh. Bf (Schleife) Bstg C;Stadtwerke Remscheid
 669;bus;;RS-Lennep Kreishaus Bstg C;Wuppertal Beyenburg Mitte;Stadtwerke Remscheid;WSW
 #669;bus;Quelle gtfs;RS-Lennep Kreishaus Bstg C;Wuppertal Beyenburg Mitte;Stadtwerke Remscheid
@@ -2042,7 +2046,6 @@ E939;bus;Quelle gtfs;Velbert Gymnasium Langenberg;Velbert Rottberger Straße;WSW
 E941;bus;Quelle gtfs;W-tal Ges.Schule Ronsdorf;Wuppertal Cronenberg Rathaus;WSW
 E949;bus;Quelle gtfs;Velbert Realschule Tönisheide;Velbert Lilienstraße;WSW
 240;bus;Quelle gtfs;Remscheid-Lennep Bf Bstg C;Wermelskirchen Busbf Bstg A;Stadtwerke Remscheid
-A/B;Stadtwerke Remscheid
 #~ E ~;bus;Quelle gtfs;;;Stadtwerke Remscheid
 #~ E ~;bus;Quelle gtfs;RS Hohenhagen Gesamtschule Bstg C;RS-Lüttringh. Rathaus Bstg A;Stadtwerke Remscheid
 #~ E ~;bus;Quelle gtfs;RS Hohenhagen Gesamtschule Bstg B;RS-Lennep Badeparadies H2O Bstg B;Stadtwerke Remscheid

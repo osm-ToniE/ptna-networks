@@ -61,44 +61,44 @@
 #ref;type;comment;from;to;operator
 
 == RB-Eisenbahn
-RB31;train;;;;
-RB32;train;;;;
-RB33;train;;;;
-RB38;train;;;;
-RB41;train;;;;
-RB61;train;;;;
-RB71;train;;;;
-RB81;train;;;;
-RB82;train;;;;
+RB31;train;;;;Metronom Eisenbahngesellschaft mbH
+RB32;train;;;;erixx GmbH
+RB33;train;;;;Eisenbahnen und Verkehrsbetriebe Elbe-Weser GmbH
+RB38;train;;;;erixx GmbH
+RB41;train;;;;Metronom Eisenbahngesellschaft mbH
+RB61;train;;;;NBE Nordbahn Eisenbahngesellschaft mbh & Co. KG
+RB71;train;;;;NBE Nordbahn Eisenbahngesellschaft mbh & Co. KG
+RB81;train;;;;DB Regio AG
+RB82;train;;;;NBE Nordbahn Eisenbahngesellschaft mbh & Co. KG
 
 == RE-Eisenbahn
-RE1;train;;;;
-RE3;train;;;;
-RE4;train;;;;
-RE5;train;;;;
-RE6;train;;;;
-RE7;train;;;;
-RE70;train;;;;
-RE8;train;;;;
-RE80;train;;;;
-RE83;train;;;;
+RE1;train;;;;DB Regio AG
+RE3;train;;;;Metronom Eisenbahngesellschaft mbH
+RE4;train;;;;Metronom Eisenbahngesellschaft mbH
+RE5;train;;;;Metronom Eisenbahngesellschaft mbH
+RE6;train;;;;DB Regio AG
+RE7;train;;;;DB Regio AG
+RE70;train;;;;DB Regio AG
+RE8;train;;;;DB Regio AG
+RE80;train;;;;DB Regio AG
+RE83;train;;;;DB Regio AG
 
 == S-Bahn
-A1;train;;;;
-A2;train;;;;
-A3;train;;;;
-S1;light_rail;;;;
-S11;light_rail;;;;
-S2;light_rail;;;;
-S21;light_rail;;;;
-S3;light_rail;;;;
-S31;light_rail;;;;
+A1;train;;;;AKN Eisenbahn GmbH
+A2;train;;;;AKN Eisenbahn GmbH
+A3;train;;;;AKN Eisenbahn GmbH
+S1;light_rail;;;;S-Bahn Hamburg GmbH
+S11;light_rail;;;;S-Bahn Hamburg GmbH
+S2;light_rail;;;;S-Bahn Hamburg GmbH
+S21;light_rail;;;;S-Bahn Hamburg GmbH
+S3;light_rail;;;;S-Bahn Hamburg GmbH
+S31;light_rail;;;;S-Bahn Hamburg GmbH
 
 == U-Bahn
-U1;subway;;;;
-U2;subway;;;;
-U3;subway;;;;
-U4;subway;;;;
+U1;subway;;;;Hamburger Hochbahn AG
+U2;subway;;;;Hamburger Hochbahn AG
+U3;subway;;;;Hamburger Hochbahn AG
+U4;subway;;;;Hamburger Hochbahn AG
 
 == Hafenfähren
 61;ferry;;;;

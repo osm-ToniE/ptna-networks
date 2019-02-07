@@ -929,7 +929,7 @@ Hw-T4;bus;;Harsewinkel;Breslauer Straße;Transdev Ostwestfalen GmbH
 352;bus;;Herford;Milse;moBiel GmbH
 353;bus;;Eilshausen;Schildesche;BVO Busverkehr Ostwestfalen GmbH
 408;bus;;Minden;Holzhausen;BVO Busverkehr Ostwestfalen GmbH
-414;bus;;Minden/Lerbeck, Kirchweg;Hausberge/Barkhausen;BVO Busverkehr Ostwestfalen GmbH
+414;bus;;Minden|Lerbeck;Hausberge|Barkhausen;BVO Busverkehr Ostwestfalen GmbH
 416;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 417;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 418;bus;;;;BVO Busverkehr Ostwestfalen GmbH
@@ -1050,6 +1050,7 @@ Hw-T4;bus;;Harsewinkel;Breslauer Straße;Transdev Ostwestfalen GmbH
 3/548;bus;;;;Stadtverkehrsgesellschaft Bünde mbH
 4/549;bus;;;;Stadtverkehrsgesellschaft Bünde mbH
 
+E;bus;Campus-Express;Minden Bahnhof;Fachhochschule;BVO Busverkehr Ostwestfalen GmbH
 S1|S1/S6;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 S2;bus;Stadtbus Herford;;;BVO Busverkehr Ostwestfalen GmbH
 S2;bus;Vlotho;;;VlothoBus
@@ -1133,7 +1134,7 @@ S6;bus;Stadtbus Herford;;;BVO Busverkehr Ostwestfalen GmbH
 769;bus;;Lage;Oerlinghausen;BVO Busverkehr Ostwestfalen GmbH
 770;bus;;Glashütte;Wöbbel;Karl Köhne Omnibusbetriebe GmbH
 772;bus;;Detmold/Bad Meinberg;Bad Meinberg/Blomberg/Barntrup;Karl Köhne Omnibusbetriebe GmbH
-776;bus;;Detmold/Bad Meinberg;Bad Meinberg/Schieder/Steinheim;Karl Köhne Omnibusbetriebe GmbH
+776;bus;;Bad Meinberg|Detmold|Vahlhausen|Lügte;Steinheim|Belle|Schieder|Distelbruch|Wöbbel;Karl Köhne Omnibusbetriebe GmbH
 777;bus;;Detmold;Blomberg;Karl Köhne Omnibusbetriebe GmbH
 780;bus;;Detmold;Horn;Karl Köhne Omnibusbetriebe GmbH
 782;bus;;Detmold;Bad Meinberg;Karl Köhne Omnibusbetriebe GmbH
@@ -1929,7 +1930,7 @@ UNI;bus;;Uni/Südring;MuseumsForum;PaderSprinter GmbH
 770;bus;;Wöbbel;Glashütte;Karl Köhne Omnibusbetriebe GmbH
 773;bus;;Steinheim;;Karl Köhne Omnibusbetriebe GmbH
 774;bus;;Steinheim;;Karl Köhne Omnibusbetriebe GmbH
-776;bus;;Detmold;Steinheim;Karl Köhne Omnibusbetriebe GmbH
+776;bus;;Steinheim|Belle|Schieder|Distelbruch|Wöbbel;Bad Meinberg|Detmold|Vahlhausen|Lügte;Karl Köhne Omnibusbetriebe GmbH
 
 HX1;bus;Stadtbus Höxter;;;BVO Busverkehr Ostwestfalen GmbH
 HX2;bus;Stadtbus Höxter;;;BVO Busverkehr Ostwestfalen GmbH
