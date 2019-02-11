@@ -8,7 +8,7 @@ PREFIX="DE-BW-DING-SWU"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=(rel(poly:'
 48.4539045 9.9891665 48.4226263 9.8661771 48.3578424 9.8687857 48.3193944 9.9358786 48.3347822 10.1169242 48.4308096 10.0760772')[route~'(bus|tram)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(r.routes););out;"
-NETWORK_LONG=""
+NETWORK_LONG="Donau-Iller-Nahverkehrsverbund"
 NETWORK_SHORT="DING"
 OPERATOR_REGEX="SWU"
 
