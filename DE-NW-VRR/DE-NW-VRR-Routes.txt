@@ -207,7 +207,8 @@ SB58;bus;Quelle gtfs;Emmerich Bahnhof Bstg 1;Nijmegen Centraal Station Bstg L;Ni
 70;bus;Quelle gtfs;Kleve Bahnhof;Goch Goch Bahnhof Bstg 5;BVR
 71;bus;Quelle gtfs;Dinslaken Bahnhof Bstg 3c;Schermbeck Rathaus Bstg 01;BVR
 72;bus;Quelle gtfs;Wesel Bahnhof Bstg 4;Raesfeld Kirche Bstg 01;BVR
-73 Airlinie;bus;Quelle gtfs;Kevelaer Bahnhof Bstg 2;Weeze Airport Terminal 1 Bstg 3;SWK Mobil
+73;bus;;Kevelaer Bahnhof Bstg 2;Weeze Airport Terminal 1 Bstg 3;Stadtwerke Kevelaer
+#73 Airlinie;bus;Quelle gtfs;Kevelaer Bahnhof Bstg 2;Weeze Airport Terminal 1 Bstg 3;SWK Mobil
 #73E;bus;Quelle gtfs;Dorsten Lembeck Busbf Bstg 01;Groß Reken Alte Kirche Bstg 02;VRR
 #74E;bus;Quelle gtfs;Dorsten Hammer Weg Bstg 01;St-Antonius-Kirche Bstg 02;VRR
 74;bus;Quelle gtfs;Goch Goch Bahnhof Bstg 1;Uedem Nordwall Bstg 2;BVR

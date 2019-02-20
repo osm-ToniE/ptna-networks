@@ -211,7 +211,7 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 216;bus;;Taufkirchen, Hugo-Junkers-Straße;Faistenhaar;RVO/Geldhauser
 217;bus;;Neuperlach Süd U S;Unterhaching S;Demmelmair GmbH & Co
 218;bus;;Unterschleißheim S West;Lohhof S Süd;VBR GmbH/Busverkehr Südbayern GmbH
-219;bus;!Änderung ab 09.12.2018: neue Haltestelle St.-Korbinian in Unterschleißheim!;Garching-Hochbrück U;Unterschleißheim S Ost;VBR GmbH, München
+219;bus;;Garching-Hochbrück U;Unterschleißheim S Ost;VBR GmbH, München
 220;bus;;Winning;Giesing U S;Verkehrsbetrieb Ettenhuber GmbH
 221;bus;;Unterhaching S;München, Waldheimplatz;Verkehrsbetrieb Ettenhuber GmbH
 222;bus;;Deisenhofen S;Neuperlach Süd U S;Busservice Watzinger
@@ -240,7 +240,7 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 264;bus;;Messestadt West U;Riem S Dornach;Verkehrsbetrieb Ettenhuber GmbH
 265;bus;;Pasing S R;Planegg S;Busservice Watzinger
 266;bus;;Planegg S;Klinikum Großhadern U;Busservice Watzinger
-267;bus;!Änderung ab 09.12.2018: Neue Haltestelle Lena-Christ-Straße!;Neuaubing;Fürstenried West U;Busservice Watzinger
+267;bus;;Neuaubing;Fürstenried West U;Busservice Watzinger
 268;bus;;Waldfriedhof;Gräfelfing S;Busservice Watzinger
 269;bus;;Neuried;Klinikum Großhadern U;Busverkehr Südbayern
 270;bus;;Höllriegelskreuth S;Solln S;Demmelmair GmbH & Co

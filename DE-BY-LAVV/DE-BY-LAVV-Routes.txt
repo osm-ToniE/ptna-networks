@@ -35,18 +35,23 @@
 #                !Text mit gelbem Hintergrund! im comment (umgeben von einfachem !)
 # - from      == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
 # - to        == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
-# - operator  == wird bei mehreren Linie mit identischem ref und type Differenzierung herangezogen
+# - operator  == wird bei mehreren Linie mit identischem ref und type zur Differenzierung herangezogen
 #                Der Wert von 'operator' darf ';' enthalten
 #
 
 
-= Überblick Buslinien Landshuter Stadt- und Regionalbusnetz (LA) allgemein 
+= Überblick Buslinien Landshuter Verkehrsverbund (LAVV)
 
-- Verweis auf die Datei mit den [[Landshut/Transportation/Analyse/DE-BY-LA-Linien|LA Linien]] im Wiki.
+- Verweis auf die Datei mit den [[Landshut/Transportation/Analyse/DE-BY-LAVV-Linien|LAVV Linien]] im Wiki.
 - Verweis auf mehr [[Talk:Landshut/Transportation/Analyse|Informationen]] im Wiki.
+-
+-
+
+- !!!Landshuter Stadbusnetz und Landshuter Regionalbusnetz sind zusammen seit 1.1.2019: Landshuter Verkehrsverbund (LAVV)!!!
+-
 
 
-== Landshut Stadt (Stadtwerke Landshut)
+== Landshut Stadt
 
 === Expresslinien
 
@@ -56,9 +61,9 @@ X6;bus;;;;Stadtwerke Landshut
 X10;bus;;;;Stadtwerke Landshut
 X33;bus;;;;Stadtwerke Landshut
 
-=== Airportlinie
+#=== Airportlinie
 
-317;bus;;Landshut Altstadt;München Airport Center, Untergeschoß, Haltestelle Nr. 6;Stadtwerke Landshut
+#317;bus;eingestellt am 31. Dez 2018 wg. neuer Zuglinie Flighafenexpress;Landshut Altstadt;München Airport Center, Untergeschoß, Haltestelle Nr. 6;Stadtwerke Landshut
 
 === Stadtlinien
 
@@ -169,7 +174,7 @@ X33;bus;;;;Stadtwerke Landshut
 583;bus;Ergolding-Hauptbahnhof-Ländtorplatz;;;Stadtwerke Landshut
 
 
-== Landshut Region (Landshuter Regionalbusnetz)
+== Landshut Region
 
 === 01x-Linien
 
@@ -261,7 +266,7 @@ X33;bus;;;;Stadtwerke Landshut
 == Buslinien mit Mitgliedschaft zum Netzwerk Regionalbus Ostbayern (RBO) (=RBO xxxx)
 
 6233/021;bus;(=RBO 6233 =VSL 47);;;
-6264/022/46;bus;(=RBO 6264 =LA 022 =VSL 46);;;
+6264/022/46;bus;(=RBO 6264 =LAVV 022 =VSL 46);;;
 6051/56/031;bus;(=RBO 6051 =VLK 56);;;
 6245/036;bus;(=RBO 6245);;;
 6262/205;bus;(=RBO 6262);;;
@@ -323,8 +328,8 @@ X33;bus;;;;Stadtwerke Landshut
 
 == Buslinien mit Mitgliedschaft zum Netzwerk Regionalbus Oberbayern (RVO) (= RVO xxxx)
 
-9403/024;bus;(=RVO 9403 =LA024);;;
-9407/025;bus;(=RVO 9407 =LA025);;;
+9403/024;bus;(=RVO 9403 =LAVV024);;;
+9407/025;bus;(=RVO 9407 =LAVV025);;;
 
 
 

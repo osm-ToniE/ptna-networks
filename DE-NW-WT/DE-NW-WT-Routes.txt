@@ -196,14 +196,13 @@ T341;bus;;;;Stadtwerke Münster
 185;bus;;;;Husmann Reisen GmbH
 186;bus;;;;Westfalenbus
 187;bus;;;;Veelker GmbH & Co. KG
-188;bus;;;;Euregio-Verkehrsgesellschaft GmbH & Co. KG
 190;bus;;;;Veelker GmbH & Co. KG
 192;bus;;;;Gronemann GmbH
 209;bus;;;;RVM
-216;bus;;;;
+216;bus;;;;RVM
 217;bus;;;;RVM
 218;bus;;;;Regionalverkehr Münsterland GmbH
-219;bus;;;;
+219;bus;;;;RVM
 223;bus;;;;Regionalverkehr Münsterland GmbH
 228;bus;;;;Regionalverkehr Münsterland GmbH
 230;bus;;;;Regionalverkehr Münsterland GmbH
@@ -211,7 +210,7 @@ T341;bus;;;;Stadtwerke Münster
 234;bus;;;;Regionalverkehr Münsterland GmbH
 243;bus;;;;Regionalverkehr Münsterland GmbH
 247;bus;;;;RVM
-248;bus;;;;
+248;bus;;;;RVM/Budde
 250|250a|250b;bus;;;;Weilke Reisen
 253;bus;;Greven;Schmedehausen;Weilke Reisen
 255;bus;;;;Weilke Reisen
@@ -221,7 +220,6 @@ T341;bus;;;;Stadtwerke Münster
 266;bus;;;;RVM
 269;bus;;;;Stadtwerke Rheine
 272;bus;;;;RVM
-283;bus;;;;DB Bahn Westfalenbus GmbH
 700;bus;;;;Veelker GmbH & Co. KG
 771;bus;;Osterwick;Laer;Rheiner Verkehrsbetrieb Mersch GmbH & Co.KG
 772;bus;;Altenberge;Ahaus;Regionalverkehr Münsterland GmbH
@@ -359,7 +357,6 @@ X150;bus;;;;Stadtwerke Osnabrück
 465;bus;;Ennigerloh;Ennigerloh;Regionalverkehr Münsterland GmbH
 466;bus;;Ennigerloh;Enniger;Regionalverkehr Münsterland GmbH
 467;bus;;Enniger;Enniger;Regionalverkehr Münsterland GmbH
-468;bus;;Westkirchen;Ostenfelde;Regionalverkehr Münsterland GmbH
 471;bus;;Oelde;Oelde;Regionalverkehr Münsterland GmbH
 472;bus;;;;Regionalverkehr Münsterland GmbH
 473;bus;;;;Regionalverkehr Münsterland GmbH
@@ -478,9 +475,6 @@ T470;bus;;;;Regionalverkehr Münsterland GmbH
 659;bus;;;;Regionalverkehr Münsterland GmbH
 660;bus;;;;Regionalverkehr Münsterland GmbH
 662;bus;;;;RVM
-663;bus;;;;RVM
-667;bus;;;;RVM
-671;bus;;;;
 672;bus;;;;Veelker
 673;bus;;;;RVM
 674;bus;;;;
@@ -558,6 +552,7 @@ T612;bus;;;;Euregio-Verkehrsgesellschaft GmbH & Co. KG
 72;bus;;;;DB Bahn Rheinlandbus
 95;bus;;;;Niederrheinische Verkehrsbetriebe AG
 174;bus;;Gronau;Burgsteinfurt;Reisedienst Veelker GmbH & Co. KG
+293;bus;;;;Regionalverkehr Niederrhein
 711;bus;;Groß Reken;Coesfeld;Regionalverkehr Münsterland GmbH
 713;bus;;;;RVM
 714;bus;;;;RVM
@@ -590,18 +585,10 @@ T612;bus;;;;Euregio-Verkehrsgesellschaft GmbH & Co. KG
 860;bus;;;;RVM
 861;bus;;;;RVM
 862;bus;;;;RVM
-863;bus;;;;Westfalenbus
-864;bus;;;;Westfalenbus
-866;bus;;;;Westfalenbus
-867;bus;;;;Westfalenbus
 868;bus;;;;RVM
-869;bus;;;;RVM
 871;bus;;;;RVM
-872;bus;;;;Westfalenbus
-878;bus;;;;
 886;bus;;;;Westfalenbus
 887;bus;;;;Westfalenbus
-890;bus;;;;Westfalenbus
 
 B1;bus;;Ahaus;Legden;Regionalverkehr Münsterland GmbH
 #B2;bus;Bürgerbus Vreden;Vreden;Vreden;DB Bahn Westfalenbus
@@ -718,9 +705,9 @@ T88;bus;;;;Regionalverkehr Münsterland GmbH
 80.2;bus;;Bielefeld;Verl;Transdev Ostwestfalen GmbH
 81;bus;;Sennestadt;Stukenbrock;moBiel GmbH
 82;bus;;Brackwede;Stukenbrock;moBiel GmbH
-83;bus;;Bielefeld;Schoß Holte;Transdev Ostwestfalen GmbH
+83;bus;;Bielefeld;Schloß Holte;Transdev Ostwestfalen GmbH
 87;bus;;Bielefeld/Brackwede Gymnasium;Gütersloh/Holtkamp;moBiel GmbH
-88;bus;;Bielefeld;Halle;BVO Busverkehr Ostwestfalen GmbH
+88|88E;bus;;Bielefeld|Quelle, Bahnhof;Halle|Steinhagen ZOB;BVO Busverkehr Ostwestfalen GmbH
 94;bus;;Brackwede;Gütersloh;moBiel GmbH
 95;bus;;Bielefeld/Brackwede Gymnasium;Gütersloh/Ummeln Gröppel;moBiel GmbH
 99;bus;;Milse;Herford;moBiel GmbH
@@ -773,6 +760,7 @@ N12;bus;;Bielefeld;Bünde;moBiel GmbH
 N13;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 N14;bus;;Bielefeld;Steinhagen;moBiel GmbH
 N18;bus;;;;moBiel GmbH
+N19;bus;;Bielefeld Jahnplatz;Halle(Westf) ZOB;moBiel GmbH
 
 Sparrenmobil;bus;;Tierpark;Bunnemannplatz;moBiel GmbH
 
@@ -845,8 +833,7 @@ AST;share_taxi;;;;moBiel GmbH
 85.1;bus;;;;Transdev Ostwestfalen GmbH
 86;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 87;bus;;Gütersloh/Holtkamp;Bielefeld/Brackwede Gymnasium;moBiel GmbH
-88;bus;;Bielefeld;Halle;BVO Busverkehr Ostwestfalen GmbH
-88E;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+88|88E;bus;;Halle|Steinhagen ZOB;Bielefeld|Quelle, Bahnhof;BVO Busverkehr Ostwestfalen GmbH
 89;bus;;Werther/Halle;Versmold/Peckeloh;BVO Busverkehr Ostwestfalen GmbH
 90;bus;;Versmold/Borgholzhausen;Borgholzhausen/Halle;Transdev Ostwestfalen GmbH
 91;bus;;;;Transdev Ostwestfalen GmbH
@@ -1213,89 +1200,89 @@ ALF;bus;;;;Stadtwerke Bad Salzuflen GmbH
 
 === Stadt Hamm
 
-1;bus;;;;Stadtwerke Hamm GmbH Verkehr
-2;bus;;;;Stadtwerke Hamm GmbH Verkehr
-3;bus;;;;Stadtwerke Hamm GmbH Verkehr
-4;bus;;;;Stadtwerke Hamm GmbH Verkehr
-6;bus;;;;Stadtwerke Hamm GmbH Verkehr
-7;bus;;;;Stadtwerke Hamm GmbH Verkehr
-9;bus;;;;Stadtwerke Hamm GmbH Verkehr
-10;bus;;;;Stadtwerke Hamm GmbH Verkehr
-11;bus;;;;Stadtwerke Hamm GmbH Verkehr
-12;bus;;;;Stadtwerke Hamm GmbH Verkehr
-15;bus;;;;Stadtwerke Hamm GmbH Verkehr
-17;bus;;;;Stadtwerke Hamm GmbH Verkehr
+1;bus;;;;Verkehrsbetrieb Hamm GmbH
+2;bus;;;;Verkehrsbetrieb Hamm GmbH
+3;bus;;;;Verkehrsbetrieb Hamm GmbH
+4;bus;;;;Verkehrsbetrieb Hamm GmbH
+6;bus;;;;Verkehrsbetrieb Hamm GmbH
+7;bus;;;;Verkehrsbetrieb Hamm GmbH
+9;bus;;;;Verkehrsbetrieb Hamm GmbH
+10;bus;;;;Verkehrsbetrieb Hamm GmbH
+11;bus;;;;Verkehrsbetrieb Hamm GmbH
+12;bus;;;;Verkehrsbetrieb Hamm GmbH
+15;bus;;;;Verkehrsbetrieb Hamm GmbH
+17;bus;;;;Verkehrsbetrieb Hamm GmbH
 18;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
 21;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
-22;bus;;;;Stadtwerke Hamm GmbH Verkehr
-27;bus;;;;Stadtwerke Hamm GmbH Verkehr
+22;bus;;;;Verkehrsbetrieb Hamm GmbH
+27;bus;;;;Verkehrsbetrieb Hamm GmbH
 28;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
 29;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
 30;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
 31;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
-33;bus;;;;Stadtwerke Hamm GmbH Verkehr
-83;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E14;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E25;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E30;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E32;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E33;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E34;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E35;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E36;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E37;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E38;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E39;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E40;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E50;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E52;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E53;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E54;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E55;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E56;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E57;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E58;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E60;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E65;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E66;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E69;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E70;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E71;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E72;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E73;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E74;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E75;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E76;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E78;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E79;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E80;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E81;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E82;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E87;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E92;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E95;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E97;bus;;;;Stadtwerke Hamm GmbH Verkehr
-E300;bus;;;;Stadtwerke Hamm GmbH Verkehr
-N103;bus;;;;Stadtwerke Hamm GmbH Verkehr
-N104;bus;;;;Stadtwerke Hamm GmbH Verkehr
-N107;bus;;;;Stadtwerke Hamm GmbH Verkehr
-N111;bus;;;;Stadtwerke Hamm GmbH Verkehr
-N122;bus;;;;Stadtwerke Hamm GmbH Verkehr
-N183;bus;;;;Stadtwerke Hamm GmbH Verkehr
-T1;bus;;;;Stadtwerke Hamm GmbH Verkehr
-T3;bus;;;;Stadtwerke Hamm GmbH Verkehr
-T4;bus;;;;Stadtwerke Hamm GmbH Verkehr
-T6;bus;;;;Stadtwerke Hamm GmbH Verkehr
-T10;bus;;;;Stadtwerke Hamm GmbH Verkehr
-T12;bus;;;;Stadtwerke Hamm GmbH Verkehr
-T13;bus;;;;Stadtwerke Hamm GmbH Verkehr
-T17;bus;;;;Stadtwerke Hamm GmbH Verkehr
-T28;bus;;;;Stadtwerke Hamm GmbH Verkehr
-T32;bus;;;;Stadtwerke Hamm GmbH Verkehr
-T33N;bus;;;;Stadtwerke Hamm GmbH Verkehr
-T34;bus;;;;Stadtwerke Hamm GmbH Verkehr
-T53;bus;;;;Stadtwerke Hamm GmbH Verkehr
-T114;bus;;;;Stadtwerke Hamm GmbH Verkehr
+33;bus;;;;Verkehrsbetrieb Hamm GmbH
+83;bus;;;;Verkehrsbetrieb Hamm GmbH
+E14;bus;;;;Verkehrsbetrieb Hamm GmbH
+E25;bus;;;;Verkehrsbetrieb Hamm GmbH
+E30;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
+E32;bus;;;;Verkehrsbetrieb Hamm GmbH
+E33;bus;;;;Verkehrsbetrieb Hamm GmbH
+E34;bus;;;;Verkehrsbetrieb Hamm GmbH
+E35;bus;;;;Verkehrsbetrieb Hamm GmbH
+E36;bus;;;;Verkehrsbetrieb Hamm GmbH
+E37;bus;;;;Verkehrsbetrieb Hamm GmbH
+E38;bus;;;;Verkehrsbetrieb Hamm GmbH
+E39;bus;;;;Verkehrsbetrieb Hamm GmbH
+E40;bus;;;;Verkehrsbetrieb Hamm GmbH
+E50;bus;;;;Verkehrsbetrieb Hamm GmbH
+E52;bus;;;;Verkehrsbetrieb Hamm GmbH
+E53;bus;;;;Verkehrsbetrieb Hamm GmbH
+E54;bus;;;;Verkehrsbetrieb Hamm GmbH
+E55;bus;;;;Verkehrsbetrieb Hamm GmbH
+E56;bus;;;;Verkehrsbetrieb Hamm GmbH
+E57;bus;;;;Verkehrsbetrieb Hamm GmbH
+E58;bus;;;;Verkehrsbetrieb Hamm GmbH
+E60;bus;;;;Verkehrsbetrieb Hamm GmbH
+E65;bus;;;;Verkehrsbetrieb Hamm GmbH
+E66;bus;;;;Verkehrsbetrieb Hamm GmbH
+E69;bus;;;;Verkehrsbetrieb Hamm GmbH
+E70;bus;;;;Verkehrsbetrieb Hamm GmbH
+E71;bus;;;;Verkehrsbetrieb Hamm GmbH
+E72;bus;;;;Verkehrsbetrieb Hamm GmbH
+E73;bus;;;;Verkehrsbetrieb Hamm GmbH
+E74;bus;;;;Verkehrsbetrieb Hamm GmbH
+E75;bus;;;;Verkehrsbetrieb Hamm GmbH
+E76;bus;;;;Verkehrsbetrieb Hamm GmbH
+E78;bus;;;;Verkehrsbetrieb Hamm GmbH
+E79;bus;;;;Verkehrsbetrieb Hamm GmbH
+E80;bus;;;;Verkehrsbetrieb Hamm GmbH
+E81;bus;;;;Verkehrsbetrieb Hamm GmbH
+E82;bus;;;;Verkehrsbetrieb Hamm GmbH
+E87;bus;;;;Verkehrsbetrieb Hamm GmbH
+E92;bus;;;;Verkehrsbetrieb Hamm GmbH
+E95;bus;;;;Verkehrsbetrieb Hamm GmbH
+E97;bus;;;;Verkehrsbetrieb Hamm GmbH
+E300;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
+N103;bus;;;;Verkehrsbetrieb Hamm GmbH
+N104;bus;;;;Verkehrsbetrieb Hamm GmbH
+N107;bus;;;;Verkehrsbetrieb Hamm GmbH
+N111;bus;;;;Verkehrsbetrieb Hamm GmbH
+N122;bus;;;;Verkehrsbetrieb Hamm GmbH
+N183;bus;;;;Verkehrsbetrieb Hamm GmbH
+T1;bus;;;;Verkehrsbetrieb Hamm GmbH
+T3;bus;;;;Verkehrsbetrieb Hamm GmbH
+T4;bus;;;;Verkehrsbetrieb Hamm GmbH
+T6;bus;;;;Verkehrsbetrieb Hamm GmbH
+T10;bus;;;;Verkehrsbetrieb Hamm GmbH
+T12;bus;;;;Verkehrsbetrieb Hamm GmbH
+T13;bus;;;;Verkehrsbetrieb Hamm GmbH
+T17;bus;;;;Verkehrsbetrieb Hamm GmbH
+T28;bus;;;;Verkehrsbetrieb Hamm GmbH
+T32;bus;;;;Verkehrsbetrieb Hamm GmbH
+T33N;bus;;;;Verkehrsbetrieb Hamm GmbH
+T34;bus;;;;Verkehrsbetrieb Hamm GmbH
+T53;bus;;;;Verkehrsbetrieb Hamm GmbH
+T114;bus;;;;Verkehrsbetrieb Hamm GmbH
 
 === Kreis Unna
 
@@ -1305,7 +1292,6 @@ T114;bus;;;;Stadtwerke Hamm GmbH Verkehr
 105;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 106;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 107;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
-108;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 109;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 112;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 118;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
@@ -1346,8 +1332,10 @@ T114;bus;;;;Stadtwerke Hamm GmbH Verkehr
 195;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 207;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 208;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+284|TB284;bus;;;;Vestische
 430;bus;;Hörde;Schwerte;DSW21
 435;bus;;Hörde;Schwerte;DSW21
+474;bus;;;;DSW21
 521;bus;;Nordkirchen;Werne;Regionalverkehr Münsterland GmbH
 522;bus;;Ascheberg;Werne;Regionalverkehr Münsterland GmbH
 525;bus;;Nordkirchen;Werne;Regionalverkehr Münsterland GmbH
@@ -1409,9 +1397,11 @@ N2;bus;;Lünen;Alstedde;Verkehrsgesellschaft Kreis Unna mbH
 N10;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 N11;bus;;Lünen;Werne;Verkehrsgesellschaft Kreis Unna mbH
 N19;bus;;Lünen;Selm;Verkehrsgesellschaft Kreis Unna mbH
-NE25;bus;;Hörde;Schwerte;DSW21
 N31;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 N32;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+
+NE1;bus;;Reinoldikirche;Brambauer;DSW21
+NE25;bus;;Hörde;Schwerte;DSW21
 
 R11;bus;;Lünen;Bergkamen;Verkehrsgesellschaft Kreis Unna mbH
 R12;bus;;Bergkamen;Alstedde;Verkehrsgesellschaft Kreis Unna mbH
@@ -1447,6 +1437,8 @@ T54;bus;;Massen;Massen;Verkehrsgesellschaft Kreis Unna mbH
 T71;bus;;;;Busverkehr Ruhr-Sieg GmbH
 T93;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 T138;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
+
+U41;tram;;Hörde;Brambauer;DSW21
 
 === Hochsauerlandkreis
 
@@ -1556,7 +1548,6 @@ SkiBus;bus;;Winterberg;Langewiese;Regionalverkehr Ruhr-Lippe GmbH
 
 T33;bus;;Winterberg;Winterberg;Regionalverkehr Ruhr-Lippe GmbH
 T40;bus;;Winterberg;Winterberg;Regionalverkehr Ruhr-Lippe GmbH
-T65;bus;;Westfeld;Ohlenbach;Regionalverkehr Ruhr-Lippe GmbH
 T73;bus;;;;DB Bahn Westfalenbus
 
 === Kreis Soest
@@ -1595,7 +1586,6 @@ T73;bus;;;;DB Bahn Westfalenbus
 672;bus;;;;DB Bahn Westfalenbus
 673;bus;;;;DB Bahn Westfalenbus GmbH
 691;bus;;;;DB Bahn Westfalenbus GmbH
-694;bus;;;;
 
 B1;bus;Bad Sassendorf;Bad Sassendorf;Bettinghausen;DB Bahn Westfalenbus
 B1;bus;Möhnesee;Körbecke;Büecke;DB Bahn Westfalenbus
@@ -1703,11 +1693,11 @@ T661;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
 52;bus;;;;MVG
 54;bus;;;;MVG
 53;bus;;;;MVG Märkische Verkehrsgesellschaft
-55;bus;;;;MVG und BRS
+55;bus;;;;MVG;BRS
 56;bus;;;;MVG Märkische Verkehrsgesellschaft
 57;bus;;;;MVG Märkische Verkehrsgesellschaft
-58;bus;;;;MVG und BRS
-59;bus;;;;MVG und BRS
+58;bus;;;;MVG;BRS
+59;bus;;;;MVG;BRS
 60;bus;;;;MVG Märkische Verkehrsgesellschaft
 61;bus;;;;MVG Märkische Verkehrsgesellschaft
 62;bus;;;;MVG
@@ -1721,6 +1711,7 @@ T661;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
 74;bus;;;;MVG
 75;bus;;;;MVG
 80;bus;;;;Märkische Verkehrsgesellschaft
+81;bus;;;;Märkische Verkehrsgesellschaft
 82;bus;;;;Märkische Verkehrsgesellschaft
 84;bus;;;;Märkische Verkehrsgesellschaft
 87;bus;;;;MVG Märkische Verkehrsgesellschaft
@@ -1737,8 +1728,8 @@ T661;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
 247;bus;;;;MVG Märkische Verkehrsgesellschaft
 252;bus;;;;MVG Märkische Verkehrsgesellschaft
 254;bus;;;;Märkische Verkehrsgesellschaft
-258;bus;;;;MVG und BRS
-259;bus;;;;MVG und BRS
+258;bus;;;;MVG;BRS
+259;bus;;;;MVG;BRS
 260;bus;;;;MVG Märkische Verkehrsgesellschaft
 261;bus;;;;MVG
 274;bus;;;;MVG Märkische Vekehrsgesellschaft
@@ -1907,7 +1898,7 @@ UNI;bus;;Uni/Südring;MuseumsForum;PaderSprinter GmbH
 532;bus;;;;Weser-Egge-Bus GmbH & Co. KG
 533;bus;;;;Weser-Egge-Bus GmbH & Co. KG
 535;bus;;Warburg;Borgentreich;Weser-Egge-Bus GmbH & Co. KG
-541;bus;;Peckelsheim;Borlinghausen;Weser-Egge-Bus GmbH & Co. KG
+541;bus;;Peckelsheim;Borlinghausen;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
 542;bus;;;;Weser-Egge-Bus GmbH & Co. KG
 552;bus;;Brakel;Borgentreich/Dahlhausen;Weser-Egge-Bus GmbH & Co. KG
 553;bus;;;;Weser-Egge-Bus GmbH & Co. KG

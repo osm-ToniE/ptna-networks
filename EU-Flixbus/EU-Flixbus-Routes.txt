@@ -231,7 +231,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 277;bus;;Stuttgart;Venedig;FlixMobility GmbH
 280;bus;;Wuppertal;Antwerpen;FlixMobility GmbH
 283;bus;;Zürich;Prag;FlixMobility GmbH
-284;bus;bis 10.04.2019 buchbar, wird eingestellt;Stuttgart;Prag;FlixMobility GmbH
+284;bus;bis 10.04.2019 so buchbar, wird umgestellt;Stuttgart;Prag;FlixMobility GmbH
 289;bus;;Amberg;Berlin;FlixMobility GmbH
 291;bus;Seit 25.04.2018 nicht mehr buchbar, wurde eingestellt.;München;Zagreb;FlixMobility GmbH
 299;bus;Seite nicht mehr verfügbar;Brüssel;Luzern;FlixMobility GmbH
@@ -423,7 +423,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 723;bus;;Paris;La Rochelle;FlixMobility GmbH
 724;bus;;Nantes;Grenoble;FlixMobility GmbH
 725;bus;;Tulle;Paris;FlixMobility GmbH
-726;bus;bis 31.03.2019 buchbar, wird eingestellt;Mailand;Clermont-Ferrand;FlixMobility GmbH
+726;bus;;Mailand;Clermont-Ferrand;FlixMobility GmbH
 727;bus;;Besse-et-Saint-Anastasie;Paris;FlixMobility GmbH
 728;bus;;Genua;Barcelona;FlixMobility GmbH
 729;bus;;Mailand;Paris;FlixMobility GmbH
@@ -433,7 +433,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 734;bus;;Clermont-Ferrand;Marseille;FlixMobility GmbH
 735;bus;;Saint-Aignan-sur-Cher;Paris;FlixMobility GmbH
 736;bus;Linie in Winterpause, evtl. ganz eingestellt?;Konstanz;Saint-Etienne;FlixMobility GmbH
-737;bus;bis 31.03.2019 buchbar, wird eingestellt;Dijon;Paris;FlixMobility GmbH
+737;bus;;Dijon;Paris;FlixMobility GmbH
 739;bus;;Genf;Marseille;FlixMobility GmbH
 740;bus;;Mailand;Montpellier;FlixMobility GmbH
 741;bus;;Nantes;Toulouse;FlixMobility GmbH
@@ -516,7 +516,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 == 9xx-Linien (Gebiet Slowenien, Kroatien, Slowakei, Ungarn westl. Rumänien etwa)
 
 900;bus;;Frankfurt am Main;Zagreb;FlixMobility GmbH
-901;bus;bis 10.04.2019 buchbar, wird eingestellt;Wien;Ružinov;FlixMobility GmbH
+901;bus;;Wien;Ružinov;FlixMobility GmbH
 902;bus;;Budapest;Wien;FlixMobility GmbH
 903;bus;;Zagreb;Prag;FlixMobility GmbH
 904;bus;;Prag;Budapest;FlixMobility GmbH
@@ -584,14 +584,15 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 
 1260;bus;;Warschau;Budapest;FlixMobility GmbH
 1261A;bus;;Warschau;Krakau;FlixMobility GmbH
-1262;bus;;Warschau;Krakau;FlixMobility GmbH
+1262;bus;;Warschau;Košice;FlixMobility GmbH
 1281;bus;;;;
 
 
 == 13xx-Linien (Überwiegend Polen)
 
+1300;bus;;Prag;Breslau;FlixMobility GmbH
 1301;bus;;Warschau;Prag;FlixMobility GmbH
-1302;bus;;;;
+1302;bus;;Warschau;Breslau;FlixMobility GmbH
 1303;bus;;Warschau;Breslau/Karpacz;FlixMobility GmbH
 1304;bus;;Warschau;Dresden;FlixMobility GmbH
 1320;bus;;Berlin;Warschau;FlixMobility GmbH
@@ -600,6 +601,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 1351;bus;;Warschau;Bromberg;FlixMobility GmbH
 1360;bus;;Berlin;Rzeszów/Przemyśl;FlixMobility GmbH
 1361;bus;;Berlin;Kattowitz/Tschenstochau;FlixMobility GmbH
+1368;bus;;Tschenstochau;Krakau;FlixMobility GmbH
 1380;bus;;Gdingen;Prag;FlixMobility GmbH
 1381;bus;;Berlin;Posen/Toruń;FlixMobility GmbH
 
@@ -762,7 +764,7 @@ N36;bus;;Antwerpen;Bratislava;FlixMobility GmbH
 N38;bus;;Bonn;Berlin;FlixMobility GmbH
 N40;bus;seit 05.11.2018 nicht mehr buchbar, wurde eingestellt.;Innsbruck;Berlin;FlixMobility GmbH
 N42;bus;;Tübingen;Berlin;FlixMobility GmbH
-N44;bus;bis 10.04.2019 buchbar, wird eingestellt. via Groningen,Uplengen,Oldenburg,Bremen,Hamburg,Berlin (ZOB);Amsterdam;Berlin (Alexanderplatz);FlixMobility GmbH
+N44;bus;via Groningen,Uplengen,Oldenburg,Bremen,Hamburg,Berlin (ZOB);Amsterdam;Berlin (Alexanderplatz);FlixMobility GmbH
 N50;bus;;Erfurt;Kiel;FlixMobility GmbH
 N60;bus;;Berlin;Zagreb;FlixMobility GmbH
 N61;bus;;Wien;Amsterdam;FlixMobility GmbH
@@ -958,6 +960,7 @@ N1321;bus;;Berlin;Warschau;FlixMobility GmbH
 N1340;bus;;Warschau;Stettin;FlixMobility GmbH
 N1360;bus;;Bremen;Przemyśl;FlixMobility GmbH
 N1365;bus;;Berlin;Zakopane;FlixMobility GmbH
+N1380;bus;;Prag;Gdingen;FlixMobility GmbH
 
 N1501;bus;;;;
 N1526;bus;;;;
@@ -982,11 +985,21 @@ N3300;bus;;Wien;Kiew;FlixMobility GmbH
 
 == Buslinien in den USA
 
+2000;bus;;Los Angeles;San Francisco;
 2001;bus;;;;
-2006;bus;;;;
-2009;bus;;;;
-2100;bus;;;;
-2201;bus;;;;
-N2201;bus;;;;
+2006;bus;;San Francisco;Anaheim;
+2009;bus;;Los Angeles;Anaheim/Las Vegas;
+2010;bus;;San Diego;Las Vegas;
+2016;bus;;Los Angeles;Las Vegas;
+2052;bus;;San Diego;Los Angeles;
+2062;bus;;San Francisco;Sacramento/Reno;
+2100;bus;;Tucson;Las Vegas/Flagstaff;
+2201;bus;;Los Angeles;Tucson;
+N2003;bus;;San Diego;Vallejo;
+N2006;bus;;San Francisco;Los Angeles/Reno;
+N2008;bus;;San Francisco;Las Vegas;
+N2009;bus;;San Diego; Las Vegas;
+N2100;bus;;Las Vegas;Tucson;
+N2201;bus;;Los Angeles;Tucson;
 
 </pre>
