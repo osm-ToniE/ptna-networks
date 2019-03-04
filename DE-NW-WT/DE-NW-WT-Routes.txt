@@ -130,7 +130,7 @@ S5;train;;Hannover Flughafen;Paderborn Hbf/Bad Pyrmont;DB Regio AG
 4;bus;;;;Stadtwerke Münster
 5;bus;;;;Stadtwerke Münster
 6;bus;;;;Stadtwerke Münster
-7;bus;;;;Stadtwerke Münster / Regionalverkehr Münsterland GmbH
+7;bus;;;;Stadtwerke Münster;Regionalverkehr Münsterland GmbH
 8;bus;;;;Stadtwerke Münster
 9;bus;;;;Stadtwerke Münster
 10;bus;;;;Stadtwerke Münster
@@ -143,7 +143,7 @@ S5;train;;Hannover Flughafen;Paderborn Hbf/Bad Pyrmont;DB Regio AG
 17;bus;;;;Stadtwerke Münster
 18;bus;;;;Stadtwerke Münster
 19;bus;;;;Stadtwerke Münster
-22;bus;;;;Stadtwerke Münster / Regionalverkehr Münsterland GmbH
+22;bus;;;;Stadtwerke Münster;Regionalverkehr Münsterland GmbH
 33;bus;;;;Stadtwerke Münster
 34;bus;;;;Stadtwerke Münster
 177;bus;;Münster;Borghorst;Reisedienst Veelker GmbH & Co. KG
@@ -158,7 +158,7 @@ N83;bus;;;;Stadtwerke Münster
 N84;bus;;;;Stadtwerke Münster
 N85;bus;;;;Stadtwerke Münster
 
-R41;bus;;Münster, Hauptbahnhof;Ottmarsbocholt, Dillenbaum;Stadtwerke Münster; Regionalverkehr Münsterland GmbH
+R41;bus;;Münster, Hauptbahnhof;Ottmarsbocholt, Dillenbaum;Stadtwerke Münster;Regionalverkehr Münsterland GmbH
 
 T1;bus;;;;Stadtwerke Münster
 T4;bus;;;;Stadtwerke Münster
@@ -516,7 +516,7 @@ N7;bus;;Münster;Coesfeld;DB Bahn Westfalenbus GmbH
 N8;bus;;Münster;Legden;Regionalverkehr Münsterland GmbH
 N64;bus;;;;Reisedienst Veelker GmbH & Co. KG
 
-R41;bus;;Münster;Ottmarsbocholt;Stadtwerke Münster; Regionalverkehr Münsterland GmbH
+R41;bus;;Münster;Ottmarsbocholt;Stadtwerke Münster;Regionalverkehr Münsterland GmbH
 R51;bus;;Bocholt;Coesfeld;DB Bahn Westfalenbus GmbH
 R53;bus;;Lüdinghausen;Capelle;Euregio-Verkehrsgesellschaft GmbH & Co. KG
 R61;bus;;Vreden;Coesfeld;DB Bahn Westfalenbus GmbH

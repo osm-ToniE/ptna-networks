@@ -45,11 +45,369 @@
 
 - Verweis auf die Datei mit den [[Saxony/Transportation/Mitteldeutscher Verkehrsverbund/Analyse/DE-SN-MDV-Linien|MDV-Linien]] im Wiki.
 - Verweis auf mehr [[Talk:Saxony/Transportation/Mitteldeutscher Verkehrsverbund/Analyse|Informationen]] im Wiki.
-
 -
 -
 - !!!Dieses ist derzeit lediglich eine Bestandsaufnahme der in OpenStreetMap vorhandenen Linien des MDV!!!
 -
+-
+
+= Züge
+
+== Express
+
+EB 22;train;;;;
+EBx 12;train;;;;
+
+-
+
+== Regional Express
+
+RE 3;train;;;;
+RE 4;train;;;;
+RE 6;train;;;;
+RE 9;train;;;;
+RE 10;train;;;;
+RE 13;train;;;;
+RE 16;train;;;;
+RE 17;train;;;;
+RE 18;train;;;;
+RE 19;train;;;;
+RE 42;train;;;;
+RE 50;train;;;;
+
+-
+
+== Regional Bahn
+
+RB 20;train;;;;
+RB 25;train;;;;
+RB 43;train;;;;
+RB 47;train;;;;
+RB 57;train;;;;
+RB 75;train;;;;
+RB 76;train;;;;
+RB 77;train;;;;
+RB 78;train;;;;
+RB 110;train;;;;
+RB 113;train;;;;
+
+-
+
+== S-Bahn
+
+S 1;train;;Leipzig, Miltitzer Allee;Leipzig-Stötteritz;DB Regio Südost
+S 2;train;;Dessau/Wittenberg;Leipzig-Stötteritz;DB Regio Südost
+S 3;train;;Halle (Saale) Hbf;Markkleeberg-Gaschwitz;DB Regio Südost
+S 4;train;;Wurzen;Hoyerswerda;DB Regio Südost
+S 5;train;;Halle (Saale) Hbf/Leipzig/Halle Flughafen;Zwickau Hbf;DB Regio Südost
+S 5X;train;;Halle (Saale) Hbf;Zwickau Hbf;DB Regio Südost
+S 6;train;;Leipzig Messe;Geithain;DB Regio Südost
+S 7;train;;Halle (Saale) Hbf;Halle-Nietleben;DB Regio Südost
+S 8;train;;Halle (Saale) Hbf;Dessau Hbf/Wittenberg;DB Regio Südost
+S 9;train;;Halle (Saale) Hbf;;DB Regio Südost
+
+-
+
+= Straßenbahn/Tram
+
+== Leipzig
+
+1|1E;tram;;;;LVB
+2;tram;;;;LVB
+3|3E;tram;;;;LVB
+4|4E;tram;;;;LVB
+7;tram;;;;LVB
+8;tram;;;;LVB
+9;tram;;;;LVB
+10;tram;;;;LVB
+11|11E;tram;;;;LVB
+12;tram;;;;LVB
+14;tram;;;;LVB
+15;tram;;;;LVB
+16;tram;;;;LVB
+
+-
+
+== Halle (Saale)
+
+1;tram;;;;HAVAG
+2;tram;;;;HAVAG
+3|3E|3E/16;tram;;;;HAVAG
+4;tram;;;;HAVAG
+5;tram;;;;HAVAG
+7;tram;;;;HAVAG
+7E;tram;;;;HAVAG
+8|8E;tram;;;;HAVAG
+9;tram;;;;HAVAG
+10;tram;;;;HAVAG
+12;tram;;;;HAVAG
+16;tram;;;;HAVAG
+94;tram;;;;HAVAG
+95;tram;;;;HAVAG
+E;tram;;;;HAVAG
+
+-
+
+== Naumburg
+
+4;tram;;;;Naumburger Straßenbahn
+
+-
+
+= Busse
+
+== PlusBusse
+
+=== PlusBusse +91
+
++91;bus;;;;
+
+=== PlusBusse +100 - +196
+
++100;bus;;;;
++101;bus;;;;
++107;bus;;;;
++131;bus;;;;
++190;bus;;;;
++196;bus;;;;
+
+=== PlusBusse +207 - +258
+
++207;bus;;;;
++258;bus;;;;
+
+=== PlusBusse +350
+
++350;bus;;;;
+
+=== PlusBusse +416
+
++416;bus;;;;
+
+=== PlusBusse +610 - +694
+
++610;bus;;;;
++611;bus;;;;
++619;bus;;;;
++630;bus;;;;
++640;bus;;;;
++641;bus;;;;
++644;bus;;;;
++689;bus;;;;
++690;bus;;;;
++693;bus;;;;
++694;bus;;;;
+
+=== PlusBusse +700 - +781
+
++700;bus;;;;
++723;bus;;;;
++724;bus;;;;
++781;bus;;;;
+
+=== PlusBusse +800 - +844
+
++800;bus;;;;
++801;bus;;;;
++820;bus;;;;
++844;bus;;;;
+
+-
+
+== Busse
+
+=== Busse A - Z
+
+==== Altenburg
+
+I;bus;Altenburg;;;Thüsac
+K;bus;Altenburg;;;Thüsac
+L;bus;Altenburg;;;Thüsac
+S;bus;Altenburg;;;Thüsac
+W;bus;Altenburg;;;Thüsac
+Z;bus;Altenburg;;;Thüsac
+
+==== Borna
+
+A;bus;Borna;;;Thüsac
+B;bus;Borna;;;Thüsac
+
+==== Delitzsch
+
+B;bus;Delitzsch;;;Auto Webel
+
+==== Grimma
+
+A;bus;Grimma;Grimma oberer Bahnhof|Hohnstädt|Nicolaiplatz|Hengstberg;Gerichtswiesen|Hartgrund;Regionalbus Leipzig GmbH
+B;bus;Grimma;Nicolaiplatz|Vorwerkstraße/Alte Poststraße;August-Bebel-Straße/Alte Poststraße;Regionalbus Leipzig GmbH
+
+==== Schmölln
+
+R;bus;Schmölln;;;Thüsac
+
+==== Torgau
+
+A;bus;Stadtverkehr Torgau;;;Stadtverkehr Torgau
+
+==== Wurzen
+
+A;bus;Wurzen;Wurzen Bahnhof;Wurzen Bahnhof;Regionalbus Leipzig GmbH
+B;bus;Wurzen;Wurzen Bahnhof;Industriestraße;Regionalbus Leipzig GmbH
+
+-
+
+=== Nachtbusse
+
+N1;bus;;;;
+N3;bus;;;;
+N4;bus;;;;
+N5;bus;;;;
+N8;bus;;;;
+N9;bus;;;;
+
+=== Schienenersatzverkehr
+
+SEV8;bus;;;;
+
+=== Busse 21 - 97
+
+21;bus;;;;
+22;bus;;;;
+23;bus;;;;
+24;bus;;;;
+25;bus;;;;
+26;bus;;;;
+27;bus;;;;
+30;bus;;;;
+31;bus;;;;
+34;bus;;;;
+35;bus;;;;
+36;bus;;;;
+40;bus;;;;
+42;bus;;;;
+43;bus;;;;
+60;bus;;;;
+61;bus;;;;
+62;bus;;;;
+63;bus;;;;
+65;bus;;;;
+66;bus;;;;
+67;bus;;;;
+70;bus;;;;
+72;bus;;;;
+73;bus;;;;
+74;bus;;;;
+75;bus;;;;
+76;bus;;;;
+77;bus;;;;
+79;bus;;;;
+80;bus;;;;
+81;bus;;;;
+82;bus;;;;
+83;bus;;;;
+85;bus;;;;
+86|86A;bus;;;;
+87;bus;;;;
+88;bus;;;;
+89;bus;;;;
+90;bus;;;;
+91;bus;;;;
+97;bus;;;;
+
+=== Busse 101 - 197
+
+101;bus;;;;
+102;bus;;;;
+103;bus;;;;
+106;bus;;;;
+108;bus;;;;
+120;bus;;;;
+125;bus;;;;
+130;bus;;;;
+135;bus;;;;
+161;bus;;;;
+162;bus;;;;
+172;bus;;;;
+173;bus;;;;
+175;bus;;;;
+176;bus;;;;
+191;bus;;;;
+195;bus;;;;
+197;bus;;;;
+
+=== Busse 206 - 289
+
+206;bus;;;;
+207;bus;;;;
+215;bus;;;;
+236;bus;;;;
+251;bus;;;;
+266;bus;;;;
+271;bus;;;;
+278;bus;;;;
+288;bus;;;;
+289;bus;;;;
+
+=== Busse 300 - 358
+
+300;bus;;;;
+301;bus;;;;
+302;bus;;;;
+303;bus;;;;
+314;bus;;;;
+325;bus;;;;
+351;bus;;;;
+352;bus;;;;
+353;bus;;;;
+356;bus;;;;
+358;bus;;;;
+
+=== Busse 401 - 481
+
+401;bus;;;;
+404;bus;;;;
+405;bus;;;;
+412;bus;;;;
+413;bus;;;;
+481;bus;;;;
+
+=== Busse 604 - 676
+
+604;bus;;;;
+606;bus;;;;
+610;bus;;;;
+613;bus;;;;
+615;bus;;;;
+616;bus;;;;
+618;bus;;;;
+620;bus;;;;
+621a;bus;;;;
+621b;bus;;;;
+623;bus;;;;
+628;bus;;;;
+631;bus;;;;
+655;bus;;;;
+676;bus;;;;
+
+=== Busse 705 - 797
+
+705;bus;;;;
+722;bus;;;;
+755;bus;;;;
+782;bus;;;;
+783;bus;;;;
+796;bus;;;;
+797;bus;;;;
+
+=== Busse 816 - 845
+
+816;bus;;;;
+826;bus;;;;
+845;bus;;;;
+
+
+-
+
 
 
 </pre>

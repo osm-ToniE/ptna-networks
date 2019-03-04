@@ -2258,6 +2258,7 @@ DL6;bus;Quelle gtfs;Mettmann Stadtwald S Bstg 1;Mettmann Seibelstraße;Rheinbahn
 886;bus;Quelle gtfs;Dormagen Nievenheim BF;Dormagen Am Krahnenort;BVR
 887;bus;Quelle gtfs;Dormagen Nievenheim BF;Dormagen Am Krahnenort;BVR
 891;bus;Quelle gtfs;Grevenbroich Neurath Kirche;Kapellen Wevelinghoven Bf;BVR
+891;bus;Quelle Rheinbahn;Düsseldorf Vennhauser Allee;Düsseldorf Unterbacher See/Strandbad Süd;Rheinbahn
 892;bus;Quelle gtfs;Grevenbroich Zur Wassermühle;Grevenbroich Neurath Kirche;BVR
 893;bus;Quelle gtfs;Grevenbroich Bf;Kapellen Wevelinghoven Bf;BVR
 893;bus;Quelle gtfs;D-Südpark Bstg 6;D-Südfriedhof Bstg 4;Rheinbahn
