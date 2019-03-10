@@ -585,6 +585,7 @@ Nachtzug;train;;Hamburg;Lörrach;FlixMobility GmbH
 1260;bus;;Warschau;Budapest;FlixMobility GmbH
 1261A;bus;;Warschau;Krakau;FlixMobility GmbH
 1262;bus;;Warschau;Košice;FlixMobility GmbH
+1271;bus;;Warschau;Rzeszów;FlixMobility GmbH
 1281;bus;;;;
 
 

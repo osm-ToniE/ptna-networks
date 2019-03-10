@@ -2088,16 +2088,13 @@ E701;tram;Quelle gtfs;D-DOME/Am Hülserhof Bstg 7;D-Sternstraße Bstg 1;Rheinbah
 743;bus;Quelle gtfs;Mettmann Seibelstraße;Erkrath Erkrath S Bstg 3;Rheinbahn
 745;bus;Quelle gtfs;Mettmann Stadtwald S Bstg 1;W-Vohwinkel Bf Bstg 3;Rheinbahn
 746;bus;Quelle gtfs;Velbert ZOB Bstg 4;Mettmann Stadtwald S Bstg 2;Rheinbahn
-747;bus;Quelle gtfs;Velbert Putschenholz Bstg 1;Wülfrath Sporthalle;Rheinbahn
-747;bus;Quelle gtfs;Velbert Putschenholz Bstg 1;Wülfrath Stadtmitte Bstg 2;BVR
+747;bus;Quelle gtfs;Velbert Putschenholz Bstg 1;Wülfrath Sporthalle;Rheinbahn;BVR
 748;bus;Quelle gtfs;Wülfrath Stadtmitte Bstg 3;ME-Jubiläumsplatz Bstg 2;Rheinbahn
 748;bus;Quelle gtfs;Wülfrath Stadtmitte Bstg 3;ME-Jubiläumsplatz Bstg 2;BVR
 749;bus;Quelle gtfs;D-Klemensplatz Bstg 4;Mettmann Stadtwald S Bstg 1;Rheinbahn
 751;bus;Quelle gtfs;Ratingen Hösel S Bstg 2;D-Angermund S;Rheinbahn
-752;bus;Quelle gtfs;Mülheim Hauptbahnhof Bstg 5;Düsseldorf Hbf Bstg 16;Rheinbahn
-752;bus;Quelle gtfs;Mülheim Hauptbahnhof Bstg 5;Düsseldorf Hbf Bstg 16;Rheinbahn
-753;bus;Quelle gtfs;Mülheim Hauptbahnhof Bstg 5;Ratingen Mitte Bstg 1;Rheinbahn
-753;bus;Quelle gtfs;Mülheim Hauptbahnhof Bstg 5;Ratingen Mitte Bstg 3;Rheinbahn
+752;bus;Quelle gtfs;Mülheim Hauptbahnhof Bstg 5;Düsseldorf Hbf Bstg 16;Ruhrbahn;Rheinbahn
+753;bus;Quelle gtfs;Mülheim Hauptbahnhof Bstg 5;Ratingen Mitte Bstg 1;Rheinbahn;Ruhrbahn
 754;bus;Quelle gtfs;Ratingen Siemensstraße Bstg 1;Düsseldorf Hbf Bstg 16;Rheinbahn
 756;bus;Quelle gtfs;Ratingen Tiefenbroich, Friedh. Bstg 1;D-Theodor-Heuss-Brücke Bstg 5;Rheinbahn
 757;bus;Quelle gtfs;D-Unterrath S Bstg 3;Ratingen Ost Bstg 3;Rheinbahn
@@ -2105,16 +2102,13 @@ E701;tram;Quelle gtfs;D-DOME/Am Hülserhof Bstg 7;D-Sternstraße Bstg 1;Rheinbah
 759;bus;Quelle gtfs;Ratingen Ost Bstg 1;D-Flughafen Bf Bstg 1;Rheinbahn
 760;bus;Quelle gtfs;Ratingen Ost Bstg 1;D-Roßpfad;Rheinbahn
 761;bus;Quelle gtfs;Ratingen Kirchfeldstraße;Ratingen Mitte Bstg 3;Rheinbahn
-770;bus;Quelle gtfs;Velbert ZOB Bstg 11;Ratingen Hösel S Bstg 1;Rheinbahn
-770;bus;Quelle gtfs;Velbert ZOB Bstg 11;Ratingen Hösel S Bstg 1;BVR
-771;bus;Quelle gtfs;Velbert ZOB Bstg 12;Ratingen Mitte Bstg 3;Rheinbahn
-771;bus;Quelle gtfs;Velbert ZOB Bstg 12;Ratingen Mitte Bstg 3;BVR
+770;bus;Quelle gtfs;Velbert ZOB Bstg 11;Ratingen Hösel S Bstg 1;Rheinbahn;BVR
+771;bus;Quelle gtfs;Velbert ZOB Bstg 12;Ratingen Mitte Bstg 3;Rheinbahn;BVR
 772;bus;Quelle gtfs;Essen Kettwiger Markt Bstg 1;Heiligenhaus Unterilp Bstg 3;Rheinbahn
 773;bus;Quelle gtfs;Ratingen Hösel S Bstg 3;Ratingen Mitte Bstg 3;Rheinbahn
 774;bus;Quelle gtfs;Essen Kettwiger Markt Bstg 1;Velbert Klinikum Niederberg Bstg 1;Rheinbahn
 776;bus;Quelle gtfs;D-Flughafen Bf Bstg 1;D-Mercedesstraße Bstg 1;Rheinbahn
-777;bus;Quelle gtfs;Langenfeld Götsche Bstg 1;Monheim, Busbahnhof 8: 788/789 Heerweg,777 Ende,SB79 Lfeld S;Rheinbahn
-777;bus;Quelle gtfs;Langenfeld Berghausen S;Monheim, Busbahnhof Bstg 7;Bahnen der Stadt Monheim
+777;bus;Quelle gtfs;Langenfeld Götsche Bstg 1;Monheim, Busbahnhof 8: 788/789 Heerweg,777 Ende,SB79 Lfeld S;Rheinbahn;BSM
 778;bus;Quelle gtfs;D-Benrath S Bstg 12;D-Benrath S Bstg 4;Rheinbahn
 779;bus;Quelle gtfs;D-Benrath S Bstg 11;D-Benrath S Bstg 4;Rheinbahn
 780;bus;Quelle gtfs;D-Heinrich-Heine-Allee Bstg 9;Erkrath Hochdahler Markt Bstg 1;Rheinbahn
@@ -2125,14 +2119,10 @@ E701;tram;Quelle gtfs;D-DOME/Am Hülserhof Bstg 7;D-Sternstraße Bstg 1;Rheinbah
 785;bus;Quelle gtfs;D-Heinrich-Heine-Allee Bstg 9;Langenfeld (Rheinl) S Bstg 3;Rheinbahn
 786;bus;Quelle gtfs;Haan Bettina-von-Arnim-Str.;Erkrath Hochdahl, Schulzentrum;Rheinbahn
 787;bus;Quelle gtfs;Langenfeld Karl-Benz-Straße;Lgf. Carl-Leverkus-Straße;Rheinbahn
-788;bus;Quelle gtfs;D-Paulsmühlenstraße;Monheim, Heerweg;Rheinbahn
-788;bus;Quelle gtfs;D-Paulsmühlenstraße;Monheim, Heerweg;Bahnen der Stadt Monheim
-789;bus;Quelle gtfs;D-Holthausen Bstg 5;Monheim, Heerweg;Rheinbahn
-789;bus;Quelle gtfs;D-Holthausen Bstg 5;Monheim, Heerweg;Bahnen der Stadt Monheim
-790;bus;Quelle gtfs;Langenfeld Götsche Bstg 1;Langenfeld (Rheinl) S Bstg 2;Rheinbahn
-790;bus;Quelle gtfs;Langenfeld Götsche Bstg 1;Monheim, mona mare;Bahnen der Stadt Monheim
-791;bus;Quelle gtfs;Solingen Hbf Bstg 4;Monheim, mona mare;Rheinbahn
-791;bus;Quelle gtfs;Solingen Hbf Bstg 4;Monheim, mona mare;Bahnen der Stadt Monheim
+788;bus;Quelle gtfs;D-Paulsmühlenstraße;Monheim, Heerweg;BSM;Rheinbahn
+789;bus;Quelle gtfs;D-Holthausen Bstg 5;Monheim, Heerweg;BSM;Rheinbahn
+790;bus;Quelle gtfs;Langenfeld Götsche Bstg 1;Langenfeld (Rheinl) S Bstg 2;Rheinbahn;BSM
+791;bus;Quelle gtfs;Solingen Hbf Bstg 4;Monheim, mona mare;Rheinbahn;BSM
 792;bus;Quelle gtfs;Haan Robert-Koch-Str. Bstg 1;Solingen Hbf Bstg 3B;Rheinbahn
 793;bus;Quelle gtfs;Monheim,Landwirtschaftszentrum;Monheim, BSM-Betriebshof;Bahnen der Stadt Monheim
 O1;bus;Quelle gtfs;Haan Sinterstraße;Haan Robert-Koch-Str. Bstg 1;Rheinbahn
@@ -2188,10 +2178,8 @@ DL6;bus;Quelle gtfs;Mettmann Stadtwald S Bstg 1;Mettmann Seibelstraße;Rheinbahn
 812;bus;Quelle gtfs;D-Hubertushain Bstg 3;Düsseldorf Hbf Bstg 11;Rheinbahn
 815;bus;Quelle gtfs;D-Lierenfelder Straße Bstg 3;D-Benrath Btf Bstg 5;Rheinbahn
 817;bus;Quelle gtfs;D-Heinrich-Heine-Allee Bstg 8;D-Benrath Btf Bstg 5;Rheinbahn
-827;bus;Quelle gtfs;D-Südpark Bstg 6;Neuss Habichtweg;BVR
-827;bus;Quelle gtfs;D-Südpark Bstg 6;Neuss Habichtweg;Rheinbahn
-828;bus;Quelle gtfs;D-Belsenplatz Bstg 7;Neuss Stadthalle/Museum Bstg 1;BVR
-828;bus;Quelle gtfs;D-Belsenplatz Bstg 7;Neuss Stadthalle/Museum Bstg 1;Rheinbahn
+827;bus;Quelle gtfs;D-Südpark Bstg 6;Neuss Habichtweg;BVR;Rheinbahn
+828;bus;Quelle gtfs;D-Belsenplatz Bstg 7;Neuss Stadthalle/Museum Bstg 1;BVR;Rheinbahn
 829;bus;Quelle gtfs;Meerbusch Haus Meer Bstg 6;Neuss Am Kaiser Bstg 3;Rheinbahn
 830;bus;Quelle gtfs;Meerbusch Haus Meer Bstg 6;Neuss Stadthalle/Museum Bstg 1;Rheinbahn
 831;bus;Quelle gtfs;Krefeld HPZ Uerdingen;Meerbusch Haus Meer Bstg 5;Rheinbahn
@@ -2200,8 +2188,7 @@ DL6;bus;Quelle gtfs;Mettmann Stadtwald S Bstg 1;Mettmann Seibelstraße;Rheinbahn
 834;bus;Quelle gtfs;D-Belsenplatz Bstg 7;Düsseldorf Hbf Bstg 10;Rheinbahn
 835;bus;Quelle gtfs;D-Comeniusplatz Bstg 1;D-Holthausen Bstg 5;Rheinbahn
 836;bus;Quelle gtfs;D-Am Seestern Bstg 4;D-Universität Süd Bstg 1;Rheinbahn
-839;bus;Quelle gtfs;Meerbusch Haus Meer Bstg 4;Meerbusch Haus Meer Bstg 5;Rheinbahn
-839;bus;Quelle gtfs;Meerbusch Haus Meer Bstg 4;Meerbusch Haus Meer Bstg 5;Rheinbahn
+839;bus;Quelle gtfs;Meerbusch Haus Meer Bstg 4;Meerbusch Haus Meer Bstg 5;Rheinbahn;SWK Mobil
 841;bus;Quelle gtfs;D-Handweiser Bstg 8;Neuss Seniorenzentrum;SWN
 841T;bus;Quelle gtfs;D-Handweiser Bstg 8;Neuss Seniorenzentrum;SWN
 842;bus;Quelle gtfs;Neuss Lukaskrankenhaus Bstg 3;Neuss Rheinpark-Center Bstg 1;SWN

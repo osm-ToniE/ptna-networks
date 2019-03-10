@@ -154,30 +154,35 @@ RB97;train;Daadetalbahn (DAA);Betzdorf;Daaden;Westerwaldbahn
 - '''Die hier aufgeführten Züge sind eventuell identisch mit oben genannten RBxx oder RExx Zügen - zu prüfen.'''
 -
 
-SIE;train;Sieg-Strecke (KBS 460);Köln;Siegen;DB AG/Hessenbahn
-OWW;train;Oberwesterwald-Strecke (KBS 461);Au (Sieg);Limburg;HLB
-LRN;train;Linke Rheinstrecke (Nord) (KBS 470);Köln;Koblenz;DB AG/trans regio
-LRS;train;Linke Rheinstrecke (Süd) (KBS 471);Koblenz;Frankfurt a. M.;DB AG/trans regio/VLEXX
-LAH;train;Lahntal-Strecke (KBS 625);Koblenz;Gießen;DB AG
-UWW;train;Unterwesterwald-Strecke (KBS 629) = RB29?;Limburg;Siershahn;HLB
-
-- RB96 = HEL;train;Hellertal-Strecke (KBS 462);Betzdorf;Dillenburg;HLB
--
-- RB97 = DAA;train;Daadetal-Strecke (KBS 463);Betzdorf;Daaden;WEBA
--
-- RB27 = RRN;train;Rechte Rheinstrecke (Nord) (KBS 465);Mönchengladbach;Koblenz;DB AG/VIAS
+- RE9 = SIE;train;Sieg-Strecke (KBS 460) (Rhein-Sieg-Express: Aachen-Siegen);Köln;Siegen;DB AG/Hessenbahn
 -
 - RB10 = RRS;train;Rechte Rheinstrecke (Süd) (KBS 466);Neuwied;Frankfurt (Main);VIAS
 -
+- RB23 / RE25 = LAH;train;Lahntal-Strecke (KBS 625);Koblenz;Gießen;DB AG
+-
+- RB26 = LRS;train;Linke Rheinstrecke (Süd) (KBS 471);Koblenz;Frankfurt a. M.;DB AG/trans regio/VLEXX
+-
+- RB26 / RE5 = LRN;train;Linke Rheinstrecke (Nord) (KBS 470);Köln;Koblenz;DB AG/trans regio
+-
+- RB27 = RRN;train;Rechte Rheinstrecke (Nord) (KBS 465);Mönchengladbach;Koblenz;DB AG/VIAS
+-
+- RB29 = UWW;train;Unterwesterwald-Strecke (KBS 629) !!!Eigene Route vorhanden [https://osm.org/relation/139018]!!!;Limburg;Siershahn;HLB
+-
 - RB30 = AHR;train;Ahrtal-Strecke (KBS 477);Ahrbrück;Bonn;DB AG
 -
-- RB38 = PEL;train;Pellenz-Eifel-Strecke (KBS 478);Kaisersesch;Andernach;DB AG
--
 - RB37 = HUN;train;Hunsrück-Strecke (KBS 479);Boppard;Emmelshausen;Hunsrückbahn (Transdev SE & Co. KG, ehem. Rhenus Veniro)
+-
+- RB38 = PEL;train;Pellenz-Eifel-Strecke (KBS 478);Kaisersesch;Andernach;DB AG
 -
 - RB81 = MOS;train;Mosel-Strecke (KBS 690);Trier;Koblenz;DB AG/CFL
 -
 - RB85 = MOW;train;Moselwein-Strecke (KBS 691);Bullay;Traben-Trarbach;Hunsrückbahn (Transdev SE & Co. KG, ehem. Rhenus Veniro)
+-
+- RB90 = OWW;train;Identisch mit Oberwesterwald-Strecke (KBS 461);Au (Sieg);Limburg;HLB
+-
+- RB96 = HEL;train;Hellertal-Strecke (KBS 462);Betzdorf;Dillenburg;HLB
+-
+- RB97 = DAA;train;Daadetal-Strecke (KBS 463);Betzdorf;Daaden;WEBA
 -
 
 -
@@ -239,7 +244,7 @@ UWW;train;Unterwesterwald-Strecke (KBS 629) = RB29?;Limburg;Siershahn;HLB
 853;bus;;Gimmigen;Remagen;DB Regio Bus
 854;bus;;Ringen;Bad Neuenahr (– Ahrweiler);DB Regio Bus
 # 856;bus;Kein VRM-Tarif;Remagen-Oedingen;Bonn-Bad Godesberg;RVK
-857;bus;;Meckenheim Bf;Bad Godesberg Bf;RVK
+# 857;bus;Kein VRM-Tarif, kein Anteil im VRM-Gebiet;Meckenheim Bf;Bad Godesberg Bf;RVK
 859;bus;;Adenau;Kelberg;RMV
 861;bus;;Adenau;Kottenborn;RMV
 862;bus;;Altenahr;Liers;RMV
