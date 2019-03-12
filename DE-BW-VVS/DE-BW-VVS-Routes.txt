@@ -45,8 +45,8 @@
 - Verweis auf die Datei mit den [[Stuttgart/Transportation/VVS-Linien-gesamt|VVS Linien]] im Wiki.
 - Verweis auf mehr [[Talk:Stuttgart/Transportation/Analyse|Informationen]] im Wiki.
 
+#
 == U-Bahn
-
 U1;light_rail;;Fellbach;Vaihingen;
 U2;light_rail;;Neugereut;Botnang;
 U3;light_rail;;Plieningen;Vaihingen;
@@ -65,17 +65,82 @@ U16;light_rail;;Giebel;Fellbach;
 U19;light_rail;;Neugereut;NeckarPark (Stadion);
 U29;light_rail;;Hauptbahnhof;Botnang;
 U34;light_rail;;Heslach Vogelrain;Vogelsang;
-
+#
+== S-Bahn
+S1;train;;Kirchheim (T);Herrenberg;
+S2;train;;Schorndorf;Filderstadt;
+S3;train;;Backnang;Flughafen/Messe;
+S4;train;;Backnang;Stuttgart;
+S5;train;;Bietigheim-Bissingen;Stuttgart;DB Regio
+S6;train;;Weil der Stadt;Stuttgart;
+S11;train;Stadionlinie;Neckarpark;Herrenberg;
+S60;train;;Böblingen;Stuttgart;
+S63;train;Baustellenlinie;Backnang;Flughafen/Messe;
+#
+== Zahnradbahn, Seilbahn, Oldtimerlinie
+10;tram;Zahnradbahn Zacke;Marienplatz;Degerloch;
+20;funicular;Seilbahn;Südheimer Platz;Waldfriedhof;
+23;tram;Oldtimerlinie;Straßenbahnmuseum;Ruhbank (Fernsehturm);
+#
+#
 == Bus
-
-=== Express Bus
-
+=== Expressbus
 X10;bus;;Flughafen/Messe;Kirchheim (T);
 X20;bus;;Esslingen;Waiblingen;
 X60;bus;;Flughafen/Messe;Leonberg;
-
+#
+=== Schnellbus
+X1;bus;;Hauptbahnhof;Bad Cannstatt Wilhelmsplatz;
+X2;bus;;Leonberg;Rotebühlplatz;
+X74;bus;;Weil der Stadt;Universität;
+#
+=== Nachtbus
+N1;bus;;Schlossplatz;Schlossplatz;
+N2;bus;;Schlossplatz;Schlossplatz;
+N3;bus;;Schlossplatz;Schlossplatz;
+N4;bus;;Schlossplatz;Schlossplatz;
+N5;bus;;Schlossplatz;Schlossplatz;
+N6;bus;;Schlossplatz;Schlossplatz;
+N7;bus;;Schlossplatz;Schlossplatz;
+N8;bus;;Schlossplatz;Schlossplatz;
+N9;bus;;Schlossplatz;Schlossplatz;
+N10;bus;;Schlossplatz;Schlossplatz;
+N12;bus;;Esslingen (N) ZOB;Esslingen (N) ZOB;
+N13;bus;;Esslingen (N) ZOB;Esslingen (N) ZOB;
+N14;bus;;Aichelberg;Esslingen;
+N16;bus;;Aichelberg;Esslingen (N);
+N18;bus;;Oberaichen;Stetten;
+N19;bus;;Esslingen;Esslingen;
+N22;bus;;Esslingen;Esslingen;
+N30;bus;;Backnang;Backnang;
+N31;bus;;Waiblingen;Waiblingen;
+N36;bus;;Backnang;Backnang;
+N40;bus;;Kirchberg (M);Marbach (N);
+N41;bus;;Ludwigsburg;Hoheneck;
+N42;bus;;Ludwigsburg Ost;Ludwigsburg Ost;
+N43;bus;;Ludwigsburg;Poppenweiler;
+N44;bus;;Besigheim;Freiberg;
+N46;bus;;Marbach (N);Beilstein;
+N52;bus;;Ensingen;Sachsenheim;
+N53;bus;;Ludwigsburg;Schwieberdingen;
+N55;bus;;Eberdingen;Zuffenhausen;
+N56;bus;;Bietigheim;Oberriexingen;
+N57;bus;;Bietigheim;Bietigheim;
+N58;bus;;Bietigheim;Bietigheim;
+N60;bus;;Renningen;Böblingen;
+N62;bus;;Weissach;Leonberg;
+N65;bus;;Heimerdingen;Ditzingen;
+N70;bus;;Nagold;Herrenberg;
+N73;bus;;Böblingen ZOB;Böblingen ZOB;
+N74;bus;;Böblingen;Böbl.;
+N75;bus;;Böblingen;Böblingen;
+N76;bus;;Oberaichen;Waldenbuch;
+N77;bus;;Gärtringen;Gärtringen;
+N80;bus;;Herrenberg;Tübingen;
+N81;bus;;Wendlingen;Neckarhausen;
+N92;bus;;Filderstadt;Bernhausen Bf;
+#
 === Bus 1 .. 99
-
 40;bus;;Vogelsang;Wagenburgstraße;
 41;bus;;Lerchenrainschule;Berliner Platz;
 42;bus;;Erwin-Schoettle-Platz;Schlossplatz;
@@ -115,9 +180,8 @@ X60;bus;;Flughafen/Messe;Leonberg;
 92;bus;;Heslach Vogelrain;Stuttgart;
 94;bus;;Leonb. Waldfriedhof;Blosenbergk.;
 99;bus;;Zuffenhausen;Stammheim;
-
+#
 === Bus 100 .. 199
-
 101;trolleybus;!Teilweise Oberleitungsbus?!;Obertürkheim;Lerchenäcker;
 102;bus;;Mettingen;Zell;
 103;bus;;Hedelfingen;Zell;
@@ -195,9 +259,8 @@ X60;bus;;Flughafen/Messe;Leonberg;
 197;bus;;Neckartenzlingen;Reutlingen;
 198;bus;;Frickenhausen Bahnhof;Kohlberg;
 199;bus;;Metzingen;Owen;
-
+#
 === Bus 200 .. 299
-
 201;bus;;Bittenfeld;Waiblingen;
 202;bus;;Strümpfelbach;Endersbach;
 204;bus;;Beinstein;Waiblingen;
@@ -236,9 +299,8 @@ X60;bus;;Flughafen/Messe;Leonberg;
 266;bus;;Welzheim;Schwäbisch Gmünd;
 268;bus;;Lorch;Alfdorf;
 269;bus;;Vordersteinenberg;Alfdorf;
-
+#
 === Bus 300 .. 399
-
 310;bus;;Grunbach;Winnenden (Fahrrad2Go);
 330;bus;;Winnenden;Rems-Murr-Kaisersbach;
 331;bus;;Steinach;Winnenden;
@@ -276,9 +338,8 @@ X60;bus;;Flughafen/Messe;Leonberg;
 387;bus;;Sulzbach (M);Sulzbach (M);
 390;bus;;Murrhardt;Backnang;
 393;bus;;Rudersberg;Backnang (Fahrrad2Go);
-
+#
 === Bus 400 .. 499
-
 402;bus;;Pattonville;Hochdorf;
 403;bus;;Aldingen Berliner Straße;Hochberg;
 405;bus;;Pattonville;Hochdorf;
@@ -316,9 +377,8 @@ X60;bus;;Flughafen/Messe;Leonberg;
 467;bus;Berg- und Talbus;Prevorst;Backnang;
 477;bus;;Großaspach;Burgstall;
 488;bus;Ortsbus Kirchberg(M);Kirchberg (M) Bf;Kirchberg (M) Bf;
-
+#
 === Bus 500 .. 599
-
 501;bus;;Hemmingen;Feuerbach;
 502;bus;;Riet;Feuerbach;
 503;bus;;Vaihingen (E);Feuerbach;
@@ -361,9 +421,8 @@ X60;bus;;Flughafen/Messe;Leonberg;
 590;bus;;Hohenhaslach;Vaihingen (E);
 592;bus;;Hochdorf;Gündelbach;
 595;bus;;Hochdorf;Vaihingen (E);
-
+#
 === Bus 600 .. 699
-
 612;bus;;Hemmingen;Korntal;
 620;bus;;Weissach;Ditzingen;
 623;bus;;Schöckingen;Ditzingen / Weilimdorf;
@@ -386,9 +445,8 @@ X60;bus;;Flughafen/Messe;Leonberg;
 665;bus;;Weil der Stadt Gymnasium;Bf;
 666;bus;;Pforzheim;Weil d. Stadt;
 670;bus;;Calw;Weil der Stadt;
-
+#
 === Bus 700 .. 799
-
 701;bus;;Sindelfingen Eichholz;Diezenhalde;
 703;bus;;Sindelfingen Eichholz;Böblingen ZOB;
 704;bus;;Landhaussiedlung;Böblingen;
@@ -440,9 +498,8 @@ X60;bus;;Flughafen/Messe;Leonberg;
 790;bus;;Mötzingen;Herrenberg;
 791;bus;;Entringen;Herrenberg;
 794;bus;;Tailfingen;Herrenberg;
-
+#
 === Bus 800 .. 899
-
 806;bus;;Flughafen/Messe;EnBW City;
 809;bus;;Neuenhaus;Bernhausen;
 812;bus;;Flughafen;Flughafen;
@@ -456,15 +513,8 @@ X60;bus;;Flughafen/Messe;Leonberg;
 819;bus;;Citybus Leinfelden-Echterdingen;Citybus Leinfelden-Echterdingen;
 826;bus;;Tübingen;Leinfelden;
 828;bus;;Tübingen;Flughafen;
-
-=== Schnellbus
-
-X1;bus;;Hauptbahnhof;Bad Cannstatt Wilhelmsplatz;
-X2;bus;;Leonberg;Rotebühlplatz;
-X74;bus;;Weil der Stadt;Universität;
-
+#
 === Schulbus
-
 75E;bus;Schülerverkehr Interimsvergabe;Filderstadt/Aichtal;Filderstadt/Aichtal;
 114A;bus;Schülerverkehr;Aichwald;Zell Berufliches Schulzentrum;
 166A;bus;Schülerverkehr;Reudern;Oberboihingen;
@@ -508,79 +558,21 @@ X74;bus;;Weil der Stadt;Universität;
 816A;bus;Schülerverkehr;Bonlanden;Neuhausen;
 818A;bus;Schülerverkehr;Bonlanden;Musberg;
 826A;bus;Schülerverkehr;Leinfelden;Tübingen;
-
-=== Nachtbus
-
-N1;bus;;Schlossplatz;Schlossplatz;
-N2;bus;;Schlossplatz;Schlossplatz;
-N3;bus;;Schlossplatz;Schlossplatz;
-N4;bus;;Schlossplatz;Schlossplatz;
-N5;bus;;Schlossplatz;Schlossplatz;
-N6;bus;;Schlossplatz;Schlossplatz;
-N7;bus;;Schlossplatz;Schlossplatz;
-N8;bus;;Schlossplatz;Schlossplatz;
-N9;bus;;Schlossplatz;Schlossplatz;
-N10;bus;;Schlossplatz;Schlossplatz;
-N12;bus;;Esslingen (N) ZOB;Esslingen (N) ZOB;
-N13;bus;;Esslingen (N) ZOB;Esslingen (N) ZOB;
-N14;bus;;Aichelberg;Esslingen;
-N16;bus;;Aichelberg;Esslingen (N);
-N18;bus;;Oberaichen;Stetten;
-N19;bus;;Esslingen;Esslingen;
-N22;bus;;Esslingen;Esslingen;
-N30;bus;;Backnang;Backnang;
-N31;bus;;Waiblingen;Waiblingen;
-N36;bus;;Backnang;Backnang;
-N40;bus;;Kirchberg (M);Marbach (N);
-N41;bus;;Ludwigsburg;Hoheneck;
-N42;bus;;Ludwigsburg Ost;Ludwigsburg Ost;
-N43;bus;;Ludwigsburg;Poppenweiler;
-N44;bus;;Besigheim;Freiberg;
-N46;bus;;Marbach (N);Beilstein;
-N52;bus;;Ensingen;Sachsenheim;
-N53;bus;;Ludwigsburg;Schwieberdingen;
-N55;bus;;Eberdingen;Zuffenhausen;
-N56;bus;;Bietigheim;Oberriexingen;
-N57;bus;;Bietigheim;Bietigheim;
-N58;bus;;Bietigheim;Bietigheim;
-N60;bus;;Renningen;Böblingen;
-N62;bus;;Weissach;Leonberg;
-N65;bus;;Heimerdingen;Ditzingen;
-N70;bus;;Nagold;Herrenberg;
-N73;bus;;Böblingen ZOB;Böblingen ZOB;
-N74;bus;;Böblingen;Böbl.;
-N75;bus;;Böblingen;Böblingen;
-N76;bus;;Oberaichen;Waldenbuch;
-N77;bus;;Gärtringen;Gärtringen;
-N80;bus;;Herrenberg;Tübingen;
-N81;bus;;Wendlingen;Neckarhausen;
-N92;bus;;Filderstadt;Bernhausen Bf;
-
+#
 === Schienenersatzverkehr
-
 R21E;bus;;Schienenersatzverkehr Schorndorf;Oberndorf;
 R72A;bus;Schienenersatzverkehr;Dettenhausen;Böblingen;
 R72E;bus;Schienenersatzverkehr;Böblingen;Dettenhausen / Holzgerlingen;
 S1E;bus;Schienenersatzverkehr;Bad Cannstatt;Esslingen;
 S61E;bus;Schienenersatzverkehr;Korntal;Hemmingen;
 S6E;bus;Ersatzverkehr;Feuerbach;Zuffenhausen;
-
-== Bahn
-
+#
+#
+== Linien mit Teilstrecken im VVS
 === S-Bahn
-
-S1;train;;Kirchheim (T);Herrenberg;
-S2;train;;Schorndorf;Filderstadt;
-S3;train;;Backnang;Flughafen/Messe;
-S4;train;;Backnang;Stuttgart;
-S5;train;;Bietigheim-Bissingen;Stuttgart;
-S6;train;;Weil der Stadt;Stuttgart;
-S11;train;Stadionlinie;Neckarpark;Herrenberg;
-S60;train;;Böblingen;Stuttgart;
-S63;train;;Backnang;Flughafen/Messe;
-
+S5;train;;;;Albtal-Verkehrs-Gesellschaft mbH;DB Regio
+#
 === Regional-Bahn
-
 R1;train;;Ulm;Stuttgart;
 R2;train;;Aalen;Stuttgart;
 R3;train;;Crailsheim;Stuttgart;
@@ -597,13 +589,7 @@ R74;train;;Herrenberg;Freudenstadt;
 R81;train;;Oberlenningen;Kirchheim (T);
 R82;train;;Neuffen;Nürtingen (Tälesbahn);
 R83;train;;Bad Urach;Reutlingen;
+#
 
-== Zahnradbahn
-
-10;tram;Zahnradbahn Zacke;Marienplatz;Degerloch;
-
-== Seilbahn
-
-20;funicular;Seilbahn;Südheimer Platz;Waldfriedhof;
 
 </pre>

@@ -147,22 +147,22 @@ S5;train;;Hannover Flughafen;Paderborn Hbf/Bad Pyrmont;DB Regio AG
 33;bus;;;;Stadtwerke Münster
 34;bus;;;;Stadtwerke Münster
 177;bus;;Münster;Borghorst;Reisedienst Veelker GmbH & Co. KG
-341;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
+341;bus;;Herbern;Münster;Verkehrsgesellschaft Breitenbach mbH & Co. KG
 540;bus;;Senden;Albachten;Regionalverkehr Münsterland GmbH
-552;bus;;;;WB Westfalen Bus GmbH
-564;bus;;Münster;Havixbeck;Reisedienst Veelker GmbH & Co. KG
+552;bus;;Münster;Dülmen;WB Westfalen Bus GmbH
+564;bus;;Münster/Roxel;Havixbeck/Hohenholte;Reisedienst Veelker GmbH & Co. KG
 
-D20;bus;;;;Regionalverkehr Münsterland GmbH
-D30;bus;;;;Regionalverkehr Münsterland GmbH
-D50;bus;;;;Regionalverkehr Münsterland GmbH
-D60;bus;;;;Regionalverkehr Münsterland GmbH
-D72;bus;;;;Regionalverkehr Münsterland GmbH
-D90;bus;;;;Regionalverkehr Münsterland GmbH
+D20;bus;;Warendorf;Münster;Regionalverkehr Münsterland GmbH
+D30;bus;;Beckum;Münster;Regionalverkehr Münsterland GmbH
+D50;bus;;Ibbenbüren;Münster;Regionalverkehr Münsterland GmbH
+D60;bus;;Nottuln;Münster;Regionalverkehr Münsterland GmbH
+D72;bus;;Ahaus;Münster;Regionalverkehr Münsterland GmbH
+D90;bus;;Lüdinghausen;Münster;Regionalverkehr Münsterland GmbH
 
 E6;bus;;;;Stadtwerke Münster
 E8;bus;;;;Stadtwerke Münster
 
-F1;bus;;;;Regionalverkehr Münsterland GmbH
+F1;bus;;Beckum;Münster;Regionalverkehr Münsterland GmbH
 
 N1;bus;;Ahlen;Münster;Regionalverkehr Münsterland GmbH
 N2;bus;;Münster;Brock;WB Westfalen Bus GmbH
@@ -173,8 +173,8 @@ N6;bus;;Münster;Coesfeld;Regionalverkehr Münsterland GmbH
 N7;bus;;Münster;Coesfeld;WB Westfalen Bus GmbH
 N8;bus;;Münster;Legden;Regionalverkehr Münsterland GmbH
 N9;bus;;Münster;Ibbenbüren;Regionalverkehr Münsterland GmbH
-N42;bus;;;;WB Westfalen Bus GmbH
-N64;bus;;;;Reisedienst Veelker GmbH & Co. KG
+N42;bus;;Münster;Herbern;WB Westfalen Bus GmbH
+N64;bus;;Münster;Havixbeck;Reisedienst Veelker GmbH & Co. KG
 N80;bus;;;;Stadtwerke Münster
 N81;bus;;;;Stadtwerke Münster
 N82;bus;;;;Stadtwerke Münster
@@ -183,7 +183,7 @@ N84;bus;;;;Stadtwerke Münster
 N85;bus;;;;Stadtwerke Münster
 
 R11;bus;;Münster;Warendorf;WB Westfalen Bus GmbH
-R13;bus;;Münster;Ostbevern;WB Westfalen Bus GmbH
+R13;bus;;Münster/Handorf;Ostbevern/Vadrup;WB Westfalen Bus GmbH
 R22;bus;;Münster;Everswinkel;Regionalverkehr Münsterland GmbH
 R32;bus;;Münster;Sendenhorst;Regionalverkehr Münsterland GmbH
 R41;bus;;Münster, Hauptbahnhof;Ottmarsbocholt, Dillenbaum;Stadtwerke Münster;Regionalverkehr Münsterland GmbH
@@ -199,9 +199,9 @@ S50;bus;;Münster;Ibbenbüren;Regionalverkehr Münsterland GmbH
 S60;bus;;Nottuln;Münster;Regionalverkehr Münsterland GmbH
 S70;bus;;Vreden, Busbahnhof/Schöppingen, Sportplatz/Schöppingen, Altes Rathaus;Münster, Hauptbahnhof/Ahaus, Marienplatz/Ahaus, Bahnhof;Regionalverkehr Münsterland GmbH
 S71;bus;;Münster;Schöppingen;Regionalverkehr Münsterland GmbH
-S75;bus;;;;SWK FAHRSERVICE GmbH
+S75;bus;;Bocholt;Münster;SWK FAHRSERVICE GmbH
 S90;bus;;Lüdinghausen;Münster;Regionalverkehr Münsterland GmbH
-S92;bus;;;;Regionalverkehr Münsterland GmbH
+S92;bus;;Lüdinghausen;Münster;Regionalverkehr Münsterland GmbH
 
 T1;bus;;;;Stadtwerke Münster
 T4;bus;;;;Stadtwerke Münster
@@ -287,7 +287,7 @@ C10;bus;Rheine;Rheine;Wadelheim;Stadtwerke Rheine
 C11;bus;Rheine;Rheine;Wadelheim;Stadtwerke Rheine
 C12;bus;Rheine;Rheine;Rheine;Stadtwerke Rheine
 
-D50;bus;;;;Regionalverkehr Münsterland GmbH
+D50;bus;;Ibbenbüren;Münster;Regionalverkehr Münsterland GmbH
 
 F10;bus;;;;Regionalverkehr Münsterland GmbH
 
@@ -358,7 +358,7 @@ X150;bus;;;;Stadtwerke Osnabrück
 330;bus;;;;Regionalverkehr Münsterland GmbH
 333;bus;;Ahlen;Sendenhorst;Regionalverkehr Münsterland GmbH
 335;bus;;Beckum;Herzfeld;Regionalverkehr Ruhr-Lippe GmbH
-341;bus;;;;Verkehrsgesellschaft Breitenbach mbH & Co. KG
+341;bus;;Herbern;Münster;Verkehrsgesellschaft Breitenbach mbH & Co. KG
 353;bus;;;;Regionalverkehr Münsterland GmbH
 361;bus;;;;Regionalverkehr Münsterland GmbH
 362;bus;;;;Regionalverkehr Münsterland GmbH
@@ -419,20 +419,20 @@ C4;bus;;Ahlen;Ahlen;Verkehrsgesellschaft Ahlen mbH
 C5;bus;;Ahlen;Ahlen;Verkehrsgesellschaft Ahlen mbH
 C6;bus;;Ahlen;Ahlen;Verkehrsgesellschaft Ahlen mbH
 
-D20;bus;;;;Regionalverkehr Münsterland GmbH
-D30;bus;;;;Regionalverkehr Münsterland GmbH
+D20;bus;;Warendorf;Münster;Regionalverkehr Münsterland GmbH
+D30;bus;;Beckum;Münster;Regionalverkehr Münsterland GmbH
 
-F1;bus;;;;Regionalverkehr Münsterland GmbH
+F1;bus;;Beckum;Münster;Regionalverkehr Münsterland GmbH
 
 N1;bus;;Ahlen;Münster;Regionalverkehr Münsterland GmbH
 N2;bus;;Münster;Brock;WB Westfalen Bus GmbH
 N3;bus;;Beckum;Münster;Regionalverkehr Münsterland GmbH
 N11;bus;;Beckum;Lippstadt;Regionalverkehr Münsterland GmbH
 N22;bus;;;;WB Westfalen Bus GmbH
-N42;bus;;;;WB Westfalen Bus GmbH
+N42;bus;;Münster;Herbern;WB Westfalen Bus GmbH
 
 R11;bus;;Münster;Warendorf;WB Westfalen Bus GmbH
-R13;bus;;Münster;Ostbevern;WB Westfalen Bus GmbH
+R13;bus;;Münster/Handorf;Ostbevern/Vadrup;WB Westfalen Bus GmbH
 R14;bus;;Warendorf;Ostbevern;WB Westfalen Bus GmbH
 R15;bus;;Warendorf;Glandorf;WB Westfalen Bus GmbH
 R22;bus;;Münster;Everswinkel;Regionalverkehr Münsterland GmbH
@@ -482,10 +482,10 @@ T470;bus;;;;Regionalverkehr Münsterland GmbH
 544;bus;;Lüdinghausen;Olfen;Regionalverkehr Münsterland GmbH
 545;bus;;Lüdinghausen;Hullern;Regionalverkehr Münsterland GmbH
 548;bus;;Lüdinghausen;Buldern;Regionalverkehr Münsterland GmbH
-552;bus;;;;WB Westfalen Bus GmbH
+552;bus;;Münster;Dülmen;WB Westfalen Bus GmbH
 561;bus;;;;RVM
 563;bus;;Billerbeck;Coesfeld;RVM
-564;bus;;Münster;Havixbeck;Reisedienst Veelker GmbH & Co. KG
+564;bus;;Münster/Roxel;Havixbeck/Hohenholte;Reisedienst Veelker GmbH & Co. KG
 565;bus;;;;RVM
 580;bus;;;;WB Westfalen Bus GmbH
 581;bus;;Coesfeld;Osterwick;RVM
@@ -549,19 +549,19 @@ B81;bus;;;;Regionalverkehr Münsterland GmbH
 
 C85;bus;;;;Regionalverkehr Münsterland GmbH
 
-D60;bus;;;;Regionalverkehr Münsterland GmbH
-D90;bus;;;;Regionalverkehr Münsterland GmbH
+D60;bus;;Nottuln;Münster;Regionalverkehr Münsterland GmbH
+D90;bus;;Lüdinghausen;Münster;Regionalverkehr Münsterland GmbH
 
 N4;bus;;Lüdinghausen;Münster;Regionalverkehr Münsterland GmbH
 N6;bus;;Münster;Coesfeld;Regionalverkehr Münsterland GmbH
 N7;bus;;Münster;Coesfeld;WB Westfalen Bus GmbH
 N8;bus;;Münster;Legden;Regionalverkehr Münsterland GmbH
-N64;bus;;;;Reisedienst Veelker GmbH & Co. KG
+N64;bus;;Münster;Havixbeck;Reisedienst Veelker GmbH & Co. KG
 
 R41;bus;;Münster;Ottmarsbocholt;Stadtwerke Münster;Regionalverkehr Münsterland GmbH
 R51;bus;;Bocholt;Coesfeld;WB Westfalen Bus GmbH
 R53;bus;;Lüdinghausen;Capelle;Euregio-Verkehrsgesellschaft GmbH & Co. KG
-R61;bus;;Vreden;Coesfeld;WB Westfalen Bus GmbH
+R61;bus;;Vreden/Stadtlohn;Coesfeld/Gescher;WB Westfalen Bus GmbH
 R62;bus;;Nottuln;Coesfeld;Reisedienst Veelker GmbH & Co. KG
 R63;bus;;Nottuln;Münster;Reisedienst Veelker GmbH & Co. KG
 R64;bus;;Havixbeck;Münster;Reisedienst Veelker GmbH & Co. KG
@@ -570,7 +570,7 @@ R81;bus;;Coesfeld;Burgsteinfurt;WB Westfalen Bus GmbH
 S60;bus;;Nottuln;Münster;Regionalverkehr Münsterland GmbH
 S90;bus;;Lüdinghausen;Münster;Regionalverkehr Münsterland GmbH
 S91;bus;;;;Regionalverkehr Münsterland GmbH
-S92;bus;;;;Regionalverkehr Münsterland GmbH
+S92;bus;;Lüdinghausen;Münster;Regionalverkehr Münsterland GmbH
 
 T4;bus;;Lüdinghausen, Busbahnhof;Selm, Disco;Regionalverkehr Münsterland GmbH
 T8;bus;;;;Regionalverkehr Münsterland GmbH
@@ -652,7 +652,7 @@ C8;bus;Bocholt;Bocholt;Barlo;StadtBus Bocholt
 C13;bus;Bocholt;Bocholt;Mussum;StadtBus Bocholt
 C87;bus;;;;Regionalverkehr Münsterland GmbH
 
-D72;bus;;;;Regionalverkehr Münsterland GmbH
+D72;bus;;Ahaus;Münster;Regionalverkehr Münsterland GmbH
 D76;bus;;;;Regionalverkehr Münsterland GmbH
 D77;bus;;;;Regionalverkehr Münsterland GmbH
 
@@ -664,7 +664,7 @@ N51;bus;;;;WB Westfalen Bus GmbH
 
 R21;bus;;Borken;Erle;WB Westfalen Bus GmbH
 R51;bus;;Bocholt;Coesfeld;WB Westfalen Bus GmbH
-R61;bus;;Vreden;Coesfeld;WB Westfalen Bus GmbH
+R61;bus;;Vreden/Stadtlohn;Coesfeld/Gescher;WB Westfalen Bus GmbH
 R71;bus;;Vreden;Winterswijk;Regionalverkehr Münsterland GmbH
 R73;bus;;Groß Reken;Lembeck;Regionalverkehr Münsterland GmbH
 R74;bus;;Borken;Hülsten;Regionalverkehr Münsterland GmbH
@@ -673,7 +673,7 @@ R77;bus;;Ahaus;Gronau;Regionalverkehr Münsterland GmbH
 
 S70;bus;;Münster, Hauptbahnhof/Ahaus, Marienplatz/Ahaus, Bahnhof;Vreden, Busbahnhof/Schöppingen, Sportplatz/Schöppingen, Altes Rathaus;Regionalverkehr Münsterland GmbH
 S71;bus;;Schöppingen;Münster;Regionalverkehr Münsterland GmbH
-S75;bus;;;;SWK FAHRSERVICE GmbH
+S75;bus;;Bocholt;Münster;SWK FAHRSERVICE GmbH
 
 T4;bus;;Gronau, Bahnhof;Gronau, Erlöserkirche;Regionalverkehr Münsterland GmbH
 T5;bus;Gronau;Gronau;Gronau;Regionalverkehr Münsterland GmbH

@@ -444,7 +444,6 @@ NE5;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 3;Essen Hörsterfeld Bstg 1;Ruhrbahn
 NE6;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 7;Essen Kupferdreh Bahnhof Bstg 2;Ruhrbahn
 NE7;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 4;Essen Heisingen Baldeneysee Bstg 2;Ruhrbahn
 NE8;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 7;Velbert ZOB Bstg 10;Ruhrbahn
-NE8;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 7;Velbert ZOB Bstg 10;Rheinbahn
 NE9;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 6;Essen Hatzper Str. Bstg 1;Ruhrbahn
 NE10;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 9;Essen Erbach Bstg 5;Ruhrbahn
 NE11;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 4;Oberhausen Hbf Bstg 10;Ruhrbahn
@@ -2542,7 +2541,6 @@ SB50;bus;Quelle gtfs;D-Rheinterrasse;Haan Nachbarsberg;Rheinbahn
 SB51;bus;Quelle gtfs;D-Flughafen Bf Bstg 1;Kaarst Mitte/Holzbüttgen;Rheinbahn
 SB52;bus;Quelle gtfs;Meerbusch Osterath Bf Bstg 2;D-Nordpark/Aquazoo Bstg 3;Rheinbahn
 SB55;bus;Quelle gtfs;Ratingen Siemensstraße Bstg 2;Düsseldorf Hbf Bstg 16;Rheinbahn
-SB55;bus;Quelle gtfs;Ratingen Siemensstraße;Düsseldorf Hbf Bstg 16;Rheinbahn
 SB57;bus;Quelle gtfs;D-Südpark Bstg 6;D-Eichsfelder Straße;Rheinbahn
 SB59;bus;Quelle gtfs;D-Benrath S;Monheim, Creative Campus;Rheinbahn
 SB66;bus;Quelle gtfs;Velbert ZOB Bstg 3;Wuppertal Hbf Bstg 5;BVR
