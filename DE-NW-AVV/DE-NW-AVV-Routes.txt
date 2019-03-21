@@ -54,4 +54,301 @@
 - Die Liste kommt idealerweise direkt vom und mit Hilfe des Betreibers/Verkehrsverbundes (copyright!).
 -
 
+== Züge
+
+=== Regionalbahnen
+
+RB20;train;;;;
+RB21;train;;;;
+RB28;train;;;;
+RB33;train;;;;
+
+=== Regionalexpresse
+
+RE1;train;;;;
+RE4;train;;;;
+RE9;train;;;;
+RE18;train;;;;
+RE29;train;;;;
+
+=== S-Bahnen
+
+S13;train;;;;
+S19;train;;;;
+
+-
+
+== Busse
+
+=== 1 - 99
+
+1;bus;;;;
+2;bus;;;;
+3;bus;;;;
+4;bus;;;;
+5;bus;;;;
+6;bus;;;;
+7;bus;;;;
+8;bus;;;;
+11;bus;;;;
+12;bus;;;;
+13;bus;;;;
+14;bus;;;;
+15;bus;;;;
+16;bus;;;;
+17;bus;;;;
+21;bus;;;;
+22;bus;;;;
+23;bus;;;;
+24;bus;;;;
+25;bus;;;;
+26;bus;;;;
+27;bus;;;;
+28;bus;;;;
+29;bus;;;;
+30;bus;;;;
+31;bus;;;;
+33;bus;;;;
+34;bus;;;;
+35;bus;;;;
+36;bus;;;;
+37;bus;;;;
+40;bus;;;;
+41;bus;;;;
+42;bus;;;;
+43;bus;;;;
+44;bus;;;;
+45;bus;;;;
+47;bus;;;;
+48;bus;;;;
+50;bus;;;;
+51;bus;;;;
+52;bus;;;;
+53;bus;;;;
+54;bus;;;;
+55;bus;;;;
+59;bus;;;;
+61;bus;;;;
+62;bus;;;;
+63;bus;;;;
+64;bus;;;;
+65;bus;;;;
+66;bus;;;;
+67;bus;;;;
+68;bus;;;;
+69;bus;;;;
+70;bus;;;;
+71;bus;;;;
+72;bus;;;;
+73;bus;;;;
+74;bus;;;;
+75;bus;;;;
+80;bus;;;;
+81;bus;;;;
+82;bus;;;;
+83;bus;;;;
+84;bus;;;;
+85;bus;;;;
+86;bus;;;;
+89;bus;;;;
+90;bus;;;;
+96;bus;;;;
+
+=== 100 - 199
+
+103;bus;;;;
+125;bus;;;;
+135;bus;;;;
+147;bus;;;;
+151;bus;;;;
+173;bus;;;;
+
+=== 200 - 299
+
+201;bus;;;;
+202;bus;;;;
+203;bus;;;;
+204;bus;;;;
+205;bus;;;;
+206;bus;;;;
+207;bus;;;;
+208;bus;;;;
+209;bus;;;;
+210;bus;;;;
+211;bus;;;;
+212;bus;;;;
+213;bus;;;;
+214;bus;;;;
+215;bus;;;;
+216;bus;;;;
+217;bus;;;;
+218;bus;;;;
+219;bus;;;;
+220;bus;;;;
+221;bus;;;;
+222;bus;;;;
+223;bus;;;;
+224;bus;;;;
+228;bus;;;;
+230;bus;;;;
+231;bus;;;;
+233;bus;;;;
+234;bus;;;;
+235;bus;;;;
+236;bus;;;;
+237;bus;;;;
+238;bus;;;;
+239;bus;;;;
+261;bus;;;;
+270;bus;;;;
+276;bus;;;;
+278;bus;;;;
+279;bus;;;;
+280;bus;;;;
+281;bus;;;;
+283;bus;;;;
+284;bus;;;;
+286;bus;;;;
+287;bus;;;;
+294;bus;;;;
+295;bus;;;;
+296;bus;;;;
+298;bus;;;;
+
+=== 300 - 399
+
+385;bus;;;;
+
+=== 400 -499
+
+401;bus;;;;
+402;bus;;;;
+403;bus;;;;
+404;bus;;;;
+405;bus;;;;
+406;bus;;;;
+407;bus;;;;
+408;bus;;;;
+409;bus;;;;
+410;bus;;;;
+411;bus;;;;
+412;bus;;;;
+413;bus;;;;
+418;bus;;;;
+423;bus;;;;
+430;bus;;;;
+431;bus;;;;
+432;bus;;;;
+433;bus;;;;
+434;bus;;;;
+435;bus;;;;
+436;bus;;;;
+437;bus;;;;
+438;bus;;;;
+439;bus;;;;
+472;bus;;;;
+474;bus;;;;
+475;bus;;;;
+491;bus;;;;
+492;bus;;;;
+493;bus;;;;
+494;bus;;;;
+495;bus;;;;
+497;bus;;;;
+
+=== AL
+
+AL 1;bus;;;;
+AL 2;bus;;;;
+AL 3;bus;;;;
+AL 4;bus;;;;
+AL 5;bus;;;;
+AL 6;bus;;;;
+
+=== BB
+
+BB;bus;;;;
+
+=== BW
+
+BW 1;bus;;;;
+
+=== EK
+
+EK 1;bus;;;;
+EK 2;bus;;;;
+EK 3;bus;;;;
+EK 4;bus;;;;
+
+=== EW
+
+EW 1;bus;;;;
+EW 2;bus;;;;
+EW 3;bus;;;;
+EW 4;bus;;;;
+EW 5;bus;;;;
+EW 6;bus;;;;
+
+=== GK
+
+GK 1;bus;;;;
+GK 2;bus;;;;
+
+=== HZ
+
+HZ 1;bus;;;;
+HZ 2;bus;;;;
+HZ 3;bus;;;;
+
+=== HÜ
+
+HÜ 1;bus;;;;
+
+
+=== Mäxchen
+
+Mäxchen;bus;;;;
+
+=== N
+
+N 1;bus;;;;
+N 2;bus;;;;
+N 3;bus;;;;
+N 4;bus;;;;
+N 5;bus;;;;
+N 6;bus;;;;
+N 7;bus;;;;
+N 8;bus;;;;
+N 9;bus;;;;
+
+=== Rursee Bahn
+
+Rursee Bahn;bus;;;;
+
+=== SB
+
+=== N
+
+SB 1;bus;;;;
+SB 3;bus;;;;
+SB 20;bus;;;;
+SB 63;bus;;;;
+SB 66;bus;;;;
+SB 81;bus;;;;
+SB 98;bus;;;;
+
+=== Stadtring
+
+Stadtring|Stadtring A|Stadtring B;bus;;;;
+
+=== WÜ
+
+WÜ 1;bus;;;;
+
+=== ÜP
+
+ÜP 1;bus;;;;
+
+-
+
 </pre>

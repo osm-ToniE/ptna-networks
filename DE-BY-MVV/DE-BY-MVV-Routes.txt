@@ -245,7 +245,7 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 269;bus;;Neuried;Klinikum Großhadern U;Busverkehr Südbayern
 270;bus;;Höllriegelskreuth S;Solln S;Demmelmair GmbH & Co
 271;bus;;Höllriegelskreuth S;Dietramszell;Geldhauser/RVO
-N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzinger,
+N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzinger
 285;bus;;Haar S;Ismaning S;Verkehrsbetrieb Ettenhuber GmbH
 290;bus;;Stadtbus Garching;;Verkehrsbetrieb Ettenhuber GmbH
 291;bus;;Dachau S R;Unterschleißheim S;Busverkehr Südbayern
@@ -447,13 +447,13 @@ N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzing
 8800;bus;Ruftaxi;Mammendorf/Oberschweinbach/Hattenhofen/Althegnenberg/Mittelstetten;;Zeiler GmbH
 #
 ==== Landkreis Starnberg - 900 - 999
-901;bus;!Änderung ab 09.12.2018: neue Haltestellen Abt-Hörl-Weg in Hanfeld und Friedenskirche, Hst Leutstettener Straße entfällt!;Starnberg Nord S;Starnberg Nord S;Waibel Bus GmbH
-902;bus;!Änderung ab 09.12.2018: neue Haltestelle Friedenskirche, Hst Leutstettener Straße entfällt!;Starnberg Nord S;Söcking;Waibel Bus GmbH
-903;bus;!Änderung ab 09.12.2018: neue Haltestelle Friedenskirche, Hst Leutstettener Straße entfällt!;Starnberg S;Perchting;Waibel Bus GmbH
+901;bus;!Änderung ab 09.12.2018: neue Haltestellen Abt-Hörl-Weg in Hanfeld!;Starnberg Nord S;Starnberg Nord S;Waibel Bus GmbH
+902;bus;;Starnberg Nord S;Söcking;Waibel Bus GmbH
+903;bus;;Starnberg S;Perchting;Waibel Bus GmbH
 904;bus;;Starnberg Nord S;Starnberg Nord S;DB Regio Bus Bayern GmbH
 906;bus;;Planegg S West;Oberbrunn;Demmelmair GmbH & Co
 907;bus;;Germering;Gauting S;Busverkehr Südbayern
-921;bus;;Herrsching S;Gilching, Gynasium;Geldhauser
+921;bus;;Herrsching S;Gilching, Gymnasium;Geldhauser
 921V;bus;;Herrsching S;Gilching, Gymnasium;Geldhauser
 923;bus;;GP Inning/Wörthsee;Steinebach;Geldhauser
 924;bus;;Seefeld-Hechendorf;Seefeld-Hechendorf;
@@ -474,8 +474,8 @@ N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzing
 967;bus;;Planegg S;Krailling, Altenheim Maria Eich;Demmelmair GmbH & Co
 968;bus;;Planegg S;Gauting, Schulzentrum;Demmelmair GmbH & Co
 974;bus;;Icking S;Höhenrain;DB Regio Bus Bayern GmbH
-975;bus;!Änderung ab 09.12.2018: neue Haltestelle Friedenskirche, Hst Leutstettener Straße entfällt!;Wolfratshausen S;Starnberg S;DB Regio Bus Bayern GmbH
-982;bus;!Änderung ab 09.12.2018: neue Haltestelle Friedenskirche, Hst Leutstettener Straße entfällt!;Starnberg Nord S;Aschering;Geldhauser/RVO
+975;bus;;Wolfratshausen S;Starnberg S;DB Regio Bus Bayern GmbH
+982;bus;;Starnberg Nord S;Aschering;Geldhauser/RVO
 #
 #
 = Nicht zum MVV gehörende Linien mit Bezug zu München

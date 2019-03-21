@@ -70,7 +70,7 @@
 22;bus;Zentralhaltestelle - Glösa;;;CVAG
 23;bus;Heinersdorf - Zentralhaltestelle - Neefepark;;;CVAG
 26;bus;Schönau - Hutholz;;;CVAG
-31;bus;Yorckgebiet - Zentralhaltestelle - Flemmingstraße;;;CVAG
+31;bus;Yorckgebiet - Flemmingstraße;;;Chemnitzer Verkehrs-AG
 32;bus;Dresdner Straße - Rottluff -Reichenbrand;;;CVAG
 33;bus;Bernsdorf - Adelsberg - Schösserholz;;;Chemnitzer Verkehrs-AG
 39;bus;Klaffenbach - Hutholz / Neukirchen;;;CVAG
@@ -80,12 +80,12 @@
 46;bus;Wittgensdorf, Chemnitztal - Borna;;;Chemnitzer Verkehrs-AG
 51;bus;Zentralhaltestelle - Zeisigwald, Klinik Bethanien / Yorckgebiet;;;CVAG
 52;bus;Hutholz - Chemnitzer Straße - Zentralhaltestelle;;;CVAG
-53;bus;Chemnitzer Straße - Altchemnitz - Technopark;;;Chemnitzer Verkehrs-AG
-56;bus;Bernsdorf - Kleinolbersdorf / Altenhain - Bernsdorf;;;CVAG
-62;bus;Flemmingstraße - Gablenz;;;CVAG
+53|E53;bus;Chemnitzer Straße - Altchemnitz - Technopark;;;Chemnitzer Verkehrs-AG
+56;bus;Bernsdorf - Kleinolbersdorf-Altenhain - Bernsdorf;;;CVAG
+62;bus;Flemmingstraße - Betriebshof Adelsberg;;;Chemnitzer Verkehrs-AG
 63;bus;Borna - Ebersdorf;;;CVAG
 69;bus;Ebersdorf, Brettmühle - Bahnhof Hilbersdorf;;;Chemnitzer Verkehrs-AG
-72;bus;Rottluff - Heimgarten;;;CVAG
+72|E72;bus;Rottluff / Flemmingstraße - Diesterwegschule;;;Chemnitzer Verkehrs-AG
 73;bus;Altchemnitz - TU Erfenschlager Straße - TU Campus;;;Chemnitzer Verkehrs-AG
 76;bus;Eibenberg - Einsiedel - Altchemnitz;;;CVAG
 79;bus;Küchwald - Zentralhaltestelle;;;CVAG
@@ -96,7 +96,7 @@
 96;bus;Wittgensdorf, Kornweg - Röhrsdorf, Chemnitz Center;;;Chemnitzer Verkehrs-AG
 N11;bus;Zentralhaltestelle - Ebersdorf;;;CVAG
 N12;bus;Zentralhaltestelle - Yorckgebiet;;;CVAG
-N13;bus;Zentralhaltestelle - Adelsberg;;;CVAG
+N13;bus;Zentralhaltestelle - Betriebshof Adelsberg;;;Chemnitzer Verkehrs-AG
 N14;bus;Zentralhaltestelle - Bernsdorf;;;CVAG
 N15;bus;Zentralhaltestelle - Hutholz;;;CVAG
 N16;bus;Zentralhaltestelle - RabensteinCenter;;;CVAG
@@ -282,8 +282,8 @@ STL 2;bus;Stadtlinie 2;;;RVE
 199;bus;Mülsen St. Jacob - Lichtenstein - Oelsnitz (Erzgeb) - Lugau / Stollberg;;;RVE
 200;bus;Chemnitz, Hutholz - Leukersdorf - Jahnsdorf - Neukirchen - Chemnitz, Hutholz - Neukirchen;;;RVE
 201;bus;Neukirchen - Chemnitz, Hutholz - Jahnsdorf - Leukersdorf - Neukirchen - Chemnitz, Hutholz;;;RVE
-206;bus;Chemnitz - Gornau - Zschopau - Marienberg;;;RVE
-207;bus;Chemnitz - Zschopau - Marienberg - Olbernhau;;;RVE
+206;bus;Chemnitz - Zschopau - Marienberg;;;Regionalverkehr Erzgebirge
+207;bus;Chemnitz - Zschopau - Marienberg - Olbernhau;;;Regionalverkehr Erzgebirge
 208;bus;Chemnitz, Altchemnitz - Einsiedel - Dittersdorf - Weißbach - Gelenau;;;RVE
 209;bus;Ortsverkehr Gelenau;;;RVE
 210;bus;Chemnitz - Thum - (Geyer -) Annaberg-Buchholz - Bärenstein - Kurort Oberwiesenthal;;;RVE

@@ -45,6 +45,7 @@
 - Verweis auf die Datei mit den [[Stuttgart/Transportation/VVS-Linien-gesamt|VVS Linien]] im Wiki.
 - Verweis auf mehr [[Talk:Stuttgart/Transportation/Analyse|Informationen]] im Wiki.
 
+
 #
 == U-Bahn
 U1;light_rail;;Fellbach;Vaihingen;
@@ -65,6 +66,7 @@ U16;light_rail;;Giebel;Fellbach;
 U19;light_rail;;Neugereut;NeckarPark (Stadion);
 U29;light_rail;;Hauptbahnhof;Botnang;
 U34;light_rail;;Heslach Vogelrain;Vogelsang;
+
 #
 == S-Bahn
 S1;train;;Kirchheim (T);Herrenberg;
@@ -76,11 +78,12 @@ S6;train;;Weil der Stadt;Stuttgart;
 S11;train;Stadionlinie;Neckarpark;Herrenberg;
 S60;train;;Böblingen;Stuttgart;
 S63;train;Baustellenlinie;Backnang;Flughafen/Messe;
+
 #
-== Zahnradbahn, Seilbahn, Oldtimerlinie
+== Zahnradbahn, Seilbahn
 10;tram;Zahnradbahn Zacke;Marienplatz;Degerloch;
 20;funicular;Seilbahn;Südheimer Platz;Waldfriedhof;
-23;tram;Oldtimerlinie;Straßenbahnmuseum;Ruhbank (Fernsehturm);
+
 #
 #
 == Bus
@@ -511,8 +514,6 @@ N92;bus;;Filderstadt;Bernhausen Bf;
 817;bus;;Plattenhardt;Sielmingen;
 818;bus;;Stetten;Musberg;
 819;bus;;Citybus Leinfelden-Echterdingen;Citybus Leinfelden-Echterdingen;
-826;bus;;Tübingen;Leinfelden;
-828;bus;;Tübingen;Flughafen;
 #
 === Schulbus
 75E;bus;Schülerverkehr Interimsvergabe;Filderstadt/Aichtal;Filderstadt/Aichtal;
@@ -566,9 +567,12 @@ R72E;bus;Schienenersatzverkehr;Böblingen;Dettenhausen / Holzgerlingen;
 S1E;bus;Schienenersatzverkehr;Bad Cannstatt;Esslingen;
 S61E;bus;Schienenersatzverkehr;Korntal;Hemmingen;
 S6E;bus;Ersatzverkehr;Feuerbach;Zuffenhausen;
+
+
 #
 #
-== Linien mit Teilstrecken im VVS
+= Linien mit Bezug zum VVS
+== Teilstrecken im VVS
 === S-Bahn
 S5;train;;;;Albtal-Verkehrs-Gesellschaft mbH;DB Regio
 #
@@ -590,6 +594,12 @@ R81;train;;Oberlenningen;Kirchheim (T);
 R82;train;;Neuffen;Nürtingen (Tälesbahn);
 R83;train;;Bad Urach;Reutlingen;
 #
+=== Bus
+826;bus;;Tübingen;Leinfelden;
+828;bus;;Tübingen;Flughafen;
 
+#
+== Nicht im VVS-Tarif
+23;tram;Oldtimerlinie;Straßenbahnmuseum;Ruhbank (Fernsehturm);
 
 </pre>
