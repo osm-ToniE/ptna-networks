@@ -2000,6 +2000,8 @@ W4;bus;Stadtbus Warburg;Warburg;Rhoden;BVO Busverkehr Ostwestfalen GmbH
 
 === Kreis Siegen-Wittgenstein
 
+290;bus;;;;Westerwaldbus GmbH
+
 BBK-2;bus;;;;Bürgerbus Kreuztal
 
 C100;bus;;;;Verkehrsbetriebe Westfalen-Süd GmbH
@@ -2030,7 +2032,7 @@ L153;bus;;;;Verkehrsbetriebe Westfalen-Süd GmbH
 L154;bus;;;;Verkehrsbetriebe Westfalen-Süd GmbH
 L155;bus;;;;Verkehrsbetriebe Westfalen-Süd GmbH
 L163;bus;;;;Verkehrsbetriebe Westfalen-Süd GmbH
-167;bus;;;;
+L167;bus;;;;Verkehrsbetriebe Westfalen-Süd GmbH
 L168;bus;;;;Verkehrsbetriebe Westfalen-Süd GmbH
 L182;bus;;;;Verkehrsbetriebe Westfalen-Süd GmbH
 L196;bus;;;;Verkehrsbetriebe Westfalen-Süd GmbH
@@ -2060,7 +2062,6 @@ R37;bus;;Siegen;Freudenberg;Verkehrsbetriebe Westfalen-Süd GmbH
 R38;bus;;Siegen;Freudenberg;Verkehrsbetriebe Westfalen-Süd GmbH
 R39;bus;;Siegen;Niederfischbach;Verkehrsbetriebe Westfalen-Süd GmbH
 R40;bus;;;;Verkehrsbetriebe Westfalen-Süd GmbH
-R41;bus;;;;Westfalenbus
 R50;bus;;Kreuztal;Olpe;Verkehrsbetriebe Westfalen-Süd GmbH
 R51;bus;;Olpe;Siegen;Verkehrsbetriebe Westfalen-Süd GmbH
 R53;bus;;Siegen Hbf;Olpe Bf;Verkehrsbetriebe Westfalen-Süd GmbH
