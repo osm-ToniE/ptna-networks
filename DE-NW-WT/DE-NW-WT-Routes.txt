@@ -588,10 +588,10 @@ T612;bus;;;;Euregio-Verkehrsgesellschaft GmbH & Co. KG
 
 === Kreis Borken
 
-61;bus;;;;DB Bahn Rheinlandbus
-64;bus;;;;DB Bahn Rheinlandbus
-71;bus;;;;DB Bahn Rheinlandbus
-72;bus;;;;DB Bahn Rheinlandbus
+61;bus;;;;BVR Busverkehr Rheinland GmbH
+64;bus;;;;BVR Busverkehr Rheinland GmbH
+71;bus;;;;BVR Busverkehr Rheinland GmbH
+72;bus;;;;BVR Busverkehr Rheinland GmbH
 95;bus;;;;Niederrheinische Verkehrsbetriebe AG
 174;bus;;Gronau;Burgsteinfurt;Reisedienst Veelker GmbH & Co. KG
 293;bus;;;;Regionalverkehr Niederrhein
@@ -2049,6 +2049,7 @@ R13;bus;;Siegen;Wilgersdorf;Verkehrsbetriebe Westfalen-Süd GmbH
 R14;bus;;Siegen;Eisern;Verkehrsbetriebe Westfalen-Süd GmbH
 R15;bus;;Eisern;Altenseelbach;Verkehrsbetriebe Westfalen-Süd GmbH
 R16;bus;;;;Verkehrsbetriebe Westfalen-Süd GmbH
+R17;bus;;;;Verkehrsbetriebe Westfalen-Süd GmbH
 R22;bus;;Siegen;Neunkirchen;Verkehrsbetriebe Westfalen-Süd GmbH
 R27;bus;;Siegen;Bad Berleburg;Verkehrsbetriebe Westfalen-Süd GmbH
 R28;bus;;;;Verkehrsbetriebe Westfalen-Süd GmbH

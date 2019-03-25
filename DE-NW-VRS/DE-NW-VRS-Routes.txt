@@ -116,7 +116,8 @@ RE12;train;;Trier;Köln;DB Regio NRW
 
 RE22;train;ab Gerolstein Fortführung als Linie RB22 bis Trier;Köln;Gerolstein;DB Regio NRW
 # RB22;train;nur noch im Gebiet des VRT;Gerolstein;Trier;
-RB23;train;Erfttalbahn;Euskirchen;Bad Münstereifel;DB Regio NRW
+# siehe eine Zeile tiefer RB23;train;Erfttalbahn;Euskirchen;Bad Münstereifel;DB Regio NRW
+"S23;RB23|RB23|S23";Erfttalbahn;Euskirchen;Bad Münstereifel;DB Regio NRW
 RB24;train;;Köln;Gerolstein;DB Regio NRW
 RB25;train;über Gummersbach;Köln;Lüdenscheid;DB Regio NRW
 RB26;train;Linke Rheinstrecke über Koblenz;Köln;Mainz;Trans Regio
@@ -137,7 +138,8 @@ S11;train;via Köln, Neuss;Bergisch Gladbach;Düsseldorf Flughafen;DB Regio NRW
 S12;train;via Köln;Horrem;Au (Sieg);DB Regio NRW
 S13;train;via Köln/Bonn Flughafen;Troisdorf;Düren;DB Regio NRW
 S19;train;via Köln/Bonn Flughafen;Düren;Au (Sieg);DB Regio NRW
-S23;train;Voreifelbahn;Bonn;Euskirchen;DB Regio NRW
+# siehe eine Zeile tiefer S23;train;Voreifelbahn;Bonn;Euskirchen;DB Regio NRW
+"S23;RB23|S23|RB23";Voreifelbahn;Bonn;Euskirchen;DB Regio NRW
 
 - .
 == U-Bahn/Straßenbahn
@@ -267,11 +269,12 @@ SB82;bus;;Kall;Vogelsang;RVK
 160;bus;Quelle gtfs;Köln, Porz Markt;Köln, Lind Linder Mauspfad;KVB Kölner Verkehrs-Betriebe AG
 161;bus;Quelle gtfs;Köln, Porz Markt;Köln, Grengel/Flughafen Köln/Bonn Flughafen Bf;KVB Kölner Verkehrs-Betriebe AG
 162;bus;Quelle gtfs;Köln, Porz Markt;Köln, Wahnheide DLR;KVB Kölner Verkehrs-Betriebe AG
-163;bus;Quelle gtfs;Köln, Libur Kirche;Köln, Wahn Schulzentrum Wahn;KVB Kölner Verkehrs-Betriebe AG
-164;bus;Quelle gtfs;Niederkassel, Lülsdorf Nord;Köln, Wahn S-Bahn;KVB Kölner Verkehrs-Betriebe AG
+# siehe 550/163: 163;bus;Quelle gtfs;Köln, Libur Kirche;Köln, Wahn Schulzentrum Wahn;KVB Kölner Verkehrs-Betriebe AG
+# siehe 501/164: 164;bus;Quelle gtfs;Niederkassel, Lülsdorf Nord;Köln, Wahn S-Bahn;KVB Kölner Verkehrs-Betriebe AG
 165;bus;Quelle gtfs;Köln, Porz Markt;Köln, Finkenberg Theodor-Heuss-Str.;KVB Kölner Verkehrs-Betriebe AG
 166;bus;Quelle gtfs;Köln, Porz Markt;Köln, Urbach Kaiserstr.;KVB Kölner Verkehrs-Betriebe AG
 167;bus;Quelle gtfs;Köln, Wahn S-Bahn;Köln, Wahn S-Bahn;KVB Kölner Verkehrs-Betriebe AG
+167/501;bus;Rundkurs Wahn-S und dann als Linie 501 bis Lülsdorf;;;
 
 179;bus;Neu im Fahrplan 2019 , Quelle gtfs;Köln, Neu-Brück Ludwig-Quidde-Platz;Köln, Deutz Bf Deutz / Messe LANXESS arena;KVB Kölner Verkehrs-Betriebe AG
 
@@ -476,8 +479,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 === Bus 500 Rhein-Sieg-Kreis (rechtsrheinisch) ...
 
 501/164;bus;Gemeinschaftslinie (Köln / Rhein-Sieg-Kreis);Siegburg;Porz Wahn;
-501/167;bus;Rundkurs Wahn-S, Nachtverkehr als Linie 501 bis Lülsdorf;;;
-501;bus;Quelle gtfs;Siegburg Bf;Niederkassel, Rheidt Unterführung;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+# siehe 501/164: 501;bus;Quelle gtfs;Siegburg Bf;Niederkassel, Rheidt Unterführung;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 502;bus;Rundkurs über Brückberg + Wolsdorf , Quelle gtfs;Siegburg Bf;Siegburg Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 503;bus;Quelle gtfs;Siegburg Bf;Troisdorf, Sieglar RSVG;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 504;bus;Quelle gtfs;Troisdorf, Spich Bf;Niederkassel, Lülsdorf Stahlenstr.;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
@@ -530,7 +532,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 # 549;bus;!Schulverkehr Lohmar, Linie fehlt entfällt jedoch mit Fahrplan 2019!;Lohmar;Hollenberg;
 
 550/163;bus;Gemeinschaftsline (Rhein-Sieg-Kreis / Bonn / Köln);Bonn Hbf;Porz Wahn;
-550;bus;Quelle gtfs;Bonn Hbf;Niederkassel, Mondorf Realschule;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
+# siehe 550/163: 550;bus;Quelle gtfs;Bonn Hbf;Niederkassel, Mondorf Realschule;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 551;bus;Quelle gtfs;Bonn Hbf;Troisdorf Bf;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 553;bus;!Neu im Fahrplan 2019! , Quelle gtfs;Lohmar Märkte;Lohmar, Neuhonrath Grundschule;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH
 554;bus;!2019 geänderte Linienführung via Birk und Heide! , Quelle gtfs;Lohmar Märkte;Lohmar Märkte;RSVG Rhein-Sieg-Verkehrsgesellschaft mbH

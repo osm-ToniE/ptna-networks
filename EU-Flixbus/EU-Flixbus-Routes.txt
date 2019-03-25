@@ -967,7 +967,7 @@ N914;bus;Seit 25.04.2018 nicht mehr buchbar, wurde eingestellt.;Prag;Warschau;Fl
 N915;bus;Seit 05.11.2018 nicht mehr buchbar, wurde eingestellt.;Košice;Prag;FlixMobility GmbH
 N918;bus;;Warschau;Wien;FlixMobility GmbH
 N920;bus;Seit 15.10.2018 nicht mehr buchbar, wurde eingestellt.;Zagreb;Dubrovnik;FlixMobility GmbH
-N943;bus;Saisonbus ab Mitte April;München;Pula;FlixMobility GmbH
+N943;bus;Saisonbus Mitte April bis Anfang November;München;Pula;FlixMobility GmbH
 N948;bus;;Frankfurt am Main;Split;FlixMobility GmbH
 N949;bus;Saisonbus ab Anfang Juni;Budapest;Makarska;FlixMobility GmbH
 N950;bus;;Karlsruhe;Osijek;FlixMobility GmbH
