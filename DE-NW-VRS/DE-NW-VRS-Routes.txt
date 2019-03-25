@@ -117,7 +117,7 @@ RE12;train;;Trier;Köln;DB Regio NRW
 RE22;train;ab Gerolstein Fortführung als Linie RB22 bis Trier;Köln;Gerolstein;DB Regio NRW
 # RB22;train;nur noch im Gebiet des VRT;Gerolstein;Trier;
 # siehe eine Zeile tiefer RB23;train;Erfttalbahn;Euskirchen;Bad Münstereifel;DB Regio NRW
-"S23;RB23|RB23|S23";Erfttalbahn;Euskirchen;Bad Münstereifel;DB Regio NRW
+"S23;RB23|RB23|S23";train;Erfttalbahn;Euskirchen;Bad Münstereifel;DB Regio NRW
 RB24;train;;Köln;Gerolstein;DB Regio NRW
 RB25;train;über Gummersbach;Köln;Lüdenscheid;DB Regio NRW
 RB26;train;Linke Rheinstrecke über Koblenz;Köln;Mainz;Trans Regio
@@ -139,7 +139,7 @@ S12;train;via Köln;Horrem;Au (Sieg);DB Regio NRW
 S13;train;via Köln/Bonn Flughafen;Troisdorf;Düren;DB Regio NRW
 S19;train;via Köln/Bonn Flughafen;Düren;Au (Sieg);DB Regio NRW
 # siehe eine Zeile tiefer S23;train;Voreifelbahn;Bonn;Euskirchen;DB Regio NRW
-"S23;RB23|S23|RB23";Voreifelbahn;Bonn;Euskirchen;DB Regio NRW
+"S23;RB23|S23|RB23";train;Voreifelbahn;Bonn;Euskirchen;DB Regio NRW
 
 - .
 == U-Bahn/Straßenbahn
