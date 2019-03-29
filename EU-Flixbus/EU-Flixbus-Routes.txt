@@ -600,7 +600,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 
 == 13xx-Linien (Überwiegend Polen)
 
-1300;bus;;Prag;Breslau;FlixMobility GmbH
+1300;bus;Linie wurde eingestellt.;Prag;Breslau;FlixMobility GmbH
 1301;bus;;Warschau;Prag;FlixMobility GmbH
 1302;bus;;Warschau;Breslau;FlixMobility GmbH
 1303;bus;;Warschau;Breslau/Karpacz;FlixMobility GmbH

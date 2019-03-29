@@ -327,8 +327,6 @@ Rursee Bahn;bus;;;;
 
 === SB
 
-=== N
-
 SB 1;bus;;;;
 SB 3;bus;;;;
 SB 20;bus;;;;

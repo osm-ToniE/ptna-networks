@@ -76,9 +76,9 @@
 39;bus;Klaffenbach - Hutholz / Neukirchen;;;CVAG
 41;bus;Schönau - Reichenbrand - Grüna;;;CVAG
 42;bus;Schönau - Rabenstein, Grünaer Straße;;;CVAG
-43;bus;Schösserholz - Adelsberg - Rabenstein Tierpark;;;CVAG
+43|E43;bus;Schösserholz - Adelsberg - Rabenstein Tierpark;;;CVAG
 46;bus;Wittgensdorf, Chemnitztal - Borna;;;Chemnitzer Verkehrs-AG
-51;bus;Zentralhaltestelle - Zeisigwald, Klinik Bethanien / Yorckgebiet;;;CVAG
+51|E51;bus;Zentralhaltestelle - Zeisigwald, Klinik Bethanien / Yorckgebiet;;;CVAG
 52;bus;Hutholz - Chemnitzer Straße - Zentralhaltestelle;;;CVAG
 53|E53;bus;Chemnitzer Straße - Altchemnitz - Technopark;;;Chemnitzer Verkehrs-AG
 56;bus;Bernsdorf - Kleinolbersdorf-Altenhain - Bernsdorf;;;CVAG
@@ -90,7 +90,7 @@
 76;bus;Eibenberg - Einsiedel - Altchemnitz;;;CVAG
 79;bus;Küchwald - Zentralhaltestelle;;;CVAG
 82;bus;TU Campus - Schlosschemnitz - Fraunhoferstraße - TU Campus;;;CVAG
-86;bus;Niederwiesa - Euba - Chemnitz, Gablenzplatz;;;CVAG
+86|E86;bus;Niederwiesa - Euba - Chemnitz, Gablenzplatz;;;CVAG
 89;bus;Gablenz - Beutenberg - Dresdner Straße;;;CVAG
 93;bus;Neefepark - Hutholz;;;CVAG
 96;bus;Wittgensdorf, Kornweg - Röhrsdorf, Chemnitz Center;;;Chemnitzer Verkehrs-AG

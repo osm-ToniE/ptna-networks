@@ -90,7 +90,7 @@ RB90;train;;;;HLB
 RB91;train;;;;Abellio Rail NRW
 RB92;train;;;;HLB Hessenbahn GmbH
 RB93;train;;;;DB Regio NRW
-RB 94;train;;;;DB RegioNetz Verkehrs GmbH; Kurhessenbahn
+RB94;train;;;;DB RegioNetz Verkehrs GmbH; Kurhessenbahn
 RB95;train;;;;DreiLänderBahn
 RB96;train;;;;HLB
 RE1;train;;;;DB Regio AG Region NRW
@@ -305,7 +305,7 @@ N28;bus;;;;Regionalverkehr Münsterland GmbH
 
 R11;bus;;Westerkappeln;Osnabrück;Regionalverkehr Münsterland GmbH
 R20;bus;;Ibbenbüren;Mettingen;Regionalverkehr Münsterland GmbH
-R24;bus;;;;Regionalverkehr Münsterland GmbH
+R24;bus;;Ibbenbüren;Mettingen;Regionalverkehr Münsterland GmbH
 R26;bus;;;;Regionalverkehr Münsterland GmbH
 R27;bus;;Ibbenbüren;Hopsten;Gronemann GmbH
 R30;bus;;Ibbenbüren;Lotte;Regionalverkehr Münsterland GmbH
@@ -436,7 +436,7 @@ R13;bus;;Münster, Hauptbahnhof|Handorf, Gartenzentrum|Telgte, Münstertor|Telgt
 R14;bus;;Warendorf;Ostbevern;WB Westfalen Bus GmbH
 R15;bus;;Warendorf;Glandorf;WB Westfalen Bus GmbH
 R22;bus;;Münster;Everswinkel;Regionalverkehr Münsterland GmbH
-R23;bus;;;;Regionalverkehr Münsterland GmbH
+R23;bus;;Everswinkel;Warendorf;Regionalverkehr Münsterland GmbH
 R32;bus;;Münster;Sendenhorst;Regionalverkehr Münsterland GmbH
 R33;bus;;Sendenhorst;Ennigerloh;Regionalverkehr Münsterland GmbH
 R37;bus;;Beckum;Hamm;Verkehrsgesellschaft Breitenbach mbH & Co. KG
@@ -1561,7 +1561,7 @@ N6;bus;;Ense;Sundern;Regionalverkehr Ruhr-Lippe GmbH
 
 R21;bus;;Arnsberg;Hagen;WB Westfalen Bus GmbH
 R22;bus;;Arnsberg;Sundern;WB Westfalen Bus GmbH
-R25;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
+R25;bus;;Neheim;Sundern;Regionalverkehr Ruhr-Lippe GmbH
 R31;bus;;Olsberg;Bruchhausen;Regionalverkehr Ruhr-Lippe GmbH
 R44;bus;;Medebach;Hallenberg;WB Westfalen Bus GmbH
 R46;bus;;Düdinghausen;Medebach;Regionalverkehr Ruhr-Lippe GmbH
@@ -2051,6 +2051,9 @@ R15;bus;;Eisern;Altenseelbach;Verkehrsbetriebe Westfalen-Süd GmbH
 R16;bus;;;;Verkehrsbetriebe Westfalen-Süd GmbH
 R17;bus;;;;Verkehrsbetriebe Westfalen-Süd GmbH
 R22;bus;;Siegen;Neunkirchen;Verkehrsbetriebe Westfalen-Süd GmbH
+R23;bus;;Neunkirchen;Herdorf;Verkehrsbetriebe Westfalen-Süd GmbH
+R24;bus;;Neunkirchen;Burbach;Verkehrsbetriebe Westfalen-Süd GmbH
+R25;bus;;Siegen;Burbach;Verkehrsbetriebe Westfalen-Süd GmbH
 R27;bus;;Siegen;Bad Berleburg;Verkehrsbetriebe Westfalen-Süd GmbH
 R28;bus;;;;Verkehrsbetriebe Westfalen-Süd GmbH
 R29;bus;;;;Verkehrsbetriebe Westfalen-Süd GmbH

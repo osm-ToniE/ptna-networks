@@ -232,11 +232,6 @@ RT5;tram;;Kassel;Melsungen;RBK
 540;bus;;Hallenberg / Hatzfeld;Frankenberg;ALV Oberhessen
 550;bus;;Medebach;Korbach;BKW Bad Wildungen
 570;bus;;Gemünden (Wohra);Frankenberg;ALV Oberhessen
-597;bus;Stadtbus Korbach;;;DB Regio Bus Mitte
-597.1;bus;Stadtbus Korbach;Hauptbahnhof;Hauptbahnhof;DB Regio Bus Mitte
-597.2;bus;Stadtbus Korbach;Hauptbahnhof;Hauptbahnhof;DB Regio Bus Mitte
-597.3;bus;Stadtbus Korbach;Hauptbahnhof;Hauptbahnhof;DB Regio Bus Mitte
-597.4;bus;Stadtbus Korbach;Hauptbahnhof;Hauptbahnhof;DB Regio Bus Mitte
-597.5;bus;Stadtbus Korbach;Hauptbahnhof;Hauptbahnhof;DB Regio Bus Mitte
+597|597.1|597.2|597.3|597.4|597.5;bus;Stadtbus Korbach;Hauptbahnhof;Hauptbahnhof;DB Regio Bus Mitte
 
 </pre>
