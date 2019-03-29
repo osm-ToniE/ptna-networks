@@ -13,7 +13,7 @@ NETWORK_SHORT="HVV"
 ANALYSIS_PAGE="Hamburger_Verkehrsverbund/Analyse"
 WIKI_ROUTES_PAGE="Hamburger_Verkehrsverbund/Analyse/DE-HH-HVV-Routes"
 
-ANALYSIS_OPTIONS="--language=de --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --expect-network-short"
+ANALYSIS_OPTIONS="--language=de --check-access --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --expect-network-short"
 
 # --check-bus-stop 
 # --expect-network-long
