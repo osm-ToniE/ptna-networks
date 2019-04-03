@@ -39,7 +39,7 @@
 #
 
 
-= Overview Pep's public Transport ines
+= Overview on '''Pep's''' Public Transport Lines
 
 - Link to the data with the description of [https://github.com/osm-ToniE/ptna-networks/raw/master/FR/IDF/FR-IDF-Peps-Routes.txt Pep's Lines] in GitHub.
 - Link to more [[Talk:WikiProject_France/Bus_Pep%27s/Analysis|information]] in OSM-Wiki.
