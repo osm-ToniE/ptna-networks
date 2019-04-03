@@ -11,3 +11,6 @@
 # ignore downloaded XML data
 *-Data.xml
 
+# ignore OSM wiki data
+*.wiki
+
