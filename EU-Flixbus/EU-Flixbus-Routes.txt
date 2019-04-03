@@ -619,7 +619,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 == 14xx-Linien (Überwiegend Italien)
 
 1420;bus;;Mailand;Chieti;FlixMobility GmbH
-1426;bus;;;;
+1426;bus;;Mailand;L'Aquila;FlixMobility GmbH
 1455;bus;neue Linie via Madonna di Campiglio;München;Mailand;FlixMobility GmbH
 
 

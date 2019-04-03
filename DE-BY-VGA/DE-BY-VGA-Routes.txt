@@ -99,6 +99,7 @@ X80;bus;;;;
 9222/22;bus;;;;
 9224;bus;;;;
 9227;bus;;;;
+9230;bus;Neue Linie ab 3.12.2018;;;
 9231;bus;;;;
 9232;bus;;;;
 9234;bus;;;;
@@ -168,6 +169,7 @@ VGN 520;bus;Kanal-Altmühl-Express;;;
 9226;bus;;;;
 9227;bus;;;;
 
+9230;bus;Neue Linie ab 3.12.2018;;;
 9231;bus;;;;
 9232;bus;;;;
 9233;bus;;;;
