@@ -1,5 +1,5 @@
 #
-# This data is *not* stored in the OSM Wiki but in GitHub under https://github.com/osm-ToniE/ptna-networks/FR/IDF/FR-IDF-Peps-Routes.txt
+# This data is *not* stored in the OSM Wiki but in GitHub under https://github.com/osm-ToniE/ptna-networks/raw/master/FR/IDF/FR-IDF-Peps-Routes.txt
 #
 # Format: format is like in the OSM Wiki
 #
@@ -41,7 +41,7 @@
 
 = Overview Pep's public Transport ines
 
-- Link to the data with the description of [https://github.com/osm-ToniE/ptna-networks/FR/IDF/FR-IDF-Peps-Routes.txt Pep's Lines] in GitHub.
+- Link to the data with the description of [https://github.com/osm-ToniE/ptna-networks/raw/master/FR/IDF/FR-IDF-Peps-Routes.txt Pep's Lines] in GitHub.
 - Link to more [[Talk:WikiProject_France/Bus_Pep%27s/Analysis|information]] in OSM-Wiki.
 
 -
