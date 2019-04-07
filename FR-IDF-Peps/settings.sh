@@ -6,7 +6,7 @@
 
 PREFIX="FR-IDF-Peps"
 
-OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata=Q1886380][type=boundary];(rel(area)[route~'bus'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(r.routes););out;"
+OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata=Q12753][type=boundary];(rel(area)[route~'bus'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(r.routes););out;"
 NETWORK_LONG=""
 NETWORK_SHORT="Pep's"
 

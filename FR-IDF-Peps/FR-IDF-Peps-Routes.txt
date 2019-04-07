@@ -54,11 +54,11 @@
 
 == Transporteur AMV
 02;bus;;;;
-4;bus;!Outside of search area 'Marne-la-Valée'!;;;
-7;bus;!Outside of search area 'Marne-la-Valée'!;;;
-12;bus;!Outside of search area 'Marne-la-Valée'!;;;
+04;bus;;;;
+07;bus;;;;
+12;bus;;;;
 13;bus;;;;
-15;bus;!Outside of search area 'Marne-la-Valée'!;;;
+15;bus;;;;
 21;bus;;;;
 22;bus;;;;
 23;bus;;;;
