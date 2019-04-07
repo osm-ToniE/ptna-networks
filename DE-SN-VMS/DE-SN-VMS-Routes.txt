@@ -66,7 +66,7 @@
 3;tram;Hauptbahnhof - Zentralhaltestelle - Technopark;;;Chemnitzer Verkehrs-AG
 4;tram;Hutholz - Zentralhaltestelle - Hauptbahnhof;;;Chemnitzer Verkehrs-AG
 5;tram;Hutholz - Zentralhaltestelle - Gablenz;;;Chemnitzer Verkehrs-AG
-21;bus;Chemnitz-Center - Zentralhaltestelle - Ebersdorf;;;CVAG
+21;bus;(Limbach-Oberfrohna -) Chemnitz-Center - Zentralhaltestelle - Ebersdorf;;;Chemnitzer Verkehrs-AG
 22;bus;Zentralhaltestelle - Glösa;;;CVAG
 23;bus;Heinersdorf - Zentralhaltestelle - Neefepark;;;CVAG
 26;bus;Schönau - Hutholz;;;CVAG
@@ -76,11 +76,11 @@
 39;bus;Klaffenbach - Hutholz / Neukirchen;;;CVAG
 41;bus;Schönau - Reichenbrand - Grüna;;;CVAG
 42;bus;Schönau - Rabenstein, Grünaer Straße;;;CVAG
-43|E43;bus;Schösserholz - Adelsberg - Rabenstein Tierpark;;;CVAG
+43|E43;bus;(Schösserholz -) Adelsberg - Rabenstein, Tierpark;;;Chemnitzer-Verkehrs-AG
 46;bus;Wittgensdorf, Chemnitztal - Borna;;;Chemnitzer Verkehrs-AG
 51|E51;bus;Zentralhaltestelle - Zeisigwald, Klinik Bethanien / Yorckgebiet;;;CVAG
 52;bus;Hutholz - Chemnitzer Straße - Zentralhaltestelle;;;CVAG
-53|E53;bus;Chemnitzer Straße - Altchemnitz - Technopark;;;Chemnitzer Verkehrs-AG
+53;bus;Chemnitzer Straße - Altchemnitz - Technopark;;;Chemnitzer Verkehrs-AG
 56;bus;Bernsdorf - Kleinolbersdorf-Altenhain - Bernsdorf;;;CVAG
 62;bus;Flemmingstraße - Betriebshof Adelsberg;;;Chemnitzer Verkehrs-AG
 63;bus;Borna - Ebersdorf;;;CVAG
@@ -97,7 +97,7 @@
 N11;bus;Zentralhaltestelle - Ebersdorf;;;CVAG
 N12;bus;Zentralhaltestelle - Yorckgebiet;;;CVAG
 N13;bus;Zentralhaltestelle - Betriebshof Adelsberg;;;Chemnitzer Verkehrs-AG
-N14;bus;Zentralhaltestelle - Bernsdorf;;;CVAG
+N14;bus;Zentralhaltestelle - Bernsdorf;;;Chemnitzer Verkehrs-AG
 N15;bus;Zentralhaltestelle - Hutholz;;;CVAG
 N16;bus;Zentralhaltestelle - RabensteinCenter;;;CVAG
 N17;bus;Zentralhaltestelle - Talanger;;;CVAG
@@ -233,7 +233,6 @@ STL 2;bus;Stadtlinie 2;;;RVE
 123;bus;Waldenburg - Langenchursdorf - Falken - Limbach-Oberfrohna;;;RVE
 124;bus;Hohenstein-Ernstthal - Reichenbach - Grumbach - Callenberg - Langenchursdorf;;;RVE
 125;bus;Hohenstein-Ernstthal - Wüstenbrand - Oberlungwitz - Hohenstein-Ernstthal;;;RVE
-126;bus;Chemnitz, Schönau - Hohenstein-Ernstthal;;;RVE
 128;bus;Crimmitschau, Bahnhof - Karl-Liebknecht-Siedlung - Crimmitschau Center - Crimmitschau, Bahnhof;;;RVW
 129;bus;Zwickau - Werdau - Steinpleis - Zwickau;;;RVW
 130;bus;Zwickau - Steinpleis - Fraureuth;;;RVW
@@ -306,7 +305,6 @@ STL 2;bus;Stadtlinie 2;;;RVE
 247;bus;Meinersdorf - Gornsdorf - Thum;;;RVE
 251;bus;Chemnitz, Schönau - Oberlungwitz - Gersdorf - Lichtenstein;;;RVE;CVAG
 253;bus;Chemnitz, Schönau - Chemnitz, Reichenbrand - Chemnitz, Rabenstein - Limbach-Oberfrohna OT Rußdorf;;;RVE
-254;bus;Limbach-Oberfrohna - Chemnitz, Chemnitz Center - Chemnitz, ZH - Chemnitz, Ebersdorf;;;RVE;CVAG
 256;bus;Hohenstein-Ernstthal - Pleißa - Limbach-Oberfrohna - Bräunsdorf;;;RVE
 260;bus;Grüne Linie: Stollberg - Neuwürschnitz - Oelsnitz - Lugau - Stollberg;;;RVE
 261;bus;Grüne Linie: Stollberg - Lugau - Oelsnitz - Neuwürschnitz - Stollberg;;;RVE
