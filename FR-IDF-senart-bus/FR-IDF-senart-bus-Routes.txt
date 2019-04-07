@@ -1,0 +1,91 @@
+
+#
+# This data is *not* stored in the OSM Wiki but in GitHub 
+#
+# Format: format is like in the OSM Wiki
+#
+# Links: [[...|...]] are interne link like in the OSM Wiki
+#        [... ...] are external links
+#
+# Headers start with '=', '==', '===', '====', ... at the beginning of a line
+#
+# Simple text starts with '-' at the beginning of a line.
+#    A single '-' at the beginning of a line, followed by nothing:
+#    - if there was simple text before, it creates a line feed (i.e. encloses the text in a paragraph <p> ... </p>)
+#    - if there was no simple text before or a line feed, it creates an empty line (i.e. <p>&amp;nbsp;</p>)
+#
+# !!!Text yellow background!!! in simple text or headers
+# '''''Text mit bold and italics''''' in simple text or headers
+# '''Text with bold chars''' in simple text or headers
+# ''Text with italic chars'' in simple text or headers
+#
+# Comments start with '#' at the beginning of a line. '#' inside text is not recognized as the start of a comment, i.e.. '#' may occur inside of text.
+#
+# Format of the file: UTF-8
+#
+#
+# Contents in CSV-Format - if ';' is part of the field, then enclose that field in "..."
+#
+# ref;type;comment;from;to;operator
+#
+# - ref       == tag 'ref' of route or route_master
+#                250            defines that routes with 'ref'='250' are expected
+#                250|250a|250b  defines that routes with 'ref'='250' or 'ref'='250a' or 'ref'='250b' are expected - independent of whether this is allowed according to PTv1/PTv2
+# - type      == contents of tags 'route' respectively 'route_master'
+# - comment   == can include comments like; Bus, Expressbus, ...  will not be analyzed, but simply be printed out
+#                !Text with yellow background! in comment (surrounded by single !)
+# - from      == if there is more than one entry with "ref;type" and "operator" is the same, then 'from' and 'to are also used to distinguish between same line number in different cities/villages
+# - to        == if there is more than one entry with "ref;type" and "operator" is the same, then 'from' and 'to are also used to distinguish between same line number in different cities/villages
+# - operator  == if there is more than one entry with "ref;type", then "operator" is used to distinguish between same line number in different cities/villages
+#
+
+
+= Overview on '''Sénart-Bus''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator
+
+== Lines
+01;bus;;;;
+02;bus;;;;
+03;bus;;;;
+04;bus;;;;
+05;bus;;;;
+11;bus;;;;
+12;bus;;;;
+13;bus;;;;
+21;bus;;;;
+22;bus;;;;
+23;bus;;;;
+24;bus;;;;
+25;bus;;;;
+26;bus;;;;
+27;bus;;;;
+31;bus;;;;
+32;bus;;;;
+33;bus;;;;
+34;bus;;;;
+35;bus;;;;
+36;bus;;;;
+37;bus;;;;
+41;bus;;;;
+42;bus;;;;
+42P;bus;;;;
+43;bus;;;;
+43P;bus;;;;
+52;bus;;;;
+53;bus;;;;
+61A;bus;;;;
+61B;bus;;;;
+62A;bus;;;;
+62B;bus;;;;
+62C;bus;;;;
+63;bus;;;;
+64;bus;;;;
+CPSF;bus;;;;
+Tzen1;bus;;;;
