@@ -17,9 +17,8 @@ ANALYSIS_TALK="Talk:WikiProject_France/Bus_Pep's/Analysis"
 #
 WIKI_ROUTES_PAGE=""
 
-ANALYSIS_OPTIONS="--check-access --check-bus-stop --check-name --check-osm-separator --check-sequence --check-stop-position --check-version --coloured-sketchline --check-motorway-link --max-error=10 --multiple-ref-type-entries=analyze --positive-notes"
+ANALYSIS_OPTIONS="--language=fr --check-access --check-bus-stop --check-name --check-osm-separator --check-sequence --check-stop-position --check-version --coloured-sketchline --check-motorway-link --max-error=10 --multiple-ref-type-entries=analyze --positive-notes"
 
-# --language=en
 # --check-bus-stop 
 # --expect-network-short
 # --expect-network-long
