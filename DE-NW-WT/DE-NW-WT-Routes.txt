@@ -2097,12 +2097,11 @@ T30;bus;;Schwerte;Drüpplingsen;WB Westfalen Bus GmbH
 433;bus;;;;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
 444;bus;;Schloß Neuhaus;Delbrück;BVO Busverkehr Ostwestfalen GmbH
 446;bus;;Delbrück;Heddinghausen;BVO Busverkehr Ostwestfalen GmbH
-447.1;bus;;Paderborn;Delbrück;BVO Busverkehr Ostwestfalen GmbH
-447.2;bus;;;;BVO Busverkehr Ostwestfalen GmbH
-448;bus;;Delbrück;Delbrück;BahnBus Hochstift GmbH
+447;bus;;Delbrück;Delbrück;BVO Busverkehr Ostwestfalen GmbH
+448;bus;;Delbrück;Delbrück;BVO Busverkehr Ostwestfalen GmbH
 448.1;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 448.2;bus;;Delbrück;Delbrück;BVO Busverkehr Ostwestfalen GmbH
-449;bus;;Delbrück;Delbrück;BahnBus Hochstift GmbH
+449;bus;;Delbrück;Delbrück;BVO Busverkehr Ostwestfalen GmbH
 449.1;bus;;Delbrück;Delbrück;BVO Busverkehr Ostwestfalen GmbH
 449.2;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 449.3;bus;;;;BVO Busverkehr Ostwestfalen GmbH
@@ -2217,7 +2216,7 @@ UNI;bus;;Uni/Südring;MuseumsForum;PaderSprinter GmbH
 570;bus;;Bad Driburg;Brakel;Weser-Egge-Bus GmbH & Co. KG
 571;bus;;Nieheim;Nieheim;Weser-Egge-Bus GmbH & Co. KG
 572;bus;;Nieheim;Nieheim;Weser-Egge-Bus GmbH & Co. KG
-577;bus;Bürgerbus Bad Driburg;;;Weser-Egge-Bus GmbH & Co. KG
+577;bus;Bürgerbus Bad Driburg;;;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
 578;bus;;;;Weser-Egge-Bus GmbH & Co. KG
 584;bus;;Nieheim;Vörden;Weser-Egge-Bus GmbH & Co. KG
 585;bus;;Brakel;Vörden;Weser-Egge-Bus GmbH & Co. KG
