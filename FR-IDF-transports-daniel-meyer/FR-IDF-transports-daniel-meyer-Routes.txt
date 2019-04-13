@@ -1,6 +1,6 @@
 
 #
-# This data is *not* stored in the OSM Wiki but in GitHub 
+# This data is *not* stored in the OSM Wiki but in GitHub
 #
 # Format: format is like in the OSM Wiki
 #
@@ -51,15 +51,15 @@
 #ref;type;comment;from;to;operator
 
 == Lines
-DM02 A;bus;;;;
-DM02 B;bus;;;;
-DM03;bus;;;;
-DM04;bus;;;;
-DM05;bus;;;;
-DM06 A;bus;;;;
-DM06 B;bus;;;;
-DM08;bus;;;;
-DM09;bus;;;;
+DM2 A;bus;;;;
+DM2B;bus;;;;
+DM3;bus;;;;
+DM4;bus;;;;
+DM5;bus;;;;
+DM6A;bus;;;;
+DM6B;bus;;;;
+DM8;bus;;;;
+DM9;bus;;;;
 DM10 A;bus;;;;
 DM10 S;bus;;;;
 DM11 A;bus;;;;
@@ -71,14 +71,14 @@ DM13;bus;;;;
 DM151;bus;;;;
 DM153;bus;;;;
 DM16;bus;;;;
-DM17 A;bus;;;;
-DM17 B;bus;;;;
-DM17 S;bus;;;;
+DM17A;bus;;;;
+DM17B;bus;;;;
+DM17S;bus;;;;
 DM19;bus;;;;
 DM20;bus;;;;
-DM20 S;bus;;;;
-DM21 A;bus;;;;
-DM21 B;bus;;;;
-DM21 S;bus;;;;
+DM20S;bus;;;;
+DM21A;bus;;;;
+DM21B;bus;;;;
+DM21S;bus;;;;
 DM22;bus;;;;
 DM26;bus;;;;

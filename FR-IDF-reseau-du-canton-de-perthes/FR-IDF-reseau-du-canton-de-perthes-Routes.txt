@@ -1,6 +1,6 @@
 
 #
-# This data is *not* stored in the OSM Wiki but in GitHub 
+# This data is *not* stored in the OSM Wiki but in GitHub
 #
 # Format: format is like in the OSM Wiki
 #
@@ -51,11 +51,11 @@
 #ref;type;comment;from;to;operator
 
 == Lines
-01;bus;;;;
+1;bus;;;;
 09;bus;;;;
 101;bus;;;;
 109;bus;;;;
-11 GARE;bus;;;;
+11 Gare;bus;;;;
 111;bus;;;;
 11A;bus;;;;
 11B;bus;;;;
