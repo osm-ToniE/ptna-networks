@@ -12,7 +12,7 @@ OVERPASS_REUSE_ID="FR-IDF-Q13917"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata=Q13917][type=boundary];(rel(area)[route~'bus'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(r.routes););out;"
 NETWORK_LONG=""
-NETWORK_SHORT="SQYBUS"
+NETWORK_SHORT="SQYBus"
 
 ANALYSIS_PAGE=""
 ANALYSIS_TALK=""
