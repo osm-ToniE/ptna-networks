@@ -397,6 +397,7 @@ STL 2;bus;Stadtlinie 2;;;RVE
 497;bus;Olbernhau - Rübenau - Reitzenhain - Marienberg;;;RVE
 499;bus;Olbernhau - Marienberg - Wolkenstein - Annaberg-Buchholz;;;RVE
 521;bus;Litvínov - Brandov - Olbernhau;;;ČSAD
+524;bus;Chemnitz - Burkhardtsdorf - Thalheim;;;Regionalverkehr Westsachsen
 583;bus;Vejprty - Annaberg-Buchholz;;;BusLine
 585;bus;Skibus: Jirkov - Chomutov - Kurort Oberwiesenthal;;;BusLine
 616;bus;Hainichen - Roßwein;;;RBM
