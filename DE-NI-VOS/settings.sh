@@ -8,7 +8,7 @@ PREFIX="DE-NI-VOS"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level=6][name~'Osnabrück|Landkreis Osnabrück'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(r.routes););out;"
 NETWORK_LONG="Verkehrsgemeinschaft Osnabrück"
-NETWORK_SHORT="VOS"
+NETWORK_SHORT="VOS Nord|VOS Ost|VOS"
 
 ANALYSIS_PAGE="Osnabrück/Transportation/Analyse"
 WIKI_ROUTES_PAGE="Osnabrück/Transportation/Analyse/DE-NI-VOS-Linien"
