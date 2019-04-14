@@ -7,7 +7,7 @@
 PREFIX="DE-SN-VMS"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=public_transport][name='Verkehrsverbund Mittelsachsen'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(r.routes););out;"
-NETWORK_LONG="Verkehrsverbund Mittelsachsen"
+NETWORK_LONG="Verkehrsverbund Mittelsachsen|Verkehrsverbund Mittelsachsen GmbH"
 NETWORK_SHORT="VMS"
 
 ANALYSIS_PAGE="Saxony/Transportation/Verkehrsverbund_Mittelsachsen/Analyse"
