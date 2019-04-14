@@ -8,7 +8,7 @@ PREFIX="DE-NI-VGE"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level=6][name='Landkreis Emsland'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(r.routes););out;"
 NETWORK_LONG="Verkehrsgemeinschaft Emsland-Süd"
-NETWORK_SHORT="VGE"
+NETWORK_SHORT="VGE-Süd|VGE"
 
 ANALYSIS_PAGE="Emsland-Süd/Transportation/Analyse"
 WIKI_ROUTES_PAGE="Emsland-Süd/Transportation/Analyse/DE-NI-VGE-Linien"
