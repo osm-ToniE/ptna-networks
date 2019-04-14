@@ -1,0 +1,642 @@
+<pre>
+#
+# Formatierung: die Formatierung lehnt sich ans Wiki an.
+#
+# Links: [[...|...]] sind (wie im OSM-Wiki) interne Verweise ins OSM-Wiki
+#        [... ...] sind (wie im OSM-Wiki) externe Verweise ins Internet
+#
+# Überschriften beginnen mit '=', '==', '===', '====', ... am Anfang einer Zeile
+#
+# Einfacher Text beginnt mit '-' am Anfang einer Zeile.
+#     Einfacher Text darf überall stehen.
+#     Ein einfaches '-' am Anfang der Zeile gefolgt von 'nichts':
+#     - wenn davor einfacher Text stand wird ein Zeilenumbruch erzeugt und das bisher ausgegebenen in einen Paragraphen <p> ... </p> gepackt
+#     - wenn vorher kein einfacher Text stand bzw. ein Zeilenumbruch erzeugt wurde, so wird eine Leerzeile erzeugt mit Hilfe von <p>&amp;nbsp;</p>
+#
+# !!!Text mit gelbem Hintergrund!!! in einfachem Text oder Überschriften
+# '''''Text mit dicken, kursiven Buchstaben''''' in einfachem Text oder Überschriften
+# '''Text mit dicken Buchstaben''' in einfachem Text oder Überschriften
+# ''Text mit kursiven Buchstaben'' in einfachem Text oder Überschriften
+#
+# Kommentare beginnen mit '#' am Anfang einer Zeile. Kommentare mittendrin werden nicht erkannt, d.h. '#' darf innerhalb von Text vorkommen.
+#
+# Format der Datei: UTF-8
+#
+#
+# Definition von Linieninformationen: Inhalt im CSV-Format
+#
+# ref;type;comment;from;to;operator
+#
+# - ref       == tag 'ref' von route oder route_master
+#                250            definiert, dass hier Linien mit 'ref'='250' erwartet wird
+#                250|250a|250b  definiert, dass hier Linien mit 'ref'='250' und 'ref'='250a' und 'ref'='250b' zulässig sind - ob das nach PTv1/PTv2 erlaubt ist, ist eine andere Sache
+# - type      == inhalt des tags 'route' bzw. 'route_master'
+# - comment   == kann Kommentar enthalten wie; Ruftaxi, Bus, Expressbus, ...  wird nicht ausgewertet, lediglich ausgegeben
+#                !Text mit gelbem Hintergrund! im comment (umgeben von einfachem !)
+# - from      == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
+# - to        == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
+# - operator  == wird bei mehreren Linie mit identischem ref und type Differenzierung herangezogen
+#                Der Wert von 'operator' darf ';' enthalten
+#
+
+
+= Überblick über den Bahnverkehr in Deutschland
+
+-
+- Diese Liste ist zunächst eine '''!!!Bestandsaufnahme der in OSM gefundenen Relationen!!!'''
+- 
+- Diese [[WikiProject_Germany/Railway/Route_Network/Analysis/DE-Bahnverkehr-Routes|Liste]] sowie eine [[Talk:WikiProject_Germany/Railway/Route_Network/Analysis|Diskussionsseite]] werden später im OSM Wiki hinterlegt
+-
+
+== Fernverkehr
+
+=== Inter City Express (ICE)
+
+ICE;train;;;;
+ICE 1;train;;;;
+ICE 3;train;;;;
+ICE 4;train;;;;
+ICE 10;train;;;;
+ICE 11;train;;;;
+ICE 12;train;;;;
+ICE 13;train;;;;
+ICE 15;train;;;;
+ICE 18;train;;;;
+ICE 20;train;;;;
+ICE 22;train;;;;
+ICE 25;train;;;;
+ICE 26;train;;;;
+ICE 28;train;;;;
+ICE 29;train;;;;
+ICE 41;train;;;;
+ICE 42;train;;;;
+ICE 43;train;;;;
+ICE 45;train;;;;
+ICE 49;train;;;;
+ICE 50;train;;;;
+ICE 78;train;;;;
+ICE 79;train;;;;
+ICE 82;train;;;;
+"TGV 101;ICE 82";train;;;;
+"TGV 101;ICE 83";train;;;;
+ICE 91;train;;;;
+ICE 228;train;;;;DB Fernverkehr AG
+ICE 533;train;;;;
+ICE 506;train;;;;DB Fernverkehr AG
+ICE 507;train;;Berlin;München;DB Fernverkehr AG
+ICE 508;train;;München;Berlin;DB Fernverkehr AG
+ICE 537;train;;Bremen;München;DB Fernverkehr AG
+ICE 538;train;;München;Bremen;DB Fernverkehr AG
+ICE 582;train;;;;DB Fernverkehr AG
+ICE 603;train;;;;DB Fernverkehr AG
+ICE 611;train;;;;DB Fernverkehr AG
+ICE 690;train;;;;DB Fernverkehr AG
+ICE 703;train;;;;DB Fernverkehr AG
+ICE 786;train;;;;DB Fernverkehr AG
+ICE 800;train;;;;DB Fernverkehr AG
+ICE 1223;train;;;;DB Fernverkehr AG
+ICE 1521;train;;;;DB Fernverkehr AG
+
+-
+
+=== Inter City (IC)
+
+IC 4;train;;;;
+IC 26.1;train;;;;
+"EC 27;IC 27";train;;;;
+IC 28;train;;;;
+IC 30;train;;;;
+"EC 30;IC 30";train;;;;
+IC 31;train;;;;
+IC 32;train;;;;
+IC 35;train;;;;
+IC 37;train;;;;
+IC 50;train;;;;
+IC 50 E;train;;;;
+IC 50 MDV;train;;;;
+IC 55;train;;;;
+IC 56;train;;;;
+IC 60;train;;;;
+IC 61;train;;;;
+IC 62;train;;;;
+IC 76;train;;;;
+IC 77;train;;;;
+IC 81;train;;;;
+IC 87;train;;;;
+IC 2026;train;;;;DB Fernverkehr AG
+IC 2038;train;;;;
+IC 2430;train;;;;
+-
+
+=== Euro City (EC)
+
+EC 6;train;;;;
+EC 7;train;;;;
+EC 8;train;;;;
+EC 9;train;;;;
+"EC 27;IC 27";train;;;;
+"EC 30;IC 30";train;;;;
+EC 54;train;;;;
+EC 55;train;;;;
+EC 62;train;;;;
+EC 75;train;;;;
+EC 80;train;;;;
+EC 83;train;;;;
+EC 88;train;;;;
+EC 95;train;;;;
+EC 112;train;;;;
+EC 113;train;;;;
+EC 114;train;;;;
+EC 115;train;;;;
+"EC 151;EC 52|EC 52|EC 151";train;;;;
+EC 172;train;;;;
+EC 173;train;;;;
+EC 378;train;;;;
+EC 379;train;;;;
+-
+
+=== Euro Night(EN)
+
+EN;train;;;;
+EN 414;train;;;;
+"EN 452;EN 453|EN 452|EN 453";train;;;;
+EN 462;train;;;;
+EN 463;train;;;;
+EN 498;train;;;;
+EN 40462;train;;;;
+EN 40465;train;;;;
+EN 40467;train;;;;
+EN 50463;train;;;;
+-
+
+== Regionalverkehr
+
+=== R-Bahn
+
+R1;train;;;;
+"R1;KBS 750";train;;;;
+R2;train;;;;
+R5;train;;;;
+R6;train;;;;
+R7;train;;;;
+R8;train;;;;
+R 11;train;;;;
+R11;train;;;;
+R12;train;;;;
+R21;train;;;;
+R32;train;;;;
+R34;train;;;;
+R61;train;;;;
+R62;train;;;;
+R63;train;;;;
+R71;train;;;;
+R73;train;;;;
+R81;train;;;;
+R82;train;;;;
+R151;train;;;;
+-
+
+=== Regional Bahn (RB)
+
+RB;train;;;;
+RB 2;train;;;;
+RB 4;train;;;;
+RB11;train;;;;
+RB13;train;;;;
+RB14;train;;;;
+RB15;train;;;;
+RB16;train;;;;
+RB17;train;;;;
+RB 17;train;;;;
+RB 20;train;;;;
+RB22;train;;;;
+RB23;train;;;;
+RB 24;train;;;;
+RB 25;train;;;;
+RB25;train;;;;
+RB 26;train;;;;
+RB26;train;;;;
+RB 28;train;;;;
+RB 31;train;;;;
+RB 32;train;;;;
+RüBB;train;;;;
+RB33;train;;;;
+RB 34;train;;;;
+RB34;train;;;;
+RB 35;train;;;;
+RB37;train;;;;
+RB41;train;;;;
+RB 42;train;;;;
+RB 43;train;;;;
+RB46;train;;;;
+RB 47;train;;;;
+RB48;train;;;;
+RB49;train;;;;
+RB50;train;;;;
+RB 51;train;;;;
+RB51;train;;;;
+RB 52;train;;;;
+RB55;train;;;;
+RB 57;train;;;;
+RB 59;train;;;;
+RB59;train;;;;
+RB 60;train;;;;
+RB 61;train;;;;
+RB62;train;;;;
+RB63;train;;;;
+RB69;train;;;;
+RB 72;train;;;;
+RB 75;train;;;;
+RB75;train;;;;
+RB 76;train;;;;
+RB76;train;;;;
+RB77;train;;;;
+RB 78;train;;;;
+RB 79;train;;;;
+RB79;train;;;;
+RB80;train;;;;
+RB81;train;;;;
+RB 82;train;;;;
+RB84;train;;;;
+RB86;train;;;;
+RB 89;train;;;;
+RB91;train;;;;
+RB93;train;;;;
+RB 110;train;;;;
+RB 113;train;;;;
+RB 5749X;train;;;;
+RB 57662;train;;;;
+-
+
+=== Regional Express (RE)
+
+RE;train;;;;
+RE 1;train;;;;
+RE1;train;;;;
+RE 2;train;;;;
+RE2;train;;;;
+RE 3;train;;;;
+RE 4;train;;;;
+RE4;train;;;;
+RE5;train;;;;
+RE 6;train;;;;
+RE6;train;;;;
+RE 7;train;;;;
+RE8;train;;;;
+RE 9;train;;;;
+RE9;train;;;;
+RE 10;train;;;;
+RE10;train;;;;
+RE 11;train;;;;
+RE 13;train;;;;
+RE 15;train;;;;
+RE15;train;;;;
+RE 16;train;;;;
+RE 17;train;;;;
+RE 18;train;;;;
+RE18;train;;;;
+RE 19;train;;;;
+RE19;train;;;;
+RE 20;train;;;;
+RE 31;train;;;;
+RE 42;train;;;;
+RE 45;train;;;;
+RE55/RE56;train;;;;
+RE70;train;;;;
+RE85;train;;;;
+RE103;train;;;;
+RE Stuttgart–Würzburg;train;;;;
+-
+
+== Kursbuchstrecken (KBS)
+
+=== 100 .. 199
+=== 200 .. 299
+=== 300 .. 399
+
+356.2;train;;;;
+373;train;;;;
+380;train;;;;
+396;train;;;;
+
+=== 400 .. 499
+=== 500 .. 599
+=== 600 .. 699
+
+640;train;;;;
+675.1;train;;;;
+-
+
+=== 700 .. 799
+
+717;train;;;;
+718;train;;;;
+"719;A 11";train;;;;
+721;train;;;;
+722;train;;;;
+730;train;;;;
+731;train;;;;
+732;train;;;;
+739;train;;;;
+742;train;;;;
+742.1;train;;;;
+743;train;;;;
+"R1;KBS 750";train;;;;
+751;train;;;;
+753;train;;;;
+755;train;;;;
+757;train;;;;
+757;train;;;;
+760;train;;;;
+763;train;;;;
+764;train;;;;
+766;train;;;;
+781;train;;;;
+-
+
+=== 800 .. 899
+
+800;train;;;;
+801;train;;;;
+KBS 801;train;;;;
+811;train;;;;
+815;train;;;;
+826;train;;;;
+830;train;;;;
+KBS 831–867;train;;;;
+840;train;;;;
+850;train;;;;
+853;train;;;;
+857;train;;;;
+858;train;;;;
+875;train;;;;
+876;train;;;;
+877;train;;;;
+-
+
+=== 900 .. 999
+
+920;train;;;;
+930;train;;;;
+931;train;;;;
+932;train;;;;
+933;train;;;;
+933;train;;;;
+940;train;;;;
+941;train;;;;
+942;train;;;;
+944;train;;;;
+945;train;;;;
+946;train;;;;
+947;train;;;;
+948;train;;;;
+949;train;;;;
+950;train;;;;
+951;train;;;;
+952;train;;;;
+953;train;;;;
+955;train;;;;
+956;train;;;;
+957;train;;;;
+958;train;;;;
+959;train;;;;
+960;train;;;;
+961;train;;;;
+962;train;;;;
+963;train;;;;
+970;train;;;;
+971;train;;;;
+974;train;;;;
+975;train;;;;
+978;train;;;;
+980;train;;;;
+983;train;;;;
+984;train;;;;
+985;train;;;;
+986;train;;;;
+986;train;;;;
+990;train;;;;
+991;train;;;;
+993;train;;;;
+995;train;;;;
+-
+
+=== > 1000
+
+2270;train;;;;
+12426;train;;;;
+12737;train;;;;
+12818;train;;;;
+12930;train;;;;
+12988;train;;;;
+-
+
+== Weitere
+
+ALXn;train;;;;
+BKB;train;;;;
+BZB;train;;;;
+DFS;train;;;;
+DWE;train;;;;
+EB 21;train;;;;
+EB 22;train;;;;
+EB 23;train;;;;
+EB 32;train;;;;
+EB 40;train;;;;
+EB 46;train;;;;
+EBx 12;train;;;;
+EBx 13;train;;;;
+EBFH 1;train;;;;
+EFW;train;;;;
+Ex6;train;;;;
+HSB;train;;;;
+Harz-Berlin-Express;train;;;;
+Museumseisenbahn Küstenbahn Ostfriesland;train;;;;
+OBS;train;;;;
+OE 64;train;;;;
+OTB;train;;;;
+Palmen-Express;train;;;;
+Rhön-Zügle;train;;;;
+STB 41;train;;;;
+STB 42;train;;;;
+STB 44;train;;;;
+STB 48;train;;;;
+VB3;train;;;;
+WIP;train;;;;
+Z SSB;train;;;;
+ZAB 4;train;;;;
+-
+
+= Ausländische Anbieter
+
+== Aus Frankreich
+
+=== TGV
+
+OUIGo;train;;;;
+TGV 84;train;;;;
+TGV84;train;;;;
+"TGV 101;ICE 82";train;;;;
+"TGV 101;ICE 83";train;;;;
+TGV 108;train;;;;
+TGV 110;train;;;;
+TGV 111;train;;;;
+TGV 112;train;;;;
+TGV 203;train;;;;
+TGV 204;train;;;;
+TGV 205;train;;;;
+TGV 206;train;;;;
+TGV 305;train;;;;
+TGV 306;train;;;;
+TGV 307;train;;;;
+TGV 308;train;;;;
+TGV 309;train;;;;
+TGV 310;train;;;;
+TGV 402;train;;;;
+TGV 403;train;;;;
+TGV 404;train;;;;
+TGV 405;train;;;;
+TGV 406;train;;;;
+TGV 505;train;;;;
+TGV 506;train;;;;
+TGV 507;train;;;;
+TGV 508;train;;;;
+TGV 509;train;;;;
+TGV 510;train;;;;
+TGV 511;train;;;;
+TGV 512;train;;;;
+TGV 513;train;;;;
+TGV 515;train;;;;
+TGV 516;train;;;;
+TGV 517;train;;;;
+TGV 518;train;;;;
+TGV 519;train;;;;
+TGV 520;train;;;;
+TGV 521;train;;;;
+TGV 522;train;;;;
+TGV 710;train;;;;
+TGV 711;train;;;;
+TGV 712;train;;;;
+TGV 713;train;;;;
+TGV 715;train;;;;
+TGV 716;train;;;;
+TGV 721;train;;;;
+TGV 722;train;;;;
+TGV 723;train;;;;
+TGV 724;train;;;;
+TGV 725;train;;;;
+TGV 726;train;;;;
+TGV 733;train;;;;
+TGV 734;train;;;;
+TGV 750;train;;;;
+TGV 752;train;;;;
+TGV 2800;train;;;;
+-
+
+=== TER
+
+A 01;train;;;;
+A 02A;train;;;;
+A 02B;train;;;;
+A 03;train;;;;
+A 04;train;;;;
+A 05;train;;;;
+A 06;train;;;;
+A 07;train;;;;
+A 08;train;;;;
+"719;A 11";train;;;;
+A 13;train;;;;
+A 14;train;;;;
+A 15;train;;;;
+A 16;train;;;;
+A 17;train;;;;
+A 18;train;;;;
+A 19;train;;;;
+"A 31;703";train;;;;
+A 34;train;;;;
+L 01;train;;;;
+L 02;train;;;;
+L 04;train;;;;
+L 05;train;;;;
+L 06;train;;;;
+L 07;train;;;;
+L 11;train;;;;
+L 12;train;;;;
+L 13;train;;;;
+L 15;train;;;;
+L 16;train;;;;
+L 17;train;;;;
+L 20;train;;;;
+L 25;train;;;;
+L 28;train;;;;
+L 29;train;;;;
+L 30;train;;;;
+TER 21;train;;;;
+TER 22;train;;;;
+TER 23;train;;;;
+TER 26;train;;;;
+TER 31;train;;;;
+-
+
+=== Weitere
+
+Thalys;train;;;;
+-
+
+== Aus Österreich
+
+=== ÖBB
+
+220;train;;;;
+-
+
+==== Railjet
+
+RJ;train;;;;
+RJ 63;train;;;;
+RJ90;train;;;;
+-
+
+==== Nightjet
+
+NJ 421;train;;;;
+NJ 491;train;;;;
+NJ 40421;train;;;;
+NJ 40491;train;;;;
+-
+
+====Andere
+
+RZ1;train;;;;
+-
+
+== Aus der Schweiz
+
+=== SBB
+
+IR 75;train;;;;
+701;train;;;;
+-
+
+== Aus Polen
+
+L7;train;;;;
+255;train;;;;
+-
+
+== Aus Tschechien
+
+089;train;;;;
+303;train;;;;
+330;train;;;;
+U24;train;;;;
+U28;train;;;;
+-
+
+== Aus Dänemark
+
+50;train;;;;
+-
+
+
+</pre>
