@@ -7,7 +7,7 @@
 PREFIX="DE-BY-VGN"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=public_transport][name='Verkehrsverbund Großraum Nürnberg GmbH'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(r.routes););out;"
-NETWORK_LONG="Verkehrsverbund Großraum Nürnberg"
+NETWORK_LONG="Verkehrsverbund Großraum Nürnberg|Verkehrsverbund Großraum Nürnberg GmbH"
 NETWORK_SHORT="VGN"
 
 ANALYSIS_PAGE="Nürnberg/Transportation/Analyse"
