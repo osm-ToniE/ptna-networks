@@ -81,10 +81,10 @@ ICE 82;train;;;;
 "TGV 101;ICE 83";train;;;;
 ICE 91;train;;;;
 ICE 228;train;;;;DB Fernverkehr AG
-ICE 533;train;;;;
 ICE 506;train;;;;DB Fernverkehr AG
 ICE 507;train;;Berlin;München;DB Fernverkehr AG
 ICE 508;train;;München;Berlin;DB Fernverkehr AG
+ICE 533;train;;;;
 ICE 537;train;;Bremen;München;DB Fernverkehr AG
 ICE 538;train;;München;Bremen;DB Fernverkehr AG
 ICE 582;train;;;;DB Fernverkehr AG
