@@ -353,6 +353,7 @@ STL 2;bus;Stadtlinie 2;;;RVE
 379;bus;Aue - Zschorlau - Albernau - Bockau - Aue;Aue;Aue;RVE
 379;bus;Ruppendorf - Klingenberg - Pretzschendorf - Hartmannsdorf - Frauenstein;Ruppendorf;Frauenstein;RVD
 380;bus;Aue - Stollberg;;;RVE
+383;bus;Chemnitz - Aue - Schneeberg / Schwarzenberg - Aue;;; Regionalverkehr Erzgebirge
 385;bus;Aue - Schneeberg - Rothenkirchen ;;;RVE
 400;bus;Annaberg-Buchholz - Freiberg - Hetzdorf - Dresden;;;RBM;RVE
 411;bus;Annaberg-Buchholz - Bärenstein - Kurort Oberwiesenthal;;;RVE

@@ -247,12 +247,12 @@ T341;bus;;;;Stadtwerke Münster
 148;bus;;Brochterbeck;Tecklenburg;Regionalverkehr Münsterland GmbH
 149;bus;;Lengerich;Tecklenburg;Regionalverkehr Münsterland GmbH
 150;bus;;FMO;Ladbergen;Regionalverkehr Münsterland GmbH
-152;bus;;Steinfurt;Steinfurt;Euregio Verkehrs- gesellschaft mbH
-153;bus;;Steinfurt;Steinfurt;Euregio Verkehrs- gesellschaft mbH
-154;bus;;Steinfurt;Steinfurt;Euregio Verkehrs- gesellschaft mbH
-156;bus;;Steinfurt;Steinfurt;Euregio Verkehrs- gesellschaft mbH
-157;bus;;Steinfurt;Steinfurt;Euregio Verkehrs- gesellschaft mbH
-158;bus;;Steinfurt;Steinfurt;Euregio Verkehrs- gesellschaft mbH
+152;bus;;Steinfurt;Steinfurt;Euregio-Verkehrsgesellschaft GmbH & Co. KG
+153;bus;;Steinfurt;Steinfurt;Euregio-Verkehrsgesellschaft GmbH & Co. KG
+154;bus;;Steinfurt;Steinfurt;Euregio-Verkehrsgesellschaft GmbH & Co. KG
+156;bus;;Steinfurt;Steinfurt;Euregio-Verkehrsgesellschaft GmbH & Co. KG
+157;bus;;Steinfurt;Steinfurt;Euregio-Verkehrsgesellschaft GmbH & Co. KG
+158;bus;;Steinfurt;Steinfurt;Euregio-Verkehrsgesellschaft GmbH & Co. KG
 161;bus;;Saerbeck;Münster;Regionalverkehr Münsterland GmbH
 166;bus;;Riesenbeck;Saerbeck;Regionalverkehr Münsterland GmbH
 167;bus;;Emsdetten;Saerbeck;Regionalverkehr Münsterland GmbH

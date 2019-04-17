@@ -45,7 +45,11 @@
 -
 - Diese Liste ist zunächst eine '''!!!Bestandsaufnahme der in OSM gefundenen Relationen!!!'''
 - 
-- Diese [[WikiProject_Germany/Railway/Route_Network/Analysis/DE-Bahnverkehr-Routes|Liste]] sowie eine [[Talk:WikiProject_Germany/Railway/Route_Network/Analysis|Diskussionsseite]] werden später im OSM Wiki hinterlegt
+- Diese [[WikiProject_Germany/Railway/Route_Network/Analysis/DE-Bahnverkehr-Routes|Liste]] sowie eine [[Talk:WikiProject_Germany/Railway/Route_Network/Analysis|Diskussionsseite]] sind im OSM Wiki hinterlegt.
+-
+- Diese [[WikiProject_Germany/Railway/Route_Network/Analysis/DE-Bahnverkehr-Routes|Liste]] kann von jedem aktualisiert, umsortiert, erweitert und korrigiert werden.
+-
+- !!!Bitte bei Änderungen an''' 'ref' ''' auch diese Liste entsprechend anpassen!!! Z.B. bei Änderung: 'ref'='RB7' --> 'ref'='RB 7'
 -
 
 == Fernverkehr
@@ -76,27 +80,11 @@ ICE 49;train;;;;
 ICE 50;train;;;;
 ICE 78;train;;;;
 ICE 79;train;;;;
-ICE 82;train;;;;
 "TGV 101;ICE 82";train;;;;
 "TGV 101;ICE 83";train;;;;
+"TGV 84;ICE 84";train;;;;
 ICE 91;train;;;;
-ICE 228;train;;;;DB Fernverkehr AG
-ICE 506;train;;;;DB Fernverkehr AG
-ICE 507;train;;Berlin;München;DB Fernverkehr AG
-ICE 508;train;;München;Berlin;DB Fernverkehr AG
 ICE 533;train;;;;
-ICE 537;train;;Bremen;München;DB Fernverkehr AG
-ICE 538;train;;München;Bremen;DB Fernverkehr AG
-ICE 582;train;;;;DB Fernverkehr AG
-ICE 603;train;;;;DB Fernverkehr AG
-ICE 611;train;;;;DB Fernverkehr AG
-ICE 690;train;;;;DB Fernverkehr AG
-ICE 703;train;;;;DB Fernverkehr AG
-ICE 786;train;;;;DB Fernverkehr AG
-ICE 800;train;;;;DB Fernverkehr AG
-ICE 1223;train;;;;DB Fernverkehr AG
-ICE 1521;train;;;;DB Fernverkehr AG
-
 -
 
 === Inter City (IC)
@@ -123,7 +111,6 @@ IC 76;train;;;;
 IC 77;train;;;;
 IC 81;train;;;;
 IC 87;train;;;;
-IC 2026;train;;;;DB Fernverkehr AG
 IC 2038;train;;;;
 IC 2430;train;;;;
 -
@@ -177,7 +164,6 @@ R1;train;;;;
 "R1;KBS 750";train;;;;
 R2;train;;;;
 R5;train;;;;
-R6;train;;;;
 R7;train;;;;
 R8;train;;;;
 R 11;train;;;;
@@ -205,8 +191,7 @@ RB11;train;;;;
 RB13;train;;;;
 RB14;train;;;;
 RB15;train;;;;
-RB16;train;;;;
-RB17;train;;;;
+RB 16;train;;;;
 RB 17;train;;;;
 RB 20;train;;;;
 RB22;train;;;;
@@ -298,6 +283,7 @@ RE18;train;;;;
 RE 19;train;;;;
 RE19;train;;;;
 RE 20;train;;;;
+RE 30;train;;;;
 RE 31;train;;;;
 RE 42;train;;;;
 RE 45;train;;;;
@@ -312,8 +298,20 @@ RE Stuttgart–Würzburg;train;;;;
 
 === 100 .. 199
 === 200 .. 299
+
+RB51;train;KBS 216;;;
+RB 57;train;KBS 250;;;
+RB 42;train;KBS 254;;;
+RB 31;train;KBS 260;;;
+RB 26;train;KBS 269;;;
+-
+
 === 300 .. 399
 
+RB 32;train;KBS 305;;;
+RB 41;train;KBS 334, 335;;;
+RB 59;train;KBS 335, 595?;;;
+RB 43;train;KBS 340;;;
 356.2;train;;;;
 373;train;;;;
 380;train;;;;
@@ -321,6 +319,14 @@ RE Stuttgart–Würzburg;train;;;;
 
 === 400 .. 499
 === 500 .. 599
+
+RB 25;train;KBS 568;;;
+570;train;;;;
+RB 78;train;KBS 586;;;
+RB 59;train;KBS 335, 595?;;;
+
+-
+
 === 600 .. 699
 
 640;train;;;;
@@ -352,6 +358,7 @@ RE Stuttgart–Würzburg;train;;;;
 764;train;;;;
 766;train;;;;
 781;train;;;;
+783;train;;;;
 -
 
 === 800 .. 899
@@ -457,6 +464,7 @@ OE 64;train;;;;
 OTB;train;;;;
 Palmen-Express;train;;;;
 Rhön-Zügle;train;;;;
+SOEG;train;;;;
 STB 41;train;;;;
 STB 42;train;;;;
 STB 44;train;;;;
@@ -474,8 +482,7 @@ ZAB 4;train;;;;
 === TGV
 
 OUIGo;train;;;;
-TGV 84;train;;;;
-TGV84;train;;;;
+"TGV 84;ICE 84";train;;;;
 "TGV 101;ICE 82";train;;;;
 "TGV 101;ICE 83";train;;;;
 TGV 108;train;;;;
