@@ -51,19 +51,19 @@
 #ref;type;comment;from;to;operator
 
 == Lines
-DM2 A;bus;;;;
+DM2A;bus;;;;
 DM2B;bus;;;;
-DM3;bus;;;;
+DM3|DM3A|DM3B;bus;;;;
 DM4;bus;;;;
 DM5;bus;;;;
-DM6A;bus;;;;
-DM6B;bus;;;;
+DM06A;bus;;;;
+DM06B;bus;;;;
 DM8;bus;;;;
-DM9;bus;;;;
-DM10 A;bus;;;;
-DM10 S;bus;;;;
-DM11 A;bus;;;;
-DM11 C;bus;;;;
+DM09;bus;;;;
+DM10A;bus;;;;
+DM10S;bus;;;;
+DM11A;bus;;;;
+DM11C;bus;;;;
 DM11E;bus;;;;
 DM11G;bus;;;;
 DM12;bus;;;;
