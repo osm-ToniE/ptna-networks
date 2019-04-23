@@ -84,7 +84,6 @@ ICE 79;train;;;;
 "TGV 101;ICE 83";train;;;;
 "TGV 84;ICE 84";train;;;;
 ICE 91;train;;;;
-ICE 533;train;;;;
 -
 
 === Inter City (IC)
@@ -163,6 +162,7 @@ EN 50463;train;;;;
 R1;train;;;;
 "R1;KBS 750";train;;;;
 R2;train;;;;
+"R85;R 4";train;;;;
 R5;train;;;;
 R7;train;;;;
 R8;train;;;;
@@ -179,6 +179,7 @@ R71;train;;;;
 R73;train;;;;
 R81;train;;;;
 R82;train;;;;
+"R85;R 4";train;;;;
 R151;train;;;;
 -
 
@@ -365,7 +366,6 @@ RB 59;train;KBS 335, 595?;;;
 
 800;train;;;;
 801;train;;;;
-KBS 801;train;;;;
 811;train;;;;
 815;train;;;;
 826;train;;;;
