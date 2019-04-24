@@ -73,7 +73,7 @@ RB81;train;;;;
 RB82;train;;;;
 #RB83;train;;;; neue Line über Trier-West, PT noch nicht in Betrieb
 #RB84;train;;;; neue Line über Trier-West, PT noch nicht in Betrieb
-RB85;train;;;;
+RB 85;train;;;;
 
 == Bus
 

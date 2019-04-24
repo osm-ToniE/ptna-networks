@@ -141,7 +141,7 @@ RB38;train;Pellenz-Eifel-Bahn (PEL);Andernach;Kaisersesch;DB AG
 RB39;train;Rhein-Ahr-Bahn;Remagen;Ahrbrück;DB Regio
 
 RB81;train;Moseltal-Bahn (MOS);Koblenz;Trier;DB AG
-RB85;train;Moselwein-Bahn (MOW);Bullay;Traben-Trarbach;Hunsrückbahn (Transdev SE & Co. KG, ehem. Rhenus Veniro)
+RB 85;train;Moselwein-Bahn (MOW);Bullay;Traben-Trarbach;Hunsrückbahn (Transdev SE & Co. KG, ehem. Rhenus Veniro)
 RB90;train;Westerwald-Sieg-Bahn;Limburg;Siegen;HLB
 RB93;train;Rothaar-Bahn;Betzdorf (Sieg);Bad Berleburg;
 RB96;train;Hellertalbahn (HEL);Betzdorf;Dillenburg;HLB

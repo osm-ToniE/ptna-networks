@@ -67,7 +67,7 @@
 4;tram;Hutholz - Zentralhaltestelle - Hauptbahnhof;;;Chemnitzer Verkehrs-AG
 5;tram;Hutholz - Zentralhaltestelle - Gablenz;;;Chemnitzer Verkehrs-AG
 21;bus;(Limbach-Oberfrohna -) Chemnitz-Center - Zentralhaltestelle - Ebersdorf;;;Chemnitzer Verkehrs-AG
-22;bus;Zentralhaltestelle - Glösa;;;CVAG
+22;bus;Zentralhaltestelle - Glösa;;;Chemnitzer Verkehrs-AG
 23;bus;Heinersdorf - Zentralhaltestelle - Neefepark;;;CVAG
 26;bus;Schönau - Hutholz;;;CVAG
 31;bus;Yorckgebiet - Flemmingstraße;;;Chemnitzer Verkehrs-AG
@@ -78,7 +78,7 @@
 42;bus;Schönau - Rabenstein, Grünaer Straße;;;CVAG
 43|E43;bus;(Schösserholz -) Adelsberg - Rabenstein, Tierpark;;;Chemnitzer-Verkehrs-AG
 46;bus;Wittgensdorf, Chemnitztal - Borna;;;Chemnitzer Verkehrs-AG
-51|E51;bus;Zentralhaltestelle - Zeisigwald, Klinik Bethanien / Yorckgebiet;;;CVAG
+51;bus;Zentralhaltestelle - Zeisigwald, Klinik Bethanien bzw. Yorckgebiet;;;Chemnitzer Verkehrs-AG
 52;bus;Hutholz - Chemnitzer Straße - Zentralhaltestelle;;;CVAG
 53;bus;Chemnitzer Straße - Altchemnitz - Technopark;;;Chemnitzer Verkehrs-AG
 56;bus;Bernsdorf - Kleinolbersdorf-Altenhain - Bernsdorf;;;CVAG
