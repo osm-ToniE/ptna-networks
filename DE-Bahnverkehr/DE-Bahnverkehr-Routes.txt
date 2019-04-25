@@ -110,8 +110,6 @@ IC 76;train;;;;
 IC 77;train;;;;
 IC 81;train;;;;
 IC 87;train;;;;
-IC 2038;train;;;;
-IC 2430;train;;;;
 -
 
 === Euro City (EC)
