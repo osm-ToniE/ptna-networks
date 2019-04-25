@@ -1,0 +1,170 @@
+<pre>
+#
+# Formatierung: die Formatierung lehnt sich ans Wiki an.
+#
+# Links: [[...|...]] sind (wie im OSM-Wiki) interne Verweise ins OSM-Wiki
+#        [... ...] sind (wie im OSM-Wiki) externe Verweise ins Internet
+#
+# Überschriften beginnen mit '=', '==', '===', '====', ... am Anfang einer Zeile
+#
+# Einfacher Text beginnt mit '-' am Anfang einer Zeile.
+#     Einfacher Text darf überall stehen.
+#     Ein einfaches '-' am Anfang der Zeile gefolgt von 'nichts':
+#     - wenn davor einfacher Text stand wird ein Zeilenumbruch erzeugt und das bisher ausgegebenen in einen Paragraphen <p> ... </p> gepackt
+#     - wenn vorher kein einfacher Text stand bzw. ein Zeilenumbruch erzeugt wurde, so wird eine Leerzeile erzeugt mit Hilfe von <p>&amp;nbsp;</p>
+#
+# !!!Text mit gelbem Hintergrund!!! in einfachem Text oder Überschriften
+# '''''Text mit dicken, kursiven Buchstaben''''' in einfachem Text oder Überschriften
+# '''Text mit dicken Buchstaben''' in einfachem Text oder Überschriften
+# ''Text mit kursiven Buchstaben'' in einfachem Text oder Überschriften
+#
+# Kommentare beginnen mit '#' am Anfang einer Zeile. Kommentare mittendrin werden nicht erkannt, d.h. '#' darf innerhalb von Text vorkommen.
+#
+# Format der Datei: UTF-8
+#
+#
+# Definition von Linieninformationen: Inhalt im CSV-Format
+#
+# ref;type;comment;from;to;operator
+#
+# - ref       == tag 'ref' von route oder route_master
+#                250            definiert, dass hier Linien mit 'ref'='250' erwartet wird
+#                250|250a|250b  definiert, dass hier Linien mit 'ref'='250' und 'ref'='250a' und 'ref'='250b' zulässig sind - ob das nach PTv1/PTv2 erlaubt ist, ist eine andere Sache
+# - type      == inhalt des tags 'route' bzw. 'route_master'
+# - comment   == kann Kommentar enthalten wie; Ruftaxi, Bus, Expressbus, ...  wird nicht ausgewertet, lediglich ausgegeben
+#                !Text mit gelbem Hintergrund! im comment (umgeben von einfachem !)
+# - from      == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
+# - to        == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
+# - operator  == wird bei mehreren Linie mit identischem ref und type Differenzierung herangezogen
+#                Der Wert von 'operator' darf ';' enthalten
+#
+
+
+= Überblick über die ÖPNV-Linien des "Nahverkehrsverbund Schleswig-Holstein (NAH.SH)"
+
+- Verweis auf die Datei mit den [[Schleswig-Holstein/NAH.SH/Analyse/DE-SH-NAH.SH-Linien|NAH.SH-Linien]] im Wiki.
+-
+- Verweis auf mehr [[Talk:Schleswig-Holstein/NAH.SH/Analyse|Informationen]] im Wiki.
+-
+
+
+- Diese Auswertung enthält derzeit den Beginn einee !!!'''Bestandsaufnahme der in OSM gefundenen NAH.SH-Linien'''!!!.
+-
+- Ziel ist aber die Erstellung dieser Liste aus NAH.SH-Daten mit allen zum NAH.SH gehörigen Linien. 
+- Die Liste kommt idealerweise direkt vom und mit Hilfe des Betreibers/Verkehrsverbundes (copyright!).
+-
+
+== Bahnverkehr
+
+A1;train;;;;AKN Eisenbahn GmbH
+
+RB61;train;;;;NBE nordbahn Eisenbahngesellschaft
+RB62;train;;;;DB Regio
+RB 63;train;;;;NBE Nordbahn
+RB 64;train;;Husum;Bad St. Peter-Ording;DB Regio AG - Region Nord
+"RB 65;136";train;;Niebüll;Dagebüll Mole;Norddeutsche Eisenbahngesellschaft Niebüll
+"RB 66;136";train;;Niebüll;Tønder;Norddeutsche Eisenbahngesellschaft Niebüll
+RB71;train;;;;NBE nordbahn Eisenbahngesellschaft
+RB 76;train;;;;
+RB77;train;;;;DB Regio
+RB82;train;;;;NBE nordbahn Eisenbahngesellschaft
+RB84;train;;;;DB Regio
+RB 85;train;;;;DB Regio AG - Region Nord
+RB86;train;;;;DB Regio AG - Region Nord
+
+RE4;train;;;;DB Regio
+RE6;train;;;;DB Regio
+RE7;train;;;;DB Regio
+RE8;train;;;;DB Regio
+RE70;train;;;;DB Regio
+RE 72;train;;;;DB Regio AG - Region Nord
+RE 74;train;;;;DB Regio AG - Region Nord
+RE80;train;;;;DB Regio
+RE83;train;;;;DB Regio
+-
+
+== Busse
+
+1;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+1;bus;;;;Stadtverkehr Lübeck GmbH
+1;bus;;;;Aktiv Bus
+1;bus;;;;Stadtverkehr Rendsburg
+
+2|2A;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+2;bus;;;;Stadtverkehr Lübeck GmbH
+2;bus;;;;Aktiv Bus
+2;bus;;;;Stadtverkehr Rendsburg
+
+3;bus;;;;Stadtverkehr Lübeck GmbH
+3;bus;;;;Aktiv Bus
+3;bus;;;;Stadtverkehr Rendsburg
+
+4;bus;;;;Stadtverkehr Lübeck GmbH
+4;bus;;;;Aktiv Bus
+4;bus;;;;Autokraft
+
+5;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+5;bus;;;;Stadtverkehr Lübeck GmbH
+5;bus;;;;Aktiv Bus
+5;bus;;;;Stadtverkehr Rendsburg
+
+6;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+6;bus;;;;Stadtverkehr Lübeck GmbH
+6;bus;;;;Stadtverkehr Rendsburg
+
+7;bus;;;;Stadtverkehr Lübeck GmbH
+7;bus;;;;Aktiv Bus
+7;bus;;;;Autokraft GmbH
+7;bus;;;;Stadtverkehr Rendsburg
+
+8;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+8;bus;;;;Stadtverkehr Lübeck
+
+9;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+9;bus;;;;Stadtverkehr Lübeck GmbH
+
+1;bus;;;;Wyker Dampfschiffs-Reederei Föhr-Amrum GmbH
+2;bus;;;;Wyker Dampfschiffs-Reederei Föhr-Amrum GmbH
+3;bus;;;;Wyker Dampfschiffs-Reederei Föhr-Amrum GmbH
+4;bus;;;;Wyker Dampfschiffs-Reederei Föhr-Amrum GmbH
+1,11;bus;;;;
+1,11,2,22;bus;;;;
+1,2,3;bus;;;;
+1,2,4;bus;;;;
+2,22;bus;;;;
+3,11,22;bus;;;;
+4,11,22;bus;;;;
+
+10;bus;;;;
+11;bus;;;;
+12;bus;;;;
+13;bus;;;;
+14;bus;;;;
+14A;bus;;;;
+14a;bus;;;;
+15;bus;;;;
+16;bus;;;;
+17;bus;;;;
+18;bus;;;;
+
+100;bus;;;;
+101;bus;;;;
+104;bus;;;;
+
+
+1013;bus;;;;
+1029;bus;;;;
+1044;bus;;;;
+1046;bus;;;;
+1047;bus;;;;
+1050;bus;;;;
+1054;bus;;;;
+1055;bus;;;;
+1056;bus;;;;
+1091;bus;;;;
+
+-
+
+== Fähren
+
+</pre>
