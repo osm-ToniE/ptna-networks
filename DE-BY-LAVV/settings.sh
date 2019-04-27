@@ -13,7 +13,7 @@ NETWORK_SHORT="LAVV|LA"
 ANALYSIS_PAGE="Landshut/Transportation/Analyse"
 WIKI_ROUTES_PAGE="Landshut/Transportation/Analyse/DE-BY-LAVV-Linien"
 
-ANALYSIS_OPTIONS="--language=de --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=allow --positive-notes --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=allow --positive-notes --coloured-sketchline"
 
 # --max-error=
 # --check-bus-stop 

@@ -13,7 +13,7 @@ NETWORK_SHORT="DING"
 ANALYSIS_PAGE="DING/Transportation"
 WIKI_ROUTES_PAGE="DING/Transportation/DING-Linien"
 
-ANALYSIS_OPTIONS="--language=de --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
 # --max-error=
 # --check-bus-stop 

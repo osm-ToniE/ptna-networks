@@ -14,7 +14,7 @@ NETWORK_SHORT="VVS"
 ANALYSIS_PAGE="Stuttgart/Transportation/Analyse"
 WIKI_ROUTES_PAGE="Stuttgart/Transportation/VVS-Linien-gesamt"
 
-ANALYSIS_OPTIONS="--language=de --check-access --check-stop-position --check-sequence --check-osm-separator --check-osm-separator --check-motorway-link --positive-notes --check-name --multiple-ref-type-entries=analyze --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-stop-position --check-sequence --check-osm-separator --check-osm-separator --check-motorway-link --positive-notes --check-name --multiple-ref-type-entries=analyze --coloured-sketchline"
 
 # --check-bus-stop 
 # --expect-network-long
