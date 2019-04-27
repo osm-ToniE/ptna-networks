@@ -143,6 +143,7 @@ S5;train;;Hannover Flughafen;Paderborn Hbf|Bad Pyrmont;DB Regio AG
 17;bus;;;;Stadtwerke Münster
 18;bus;;;;Stadtwerke Münster
 19;bus;;;;Stadtwerke Münster
+20;bus;;;;Stadtwerke Münster
 22;bus;;;;Stadtwerke Münster;Regionalverkehr Münsterland GmbH
 33;bus;;;;Stadtwerke Münster
 34;bus;;;;Stadtwerke Münster
@@ -161,6 +162,7 @@ D90;bus;;Lüdinghausen;Münster;Regionalverkehr Münsterland GmbH
 
 E6;bus;;;;Stadtwerke Münster
 E8;bus;;;;Stadtwerke Münster
+E10;bus;;;;Stadtwerke Münster
 
 F1;bus;;Beckum;Münster;Regionalverkehr Münsterland GmbH
 
@@ -209,7 +211,6 @@ T5;bus;;;;Stadtwerke Münster
 T7;bus;Taxibus;;;Stadtwerke Münster
 T8;bus;Taxibus;;;Stadtwerke Münster
 T9;bus;Taxibus;;;Stadtwerke Münster
-T10;bus;;;;Stadtwerke Münster
 T15;bus;;;;Stadtwerke Münster
 T18;bus;;;;Stadtwerke Münster
 T20;bus;;;;Stadtwerke Münster
@@ -2436,6 +2437,7 @@ R81;bus;;Finnentrop;Eslohe;Verkehrsbetriebe Westfalen-Süd GmbH
 R90;bus;;Olpe;Altenhundem;Verkehrsbetriebe Westfalen-Süd GmbH
 R91;bus;;Altenhundem;Brachthausen;Verkehrsbetriebe Westfalen-Süd GmbH
 R92;bus;;Hilchenbach;Altenhundem;Verkehrsbetriebe Westfalen-Süd GmbH
+R93;bus;;Altenhundem;Heinsberg;Verkehrsbetriebe Westfalen-Süd GmbH
 R94;bus;;;;Verkehrsbetriebe Westfalen-Süd GmbH
 R98;bus;;;;Verkehrsbetriebe Westfalen-Süd GmbH
 

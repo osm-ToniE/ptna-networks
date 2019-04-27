@@ -56,7 +56,9 @@
 
 == Bahnverkehr
 
-A1;train;;;;AKN Eisenbahn GmbH
+A1;train;;Hamburg-Eidelstedt;Neumünster;AKN Eisenbahn GmbH
+A2;train;;Ulzburg Süd;Norderstedt Mitte;AKN Eisenbahn GmbH
+A3;train;;Elmshorn;Ulzburg Süd;AKN Eisenbahn GmbH
 
 RB61;train;;;;NBE nordbahn Eisenbahngesellschaft
 RB62;train;;;;DB Regio
@@ -85,86 +87,319 @@ RE83;train;;;;DB Regio
 
 == Busse
 
+=== 1 .. 99
+
 1;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
 1;bus;;;;Stadtverkehr Lübeck GmbH
 1;bus;;;;Aktiv Bus
 1;bus;;;;Stadtverkehr Rendsburg
-
 2|2A;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
 2;bus;;;;Stadtverkehr Lübeck GmbH
 2;bus;;;;Aktiv Bus
 2;bus;;;;Stadtverkehr Rendsburg
-
 3;bus;;;;Stadtverkehr Lübeck GmbH
 3;bus;;;;Aktiv Bus
 3;bus;;;;Stadtverkehr Rendsburg
-
 4;bus;;;;Stadtverkehr Lübeck GmbH
 4;bus;;;;Aktiv Bus
 4;bus;;;;Autokraft
-
 5;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
 5;bus;;;;Stadtverkehr Lübeck GmbH
 5;bus;;;;Aktiv Bus
 5;bus;;;;Stadtverkehr Rendsburg
-
 6;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
 6;bus;;;;Stadtverkehr Lübeck GmbH
 6;bus;;;;Stadtverkehr Rendsburg
-
 7;bus;;;;Stadtverkehr Lübeck GmbH
 7;bus;;;;Aktiv Bus
 7;bus;;;;Autokraft GmbH
 7;bus;;;;Stadtverkehr Rendsburg
-
 8;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
 8;bus;;;;Stadtverkehr Lübeck
-
 9;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
 9;bus;;;;Stadtverkehr Lübeck GmbH
 
-1;bus;;;;Wyker Dampfschiffs-Reederei Föhr-Amrum GmbH
-2;bus;;;;Wyker Dampfschiffs-Reederei Föhr-Amrum GmbH
-3;bus;;;;Wyker Dampfschiffs-Reederei Föhr-Amrum GmbH
-4;bus;;;;Wyker Dampfschiffs-Reederei Föhr-Amrum GmbH
-1,11;bus;;;;
-1,11,2,22;bus;;;;
-1,2,3;bus;;;;
-1,2,4;bus;;;;
-2,22;bus;;;;
-3,11,22;bus;;;;
-4,11,22;bus;;;;
-
-10;bus;;;;
-11;bus;;;;
-12;bus;;;;
+10;bus;;;;Stadtverkehr Lübeck GmbH
+11;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+11;bus;;;;Stadtverkehr Lübeck GmbH
+12;bus;;;;Stadtverkehr Lübeck GmbH
+12;bus;;;;Allgemeine Flensburger Autobusgesellschaft (AFAG)
 13;bus;;;;
-14;bus;;;;
+14;bus;;;;Allgemeine Flensburger Autobusgesellschaft (AFAG)
+14;bus;;;;Aktiv Bus Flensburg
 14A;bus;;;;
 14a;bus;;;;
-15;bus;;;;
-16;bus;;;;
-17;bus;;;;
-18;bus;;;;
+15;bus;;;;Stadtverkehr Lübeck GmbH
+15;bus;;;;Sievers Reisen
+15;bus;;;;Allgemeine Flensburger Autobusgesellschaft (AFAG)
+16;bus;;;;Stadtverkehr Lübeck GmbH
+16;bus;;;;Stadtverkehr Rendsburg
+17;bus;;;;Stadtverkehr Lübeck GmbH
+17;bus;;;;Stadtverkehr Rendsburg
+18;bus;;;;Stadtverkehr Lübeck GmbH
+19;bus;;;;Stadtverkehr Rendsburg
 
-100;bus;;;;
-101;bus;;;;
-104;bus;;;;
+21;bus;;;;Stadtverkehr Lübeck GmbH
+21;bus;;;;Förde Bus
+22;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+
+30;bus;;;;Lübeck-Travemünder Verkehrsgesellschaft mbH
+30S;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+31;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+31;bus;;;;Lübeck-Travemünder Verkehrsgesellschaft mbH
+32;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+32;bus;;;;Lübeck-Travemünder Verkehrsgesellschaft mbH
+33;bus;;;;Lübeck-Travemünder Verkehrsgesellschaft mbH
+34;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+35;bus;;;;Lübeck-Travemünder Verkehrsgesellschaft mbH
+38;bus;;;;Lübeck-Travemünder Verkehrsgesellschaft mbH
+39;bus;;;;LVG
+
+40;bus;;;;Lübeck-Travemünder Verkehrsgesellschaft mbH
+41;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+42;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+43;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+
+50;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+51;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+52;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+
+60S;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+61;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+62;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+
+71;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+72;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+
+81;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+
+91;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+92;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+-
+
+=== 100 .. 999
+
+100;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+101;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+102;bus;;;;Kieler Verkehrsgesellschaft
+104;bus;;;;Vineta
+
+210;bus;;;;
+220;bus;;;;
+221;bus;;;;
+260;bus;;;;
+
+300;bus;;;;
+350;bus;;;;
+360;bus;;;;
+
+410;bus;;;;
+
+501;bus;;;;
+502;bus;;;;
+503S;bus;;;;
+512;bus;;;;
+512S;bus;;;;
+520;bus;;;;
+521;bus;;;;
+
+620;bus;;;;
+640;bus;;;;
+
+701;bus;;;;
+702;bus;;;;
+703;bus;;;;
+704;bus;;;;
+705;bus;;;;
+736;bus;;;;
 
 
-1013;bus;;;;
-1029;bus;;;;
-1044;bus;;;;
-1046;bus;;;;
-1047;bus;;;;
-1050;bus;;;;
-1054;bus;;;;
-1055;bus;;;;
-1056;bus;;;;
-1091;bus;;;;
+821;bus;;;;
+830;bus;;;;
 
+900;bus;;;;
+901;bus;;;;
+902S;bus;;;;
+-
+
+=== 1000 .. 1999
+
+1013;bus;;;;Autokraft GmbH
+1020;bus;;;;
+1021;bus;;;;
+1028;bus;;;;
+1029;bus;;;;Röpke Liner
+1031;bus;;;;
+1044;bus;;;;Autokraft GmbH
+1046;bus;;;;Autokraft
+1047;bus;;;;Rohde Verkehrsbetriebe
+1050;bus;;;;Autokraft Husum
+1051;bus;;;;
+1052;bus;;;;
+1054;bus;;;;Autokraft
+1055;bus;;;;Autokraft
+1056;bus;;;;Autokraft
+1082;bus;;;;Autokraft GmbH
+1083;bus;;;;Autokraft GmbH
+1084;bus;;;;Autokraft GmbH
+1091;bus;;;;Neue Pellwormer Dampfschiffahrts GmbH
+
+1508;bus;;;;
+1513;bus;;;;
+1516;bus;;;;
+1550;bus;;;;
+1580;bus;;;;
+1597;bus;;;;
+1599;bus;;;;
+
+1603;bus;;;;
+1604;bus;;;;
+1605;bus;;;;
+1607;bus;;;;
+1615;bus;;;;
+1624;bus;;;;
+1625;bus;;;;
+
+1753;bus;;;;
+1754;bus;;;;
+-
+
+=== 2000 .. 2999
+
+2501;bus;;;;
+2509;bus;;;;
+2510;bus;;;;
+2581;bus;;;;
+2582;bus;;;;
+2583;bus;;;;
+2584;bus;;;;
+2590;bus;;;;
+2591;bus;;;;
+2614;bus;;;;
+2616;bus;;;;
+2730;bus;;;;
+2820;bus;;;;
+2910;bus;;;;
+2920;bus;;;;
+2930;bus;;;;
+2940;bus;;;;
+-
+
+=== 3000 .. 3999
+
+3060;bus;;;;
+3210;bus;;;;
+3231;bus;;;;
+3510;bus;;;;
+-
+
+=== 4000 .. 4999
+
+4310;bus;;;;
+4312;bus;;;;
+4330;bus;;;;
+4610;bus;;;;
+4615;bus;;;;
+4630;bus;;;;
+4810;bus;;;;
+-
+
+=== 5000 .. 5999
+
+5503;bus;;;;
+5506;bus;;;;
+5507;bus;;;;
+5508;bus;;;;
+5518;bus;;;;
+5600;bus;;;;
+5601;bus;;;;
+5604;bus;;;;
+5650;bus;;;;
+5651;bus;;;;
+5653;bus;;;;
+5702;bus;;;;
+5751;bus;;;;
+5752;bus;;;;
+5753;bus;;;;
+5754;bus;;;;
+5756;bus;;;;
+5800;bus;;;;
+5802;bus;;;;
+5803;bus;;;;
+5804;bus;;;;
+5809;bus;;;;
+5811;bus;;;;
+5820;bus;;;;
+5951;bus;;;;
+5970;bus;;;;
+-
+
+=== 6000 .. 6999
+
+6001;bus;;;;
+6003;bus;;;;
+6008;bus;;;;
+6551;bus;;;;
+6600;bus;;;;
+6602;bus;;;;
+6604;bus;;;;
+6605;bus;;;;
+6606;bus;;;;
+6609;bus;;;;
+6610;bus;;;;
+-
+
+=== 7000 .. 7999
+
+7600;bus;;;;
+7915;bus;;;;
+-
+
+=== 8000 .. 8999
+
+8102;bus;;;;
+8115;bus;;;;
+8163;bus;;;;
+8710;bus;;;;
+8720;bus;;;;
+8790;bus;;;;
+8861;bus;;;;
 -
 
 == Fähren
+
+F1;ferry;;Kiel, Bahnhof;Laboe;Schlepp- und Fährgesellschaft Kiel mbH
+F2;ferry;via Dietrichsdorf und Wellingdorf;Reventlou;Reventlou;Schlepp- und Fährgesellschaft Kiel mbH
+-
+
+= Weitere Verbünde/Betreiber
+
+#== Wyker Dampfschiffs-Reederei Föhr-Amrum
+#
+#=== Föhr
+#
+#1;bus;;;;Wyker Dampfschiffs-Reederei Föhr-Amrum GmbH
+#2;bus;;;;Wyker Dampfschiffs-Reederei Föhr-Amrum GmbH
+#3;bus;;;;Wyker Dampfschiffs-Reederei Föhr-Amrum GmbH
+#4;bus;;;;Wyker Dampfschiffs-Reederei Föhr-Amrum GmbH
+#1,11;bus;;;;Wyker Dampfschiffs-Reederei Föhr-Amrum GmbH
+#1,11,2,22;bus;;;;Wyker Dampfschiffs-Reederei Föhr-Amrum GmbH
+#1,2,3;bus;;;;Wyker Dampfschiffs-Reederei Föhr-Amrum GmbH
+#1,2,4;bus;;;;Wyker Dampfschiffs-Reederei Föhr-Amrum GmbH
+#2,22;bus;;;;Wyker Dampfschiffs-Reederei Föhr-Amrum GmbH
+#3,11,22;bus;;;;Wyker Dampfschiffs-Reederei Föhr-Amrum GmbH
+#4,11,22;bus;;;;Wyker Dampfschiffs-Reederei Föhr-Amrum GmbH
+#
+#=== Amrum
+#
+#10;bus;;;;Wyker Dampfschiffs-Reederei Föhr-Amrum GmbH
+#-
+
+== Kostenlose Shuttle-Busse (kein 'network')
+
+ELB-Shuttle;bus;;;;
+Herrentunnel;bus;;;;
+-
+
 
 </pre>
