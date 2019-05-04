@@ -13,7 +13,7 @@ NETWORK_SHORT="DB|BOB|Alex|Agilis|agilis|Thalys|TER|SNCF TGV|TGV|ÖBB|SBB"
 ANALYSIS_PAGE="WikiProject_Germany/Railway/Route_Network/Analysis"
 WIKI_ROUTES_PAGE="WikiProject_Germany/Railway/Route_Network/Analysis/DE-Bahnverkehr-Routes"
 
-ANALYSIS_OPTIONS="--language=de --check-access --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --positive-notes --max-error=10 --multiple-ref-type-entries=allow --coloured-sketchline --relaxed-begin-end-for=train,light_rail,monorail"
+ANALYSIS_OPTIONS="--language=de --check-access --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,light_rail,monorail"
 
 # --language=en
 # --check-bus-stop 
