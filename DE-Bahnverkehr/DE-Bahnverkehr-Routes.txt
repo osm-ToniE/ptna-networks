@@ -80,9 +80,9 @@ ICE 49;train;;;;
 ICE 50;train;;;;
 ICE 78;train;;;;
 ICE 79;train;;;;
-"TGV 101;ICE 82";train;;;;
-"TGV 101;ICE 83";train;;;;
-"TGV 84;ICE 84";train;;;;
+"TGV 101;ICE 82";train;;Frankfurt;Paris-Est;Alleo GmbH
+"TGV 101;ICE 83";train;;München|Stuttgart;Paris-Est;Alleo GmbH
+"TGV 84;ICE 84";train;;Frankfurt;Marseille;SNCF
 ICE 91;train;;;;
 -
 
@@ -90,10 +90,9 @@ ICE 91;train;;;;
 
 IC 4;train;;;;
 IC 26.1;train;;;;
-"EC 27;IC 27";train;;;;
+"EC 27;IC 27";train;;Stralsund|Berlin|Dresden|Hamburg;Praha|Decin;DB Fernverkehr AG
 IC 28;train;;;;
 IC 30;train;;;;
-"EC 30;IC 30";train;;;;
 IC 31;train;;;;
 IC 32;train;;;;
 IC 35;train;;;;
@@ -118,8 +117,7 @@ EC 6;train;;;;
 EC 7;train;;;;
 EC 8;train;;;;
 EC 9;train;;;;
-"EC 27;IC 27";train;;;;
-"EC 30;IC 30";train;;;;
+"EC 27;IC 27";train;;Praha|Decin;Stralsund|Berlin|Dresden|Hamburg;DB Fernverkehr AG
 EC 54;train;;;;
 EC 55;train;;;;
 EC 62;train;;;;
@@ -158,9 +156,9 @@ EN 50463;train;;;;
 === R-Bahn
 
 R1;train;;;;
-"R1;KBS 750";train;;;;
+"R1;KBS 750";train;;Stuttgart;Ulm;DB
 R2;train;;;;
-"R85;R 4";train;;;;
+"R85;R 4";train;;Stuttgart;Würzburg;DB Regio
 R5;train;;;;
 R7;train;;;;
 R8;train;;;;
@@ -177,7 +175,7 @@ R71;train;;;;
 R73;train;;;;
 R81;train;;;;
 R82;train;;;;
-"R85;R 4";train;;;;
+"R85;R 4";train;;Würzburg;Stuttgart;DB Regio
 R151;train;;;;
 -
 
@@ -195,14 +193,16 @@ RB 17;train;;;;
 RB 20;train;;;;
 RB22;train;;;;
 RB23;train;;;;
-RB 24;train;;;;
-RB 25;train;;;;
+RB 24;train;;Zinnowitz;Peenemünde;DB Regio AG
+RB 24;train;;Grossheringen;Saalfeld;Abellio Rail Mitteldeutschland GmbH
+RB 25;train;;Halle(S)Hbf;Saalfeld;Abellio Rail Mitteldeutschland GmbH
 RB25;train;;;;
-RB 26;train;;;;
+RB 26;train;;Tangermünde;Stendal;DB Regio Sachsen-Anhalt
 RB26;train;;;;
 RB 28;train;;;;
-RB 31;train;;;;
-RB 32;train;;;;
+RB 31;train;;Dresden;Elsterwerda;DB Regio Nordost
+RB 31;train;;Genthin;Magdeburg;DB Regio Sachsen-Anhalt
+RB 32;train;;Stendal;Salzwedel;DB Regio Sachsen-Anhalt
 RüBB;train;;;;
 RB33;train;;;;
 RB 34;train;;;;
@@ -210,20 +210,20 @@ RB34;train;;;;
 RB 35;train;;;;
 RB37;train;;;;
 RB41;train;;;;
-RB 42;train;;;;
-RB 43;train;;;;
+RB 42;train;;Dessau;Magdeburg;DB Regio Sachsen-Anhalt
+RB 43;train;;Magdeburg;Halle;DB Regio Südost
 RB46;train;;;;
 RB 47;train;;;;
 RB48;train;;;;
 RB49;train;;;;
 RB50;train;;;;
 RB 51;train;;;;
-RB51;train;;;;
+RB51;train;;Falkenberg;Dessau;DB Regio Südost
 RB 52;train;;;;
 RB55;train;;;;
-RB 57;train;;;;
+RB 57;train;;Leipzig;Lutherstadt Wittenberg;DB Regio Südost
 RB 59;train;;;;
-RB59;train;;;;
+RB59;train;;Sangerhausen;Erfurt;Abellio Rail Mitteldeutschland GmbH
 RB 60;train;;;;
 RB 61;train;;;;
 #RB62;train;NAH.SH;;;
@@ -235,8 +235,7 @@ RB75;train;;;;
 RB 76;train;;;;
 RB76;train;;;;
 #RB77;train;NAH.SH;;;
-RB 78;train;;;;
-RB 79;train;;;;
+RB 78;train;;Merseburg;Querfurt;Burgenlandbahn (DB Regio Südost)
 RB79;train;;;;
 RB80;train;;;;
 RB81;train;;;;
@@ -273,8 +272,9 @@ RE 10;train;;;;
 RE10;train;;;;
 RE 11;train;;;;
 RE 13;train;;;;
-RE 15;train;;;;
-RE15;train;;;;
+RE 15;train;;Magdeburg;Lutherstadt Wittenberg;DB Regio Südost
+RE 15;train;;Mainz;Kaiserslautern;DB Regio Südwest
+RE 15;train;;Emden Hbf;Emden Außenhafen;Westfalenbahn
 RE 16;train;;;;
 RE 17;train;;;;
 RE 18;train;;;;
@@ -293,24 +293,31 @@ RE103;train;;;;
 RE Stuttgart–Würzburg;train;;;;
 -
 
-== Kursbuchstrecken (KBS)
+== Querverweise zu Kursbuchstrecken (KBS)
+- Einige Zug-Relationen (route=train) haben 'note' oder andere Verweise auf KBS-Nummern oder sind mit ref=&amp;KBS<&amp; gemapped.
+-
+- Die unterscheidung von Zügen (route=train) und KBS (route=railway) ist zum Teil nicht konsequent und nicht korrekt. Hier gibt es noch Handlungsbedarf.
+-
+- Es folgt eine Auflistung der Züge mit Querverweisen zu KBS bzw. wo 'ref' einer KBS-Nummer entspricht. 
+-
+-
 
 === 100 .. 199
 === 200 .. 299
 
-RB51;train;KBS 216;;;
-RB 57;train;KBS 250;;;
-RB 42;train;KBS 254;;;
-RB 31;train;KBS 260;;;
-RB 26;train;KBS 269;;;
+RB51;train;KBS 216;Dessau;Falkenberg;DB Regio Südost
+RB 57;train;KBS 250;Lutherstadt Wittenberg;Leipzig;DB Regio Südost
+RB 42;train;KBS 254;Magdeburg;Dessau;DB Regio Sachsen-Anhalt
+RB 31;train;KBS 260;Magdeburg;Genthin;DB Regio Sachsen-Anhalt
+RB 26;train;KBS 269;Stendal;Tangermünde;DB Regio Sachsen-Anhalt
 -
 
 === 300 .. 399
 
-RB 32;train;KBS 305;;;
+RB 32;train;KBS 305;Salzwedel;Stendal;DB Regio Sachsen-Anhalt
 RB 41;train;KBS 334, 335;;;
-RB 59;train;KBS 335, 595?;;;
-RB 43;train;KBS 340;;;
+RB 59;train;KBS 335, 595?;Erfurt;Sangerhausen;Abellio Rail Mitteldeutschland GmbH
+RB 43;train;KBS 340;Halle;Magdeburg;DB Regio Südost
 356.2;train;;;;
 373;train;;;;
 380;train;;;;
@@ -319,9 +326,9 @@ RB 43;train;KBS 340;;;
 === 400 .. 499
 === 500 .. 599
 
-RB 25;train;KBS 568;;;
+RB 25;train;KBS 568;Saalfeld;Halle(S)Hbf;Abellio Rail Mitteldeutschland GmbH
 570;train;;;;
-RB 78;train;KBS 586;;;
+RB 78;train;KBS 586;Merseburg;Querfurt;Burgenlandbahn (DB Regio Südost)
 RB 59;train;KBS 335, 595?;;;
 
 -
@@ -336,7 +343,7 @@ RB 59;train;KBS 335, 595?;;;
 
 717;train;;;;
 718;train;;;;
-"719;A 11";train;;;;
+"719;A 11";train;;Offenburg;Strasbourg;Ortenau S-Bahn;SNCF
 721;train;;;;
 722;train;;;;
 730;train;;;;
@@ -346,11 +353,10 @@ RB 59;train;KBS 335, 595?;;;
 742;train;;;;
 742.1;train;;;;
 743;train;;;;
-"R1;KBS 750";train;;;;
+"R1;KBS 750";train;;Ulm;Stuttgart;DB
 751;train;;;;
 753;train;;;;
 755;train;;;;
-757;train;;;;
 757;train;;;;
 760;train;;;;
 763;train;;;;
@@ -386,7 +392,6 @@ KBS 831–867;train;;;;
 931;train;;;;
 932;train;;;;
 933;train;;;;
-933;train;;;;
 940;train;;;;
 941;train;;;;
 942;train;;;;
@@ -418,7 +423,6 @@ KBS 831–867;train;;;;
 983;train;;;;
 984;train;;;;
 985;train;;;;
-986;train;;;;
 986;train;;;;
 990;train;;;;
 991;train;;;;
@@ -458,7 +462,6 @@ HSB;train;;;;
 Harz-Berlin-Express;train;;;;
 Museumseisenbahn Küstenbahn Ostfriesland;train;;;;
 OBS;train;;;;
-OE 64;train;;;;
 OTB;train;;;;
 Palmen-Express;train;;;;
 Rhön-Zügle;train;;;;
@@ -480,9 +483,9 @@ ZAB 4;train;;;;
 === TGV
 
 OUIGo;train;;;;
-"TGV 84;ICE 84";train;;;;
-"TGV 101;ICE 82";train;;;;
-"TGV 101;ICE 83";train;;;;
+"TGV 84;ICE 84";train;;Marseille;Frankfurt;SNCF
+"TGV 101;ICE 82";train;;Paris-Est;Frankfurt;Alleo GmbH
+"TGV 101;ICE 83";train;;Paris-Est;München|Stuttgart;Alleo GmbH
 TGV 108;train;;;;
 TGV 110;train;;;;
 TGV 111;train;;;;
@@ -549,7 +552,7 @@ A 05;train;;;;
 A 06;train;;;;
 A 07;train;;;;
 A 08;train;;;;
-"719;A 11";train;;;;
+"719;A 11";train;;Strasbourg;Offenburg;Ortenau S-Bahn;SNCF
 A 13;train;;;;
 A 14;train;;;;
 A 15;train;;;;

@@ -160,9 +160,17 @@ D60;bus;;Nottuln;Münster;Regionalverkehr Münsterland GmbH
 D72;bus;;Ahaus;Münster;Regionalverkehr Münsterland GmbH
 D90;bus;;Lüdinghausen;Münster;Regionalverkehr Münsterland GmbH
 
+E1;bus;;;;Stadtwerke Münster
+E4;bus;;;;Stadtwerke Münster
+E5;bus;;;;Stadtwerke Münster
 E6;bus;;;;Stadtwerke Münster
 E8;bus;;;;Stadtwerke Münster
+E9;bus;;;;Stadtwerke Münster
 E10;bus;;;;Stadtwerke Münster
+E11;bus;;;;Stadtwerke Münster
+E12;bus;;;;Stadtwerke Münster
+E14;bus;;;;Stadtwerke Münster
+E15;bus;;;;Stadtwerke Münster
 
 F1;bus;;Beckum;Münster;Regionalverkehr Münsterland GmbH
 
@@ -214,6 +222,7 @@ T9;bus;Taxibus;;;Stadtwerke Münster
 T15;bus;;;;Stadtwerke Münster
 T18;bus;;;;Stadtwerke Münster
 T20;bus;;;;Stadtwerke Münster
+T64;bus;;;;Stadtwerke Münster
 T80;bus;Taxibus;;;Stadtwerke Münster
 T81;bus;Taxibus;;;Stadtwerke Münster
 T82;bus;Taxibus;;;Stadtwerke Münster
@@ -302,19 +311,19 @@ T341;bus;;;;Stadtwerke Münster
 229;bus;;Ibbenbüren;Ibbenbüren;Regionalverkehr Münsterland GmbH
 230;bus;;Ibbenbüren;Ibbenbüren;Regionalverkehr Münsterland GmbH
 231;bus;;Ibbenbüren;Dickenberg;Regionalverkehr Münsterland GmbH
-232;bus;;Ibbenbüren;;Regionalverkehr Münsterland GmbH
-233;bus;;Ibbenbüren, Busbahnhof - Ibbenbüren, Busbahnhof;Regionalverkehr Münsterland GmbH
+232;bus;;Ibbenbüren;Ibbenbüren;Regionalverkehr Münsterland GmbH
+233;bus;;Ibbenbüren;Ibbenbüren;Regionalverkehr Münsterland GmbH
 234;bus;;Ibbenbüren;Ibbenbüren;Regionalverkehr Münsterland GmbH
-235;bus;;Ibbenbüren, Dörenther Berg - Ibbenbüren, Ludwigschule;Regionalverkehr Münsterland GmbH
-236;bus;;Ibbenbüren, Busbahnhof - Ibbenbüren-Dickenberg, Paul-Gerhard-Schule;Regionalverkehr Münsterland GmbH
-237;bus;;Ibbenbüren-Uffeln, Albers - Ibbenbüren-Dickenberg, Paul-Gerhard-Schule;Regionalverkehr Münsterland GmbH
-238;bus;;Ibbenbüren, Bockraden - Ibbenbüren, Michaelschule;Regionalverkehr Münsterland GmbH
-239;bus;;Ibbenbüren, Bockraden - Ibbenbüren, Busbahnhof;Regionalverkehr Münsterland GmbH
-240;bus;;Ibbenbüren-Dickenberg, Barbaraschule - Ibbenbüren-Dickenberg, Barbaraschule;Regionalverkehr Münsterland GmbH
-243;bus;;Lengerich;;Regionalverkehr Münsterland GmbH
-245;bus;;Lengerich, Abzw.Tecklenburg/Wasserwerk - Lengerich, Astrid-Lindgren-Schule;Regionalverkehr Münsterland GmbH
-247;bus;;Lengerich;;Regionalverkehr Münsterland GmbH
-248;bus;;Ladbergen;;Regionalverkehr Münsterland GmbH
+235;bus;;Ibbenbüren;Ibbenbüren;Regionalverkehr Münsterland GmbH
+236;bus;;Ibbenbüren;Ibbenbüren;Regionalverkehr Münsterland GmbH
+237;bus;;Uffeln;Dickenberg;Regionalverkehr Münsterland GmbH
+238;bus;;Bockraden;Ibbenbüren;Regionalverkehr Münsterland GmbH
+239;bus;;Bockraden;Ibbenbüren;Regionalverkehr Münsterland GmbH
+240;bus;;Dickenberg;Dickenberg;Regionalverkehr Münsterland GmbH
+243;bus;;Lengerich;Lengerich;Regionalverkehr Münsterland GmbH
+245;bus;;Lengerich;Lengerich;Regionalverkehr Münsterland GmbH
+247;bus;;Lengerich;Lengerich;Regionalverkehr Münsterland GmbH
+248;bus;;Ladbergen;Ladbergen;Regionalverkehr Münsterland GmbH
 249;bus;;Ibbenbüren;Ibbenbüren;Regionalverkehr Münsterland GmbH
 250|250a|250b;bus;;Greven;Reckenfeld;Weilke Reisen
 251;bus;;Greven;Greven;Weilke Reisen
@@ -845,16 +854,16 @@ T88;bus;;;;Regionalverkehr Münsterland GmbH
 
 === Stadt Bielefeld
 
-==== Tram
+==== Stadtbahn
 
-1;tram;;Schildesche;Senne;moBiel GmbH
-2;tram;;Altenhagen;Sieker;moBiel GmbH
-3;tram;;Babenhausen Süd;Stieghorst;moBiel GmbH
-4;tram;;Lohmannshof;Rathaus;moBiel GmbH
-10;tram;;Lohmannshof;Stieghorst;moBiel GmbH
-12;tram;;Sieker;Senne;moBiel GmbH
-13;tram;;Sieker;Schildesche;moBiel GmbH
-18;tram;;Sieker Mitte;Senne;moBiel GmbH
+1;light_rail;;Schildesche;Senne;moBiel GmbH
+2;light_rail;;Altenhagen;Sieker;moBiel GmbH
+3;light_rail;;Babenhausen Süd;Stieghorst;moBiel GmbH
+4;light_rail;;Lohmannshof;Rathaus;moBiel GmbH
+10;light_rail;;Lohmannshof;Stieghorst;moBiel GmbH
+12;light_rail;;Sieker;Senne;moBiel GmbH
+13;light_rail;;Sieker;Schildesche;moBiel GmbH
+18;light_rail;;Sieker Mitte;Senne;moBiel GmbH
 
 ==== Bus
 

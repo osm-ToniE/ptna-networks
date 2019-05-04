@@ -136,7 +136,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 084;bus;;Düsseldorf;Prag;FlixMobility GmbH
 085;bus;;Karlsruhe;Hamburg;FlixMobility GmbH
 086;bus;;(Schönau am Königssee)/Salzburg;München;FlixMobility GmbH
-087;bus;via Kassel;Hamburg;München;FlixMobility GmbH
+087;bus;via Kasselseit 5.11.2018 nicht mehr buchbar, wurde eingestellt.;Hamburg;München;FlixMobility GmbH
 090;bus;;Frankfurt;Paris;FlixMobility GmbH
 091;bus;;Budapest;Paris;FlixMobility GmbH
 095;bus;;Meran;München;FlixMobility GmbH
@@ -177,7 +177,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 150;bus;;Berlin;Aalborg;FlixMobility GmbH
 151;bus;sei 05.11.2018 nicht mehr buchbar, wurde eingestellt;Hildesheim;Berlin;FlixMobility GmbH
 152;bus;;Berlin;Frankfurt am Main;FlixMobility GmbH
-153;bus;;Berlin;Sankt-Peter-Ording;FlixMobility GmbH
+153;bus;Seit 25.04.2018 nicht mehr buchbar, wurde eingestellt.;Berlin;Sankt-Peter-Ording;FlixMobility GmbH
 154;bus;;Düsseldorf;Berlin;FlixMobility GmbH
 156;bus;Seit 25.04.2018 nicht mehr buchbar, wurde eingestellt.;Iserlohn;Amsterdam;FlixMobility GmbH
 158;bus;seit 05.11.2018 nicht mehr buchbar, wurde eingestellt;Berlin;Aachen;FlixMobility GmbH
@@ -214,7 +214,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 211;bus;seit 05.11.2018 nicht mehr buchbar, wurde eingestellt;Amsterdam;Basel;FlixMobility GmbH
 215;bus;;Würzburg;Berlin;FlixMobility GmbH
 217;bus;;Nordhorn;Offenburg;FlixMobility GmbH
-220;bus;;Mannheim;Dresden;FlixMobility GmbH
+220;bus;seit 05.11.2018 nicht mehr buchbar, wurde eingestellt;Mannheim;Dresden;FlixMobility GmbH
 221;bus;seit 05.11.2018 nicht mehr buchbar, wurde eingestellt;Nürnberg;Bern;FlixMobility GmbH
 222;bus;seit 05.11.2018 nicht mehr buchbar, wurde eingestellt;Frankfurt am Main;Turin;FlixMobility GmbH
 225;bus;;Leibzig;Kühlungsborn;FlixMobility GmbH
@@ -271,7 +271,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 373;bus;;Hamburg;Laatzen;FlixMobility GmbH
 374;bus;seit 05.11.2018 nicht mehr buchbar, wurde eingestellt;Hamburg;Kiel;FlixMobility GmbH
 381;bus;Seit 25.04.2018 nicht mehr buchbar, wurde eingestellt.;Dortmund;Maastricht;FlixMobility GmbH
-383;bus;;München;Passau/Prag;FlixMobility GmbH
+383;bus;seit 05.11.2018 nicht mehr buchbar, wurde eingestellt;München;Passau/Prag;FlixMobility GmbH
 391;bus;Seit 03.01.2018 nicht mehr buchbar, wurde eingestellt.;Basel;Wien;FlixMobility GmbH
 
 
@@ -312,7 +312,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 442;bus;Seit 30.09.2018 nicht mehr buchbar, wurde eingestellt.;Taranto;Pisa;FlixMobility GmbH
 443;bus;;Siena;Lecce;FlixMobility GmbH
 450;bus;Seit 07.10.2018 nicht mehr buchbar, wurde eingestellt.;München;Tori del Benaco;FlixMobility GmbH
-451;bus;Seit 07.10.2018 nicht mehr buchbar, wurde eingestellt.;München;Sirmione;FlixMobility GmbH
+451;bus;Saisonbus von Mai bis Oktober;München;Sirmione;FlixMobility GmbH
 452;bus;Seit 21.11.2017 nicht mehr buchbar, wurde eingestellt.;München;Livorno;FlixMobility GmbH
 453;bus;;München;Ancona;FlixMobility GmbH
 454;bus;bis 04.11.2020 buchbar, wird eingestellt?;Bologna;Prag;FlixMobility GmbH
@@ -599,7 +599,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 1261A;bus;;Warschau;Krakau;FlixMobility GmbH
 1262;bus;;Warschau;Košice;FlixMobility GmbH
 1271;bus;;Warschau;Rzeszów;FlixMobility GmbH
-1281;bus;;;;
+1281;bus;;Warschau;Rybnik;FlixMobility GmbH
 
 
 == 13xx-Linien (Überwiegend Polen)
@@ -609,13 +609,23 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 1302;bus;;Warschau;Breslau;FlixMobility GmbH
 1303;bus;;Warschau;Breslau/Karpacz;FlixMobility GmbH
 1304;bus;;Warschau;Dresden;FlixMobility GmbH
+1311;bus;;Posen;Bielitz-Biala;FlixMobility GmbH
+1312;bus;;Kattowitz;Kołobrzeg Jagiellońska;FlixMobility GmbH
 1320;bus;;Berlin;Warschau;FlixMobility GmbH
 1321;bus;;Berlin;Warschau;FlixMobility GmbH
 1340;bus;;Warschau;Stettin;FlixMobility GmbH
 1351;bus;;Warschau;Bromberg;FlixMobility GmbH
 1360;bus;;Berlin;Rzeszów/Przemyśl;FlixMobility GmbH
 1361;bus;;Berlin;Kattowitz/Tschenstochau;FlixMobility GmbH
+1362;bus;;Stettin;Zakopane;FlixMobility GmbH
+1363;bus;;Zakopane;Kattowitz;FlixMobility GmbH
+1364;bus;;Zakopane;Oppeln;FlixMobility GmbH
+1366;bus;;Dresden;Breslau;FlixMobility GmbH
+1367;bus;;Breslau;Krakau;FlixMobility GmbH
 1368;bus;;Tschenstochau;Krakau;FlixMobility GmbH
+1369;bus;;Krakau;Cieszyn;FlixMobility GmbH
+1372;bus;;Bielitz-Biala;Wieliczka;FlixMobility GmbH
+1373;bus;;Krakau;Ustrzyki Polne;FlixMobility GmbH
 1380;bus;;Gdingen;Prag;FlixMobility GmbH
 1381;bus;;Berlin;Posen/Toruń;FlixMobility GmbH
 
@@ -696,7 +706,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 == Kooperationslinien mit anderen Busunternehmen
 
 K318;bus;;Warschau;Bialystock;ŹakExpress
-K319;bus;;Warschau;Minsk;VisitTour
+K319;bus;;Prag;Minsk;VisitTour
 K320;bus;;Warschau;Minsk;BayerTrans
 K321;bus;;Warschau;Sulwalki;ŹakExpress
 K326;bus;;Lautzenhausen;Heidelberg;BBK Barbis Verkehrsleistungen GmbH
@@ -723,6 +733,7 @@ K783;bus;;Vagos;Annecy;SOCIEDAD DE TRANSPORTES S.LIb.(=Iberocoach)
 K784;bus;;Lissabon;Beausoleil;SOCIEDAD DE TRANSPORTES S.L.(=Iberocoach)
 K785;bus;Seit 02.09.2018 nicht mehr buchbar, wurde eingestellt.;Porto;A Coruña;SOCIEDAD DE TRANSPORTES S.L.(=Iberocoach)
 K786;bus;Seit 02.09.2018 nicht mehr buchbar, wurde eingestellt.;Fuengirola(Malaga);Porto;SOCIEDAD DE TRANSPORTES S.L.(=Iberocoach)
+K787;bus;;Krakau;Kołobrzeg Jagiellońska;Voyager
 K803;bus;;Ljubljana;Treviso Flughafen;Nomago
 K810;bus;;Prag;Třebíč;
 K811;bus;;Bratislava;Banská Bystrica;Turancar
@@ -997,6 +1008,7 @@ N960;bus;Ab 04.11.2018 nicht mehr buchbar, wird eingestellt.;Bukarest;Budapest;F
 N963;bus;;Wien;Miercurea Ciuc;FlixMobility GmbH
 N965;bus;;München;Logoj;FlixMobility GmbH
 N971;bus;;Dortmund;Sarajevo;FlixMobility GmbH
+N976;bus;;Krakau;Rijeka;FlixMobility GmbH
 N978;bus;;Frankfurt am Main;Mostar;FlixMobility GmbH
 N979;bus;Seit 09.09.2018 nicht mehr buchbar, wurde eingestellt.;Budapest;Budva;FlixMobility GmbH
 N980;bus;;Bukarest;Sofia;FlixMobility GmbH
@@ -1006,13 +1018,14 @@ N997;bus;;Rom;Zagreb;FlixMobility GmbH
 N998;bus;;Zürich;Virovitica;FlixMobility GmbH
 
 N1210;bus;;Warschau;Gdingen;FlixMobility GmbH
-N1291;bus;;Wien;Krakau;FlixMobility GmbH
+N1291;bus;;Wien;Przemyśl;FlixMobility GmbH
 N1293;bus;;Breslau;Budapest;FlixMobility GmbH
 
 N1300;bus;;Warschau;Prag;FlixMobility GmbH
 N1321;bus;;Berlin;Warschau;FlixMobility GmbH
 N1340;bus;;Warschau;Stettin;FlixMobility GmbH
-N1360;bus;;Bremen;Przemyśl;FlixMobility GmbH
+N1360;bus;;Bremenl;Przemyśl;FlixMobility GmbH
+N1362;bus;;Stettin;Zakopane;FlixMobility GmbH
 N1365;bus;;Berlin;Zakopane;FlixMobility GmbH
 N1380;bus;;Prag;Gdingen;FlixMobility GmbH
 

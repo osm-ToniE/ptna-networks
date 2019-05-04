@@ -49,7 +49,36 @@
 
 == Bus
 
+1;bus;Emden;Emden;Emden;Stadtwerke Emden
+1;bus;Wilhelmshaven;Wilhelmshaven;Wilhelmshaven;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+2;bus;Emden;Emden;Emden;Stadtwerke Emden
+2;bus;Wilhelmshaven;Wilhelmshaven;Wilhelmshaven;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+3;bus;Emden;Emden;Emden;Stadtwerke Emden
+3;bus;Wilhelmshaven;Wilhelmshaven;Wilhelmshaven;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+4;bus;Emden;Emden;Emden;Stadtwerke Emden
+4;bus;Wilhelmshaven;Wilhelmshaven;Wilhelmshaven;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+5;bus;Emden;Emden;Emden;Stadtwerke Emden
+5;bus;Wilhelmshaven;Wilhelmshaven;Wilhelmshaven;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+6;bus;Emden;Emden;Emden;Stadtwerke Emden
+6;bus;Wilhelmshaven;Wilhelmshaven;Wilhelmshaven;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+7;bus;Emden;;;Stadtwerke Emden
+8;bus;Emden;Emden;Emden;Stadtwerke Emden
+8;bus;Wilhelmshaven;Wilhelmshaven;Wilhelmshaven;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+9;bus;Emden;;;Stadtwerke Emden
+11;bus;Emden;;;Stadtwerke Emden
+14;bus;Emden;;;Stadtwerke Emden
+16;bus;Emden;;;Stadtwerke Emden
+17;bus;Emden;;;Stadtwerke Emden
+19;bus;Emden;;;Stadtwerke Emden
+29;bus;Emden;;;Stadtwerke Emden
+111;bus;Wilhelmshaven - Wiesmoor;;;
+121;bus;Wilhelmshaven - Schillig;;;
+211;bus;Jever - Harlesiel;;;
+212;bus;Jever - Horumersiel;;;
+219;bus;Jever - Wilhelmshaven;;;
 221;bus;Bockhorn - Grabstede - Jührdenerfeld;;;
+222;bus;Sande - Wilhelmshaven;;;
+223;bus;Jever - Hooksiel;;;
 251;bus;Varel - Zetel - Wilhelmshaven;;;
 252;bus;Zetel - Grabstederfeld - Westerstede;;;
 253;bus;Varel - Dangast - und zurück;;;
@@ -67,6 +96,43 @@
 265;bus;Varel - Zetel - Schortens - Jever;;;
 268;bus;Bockhorn - Grabstede - Bredehorn;;;
 273;bus;Varel - Varel, Dienstleistungszentrum;;;
+301;bus;;;;
+303;bus;;;;
+313;bus;Jever - Esens;;;
+410;bus;Aurich - Georgsheil - Emden;;;
+411;bus;Georgsheil - Norden;;;
+412;bus;Norden - Norddeich;;;
+417;bus;Pewsum - Norden;;;
+418;bus;Pewsum - Norden;;;
+421;bus;Greetsiel - Emden;;;
+422;bus;Pewsum - Emden;;;
+423;bus;Pewsum - Emden;;;
+451;bus;Emden - Aurich;;;
+460;bus;Leer - Aurich;;;
+462;bus;Aurich - Wiesmoor;;;
+467;bus;Wiesmoor - Leer;;;
+473;bus;Aurich - Bensersiel;;;
+479;bus;Aurich - Jheringsfehn;;;
+481;bus;Aurich - Leer;;;
+600;bus;Leer - Papenburg;;;
+605;bus;Leer - Pogum;;;
+620;bus;Leer - Bad Nieuweschans;;;
+621;bus;Leer - Emden;;;
+622;bus;Leer - Papenburg;;;
+623;bus;Leer - Augustfehn;;;
+629;bus;Moormerland - Brinkum;;;
+635;bus;Leer - Wymeer;;;
+650;bus;Borkum;;;
+651;bus;Leer;;;
+651S;bus;Leer;;;
+652;bus;Leer;;;
+652S;bus;Leer;;;
+656;bus;Burlage - Leer;;;
+661;bus;Moormerland - Aurich;;;
+662;bus;Jheringsfehn - Leer;;;
+690;bus;Burlage - Leer;;;
+K1;bus;Harlesiel - Norden;;;
+K2;bus;Esens - Neuharlingersiel;;;
 
 
 </pre>

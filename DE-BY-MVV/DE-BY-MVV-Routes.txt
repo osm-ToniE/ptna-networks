@@ -97,6 +97,7 @@ N27;tram;;Petuelring;Großhesseloher Brücke;SWM/MVG
 === Express-Bus (München)
 X30;bus;ExpressBus;Harras U S R;Ostbahnhof U S R;SWM/MVG
 X50;bus;ExpressBus;Moosach U S R;Alte Heide U;SWM/MVG,
+X80;bus;!Neue Buslinie ab 29. April 2019!;Puchheim S Süd;Moosach U S R;SWM/MVG
 X98;bus;ExpressBus;Hauptbahnhof;Tierpark (Alemannenstraße);SWM/MVG
 #
 === Metro-Bus (München)
@@ -154,6 +155,7 @@ O7;bus;MVG-Museum-Shuttle;Giesing U S;MVG-Museum;SWM/MVG
 153;bus;;HS München (Lothstraße);Am Harras;SWM/MVG
 154;bus;;Nordbad;Bruno-Walter-Ring;SWM/MVG
 155;bus;;Max-Weber-Platz U;Emdenstraße;SWM/MVG
+157;bus;!Neue Buslinie ab 29. April 2019!;Germeringer Weg;Pasing S R;SWM/MVG
 158;bus;;Im Wismat;Amalienburgstraße;SWM/MVG
 159;bus;;Lochhausen S;Pasing S R;SWM/MVG
 160;bus;;Karlsfeld, Gartenstraße;Waldfriedhof;SWM/MVG

@@ -74,7 +74,7 @@
 32;bus;Dresdner Straße - Rottluff -Reichenbrand;;;CVAG
 33;bus;Bernsdorf - Adelsberg - Schösserholz;;;Chemnitzer Verkehrs-AG
 39;bus;Klaffenbach - Hutholz / Neukirchen;;;CVAG
-41;bus;Schönau - Reichenbrand - Grüna;;;CVAG
+41;bus;Schönau - Reichenbrand - Grüna (- Hohenstein-Ernstthal);;;CVAG
 42;bus;Schönau - Rabenstein, Grünaer Straße;;;CVAG
 43|E43;bus;(Schösserholz -) Adelsberg - Rabenstein, Tierpark;;;Chemnitzer-Verkehrs-AG
 46;bus;Wittgensdorf, Chemnitztal - Borna;;;Chemnitzer Verkehrs-AG
@@ -222,17 +222,17 @@ STL 2;bus;Stadtlinie 2;;;RVE
 110;bus;Waldenburg - Oberwiera - Meerane;;;RVW
 111;bus;Glauchau - Mosel - Zwickau;;;RVW
 112;bus;Glauchau - Waldenburg - Langenchursdorf;;;RVW
-113;bus;Hohenstein-Ernstthal - Falken - Langenchursdorf;;;RVE
-115;bus;Hohenstein-Ernstthal - St. Egidien / Bernsdorf - Lichtenstein;;;RVE
-116;bus;Hohenstein-Ernstthal - Oberlungwitz - Gersdorf - Oelsnitz (Erzgeb);;;RVE
+113;bus;Hohenstein-Ernstthal - Falken - Langenchursdorf;;;RVW
+115;bus;Hohenstein-Ernstthal - St. Egidien / Bernsdorf - Lichtenstein;;;RVW
+116;bus;Hohenstein-Ernstthal - Oberlungwitz - Gersdorf - Oelsnitz (Erzgeb);;;RVW
 117;bus;Lichtenstein - Heinrichsort - Rödlitz - Lichtenstein;;;RVE;RVW
 118;bus;Lichtenstein - Lobsdorf;;;RVE
 119;bus;Glauchau - Meerane - Crimmitschau;;;RVW
-120;bus;Hohenstein-Ernstthal - Waldenburg;;;RVE
-122;bus;Hohenstein-Ernstthal - Limbach-Oberfrohna;;;RVE
-123;bus;Waldenburg - Langenchursdorf - Falken - Limbach-Oberfrohna;;;RVE
-124;bus;Hohenstein-Ernstthal - Reichenbach - Grumbach - Callenberg - Langenchursdorf;;;RVE
-125;bus;Hohenstein-Ernstthal - Wüstenbrand - Oberlungwitz - Hohenstein-Ernstthal;;;RVE
+120;bus;Hohenstein-Ernstthal - Waldenburg;;;RVW
+122;bus;Hohenstein-Ernstthal - Limbach-Oberfrohna;;;RVW
+123;bus;Waldenburg - Langenchursdorf - Falken - Limbach-Oberfrohna;;;RVW
+124;bus;Hohenstein-Ernstthal - Reichenbach - Grumbach - Callenberg - Langenchursdorf;;;RVW
+125;bus;Hohenstein-Ernstthal - Wüstenbrand - Oberlungwitz - Hohenstein-Ernstthal;;;RVW
 128;bus;Crimmitschau, Bahnhof - Karl-Liebknecht-Siedlung - Crimmitschau Center - Crimmitschau, Bahnhof;;;RVW
 129;bus;Zwickau - Werdau - Steinpleis - Zwickau;;;RVW
 130;bus;Zwickau - Steinpleis - Fraureuth;;;RVW
@@ -270,7 +270,7 @@ STL 2;bus;Stadtlinie 2;;;RVE
 184;bus;Stollberg - Dorfchemnitz - Zwönitz - Kühnhaide;;;RVE
 187;bus;Oelsnitz (Erzgeb) - Neuwürschnitz;;;RVE
 190;bus;Stollberg - Thalheim - Gornsdorf - Hormersdorf;;;RVE
-191;bus;Lugau - Oberlungwitz - Hohenstein-Ernstthal;;;RVE
+191;bus;Lugau - Oberlungwitz - Hohenstein-Ernstthal;;;RVW
 192;bus;Thalheim - Jahnsdorf - Adorf - Burkhardtsdorf / Leukersdorf - Ursprung;;;RVE
 193;bus;Oberlungwitz - Lugau - Stollberg;;;RVE
 194;bus;Stollberg - Beutha - Affalter - Zwönitz;;;RVE
@@ -305,7 +305,7 @@ STL 2;bus;Stadtlinie 2;;;RVE
 247;bus;Meinersdorf - Gornsdorf - Thum;;;RVE
 251;bus;Chemnitz, Schönau - Oberlungwitz - Gersdorf - Lichtenstein;;;RVE;CVAG
 253;bus;Chemnitz, Schönau - Chemnitz, Reichenbrand - Chemnitz, Rabenstein - Limbach-Oberfrohna OT Rußdorf;;;RVE
-256;bus;Hohenstein-Ernstthal - Pleißa - Limbach-Oberfrohna - Bräunsdorf;;;RVE
+256;bus;Hohenstein-Ernstthal - Pleißa - Limbach-Oberfrohna - Bräunsdorf;;;RVW
 260;bus;Grüne Linie: Stollberg - Neuwürschnitz - Oelsnitz - Lugau - Stollberg;;;RVE
 261;bus;Grüne Linie: Stollberg - Lugau - Oelsnitz - Neuwürschnitz - Stollberg;;;RVE
 262;bus;Chemnitz - Neukirchen - Lugau - Oelsnitz (Erzgeb);;;RVE

@@ -93,7 +93,8 @@ RE83;train;;;;DB Regio
 1;bus;;;;Stadtverkehr Lübeck GmbH
 1;bus;;;;Aktiv Bus
 1;bus;;;;Stadtverkehr Rendsburg
-2|2A;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+2;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
+2A;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
 2;bus;;;;Stadtverkehr Lübeck GmbH
 2;bus;;;;Aktiv Bus
 2;bus;;;;Stadtverkehr Rendsburg
@@ -358,7 +359,6 @@ RE83;train;;;;DB Regio
 === 8000 .. 8999
 
 8102;bus;;;;
-8115;bus;;;;
 8163;bus;;;;
 8710;bus;;;;
 8720;bus;;;;
