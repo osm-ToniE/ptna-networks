@@ -161,7 +161,7 @@ R2;train;;;;
 "R85;R 4";train;;Stuttgart;Würzburg;DB Regio
 R5;train;;;;
 R7;train;;;;
-R8;train;;;;
+R8;train;;Uffenheim;Treuchtlingen;DB Regio AG - Regio Bayern
 R 11;train;;;;
 R11;train;;;;
 R12;train;;;;
@@ -204,17 +204,21 @@ RB 31;train;;Dresden;Elsterwerda;DB Regio Nordost
 RB 31;train;;Genthin;Magdeburg;DB Regio Sachsen-Anhalt
 RB 32;train;;Stendal;Salzwedel;DB Regio Sachsen-Anhalt
 RüBB;train;;;;
-RB33;train;;;;
+RB33;train;;Neubrücke (Nahe)|Idar-Oberstein;Mainz;vlexx GmbH
+RB33;train;;Berlin Wannsee;Jüterbog;Ostdeutsche Eisenbahn Gesellschaft
 RB 34;train;;;;
 RB34;train;;;;
-RB 35;train;;;;
+RB 35;train;;Bingen;Worms;DB Regio Mitte
+RB 35;train;;Wolfsburg Hbf;Stendal;DB Regio Südost
 RB37;train;;;;
-RB41;train;;;;
+RB41;train;KBS 334, 335;Aschersleben;Magdeburg;DB
 RB 42;train;;Dessau;Magdeburg;DB Regio Sachsen-Anhalt
 RB 43;train;;Magdeburg;Halle;DB Regio Südost
 RB46;train;;;;
 RB 47;train;;;;
-RB48;train;;;;
+RB48;train;KBS 632;Nidda;Friedberg;Hessische Landesbahn
+RB48;train;;Kaiserslautern;Monsheim;DB Regio Südwest
+RB48;train;;Calbe Ost;Bernburg;DB Regio AG Sachsen-Anhalt
 RB49;train;;;;
 RB50;train;;;;
 RB 51;train;;;;
@@ -222,8 +226,7 @@ RB51;train;;Falkenberg;Dessau;DB Regio Südost
 RB 52;train;;;;
 RB55;train;;;;
 RB 57;train;;Leipzig;Lutherstadt Wittenberg;DB Regio Südost
-RB 59;train;;;;
-RB59;train;;Sangerhausen;Erfurt;Abellio Rail Mitteldeutschland GmbH
+RB 59;train;KBS 335, 595?;Sangerhausen;Erfurt;Abellio Rail Mitteldeutschland GmbHR
 RB 60;train;;;;
 RB 61;train;;;;
 #RB62;train;NAH.SH;;;
@@ -232,7 +235,8 @@ RB69;train;;;;
 RB 72;train;;;;
 RB 75;train;;;;
 RB75;train;;;;
-RB 76;train;;;;
+RB 76;train;;Kiel Hbf;Kiel-Oppendorf;DB Regio Schleswig-Holstein
+RB 76;train;;Zeitz;Weißenfels;Burgenlandbahn
 RB76;train;;;;
 #RB77;train;NAH.SH;;;
 RB 78;train;;Merseburg;Querfurt;Burgenlandbahn (DB Regio Südost)
@@ -294,12 +298,11 @@ RE Stuttgart–Würzburg;train;;;;
 -
 
 == Querverweise zu Kursbuchstrecken (KBS)
-- Einige Zug-Relationen (route=train) haben 'note' oder andere Verweise auf KBS-Nummern oder sind mit ref=&amp;KBS<&amp; gemapped.
+- Einige Zug-Relationen (route=train) haben 'note' oder andere Verweise auf KBS-Nummern oder sind mit ref=&lt;KBS&gt; gemapped.
 -
 - Die unterscheidung von Zügen (route=train) und KBS (route=railway) ist zum Teil nicht konsequent und nicht korrekt. Hier gibt es noch Handlungsbedarf.
 -
 - Es folgt eine Auflistung der Züge mit Querverweisen zu KBS bzw. wo 'ref' einer KBS-Nummer entspricht. 
--
 -
 
 === 100 .. 199
@@ -315,7 +318,7 @@ RB 26;train;KBS 269;Stendal;Tangermünde;DB Regio Sachsen-Anhalt
 === 300 .. 399
 
 RB 32;train;KBS 305;Salzwedel;Stendal;DB Regio Sachsen-Anhalt
-RB 41;train;KBS 334, 335;;;
+RB41;train;KBS 334, 335;Magdeburg;Aschersleben;DB
 RB 59;train;KBS 335, 595?;Erfurt;Sangerhausen;Abellio Rail Mitteldeutschland GmbH
 RB 43;train;KBS 340;Halle;Magdeburg;DB Regio Südost
 356.2;train;;;;
@@ -329,12 +332,13 @@ RB 43;train;KBS 340;Halle;Magdeburg;DB Regio Südost
 RB 25;train;KBS 568;Saalfeld;Halle(S)Hbf;Abellio Rail Mitteldeutschland GmbH
 570;train;;;;
 RB 78;train;KBS 586;Merseburg;Querfurt;Burgenlandbahn (DB Regio Südost)
-RB 59;train;KBS 335, 595?;;;
+RB 59;train;KBS 335, 595?;Sangerhausen;Erfurt;Abellio Rail Mitteldeutschland GmbHR
 
 -
 
 === 600 .. 699
 
+RB48;train;KBS 632;Friedberg;Nidda;Hessische Landesbahn
 640;train;;;;
 675.1;train;;;;
 -
@@ -432,7 +436,7 @@ KBS 831–867;train;;;;
 
 === > 1000
 
-2270;train;;;;
+#2270;train;;;;
 12426;train;;;;
 12737;train;;;;
 12818;train;;;;
@@ -644,6 +648,8 @@ U28;train;;;;
 == Aus Dänemark
 
 50;train;;;;
+R8;train;;Nørre Nebel;Niebüll;NEG-ARRIVA
+
 -
 
 

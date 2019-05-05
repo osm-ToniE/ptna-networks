@@ -389,6 +389,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 
 == 6xx-Linien (Überwiegend in Skandinavien)
 
+600;bus;;Stockholm;Oslo;FlixMobility GmbH
 601;bus;;Uppsala;Göteborg;FlixMobility GmbH
 602;bus;;Stockholm;Kopenhagen;FlixMobility GmbH
 603;bus;;Malmö;Oslo;FlixMobility GmbH
@@ -933,6 +934,8 @@ N595;bus;;Gallipoli;Marsala;FlixMobility GmbH
 
 N600;bus;;Oslo;Stockholm;FlixMobility GmbH
 N601;bus;;Göteborg;Uppsala;FlixMobility GmbH
+N602;bus;;Kopenhagen;Uppsala;FlixMobility GmbH
+N612;bus;;Kopenhagen;Uppsala;FlixMobility GmbH
 N630;bus;Ab 06.11.2018 nicht mehr buchbar, wird eingestellt.;Amsterdam;Aarhus;FlixMobility GmbH
 
 N700;bus;;Paris;London;FlixMobility GmbH;;
