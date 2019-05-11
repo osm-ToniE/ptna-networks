@@ -85,7 +85,6 @@ RB32;train;;;;Abellio Rail NRW
 RB33;train;;;;DB Regio NRW
 RB34;train;;;;VIAS
 RB35;train;;;;Abellio Rail NRW
-RB35;train;;;;abellio Rail NRW
 RB36;train;;;;NordWestBahn
 RB37;train;;;;DB Regio NRW
 RB39;train;;;;VIAS
@@ -95,7 +94,6 @@ RB43;train;;;;Deutsche Bahn Regio AG
 RB44;train;;;;NordWestBahn
 RB45;train;;;;NordWestBahn
 RB46;train;;;;Abellio Rail NRW
-RB46;train;;;;Abellio Rail
 RB48;train;;;;National Express Rail GmbH
 RB50;train;;;;Eurobahn
 RB51;train;;;;DB Regio Westfalen
@@ -132,7 +130,6 @@ S3;train;;;;DB Regio NRW
 S4;train;;;;DB Regio NRW
 S5;train;;;;DB Regio NRW
 S6;train;;;;DB Regio NRW
-S7;train;;;;Abellio Rail NRW
 S7;train;;;;Abellio Rail
 S8;train;;;;DB Regio NRW
 S9;train;;;;DB Regio NRW

@@ -133,6 +133,14 @@
 690;bus;Burlage - Leer;;;
 K1;bus;Harlesiel - Norden;;;
 K2;bus;Esens - Neuharlingersiel;;;
+S1;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+S2;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+S3;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+S4;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+S5;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+S6;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+S7;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+S8;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
 
 
 </pre>

@@ -68,8 +68,8 @@
 5;tram;Hutholz - Zentralhaltestelle - Gablenz;;;Chemnitzer Verkehrs-AG
 21;bus;(Limbach-Oberfrohna -) Chemnitz-Center - Zentralhaltestelle - Ebersdorf;;;Chemnitzer Verkehrs-AG
 22;bus;Zentralhaltestelle - Glösa;;;Chemnitzer Verkehrs-AG
-23;bus;Heinersdorf - Zentralhaltestelle - Neefepark;;;CVAG
-26;bus;Schönau - Hutholz;;;CVAG
+23;bus;Heinersdorf - Zentralhaltestelle - Neefepark;;;Chemnitzer Verkehrs-AG
+26;bus;Schönau - Hutholz;;;Chemnitzer Verkehrs-AG
 31;bus;Yorckgebiet - Flemmingstraße;;;Chemnitzer Verkehrs-AG
 32;bus;Dresdner Straße - Rottluff -Reichenbrand;;;CVAG
 33;bus;Bernsdorf - Adelsberg - Schösserholz;;;Chemnitzer Verkehrs-AG

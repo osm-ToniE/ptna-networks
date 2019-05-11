@@ -155,7 +155,7 @@ O7;bus;MVG-Museum-Shuttle;Giesing U S;MVG-Museum;SWM/MVG
 153;bus;;HS München (Lothstraße);Am Harras;SWM/MVG
 154;bus;;Nordbad;Bruno-Walter-Ring;SWM/MVG
 155;bus;;Max-Weber-Platz U;Emdenstraße;SWM/MVG
-157;bus;!Neue Buslinie ab 29. April 2019!;Germeringer Weg;Pasing S R;SWM/MVG
+157;bus;;Germeringer Weg;Pasing S R;SWM/MVG
 158;bus;;Im Wismat;Amalienburgstraße;SWM/MVG
 159;bus;;Lochhausen S;Pasing S R;SWM/MVG
 160;bus;;Karlsfeld, Gartenstraße;Waldfriedhof;SWM/MVG
