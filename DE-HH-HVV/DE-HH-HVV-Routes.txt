@@ -74,8 +74,8 @@ RB82;train;;;;NBE Nordbahn Eisenbahngesellschaft mbh & Co. KG
 == RE-Eisenbahn
 RE1;train;;;;DB Regio AG
 RE3;train;;;;Metronom Eisenbahngesellschaft mbH
-RE4;train;;;;Metronom Eisenbahngesellschaft mbH
-RE5;train;;;;Metronom Eisenbahngesellschaft mbH
+RE4;train;;;;Metronom Eisenbahngesellschaft
+RE5;train;;;;Metronom Eisenbahngesellschaft
 RE6;train;;;;DB Regio AG
 RE7;train;;;;DB Regio AG
 RE70;train;;;;DB Regio AG

@@ -77,7 +77,6 @@ S5;train;;Bietigheim-Bissingen;Stuttgart;DB Regio
 S6;train;;Weil der Stadt;Stuttgart;
 S11;train;Stadionlinie;Neckarpark;Herrenberg;
 S60;train;;Böblingen;Stuttgart;
-S63;train;Baustellenlinie;Backnang;Flughafen/Messe;
 
 #
 == Zahnradbahn, Seilbahn

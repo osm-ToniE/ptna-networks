@@ -880,13 +880,14 @@ T88;bus;;;;Regionalverkehr Münsterland GmbH
 31;bus;;;;moBiel GmbH
 32;bus;;;;moBiel GmbH
 33;bus;;;;moBiel GmbH
-34;bus;;;;moBiel GmbH
+34;bus;;Sieker;Oerlinghausen;moBiel GmbH
 36;bus;;;;moBiel GmbH
 37;bus;;;;moBiel GmbH
 38;bus;;Oerlinghausen;Stieghorst;moBiel GmbH
 39;bus;;Oerlinghausen;Sennestadt;moBiel GmbH
 46;bus;;Sennestadt;Stukenbrock;moBiel GmbH
 47;bus;;Sennestadt;Schloß Holte;moBiel GmbH
+48;bus;;Brockhagen;Bielefeld;BVO Busverkehr Ostwestfalen GmbH
 51;bus;;;;moBiel GmbH
 51E;bus;;;;moBiel GmbH
 52;bus;;;;moBiel GmbH
@@ -915,7 +916,6 @@ T88;bus;;;;Regionalverkehr Münsterland GmbH
 104;bus;;;;moBiel GmbH
 105;bus;;;;moBiel GmbH
 108;bus;;;;moBiel GmbH
-
 109;bus;;;;moBiel GmbH
 115;bus;;;;moBiel GmbH
 121;bus;;;;moBiel GmbH
@@ -931,18 +931,23 @@ T88;bus;;;;Regionalverkehr Münsterland GmbH
 138;bus;;;;moBiel GmbH
 154;bus;;;;moBiel GmbH
 155;bus;;;;moBiel GmbH
-156;bus;;;;moBiel GmbH
+156;bus;;Schildesche;Spenge;moBiel GmbH
 157;bus;;Bielefeld;Werther;BVO Busverkehr Ostwestfalen GmbH
 158;bus;;;;moBiel GmbH
 196;bus;;;;moBiel GmbH
 224;bus;;;;moBiel GmbH
+233;bus;;Milse;Elverdissen;moBiel GmbH
 237;bus;;;;moBiel GmbH
 238;bus;;;;moBiel GmbH
 251;bus;;;;moBiel GmbH
 255;bus;;;;moBiel GmbH
 256;bus;;Jöllenbeck;Enger;BVO Busverkehr Ostwestfalen GmbH
+350;bus;;Bielefeld;Bad Salzuflen;BVO Busverkehr Ostwestfalen GmbH
+351;bus;;Bielefeld;Oerlinghausen;BVO Busverkehr Ostwestfalen GmbH
 352;bus;;Milse;Herford;moBiel GmbH
 353;bus;;Schildesche;Eilshausen;BVO Busverkehr Ostwestfalen GmbH
+369;bus;;Bielefeld;Oerlinghausen;moBiel GmbH
+388;bus;;Schloß Holte;Schildesche;moBiel GmbH
 739;bus;;Ubbedissen;Lipperreihe;moBiel GmbH
 
 N1;bus;;Jahnplatz;Jahnplatz;moBiel GmbH
@@ -970,6 +975,8 @@ AST;share_taxi;;;;moBiel GmbH
 
 === Kreis Gütersloh
 
+34;bus;;Sieker;Oerlinghausen;moBiel GmbH
+39;bus;;Oerlinghausen;Sennestadt;moBiel GmbH
 43;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 44;bus;;Gütersloh;Pixel;Transdev Ostwestfalen GmbH
 46;bus;;Stukenbrock;Sennestadt;moBiel GmbH
@@ -1041,7 +1048,6 @@ AST;share_taxi;;;;moBiel GmbH
 94;bus;;Gütersloh;Brackwede;moBiel GmbH
 95;bus;;Gütersloh|Ummeln Gröppel;Bielefeld|Brackwede Gymnasium;moBiel GmbH
 98;bus;;;;BVO Busverkehr Ostwestfalen GmbH
-
 148;bus;;Halle;Steinhagen;BVO Busverkehr Ostwestfalen GmbH
 157;bus;;Werther;Bielefeld;BVO Busverkehr Ostwestfalen GmbH
 160;bus;Bürgerbus Werther;;;BVO Busverkehr Ostwestfalen GmbH
@@ -1071,6 +1077,7 @@ AST;share_taxi;;;;moBiel GmbH
 288;bus;;Steinhagen;Patthorst;BVO Busverkehr Ostwestfalen GmbH
 388;bus;;Schloß Holte;Schildesche;moBiel GmbH
 389;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+724;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 
 Ha-T1;bus;;Halle;Ascheloh;go.on Gesellschaft für Bus- und Schienenverkehr mbH
 Ha-T2;bus;;Halle;Künsebeck;go.on Gesellschaft für Bus- und Schienenverkehr mbH
@@ -1104,10 +1111,13 @@ Hw-T4;bus;;Harsewinkel;Breslauer Straße;Transdev Ostwestfalen GmbH
 26;bus;Stadtbus Minden;;;BVO Busverkehr Ostwestfalen GmbH
 27;bus;Stadtbus Minden;;;BVO Busverkehr Ostwestfalen GmbH
 53;bus;;Eickum;Jöllenbeck;BVO Busverkehr Ostwestfalen GmbH
+54;bus;;Babenhausen Süd;Enger;moBiel GmbH
+56;bus;;Babenhausen Süd;Spenge;moBiel GmbH
 59;bus;;Bielefeld;Neuenkirchen;BVO Busverkehr Ostwestfalen GmbH
 66;bus;;Häger;Spenge;BVO Busverkehr Ostwestfalen GmbH
 99;bus;;Herford;Milse;moBiel GmbH
 101;bus;;Herford;Schildesche;moBiel GmbH
+156;bus;;Schildesche;Spenge;moBiel GmbH
 253;bus;;Herford;Laar;BVO Busverkehr Ostwestfalen GmbH
 256;bus;;Enger;Jöllenbeck;BVO Busverkehr Ostwestfalen GmbH
 333;bus;;Bad Seebruch;Hohenhausen;go.on Gesellschaft für Bus- und Schienenverkehr mbH
