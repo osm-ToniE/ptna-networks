@@ -509,7 +509,6 @@ N92;bus;;Filderstadt;Bernhausen Bf;
 814;bus;;Musberg;Bernhausen;
 815;bus;;Ruit;Stetten;
 816;bus;;Neuhausen;Bernhausen;
-816;bus;;Neuhausen;Bernhausen;
 817;bus;;Plattenhardt;Sielmingen;
 818;bus;;Stetten;Musberg;
 819;bus;;Citybus Leinfelden-Echterdingen;Citybus Leinfelden-Echterdingen;

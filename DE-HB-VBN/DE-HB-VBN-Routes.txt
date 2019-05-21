@@ -542,7 +542,7 @@ S35;bus;AM West;Westerstede;Oldenburg;Gerdes
 857;bus;;Eversen;Sottrum;
 863;bus;Bürgerbus;Zeven;Steddorf;
 864;bus;Bürgerbus;Zeven;Nartum;
-880;bus;;Visselhövede;Rotenburg;
+880;bus;;Visselhövede;Rotenburg (Wümme);
 880;bus;;Visselhövede;Drögenbostel;
 881;bus;;Visselhövede;Bleckwedel;
 884;bus;;Visselhövede;Wittorf;

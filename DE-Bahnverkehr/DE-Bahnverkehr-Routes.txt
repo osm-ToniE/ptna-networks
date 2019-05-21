@@ -101,7 +101,7 @@ ICE 91;train;;;;
 
 IC 4;train;;;;
 IC 26.1;train;;;;
-"EC 27;IC 27";train;;Stralsund|Berlin|Dresden|Hamburg;Praha|Decin;DB Fernverkehr AG
+"EC 27;IC 27";train;;Praha|Decin;Stralsund|Berlin|Dresden|Hamburg;DB Fernverkehr AG
 IC 28;train;;;;
 IC 30;train;;;;
 IC 31;train;;;;
@@ -169,11 +169,10 @@ EN 50463;train;;;;
 ==== R1 .. R10
 
 R1;train;;Nürnberg;Neustadt (Aisch)|Kitzingen|Markt Bibart;DB Regio AG - Regio Bayern
-R1;train;;Hannover;Rheine;DB Regio
 R1;train;Filstalbahn;Stuttgart;Ulm;DB Regio
 R1;train;;Augsburg;München;DB Regio AG Bayern
 R2;train;;Augsburg;Ingolstadt;Bayerische Regiobahn
-R2;train;;Zapfendorf;Nürnberg;DB Regio AG - Regio Bayern
+R2;train;;Zapfendorf|Lichtenfels|Bamberg|Schney;Nürnberg|Bamberg|Schney;DB Regio AG - Regio Bayern
 R3;train;;Stuttgart;Crailsheim;DB Regio Baden-Württemberg
 R3;train;;Nürnberg;Bayreuth;DB Regio AG - Regio Bayern
 R3;train;;Nürnberg Hbf;Neuhaus;DB Regio AG - Regio Bayern
@@ -182,12 +181,13 @@ R3;train;;Ulm;Donaueschingen;DB Regio
 R4;train;Allgäu-Franken-Express;Augsburg;Otting-Weilheim;DB Regio AG Bayern
 R4;train;;Nürnberg Hauptbahnhof;Amberg;DB Regio AG - Regio Franken
 "R85;R 4";train;!Aufzuspalten in R4 und R85!;Stuttgart;Würzburg;DB Regio
-R5;train;;Stuttgart;Pforzheim|Karlsruhe;DB Regio AG Baden-Württemberg
+R5;train;;Stuttgart;Karlsruhe;DB Regio AG Baden-Württemberg
+R5;train;;Pforzheim;Stuttgart Hbf;
 R5;train;;Nürnberg;Parsberg;
 R6;train;;Augusburg;Dinkelscherben;
 R6;train;;Nürnberg Hbf;Treuchtlingen;
 R7;train;;Augsburg;Schwabmünchen;
-R7;train;;Schnelldorf;Nürnberg;
+R7;train;;Schnelldorf|Stuttgart Hbf;Nürnberg Hbf;
 R7;train;;Stuttgart;Horb;DB
 R8;train;;Uffenheim;Treuchtlingen;DB Regio AG - Regio Bayern
 R8;train;;Augsburg;Klosterlechfeld;
@@ -230,6 +230,7 @@ R43;train;;Bayreuth;Kirchenlaibach;
 
 R61;train;Strohgäubahn;Korntal;Weissach;Württembergische Eisenbahn-Gesellschaft mbH
 R61;train;;Hilpoltstein;Roth;
+R61;train;;Pforzheim;Tübingen;
 R62;train;;Pleinfeld;Gunzenhausen;
 R63;train;;Treuchtlingen;Solnhofen;
 R64;train;;;;
@@ -248,7 +249,7 @@ R81;train;;Steinach bei Rothenburg;Neustadt an der Aisch;
 R82;train;Tälesbahn - KBS 762;Nürtingen;Neuffen;Württembergische Eisenbahn-Gesellschaft mbH
 R82;train;;Rothenburg ob der Tauber;Steinach bei Rothenburg;
 R83;train;;Bad Urach;Tübingen;DB Regio
-"R85;R 4";train;!Aufzuspalten in R4 und R85!;Würzburg;Stuttgart;DB Regio
+"R85;R 4";train;!Aufzuspalten in R4 und R85!;Stuttgart;Würzburg;DB Regio
 
 ==== R91 .. R100
 
@@ -260,11 +261,11 @@ R99;train;Klosterstadtexpress;;;Deutsche Bahn
 
 ==== RB
 
-RB;train;;Lauda;;"DB RegioNetz Verkehrs GmbH; Westfrankenbahn"
-RB;train;;Bad Mergentheim;;"DB RegioNetz Verkehrs GmbH; Westfrankenbahn"
-RB;train;;Seckach;;"DB RegioNetz Verkehrs GmbH; Westfrankenbahn"
-RB;train;;Aschaffenburg;;"DB RegioNetz Verkehrs GmbH; Westfrankenbahn"
-RB;train;;Wertheim;;"DB RegioNetz Verkehrs GmbH; Westfrankenbahn"
+RB;train;;Lauda;Wertheim;"DB RegioNetz Verkehrs GmbH; Westfrankenbahn"
+RB;train;;Bad Mergentheim;Würzburg;"DB RegioNetz Verkehrs GmbH; Westfrankenbahn"
+RB;train;;Seckach;Miltenberg;"DB RegioNetz Verkehrs GmbH; Westfrankenbahn"
+RB;train;;Aschaffenburg;Miltenberg;"DB RegioNetz Verkehrs GmbH; Westfrankenbahn"
+RB;train;;Wertheim;Miltenberg;"DB RegioNetz Verkehrs GmbH; Westfrankenbahn"
 
 ==== RB1 .. RB10
 
@@ -383,6 +384,7 @@ RB41;train;;Hamburg;Bremen;Metronom Eisenbahngesellschaft mbH
 RB41;train;;Cottbus;Lübben;Ostdeutsche Eisenbahn Gesellschaft
 RB41;train;KBS 334, 335;Aschersleben;Magdeburg;DB
 RB41;train;Mittelhessenexpress;Treysa;Frankfurt;DB
+RE42;train;Niers-Haard-Express;Münster;Mönchengladbach;DB Regio NRW
 RB 42;train;;Dessau;Magdeburg;DB Regio Sachsen-Anhalt
 RB 42;train;;Bad-Harzburg;Braunschweig;erixx GmbH
 RB 43;train;;Magdeburg;Halle;DB Regio Südost
@@ -435,6 +437,7 @@ RB54;train;;Löwenberg (Mark);Rheinsberg (Mark);NEB Betriebsgesellschaft mbH
 RB55;train;Queichtalbahn;Landau;Pirmasens;DB Regio Südwest
 RB55;train;;Hennigsdorf;Kremmen;DB Regio
 RB56;train;Kahlgrundbahn;Schöllkrippen;Hanau;"DB RegioNetz Verkehrs GmbH; Westfrankenbahn"
+RE57;train;Dortmund-Sauerland-Express;Dortmund Hbf;Brilon Stadt|Winterberg (Westf.);DB Regio NRW
 RB 57;train;;Leipzig;Lutherstadt Wittenberg;DB Regio Südost
 RB58;train;;Aschaffenburg;Frankfurt (Main);DB Regio AG
 RB58;train;Der Bramscher;Osnabrück;Bremen;NordWestBahn
@@ -496,10 +499,13 @@ RB77;train;Weserbahn;Bünde;Hildesheim;NordWestBahn
 RB77;train;Nied-Bahn;Dillingen(Saar);Niedaltdorf;DB Regio Südwest
 RB77;train;;Neumünster;Kiel;DB Regio
 RB 77;train;Unstrutbahn;;;Burgenlandbahn
+RE78;train;Porta-Express;Bielefeld;Nienburg/Weser;Eurobahn
 RB 78;train;;Merseburg;Querfurt;Burgenlandbahn (DB Regio Südost)
 RB79;train;;Hildesheim;Bodenburg;NordWestBahn
 RB80;train;;Göttingen;Nordhausen;DB Regio Nord
 RB 80;train;;Chemnitz Hauptbahnhof;Cranzahl;"DB RegioNetz Verkehrs GmbH; Erzgebirgsbahn"
+RE82;train;Der Leineweber;Bielefeld;Altenbeken;Eurobahn
+RE83;train;;Kiel Hauptbahnhof;Lüneburg;DB Regio AG
 
 ==== RB81 .. RB90
 
@@ -546,11 +552,10 @@ RB 57662;train;;Ulm;Oberstdorf;DB Netz AG
 
 ==== RE
 
-RE;train;;Heilbronn;Mannheim;DB Regio Rhein-Neckar
-RE;train;;Heilbronn;Crailsheim;"DB RegioNetz Verkehrs GmbH; Westfrankenbahn"
+RE;train;;Heilbronn Hbf;Crailsheim;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
 RE;train;;Offenburg;Basel SBB;DB Regio
-RE;train;;Nürnberg Hbf;Stuttgart Hbf;DB Regio AG
-RE;train;;Aschaffenburg;Crailsheim;"DB RegioNetz Verkehrs GmbH; Westfrankenbahn"
+RE;train;;Aschaffenburg;Crailsheim;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
+RE|RE2;train;;Heilbronn;Mannheim;DB Regio Rhein-Neckar
 
 ==== RE1 .. RE10
 
@@ -584,7 +589,7 @@ RE4;train;Schwarzwaldbahn;;;DB Regio
 RE 4;train;;;;
 RE5;train;Rhein-Express;Koblenz;Wesel;DB Regio NRW
 RE5;train;;Rostock|Stralsund;Elsterwerda;DB Regio AG
-RE5;train;; Heidelberg Hbf;Stuttgart Hbf;DB Regio
+RE5;train;;Heidelberg Hbf;Stuttgart Hbf;DB Regio
 RE5;train;;Hamburg;Cuxhaven;Metronom Eisenbahngesellschaft
 RE6;train;Rhein-Weser-Express;Minden;Köln/Bonn Flughafen;DB Regio NRW
 RE6;train;Pfälzische Maximiliansbahn;Neustadt (Weinstraße);Karlsruhe;DB Regio Mitte
@@ -632,9 +637,9 @@ RE 30;train;;;;
 RE 31;train;;;;
 RE 42;train;;;;
 RE 45;train;;;;
-RE50;train;Kinzigtalbahn; Fulda;Frankfurt (Main);DB Regio Mitte 
-RE 50;train;Saxonia;Leipzig;Dresden;DB Regio Südost
+RE50;train;Kinzigtalbahn;Fulda;Frankfurt (Main);DB Regio Mitte 
 RE50;train;;Hildesheim;Wolfsburg;Metronom
+RE 50;train;Saxonia;Leipzig;Dresden;DB Regio Südost
 
 ==== RE51 .. RE60
 
@@ -642,7 +647,6 @@ RE54;train;;Würzburg;Frankfurt;DB Regio AG
 RE55;train;;Würzburg;Frankfurt;DB Regio AG
 RE55/RE56;train;;;;
 RE59;train;;Aschaffenburg;Frankfurt (Main) Flughafen;DB Regio AG
-RE60;train;Main-Neckar-Bahn;Mannheim;Frankfurt;DB Regio
 RE60;train;Ems-Leine-Express;Braunschweig;Rheine;Westfalenbahn
 RE60;train;Main-Neckar-Bahn;Mannheim;Frankfurt;DB Regio Hessen
 
@@ -660,7 +664,6 @@ RE85;train;;;;
 
 ==== RE91 .. RE100
 
-RE98;train;;Kassel;Frankfurt;DB
 RE 98;train;;Kassel;Frankfurt (Main);DB
 RE99;train;Main-Sieg-Express;Siegen;Frankfurt;DB Regio Hessen
 
@@ -781,8 +784,7 @@ S52;train;;Germersheim;Karlsruhe Albtalbahnhof|Karlsruhe Europaplatz|Karlsruhe T
 S71;train;;Achern;Karlsruhe Hauptbahnhof;Albtal-Verkehrs-Gesellschaft mbH
 S81;train;;Eutingen im Gäu|Freudenstadt|Schopfloch|Forbach;Karlsruhe|Raumünzach;Albtal-Verkehrs-Gesellschaft mbH
 -
-4;light_rail;;Käfertal|Wallstadt;Oggersheim|Bad Dürkheim;Rhein-Neckar-Verkehr GmbH
-4A;light_rail;;Bad Dürkheim;Käfertaler Wald;Rhein-Neckar-Verkehr GmbH
+4|4A;light_rail;;Käfertal|Wallstadt|Käfertaler Wald;Oggersheim|Bad Dürkheim;Rhein-Neckar-Verkehr GmbH
 4X;light_rail;;Bad Dürkheim;Oppau;Rhein-Neckar-Verkehr GmbH
 5;light_rail;;Weinheim|Schriesheim;Käfertal|Weinheim;Rhein-Neckar-Verkehr GmbH
 5A;light_rail;;Heddesheim;Hauptbahnhof;Rhein-Neckar-Verkehr GmbH
@@ -954,10 +956,12 @@ HSB;train;Harzquerbahn;Eisfelder Talmühle;Nordhausen Nord;Harzer Schmalspurbahn
 HSB;train;Selketalbahn;Quedlinburg;;Harzer Schmalspurbahnen GmbH - HSB
 HSB 20;train;;;;Heidelberger Straßen- und Bergbahn AG
 Harz-Berlin-Express;train;;;;
+Inselbahn;train;Inselbahn Langeoog;;;Schiffahrt der Inselgemeinde Langeoog
+Inselbahn;train;Borkum-Inselbahn;Reede;Bahnhof;Borkumer Kleinbahn und Dampfschiffahrt GmbH 
 JH;train;Jan Harpstedt;;;DHEF
 Lößnitzgrundbahn;train;;;;Sächsische Dampfeisenbahngesellschaft
+MKO;train;Museumseisenbahn Küstenbahn Ostfriesland;;;;
 Museumsbahn Lüneburg - Bleckede;train;Bleckeder Kleinbahn;Lüneburg;Bleckede;
-Museumseisenbahn Küstenbahn Ostfriesland;train;;;;
 Nerobergbahn;light_rail;Nerobergbahn;Nerotal;Neroberg;
 OBS;train;Schwarzatalbahn;Rottenbach;Katzhütte;"DB RegioNetz Verkehrs GmbH; Oberweißbacher Berg- und Schwarzatalbahn"
 OBS;train;Flachstrecke;Lichtenhain;Cursdorf;"DB RegioNetz Verkehrs GmbH; Oberweißbacher Berg- und Schwarzatalbahn"
@@ -1025,7 +1029,7 @@ ZAB 4;train;;;;
 
 === 700 .. 799
 
-"A 31;703";train;;Müllheim(Baden);Mulhouse Ville;SNCF
+"A 31;703";train;;Mulhouse Ville;Müllheim(Baden);SNCF
 703;train;Rheintalbahn;;;
 717;train;;;;
 718;train;;;;
@@ -1044,7 +1048,7 @@ ZAB 4;train;;;;
 742;train;;;;
 742.1;train;;;;
 743;train;;;;
-"R1;KBS 750";train;;Ulm;Stuttgart;DB
+#"R1;KBS 750";train;;Ulm;Stuttgart;DB
 751;train;;;;
 753;train;;;;
 755;train;;;;
@@ -1057,7 +1061,7 @@ ZAB 4;train;;;;
 781;train;;;;
 783;train;;;;
 784;train;Madonnenlandbahn;Miltenberg;Seckach;
-785;train;Madonnenlandbahn;Miltenberg;Seckach;
+#785;train;Madonnenlandbahn;Miltenberg;Seckach;
 -
 
 === 800 .. 899
@@ -1131,8 +1135,7 @@ KBS 831–867;train;;;;
 
 === > 1000
 
-#2270;train;;;;
-10007 - 1543;train;Wangerooger Inselbahn;;;
+10007;train;Wangerooger Inselbahn;;;DB Fernverkehr AG Inselverkehr Wangerooge
 12426;train;;;;
 12737;train;;;;
 12818;train;;;;
@@ -1153,9 +1156,9 @@ KBS 831–867;train;;;;
 === TGV
 
 OUIGo;train;;;;
-"TGV 84;ICE 84";train;;Marseille;Frankfurt;SNCF
-"TGV 101;ICE 82";train;;Paris-Est;Frankfurt;Alleo GmbH
-"TGV 101;ICE 83";train;;Paris-Est;München|Stuttgart;Alleo GmbH
+"TGV 84;ICE 84";train;;Frankfurt;Marseille;SNCF
+"TGV 101;ICE 82";train;;Frankfurt;Paris-Est;Alleo GmbH
+"TGV 101;ICE 83";train;;München|Stuttgart;Paris-Est;Alleo GmbH
 TGV 108;train;;;;
 TGV 110;train;;;;
 TGV 111;train;;;;
@@ -1222,7 +1225,7 @@ A 05;train;;;;
 A 06;train;;;;
 A 07;train;;;;
 A 08;train;;;;
-"719;A 11";train;;Strasbourg;Offenburg;Ortenau S-Bahn;SNCF
+"719;A 11";train;;Offenburg;Strasbourg;Ortenau S-Bahn;SNCF
 A 13;train;;;;
 A 14;train;;;;
 A 15;train;;;;
@@ -1368,7 +1371,7 @@ R8;train;;Nørre Nebel;Niebüll;NEG-ARRIVA
 
 == Aus Luxemburg
 
-RE11;train;;Luxembourg;Koblenz Hbf;CFL
+RE11;train;;Koblenz Hbf;Luxembourg;CFL
 -
 
 

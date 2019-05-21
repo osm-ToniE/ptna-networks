@@ -191,7 +191,7 @@ RB97;train;Daadetalbahn (DAA);Betzdorf;Daaden;Westerwaldbahn
 
 === Kreis Ahrweiler
 
-310;bus;;Andernach;Maria Laach;RMV
+310;bus;;Maria Laach;Andernach;RMV
 344;bus;;Mayen;Herresbach;RMV
 
 528;bus;;Niederbaar;Adenau;Hoffmann
@@ -290,8 +290,8 @@ RB97;train;Daadetalbahn (DAA);Betzdorf;Daaden;Westerwaldbahn
 263;bus;;Forst;Wissen;Marenbach
 268;bus;;Gebhardshain;Wissen;Westerwaldbus GmbH
 269;bus;;Gebhardshain;Wissen;Westerwaldbus GmbH
-270;bus;RegioBus;Hachenburg;Betzdorf;Westerwaldbus GmbH
-271;bus;;Friedewald;Betzdorf;Westerwaldbus GmbH
+270;bus;RegioBus;Betzdorf;Hachenburg;Westerwaldbus GmbH
+271;bus;RegioBus;Betzdorf;Friedewald;Westerwaldbus GmbH
 272;bus;;Gebhardshain;Steineroth;Westerwaldbus GmbH
 273;bus;;Marienstatt;Kirchen;Westerwaldbus GmbH
 276;bus;;Daaden;Betzdorf;Westerwaldbus GmbH
@@ -431,7 +431,7 @@ N73;bus;NachtBus;Betzdorf;Betzdorf;Westerwaldbus GmbH
 10;bus;;KO-Zentrum;Arzheim;evm
 20;bus;;KO-Zentrum;Rübenach;evm
 27;bus;;Koblenz Hbf;KO-Asterstein;MB AK
-116;bus;;Koblenz;Rennerod / Bad Marienberg;RMV
+116;bus;;Rennerod / Bad Marienberg;Koblenz;RMV
 160;bus;;;Koblenz;Hachenburg;Orthen
 
 301;bus;;Koblenz;Macken;KVG
@@ -448,15 +448,15 @@ N73;bus;NachtBus;Betzdorf;Betzdorf;Westerwaldbus GmbH
 370;bus;;Koblenz;Mülheim-Kärlich;RMV
 380;bus;;Polch;Koblenz;DB Regio Bus
 
-460;bus;;Koblenz;Montabaur;RMV
+460;bus;;Montabaur;Koblenz;RMV
 485;bus;;Koblenz;Siershahn;Griesar
 
-570;bus;via Lahnstein;Koblenz;Braubach;RMV
+570;bus;via Lahnstein;Braubach;Koblenz;RMV
 571;bus;via Lahnstein;Koblenz;Lahnstein auf der Höhe;RMV
-573;bus;via Lahnstein - Friedland/Friedrichssegen;Koblenz;Frücht;RMV
+573;bus;via Lahnstein - Friedland/Friedrichssegen;Frücht;Koblenz;RMV
 
 610;bus;AirportShuttle: Gültig ab 28.10.2018 - 23.03.2019;Koblenz Hbf;Flughafen Hahn;RMV
-620;bus;RegioLinie;Koblenz;Simmern;RMV
+620;bus;RegioLinie;Simmern;Koblenz;RMV
 621;bus;;Koblenz;Emmelshausen;KVG Zickenheiner
 650;bus;;Koblenz;Boppard;KVG Zickenheiner
 
@@ -484,9 +484,9 @@ N11;bus;;Hbf;Montabaur;RMV
 === Kreis Mayen-Koblenz
 
 7;bus;;Höhr-Grenzhausen;Vallendar;evm
-8;bus;;Sayn Schloss;Koblenz Hauptbahnhof;evm
+8;bus;;Koblenz Hauptbahnhof;Sayn Schloss;evm
 
-54;bus;;Bendorf;NR-Marktkirche;MVB
+54;bus;;NR-Marktkirche;Bendorf;MVB
 
 107;bus;;Bendorf;Neuwied/Mini-ZOB;Zickenheiner
 110;bus;;Weißenthurm;Neuwied Bahnhof;VRW
@@ -495,7 +495,7 @@ N11;bus;;Hbf;Montabaur;RMV
 151;bus;;Bendorf;Sayn;VRW
 160;bus;;Koblenz;Hachenburg;Orthen
 
-301;bus;;Macken;Koblenz;KVG
+301;bus;;Koblenz;Macken;KVG
 310;bus;;Maria Laach;Andernach;RMV
 319;bus;;Siershahn;Koblenz/Neuwied;RMV
 320;bus;;Mayen;Mendig;FriBus
@@ -503,7 +503,7 @@ N11;bus;;Hbf;Montabaur;RMV
 331;bus;;Kreuznick;Weiler;RMV
 332;bus;;Luxem;Mayen;RMV
 334;bus;;Mayen;Ulmen / Boos;RMV
-335;bus;;Mayen;Neuwied;RMV
+335;bus;;Neuwied;Mayen;RMV
 336;bus;;Münstermaifeld;Oberfell;RMV
 337;bus;;Mayen;Hatzenport;RMV 
 340;bus;;Arft;Mayen;FriBus
@@ -512,7 +512,7 @@ N11;bus;;Hbf;Montabaur;RMV
 342;bus;;Koblenz;Ulmen;RMV
 343;bus;;Mayen;Boos;RMV
 344;bus;;Mayen;Herresbach;RMV
-350;bus;;Mayen;Koblenz;RMV
+350;bus;;Koblenz;Mayen;RMV
 353;bus;;Koblenz;Polch;RMV
 354;bus;;Koblenz;Mülheim-Kärlich;RMV
 355;bus;;Münstermaifeld;Koblenz;FriBus
@@ -547,11 +547,11 @@ N11;bus;;Hbf;Montabaur;RMV
 557;bus;;Bad Ems;Koblenz;Modigell & Scherer
 
 620;bus;RegioLinie;Simmern;Koblenz;RMV
-621;bus;;Emmelshausen;Koblenz;KVG Zickenheiner
+621;bus;;Koblenz;Emmelshausen;KVG Zickenheiner
 626;bus;;Morshausen;Emmelshausen;Stemmler
 630;bus;RegioRadler Untermosel;Treis-Karden;Emmelshausen;Stemmler
 635;bus;;Kastellaun;Eveshausen/Emmelshausen;RMV
-650;bus;;Boppard;Koblenz;KVG Zickenheiner
+650;bus;;Koblenz;Boppard;KVG Zickenheiner
 
 734;bus;;Kaisersesch;Treis-Karden;RMV
 734-AST;bus;;Kaisersesch;Binningen;RMV
@@ -585,7 +585,7 @@ N11;bus;;Hbf;Montabaur;RMV
 985;bus;;Gering;Niederbieber;FriBus
 986;bus;;Arft;Langenfeld;RMV
 987;bus;;Ochtendung;Kettig;RMV
-988;bus;;Kobern-Gondorf;Koblenz-Güls/Hatzenport;RMV
+988;bus;;Koblenz-Güls/Hatzenport;Kobern-Gondorf;RMV
 994;bus;;Neuwied;Oberlahnstein;RMV
 
 ALF;bus;Verkehrskorridor 1;Herresbach;Mayen;Taxi Rasbach
@@ -619,13 +619,13 @@ N10;bus;;Mayen;Hbf;RMV
 75;bus;;Neuwied/Mini-ZOB;Rodenbach;MVB
 76;bus;;Neuwied Bahnhof;Hüllenberg;MVB
 
-101;bus;Rhein-Westerwald-Express;Neuwied;Horhausen (-Altenkirchen);DB Regio Bus Rhein-Mosel GmbH
+101;bus;Rhein-Westerwald-Express;(Altenkirchen-) Horhausen;Neuwied;DB Regio Bus Rhein-Mosel GmbH
 103;bus;;Neuwied Bahnhof;Dierdorf;VRW
 104;bus;;Dierdorf;Puderbach;Zickenheiner
 107;bus;;Neuwied/Mini-ZOB;Bendorf;Zickenheiner
 110;bus;;Neuwied Bahnhof;Weißenthurm;VRW
 117;bus;;Neuwied Schloßstraße;Dierdorf;VRW
-120;bus;;Dierdorf/Neustadt;Altenkirchen;DB Regio Bus Rhein-Mosel GmbH
+120;bus;;Altenkirchen;Dierdorf/Neustadt;DB Regio Bus Rhein-Mosel GmbH
 121;bus;;Puderbach;Altenkirchen;MB
 122;bus;;Seelbach;Altenkirchen;MB
 131;bus;;Neuwied;Asbach;DB Regio Bus Rhein-Mosel GmbH
@@ -638,7 +638,7 @@ N10;bus;;Mayen;Hbf;RMV
 138;bus;;St. Katharinen-Homscheid;St. Katharinen-Steinshardt/St. Katharinen;DB Regio Bus Rhein-Mosel GmbH
 139;bus;;Neustadt;Kalenborn;DB Regio Bus Rhein-Mosel GmbH
 140;bus;;Straßenhaus;Buchholz;DB Regio Bus Rhein-Mosel GmbH
-142;bus;;Straßenhaus;Horhausen/Lautzert;DB Regio Bus Rhein-Mosel GmbH
+142;bus;;Horhausen/Lautzert;Straßenhaus;DB Regio Bus Rhein-Mosel GmbH
 144;bus;;Dierdorf;Puderbach;VRW
 145;bus;;Puderbach;Dernbach;VRW
 147;bus;;Puderbach;Dierdorf;VRW
@@ -649,7 +649,7 @@ N10;bus;;Mayen;Hbf;RMV
 170;bus;;Neuwied;Linz am Rhein;RMV
 171;bus;;Niederbieber;Horhausen;DB Regio Bus Rhein-Mosel GmbH
 172;bus;;Reifert;Waldbreitbach;DB Regio Bus Rhein-Mosel GmbH
-173;bus;;Obernau/Rengsdorf;Horhausen;DB Regio Bus Rhein-Mosel GmbH
+173;bus;;Horhausen;Obernau/Rengsdorf;DB Regio Bus Rhein-Mosel GmbH
 180;bus;;Hanroth;Dierdorf;Zickenheiner
 184;bus;;;;Omnibusbetrieb Auto-Schmidt
 185;bus;Rundverkehr;Waldbreitbach;Gemeinde Hausen;;Auto-Schmidt
@@ -657,13 +657,13 @@ N10;bus;;Mayen;Hbf;RMV
 
 319;bus;;Siershahn;Koblenz/Neuwied;RMV
 335;bus;;Neuwied;Mayen;RMV
-357;bus;;Neuwied;Koblenz;RMV
+357;bus;;Koblenz;Neuwied;RMV
 370;bus;;Mülheim-Kärlich;Koblenz;Mülheim-Kärlich;RMV
 
 461;bus;;Dierdorf/Selters;Siershahn;DB Regio Bus Rhein-Mosel GmbH
 464;bus;;Dierdorf/Hachenburg;Montabaur;FriBus
 
-522;bus;;Hennef;Asbach;MB/RSVG
+522;bus;;Asbach;Hennef;MB/RSVG
 539 (A);bus;;Asbach;Oberpleis;MB
 561;bus;;Asbach;Neustadt;MB
 562;bus;;Neustadt (Wied);Bad Honnef;MB/RSVG
@@ -708,7 +708,7 @@ AST;bus;;Vettelschoß;Franziskus-Krankenhaus;Stadt Linz am Rhein
 614;bus;Stadtverkehr Boppard;Boppard;Nörtershausen/Oppenhausen/Emmelshausen;KVG Zickenheiner
 615;bus;Stadtverkehr Boppard;Boppard Hauptbahnhof;Mühltal;KVG Zickenheiner
 620;bus;RegioLinie;Simmern;Koblenz;RMV
-621;bus;;Emmelshausen;Koblenz;KVG Zickenheiner
+621;bus;;Koblenz;Emmelshausen;KVG Zickenheiner
 622;bus;;Kastellaun;Emmelshausen;RMV
 623;bus;;St. Goar;Emmelshausen;KVG Zickenheiner
 625;bus;;Kastellaun;Emmelshausen;KVG Zickenheiner
@@ -728,7 +728,7 @@ AST;bus;;Vettelschoß;Franziskus-Krankenhaus;Stadt Linz am Rhein
 645;bus;;Kirchberg/Kappel;Simmern;Stemmler
 646;bus;;Rheinböllen;Rheinböllen;RMV
 647;bus;;Wahlbach;Rheinböllen;RMV
-650;bus;;Boppard;Koblenz;KVG Zickenheiner
+650;bus;;Koblenz;Boppard;KVG Zickenheiner
 651;bus;;Boppard;Oberwesel;KVG Zickenheiner
 653;bus;;Simmern;Oberwesel;RMV
 656;bus;;Oberwesel;Oberwesel;KVG Zickenheiner
@@ -804,7 +804,7 @@ N2;bus;;Emmelshausen;Löhr-Center;KVG Zickenheiner
 563;bus;Rundkurs via Heistenbach – Altendiez;Diez;Diez;MB
 567;bus;via Diez - Hahnstätten;Limburg;Rückershausen/Michelbach;DB Regio Bus
 570;bus;via Lahnstein;Braubach;Koblenz;RMV
-571;bus;via Lahnstein;Lahnstein auf der Höhe;Koblenz;RMV
+571;bus;via Lahnstein;Koblenz;Lahnstein auf der Höhe;RMV
 573;bus;via Lahnstein - Friedland/Friedrichssegen;Frücht;Koblenz;RMV
 574;bus;;Lahnstein-Niederlahnstein;Lahnstein-Lag;RMV
 575;bus;via Hambach;Nentershausen;Diez;MB
@@ -861,7 +861,7 @@ N3;bus;via Zentralplatz - Pfaffendorf - Lahnstein;Hbf;Braubach;RMV
 273;bus;;Marienstatt;Kirchen;Westerwaldbus GmbH
 281;bus;;Limburg;Wilsenroth/Salz;DB BvH
 
-319;bus;;Koblenz/Neuwied;Siershahn;RMV
+319;bus;;Siershahn;Koblenz/Neuwied;RMV
 382;bus;;Vallendar Mallendarer Berg;Arzbach;Modigell & Scherer
 
 408;bus;;Borod;Hachenburg / Altenkirchen;MB
@@ -892,7 +892,7 @@ N3;bus;via Zentralplatz - Pfaffendorf - Lahnstein;Hbf;Braubach;RMV
 453;bus;Linie Gelbachtal;;;RMV
 455;bus;;Bad Marienberg;Daaden;RMV
 456;bus;;Nassau / Bad Ems;Montabaur;RMV
-458;bus;;Montabaur;Laurenburg;RMV
+458;bus;;Laurenburg;Montabaur;RMV
 459;bus;;Montabaur;Heilgenroth Industriegebiet;RMV
 
 460;bus;;Montabaur;Koblenz;RMV
