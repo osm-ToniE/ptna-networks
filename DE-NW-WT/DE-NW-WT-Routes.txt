@@ -920,7 +920,7 @@ T88;bus;;;;Regionalverkehr Münsterland GmbH
 121;bus;;;;moBiel GmbH
 122;bus;;;;moBiel GmbH
 123;bus;;;;moBiel GmbH
-127;bus;;;;moBiel GmbH
+127;bus;;Hillegossen;Oerlinghausen;moBiel GmbH
 128;bus;;;;moBiel GmbH
 130;bus;;;;moBiel GmbH
 131;bus;;;;moBiel GmbH
@@ -1032,7 +1032,7 @@ AST;share_taxi;;;;moBiel GmbH
 84.1;bus;;Schoß Holte;Stukenbrock-Senne;Transdev Ostwestfalen GmbH
 84.2;bus;;Schoß Holte;Liemke;Transdev Ostwestfalen GmbH
 84.3;bus;;;;Transdev Ostwestfalen GmbH
-84.4;bus;;;;Transdev Ostwestfalen GmbH
+84.4;bus;;Schloß Holte;Lipperreihe;Transdev Ostwestfalen GmbH
 84.5;bus;;;;Transdev Ostwestfalen GmbH
 85;bus;;Schloß Holte;Gütersloh;Transdev Ostwestfalen GmbH
 85.1;bus;;;;Transdev Ostwestfalen GmbH
@@ -1259,10 +1259,14 @@ S6;bus;Stadtbus Herford;;;BVO Busverkehr Ostwestfalen GmbH
 
 === Kreis Lippe
 
+34;bus;;Sieker;Oerlinghausen;moBiel GmbH
 38;bus;;Stieghorst;Oerlinghausen;moBiel GmbH
 39;bus;;Oerlinghausen;Sennestadt;moBiel GmbH
 84;bus;;Schloß Holte;Augustdorf;Transdev Ostwestfalen GmbH
+84.4;bus;;Schloß Holte;Lipperreihe;Transdev Ostwestfalen GmbH
+127;bus;;Hillegossen;Oerlinghausen;moBiel GmbH
 333;bus;;Bad Seebruch;Hohenhausen;go.on Gesellschaft für Bus- und Schienenverkehr mbH
+334;bus;;Vlotho;Langenholzhausen;go.on Gesellschaft für Bus- und Schienenverkehr mbH
 349;bus;;Oerlinghausen;Bad Salzuflen;BVO Busverkehr Ostwestfalen GmbH
 350;bus;;Bielefeld|Heepen;Bad Salzuflen|Leopoldshöhe;BVO Busverkehr Ostwestfalen GmbH
 351;bus;;Bielefeld;Oerlinghausen;BVO Busverkehr Ostwestfalen GmbH
@@ -1329,6 +1333,8 @@ S6;bus;Stadtbus Herford;;;BVO Busverkehr Ostwestfalen GmbH
 769;bus;;Lage;Oerlinghausen;BVO Busverkehr Ostwestfalen GmbH
 770;bus;;Glashütte;Wöbbel;Karl Köhne Omnibusbetriebe GmbH
 772;bus;;Detmold|Bad Meinberg;Bad Meinberg|Blomberg|Barntrup;Karl Köhne Omnibusbetriebe GmbH
+773;bus;;Steinheim;;Karl Köhne Omnibusbetriebe GmbH
+774;bus;;Steinheim;;Karl Köhne Omnibusbetriebe GmbH
 776;bus;;Steinheim|Belle|Schieder|Distelbruch|Wöbbel;Bad Meinberg|Detmold|Vahlhausen|Lügte;Karl Köhne Omnibusbetriebe GmbH
 777;bus;;Detmold;Blomberg;Karl Köhne Omnibusbetriebe GmbH
 780;bus;;Detmold;Horn;Karl Köhne Omnibusbetriebe GmbH
@@ -1356,6 +1362,7 @@ S6;bus;Stadtbus Herford;;;BVO Busverkehr Ostwestfalen GmbH
 883;bus;Stadtbus Lemgo;Biesterberg;Spiegelberg;Stadtwerke Lemgo GmbH
 884;bus;Stadtbus Lemgo;Treffpunkt;Lieme;Stadtwerke Lemgo GmbH
 885;bus;Stadtbus Lemgo;Treffpunkt;Talle;Stadtwerke Lemgo GmbH
+900;bus;;;;Karl Köhne Omnibusbetriebe GmbH
 901;bus;;Lemgo;Almena;go.on Gesellschaft für Bus- und Schienenverkehr mbH
 911;bus;;Detmold;Blomberg;Karl Köhne Omnibusbetriebe GmbH
 912;bus;;Detmold;Barntrup;Karl Köhne Omnibusbetriebe GmbH
@@ -1380,6 +1387,7 @@ S6;bus;Stadtbus Herford;;;BVO Busverkehr Ostwestfalen GmbH
 947;bus;Stadtbus Bad Salzuflen;;;Stadtwerke Bad Salzuflen GmbH
 948;bus;;;;Stadtwerke Lemgo GmbH
 949;bus;;;;Stadtwerke Bad Salzuflen GmbH
+950;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 951;bus;;Lage;Hörste;BVO Busverkehr Ostwestfalen GmbH
 952;bus;;;;W. Wellhausen GmbH & Co. KG
 953;bus;;;;BVO Busverkehr Ostwestfalen GmbH
@@ -1395,6 +1403,9 @@ S6;bus;Stadtbus Herford;;;BVO Busverkehr Ostwestfalen GmbH
 970;bus;;;;Teutoburger-Wald-Bus Fritz Rehm & Söhne
 971;bus;;;;W. Wellhausen GmbH & Co. KG
 981;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+
+R50;bus;;Paderborn;Schlangen;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
+R51;bus;;Paderborn;Horn;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
 
 S5;bus;Stadtbus Herford;Tierpark;Ahmsen;BVO Busverkehr Ostwestfalen GmbH
 
@@ -2243,7 +2254,6 @@ UNI;bus;;Uni/Südring;MuseumsForum;PaderSprinter GmbH
 589;bus;;;;Weser-Egge-Bus GmbH & Co. KG
 595;bus;;Rischenau;Fürstenau;BVO Busverkehr Ostwestfalen GmbH
 597;bus;;;;BVO Busverkehr Ostwestfalen GmbH
-770;bus;;Glashütte;Wöbbel;Karl Köhne Omnibusbetriebe GmbH
 773;bus;;Steinheim;;Karl Köhne Omnibusbetriebe GmbH
 774;bus;;Steinheim;;Karl Köhne Omnibusbetriebe GmbH
 776;bus;;Steinheim|Belle|Schieder|Distelbruch|Wöbbel;Bad Meinberg|Detmold|Vahlhausen|Lügte;Karl Köhne Omnibusbetriebe GmbH
