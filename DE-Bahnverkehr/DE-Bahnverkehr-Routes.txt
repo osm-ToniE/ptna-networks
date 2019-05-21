@@ -51,17 +51,6 @@
 -
 - !!!Bitte bei Änderungen an ''' 'ref' ''' auch in dieser Liste entsprechend anpassen!!! Z.B. bei Änderung: 'ref'='RB7' --> 'ref'='RB 7'
 -
--
-- !!!'''''Hinweis:'''''!!! zu dieser Auflistung: 
--
-- * Meldungen wie !!!''"Fehlende Linie für 'ref' = 'R1' und 'route' = 'train'"''!!! sind noch auf Probleme im Tool zurückzuführen.
--
-- * Meldungen wie !!!''"Route-Master hat weniger Routen als im Datensatz tatsächlich passend gefunden wurden (2 gegenüber 3)"''!!! sind u.U. auch noch auf Probleme im Tool zurückzuführen.
--
-- * Meldungen wie !!!''"Es existiert mehr als ein Route-Master"''!!! sind u.U. auch noch auf Probleme im Tool zurückzuführen.
--
-- Das Tool ist derzeit nicht immer in der Lage, eine korrekte Differenzierung hinzubekommen, wenn mehreren Linien mit identischem 'ref' existieren und zudem noch 'operator' und 'from'/'to' Gemeinsamkeiten aufweisen. Siehe hierzu die Erläuterungen unter: [https://ptna.openstreetmap.de/results/DE/DE-Bahnverkehr-Analysis.html#unassigned Nicht eindeutig zugeordnete Linien]. An einer Korrektur/Erweiterung des Tools arbeite ich gerade.
--
 
 == Fernverkehr
 
@@ -176,7 +165,7 @@ R2;train;;Zapfendorf|Lichtenfels|Bamberg|Schney;Nürnberg|Bamberg|Schney;DB Regi
 R3;train;;Stuttgart;Crailsheim;DB Regio Baden-Württemberg
 R3;train;;Nürnberg;Bayreuth;DB Regio AG - Regio Bayern
 R3;train;;Nürnberg Hbf;Neuhaus;DB Regio AG - Regio Bayern
-R3;train;Remsbahn;Nürnberg;Stuttgart;DB Regio
+R3;train;Remsbahn;Nürnberg;Stuttgart;DB Regio AG
 R3;train;;Ulm;Donaueschingen;DB Regio
 R4;train;Allgäu-Franken-Express;Augsburg;Otting-Weilheim;DB Regio AG Bayern
 R4;train;;Nürnberg Hauptbahnhof;Amberg;DB Regio AG - Regio Franken
@@ -187,7 +176,7 @@ R5;train;;Nürnberg;Parsberg;
 R6;train;;Augusburg;Dinkelscherben;
 R6;train;;Nürnberg Hbf;Treuchtlingen;
 R7;train;;Augsburg;Schwabmünchen;
-R7;train;;Schnelldorf|Stuttgart Hbf;Nürnberg Hbf;
+R7;train;;Schnelldorf|Stuttgart Hbf;Nürnberg Hbf;DB Regio AG
 R7;train;;Stuttgart;Horb;DB
 R8;train;;Uffenheim;Treuchtlingen;DB Regio AG - Regio Bayern
 R8;train;;Augsburg;Klosterlechfeld;
@@ -387,6 +376,8 @@ RB41;train;Mittelhessenexpress;Treysa;Frankfurt;DB
 RE42;train;Niers-Haard-Express;Münster;Mönchengladbach;DB Regio NRW
 RB 42;train;;Dessau;Magdeburg;DB Regio Sachsen-Anhalt
 RB 42;train;;Bad-Harzburg;Braunschweig;erixx GmbH
+RB43;train;Emschertal-Bahn;Dortmund;Dorsten;NordWestBahn
+RB43;train;;Falkenberg (Elster);Cottbus;DB Regio AG
 RB 43;train;;Magdeburg;Halle;DB Regio Südost
 RB 43;train;;Braunschweig;Goslar;erixx GmbH
 RB44;train;;Braunschweig;Salzgitter-Lebenstedt;DB Regio
@@ -486,8 +477,19 @@ RB70;train;;Kaiserslautern;Merzig (Saar);DB Regio Südwest
 
 ==== RB71 .. RB80
 
+RB71;train;Ravensberger Bahn;Rahden (Kr Lübbecke);Bielefeld;Eurobahn
+RB71;train;Saartal-Bahn;Homburg(Saar)Hbf;TrierHbf;DB Regio Mitte
+RB71;train;;Hamburg-Altona;Wrist|Itzehoe;NBE Nordbahn Eisenbahngesellschaft mbh & Co. KG
 RB 71;train;;Pirna;Sebnitz;Städtebahn Sachsen GmbH
+RB72;train;Ostwestfalen-Bahn;Paderborn;Herford;Eurobahn
+RB72;train;Fischbach-Illtal-Bahn;Saarbrücken;Lebach-Jabach;DB Regio Südwest
 RB 72;train;Müglitztalbahn;Altenberg;Heidenau;Städtebahn Sachsen GmbH
+RB73;train;Der Lipperländer;Lemgo;Bielefeld;Eurobahn
+RB73;train;Nahetalbahn;Saarbrücken Hvf;Neubrücke (Nahe);DB Regio Südwest
+RB73;train;;Neustadt (Dosse);Pritzwalk|Kyritz;Hanseatische Eisenbahn GmbH
+RB74;train;Senne-Bahn;Bielefeld;Paderborn;NordWestBahn
+RB74;train;;Illingen;Homburg(Saar) Hbf;DB Regio Südwest
+RB74;train;;Pritzwalk|Pritzwalk West;Meyenburg;Hanseatische Eisenbahn GmbH
 RB 75;train;;Eichenberg|Nordhausen;Halle(Saale)Hbf;DB Regio AG;Abellio Rail Mitteldeutschland GmbH
 RB75;train;Haller Willem;Osnabrück;Bielefeld;NordWestBahn
 RB75;train;;Wiesbaden;Aschaffenburg;Hessische Landesbahn GmbH
@@ -504,8 +506,6 @@ RB 78;train;;Merseburg;Querfurt;Burgenlandbahn (DB Regio Südost)
 RB79;train;;Hildesheim;Bodenburg;NordWestBahn
 RB80;train;;Göttingen;Nordhausen;DB Regio Nord
 RB 80;train;;Chemnitz Hauptbahnhof;Cranzahl;"DB RegioNetz Verkehrs GmbH; Erzgebirgsbahn"
-RE82;train;Der Leineweber;Bielefeld;Altenbeken;Eurobahn
-RE83;train;;Kiel Hauptbahnhof;Lüneburg;DB Regio AG
 
 ==== RB81 .. RB90
 
@@ -520,11 +520,13 @@ RB82;train;;Neumünster;Bad Oldesloe;NBE Nordbahn Eisenbahngesellschaft mbh & Co
 RB 82;train;;Göttingen;Bad Harzburg;DB Regio Nord
 RB84;train;Egge-Bahn;Paderborn;Kreiensen;NordWestBahn
 RB84;train;;Lübeck;Kiel;DB Regio
+RB85;train;Oberweser-Bahn;Göttingen;Paderborn;NordWestBahn
 RB 85;train;;Bullay (DB);Traben-Trarbach;Rhenus Veniro
 RB 85;train;;Puttgarden;Lübeck;DB Regio AG - Region Nord
 RB86;train;Odenwaldbahn;Hanau;Wiebelsbach;VIAS GmbH
 RB86;train;;Travemünde Strand;Lübeck Hbf;DB Regio AG - Region Nord
 RB86;train;;Einbeck Mitte;Einbeck-Salzderhelden;DB Regio Nord
+RB89;train;Ems-Börde-Bahn;Warburg (Westf);Münster (Westf);Eurobahn
 RB 89;train;;Chemnitz Hauptbahnhof;Aue (Sachsen);"DB RegioNetz Verkehrs GmbH; Erzgebirgsbahn"
 RB90;train;Westerwald-Sieg-Bahn;Siegen;Limburg (Lahn);HLB
 
@@ -538,6 +540,7 @@ RB94;train;;Marburg;Erndtebrück;"DB RegioNetz Verkehrs GmbH; Kurhessenbahn"
 RB95;train;Sieg-Dill-Bahn;Siegen;Dillenburg;DreiLänderBahn
 RB 95;train;;Zwickau;Johanngeorgenstadt;"DB RegioNetz Verkehrs GmbH; Erzgebirgsbahn"
 RB96;train;Hellertalbahn;Dillenburg;Betzdorf (Sieg);HLB
+RB97;train;Daadetalbahn;Betzdorf (Sieg);Daaden;Westerwaldbahn GmbH
 
 ==== RB101 ...
 
@@ -597,6 +600,9 @@ RE6;train;;Berlin-Gesundbrunnen;Wittenberge;DB Regio
 RE6;train;;Hamburg;Westerland;DB Regio AG
 RE6;train;;Lübeck;Stettin;DB Regio
 RE 6;train;;Chemnitz Hbf;Leipzig Hbf;Transdev Regio Ost GmbH
+RE7;train;Rhein-Münsterland-Express;Rheine;Krefeld;National Express Rail GmbH
+RE7;train;;Hamburg;Flensburg;DB Regio AG
+RE7;train;;Dessau;Wünsdorf-Waldstadt;DB Regio Nordost
 RE 7;train;;;;
 RE8;train;;;;
 RE9;train;;;;
@@ -609,6 +615,8 @@ RE 10;train;;;;
 RE11;train;Rhein-Hellweg-Express;Düsseldorf;Kassel;Abellio Rail NRW GmbH
 RE11;train;;Koblenz Hbf;Luxembourg;CFL
 RE 11;train;;Magdeburg;Thale;Abellio Rail
+RE12;train;Eifel-Mosel-Express;Trier;Köln;DB Regio NRW
+RE13;train;Maas-Wupper-Express;Hamm (Westf);Venlo;Eurobahn
 RE 13;train;;Magdeburg;Leipzig;DB Regio Sachsen-Anhalt
 RE 13;train;;Kirchheimbolanden;Mainz Hbf;Vlexx
 RE14;train;;Frankfurt;Mannheim;DB Regio Südwest
@@ -616,6 +624,8 @@ RE15;train;;Dresden;Hoyerswerda;DB Regio AG
 RE 15;train;;Magdeburg;Lutherstadt Wittenberg;DB Regio Südost
 RE 15;train;;Mainz;Kaiserslautern;DB Regio Südwest
 RE 15;train;;Emden Hbf;Emden Außenhafen;Westfalenbahn
+RE16;train;Ruhr-Sieg-Express;Essen;Siegen|Iserlohn;Abellio Rail NRW
+RE16;train;;Trier;Metz Ville;DB Regio Südwest
 RE 16;train;;;;
 RE17;train;Sauerland-Express;Kassel;Hagen;DB Regio AG, Region NRW
 RE 17;train;;;;
@@ -629,7 +639,9 @@ RE 20;train;;;;
 ==== RE21 .. RE30
 
 RE 21;train;;Magdeburg;Goslar;HEX
+RE22;train;Eifel-Express;Köln;Gerolstein;DB Regio NRW
 RE25;train;Lahntal-Express;Gießen;Koblenz;DB Regio Südwest
+RE29;train;euregioAIXpress;Aachen;Spa-Géronstère;NMBS/SNCB
 RE 30;train;;;;
 
 ==== RE31 .. RE40
@@ -653,10 +665,14 @@ RE60;train;Main-Neckar-Bahn;Mannheim;Frankfurt;DB Regio Hessen
 ==== RE61 .. RE70
 
 RE70;train;;;;
+RE 72;train;;Kiel Hbf;Flensburg;DB Regio AG - Region Nord
+RE 74;train;;Kiel Hbf;Husum;DB Regio AG - Region Nord
 
 ==== RE71 .. RE80
 
 RE80;train;Odenwaldbahn;Erbach;Darmstadt;VIAS GmbH
+RE82;train;Der Leineweber;Bielefeld;Altenbeken;Eurobahn
+RE83;train;;Kiel Hauptbahnhof;Lüneburg;DB Regio AG
 
 ==== RE81 .. RE90
 
@@ -1372,6 +1388,11 @@ R8;train;;Nørre Nebel;Niebüll;NEG-ARRIVA
 == Aus Luxemburg
 
 RE11;train;;Koblenz Hbf;Luxembourg;CFL
+-
+
+== Aus Belgien
+
+RE29;train;euregioAIXpress;Aachen;Spa-Géronstère;NMBS/SNCB
 -
 
 
