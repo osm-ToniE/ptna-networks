@@ -90,7 +90,6 @@ RB37;train;;;;DB Regio NRW
 RB39;train;;;;VIAS
 RB40;train;;;;Abellio Rail NRW
 RB43;train;;;;NordWestBahn
-RB43;train;;;;Deutsche Bahn Regio AG
 RB44;train;;;;NordWestBahn
 RB45;train;;;;NordWestBahn
 RB46;train;;;;Abellio Rail NRW

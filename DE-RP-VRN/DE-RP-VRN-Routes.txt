@@ -90,8 +90,7 @@ RB2;train;;;;
 
 == Stadtbahn
 
-4;light_rail;;;;
-4A;light_rail;;;;
+4|4A;light_rail;;;;
 4X;light_rail;;;;
 5;light_rail;;;;
 

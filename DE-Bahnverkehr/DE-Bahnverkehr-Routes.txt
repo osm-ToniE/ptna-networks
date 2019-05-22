@@ -939,6 +939,18 @@ S3;train;;Güstrow;Rostock Hbf;DB Regio
 18;light_rail;;Sieker Mitte;Senne;moBiel GmbH
 -
 
+== Ein-Schienen-Bahn (Hängebahn, Mono-Rail)
+
+60;monorail;Schwebebahn Wuppertal;Wuppertal Oberbarmen Bahnhof;Wuppertal Vohwinkel Schwebebahn;WSW
+H1;monorail;Schwebebahn UNI-Dortmund;Eichlinghofen;Technologiezentrum;DSW21
+H2;monorail;Schwebebahn UNI-Dortmund;Campus Nord;Campus Süd;DSW21
+Schwebebahn;monorail;Schwebebah Dresden;Talstation;Oberloschwitz;Dresdner Verkehrbetriebe
+SkyLine;monorail;Flughafen Frankfurt;Terminal 1;Terminal 2;Fraport AG
+Skytrain;monorail;Flughafen Düsseldorf;D-Flughafen Bf;D-Flughafen;Flughafen Düsseldorf
+E.P.E.;monorail;;;Europa-Park Rust	
+Monorail;monorail;;;Europa-Park Rust	
+-
+
 == Weitere Bahnlinien
 
 ALXn;train;;;;
