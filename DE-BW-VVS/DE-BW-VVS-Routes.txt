@@ -440,8 +440,6 @@ N92;bus;;Filderstadt;Bernhausen Bf;
 637;bus;;Malmsheim;Robert-Bosch-Renningen;
 638;bus;;Leonberg Golfplatz;Ditzingen;
 651;bus;;Hemmingen;Leonberg;
-652;bus;;Weissach Porsche;Leonberg;
-653;bus;;Weissach Porsche / Wiernsheim;Leonberg;
 655;bus;;Rutesheim Rathaus;Bahnhof;
 663;bus;;Hausen;Weil der Stadt;
 665;bus;;Weil der Stadt Gymnasium;Bf;
@@ -512,6 +510,10 @@ N92;bus;;Filderstadt;Bernhausen Bf;
 817;bus;;Plattenhardt;Sielmingen;
 818;bus;;Stetten;Musberg;
 819;bus;;Citybus Leinfelden-Echterdingen;Citybus Leinfelden-Echterdingen;
+#
+=== Weitere
+BB40;bus;Marbacher BürgerBus;Marbach (N) Rathaus;Marbach (N) Niklastorstraße 9;
+MB1;bus;;Böblingen;Sindelfingen Mercedes-Benz Kundencenter;
 #
 === Schulbus
 75E;bus;Schülerverkehr Interimsvergabe;Filderstadt/Aichtal;Filderstadt/Aichtal;
@@ -593,8 +595,14 @@ R82;train;;Neuffen;Nürtingen (Tälesbahn);
 R83;train;;Bad Urach;Reutlingen;
 #
 === Bus
+178;bus;;Kirchheim (T);Göppingen;
+260;bus;;Göppingen;Schorndorf;
+261;bus;;Göppingen;Ebersbach (F);
+652;bus;;Weissach Porsche;Leonberg;
+653;bus;;Weissach Porsche / Wiernsheim;Leonberg;
 826;bus;;Tübingen;Leinfelden;
 828;bus;;Tübingen;Flughafen;
+7627;bus;;Rottenburg (N);Ergenzingen;
 
 #
 == Nicht im VVS-Tarif

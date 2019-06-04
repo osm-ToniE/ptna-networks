@@ -601,17 +601,17 @@ RE1;train;;Hannover;Emden/Norddeich;Deutsche Bahn
 RE4;train;;Bremen;Hamburg;Metronom
 RE8;train;;Bremerhaven-Lehe;Hannover;Deutsche Bahn
 RE9;train;;Bremerhaven-Lehe;Osnabrück;Deutsche Bahn
-RE18;train;;Wilhelmshaven;Osnabrück;NordWestBahn
-RE19;train;;Bremen;Wilhelmshaven;NordWestBahn
+RE 18;train;;Wilhelmshaven;Osnabrück;NordWestBahn
+RE 19;train;;Bremen;Wilhelmshaven;NordWestBahn
 === Regio-S-Bahn
-RS1;train;;Bremen-Farge;Verden;NordWestBahn
-RS2;train;;Bremerhaven-Lehe;Twistringen;NordWestBahn
-RS3;train;;Bremen;Bad Zwischenahn;NordWestBahn
-RS4;train;;Bremen;Nordenham;NordWestBahn
+RS 1;train;;Bremen-Farge;Verden;NordWestBahn
+RS 2;train;;Bremerhaven-Lehe;Twistringen;NordWestBahn
+RS 3;train;;Bremen;Bad Zwischenahn;NordWestBahn
+RS 4;train;;Bremen;Nordenham;NordWestBahn
 === RegionalBahn
 RB33;train;;Cuxhaven;Buxtehude;evb
 RB37;train;;Bremen;Uelzen;evb
 RB41;train;;Bremen;Hamburg;evb
-RB58;train;;Bremen;Vechta/Osnabrück;evb
+RB 58;train;;Bremen;Vechta/Osnabrück;NordWestBahn
 RB76;train;;Rotenburg (W);Minden;evb
 </pre>

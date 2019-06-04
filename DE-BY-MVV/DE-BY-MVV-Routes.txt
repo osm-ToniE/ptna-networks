@@ -97,7 +97,7 @@ N27;tram;;Petuelring;Großhesseloher Brücke;SWM/MVG
 === Express-Bus (München)
 X30;bus;ExpressBus;Harras U S R;Ostbahnhof U S R;SWM/MVG
 X50;bus;ExpressBus;Moosach U S R;Alte Heide U;SWM/MVG,
-X80;bus;!Neue Buslinie ab 29. April 2019!;Puchheim S Süd;Moosach U S R;SWM/MVG
+X80;bus;ExpressBus;Puchheim S Süd;Moosach U S R;SWM/MVG
 X98;bus;ExpressBus;Hauptbahnhof;Tierpark (Alemannenstraße);SWM/MVG
 #
 === Metro-Bus (München)

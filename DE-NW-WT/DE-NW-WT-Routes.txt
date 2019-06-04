@@ -62,13 +62,13 @@
 R 42;train;;;;DB RegioNetz Verkehrs GmbH; Kurhessenbahn
 RB25;train;;;;DB Regio NRW
 RB32;train;;;;Abellio Rail NRW
-RB45;train;;;;NordWestBahn
+RB 45;train;;;;NordWestBahn
 RB50;train;;;;Eurobahn
 RB51;train;;;;
 RB52;train;;;;DB Regio NRW
 RB53;train;;;;
 RB54;train;;;;
-RB58;train;;;;NordWestBahn
+RB 58;train;;;;NordWestBahn
 RB59;train;;Dortmund;Soest;Eurobahn
 RB61;train;;Bielefeld;Hengelo;Eurobahn
 RB63;train;;;;
@@ -80,11 +80,11 @@ RB69;train;;Bielefeld;Münster;Eurobahn
 RB71;train;;Bielefeld;Rahden;Eurobahn
 RB72;train;;Herford;Paderborn;Eurobahn
 RB73;train;;Bielefeld;Lemgo-Lüttfeld;Eurobahn
-RB74;train;;Bielefeld;Paderborn;NordWestBahn
-RB75;train;;Bielefeld;Osnabrück;NordWestBahn
-RB77;train;;Bünde;Hildesheim;NordWestBahn
-RB84;train;;Paderborn;Kreiensen;NordWestBahn
-RB85;train;;Ottbergen;Göttingen;NordWestBahn
+RB 74;train;;Bielefeld;Paderborn;NordWestBahn
+RB 75;train;;Bielefeld;Osnabrück;NordWestBahn
+RB 77;train;;Bünde;Hildesheim;NordWestBahn
+RB 84;train;;Paderborn;Kreiensen;NordWestBahn
+RB 85;train;;Ottbergen;Göttingen;NordWestBahn
 RB89;train;;Paderborn;Münster;Eurobahn
 RB90;train;;;;HLB
 RB91;train;;;;Abellio Rail NRW
@@ -101,11 +101,11 @@ RE7;train;;;;DB Regio NRW
 RE9;train;;;;DB Regio NRW
 RE11;train;;;;DB Regio NRW
 RE13;train;;;;Eurobahn
-RE14;train;;;;NordWestBahn
+RE 14;train;;;;NordWestBahn
 RE15;train;;;;Westfalenbahn
 RE16;train;;;;Abellio Rail NRW
 RE17;train;;;;DB Regio NRW
-RE18;train;;;;Westfalenbahn
+RE 18;train;;Wilhelmshaven;Osnabrück;NordWestBahn
 RE42;train;;;;DB Regio NRW
 RE57;train;;;;
 RE60;train;;Rheine;Braunschweig;Westfalenbahn

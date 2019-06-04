@@ -80,18 +80,18 @@
 === RB
 
 RB27;train;;;;DB Regio Mitte
-RB31;train;;;;NordWestBahn
+RB 31;train;;;;NordWestBahn
 RB32;train;;;;Abellio Rail NRW
 RB33;train;;;;DB Regio NRW
 RB34;train;;;;VIAS
 RB35;train;;;;Abellio Rail NRW
-RB36;train;;;;NordWestBahn
+RB 36;train;;;;NordWestBahn
 RB37;train;;;;DB Regio NRW
 RB39;train;;;;VIAS
 RB40;train;;;;Abellio Rail NRW
-RB43;train;;;;NordWestBahn
-RB44;train;;;;NordWestBahn
-RB45;train;;;;NordWestBahn
+RB 43;train;;;;NordWestBahn
+RB 44;train;;;;NordWestBahn
+RB 45;train;;;;NordWestBahn
 RB46;train;;;;Abellio Rail NRW
 RB48;train;;;;National Express Rail GmbH
 RB50;train;;;;Eurobahn
@@ -111,10 +111,10 @@ RE5;train;;;;DB Regio NRW
 RE6;train;;;;DB Regio NRW
 RE7;train;;;;National Express Rail GmbH
 RE8;train;;;;DB Regio NRW
-RE10;train;;;;NordWestBahn
+RE 10;train;;;;NordWestBahn
 RE11;train;;;;Abellio Rail NRW
 RE13;train;;;;Eurobahn
-RE14;train;;;;NordWestBahn
+RE 14;train;;;;NordWestBahn
 RE16;train;;;;Abellio Rail NRW
 RE17;train;;;;DB Regio NRW
 RE19;train;;;;Abellio Rail NRW
@@ -507,6 +507,7 @@ TB207;bus;Quelle gtfs;Dorsten Dorfstr. Bstg 02;Dorsten Montessori-Campus Bstg 02
 #209E;bus;Quelle gtfs;Dorsten Montessori-Campus Bstg 01;Dorsten Rhade Ort Bstg 02;VRR
 #TB209;bus;Quelle gtfs;Dorsten Montessori-Campus Bstg 01;Dorsten Lembeck Busbf Bstg 01;VRR
 TB209;bus;Quelle gtfs;Dorsten Montessori-Campus Bstg 01;Dorsten Lembeck Busbf Bstg 01;Vestische
+#NE21 siehe Abschnitt 9xx operator=STOAG;Vestische
 NE21;bus;Quelle gtfs;Bottrop ZOB Berliner Platz Bstg 06;Oberhausen Hbf Bstg 4;Vestische
 #NE21;bus;Quelle gtfs;Bottrop ZOB Berliner Platz Bstg 06;Oberhausen Hbf Bstg 4;VRR
 #NE21;bus;Quelle gtfs;Bottrop ZOB Berliner Platz Bstg 06;Oberhausen Hbf Bstg 4;Vestische
@@ -1391,6 +1392,20 @@ NE19;bus;Quelle gtfs;Bottrop ZOB Berliner Platz Bstg 08;Gelsenkirchen Buerer Str
 397;bus;Quelle gtfs;Gelsenkirchen Im Eichkamp;GE-Buer Rathaus Bstg 02;BOGESTRA
 398;bus;Quelle gtfs;Gelsenkirchen Schäferstr.;GE-Buer Rathaus Bstg 02;BOGESTRA
 399;bus;Quelle gtfs;Gelsenkirchen Fachhochschule;GE-Buer Rathaus Bstg 12;BOGESTRA
+
+AST16;bus;Quelle gtfs;Bochum Ruhr-Universität;Bochum Kalwes;BOGESTRA
+AST26;bus;Quelle gtfs;Bochum Haarholzer Str.;Bochum Blumenau;BOGESTRA
+AST46;bus;Quelle gtfs;Bochum Munscheider Str.;Bochum Weitmar Mitte;BOGESTRA
+#AST52;bus;Quelle gtfs;Bochum Eiberger Str.;Bochum Linden Mitte;BOGESTRA
+52;bus;Anrufsammeltaxi;Bochum Eiberger Str.;Bochum Linden Mitte;BOGESTRA
+AST53;bus;Quelle gtfs;Bochum Sundern;Bochum Blankensteiner Str.;BOGESTRA
+AST59;bus;Quelle gtfs;Bochum Dahlhausen;Hattingen Mitte Bstg 3;BOGESTRA
+AST63;bus;Quelle gtfs;Essen Zweibachegge Bstg 1;Bochum Roonstr.;BOGESTRA
+AST69;bus;Quelle gtfs;Bochum Sportplatz Papenholz;Dortmund Lütgendortmund S;BOGESTRA
+AST72;bus;Quelle gtfs;Bochum Ruhr-Universität;Bochum Semperstr.;BOGESTRA
+AST94;bus;Quelle gtfs;Gelsenkirchen Hbf Bstg 09;Gelsenkirchen Achternbergstr.;BOGESTRA
+AST95;bus;Quelle gtfs;Bochum Zillertal;Herne REAL-Warenhaus;BOGESTRA
+AST97;bus;Quelle gtfs;Gelsenkirchen Neuer Weg;Gelsenkirchen Erle Forsthaus;BOGESTRA
 
 E30;bus;Quelle gtfs;Witten Im Eickhoff;Witten Zu den Eichen;BOGESTRA
 E33;bus;Quelle gtfs;Witten Im Eickhoff;Witten Rathaus Bstg 02;BOGESTRA
@@ -2345,29 +2360,21 @@ NE6;bus;Quelle gtfs;Oberhausen Ruhrpark;OB Sterkrade Bf. Bstg 5;STOAG
 NE7;bus;Quelle gtfs;OB Sterkrade Bf. Bstg 7;OB Heinrich-Böll-Gesamtschule Bstg 2;STOAG
 NE10;bus;Quelle gtfs;Mülheim Lindenhof Bstg 1;OB Sterkrade Bf. Bstg 5;STOAG
 NE11;bus;Quelle gtfs;Oberhausen Neue Mitte;Oberhausen Hbf Bstg 10;STOAG
-NE21;bus;Quelle gtfs;Oberhausen Hbf Bstg 1;Bottrop ZOB Berliner Platz Bstg 06;STOAG
-NE21;bus;Quelle gtfs;Oberhausen Hbf Bstg 1;Bottrop ZOB Berliner Platz Bstg 06;STOAG
+NE21;bus;;Oberhausen Hbf Bstg 1;Bottrop ZOB Berliner Platz Bstg 06;STOAG;Vestische
+#NE21;bus;Quelle gtfs;Oberhausen Hbf Bstg 1;Bottrop ZOB Berliner Platz Bstg 06;STOAG
 
-NE 1;bus;Quelle gtfs;DU-Hbf Osteingang Bstg 2;DU-Hbf Osteingang Bstg 3;DVG
-NE 2;bus;Quelle gtfs;DU-Hbf Osteingang Bstg 3;DU-Hbf Osteingang Bstg 3;DVG
-NE 3;bus;Quelle gtfs;Duisburg Walsum Rathaus Bstg 3;Duisburg Sportpark Bstg 1;DVG
-NE 4;bus;Quelle gtfs;Duisburg Hansegracht Bstg 1;Duisburg Hansegracht Bstg 1;DVG
+NE1;bus;;DU-Hbf Osteingang Bstg 2;DU-Hbf Osteingang Bstg 3;DVG
+#NE 1;bus;Quelle gtfs;DU-Hbf Osteingang Bstg 2;DU-Hbf Osteingang Bstg 3;DVG
+NE2;bus;;DU-Hbf Osteingang Bstg 3;DU-Hbf Osteingang Bstg 3;DVG
+#NE 2;bus;Quelle gtfs;DU-Hbf Osteingang Bstg 3;DU-Hbf Osteingang Bstg 3;DVG
+NE3;bus;;Duisburg Walsum Rathaus Bstg 3;Duisburg Sportpark Bstg 1;DVG
+#NE 3;bus;Quelle gtfs;Duisburg Walsum Rathaus Bstg 3;Duisburg Sportpark Bstg 1;DVG
+NE4;bus;;Duisburg Hansegracht Bstg 1;Duisburg Hansegracht Bstg 1;DVG
+#NE 4;bus;Quelle gtfs;Duisburg Hansegracht Bstg 1;Duisburg Hansegracht Bstg 1;DVG
 
 
 === Rufbusse und Bürgerbusse
 
-AST16;bus;Quelle gtfs;Bochum Ruhr-Universität;Bochum Kalwes;BOGESTRA
-AST26;bus;Quelle gtfs;Bochum Haarholzer Str.;Bochum Blumenau;BOGESTRA
-AST46;bus;Quelle gtfs;Bochum Munscheider Str.;Bochum Weitmar Mitte;BOGESTRA
-AST52;bus;Quelle gtfs;Bochum Eiberger Str.;Bochum Linden Mitte;BOGESTRA
-AST53;bus;Quelle gtfs;Bochum Sundern;Bochum Blankensteiner Str.;BOGESTRA
-AST59;bus;Quelle gtfs;Bochum Dahlhausen;Hattingen Mitte Bstg 3;BOGESTRA
-AST63;bus;Quelle gtfs;Essen Zweibachegge Bstg 1;Bochum Roonstr.;BOGESTRA
-AST69;bus;Quelle gtfs;Bochum Sportplatz Papenholz;Dortmund Lütgendortmund S;BOGESTRA
-AST72;bus;Quelle gtfs;Bochum Ruhr-Universität;Bochum Semperstr.;BOGESTRA
-AST94;bus;Quelle gtfs;Gelsenkirchen Hbf Bstg 09;Gelsenkirchen Achternbergstr.;BOGESTRA
-AST95;bus;Quelle gtfs;Bochum Zillertal;Herne REAL-Warenhaus;BOGESTRA
-AST97;bus;Quelle gtfs;Gelsenkirchen Neuer Weg;Gelsenkirchen Erle Forsthaus;BOGESTRA
 BBS_;bus;Quelle gtfs;Mülheim Sültenfuß Bstg 4;Mülheim Sültenfuß Bstg 4;Ruhrbahn
 T1;bus;Quelle gtfs;Mülheim Rhein-Ruhr-Zentrum Bstg 3;Frohnhausen Breilsort Bstg 2;Ruhrbahn
 T2;bus;Quelle gtfs;Mülheim Goetheplatz Bstg 1;Mülheim Freiherr-v-Stein Str.;Ruhrbahn
