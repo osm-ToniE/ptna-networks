@@ -995,12 +995,12 @@ TB269;bus;Quelle gtfs;Bottrop Schneiderstr. Bstg 01;Bottrop Im Pinntal Bstg 02;V
 #TB269;bus;Quelle gtfs;Bottrop Schneiderstr. Bstg 01;Bottrop Im Pinntal Bstg 02;Vestische
 #TB269;bus;Quelle gtfs;Bottrop Schneiderstr. Bstg 01;Bottrop Im Pinntal Bstg 02;VRR
 #TB269;bus;Quelle gtfs;Bottrop Schneiderstr. Bstg 01;Bottrop Im Pinntal Bstg 02;Vestische
-SB27;bus;Quelle gtfs;Marl Mitte Bstg 07;Wanne-Eickel Hbf Bstg 04;Vestische
+SB27|SB27E;bus;Quelle gtfs;Marl Mitte Bstg 07;Wanne-Eickel Hbf Bstg 04;Vestische
 #SB27;bus;Quelle gtfs;Marl Mitte Bstg 07;Wanne-Eickel Hbf Bstg 04;VRR
 #SB27;bus;Quelle gtfs;Marl Mitte Bstg 07;Wanne-Eickel Hbf Bstg 03;Vestische
 #SB27;bus;Quelle gtfs;Marl Mitte Bstg 07;Wanne-Eickel Hbf Bstg 04;VRR
 #SB27;bus;Quelle gtfs;Marl Mitte Bstg 07;Wanne-Eickel Hbf Bstg 03;Vestische
-27;bus;Quelle gtfs;Wanne Waldfriedhof Bstg 03;Herten AGR Herten Bstg 01;Vestische
+#27;bus;Quelle gtfs;Wanne Waldfriedhof Bstg 03;Herten AGR Herten Bstg 01;Vestische
 #SB27E;bus;Quelle gtfs;Wanne Waldfriedhof Bstg 03;Herten AGR Herten Bstg 01;VRR
 270;bus;Quelle gtfs;Recklinghausen Hbf Bstg 02;Marl Mitte Bstg 08;Vestische
 #270;bus;Quelle gtfs;Recklinghausen Hbf Bstg 02;Marl Mitte Bstg 08;VRR
@@ -2539,8 +2539,10 @@ SB37;bus;Quelle gtfs;Ennepetal Busbahnhof Bstg 5;Bochum Hbf Bstg 05;BOGESTRA
 SB38;bus;;Ennepetal Busbahnhof Bstg 5;Hattingen Mitte Bstg 1;VER;BVR
 #SB38;bus;Quelle gtfs;Ennepetal Busbahnhof Bstg 5;Hattingen Mitte Bstg 1;VER
 #SB38;bus;Quelle gtfs;Ennepetal Busbahnhof Bstg 5;Hattingen Mitte Bstg 5;BVR
-SB 40;bus;Quelle gtfs;Duisburg Walsum Overbruch Bstg 1;DU-Hbf Osteingang Bstg 3;DVG
-SB 42;bus;Quelle gtfs;Duisburg An der Cölve Bstg 1;DU-Hbf Osteingang Bstg 3;DVG
+SB40;bus;;Duisburg Walsum Overbruch Bstg 1;DU-Hbf Osteingang Bstg 3;DVG
+#SB 40;bus;Quelle gtfs;Duisburg Walsum Overbruch Bstg 1;DU-Hbf Osteingang Bstg 3;DVG
+SB42;bus;;Duisburg An der Cölve Bstg 1;DU-Hbf Osteingang Bstg 3;DVG
+#SB 42;bus;Quelle gtfs;Duisburg An der Cölve Bstg 1;DU-Hbf Osteingang Bstg 3;DVG
 SB49;bus;Quelle gtfs;Recklinghausen Hbf Bstg 05;GE-Buer Rathaus Bstg 03;Vestische
 #SB49;bus;Quelle gtfs;Recklinghausen Hbf Bstg 05;GE-Buer Rathaus Bstg 03;VRR
 #SB49;bus;Quelle gtfs;Recklinghausen Hbf Bstg 05;GE-Buer Rathaus Bstg 03;Vestische
@@ -2558,7 +2560,8 @@ SB68;bus;Quelle gtfs;Mettmann Rudolf-Diesel-Straße Bstg 1;Wuppertal Hbf Bstg 5;
 SB71;bus;Quelle gtfs;HA-Vorhalle Mitte;Hagen Hohenl. Bf Bstg 6;HST
 SB78;bus;Quelle gtfs;Langenfeld An der Landstraße;Monheim, Hochschule Monheim;Bahnen der Stadt Monheim
 SB79;bus;Quelle gtfs;Langenfeld (Rheinl) S Bstg 2;Monheim, Rheinpark;Bahnen der Stadt Monheim
-SB81;bus;Quelle gtfs;MG Hbf /Europaplatz Bstg 6;Erkelenz Bf Bstg 1;NEW mobil und aktiv Moenchengladbach
+SB81|SB 81;bus;Quelle gtfs;MG Hbf /Europaplatz Bstg 6;Erkelenz Bf Bstg 1;NEW mobil und aktiv Moenchengladbach
+#SB81;bus;Quelle gtfs;MG Hbf /Europaplatz Bstg 6;Erkelenz Bf Bstg 1;NEW mobil und aktiv Moenchengladbach
 SB82;bus;Quelle gtfs;Meerbusch Haus Meer Bstg 3;Tönisvorst Lindenallee Bstg 1;BVR
 SB83;bus;Quelle gtfs;MG Hbf /Europaplatz Bstg 6;Niederkr. Elmpt D.Zollamt Bstg 1;NEW mobil und aktiv Moenchengladbach
 SB85;bus;Quelle gtfs;Düsseldorf Hbf Bstg 17;Neuss Neusserfurth Bstg 3;BVR
