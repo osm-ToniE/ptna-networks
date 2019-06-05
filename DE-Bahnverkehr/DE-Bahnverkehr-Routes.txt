@@ -1114,8 +1114,9 @@ ZAB 4;train;;;;
 755;train;;;;
 757;train;;;;
 759;train;Schwäbische Albbahn;;;
-760;train;;;;
-763;train;;;;
+760;train;;Stuttgart;Tübingen;
+763;train;;Metzingen;Bad Urach;ENAG
+763;train;;Erzingen;Singen (Hohentwiel);DB Regio
 764;train;;;;
 766;train;;;;
 768;train;;Hechingen;Gammertingen;Hohenzollerische Landesbahn (HzL)
@@ -1382,6 +1383,7 @@ STB;light_rail;;Innsbruck;Fulpmes;IVB
 
 IR 75;train;;;;
 701;train;;;;
+760;train;;Schaffhausen / Niederweningen;Zürich;SBB
 761;train;;Waldshut;Winterthur;SBB
 -
 

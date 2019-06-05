@@ -495,12 +495,12 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 == 8xx-Linien (800-849 Benelux-Länder + Nachbarn, 850-899 Tschechien)
 
 800;bus;;Orly;Amsterdam;FlixMobility GmbH
-801;bus;;Maatricht;Paris;FlixMobility GmbH
+801;bus;;Maastricht;Paris;FlixMobility GmbH
 802;bus;;Amsterdam;Paris;FlixMobility GmbH
 803;bus;;Den Haag;Paris;FlixMobility GmbH
 804;bus;;Leeuwarden;Lens;FlixMobility GmbH
 805;bus;Seit 26.06.2018 nicht mehr buchbar, wurde eingestellt;Amsterdam;Paris;FlixMobility GmbH
-810;bus;;Amsterdam;Brüsssel;FlixMobility GmbH
+810;bus;;Amsterdam;Brüssel;FlixMobility GmbH
 811;bus;;Almere;Brüssel;FlixMobility GmbH
 813;bus;;Brüssel;Delft;FlixMobility GmbH
 814;bus;;Amsterdam;London;FlixMobility GmbH
@@ -747,7 +747,10 @@ K813;bus;Bratislava;Topoľčany;Turancar
 K814;bus;;Bratislava;Nitra;Turancar
 K815;bus;;Prag;Banská Bystrica;Turancar
 K832;bus;;Amsterdam;Eindhoven Flughafen;AirExpressBus
+K927;bus;;Zagreb;Zadar;
+K950;bus;;Zadar;Novalja;Antonio Tours
 K989;bus;;Linz;Valjevo;Europa Bus Valjevo
+K997;bus;;Freiburg;Imotski;
 
 
 == Kooperationslinien mit Fernbusunternehmen Polskibus aus Polen
