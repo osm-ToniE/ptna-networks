@@ -172,7 +172,7 @@ R3;train;Remsbahn;Nürnberg;Stuttgart;DB Regio AG
 R3;train;;Ulm;Donaueschingen;DB Regio
 R4;train;Allgäu-Franken-Express;Augsburg;Otting-Weilheim;DB Regio AG Bayern
 R4;train;;Nürnberg Hauptbahnhof;Amberg;DB Regio AG - Regio Franken
-"R85;R 4";train;!Aufzuspalten in R4 und R85!;Stuttgart;Würzburg;DB Regio
+"R85;R 4";train;;Stuttgart;Würzburg;DB Regio
 R5;train;;Stuttgart;Karlsruhe;DB Regio AG Baden-Württemberg
 R5;train;;Pforzheim;Stuttgart Hbf;
 R5;train;;Nürnberg;Parsberg;
@@ -241,7 +241,7 @@ R81;train;;Steinach bei Rothenburg;Neustadt an der Aisch;
 R82;train;Tälesbahn - KBS 762;Nürtingen;Neuffen;Württembergische Eisenbahn-Gesellschaft mbH
 R82;train;;Rothenburg ob der Tauber;Steinach bei Rothenburg;
 R83;train;;Bad Urach;Tübingen;DB Regio
-"R85;R 4";train;!Aufzuspalten in R4 und R85!;Stuttgart;Würzburg;DB Regio
+"R85;R 4";train;;Stuttgart;Würzburg;DB Regio
 
 ==== R91 .. R100
 
