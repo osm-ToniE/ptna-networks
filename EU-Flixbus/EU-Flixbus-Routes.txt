@@ -93,7 +93,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 032;bus;;Berlin;Malmö;FlixMobility GmbH
 034;bus;;Berlin;München;FlixMobility GmbH
 035;bus;;Berlin;Duisburg;FlixMobility GmbH
-036;bus;;Wien;Saarbrücken;FlixMobility GmbH
+036;bus;;Wien;Straßburg/Saarbrücken;FlixMobility GmbH
 037;bus;;Duisburg;München;FlixMobility GmbH
 038;bus;;Bonn;Berlin;FlixMobility GmbH
 039;bus;;Berlin;Chemnitz;FlixMobility GmbH
@@ -303,6 +303,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 423;bus;;Turin;Ferrara;FlixMobility GmbH
 424;bus;;Innsbruck;Cuneo;FlixMobility GmbH
 426;bus;Seit 16.09.2018 nicht mehr buchbar, wurde eingestellt.;Mailand;Pesaro;FlixMobility GmbH
+427;bus;Zagreb;Verona;FlixMobility GmbH
 428;bus;Seit 16.09.2018 nicht mehr buchbar, wurde eingestellt.;Bergamo;Ancona;FlixMobility GmbH
 429;bus;;Turin;Campobasso;FlixMobility GmbH
 430;bus;bis 16.09.2020 buchbar, wird eingestellt?;Bozen;Rimini;FlixMobility GmbH
@@ -532,7 +533,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 
 == 9xx-Linien (Gebiet Slowenien, Kroatien, Slowakei, Ungarn westl. Rumänien etwa)
 
-900;bus;;Frankfurt am Main;Zagreb;FlixMobility GmbH
+900;bus;;Frankfurt am Main/Nürnberg;Zagreb/Slavonski Brod;FlixMobility GmbH
 901;bus;;Wien Erdberg;Ružinov;FlixMobility GmbH
 901a;bus;;Wien Hbf;Ružinov;FlixMobility GmbH
 902;bus;;Budapest;Wien;FlixMobility GmbH
@@ -587,6 +588,8 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 962;bus;;Timișoara;Wien;FlixMobility GmbH
 963;bus;seit 04.11.2018 nicht mehr buchbar, wurde eingestellt;Cluj-Napoca;Graz;FlixMobility GmbH
 966;bus;;Wien;Županja;FlixMobility GmbH
+970;bus;;Zagreb;Čapljina;FlixMobility GmbH
+973;bus;;Zagreb;Dubrovnik;FlixMobility GmbH
 976;bus;;Zagreb;Krakau;FlixMobility GmbH
 977;bus;;Budapest;Padua;FlixMobility GmbH
 978;bus;;Budapest;Graz;FlixMobility GmbH
@@ -752,7 +755,10 @@ K814;bus;;Bratislava;Nitra;Turancar
 K815;bus;;Prag;Banská Bystrica;Turancar
 K816;bus;;Košice;Vieste;Turancar
 K832;bus;;Amsterdam;Eindhoven Flughafen;AirExpressBus
-K927;bus;;Zagreb;Zadar;
+K927;bus;;Zagreb;Zadar;Francuzević
+K928;bus;;Zagreb;Ilok;Francuzević
+K943;bus;;Sarajevo;Pula;Babić
+K944;bus;;Zagreb;Vareš;Babić
 K950;bus;;Zadar;Novalja;Antonio Tours
 K989;bus;;Linz;Valjevo;Europa Bus Valjevo
 K997;bus;läuft auch als Eurolines EU0457(Eurolines von Flixbus gekauft);Freiburg;Imotski;Lubina Bus
@@ -912,6 +918,7 @@ N452;bus;;Nürnberg;Florenz;FlixMobility GmbH
 N453;bus;Saisonbus von Mai bis Oktober;München;Cattolica;FlixMobility GmbH
 N467;bus;;Prag;Padua;FlixMobility GmbH
 N468;bus;;Bratislava;Mailand;FlixMobility GmbH
+N474;bus;;Frankfurt am Main;Turin;FlixMobility GmbH
 N482;bus;;Zagreb;Marseille;FlixMobility GmbH
 N491;bus;;München;Venedig;FlixMobility GmbH
 
@@ -920,6 +927,7 @@ N503;bus;;Turin;Rom;FlixMobility GmbH
 N504;bus;;Lausanne;Perugia;FlixMobility GmbH
 N506;bus;;Brüssel;Genua;FlixMobility GmbH
 N507;bus;;Stuttgart;Nizza;FlixMobility GmbH
+N508;bus;;Frankfurt am Main;Cannes;FlixMobility GmbH
 N519;bus;Linie wurde eingestellt;Aosta;Rom;FlixMobility GmbH
 N520;bus;;Mailand;Rom;FlixMobility GmbH
 N521;bus;;Paris;Rom;FlixMobility GmbH
@@ -1027,7 +1035,7 @@ N948;bus;;Frankfurt am Main;Split;FlixMobility GmbH
 N949;bus;Saisonbus ab Anfang Juni;Budapest;Makarska;FlixMobility GmbH
 N950;bus;;Karlsruhe;Osijek;FlixMobility GmbH
 N952;bus;;Frankfurt am Main;Vukovar;FlixMobility GmbH
-N953;bus;;Zagreb;Basel;FlixMobility GmbH
+N953;bus;;Zagreb;Basel/Lyon;FlixMobility GmbH
 N955;bus;;Wiesbaden;Zagreb;FlixMobility GmbH
 N958;bus;;Berlin;Rijeka;FlixMobility GmbH
 N959;bus;;Bukarest;Prag;FlixMobility GmbH
@@ -1035,7 +1043,10 @@ N960;bus;Ab 04.11.2018 nicht mehr buchbar, wird eingestellt.;Bukarest;Budapest;F
 N963;bus;;Wien;Miercurea Ciuc;FlixMobility GmbH
 N965;bus;;München;Logoj;FlixMobility GmbH
 N969;bus;;Budapest;Pula;FlixMobility GmbH
+N970;bus;;Zagreb;Mostar;FlixMobility GmbH
 N971;bus;;Dortmund;Sarajevo;FlixMobility GmbH
+N973;bus;;Ljubljana;Dubrovnik;FlixMobility GmbH
+N975;bus;;Zagreb;Čapljina;FlixMobility GmbH
 N976;bus;;Krakau;Rijeka;FlixMobility GmbH
 N978;bus;;Frankfurt am Main;Mostar;FlixMobility GmbH
 N979;bus;Seit 09.09.2018 nicht mehr buchbar, wurde eingestellt.;Budapest;Budva;FlixMobility GmbH

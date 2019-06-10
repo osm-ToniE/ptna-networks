@@ -258,9 +258,7 @@ N92;bus;;Filderstadt;Bernhausen Bf;
 194;bus;;Neckarhausen;Nürt. Roßdorf;
 195;bus;;Nürtingen;Frickenhausen;
 196;bus;;Wendlingen (N);Nürtingen;
-197;bus;;Neckartenzlingen;Reutlingen;
 198;bus;;Frickenhausen Bahnhof;Kohlberg;
-199;bus;;Metzingen;Owen;
 #
 === Bus 200 .. 299
 201;bus;;Bittenfeld;Waiblingen;
@@ -596,6 +594,8 @@ R83;train;;Bad Urach;Reutlingen;
 #
 === Bus
 178;bus;;Kirchheim (T);Göppingen;
+197;bus;;Neckartenzlingen;Reutlingen;
+199;bus;;Metzingen;Owen;
 260;bus;;Göppingen;Schorndorf;
 261;bus;;Göppingen;Ebersbach (F);
 652;bus;;Weissach Porsche;Leonberg;

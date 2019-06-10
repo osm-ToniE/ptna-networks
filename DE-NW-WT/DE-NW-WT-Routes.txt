@@ -1789,7 +1789,7 @@ R81;bus;;Finnentrop;Eslohe;Verkehrsbetriebe Westfalen-Süd GmbH
 R91;bus;;Marsberg;Brilon;WB Westfalen Bus GmbH
 
 S10;bus;;Arnsberg;Neheim;Regionalverkehr Ruhr-Lippe GmbH
-S10;bus;;Brilon;Paderborn;DB Bahn Ostwestfalen-Lippe-Bus
+S10;bus;;Paderborn;Brilon;BVO Busverkehr Ostwestfalen GmbH
 S20;bus;;Neheim;Sundern;Regionalverkehr Ruhr-Lippe GmbH
 S30;bus;;Brilon;Medebach;Regionalverkehr Ruhr-Lippe GmbH
 S40;bus;;Niedersfeld;Grafschaft;Regionalverkehr Ruhr-Lippe GmbH
@@ -1805,7 +1805,7 @@ T73;bus;;;;WB Westfalen Bus GmbH
 
 === Kreis Soest
 
-70;bus;;Lippstadt;Rheda;Transdev Ostwestfalen GmbH
+70;bus;;Rheda, Bahnhof;Lippstadt, Bustreff Bahnhof;Transdev Ostwestfalen GmbH
 80.1;bus;;Lippstadt;Avenwedde;Transdev Ostwestfalen GmbH
 
 335;bus;;Beckum;Herzfeld;Regionalverkehr Ruhr-Lippe GmbH
