@@ -342,7 +342,7 @@ RB 31;train;;Kirchheimbolanden;Frankfurt (Main);Vlexx
 RB32;train;Der Bocholter;Wesel;Bocholt;Abellio Rail NRW
 RB32;train;;Lüneburg;Dannenberg Ost;erixx GmbH
 RB 32;train;;Stendal;Salzwedel;DB Regio Sachsen-Anhalt
-RüBB;train;;;;
+RB 32;train;Rügensche BäderBahn 'Rasender Roland';Lauterbach Mole|Putbus;Göhren;Eisenbahn-Bau- und und Betriebsgesellschaft Pressnitztalbahn mbH
 RB33;train;Rhein-Niers-Bahn;Heinsberg|Duisburg;Aachen;DB Regio NRW
 RB33;train;;Buxtehude;Cuxhaven;Eisenbahnen und Verkehrsbetriebe Elbe-Weser GmbH
 RB33;train;;Neubrücke (Nahe)|Idar-Oberstein;Mainz;vlexx GmbH
@@ -776,11 +776,6 @@ S8;train;;Wiesbaden;Hanau;DB S-Bahn Rhein-Main
 S9;train;;Wiesbaden;Hanau;DB S-Bahn Rhein-Main
 -
 
-=== Freudenstadt: Verkehrs-Gemeinschaft Landkreis Freudenstadt (VGF)
-
-S31;light_rail;;;;Deutsche Bahn
--
-
 === Hamburg: Hamburger Verkehrsverbund (HVV)
 
 A1;train;;;;AKN Eisenbahn GmbH
@@ -819,6 +814,7 @@ S8;train;;Karlsruhe Tullastraße;Forbach (Schwarzwald)|Freudenstadt;Albtal-Verke
 S9;train;;Mühlacker;Bruchsal;Albtal-Verkehrs-Gesellschaft mbH
 S11;train;;Ittersbach;Hochstetten|Albtalbahnhof|Europaplatz|KIT-Campus Nord;Albtal-Verkehrs-Gesellschaft mbH
 S31;train;;Ubstadt|Odenheim|Bruchsal|Forbach|Stettfeld;Freudenstadt|Schopfloch|Karlsruhe|Eutingen;Albtal-Verkehrs-Gesellschaft mbH
+S31;light_rail;!gehört diese evtl. zum KVV und nicht zu 'Verkehrs-Gemeinschaft Landkreis Freudenstadt (VGF)'!;;;Deutsche Bahn
 S32;train;;Karlsruhe;Menzingen;Albtal-Verkehrs-Gesellschaft mbH
 S33;train;;Bruchsal;Germersheim;DB Regio Mitte
 S41;light_rail;;Heilbronn;Mosbach (Baden);Albtal-Verkehrs-Gesellschaft mbH
