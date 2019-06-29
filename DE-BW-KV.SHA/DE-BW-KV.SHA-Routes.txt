@@ -1,0 +1,186 @@
+<pre>
+#
+# Formatierung: die Formatierung lehnt sich ans Wiki an.
+#
+# Links: [[...|...]] sind (wie im OSM-Wiki) interne Verweise ins OSM-Wiki
+#        [... ...] sind (wie im OSM-Wiki) externe Verweise ins Internet
+#
+# Überschriften beginnen mit '=', '==', '===', '====', ... am Anfang einer Zeile
+#
+# Einfacher Text beginnt mit '-' am Anfang einer Zeile.
+#     Einfacher Text darf überall stehen.
+#     Ein einfaches '-' am Anfang der Zeile gefolgt von 'nichts':
+#     - wenn davor einfacher Text stand wird ein Zeilenumbruch erzeugt und das bisher ausgegebenen in einen Paragraphen <p> ... </p> gepackt
+#     - wenn vorher kein einfacher Text stand bzw. ein Zeilenumbruch erzeugt wurde, so wird eine Leerzeile erzeugt mit Hilfe von <p>&amp;nbsp;</p>
+#
+# !!!Text mit gelbem Hintergrund!!! in einfachem Text oder Überschriften
+# '''''Text mit dicken, kursiven Buchstaben''''' in einfachem Text oder Überschriften
+# '''Text mit dicken Buchstaben''' in einfachem Text oder Überschriften
+# ''Text mit kursiven Buchstaben'' in einfachem Text oder Überschriften
+#
+# Kommentare beginnen mit '#' am Anfang einer Zeile. Kommentare mittendrin werden nicht erkannt, d.h. '#' darf innerhalb von Text vorkommen.
+#
+# Format der Datei: UTF-8
+#
+#
+# Definition von Linieninformationen: Inhalt im CSV-Format
+#
+# ref;type;comment;from;to;operator
+#
+# - ref       == tag 'ref' von route oder route_master
+#                250            definiert, dass hier Linien mit 'ref'='250' erwartet wird
+#                250|250a|250b  definiert, dass hier Linien mit 'ref'='250' und 'ref'='250a' und 'ref'='250b' zulässig sind - ob das nach PTv1/PTv2 erlaubt ist, ist eine andere Sache
+# - type      == inhalt des tags 'route' bzw. 'route_master'
+# - comment   == kann Kommentar enthalten wie; Ruftaxi, Bus, Expressbus, ...  wird nicht ausgewertet, lediglich ausgegeben
+#                !Text mit gelbem Hintergrund! im comment (umgeben von einfachem !)
+# - from      == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
+# - to        == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
+# - operator  == wird bei mehreren Linie mit identischem ref und type Differenzierung herangezogen
+#                Der Wert von 'operator' darf ';' enthalten
+#
+
+
+= Überblick über die ÖPNV-Linien des "Kreisverkehr Schwäbisch Hall"
+
+- Verweis auf die Datei mit den [[Landkreis_Schwäbisch_Hall/KV.SHA/Analyse/DE-BW-KV.SHA-Linien|KV.SHA-Linien]] im Wiki.
+-
+- Verweis auf mehr [[Talk:Landkreis_Schwäbisch_Hall/KV.SHA/Analysis|Informationen]] im Wiki.
+-
+
+
+- Ziel ist die Erstellung dieser Liste aus "Kreisverkehr Schwäbisch Hall"-Daten mit allen zum "Kreisverkehr Schwäbisch Hall" gehörigen Linien. 
+- Die Liste kommt idealerweise direkt vom und mit Hilfe des Betreibers/Verkehrsverbundes (copyright!).
+-
+
+== Busse
+
+1;bus;;Tullauer Höhe;Michelbach/Bilz;Stadtbus SHA
+2;bus;;Hessental;Gewerbepark West;Stadtbus SHA
+3;bus;;Stadtmitte;Waldfriedhof;Stadtbus SHA
+4;bus;;Ev. Diakoniewerk;Hessental;Stadtbus SHA
+4A;bus;;Stadtmitte;Stadtmitte;Stadtbus SHA
+5;bus;;Stadtmitte;Ilshofen;Stadtbus SHA
+6;bus;;Stadtmitte;Stadtmitte;Stadtbus SHA
+7;bus;;Stadtmitte;Gailenkirchen;Stadtbus SHA
+8;bus;;Schwäbisch Hall;Gaildorf;Stadtbus SHA
+9;bus;;Gewerbepark West;Hessental;Stadtbus SHA
+10;bus;;Schwäbisch Hall;Michelbach/Bilz;Stadtbus SHA
+12;bus;;Schwäbisch Hall;Bühlerzell;Müller
+12A;bus;;Holenstein;Bühlerzell/Bühlertann;Müller
+13;bus;;Schwäbisch Hall;Ellwangen;FahrBus Ostalb
+16;bus;;Schwäbisch Hall;Unterrot;Müller
+17;bus;;Schwäbisch Hall;Engelhofen;Müller
+17A;bus;;Bühlertann;Fischachtal;Müller
+18;bus;;Schwäbisch Hall;Ilshofen;Müller
+18A;bus;;Ortsverkehr Vellberg;Müller
+20;bus;;Schwäbisch Hall;Wüstenrot;Müller
+20A;bus;;Mainhardt;Backnang;VVS, RBS
+21;bus;;Murrhardt;Mainhardt;VVS, Eisemann
+23;bus;;Schwäbisch Hall;Rot am See;Müller
+23Nord;bus;;Ilshofen;Wolpertshausen;Müller
+23A;bus;;Ortsverkehr Ilshofen;Müller
+23S;bus;;Schwäbisch Hall;Schrozberg;Müller
+25;bus;;Crailsheim;Künzelsau;NVH
+26;bus;;Künzelsau;Schwäbisch Hall;NVH
+28;bus;;Künzelsau;Hessental;NVH
+29;bus;;Schwäbisch Hall;Kupferzell;Röhler
+30;bus;;Schwäbisch Hall;Schönenberg;Röhler
+31;bus;;Schwäbisch Hall;Crailsheim;Röhler
+32;bus;;Schwäbisch Hall;Waldenburg;Röhler
+40NVH;bus;;Neuwirtshaus;Öhringen;NVH
+40;bus;;CityFlitzer Stadtgebiet Gaildorf;Hofmann
+41;bus;;Gaildorf;Schwäbisch Gmünd;FahrBus Ostalb
+43;bus;;Gaildorf;Gaildorf (Nordring);Hofmann
+44;bus;;Gaildorf;Gaildorf (Südring);Hofmann
+45;bus;;Gaildorf;Untergröningen;Stadtbus SHA
+46;bus;;Gaildorf;Mittelbronn;Hofmann
+47;bus;;Sulzbach;Sulzbach;Stadtbus SHA
+48;bus;;Sulzbach;Sulzbach;Stadtbus SHA
+49;bus;;Gaildorf;Bühlertann;Müller
+52;bus;;Gröningen;Hirtenwiesen;StadtBus Crailsheim
+53;bus;;Ingersheim;Hirtenwiesen;StadtBus Crailsheim
+53N;bus;;Ingersheim;Ingersheim;SBC-NightLiner
+54;bus;;Ingersheim;Hirtenwiesen;StadtBus Crailsheim
+55;bus;;Crailsheim;Brettheim;Röhler
+55B;bus;;Crailsheim;Crailsheim;Röhler
+56;bus;;Crailsheim;Schnelldorf;Röhler
+58;bus;;Ringverkehr Crailsheim;Crailsheim;Müller
+59;bus;;Crailsheim;Dinkelsbühl;Müller
+59A;bus;;Fichtenau;Dinkelsbühl;Müller
+59C;bus;;Fichtenau;Wört;FahrBus Ostalb
+60;bus;;Ringverkehr Crailsheim;Crailsheim;Müller
+61;bus;;Crailsheim;Rosenberg;Müller
+61A;bus;;Crailsheim;Crailsheim;Müller
+62;bus;;Crailsheim;Obersontheim;Müller
+62A;bus;;Gründelhardt;Honhardt;Müller
+62B;bus;;Honhardt;Steinbach;Müller
+62C;bus;;Honhardt;Gründelhardt;Müller
+62D;bus;;Crailsheim;Crailsheim;Müller
+63;bus;;Ringverkehr Crailsheim;Crailsheim;Müller
+64;bus;;Crailsheim;Lendsiedel;Röhler
+65;bus;;Crailsheim;Schrozberg;Röhler
+66;bus;;Crailsheim;Gerabronn;Röhler
+66A;bus;;Crailsheim;Ölhaus;Röhler
+67;bus;;Crailsheim;Ellwangen;FahrBus Ostalb
+68;bus;;Ringverkehr Stimpfach;Stimpfach;Müller
+70;bus;;Stimpfach;Obersontheim;Müller
+71;bus;;Schwäbisch Hall;Schrozberg;Röhler
+71F;bus;Ferienlinie;Langenburg;Langenburg;Röhler
+73;bus;;Gerabronn;Gerabronn;Röhler
+74;bus;;Brettheim;Kirchberg;Röhler
+75;bus;;Gerabronn;Gerabronn;Röhler
+78;bus;;Kirchberg/Jagst;Saurach;Röhler
+81;bus;;Schainbach;Kirchberg;Röhler
+81/82;bus;;Gröningen;Kirchberg;Röhler
+82;bus;;Triftshausen;Kirchberg;Röhler
+85;bus;;Rot am See;Rot am See;Röhler
+91;bus;;Blaufelden;Mulfingen;Röhler
+93;bus;;Billingsbach;Billingsbach;Röhler
+94;bus;;Blaufelden;Blaufelden;Röhler
+95;bus;;Blaufelden;Blaufelden;Röhler
+96;bus;;Blaufelden;Blaufelden;Röhler
+96F;bus;;Blaufelden;Rot am See ;Röhler
+101;bus;;Schrozberg;Rothenburg o. d. Tauber;Röhler
+102;bus;;Schrozberg;Schrozberg;Röhler
+103;bus;;Schrozberg;Schrozberg;Röhler
+104;bus;;Schrozberg;Schrozberg;Röhler
+111;bus;;Ellwangen;Dinkelsbühl;FahrBus Ostalb
+817;bus;;Rothenburg o. d. Tauber;Feuchtwangen;VGN/Scharnagel
+-
+
+== Schnellverbindungen
+S1;bus;;Crailsheim;Schwäbisch Hall;Müller
+S10;bus;;Künzelsau;Crailsheim;NVH/Röhler/Marquardt
+-
+
+== Rufbusse
+
+R8;bus;;Gaildorf;Oberrot;RufBus
+R10;bus;;Schwäbisch Hall;Westheim ;RufBus
+R16N;bus;;Schwäbisch Hall;Oberrot;RufBus
+R18;bus;;Vellberg;Ilshofen;RufBus
+R20;bus;;Schwäbisch Hall;Mainhardt;RufBus
+R23;bus;;Schwäbisch Hall;Eckartshausen;RufBus
+R26;bus;;Schwäbisch Hall;Braunsbach;RufBus
+R43;bus;;Gaildorf;Eutendorf;RufBus
+R45;bus;;Gaildorf;Sulzbach-Laufen;RufBus
+R55;bus;;Crailsheim;Rot am See;RufBus
+R58;bus;;Crailsheim;Beuerlbach;RufBus
+R59;bus;;Crailsheim;Unterdeufstetten;RufBus
+R60;bus;;Crailsheim;Rechenberg;RufBus
+R62;bus;;Crailsheim;Honhardt;RufBus
+R64;bus;;Crailsheim;Bächlingen;RufBus
+R65N;bus;;Crailsheim;Schrozberg;RufBus
+R66;bus;;Oberaspach;Gerabronn;RufBus
+R66N;bus;;Crailsheim;Dünsbach;RufBus
+R90;bus;;Blaufelden;Schrozberg;RufBus
+-
+
+== Züge
+782;train;;Wertheim;Crailsheim;DB
+783;train;;Heilbronn;Crailsheim;DB
+785;train;;Stuttgart;Nürnberg;DB
+786;train;;Stuttgart;Crailsheim;Go-Ahead
+-
+
+</pre>
