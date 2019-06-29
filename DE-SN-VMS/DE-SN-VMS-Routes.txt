@@ -71,37 +71,37 @@
 23;bus;Heinersdorf - Zentralhaltestelle - Neefepark;;;Chemnitzer Verkehrs-AG
 26;bus;Schönau - Hutholz;;;Chemnitzer Verkehrs-AG
 31;bus;Yorckgebiet - Flemmingstraße;;;Chemnitzer Verkehrs-AG
-32;bus;Dresdner Straße - Rottluff -Reichenbrand;;;CVAG
+32;bus;Dresdner Straße - Rottluff -Reichenbrand;;;Chemnitzer Verkehrs-AG
 33;bus;Bernsdorf - Adelsberg - Schösserholz;;;Chemnitzer Verkehrs-AG
-39;bus;Klaffenbach - Hutholz / Neukirchen;;;CVAG
+39;bus;Klaffenbach - Hutholz / Neukirchen;;;Chemnitzer Verkehrs-AG
 41;bus;Schönau - Reichenbrand - Grüna (- Hohenstein-Ernstthal);;;CVAG
-42;bus;Schönau - Rabenstein, Grünaer Straße;;;CVAG
+42;bus;Schönau - Rabenstein, Grünaer Straße;;;Chemnitzer Verkehrs-AG
 43|E43;bus;(Schösserholz -) Adelsberg - Rabenstein, Tierpark;;;Chemnitzer-Verkehrs-AG
 46;bus;Wittgensdorf, Chemnitztal - Borna;;;Chemnitzer Verkehrs-AG
 51;bus;Zentralhaltestelle - Zeisigwald, Klinik Bethanien bzw. Yorckgebiet;;;Chemnitzer Verkehrs-AG
-52;bus;Hutholz - Chemnitzer Straße - Zentralhaltestelle;;;CVAG
+52;bus;Hutholz - Chemnitzer Straße - Zentralhaltestelle;;;Chemnitzer Verkehrs-AG
 53;bus;Chemnitzer Straße - Altchemnitz - Technopark;;;Chemnitzer Verkehrs-AG
-56;bus;Bernsdorf - Kleinolbersdorf-Altenhain - Bernsdorf;;;CVAG
+56;bus;Bernsdorf - Kleinolbersdorf-Altenhain - Bernsdorf;;;Chemnitzer Verkehrs-AG
 62;bus;Flemmingstraße - Betriebshof Adelsberg;;;Chemnitzer Verkehrs-AG
-63;bus;Borna - Ebersdorf;;;CVAG
+63;bus;Borna - Ebersdorf;;;Chemnitzer Verkehrs-AG
 69;bus;Ebersdorf, Brettmühle - Bahnhof Hilbersdorf;;;Chemnitzer Verkehrs-AG
 72|E72;bus;Rottluff / Flemmingstraße - Diesterwegschule;;;Chemnitzer Verkehrs-AG
 73;bus;Altchemnitz - TU Erfenschlager Straße - TU Campus;;;Chemnitzer Verkehrs-AG
-76;bus;Eibenberg - Einsiedel - Altchemnitz;;;CVAG
-79;bus;Küchwald - Zentralhaltestelle;;;CVAG
-82;bus;TU Campus - Schlosschemnitz - Fraunhoferstraße - TU Campus;;;CVAG
-86|E86;bus;Niederwiesa - Euba - Chemnitz, Gablenzplatz;;;CVAG
-89;bus;Gablenz - Beutenberg - Dresdner Straße;;;CVAG
-93;bus;Neefepark - Hutholz;;;CVAG
+76;bus;Eibenberg - Einsiedel - Altchemnitz;;;Chemnitzer Verkehrs-AG
+79;bus;Küchwald - Zentralhaltestelle;;;Chemnitzer Verkehrs-AG
+82;bus;TU Campus - Schlosschemnitz - Fraunhoferstraße - TU Campus;;;Chemnitzer Verkehrs-AG
+86|E86;bus;Niederwiesa - Euba - Chemnitz, Gablenzplatz;;;Chemnitzer Verkehrs-AG
+89;bus;Gablenz - Beutenberg - Dresdner Straße;;;Chemnitzer Verkehrs-AG
+93;bus;Neefepark - Hutholz;;;Chemnitzer Verkehrs-AG
 96;bus;Wittgensdorf, Kornweg - Röhrsdorf, Chemnitz Center;;;Chemnitzer Verkehrs-AG
-N11;bus;Zentralhaltestelle - Ebersdorf;;;CVAG
-N12;bus;Zentralhaltestelle - Yorckgebiet;;;CVAG
+N11;bus;Zentralhaltestelle - Ebersdorf;;;Chemnitzer Verkehrs-AG
+N12;bus;Zentralhaltestelle - Yorckgebiet;;;Chemnitzer Verkehrs-AG
 N13;bus;Zentralhaltestelle - Betriebshof Adelsberg;;;Chemnitzer Verkehrs-AG
 N14;bus;Zentralhaltestelle - Bernsdorf;;;Chemnitzer Verkehrs-AG
-N15;bus;Zentralhaltestelle - Hutholz;;;CVAG
-N16;bus;Zentralhaltestelle - RabensteinCenter;;;CVAG
-N17;bus;Zentralhaltestelle - Talanger;;;CVAG
-N18;bus;Zentralhaltestelle - Omnibusbahnhof -Borna;;;CVAG
+N15;bus;Zentralhaltestelle - Hutholz;;;Chemnitzer Verkehrs-AG
+N16;bus;Zentralhaltestelle - RabensteinCenter;;;Chemnitzer Verkehrs-AG
+N17;bus;Zentralhaltestelle - Talanger;;;Chemnitzer Verkehrs-AG
+N18;bus;Zentralhaltestelle - Omnibusbahnhof -Borna;;;Chemnitzer Verkehrs-AG
 
 === Freiberg
 A;bus;Busbahnhof - Olbernhauer Straße - Wasserberg - Anton-Günther-Straße - Busbahnhof;Freiberg, Busbahnhof;Freiberg, Busbahnhof;RBM
@@ -418,7 +418,7 @@ STL 2;bus;Stadtlinie 2;;;RVE
 652;bus;Burgstädt, Herrenhaide - Burgstädt;;;RBM
 656;bus;Limbach-Oberfrohna - Niederfrohna - Kaufungen - Wolkenburg - Kaufungen - Niederfrohna - Limbach - Oberfrohna;;;RBM
 657;bus;Mittweida - Burgstädt - Hartmannsdorf - Limbach-Oberfrohna;;;RBM
-658;bus;Hartmannsdorf - Wittgensdorf;;;RBM
+658;bus;Hartmannsdorf - Wittgensdorf;;;Regiobus Mittelsachsen
 659;bus;Burgstädt - Cossen - Lunzenau;;;RBM
 661;bus;Lunzenau - Narsdorf - Rochlitz;;;RBM
 662;bus;Rochlitz Stadt - Rochlitzer Berg;;;RBM

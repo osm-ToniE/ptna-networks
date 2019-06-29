@@ -138,7 +138,8 @@
 420;bus;;;;
 421;bus;Greetsiel - Emden;;;
 422;bus;Pewsum - Emden;;;
-423;bus;Pewsum - Emden;;;
+423a;bus;;;;
+423b;bus;;;;
 424;bus;;;;
 427;bus;;;;
 428;bus;;;;
@@ -231,6 +232,7 @@
 706;bus;;;;
 K1;bus;Harlesiel - Norden;;;
 K2;bus;Esens - Neuharlingersiel;;;
+K3;;;;
 N39;bus;;;;
 N41;bus;;;;
 N61;bus;;;;

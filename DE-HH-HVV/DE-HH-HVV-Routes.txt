@@ -146,7 +146,6 @@ HBEL;ferry;;;;
 == EilBus
 E30;bus;;;;
 E40;bus;;;;
-E62;bus;;;;
 E69;bus;;;;
 E86;bus;;;;
 
@@ -268,7 +267,7 @@ E86;bus;;;;
 239;bus;;;;
 240;bus;;;;
 241;bus;;;;
-243;bus;;;;
+# 243;bus;;;; # Nicht mehr im System zu finden
 245;bus;;;;
 247;bus;;;;
 248;bus;;;;

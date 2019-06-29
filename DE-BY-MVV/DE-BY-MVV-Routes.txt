@@ -159,6 +159,7 @@ O7;bus;MVG-Museum-Shuttle;Giesing U S;MVG-Museum;SWM/MVG
 158;bus;;Im Wismat;Amalienburgstraße;SWM/MVG
 159;bus;;Lochhausen S;Pasing S R;SWM/MVG
 160;bus;;Karlsfeld, Gartenstraße;Waldfriedhof;SWM/MVG
+161;bus;;Pasing Bf. Nord;Berduxstraße;SWM/MVG
 162;bus;;Eichelhäherstraße;Moosach U S R;SWM/MVG
 163;bus;;Allach Bf Ost S;Dessauerstraße;SWM/MVG
 164;bus;;Augustenfelder Straße;Westfriedhof U;SWM/MVG
@@ -257,12 +258,14 @@ N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzing
 295;bus;;Am Hart U;Oberschleißheim;Hadersdorfer/Boos/Scharf
 #
 ==== Landkreis Bad Tölz - Wolfratshausen - 300 - 399
-301;bus;;Stadtbus Wolfratshausen;;Waibel Bus GmbH
-302;bus;;Stadtbus Wolfratshausen;;Waibel Bus GmbH
-310;bus;;Stadtbus Geretsried;;Waibel Bus GmbH
+301;bus;Stadtbus Wolfratshausen;;;deuCon GmbH
+302;bus;Stadtbus Wolfratshausen;;;deuCon GmbH
+310;bus;Stadtbus Geretsried;;deuCon GmbH
 370;bus;;Geretsried, Stein;Wolfratshausen S;Regionalverkehr Obb.
+370V/378V;bus;;Geretsried, Stein;Wolfratshausen S;Regionalverkehr Obb.
 372;bus;;Beuerberg;Wolfratshausen S;Regionalverkehr Obb.
 373;bus;;Seeshaupt R;Wolfratshausen S;Regionalverkehr Obb.
+373V;bus;;Ammerland/Ambach;Wolfratshausen S;Regionalverkehr Obb.
 374;bus;;(Penzberg);Wolfratshausen S;Regionalverkehr Obb.
 375;bus;;Endlhausen;Wolfratshausen S;Geldhauser/RVO
 376;bus;;Bad Heilbrunn;Wolfratshausen S;Regionalverkehr Obb.

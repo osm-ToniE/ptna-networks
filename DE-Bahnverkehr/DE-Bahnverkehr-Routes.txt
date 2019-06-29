@@ -156,6 +156,10 @@ EN 50463;train;;;;
 
 == Regionalverkehr
 
+=== InterRegioExpress
+
+IRE 1;train;;Stuttgart;Karlsruhe;Go-Ahead Baden-Württemberg GmbH
+
 === R-Bahn
 
 ==== R1 .. R10
@@ -173,7 +177,6 @@ R3;train;;Ulm;Donaueschingen;DB Regio
 R4;train;Allgäu-Franken-Express;Augsburg;Otting-Weilheim;DB Regio AG Bayern
 R4;train;;Nürnberg Hauptbahnhof;Amberg;DB Regio AG - Regio Franken
 "R85;R 4";train;;Stuttgart;Würzburg;DB Regio
-R5;train;;Stuttgart;Karlsruhe;DB Regio AG Baden-Württemberg
 R5;train;;Pforzheim;Stuttgart Hbf;
 R5;train;;Nürnberg;Parsberg;
 R6;train;;Augusburg;Dinkelscherben;
@@ -738,8 +741,7 @@ S8;train;;S Birkenwerder;S Zeuthen;S-Bahn Berlin GmbH
 S9;train;;S Flughafen Schönefeld;S Rathaus Spandau;S-Bahn Berlin GmbH
 S25;train;;Henningsdorf;Teltow;S-Bahn Berlin GmbH
 S26;train;;Waidmannslust;Teltow;S-Bahn Berlin GmbH
-S41;train;Innenring im Uhrzeigersinn;;;S-Bahn Berlin GmbH
-S42;train;Innenring gegen den Uhrzeigersinn;;;S-Bahn Berlin GmbH
+"S41;S42|S41|S42";train;Innenring im/gegen Uhrzeigersinn;;;S-Bahn Berlin GmbH
 S45;train;;S Flughafen Berlin-Schönefeld;S Südkreuz;S-Bahn Berlin GmbH
 S46;train;;S Königs Wusterhausen;Westend;S-Bahn Berlin GmbH
 S47;train;;S Hermannstraße;S Spindlersfeld;S-Bahn Berlin GmbH
@@ -1106,7 +1108,9 @@ ZAB 4;train;;;;
 743;train;;;;
 #"R1;KBS 750";train;;Ulm;Stuttgart;DB
 751;train;;;;
+752;train;;Aulendorf;Bad Wurzach;
 753;train;;;;
+754;train;;Aulendorf;Pfullendorf;
 755;train;;;;
 757;train;;;;
 759;train;Schwäbische Albbahn;;;
