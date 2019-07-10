@@ -394,10 +394,15 @@ AST;bus;Quelle gtfs;Jüchen Lindenhof;Mönchengl. Konstantinplatz;NEW mobil und 
 108;tram;Quelle gtfs;Essen Altenessen Bf Schleife Bstg 1;Essen Bredeney Bstg 5;Ruhrbahn
 109;tram;Quelle gtfs;Frohnhausen Breilsort Bstg 1;Essen Steele S Bstg 1;Ruhrbahn
 112;tram;Quelle gtfs;Mülheim Hauptfriedhof Bstg 2;Oberhausen Neumarkt Bstg 1/2;Ruhrbahn
+NE12;tram;;Mülheim Kaiserplatz Bstg 2;Oberhausen OLGA-Park Trasse in Ri. Sterkrade;STOAG;Ruhrbahn
+#NE 12;tram;Quelle gtfs;Mülheim Kaiserplatz Bstg 2;Oberhausen OLGA-Park Trasse in Ri. Sterkrade;STOAG
 122;bus;;Mülheim Hauptbahnhof Bstg 6;Oberhausen City Forum;Ruhrbahn;STOAG
 #122;bus;Quelle gtfs;Mülheim Hauptbahnhof Bstg 6;Oberhausen City Forum;Ruhrbahn
 #122;bus;Quelle gtfs;Mülheim Hauptbahnhof Bstg 6;Oberhausen City Forum;STOAG
 124;bus;Quelle gtfs;Mülheim Speldorf Friedhof Bstg 2;Oberhausen Wehrstr.;Ruhrbahn
+NE10;bus;;Mülheim Lindenhof Bstg 1;OB Sterkrade Bf. Bstg 5;STOAG;Ruhrbahn
+#NE10;bus;Quelle gtfs;Mülheim Lindenhof Bstg 1;OB Sterkrade Bf. Bstg 5;STOAG
+#NE 10;bus;Quelle gtfs;Mülheim Lindenhof Bstg 1;OB Sterkrade Bf. Bstg 5;STOAG
 128;bus;Quelle gtfs;Mülheim Hauptbahnhof Bstg 5;Oberhausen Ruhrpark;Ruhrbahn
 129;bus;Quelle gtfs;Mülheim Rhein-Ruhr-Zentrum Bstg 4;Mülheim Friesenstr. Bstg 1;Ruhrbahn
 130;bus;Quelle gtfs;Mülheim Rhein-Ruhr-Zentrum Bstg 4;Mülheim Hauptfriedhof Bstg 1;Ruhrbahn
@@ -483,13 +488,21 @@ T8.1;bus;Quelle gtfs;Essen Frankenstr. Bstg 2;Essen Voßbusch Bstg 1;Ruhrbahn
 T8.2;bus;Quelle gtfs;Essen Werdener Markt Bstg 1;Essen Overhammshof Bstg 1;Ruhrbahn
 
 NE1;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 1;Gelsenkirchen Essener Str.;Ruhrbahn
+NE2;bus;;Mülheim Stadtmitte Bstg 4;Mülheim Stadtmitte Bstg 4;Ruhrbahn
+#NE 2;bus;Quelle gtfs;Mülheim Stadtmitte Bstg 4;Mülheim Stadtmitte Bstg 4;Ruhrbahn
 NE2;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 1;Essen Hanielstr. Schleife Bstg 3;Ruhrbahn
+NE3;bus;;Mülheim Stadtmitte Bstg 3;Mülheim Stadtmitte Bstg 3;Ruhrbahn
+#NE 3;bus;Quelle gtfs;Mülheim Stadtmitte Bstg 3;Mülheim Stadtmitte Bstg 3;Ruhrbahn
 NE3;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 2;Essen Rodenseelbrücke Bstg 1;Ruhrbahn
+NE4;bus;;Essen Abzweig Aktienstr. Bstg 3;Mülheim Müller Menden Bstg 3;Ruhrbahn
+#NE 4;bus;Quelle gtfs;Essen Abzweig Aktienstr. Bstg 3;Mülheim Müller Menden Bstg 3;Ruhrbahn
 NE4;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 3;E-Burgaltendorf Burgruine Bstg 2;Ruhrbahn
 NE5;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 3;Essen Hörsterfeld Bstg 1;Ruhrbahn
 NE6;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 7;Essen Kupferdreh Bahnhof Bstg 2;Ruhrbahn
 NE7;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 4;Essen Heisingen Baldeneysee Bstg 2;Ruhrbahn
 NE8;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 7;Velbert ZOB Bstg 10;Ruhrbahn
+NE9;bus;;DU-Hbf Osteingang Bstg 3;Mülheim Rhein-Ruhr-Zentrum Bstg 4;Ruhrbahn
+#NE 9;bus;Quelle gtfs;DU-Hbf Osteingang Bstg 3;Mülheim Rhein-Ruhr-Zentrum Bstg 4;Ruhrbahn
 NE9;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 6;Essen Hatzper Str. Bstg 1;Ruhrbahn
 NE10;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 9;Essen Erbach Bstg 5;Ruhrbahn
 NE11;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 4;Oberhausen Hbf Bstg 10;Ruhrbahn
@@ -499,12 +512,6 @@ NE14;bus;Quelle gtfs;Essen Bergeborbeck Bf Bstg 2;Essen Kray Nord Bahnhof Bstg 3
 NE15;bus;Quelle gtfs;Essen Kray Nord Bahnhof Bstg 2;Essen Borbeck Bf Bstg 4;Ruhrbahn
 NE16;bus;Quelle gtfs;Essen Hauptbahnhof Bstg 6;Bottrop ZOB Berliner Platz Bstg 01;Ruhrbahn
 
-NE 10;bus;Quelle gtfs;Mülheim Lindenhof Bstg 1;OB Sterkrade Bf. Bstg 5;STOAG
-NE 12;tram;Quelle gtfs;Mülheim Kaiserplatz Bstg 2;Oberhausen OLGA-Park Trasse in Ri. Sterkrade;STOAG
-NE 2;bus;Quelle gtfs;Mülheim Stadtmitte Bstg 4;Mülheim Stadtmitte Bstg 4;Ruhrbahn
-NE 3;bus;Quelle gtfs;Mülheim Stadtmitte Bstg 3;Mülheim Stadtmitte Bstg 3;Ruhrbahn
-NE 4;bus;Quelle gtfs;Essen Abzweig Aktienstr. Bstg 3;Mülheim Müller Menden Bstg 3;Ruhrbahn
-NE 9;bus;Quelle gtfs;DU-Hbf Osteingang Bstg 3;Mülheim Rhein-Ruhr-Zentrum Bstg 4;Ruhrbahn
 
 
 === 2xx Recklinghausen ...
@@ -1629,6 +1636,16 @@ Airport Express;bus;Quelle gtfs;Dortmund Hbf;Dortmund Airport/Terminal;DSW21
 463;bus;Quelle gtfs;Dortmund Am Volksgarten;Dortmund Marten Süd S;DSW21
 464;bus;Quelle gtfs;Dortmund Lütgendortmund S;Dortmund Marten Süd S;DSW21
 465;bus;Quelle gtfs;Dortmund Huckarde Bushof;Dortmund Oespel;DSW21
+H1;monorail;;Technologiezentrum;Eichlinghofen;DSW21
+#HB1;bram;Quelle gtfs;Dortmund Technologiezentrum;Dortmund Eichlinghofen H-Bahn;DSW21
+H2;monorail;;Dortmund Campus Nord;Dortmund Campus Süd;DSW21
+#HB2;bram;Quelle gtfs;Dortmund Campus Nord;Dortmund Campus Süd;DSW21
+H3;monorail;;Dortmund Campus Nord;Dortmund Eichlinghofen H-Bahn;DSW21
+#HB3;bram;Quelle gtfs;Dortmund Campus Nord;Dortmund Eichlinghofen H-Bahn;DSW21
+HB5;monorail;;Dortmund Universität S;Dortmund Eichlinghofen H-Bahn;DSW21
+#HB5;bram;Quelle gtfs;Dortmund Universität S;Dortmund Eichlinghofen H-Bahn;DSW21
+HB7;monorail;;Dortmund Technologiezentrum;Dortmund Universität S;DSW21
+#HB7;bram;Quelle gtfs;Dortmund Technologiezentrum;Dortmund Universität S;DSW21
 466;bus;Quelle gtfs;Dortmund Bandelstraße;Dortmund Marten Süd S;DSW21
 469;bus;Quelle gtfs;Dortmund Rupinghofstraße;Dortmund Siepmannstraße;DSW21
 470;bus;Quelle gtfs;Dortmund Mengede Bf;Dortmund Oespel;DSW21
@@ -2175,6 +2192,8 @@ E701;tram;Quelle gtfs;D-DOME/Am Hülserhof Bstg 7;D-Sternstraße Bstg 1;Rheinbah
 708;tram;Quelle gtfs;D-Heinrichstraße Bstg 6;D-Polizeipräsidium Bstg 4;Rheinbahn
 709;tram;Quelle gtfs;D-G'heim, Krankenhaus Bstg 1;Neuss Theodor-Heuss-Platz Bstg 1;Rheinbahn
 721;bus;Quelle gtfs;D-Flughafen Term. A/B/C Bstg 6;D-Gothaer Weg Bstg 1;Rheinbahn
+Skytrain;monorail;;D-Flughafen Bf;D-Flughafen Term. C;Flughafen Düsseldorf
+#;bram;Quelle gtfs;D-Flughafen Bf;D-Flughafen Term. C;Rheinbahn
 722;bus;Quelle gtfs;D-Messe Congress Center Bstg 1;D-Vennhauser Allee Bstg 4;Rheinbahn
 723;bus;Quelle gtfs;D-Plange Mühle Bstg 1;D-Eller Mitte S Bstg 3;Rheinbahn
 724;bus;Quelle gtfs;D-Waldfriedhof Bstg 1;D-Sportpark Niederheid Bstg 1;Rheinbahn
@@ -2474,7 +2493,6 @@ NE4;bus;Quelle gtfs;OB Heinrich-Böll-Gesamtschule Bstg 2;OB Sterkrade Bf. Bstg 
 NE5;bus;Quelle gtfs;Oberhausen Hbf Bstg 9;OB Sterkrade Bf. Bstg 5;STOAG
 NE6;bus;Quelle gtfs;Oberhausen Ruhrpark;OB Sterkrade Bf. Bstg 5;STOAG
 NE7;bus;Quelle gtfs;OB Sterkrade Bf. Bstg 7;OB Heinrich-Böll-Gesamtschule Bstg 2;STOAG
-NE10;bus;Quelle gtfs;Mülheim Lindenhof Bstg 1;OB Sterkrade Bf. Bstg 5;STOAG
 NE11;bus;Quelle gtfs;Oberhausen Neue Mitte;Oberhausen Hbf Bstg 10;STOAG
 NE21;bus;;Oberhausen Hbf Bstg 1;Bottrop ZOB Berliner Platz Bstg 06;STOAG;Vestische
 #NE21;bus;Quelle gtfs;Oberhausen Hbf Bstg 1;Bottrop ZOB Berliner Platz Bstg 06;STOAG
@@ -2497,17 +2515,8 @@ BBK;bus;Quelle gtfs;Korschenbroich Glehn Kirche;Korschenbroich Glehn Kirche;NEW 
 BB2;bus;Quelle gtfs;Hattingen Lindenstr.;Hattingen Homberg;VER
 TB52;bus;Quelle gtfs;Gevelsberg Silschede Mitte;Gevelsberg Lusebrink;VER
 
-=== Monorails
+#=== Monorails
 
-Skytrain;monorail;;D-Flughafen Bf;D-Flughafen Term. C;Flughafen Düsseldorf
-#;bram;Quelle gtfs;D-Flughafen Bf;D-Flughafen Term. C;Rheinbahn
-H1;monorail;;Technologiezentrum;Eichlinghofen;DSW21
-#HB1;bram;Quelle gtfs;Dortmund Technologiezentrum;Dortmund Eichlinghofen H-Bahn;DSW21
-H2;monorail;;Dortmund Campus Nord;Dortmund Campus Süd;DSW21
-#HB2;bram;Quelle gtfs;Dortmund Campus Nord;Dortmund Campus Süd;DSW21
-HB3;bram;Quelle gtfs;Dortmund Campus Nord;Dortmund Eichlinghofen H-Bahn;DSW21
-HB5;bram;Quelle gtfs;Dortmund Universität S;Dortmund Eichlinghofen H-Bahn;DSW21
-HB7;bram;Quelle gtfs;Dortmund Technologiezentrum;Dortmund Universität S;DSW21
 
 === Schnellbusse
 

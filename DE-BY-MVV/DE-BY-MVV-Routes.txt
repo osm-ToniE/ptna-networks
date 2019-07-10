@@ -42,12 +42,23 @@
 
 = Überblick über die ÖPNV-Linien des Münchner Verkehrs- und Tarifverbundes
 
-- !!!Fahrplanwechsel am 09.12.2018!!!
--
 - Einige Veränderungen und neue Linien sind hier (via [[München/Transportation/MVV-Linien-gesamt|MVV Linien]]) vermerkt.
 -
 - Verweis auf die Datei mit den [[München/Transportation/MVV-Linien-gesamt|MVV Linien]] im Wiki.
 - Verweis auf mehr [[Talk:München/Transportation/Analyse|Informationen]] im Wiki.
+-
+
+== Quellen 
+
+- * Die vom MVV öffentlich zur Verfügung gestellten Fahrplandaten für den !!!'''MVV-Regionalbusverkehr'''!!! dürfen für OSM genutzt werden.
+-
+- * Die vom MVV angebotenen [https://www.opendata-oepnv.de/dataset/soll-fahrplandaten-mvv GTFS-Daten] stehen unter der Creative Commons Attribution License (cc-by). Als '''Quellenangabe''' notieren Sie bitte: "'''Münchner Verkehrs- und Tarifverbund GmbH (MVV)'''" sowie '''das Datum des Abrufs'''.
+-
+- * Die Daten aus dem '''GTFS-Feed''' dürfen ausdrücklich für OpenStreetMap verwendet werden. In diesem Fall genügt es, im '''Source-Tag''' als Herkunft die '''Münchner Verkehrs- und Tarifverbund GmbH (MVV)''' und die '''Versionsnummer des Feeds''' anzugeben.
+-
+- ** Vorschlag für Changeset-Quelle: '''Münchner Verkehrs- und Tarifverbund GmbH (MVV);  GTFS vom 26.03.2019'''
+-
+-
 
 == U-Bahn
 U1;subway;;Olympia-Einkaufszentrum;Mangfallplatz;SWM/MVG
@@ -212,6 +223,7 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 214;bus;;Riemerling, Altenheim;Hohenbrunn;Verkehrsbetrieb Ettenhuber GmbH
 215;bus;;Lohhof S Süd;Unterschleißheim S Ost;VBR GmbH, München
 216;bus;;Taufkirchen, Hugo-Junkers-Straße;Faistenhaar;RVO/Geldhauser
+216V;bus;;Neubiberg, Realschule;Faistenhaar, Waldsiedlung / Hofolding / Sauerlach S;Verkehrsbetrieb Ettenhuber GmbH
 217;bus;;Neuperlach Süd U S;Unterhaching S;Demmelmair GmbH & Co
 218;bus;;Unterschleißheim S West;Lohhof S Süd;VBR GmbH/Busverkehr Südbayern GmbH
 219;bus;;Garching-Hochbrück U;Unterschleißheim S Ost;VBR GmbH, München
@@ -272,6 +284,7 @@ N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzing
 377;bus;;Bad Tölz;Wolfratshausen S;Regionalverkehr Obb.
 378;bus;;Geretsried, Stein;Wolfratshausen S;Regionalverkehr Obb.
 379;bus;;Bad Tölz;Wolfratshausen S;Regionalverkehr Obb.
+379V;bus;;Bad Tölz;Wolfratshausen S;Regionalverkehr Obb.
 381;bus;;Deisenhofen S;Geretsried, Schulzentrum;Geldhauser/RVO
 #
 ==== Landkreis Ebersberg - 400 - 499
@@ -444,15 +457,15 @@ N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzing
 873;bus;;Fürstenfeldbruck S;Maisach S;Waibel Bus GmbH
 874;bus;;Maisach;Egenhofen, Dirlesried;RVO/Geldhauser
 889;bus;;Althegnenberg;Oberschweinbach;Enders Reisen
-8000;bus;!Änderung ab 09.12.2018: neue Haltestelle Viscardistraße! Ruftaxi;Fürstenfeldbruck/Emmering;;Zeiler GmbH
+8000;bus;Ruftaxi;Fürstenfeldbruck/Emmering;;Zeiler GmbH
 8200;bus;Ruftaxi;Landsberied/Jesenwang/Adelshofen/Moorenweis;;Zeiler GmbH
 8300;bus;Ruftaxi;Gernlinden/Olching/Puchheim/Gröbenzell;;Zeiler GmbH
-8400;bus;!Änderung ab 09.12.2018: wird auf Herrsching und Seefeld ausgeweitet! Ruftaxi;Alling/Schöngeising/Grafrath/Türkenfeld;;Zeiler GmbH
-8500;bus;!Änderung ab 09.12.2018: wird auf Gilching ausgeweitet! Ruftaxi;Fürstenfeldbruck/Alling/Eichenau/Puchheim Ort/Germering-Unterpfaffenhofen;;Zeiler GmbH
+8400;bus;Ruftaxi;Alling/Schöngeising/Grafrath/Türkenfeld;;Zeiler GmbH
+8500;bus;Ruftaxi;Fürstenfeldbruck/Alling/Eichenau/Puchheim Ort/Germering-Unterpfaffenhofen;;Zeiler GmbH
 8800;bus;Ruftaxi;Mammendorf/Oberschweinbach/Hattenhofen/Althegnenberg/Mittelstetten;;Zeiler GmbH
 #
 ==== Landkreis Starnberg - 900 - 999
-901;bus;!Änderung ab 09.12.2018: neue Haltestellen Abt-Hörl-Weg in Hanfeld!;Starnberg Nord S;Starnberg Nord S;Waibel Bus GmbH
+901;bus;;Starnberg Nord S;Starnberg Nord S;Waibel Bus GmbH
 902;bus;;Starnberg Nord S;Söcking;Waibel Bus GmbH
 903;bus;;Starnberg S;Perchting;Waibel Bus GmbH
 904;bus;;Starnberg Nord S;Starnberg Nord S;DB Regio Bus Bayern GmbH

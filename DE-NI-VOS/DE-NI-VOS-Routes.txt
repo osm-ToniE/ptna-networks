@@ -48,6 +48,8 @@
 
 == Bus
 
+91/491|91|491;bus;;;;Stadtwerke Osnabrück AG
+
 === VOS Nord
 
 126;bus;Ibbenbüren - Bad Steinbeck - Recke - Schale;;;Gronemann

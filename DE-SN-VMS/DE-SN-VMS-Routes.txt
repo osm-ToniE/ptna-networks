@@ -74,7 +74,7 @@
 32;bus;Dresdner Straße - Rottluff -Reichenbrand;;;Chemnitzer Verkehrs-AG
 33;bus;Bernsdorf - Adelsberg - Schösserholz;;;Chemnitzer Verkehrs-AG
 39;bus;Klaffenbach - Hutholz / Neukirchen;;;Chemnitzer Verkehrs-AG
-41;bus;Schönau - Reichenbrand - Grüna (- Hohenstein-Ernstthal);;;CVAG
+41;bus;Schönau - Reichenbrand - Grüna (- Hohenstein-Ernstthal);;;Chemnitzer Verkehrs-AG
 42;bus;Schönau - Rabenstein, Grünaer Straße;;;Chemnitzer Verkehrs-AG
 43|E43;bus;(Schösserholz -) Adelsberg - Rabenstein, Tierpark;;;Chemnitzer-Verkehrs-AG
 46;bus;Wittgensdorf, Chemnitztal - Borna;;;Chemnitzer Verkehrs-AG

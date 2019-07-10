@@ -997,6 +997,7 @@ EB 27;train;Pfefferminzbahn;Buttstädt;Sömmerda;Erfurter Bahn GmbH
 EB 32;train;;;;
 EB 40;train;;;;
 EB 46;train;;;;
+EB 50;train;;;;
 EBx 12;train;;;;
 EBx 13;train;;;;
 EBFH 1;train;;;;
@@ -1037,6 +1038,7 @@ STB 44;train;;;;
 STB 46;train;;Erfurt;Ilmenau|Bf Rennsteig;Süd-Thüringen-Bahn GmbH
 STB 48;train;;;;
 STx 45;train;;Ilmenau;Erfurt;Süd-Thüringen-Bahn GmbH
+STx 50;train;;Meiningen;Erfurt;Südzhüringenbahn
 Seehas;train;Seehas;Konstanz;Engen;SBB GmbH
 Seehäsle;train;Seehäsle;Radolfzell;Stockach;HZL
 UWW;train;Unterwesterwaldbahn;Limburg (Lahn);Siershahn;vectus
@@ -1076,7 +1078,9 @@ ZAB 4;train;;;;
 === 400 .. 499
 === 500 .. 599
 
-570;train;;;;
+#569;train;;;;
+#570;train;;;;
+#575;train;;;;
 -
 
 === 600 .. 699
@@ -1131,7 +1135,7 @@ ZAB 4;train;;;;
 800;train;;;;
 801;train;;;;
 811;train;;;;
-815;train;;;;
+#815;train;;;;
 826;train;;;;
 830;train;;;;
 KBS 831–867;train;;;;
