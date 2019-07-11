@@ -1,0 +1,151 @@
+<pre>
+#
+# Formatierung: die Formatierung lehnt sich ans Wiki an.
+#
+# Links: [[...|...]] sind (wie im OSM-Wiki) interne Verweise ins OSM-Wiki
+#        [... ...] sind (wie im OSM-Wiki) externe Verweise ins Internet
+#
+# Überschriften beginnen mit '=', '==', '===', '====', ... am Anfang einer Zeile
+#
+# Einfacher Text beginnt mit '-' am Anfang einer Zeile.
+#     Einfacher Text darf überall stehen.
+#     Ein einfaches '-' am Anfang der Zeile gefolgt von 'nichts':
+#     - wenn davor einfacher Text stand wird ein Zeilenumbruch erzeugt und das bisher ausgegebenen in einen Paragraphen <p> ... </p> gepackt
+#     - wenn vorher kein einfacher Text stand bzw. ein Zeilenumbruch erzeugt wurde, so wird eine Leerzeile erzeugt mit Hilfe von <p>&nbsp;</p>
+#
+# !!!Text mit gelbem Hintergrund!!! in einfachem Text oder Überschriften
+# '''''Text mit dicken, kursiven Buchstaben''''' in einfachem Text oder Überschriften
+# '''Text mit dicken Buchstaben''' in einfachem Text oder Überschriften
+# ''Text mit kursiven Buchstaben'' in einfachem Text oder Überschriften
+#
+# Kommentare beginnen mit '#' am Anfang einer Zeile. Kommentare mittendrin werden nicht erkannt, d.h. '#' darf innerhalb von Text vorkommen.
+#
+# Format der Datei: UTF-8
+#
+#
+# Definition von Linieninformationen: Inhalt im CSV-Format
+#
+# ref;type;comment;from;to;operator
+#
+# - ref       == tag 'ref' von route oder route_master
+#                250            definiert, dass hier Linien mit 'ref'='250' erwartet wird
+#                250|250a|250b  definiert, dass hier Linien mit 'ref'='250' und 'ref'='250a' und 'ref'='250b' zulässig sind - ob das nach PTv1/PTv2 erlaubt ist, ist eine andere Sache
+# - type      == inhalt des tags 'route' bzw. 'route_master'
+# - comment   == kann Kommentar enthalten wie; Ruftaxi, Bus, Expressbus, ...  wird nicht ausgewertet, lediglich ausgegeben
+#                !Text mit gelbem Hintergrund! im comment (umgeben von einfachem !)
+# - from      == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
+# - to        == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
+# - operator  == wird bei mehreren Linie mit identischem ref und type zur Differenzierung herangezogen
+#                Der Wert von 'operator' darf ';' enthalten
+#
+
+
+= Überblick der Linien in der Verkehrs- und Tarifgemeinschaft Ostharz
+
+- !!!Eisenbahnstrecken von DB Regio, den Harzer Schmalspurbahnen und dem Harz-ElbeExpress fehlen noch!!!
+-
+- Verweis auf die Datei mit den [[Landkreis_Harz/Transportation/Analyse/DE-ST-VTO-Linien|VTO Linien]] im Wiki.
+-
+- Verweis auf mehr [[Talk:Landkreis_Harz/Transportation/Analyse|Informationen]] im Wiki.
+-
+
+
+== Stadtverkehr Wernigerode
+
+201;bus;Heidebreite – Rendezvous – Floßplatz;Heidebreite;Floßplatz;Harzer Verkehrsbetriebe 
+202;bus;M.-H.-Klaproth-Straße – Rendezvous – Wendeplatz Mühlental;M.-H.-Klaproth-Straße;Wendeplatz Mühlental;Harzer Verkehrsbetriebe 
+203;bus;Im Bodengarten – Rendezvous – Röntgenstraße;Im Bodengarten;Röntgenstraße;Harzer Verkehrsbetriebe 
+204;bus;Floßplatz – Rendezvous – E.-Pörner-Straße;Floßplatz;E.-Pörner-Straße;Harzer Verkehrsbetriebe 
+
+== Abendlinien Wernigerode
+
+205;bus;Floßplatz – Rendezvous – E.-Pörner-Straße;Floßplatz;E.-Pörner-Straße;Harzer Verkehrsbetriebe 
+
+=== Stadtverkehr Quedlinburg
+
+206;bus;;;;Harzer Verkehrsbetriebe 
+
+== Ortsverkehr Schierke
+
+207;bus;Parkhaus Winterbergtor - Schierke Bf. - Parkhaus Winterbergtor;Parkhaus Winterbergtor;Parkhaus Winterbergtor;Harzer Verkehrsbetriebe 
+
+=== Stadtverkehr Halberstadt
+
+1;tram;Friedhof – Hauptbahnhof;Friedhof;Hauptbahnhof;Halberstädter Verkehrs-GmbH
+2;tram;Sargstedter Weg – Hauptbahnhof;Sargstedter Weg;Hauptbahnhof;Halberstädter Verkehrs-GmbH
+
+11;bus;Sargsteder Siedlung – Porta;Sargsteder Siedlung;Porta;Halberstädter Verkehrs-GmbH
+12;bus;Klusberge – Hauptbahnhof;Klusberge;Hauptbahnhof;Halberstädter Verkehrs-GmbH
+13;bus;Sargstedt – Kuckucksfeld;Sargstedt;Kuckucksfeld;Halberstädter Verkehrs-GmbH
+14;bus;Klein Quenstedt – Holzmarkt;Klein Quenstedt;Holzmarkt;Halberstädter Verkehrs-GmbH
+16;bus;Holzmarkt – Mahndorf/Ströbeck;Holzmarkt;Mahndorf/Ströbeck;Halberstädter Verkehrs-GmbH
+
+== Abendlinien Halberstadt
+
+15;bus;Hauptbahnhof – Sargstedter Siedlung;Sargsteder Siedlung;Sargstedter Siedlung;Halberstädter Verkehrs-GmbH
+
+== Regionalverkehr Halberstadt
+
+210;bus;;;;Harzer Verkehrsbetriebe
+211;bus;;;;Harzer Verkehrsbetriebe
+212;bus;;;;Harzer Verkehrsbetriebe
+213;bus;;;;Harzer Verkehrsbetriebe
+214;bus;;;;Harzer Verkehrsbetriebe
+220;bus;;;;Harzer Verkehrsbetriebe
+222;bus;;;;Harzer Verkehrsbetriebe
+233;bus;;;;Harzer Verkehrsbetriebe
+234;bus;;;;Harzer Verkehrsbetriebe
+236;bus;;;;Harzer Verkehrsbetriebe
+
+AST1;bus;;;;Harzer Verkehrsbetriebe
+AST2;bus;;;;Harzer Verkehrsbetriebe
+AST3;bus;;;;Harzer Verkehrsbetriebe
+AST4;bus;;;;Harzer Verkehrsbetriebe
+AST5;bus;;;;Harzer Verkehrsbetriebe
+AST6;bus;;;;Harzer Verkehrsbetriebe
+
+
+== Regionalverkehr Wernigerode
+
+230;bus;;;;Harzer Verkehrsbetriebe
+231;bus;;;;Harzer Verkehrsbetriebe
+232;bus;;;;Harzer Verkehrsbetriebe
+250;bus;;;;Harzer Verkehrsbetriebe
+257;bus;;;;Harzer Verkehrsbetriebe
+260;bus;;;;Harzer Verkehrsbetriebe
+261;bus;;;;Harzer Verkehrsbetriebe
+262;bus;;;;Harzer Verkehrsbetriebe
+263;bus;;;;Harzer Verkehrsbetriebe
+264;bus;;;;Harzer Verkehrsbetriebe
+265;bus;;;;Harzer Verkehrsbetriebe
+270;bus;;;;Harzer Verkehrsbetriebe
+271;bus;;;;Harzer Verkehrsbetriebe
+272;bus;;;;Harzer Verkehrsbetriebe
+273;bus;;;;Harzer Verkehrsbetriebe
+274;bus;;;;Harzer Verkehrsbetriebe
+275;bus;;;;Harzer Verkehrsbetriebe
+
+AST7;bus;;;;Harzer Verkehrsbetriebe
+AST8;bus;;;;Harzer Verkehrsbetriebe
+
+
+== Regionalverkehr Quedlinburg
+
+235;bus;;;;Harzer Verkehrsbetriebe
+240;bus;;;;Harzer Verkehrsbetriebe
+241;bus;;;;Harzer Verkehrsbetriebe
+242;bus;;;;Harzer Verkehrsbetriebe
+243;bus;;;;Harzer Verkehrsbetriebe
+244;bus;;;;Harzer Verkehrsbetriebe
+245;bus;;;;Harzer Verkehrsbetriebe
+246;bus;;;;Harzer Verkehrsbetriebe
+247;bus;;;;Harzer Verkehrsbetriebe
+251;bus;;;;Harzer Verkehrsbetriebe
+252;bus;;;;Harzer Verkehrsbetriebe
+253;bus;;;;Harzer Verkehrsbetriebe
+254;bus;;;;Harzer Verkehrsbetriebe
+255;bus;;;;Harzer Verkehrsbetriebe
+256;bus;;;;Harzer Verkehrsbetriebe
+
+
+</pre>
