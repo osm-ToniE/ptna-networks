@@ -1380,6 +1380,7 @@ S6;bus;Stadtbus Herford;;;BVO Busverkehr Ostwestfalen GmbH
 931;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 932;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 934;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+939;bus;;Oerlinghausen;Hörste;BVO Busverkehr Ostwestfalen GmbH
 941;bus;Stadtbus Bad Salzuflen;;;Stadtwerke Bad Salzuflen GmbH
 942;bus;Stadtbus Bad Salzuflen;;;Stadtwerke Bad Salzuflen GmbH
 943;bus;Stadtbus Bad Salzuflen;;;Stadtwerke Bad Salzuflen GmbH

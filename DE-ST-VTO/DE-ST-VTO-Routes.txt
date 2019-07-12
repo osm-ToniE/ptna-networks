@@ -42,7 +42,7 @@
 
 = Überblick der Linien in der Verkehrs- und Tarifgemeinschaft Ostharz
 
-- !!!Eisenbahnstrecken von DB Regio, den Harzer Schmalspurbahnen und dem Harz-ElbeExpress fehlen noch!!!
+- !!!Eisenbahnstrecken von DB Regio und dem Harz-Elbe-Express fehlen noch!!!
 -
 - Verweis auf die Datei mit den [[Landkreis_Harz/Transportation/Analyse/DE-ST-VTO-Linien|VTO Linien]] im Wiki.
 -
@@ -57,11 +57,11 @@
 203;bus;Im Bodengarten – Rendezvous – Röntgenstraße;Im Bodengarten;Röntgenstraße;Harzer Verkehrsbetriebe 
 204;bus;Floßplatz – Rendezvous – E.-Pörner-Straße;Floßplatz;E.-Pörner-Straße;Harzer Verkehrsbetriebe 
 
-== Abendlinien Wernigerode
+=== Abendlinien Wernigerode
 
 205;bus;Floßplatz – Rendezvous – E.-Pörner-Straße;Floßplatz;E.-Pörner-Straße;Harzer Verkehrsbetriebe 
 
-=== Stadtverkehr Quedlinburg
+== Stadtverkehr Quedlinburg
 
 206;bus;;;;Harzer Verkehrsbetriebe 
 
@@ -69,7 +69,7 @@
 
 207;bus;Parkhaus Winterbergtor - Schierke Bf. - Parkhaus Winterbergtor;Parkhaus Winterbergtor;Parkhaus Winterbergtor;Harzer Verkehrsbetriebe 
 
-=== Stadtverkehr Halberstadt
+== Stadtverkehr Halberstadt
 
 1;tram;Friedhof – Hauptbahnhof;Friedhof;Hauptbahnhof;Halberstädter Verkehrs-GmbH
 2;tram;Sargstedter Weg – Hauptbahnhof;Sargstedter Weg;Hauptbahnhof;Halberstädter Verkehrs-GmbH
@@ -80,7 +80,7 @@
 14;bus;Klein Quenstedt – Holzmarkt;Klein Quenstedt;Holzmarkt;Halberstädter Verkehrs-GmbH
 16;bus;Holzmarkt – Mahndorf/Ströbeck;Holzmarkt;Mahndorf/Ströbeck;Halberstädter Verkehrs-GmbH
 
-== Abendlinien Halberstadt
+=== Abendlinien Halberstadt
 
 15;bus;Hauptbahnhof – Sargstedter Siedlung;Sargsteder Siedlung;Sargstedter Siedlung;Halberstädter Verkehrs-GmbH
 
