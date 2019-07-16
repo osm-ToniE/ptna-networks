@@ -92,6 +92,13 @@
 9000;bus;Ortsbus Oberstdorf
 9001;bus;Ortsverkehr Holzkirchen, Linie 1 - 6
 
+=== 92xx
+9242;bus;;Trostberg;Traunreut;RVO
+
+=== 93xx
+9342;bus;;Trostberg;Garching;RVO
+
+
 === 94xx
 9403/024;bus;Dorfen - Velden
 9406;bus;Schwindegg - Obertaufkirchen - Haag
@@ -115,7 +122,7 @@
 9425;bus;Ortsbus Bad Endorf
 9427;bus;Bad Endorf - Höslwang - Pelham - Bad Endorf
 9428;bus;Rufbus Wasserburg
-9434;bus;Stadtbus Trostberg: Kleinschwarz - Trostberg
+9434;bus;Stadtbus Trostberg;Wäschhausen;Eglsee;RVO
 9436;bus;Palling - Waging
 9437;bus;Traunreut - Kirchweidach
 9438;bus;Trostberg - Obing

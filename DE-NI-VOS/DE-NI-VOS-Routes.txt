@@ -48,7 +48,7 @@
 
 == Bus
 
-"91;491"|91|491;bus;;;;Stadtwerke Osnabrück AG
+"491;91|91|491";bus;;;;Stadtwerke Osnabrück AG
 
 === VOS Nord
 

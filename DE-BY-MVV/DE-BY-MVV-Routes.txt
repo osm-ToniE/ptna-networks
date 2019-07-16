@@ -58,6 +58,7 @@
 -
 - ** Vorschlag für Changeset-Quelle: '''Münchner Verkehrs- und Tarifverbund GmbH (MVV);  GTFS vom 26.03.2019'''
 -
+- !!![[München/Transportation/MVV-GTFS|Mehr zur Nutzung der MVV-GTFS-Daten im OSM-Wiki]]!!!
 -
 
 == U-Bahn
@@ -219,15 +220,19 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 210;bus;;Brunnthal, Zusestraße;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
 211;bus;;Harthausen;Campeon;Verkehrsbetrieb Ettenhuber GmbH
 212;bus;;Grasbrunn;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
+212V;bus;;Grasbrunn;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
 213;bus;;Ostbahnhof U S R;Taufkirchen, Lilienthalstraße;RVO/Geldhauser
 214;bus;;Riemerling, Altenheim;Hohenbrunn;Verkehrsbetrieb Ettenhuber GmbH
+214V;bus;;Ottobrunn, Einsteinstraße;Neubiberg, Realschule;Verkehrsbetrieb Ettenhuber GmbH
 215;bus;;Lohhof S Süd;Unterschleißheim S Ost;VBR GmbH, München
 216;bus;;Taufkirchen, Hugo-Junkers-Straße;Faistenhaar;RVO/Geldhauser
 216V;bus;;Neubiberg, Realschule;Faistenhaar, Waldsiedlung / Hofolding / Sauerlach S;Verkehrsbetrieb Ettenhuber GmbH
 217;bus;;Neuperlach Süd U S;Unterhaching S;Demmelmair GmbH & Co
 218;bus;;Unterschleißheim S West;Lohhof S Süd;VBR GmbH/Busverkehr Südbayern GmbH
 219;bus;;Garching-Hochbrück U;Unterschleißheim S Ost;VBR GmbH, München
+219V;bus;;Hochbrück, Jahnstraße;Oberschleißheim, Rathaus;VBR GmbH/Busverkehr Südbayern GmbH
 220;bus;;Winning;Giesing U S;Verkehrsbetrieb Ettenhuber GmbH
+220V;bus;;Unterhaching;Fasanenpark S;Verkehrsbetrieb Ettenhuber GmbH
 221;bus;;Unterhaching S;München, Waldheimplatz;Verkehrsbetrieb Ettenhuber GmbH
 222;bus;;Deisenhofen S;Neuperlach Süd U S;Busservice Watzinger
 223;bus;;Sauerlach S;Arget;Verkehrsbetrieb Ettenhuber GmbH
@@ -237,13 +242,18 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 227;bus;;Ortsbus Oberhaching;;Busservice Watzinger
 229;bus;;Ottobrunn, Phönix Bad;Neuperlach Süd U S;Geldhauser
 230;bus;;Fischerhäuser;Garching-Forschungszentrum U;VBR GmbH, München
+230V;bus;;Garching, Untere Straßäcker;Ismaning S;VBR GmbH, München
 231;bus;;Ismaning S;Studentenstadt U;VBR GmbH, München
+231V;bus;;Unterföhring, Siedlerstraße;Ismaning S;VBR GmbH, München
 232;bus;;Unterföhring, Fichtenstraße;St. Emmeram;Hadersdorfer/Scharf
 233;bus;;Studentenstadt U;Unterföhring U;Geldhauser
 234;bus;;Messestadt West U;Unterföhring U;Geldhauser
 240;bus;;Harthausen;Neukeferloh;DB Regio Bus Bayern GmbH
+240V;bus;;Harthausen;Baldham/Haar;DB Regio Bus Bayern GmbH
 241;bus;;Haar S;Taufkirchen, Friedhof;Verkehrsbetrieb Ettenhuber GmbH
+241V;bus;;Putzbrunn, Hohenbrunner Straße;Riemerling, Theodor-Heuss-Straße;Verkehrsbetrieb Ettenhuber GmbH
 242;bus;;Haar S;Gronsdorf S;DB Regio Bus Bayern GmbH
+242V;bus;;Gronsdorf S;Haar, Jagdfeldbad;DB Regio Bus Bayern GmbH
 243;bus;;Haar, Hans-Stießberger-Straße;Neukeferloh;DB Regio Bus Bayern GmbH
 244;bus;;Taufkirchen, Hugo-Junkers-Straße;Sauerlach S;Verkehrsbetrieb Ettenhuber GmbH
 258;bus;;Gräfelfing S;Starnberger Straße;Busservice Watzinger
@@ -257,6 +267,7 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 266;bus;;Planegg S;Klinikum Großhadern U;Busservice Watzinger
 267;bus;;Neuaubing;Fürstenried West U;Busservice Watzinger
 268;bus;;Waldfriedhof;Gräfelfing S;Busservice Watzinger
+268V;bus;;Großhadern (U);Gräfelfing, Am Haag;Busservice Watzinger
 269;bus;;Neuried;Klinikum Großhadern U;Busverkehr Südbayern
 270;bus;;Höllriegelskreuth S;Solln S;Demmelmair GmbH & Co
 271;bus;;Höllriegelskreuth S;Dietramszell;Geldhauser/RVO

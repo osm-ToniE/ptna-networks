@@ -380,6 +380,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 540;bus;;Triest;Benevento;FlixMobility GmbH
 543;bus;;Vicenza;Salerno;FlixMobility GmbH
 544;bus;;Turin;Bologna;FlixMobility GmbH
+545;bus;;Wien;Bologna;FlixMobility GmbH
 550;bus;;Pescara;Rom, Flughafen Fiumicino;FlixMobility GmbH
 551;bus;;Rimini;Rom, Flughafen Fiumicino;FlixMobility GmbH
 552;bus;;Termoli;Rom, Flughafen Fiumicino;FlixMobility GmbH
@@ -649,6 +650,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 1302;bus;;Warschau;Breslau;FlixMobility GmbH
 1303;bus;;Warschau;Breslau/Karpacz;FlixMobility GmbH
 1304;bus;;Warschau;Dresden;FlixMobility GmbH
+1310;bus;;Prag;Krakau;FlixMobility GmbH
 1311;bus;;Posen;Bielitz-Biala;FlixMobility GmbH
 1312;bus;;Kattowitz;Kołobrzeg Jagiellońska;FlixMobility GmbH
 1320;bus;;Berlin;Warschau;FlixMobility GmbH
@@ -854,6 +856,7 @@ X68;bus;;Heidelberg;Amsterdam;FlixMobility GmbH
 X73;bus;;Köln;Castrup;FlixMobility GmbH
 X75;bus;seit 10.04.2019 nicht mehr buchbar, wurde eingestellt;Amsterdam;Kiel;FlixMobility GmbH
 X96;bus;;Schwechat;Graz;FlixMobility GmbH
+X400;bus;;Mailand;Treviso;FlixMobility GmbH
 X411;bus;;Mailand;Cortina d'Ampezzo;FlixMobility GmbH
 X913;bus;;Pilsen;Krakau;FlixMobility GmbH
 
@@ -951,9 +954,11 @@ N404;bus;;Wien;Savona;FlixMobility GmbH
 N405;bus;;Zagreb/Pula;Genf/Lausanne;FlixMobility GmbH
 N406;bus;;Lyon;Rijeka;FlixMobility GmbH
 N407;bus;;Mailand;Madrid;FlixMobility GmbH
+N409;bus;;Hamburg;Bologna;FlixMobility GmbH
 N420;bus;;Mailand;Gallipoli;FlixMobility GmbH
 N421;bus;Seit 30.09.2018 nicht mehr buchbar, wurde eingestellt.;Gallipoli;Hannover;FlixMobility GmbH
 N422;bus;;Dortmund;Crotone;FlixMobility GmbH
+N423;bus;;Parma;Alberobello;FlixMobility GmbH
 N424;bus;;Alberobello;Turin;FlixMobility GmbH
 N425;bus;;Turin;Lecce;FlixMobility GmbH
 N431;bus;;Bergamo;Lecce;FlixMobility GmbH
@@ -1118,6 +1123,7 @@ N976;bus;;Krakau;Rijeka;FlixMobility GmbH
 N978;bus;;Frankfurt am Main;Mostar;FlixMobility GmbH
 N979;bus;Seit 09.09.2018 nicht mehr buchbar, wurde eingestellt.;Budapest;Budva;FlixMobility GmbH
 N980;bus;;Bukarest;Sofia;FlixMobility GmbH
+N981;bus;;München;Plovdiv;FlixMobility GmbH
 N982;bus;;Sofia;Wien;FlixMobility GmbH
 N990;bus;;Pančevo;Wien;FlixMobility GmbH
 N997;bus;;Rom;Zagreb;FlixMobility GmbH
@@ -1145,6 +1151,7 @@ N1395;bus;;Wien;Gdingen;FlixMobility GmbH
 N1501;bus;;Genua;Sala Consilia;FlixMobility GmbH
 N1526;bus;;Reggio Calabria;Turin;FlixMobility GmbH
 N1529;bus;;Mailand;Paris;FlixMobility GmbH
+N1580;bus;;Como Lago;Mangone;FlixMobility GmbH
 N1583;bus;;Turin;Botricello;FlixMobility GmbH
 N1594;bus;;Reggio Calabria;Siena;FlixMobility GmbH
 N1597;bus;;Messina;Trapani;FlixMobility GmbH
@@ -1152,6 +1159,7 @@ N1599;bus;;Palermo;Urbino;FlixMobility GmbH
 
 N1720;bus;;Mainz;Barcelona;FlixMobility GmbH
 N1729;bus;;Rom;Paris;FlixMobility GmbH
+N1759;bus;;Prag;Lyon Flughafen;FlixMobility GmbH
 N1769;bus;;London;Grenoble;FlixMobility GmbH
 N1785;bus;;Lissabon;Granada;FlixMobility GmbH
 N1793;bus;;Madrid;Paris;FlixMobility GmbH

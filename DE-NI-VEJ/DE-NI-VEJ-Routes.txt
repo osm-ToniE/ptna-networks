@@ -106,8 +106,6 @@
 265;bus;Varel - Zetel - Schortens - Jever;;;
 268;bus;Bockhorn - Grabstede - Bredehorn;;;
 273;bus;Varel - Varel, Dienstleistungszentrum;;;
-301;bus;;;;
-303;bus;;;;
 311;bus;;;;
 312;bus;;;;
 313;bus;Jever - Esens;;;
@@ -230,9 +228,9 @@
 703;bus;;;;
 704;bus;;;;
 706;bus;;;;
-K1;bus;Harlesiel - Norden;;;
-K2;bus;Esens - Neuharlingersiel;;;
-K3;;;;
+K1;bus;;;;
+K2;bus;;;;
+K3;bus;;;;
 N39;bus;;;;
 N41;bus;;;;
 N61;bus;;;;
