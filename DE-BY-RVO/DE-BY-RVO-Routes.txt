@@ -89,7 +89,6 @@
 7742;bus;N1 Nachtexpress: Traunstein - Engelsberg
 
 === 90xx
-9000;bus;Ortsbus Oberstdorf
 9001;bus;Ortsverkehr Holzkirchen, Linie 1 - 6
 
 === 92xx

@@ -619,6 +619,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 977;bus;;Budapest;Padua;FlixMobility GmbH
 978;bus;;Budapest;Graz;FlixMobility GmbH
 980;bus;seit 04.11.2018 nicht mehr buchbar, wurde eingestellt;Bukarest;Sofia;FlixMobility GmbH
+986;bus;;Krakau;Budapest;FlixMobility GmbH
 987;bus;;Budapest;Bled;FlixMobility GmbH
 990;bus;;Pančevo;Wien;FlixMobility GmbH
 991;bus;;Veliko Gradište;Mailand;FlixMobility GmbH
@@ -651,7 +652,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 1303;bus;;Warschau;Breslau/Karpacz;FlixMobility GmbH
 1304;bus;;Warschau;Dresden;FlixMobility GmbH
 1310;bus;;Prag;Krakau;FlixMobility GmbH
-1311;bus;;Posen;Bielitz-Biala;FlixMobility GmbH
+1311;bus;;Posen;Budapest;FlixMobility GmbH
 1312;bus;;Kattowitz;Kołobrzeg Jagiellońska;FlixMobility GmbH
 1320;bus;;Berlin;Warschau;FlixMobility GmbH
 1321;bus;;Berlin;Warschau;FlixMobility GmbH
