@@ -229,6 +229,7 @@
 704;bus;;;;
 706;bus;;;;
 K1;bus;;;;
+K1Ex;bus;;;;
 K2;bus;;;;
 K3;bus;;;;
 N39;bus;;;;

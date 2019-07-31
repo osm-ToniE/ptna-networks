@@ -241,13 +241,13 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 226;bus;;Sauerlach S;Deisenhofen S R;RVO/Geldhauser
 227;bus;;Ortsbus Oberhaching;;Busservice Watzinger
 229;bus;;Ottobrunn, Phönix Bad;Neuperlach Süd U S;Geldhauser
-230;bus;;Fischerhäuser;Garching-Forschungszentrum U;VBR GmbH, München
-230V;bus;;Garching, Untere Straßäcker;Ismaning S;VBR GmbH, München
+230;bus;!Sanierung Heckerbrücke: bis 09.09.2019 nur von West nach Ost befahrbar!;Fischerhäuser;Garching-Forschungszentrum U;VBR GmbH, München
+230V;bus;!Sanierung Heckerbrücke: bis 09.09.2019 nur von West nach Ost befahrbar!;Garching, Untere Straßäcker;Ismaning S;VBR GmbH, München
 231;bus;;Ismaning S;Studentenstadt U;VBR GmbH, München
 231V;bus;;Unterföhring, Siedlerstraße;Ismaning S;VBR GmbH, München
 232;bus;;Unterföhring, Fichtenstraße;St. Emmeram;Hadersdorfer/Scharf
-233;bus;;Studentenstadt U;Unterföhring U;Geldhauser
-234;bus;;Messestadt West U;Unterföhring U;Geldhauser
+233;bus;;Studentenstadt U;Unterföhring S;Geldhauser
+234;bus;;Messestadt Ost U;Unterföhring S;Geldhauser
 240;bus;;Harthausen;Neukeferloh;DB Regio Bus Bayern GmbH
 240V;bus;;Harthausen;Baldham/Haar;DB Regio Bus Bayern GmbH
 241;bus;;Haar S;Taufkirchen, Friedhof;Verkehrsbetrieb Ettenhuber GmbH
@@ -259,21 +259,27 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 258;bus;;Gräfelfing S;Starnberger Straße;Busservice Watzinger
 259;bus;;Pasing Bf S R;Martinsried;Demmelmair GmbH & Co
 260;bus;;Germering-Unterpfaffenhofen S;Fürstenried West U;Busservice Watzinger
+260V;bus;;Neuried, Hainbuchenring;Planegg S;Busservice Watzinger,
 261;bus;;Neuried;Fürstenried West U;Busservice Watzinger
 262;bus;;Heimstetten S;Kirchheim, Gewerbegebiet;Verkehrsbetrieb Ettenhuber GmbH
 263;bus;;Messestadt West U;Feldkirchen S;Verkehrsbetrieb Ettenhuber GmbH
+263V;bus;;Feldkirchen;Riem S Dornach;Verkehrsbetrieb Ettenhuber GmbH
 264;bus;;Messestadt West U;Riem S Dornach;Verkehrsbetrieb Ettenhuber GmbH
 265;bus;;Pasing S R;Planegg S;Busservice Watzinger
 266;bus;;Planegg S;Klinikum Großhadern U;Busservice Watzinger
 267;bus;;Neuaubing;Fürstenried West U;Busservice Watzinger
+267V;bus;;Neuried, Rathaus;Pasing, Gymnasium;Busservice Watzinger
 268;bus;;Waldfriedhof;Gräfelfing S;Busservice Watzinger
-268V;bus;;Großhadern (U);Gräfelfing, Am Haag;Busservice Watzinger
+268V;bus;;Großhadern U;Gräfelfing, Am Haag;Busservice Watzinger
 269;bus;;Neuried;Klinikum Großhadern U;Busverkehr Südbayern
 270;bus;;Höllriegelskreuth S;Solln S;Demmelmair GmbH & Co
 271;bus;;Höllriegelskreuth S;Dietramszell;Geldhauser/RVO
+271V;bus;Egling;Grünwald, Gymnasium;Geldhauser/RVO
 N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzinger
 285;bus;;Haar S;Ismaning S;Verkehrsbetrieb Ettenhuber GmbH
+285V;bus;;Ottendichl;Haar, Jagdfeldbad;Verkehrsbetrieb Ettenhuber GmbH
 290;bus;;Stadtbus Garching;;Verkehrsbetrieb Ettenhuber GmbH
+290V;bus;;Hochbrück, Jahnstraße;Prof.-Angermair-Ring;Verkehrsbetrieb Ettenhuber GmbH
 291;bus;;Dachau S R;Unterschleißheim S;Busverkehr Südbayern
 292;bus;;Garching-Forschungszentrum U;Sonnenstraße;Boos/Hadersdorfer/Scharf
 293;bus;;Dirnismaning;Garching U;Verkehrsbetrieb Ettenhuber GmbH
