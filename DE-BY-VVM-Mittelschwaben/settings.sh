@@ -4,7 +4,7 @@
 # set variales for analysis of network
 #
 
-PREFIX="DE-BY-VVM"
+PREFIX="DE-BY-VVM-Mittelschwaben"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level=6][name~'(Landkreis Günzburg|Landkreis Unterallgäu)'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(r.routes););out;"
 NETWORK_LONG="Verkehrsverbund Mittelschwaben"
