@@ -1374,8 +1374,6 @@ S6;bus;Stadtbus Herford;;;BVO Busverkehr Ostwestfalen GmbH
 922;bus;;;;Linke Lemgo GmbH
 924;bus;;;;Linke Lemgo GmbH
 925;bus;;;;Linke Lemgo GmbH
-926;bus;;;;Linke Lemgo GmbH
-927;bus;;;;Linke Lemgo GmbH
 928;bus;;;;Linke Lemgo GmbH
 931;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 932;bus;;;;BVO Busverkehr Ostwestfalen GmbH
@@ -2137,6 +2135,7 @@ T30;bus;;Schwerte;Drüpplingsen;WB Westfalen Bus GmbH
 449.2;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 449.3;bus;;;;BVO Busverkehr Ostwestfalen GmbH
 449.4;bus;;;;BVO Busverkehr Ostwestfalen GmbH
+452;bus;;Bad Lippspringe;Altenbeken;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
 461;bus;;Büren;Helmern;BVO Busverkehr Ostwestfalen GmbH
 462;bus;;Büren;Steinhausen;BVO Busverkehr Ostwestfalen GmbH
 463;bus;;Büren;Alme;BVO Busverkehr Ostwestfalen GmbH

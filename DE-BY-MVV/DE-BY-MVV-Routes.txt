@@ -295,7 +295,7 @@ N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzing
 372;bus;;Beuerberg;Wolfratshausen S;Regionalverkehr Obb.
 373;bus;;Seeshaupt R;Wolfratshausen S;Regionalverkehr Obb.
 373V;bus;;Ammerland/Ambach;Wolfratshausen S;Regionalverkehr Obb.
-374;bus;;(Penzberg);Wolfratshausen S;Regionalverkehr Obb.
+374;bus;;Penzberg;Wolfratshausen S;Regionalverkehr Obb.
 375;bus;;Endlhausen;Wolfratshausen S;Geldhauser/RVO
 376;bus;;Bad Heilbrunn;Wolfratshausen S;Regionalverkehr Obb.
 377;bus;;Bad Tölz;Wolfratshausen S;Regionalverkehr Obb.
