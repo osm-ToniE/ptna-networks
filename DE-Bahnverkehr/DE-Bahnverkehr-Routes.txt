@@ -602,7 +602,7 @@ RE 4;train;;;;
 RE5;train;Rhein-Express;Koblenz;Wesel;DB Regio NRW
 RE5;train;;Rostock|Stralsund;Elsterwerda;DB Regio AG
 RE5;train;;Heidelberg Hbf;Stuttgart Hbf;DB Regio
-RE5;train;;Hamburg;Cuxhaven;Metronom Eisenbahngesellschaft
+RE5;train;;Hamburg;Cuxhaven;Verkehrsgesellschaft Start Unterelbe mbH
 RE6;train;Rhein-Weser-Express;Minden;Köln/Bonn Flughafen;DB Regio NRW
 RE6;train;Pfälzische Maximiliansbahn;Neustadt (Weinstraße);Karlsruhe;DB Regio Mitte
 RE6;train;;Berlin-Gesundbrunnen;Wittenberge;DB Regio

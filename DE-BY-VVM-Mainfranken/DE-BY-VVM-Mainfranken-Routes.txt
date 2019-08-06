@@ -44,6 +44,7 @@
 = Überblick über die ÖPNV-Linien des Verkehrsunternehmens-Verbund Mainfranken
 
 - Verweis auf die Datei mit den [[Mainfranken/Transportation/VVM-Linien-gesamt|VVM Linien]] im Wiki.
+-
 - Verweis auf mehr [[Talk:Mainfranken/Transportation/Analyse|Informationen]] im Wiki.
 
 == Hinweis

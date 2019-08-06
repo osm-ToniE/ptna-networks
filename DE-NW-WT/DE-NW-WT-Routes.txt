@@ -890,7 +890,7 @@ T88;bus;;;;Regionalverkehr Münsterland GmbH
 51;bus;;;;moBiel GmbH
 51E;bus;;;;moBiel GmbH
 52;bus;;;;moBiel GmbH
-53;bus;;Jöllenbeck;Eickum;BVO Busverkehr Ostwestfalen GmbH
+53;bus;;Jöllenbeck;Eickum;moBiel GmbH
 54;bus;;Babenhausen Süd;Enger;moBiel GmbH
 55;bus;;Schildesche;Jöllenbeck;moBiel GmbH
 56;bus;;Babenhausen Süd;Spenge;moBiel GmbH
@@ -944,7 +944,7 @@ T88;bus;;;;Regionalverkehr Münsterland GmbH
 350;bus;;Bielefeld|Heepen;Bad Salzuflen|Leopoldshöhe;BVO Busverkehr Ostwestfalen GmbH
 351;bus;;Bielefeld;Oerlinghausen;BVO Busverkehr Ostwestfalen GmbH
 352;bus;;Milse;Herford;moBiel GmbH
-353;bus;;Schildesche;Eilshausen;BVO Busverkehr Ostwestfalen GmbH
+353;bus;;Schildesche;Eilshausen;moBiel GmbH
 369;bus;;Bielefeld;Oerlinghausen;moBiel GmbH
 388;bus;;Schloß Holte;Schildesche;moBiel GmbH
 739;bus;;Ubbedissen;Lipperreihe;moBiel GmbH
@@ -1109,7 +1109,7 @@ Hw-T4;bus;;Harsewinkel;Breslauer Straße;Transdev Ostwestfalen GmbH
 25;bus;Stadtbus Minden;;;BVO Busverkehr Ostwestfalen GmbH
 26;bus;Stadtbus Minden;;;BVO Busverkehr Ostwestfalen GmbH
 27;bus;Stadtbus Minden;;;BVO Busverkehr Ostwestfalen GmbH
-53;bus;;Jöllenbeck;Eickum;BVO Busverkehr Ostwestfalen GmbH
+53;bus;;Jöllenbeck;Eickum;moBiel GmbH
 54;bus;;Babenhausen Süd;Enger;moBiel GmbH
 56;bus;;Babenhausen Süd;Spenge;moBiel GmbH
 59;bus;;Neuenkirchen;Bielefeld;BVO Busverkehr Ostwestfalen GmbH
@@ -1122,7 +1122,7 @@ Hw-T4;bus;;Harsewinkel;Breslauer Straße;Transdev Ostwestfalen GmbH
 333;bus;;Bad Seebruch;Hohenhausen;go.on Gesellschaft für Bus- und Schienenverkehr mbH
 334;bus;;Vlotho;Langenholzhausen;go.on Gesellschaft für Bus- und Schienenverkehr mbH
 352;bus;;Milse;Herford;moBiel GmbH
-353;bus;;Schildesche;Eilshausen;BVO Busverkehr Ostwestfalen GmbH
+353;bus;;Schildesche;Eilshausen;moBiel GmbH
 408;bus;;Minden;Holzhausen;BVO Busverkehr Ostwestfalen GmbH
 414;bus;;Minden|Lerbeck;Hausberge|Barkhausen;BVO Busverkehr Ostwestfalen GmbH
 416;bus;;;;BVO Busverkehr Ostwestfalen GmbH

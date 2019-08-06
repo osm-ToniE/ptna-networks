@@ -273,18 +273,20 @@
 307;bus;OL Stadt;Drielake;ZOB;VWG
 308;bus;OL Stadt;BBS Wechloy;ZOB;VWG
 310;bus;OL Stadt;Wehnen/Famila;ZOB;VWG
-311;bus;OL Stadt;Kreyenbrück;ZOB;
+311;bus;OL Stadt;Kreyenbrück;ZOB;VWG
 313;bus;OL Stadt;BBS Wechloy;Ohmstede;VWG
 314;bus;OL Stadt;Wardenburg/Hundsmühlen/Kanalbrücke;Rennplatz/Ostring;VWG
 315;bus;OL Stadt;Hatterwüsting;ZOB;VWG
 316;bus;OL Stadt;Kloster Blankenburg;ZOB;VWG
 317;bus;OL Stadt;Ikea;ZOB;VWG
-318;bus;OL Stadt;Eversten-West;ZOB;
-321;bus;OL Stadt;Kreyenbrück;ZOB;
+318;bus;OL Stadt;Eversten-West;ZOB;VWG
+320;bus;OL Stadt;Wardenburg;ZOB;VWG
+321;bus;OL Stadt;Kreyenbrück;ZOB;VWG
 322;bus;OL Stadt;Thomasburg;ZOB;VWG
-323;bus;OL Stadt;Krusenbusch;Ohmstede/Wahnbek;
+323;bus;OL Stadt;Krusenbusch;Ohmstede/Wahnbek;VWG
 324;bus;OL Stadt;Infanterieweg;Patentbusch;VWG
-329;bus;OL Stadt;Petersfehn/Wildenloh/Eschenplatz;Am Alexander-haus/Heidkamp/Ofenerfeld;
+325;bus;OL Stadt;Hatterwüsting;ZOB;VWG
+329;bus;OL Stadt;Petersfehn/Wildenloh/Eschenplatz;Am Alexander-haus/Heidkamp/Ofenerfeld;VWG
 330;bus;AM Ost;Oldenburg;Conneforde;Hanekamp
 331;bus;AM Ost;Conneforde;Wiefelstede;Hanekamp
 332;bus;AM Ost;Wiefelsteder Moor;Wiefelstede;Hanekamp

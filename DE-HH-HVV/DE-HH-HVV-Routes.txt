@@ -74,8 +74,8 @@ RB82;train;;;;NBE Nordbahn Eisenbahngesellschaft mbh & Co. KG
 == RE-Eisenbahn
 RE1;train;;;;DB Regio AG
 RE3;train;;;;Metronom Eisenbahngesellschaft mbH
-RE4;train;;;;Metronom Eisenbahngesellschaft
-RE5;train;;;;Metronom Eisenbahngesellschaft
+RE4;train;;;;Metronom Eisenbahngesellschaft mbH
+RE5;train;;;;Verkehrsgesellschaft Start Unterelbe mbH
 RE6;train;;;;DB Regio AG
 RE7;train;;;;DB Regio AG
 RE70;train;;;;DB Regio AG
@@ -101,12 +101,12 @@ U3;subway;;;;Hamburger Hochbahn AG
 U4;subway;;;;Hamburger Hochbahn AG
 
 == Hafenfähren
-61;ferry;;;;
-62;ferry;;;;
-64;ferry;;;;
-72;ferry;;;;
-73;ferry;;;;
-75;ferry;;;;
+61;ferry;;;;HADAG Seetouristik und Fährdienst AG
+62;ferry;;;;HADAG Seetouristik und Fährdienst AG
+64;ferry;;;;HADAG Seetouristik und Fährdienst AG
+72;ferry;;;;HADAG Seetouristik und Fährdienst AG
+73;ferry;;;;HADAG Seetouristik und Fährdienst AG
+75;ferry;;;;HADAG Seetouristik und Fährdienst AG
 HBEL;ferry;;;;
 
 == MetroBus
