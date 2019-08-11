@@ -6,11 +6,12 @@
 
 PREFIX="DE-HH-HVV"
 
-OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=public_transport][name='Hamburger Verkehrsverbund'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(r.routes););out;"
+OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=public_transport][name='Hamburger Verkehrsverbund'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Hamburger Verkehrsverbund"
 NETWORK_SHORT="HVV"
 
 ANALYSIS_PAGE="Hamburger_Verkehrsverbund/Analyse"
+ANALYSIS_TALK="Talk:Hamburger_Verkehrsverbund/Analyse"
 WIKI_ROUTES_PAGE="Hamburger_Verkehrsverbund/Analyse/DE-HH-HVV-Routes"
 
 ANALYSIS_OPTIONS="--language=de --check-access --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --expect-network-short"

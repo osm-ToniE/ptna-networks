@@ -6,11 +6,12 @@
 
 PREFIX="DE-NI-VEJ"
 
-OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level=6][name~'Wilhelmshaven|Emden|Landkreis Aurich|Landkreis Friesland|Landkreis Leer|Landkreis Wittmund'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(r.routes););out;"
+OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level=6][name~'Wilhelmshaven|Emden|Landkreis Aurich|Landkreis Friesland|Landkreis Leer|Landkreis Wittmund'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Verkehrsverbund Ems-Jade"
 NETWORK_SHORT="VEJ"
 
 ANALYSIS_PAGE="Ems-Jade/Transportation/Analyse"
+ANALYSIS_TALK="Talk:Ems-Jade/Transportation/Analyse"
 WIKI_ROUTES_PAGE="Ems-Jade/Transportation/Analyse/DE-NI-VEJ-Linien"
 
 ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"

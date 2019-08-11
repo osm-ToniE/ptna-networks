@@ -9,7 +9,7 @@ PREFIX="FR-IDF-Peps"
 # avoid downloading same area/data if the data has already been downloaded and is not older than 1 hour (start analysis with: "ptna-networks.sh -fo" to 'f'orce download)
 OVERPASS_REUSE_ID="FR-IDF-Q12753-bus"
 
-OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata=Q12753][type=boundary];(rel(area)[route~'bus'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(r.routes););out;"
+OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata=Q12753][type=boundary];(rel(area)[route~'bus'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG=""
 NETWORK_SHORT="Pep's"
 

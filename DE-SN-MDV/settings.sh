@@ -6,11 +6,12 @@
 
 PREFIX="DE-SN-MDV"
 
-OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=public_transport][name='Mitteldeutscher Verkehrsverbund GmbH'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(r.routes););out;"
+OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=public_transport][name='Mitteldeutscher Verkehrsverbund GmbH'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Mitteldeutscher Verkehrsverbund"
 NETWORK_SHORT="MDV"
 
 ANALYSIS_PAGE="Saxony/Transportation/Mitteldeutscher_Verkehrsverbund/Analyse"
+ANALYSIS_TALK="Talk:Saxony/Transportation/Mitteldeutscher_Verkehrsverbund/Analyse"
 WIKI_ROUTES_PAGE="Saxony/Transportation/Mitteldeutscher_Verkehrsverbund/Analyse/DE-SN-MDV-Linien"
 
 ANALYSIS_OPTIONS="--language=de --max-error=10 --positive-notes --check-access --check-name --check-stop-position --check-sequence --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline"
