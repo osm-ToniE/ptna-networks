@@ -176,10 +176,9 @@
 183;bus;DH Nordwest Bürgerbus;Bassum;Neubruchhausen;Borchers-Reisen Wilmering VGH DHE
 184;bus;DH Nordwest Bürgerbus;Bassum;Groß Bramstedt;Wilmering
 185;bus;DH Nordwest Bürgerbus;Syke Bahnhof;Syke Bahnhof;VGH
-186;bus;DH Nordwest Bürgerbus;Syke Banhof;Syke Banhof;VGH
-187;bus;DH Nordwest Bürgerbus;Syke Banhof;Syke Banhof;VGH
+186;bus;DH Nordwest Bürgerbus;Syke Bahnhof;Syke Bahnhof;VGH
 193;bus;DH Nordwest;Seckenhausen;Melchiorshausen;Weser-Ems-Bus
-194;bus;DH Nordwest;Stuhr;Syke, SZ/Hacheschuke;Weser-Ems-Bus
+194;bus;DH Nordwest;Stuhr;Syke;Weser-Ems-Bus
 
 === Busse 2xx
 201;bus;DEL;Huchting, Roland-Center;Deichhorst, Hilversumer Straße;Delbus
@@ -298,11 +297,11 @@
 338;bus;AM Ost;Wiefelstede;Varel;Hanekamp
 340;bus;AM Ost;Jaderberg;Oldenburg;Hanekamp
 341;bus;AM Ost;Rastede;Bekhausen;Hanekamp
-342C;bus;AM Ost;Rastede;Hankhausen;
-342A;bus;AM Ost;Rastede;Hankhausen;
-342B;bus;AM Ost;Rastede;Barghorn;
+342;bus;AM Ost;Rastede;Hankhausen;
 343;bus;AM Ost;Rastede;Nethen;Hanekamp
 344;bus;AM Ost;Rastede;Südbäke;Hanekamp
+345;bus;AM Ost;Rastede;Barghorn;
+346;bus;AM Ost;Rastede;Hankhausen;
 347;bus;AM Ost Bürgerbus;Rastede;Rastede;Hanekamp
 349;bus;AM Ost;Kleibrok/Rastede;Wiefelstede;
 350;bus;AM West;Oldenburg;Westerstede;Gerdes
@@ -584,7 +583,7 @@ N39;bus;OL Stadt;Lappan;Bümmerstede/Kreyenbrück;VWG
 N40;bus;OL Stadt;Lappan;Ostermburg/Krusenbusch;VWG
 N41;bus;OL Stadt;Oldeburg;Hatterwüsting;
 N61;bus;OHZ West;Hagen;Bremen Hbf;Weser-Ems-Bus
-N62;bus;OHZ Mitte;Osterholz-Scharmbeck;Bremen Hbf;Weser-Ems-Bus
+N62;bus;OHZ Mitte;Osterholz-Scharmbeck;Bremen_Vegesack;Weser-Ems-Bus
 N63;bus;OHZ Ost;Zeven;Lilienthal Falkenberg;BSAG Wolters EVB Dierks Weser-Ems-Bus von Rahden Buschmann
 N67;bus;OHZ Ost;Worpswede;Lilienthal Falkenberg;BSAG Wolters EVB Dierks Weser-Ems-Bus von Rahden Buschmann
 N68;bus;OHZ Mitte;Osterholz-Scharmbeck;Hagen;Weser-Ems-Bus
