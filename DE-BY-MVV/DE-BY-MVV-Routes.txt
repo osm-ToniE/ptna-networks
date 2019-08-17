@@ -241,8 +241,8 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 226;bus;;Sauerlach S;Deisenhofen S R;RVO/Geldhauser
 227;bus;;Ortsbus Oberhaching;;Busservice Watzinger
 229;bus;;Ottobrunn, Phönix Bad;Neuperlach Süd U S;Geldhauser
-230;bus;!Sanierung Heckerbrücke: bis 09.09.2019 nur von West nach Ost befahrbar!;Fischerhäuser;Garching-Forschungszentrum U;VBR GmbH, München
-230V;bus;!Sanierung Heckerbrücke: bis 09.09.2019 nur von West nach Ost befahrbar!;Garching, Untere Straßäcker;Ismaning S;VBR GmbH, München
+230;bus;!Sanierung Heckerbrücke: bis 09.09.2019!;Fischerhäuser;Garching-Forschungszentrum U;VBR GmbH, München
+230V;bus;!Sanierung Heckerbrücke: bis 09.09.2019!;Garching, Untere Straßäcker;Ismaning S;VBR GmbH, München
 231;bus;;Ismaning S;Studentenstadt U;VBR GmbH, München
 231V;bus;;Unterföhring, Siedlerstraße;Ismaning S;VBR GmbH, München
 232;bus;;Unterföhring, Fichtenstraße;St. Emmeram;Hadersdorfer/Scharf
@@ -299,10 +299,12 @@ N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzing
 375;bus;;Endlhausen;Wolfratshausen S;Geldhauser/RVO
 376;bus;;Bad Heilbrunn;Wolfratshausen S;Regionalverkehr Obb.
 377;bus;;Bad Tölz;Wolfratshausen S;Regionalverkehr Obb.
+377V;bus;;Egling;Geretsried;Regionalverkehr Obb.
 378;bus;;Geretsried, Stein;Wolfratshausen S;Regionalverkehr Obb.
 379;bus;;Bad Tölz;Wolfratshausen S;Regionalverkehr Obb.
 379V;bus;;Bad Tölz;Wolfratshausen S;Regionalverkehr Obb.
 381;bus;;Deisenhofen S;Geretsried, Schulzentrum;Geldhauser/RVO
+381V;bus;;Dietramszell;Geretsried, Schulzentrum;Geldhauser/RVO
 #
 ==== Landkreis Ebersberg - 400 - 499
 411;bus;;Antholing;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
@@ -313,6 +315,7 @@ N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzing
 444;bus;;Grafing Bf S R;Schalldorf;Verkehrsbetrieb Ettenhuber GmbH
 445;bus;;Ebersberg S R;Erding S;Larcher, Markt Schwaben
 446;bus;;Markt Schwaben S R;Ebersberg S R;Larcher, Markt Schwaben
+446V;bus;;Markt Schwaben;Niederried;Larcher Touristik GmbH
 447;bus;;Aßling, Rathaus;Grafing Bahnhof S R;Omnibusverkehr Reisberger GmbH
 451;bus;;Vaterstetten S;Vaterstetten S;Larcher, Markt Schwaben
 452;bus;;Vaterstetten S;Grub S Süd;Larcher, Markt Schwaben
@@ -321,26 +324,37 @@ N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzing
 461;bus;;Poing S Süd;Obelfing;Larcher, Markt Schwaben
 462;bus;Ortsverkehr Poing;Poing S Süd;Poing S Süd;Larcher, Markt Schwaben
 463;bus;;Markt Schwaben S R;Markt Schwaben S R;Regionalverkehr Obb., Erding
+463V;bus;Poing, Margeritenstraße;Pliening, Herdweg;Regionalverkehr Obb., Erding
 464;bus;Ortsverkehr Poing;Poing S Nord;Poing S Nord/Süd;Larcher, Markt Schwaben
 465;bus;;Poing, Mitterfeldring / Poing Süd;Baldham S Nord/Realschule;Larcher, Markt Schwaben
+465V;bus;;Baldham, Realschule;Poing;Larcher Touristik GmbH
 466;bus;;Poing S Süd;Baldham S;Larcher, Markt Schwaben
+466V;bus;;Baldham Nord;Parsdorf, Dorfplatz;Larcher Touristik GmbH
 469;bus;;Hohenlinden;Markt Schwaben S R;Larcher, Markt Schwaben
+469V;bus;;Markt Schwaben;Aitersteinering / Preisendorf;Larcher Touristik GmbH
 #
 ==== Landkreis Erding - 500 - 599
 501;bus;;Gammelsdorf;Erding, Klinikum Süd/Gymnasium;RVO/DB Regio Bus Bayern GmbH, Erding
+501V;bus;;Gammelsdorf;Erding;RVO/DB Regio Bus Bayern GmbH
 5010;bus;Ruftaxi;Langenpreising, Schule;Erding S;Taxi Rainer
 502;bus;;Erding, Korbinian-Aigner-Gymnasium;Wartenberg;Regionalverkehr Obb., Erding
+502V;bus;;Mitterlern;Erding, K.-Aigner-Gymnasium;Regionalverkehr Obb.
 5020;bus;Ruftaxi;Wartenberg;Erding S;Taxi Rainer
 505;bus;;Mittbach;Markt Schwaben S R;Regionalverkehr Obb., Erding
+505V;bus;;Pastetten, Karlsdorfer Str.;Markt Schwaben, Schule;Larcher Touristik GmbH
 5050;bus;Ruftaxi;Isen;Markt Schwaben S R;Taxi Köhler
 507;bus;;Markt Schwaben S R;Erding S;Regionalverkehr Obb., Erding
 511;bus;;Erding S;Berufsschule;Regionalverkehr Obb., Erding
+511V;bus;;Erding;Freising;Regionalverkehr Obb.
 512;bus;;Erding S;Flughafen München MAC/Terminal 1 S;Scharf, Thalheim
+512V;bus;;Oberding;Erding;Scharf OHG Omnibus & Reisebüro,
 515;bus;;Hallbergmoos S;Erding S;Bayernbus GmbH
 520;bus;Stadtverkehr Erding;Erding S;Erding S;Scharf, Thalheim
 530;bus;Stadtverkehr Erding;Erding S;Erding S;Scharf, Thalheim
 531;bus;;Erding S;Ismaning S;DB Regio Bus Bayern GmbH/RVO
+531V;bus;;Oberding / Erding, H.-T.-Realschule;Eichenried;DB Regio Bus Bayern GmbH/RVO
 540;bus;Stadtverkehr Erding;Erding S;Erding S;Scharf, Thalheim
+540V;bus;;Erding, Brauerstr.;Erding, Berufsschule;Scharf OHG Omnibus & Reisebüro
 5403;bus;Ruftaxi;Dorfen Bahnhof R;Taufkirchen (Vils) Busbahnhof;Taxi Köhler
 550;bus;Stadtverkehr Erding;Erding S;Erding S;Scharf, Thalheim
 560;bus;Stadtverkehr Erding;Erding S;Erding S;Scharf, Thalheim
@@ -348,10 +362,13 @@ N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzing
 562;bus;;Taufkirchen (Vils);Berufsschule/Klinikum;Bayernbus GmbH
 5621;bus;Ruftaxi;Taufkirchen (Vils);Taufkirchen (Vils);Kistler Bustouristik GmbH, Dorfen
 564;bus;!Änderung ab 09.12.2018: Neue Haltestelle Waxeneck!;Grüntegernbach;Erding, Klinikum Süd/Berufsschule;Bayernbus GmbH
+564V;bus;;Dorfen - Mauggen - Erding, Klinikum Süd/Lodererpl.;Bayernbus GmbH
 565;bus;!Änderung ab 09.12.2018: Anpassungen der Fahrstrecke beider Richtungen zw. Dorfen, Bahnhof und Kirchasch! Rufbus;Dorfen, Bahnhof R;Erding S;Bayernbus GmbH
 567;bus;!Änderung ab 09.12.2018: Neue Haltestelle in Wimpasing!;Dorfen;Berufsschule;Bayernbus GmbH
+567V;bus;;Erding, Klinikum Süd;Isen, Rathaus;Bayernbus GmbH
 5670;bus;Ruftaxi;Walpertskirchen;Erding S;Taxiservice Pawelczyk
 568;bus;;Markt Schwaben S R;Erding S;Regionalverkehr Obb., Erding
+568V;bus;;Markt Schwaben, Witttelsb. Weg;Erding, Klinikum Nord;Larcher Touristik GmbH
 5680;bus;Ruftaxi;Markt Schwaben S R;Erding S;Taxi Köhler
 569;bus;;Gaden;Erding, Herzog-Tassilo-Realschule;Regionalverkehr Obb., Erding
 570;bus;Stadtverkehr Erding;Erding S;Erding S;Scharf, Thalheim
@@ -369,13 +386,18 @@ N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzing
 619;bus;;Petershausen S R;Freising S R;Boos
 620;bus;Stadtverkehr Freising;Freising S R;Freising S R;PVG
 621;bus;Stadtverkehr Freising;Freising S R;Freising S R;PVG
+621V;bus;;Freising;Freising;PVG
 622;bus;Stadtverkehr Freising;Freising S R;Freising S R;PVG
+622V;bus;;Freising;Freising;PVG
 623;bus;Stadtverkehr Freising;Freising P+R-Platz;Freising P+R-Platz;PVG
+623V;bus;;Freising;Freising;PVG
 624;bus;Stadtverkehr Freising;Freising P+R-Platz;Freising P+R-Platz;PVG
 630;bus;Stadtverkehr Freising;Freising S R;Freising S R;PVG
 631;bus;Stadtverkehr Freising;Freising S R;Freising S R;PVG
 633;bus;Stadtverkehr Freising;Gutenbergstraße;Marzling;PVG
+633V;bus;;Freising;Marzling;PVG
 634;bus;Stadtverkehr Freising;Freising P+R-Platz;Attaching;PVG
+634V;bus;;Freising;ataching;PVG
 635;bus;;Freising S R;Flughafen Terminal 2;Regionalverkehr Obb., Erding
 637;bus;Stadtverkehr Freising;Freising S R;Hohenbachern;PVG
 638;bus;Stadtverkehr Freising;Freising S R;Hittostraße / Fraunhofer-Institut;PVG

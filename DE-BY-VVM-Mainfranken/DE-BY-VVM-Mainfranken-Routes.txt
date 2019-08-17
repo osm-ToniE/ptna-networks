@@ -52,4 +52,19 @@
 - Dieses ist eine IST-Analyse und spiegelt den Status der in OSM gemappten Linien im Gebiet des "Verkehrsunternehmens-Verbund Mainfranken" wider.
 -
 
+== Straßenbahn (Tram) 
+# Linien 1 bis 5
+
+== Bus
+=== Stadt-Bus (Würzburg)
+# Linien 6 bis 35 + 114  + 214
+
+=== Regionalbus (Verbundlandkreise)
+==== Landkreis Würzburg - 48 - 977
+430;bus;;Würzburg Busbahnhof;Kürnach;
+
+
+==== Landkreis Mainspessart
+
+==== Landkreis Kitzingen
 </pre>

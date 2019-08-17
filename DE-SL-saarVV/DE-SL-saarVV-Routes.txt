@@ -145,6 +145,10 @@ N7;bus;;St.Wendel ZOB;Wadern ZOB;
 173;bus;;Sulzbach Wendeschleife;Göttelborn Friedhof;
 175;bus;;Hüttigweiler Apotheke;Saarbrücken Hauptbahnhof;Aloys Baron GmbH
 
+=== International
+- Die z.T. im Saarland verkehrenden RGTR 155, RGTR 156, RGTR 158 und RGTR 159 sind nicht in den saarVV eingegliedert, sondern werden durch [https://ptna.openstreetmap.de/results/LU/LU-All-Analysis.html#A2.2 Luxemburg im RGTR-Netz] betrieben.
+- Die z.T. im Saarland verkehrende L40 ("Luxembourg-Saarbrücken-Expres") ist nicht in den saarVV eingegliedert, sondern wird durch die [https://ptna.openstreetmap.de/results/LU/LU-All-Analysis.html#A2.2 luxemburgische CFL] betrieben.
+
 == Zug
 === RegionalBahn (RB)
 RB68;train;;Saarbrücken;Pirmasens;DB Regio Südwest
@@ -157,12 +161,12 @@ RB76;train;;Saarbrücken;Homburg(Saar);DB Regio Südwest
 RB77;train;;Niedaltdorf;Dillingen(Saar);DB Regio Südwest
 RB82;train;;Perl;Wittlich Hbf;DB Regio Mitte
 
-=== RegionalExpress(RE)
+=== RegionalExpress (RE)
 RE1;train;;Koblenz;Mannheim;DB Regio Mitte
 RE3;train;;Saarbrücken;Mainz;vlexx GmbH
 RE14;train;;Saarbrücken;Metz;
 RE16;train;;Trier;Metz Ville;DB Regio Südwest
 
 === S-Bahn
-- Die z.T. im Saarland verkehrende S1 ist nicht in den saarVV eingegliedert.
+- Die z.T. im Saarland verkehrende S1 ist nicht in den saarVV eingegliedert, sondern gehört zum Verkehrsverbund [https://ptna.openstreetmap.de/results/DE/RP/DE-RP-VRN-Analysis.html#A2.2 VRN].
 </pre>

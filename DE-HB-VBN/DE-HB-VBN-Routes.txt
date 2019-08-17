@@ -308,6 +308,7 @@
 S35;bus;AM West;Westerstede;Oldenburg;Gerdes
 351;bus;AM West;Westerstede;Westerstede;Gerdes
 353;bus;AM West;Halsbek;Westerstede;Gerdes
+354;bus;AM West;Westerstede;Veenhusen;Gerdes
 355;bus;AM West;Garnholterdamm;Westerstede;Gerdes
 356;bus;AM West;Barßel;Rostrup;Gerdes
 357;bus;AM West;Ocholt;Westerstede;Gerdes

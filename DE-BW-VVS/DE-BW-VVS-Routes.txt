@@ -87,14 +87,13 @@ R 11;train;Schusterbahn;Kornwestheim;Untertürkheim;
 #
 #
 == Bus
-=== Expressbus
-X10;bus;;Flughafen/Messe;Kirchheim (T);
-X20;bus;;Esslingen;Waiblingen;
-X60;bus;;Flughafen/Messe;Leonberg;
-#
 === Schnellbus
 X1;bus;;Hauptbahnhof;Bad Cannstatt Wilhelmsplatz;
 X2;bus;;Leonberg;Rotebühlplatz;
+X10;bus;;Flughafen/Messe;Kirchheim (T);
+X20;bus;;Esslingen;Waiblingen;
+X46;bus;;Beilstein;Marbach (N);
+X60;bus;;Flughafen/Messe;Leonberg;
 X74;bus;;Weil der Stadt;Universität;
 #
 === Bus 1 .. 99

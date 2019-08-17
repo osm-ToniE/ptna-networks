@@ -89,7 +89,7 @@
 32;bus;;Schwäbisch Hall;Waldenburg;Röhler
 40NVH;bus;;Neuwirtshaus;Öhringen;NVH
 40;bus;;CityFlitzer Stadtgebiet Gaildorf;Hofmann
-41;bus;;Gaildorf;Schwäbisch Gmünd;FahrBus Ostalb
+41;bus;Fährt als Bus 63 des Fahrbus Ostalb;Gaildorf;Schwäbisch Gmünd;FahrBus Ostalb
 43;bus;;Gaildorf;Gaildorf (Nordring);Hofmann
 44;bus;;Gaildorf;Gaildorf (Südring);Hofmann
 45;bus;;Gaildorf;Untergröningen;Stadtbus SHA
@@ -116,7 +116,8 @@
 62B;bus;;Honhardt;Steinbach;Müller
 62C;bus;;Honhardt;Gründelhardt;Müller
 62D;bus;;Crailsheim;Crailsheim;Müller
-63;bus;;Ringverkehr Crailsheim;Crailsheim;Müller
+63;bus;;Ringverkehr Crailsheim;Crailsheim;FMO Müller
+63;bus;Fahrplanbuch 41 des Kreisverkehr Schwäbisch Hall;Gaildorf;Schwäbisch Gmünd;Fahrbus Ostalb
 64;bus;;Crailsheim;Lendsiedel;Röhler
 65;bus;;Crailsheim;Schrozberg;Röhler
 66;bus;;Crailsheim;Gerabronn;Röhler

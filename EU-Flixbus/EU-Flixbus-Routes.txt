@@ -362,7 +362,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 512;bus;;Florenz;Rom;FlixMobility GmbH
 513;bus;;Sanremo;Siena;FlixMobility GmbH
 514;bus;Saisonbus Juni bis September;Varese;Sanremo;FlixMobility GmbH
-515;bus;Seit 16.09.2018 nicht mehr buchbar, wurde eingestellt.;Turin;Viareggio;FlixMobility GmbH
+515;bus;Saisonbus Juni bis September;Turin;Viareggio;FlixMobility GmbH
 516;bus;;Turin;Siena;FlixMobility GmbH
 518;bus;;Mailand;Neapel;FlixMobility GmbH
 519;bus;;Aosta;Rom;FlixMobility GmbH
@@ -427,6 +427,8 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 622;bus;;Thisted;Kopenhagen;FlixMobility GmbH
 623;bus;Seit 31.03.2018 nicht mehr buchbar, wurde eingestellt.;Fredericia;Fjerritslev;FlixMobility GmbH
 625;bus;;Esbjerg;Fredericia;FlixMobility GmbH
+626;bus;;Kopenhagen Flughafen;Billund Flughafen;FlixMobility GmbH
+627;bus;;Kopenhagen;Sønderborg;FlixMobility GmbH
 627A;bus;Seit 02.04.2018 nicht mehr buchbar, wurde eingestellt.;Sønderborg;Kopenhagen;FlixMobility GmbH
 628;bus;;Rudkøbing;Kopenhagen;FlixMobility GmbH
 629;bus;seit 05.11.2018 nicht mehr buchbar, wurde eingestellt;Berlin;Aarhus;FlixMobility GmbH
@@ -434,6 +436,9 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 631A;bus;Seit 02.04.2018 nicht mehr buchbar, wurde eingestellt.;Holstebro;Kopenhagen;FlixMobility GmbH
 632;bus;;Viborg;Kopenhagen;FlixMobility GmbH
 632A;bus;Seit 31.08.2018 nicht mehr buchbar, wurde eingestellt.;Kopnhagen;Viborg;FlixMobility GmbH
+633;bus;Kopenhagen;Horsens;FlixMobility GmbH
+641;bus;;Vordingborg;Kopenhagen Flughafen;FlixMobility GmbH
+
 
 
 == 7xx-Linien (Überwiegend Frankreich/Iberische Halbinsel + Nachbarländer)
@@ -495,6 +500,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 766;bus;;Annecy;Lyon;FlixMobility GmbH
 767;bus;;Saint-Étienne;Paris;FlixMobility GmbH
 768;bus;;Nizza;Toulouse;FlixMobility GmbH
+769;bus;;Lyon;Marseille;FlixMobility GmbH
 770;bus;;Straßburg;Tourcoing;FlixMobility GmbH
 771;bus;;Tübingen;Nancy;FlixMobility GmbH
 772;bus;;Paris;Dinard;FlixMobility GmbH
@@ -555,6 +561,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 861;bus;;Prag;Venedig;FlixMobility GmbH
 864;bus;;München;Zlín;FlixMobility GmbH
 895;bus;;Zagreb;Brünn;FlixMobility GmbH
+897;bus;;Zagreb;Varaždin;FlixMobility GmbH
 
 
 == 9xx-Linien (Gebiet Slowenien, Kroatien, Slowakei, Ungarn westl. Rumänien etwa)
@@ -1044,6 +1051,8 @@ N600;bus;;Oslo;Stockholm;FlixMobility GmbH
 N601;bus;;Göteborg;Uppsala;FlixMobility GmbH
 N602;bus;;Kopenhagen;Uppsala;FlixMobility GmbH
 N612;bus;;Kopenhagen;Uppsala;FlixMobility GmbH
+N613;bus;;Oslo;Hamburg;FlixMobility GmbH
+N621;bus;;Kopenhagen;Aalborg;FlixMobility GmbH
 N630;bus;Ab 06.11.2018 nicht mehr buchbar, wird eingestellt.;Amsterdam;Aarhus;FlixMobility GmbH
 
 N700;bus;;Paris;London;FlixMobility GmbH;;
@@ -1067,6 +1076,7 @@ N727;bus;;Paris;Tarragona;FlixMobility GmbH
 N728;bus;;München;Barcelona;FlixMobility GmbH
 N729;bus;;Mailand/Venedig;Paris;FlixMobility GmbH
 N730;bus;;Düsseldorf;Marseille;FlixMobility GmbH
+N739;bus;;Genf;Genua;FlixMobility GmbH
 N740;bus;;Venedig;Barcelona;FlixMobility GmbH
 N744;bus;;Grenoble;Saint-Malo;FlixMobility GmbH
 N749;bus;;Tremblay-en-France;Toulon;FlixMobility GmbH
@@ -1180,6 +1190,7 @@ N1529;bus;;Mailand;Paris;FlixMobility GmbH
 N1580;bus;;Como Lago;Mangone;FlixMobility GmbH
 N1581;bus;;Triest;Trebisacce;FlixMobility GmbH
 N1583;bus;;Turin;Botricello;FlixMobility GmbH
+N1585;bus;;Nizza;Mangone;FlixMobility GmbH
 N1586;bus;;Bozen;Mangone;FlixMobility GmbH
 N1590;bus;;Turin;Mangone;FlixMobility GmbH
 N1594;bus;;Reggio Calabria;Siena;FlixMobility GmbH
