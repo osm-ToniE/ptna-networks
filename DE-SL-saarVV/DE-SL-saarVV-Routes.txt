@@ -44,6 +44,7 @@
 = Überblick über die ÖPNV-Linien des "Saarländischer Verkehrsverbund"
 
 - Verweis auf die Datei mit den [[saarVV/Analyse/DE-SL-saarVV-Routes|saarVV Linien]] im Wiki.
+-
 - Verweis auf mehr [[Talk:saarVV/Analyse|Informationen]] im Wiki.
 
 == Hinweis
@@ -147,7 +148,11 @@ N7;bus;;St.Wendel ZOB;Wadern ZOB;
 
 === International
 - Die z.T. im Saarland verkehrenden RGTR 155, RGTR 156, RGTR 158 und RGTR 159 sind nicht in den saarVV eingegliedert, sondern werden durch [https://ptna.openstreetmap.de/results/LU/LU-All-Analysis.html#A2.2 Luxemburg im RGTR-Netz] betrieben.
+-
 - Die z.T. im Saarland verkehrende L40 ("Luxembourg-Saarbrücken-Expres") ist nicht in den saarVV eingegliedert, sondern wird durch die [https://ptna.openstreetmap.de/results/LU/LU-All-Analysis.html#A2.2 luxemburgische CFL] betrieben.
+
+30;bus;;Hauptbahnhof Saarbrücken;Forbach Bahnhof;Saarbahn GmbH
+MS;bus;;Saarbrücken;Hombourg-Haut;Aloys Baron GmbH
 
 == Zug
 === RegionalBahn (RB)

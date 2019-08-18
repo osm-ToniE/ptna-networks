@@ -241,8 +241,8 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 226;bus;;Sauerlach S;Deisenhofen S R;RVO/Geldhauser
 227;bus;;Ortsbus Oberhaching;;Busservice Watzinger
 229;bus;;Ottobrunn, Phönix Bad;Neuperlach Süd U S;Geldhauser
-230;bus;!Sanierung Heckerbrücke: bis 09.09.2019!;Fischerhäuser;Garching-Forschungszentrum U;VBR GmbH, München
-230V;bus;!Sanierung Heckerbrücke: bis 09.09.2019!;Garching, Untere Straßäcker;Ismaning S;VBR GmbH, München
+230;bus;;Fischerhäuser;Garching-Forschungszentrum U;VBR GmbH, München
+230V;bus;;Garching, Untere Straßäcker;Ismaning S;VBR GmbH, München
 231;bus;;Ismaning S;Studentenstadt U;VBR GmbH, München
 231V;bus;;Unterföhring, Siedlerstraße;Ismaning S;VBR GmbH, München
 232;bus;;Unterföhring, Fichtenstraße;St. Emmeram;Hadersdorfer/Scharf
