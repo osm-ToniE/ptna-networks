@@ -147,9 +147,9 @@ N7;bus;;St.Wendel ZOB;Wadern ZOB;
 175;bus;;Hüttigweiler Apotheke;Saarbrücken Hauptbahnhof;Aloys Baron GmbH
 
 === International
-- Die z.T. im Saarland verkehrenden RGTR 155, RGTR 156, RGTR 158 und RGTR 159 sind nicht in den saarVV eingegliedert, sondern werden durch [https://ptna.openstreetmap.de/results/LU/LU-All-Analysis.html#A2.2 Luxemburg im RGTR-Netz] betrieben.
+- Die z.T. im Saarland verkehrenden [https://ptna.openstreetmap.de/results/LU/LU-All-Analysis.html#bus_155 RGTR 155], [https://ptna.openstreetmap.de/results/LU/LU-All-Analysis.html#bus_156 RGTR 156], [https://ptna.openstreetmap.de/results/LU/LU-All-Analysis.html#bus_158 RGTR 158] und [https://ptna.openstreetmap.de/results/LU/LU-All-Analysis.html#bus_159 RGTR 159] sind nicht in den saarVV eingegliedert, sondern werden durch Luxemburg im RGTR-Netz betrieben.
 -
-- Die z.T. im Saarland verkehrende L40 ("Luxembourg-Saarbrücken-Expres") ist nicht in den saarVV eingegliedert, sondern wird durch die [https://ptna.openstreetmap.de/results/LU/LU-All-Analysis.html#A2.2 luxemburgische CFL] betrieben.
+- Die z.T. im Saarland verkehrende L40 ("Luxembourg-Saarbrücken-Expres") ist nicht in den saarVV eingegliedert, sondern wird durch die [https://ptna.openstreetmap.de/results/LU/LU-All-Analysis.html#A3.3 luxemburgische CFL] betrieben.
 
 30;bus;;Hauptbahnhof Saarbrücken;Forbach Bahnhof;Saarbahn GmbH
 MS;bus;;Saarbrücken;Hombourg-Haut;Aloys Baron GmbH
@@ -173,5 +173,5 @@ RE14;train;;Saarbrücken;Metz;
 RE16;train;;Trier;Metz Ville;DB Regio Südwest
 
 === S-Bahn
-- Die z.T. im Saarland verkehrende S1 ist nicht in den saarVV eingegliedert, sondern gehört zum Verkehrsverbund [https://ptna.openstreetmap.de/results/DE/RP/DE-RP-VRN-Analysis.html#A2.2 VRN].
+- Die z.T. im Saarland verkehrende [https://ptna.openstreetmap.de/results/DE/RP/DE-RP-VRN-Analysis.html#train_S1 S1] ist nicht in den saarVV eingegliedert, sondern gehört zum Verkehrsverbund VRN.
 </pre>

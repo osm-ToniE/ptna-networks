@@ -336,13 +336,10 @@ N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzing
 ==== Landkreis Erding - 500 - 599
 501;bus;;Gammelsdorf;Erding, Klinikum Süd/Gymnasium;RVO/DB Regio Bus Bayern GmbH, Erding
 501V;bus;;Gammelsdorf;Erding;RVO/DB Regio Bus Bayern GmbH
-5010;bus;Ruftaxi;Langenpreising, Schule;Erding S;Taxi Rainer
 502;bus;;Erding, Korbinian-Aigner-Gymnasium;Wartenberg;Regionalverkehr Obb., Erding
 502V;bus;;Mitterlern;Erding, K.-Aigner-Gymnasium;Regionalverkehr Obb.
-5020;bus;Ruftaxi;Wartenberg;Erding S;Taxi Rainer
 505;bus;;Mittbach;Markt Schwaben S R;Regionalverkehr Obb., Erding
 505V;bus;;Pastetten, Karlsdorfer Str.;Markt Schwaben, Schule;Larcher Touristik GmbH
-5050;bus;Ruftaxi;Isen;Markt Schwaben S R;Taxi Köhler
 507;bus;;Markt Schwaben S R;Erding S;Regionalverkehr Obb., Erding
 511;bus;;Erding S;Berufsschule;Regionalverkehr Obb., Erding
 511V;bus;;Erding;Freising;Regionalverkehr Obb.
@@ -360,19 +357,22 @@ N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzing
 560;bus;Stadtverkehr Erding;Erding S;Erding S;Scharf, Thalheim
 561;bus;Rufbus;Wartenberg;Erding S;Scharf, Thalheim
 562;bus;;Taufkirchen (Vils);Berufsschule/Klinikum;Bayernbus GmbH
-5621;bus;Ruftaxi;Taufkirchen (Vils);Taufkirchen (Vils);Kistler Bustouristik GmbH, Dorfen
 564;bus;!Änderung ab 09.12.2018: Neue Haltestelle Waxeneck!;Grüntegernbach;Erding, Klinikum Süd/Berufsschule;Bayernbus GmbH
 564V;bus;;Dorfen - Mauggen - Erding, Klinikum Süd/Lodererpl.;Bayernbus GmbH
 565;bus;!Änderung ab 09.12.2018: Anpassungen der Fahrstrecke beider Richtungen zw. Dorfen, Bahnhof und Kirchasch! Rufbus;Dorfen, Bahnhof R;Erding S;Bayernbus GmbH
 567;bus;!Änderung ab 09.12.2018: Neue Haltestelle in Wimpasing!;Dorfen;Berufsschule;Bayernbus GmbH
 567V;bus;;Erding, Klinikum Süd;Isen, Rathaus;Bayernbus GmbH
-5670;bus;Ruftaxi;Walpertskirchen;Erding S;Taxiservice Pawelczyk
 568;bus;;Markt Schwaben S R;Erding S;Regionalverkehr Obb., Erding
 568V;bus;;Markt Schwaben, Witttelsb. Weg;Erding, Klinikum Nord;Larcher Touristik GmbH
-5680;bus;Ruftaxi;Markt Schwaben S R;Erding S;Taxi Köhler
 569;bus;;Gaden;Erding, Herzog-Tassilo-Realschule;Regionalverkehr Obb., Erding
 570;bus;Stadtverkehr Erding;Erding S;Erding S;Scharf, Thalheim
 580;bus;Stadtverkehr Erding;Eichenkofen, Ort;Therme Erding;Scharf, Thalheim
+5010;bus;Ruftaxi;Langenpreising, Schule;Erding S;Taxi Rainer
+5020;bus;Ruftaxi;Wartenberg;Erding S;Taxi Rainer
+5050;bus;Ruftaxi;Isen;Markt Schwaben S R;Taxi Köhler
+5621;bus;Ruftaxi;Taufkirchen (Vils);Taufkirchen (Vils);Kistler Bustouristik GmbH, Dorfen
+5670;bus;Ruftaxi;Walpertskirchen;Erding S;Taxiservice Pawelczyk
+5680;bus;Ruftaxi;Markt Schwaben S R;Erding S;Taxi Köhler
 #
 ==== Landkreis Freising - 600 - 699
 601;bus;;Schweitenkirchen;Freising S R;Stanglmeier
@@ -404,8 +404,9 @@ N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzing
 639;bus;Stadtverkehr Freising;Freising S R;Freising S R;PVG
 640;bus;Stadtverkehr Freising;Freising S R;Freising S R;PVG
 641;bus;Stadtverkehr Freising;Freising S R;Freising S R;PVG
+650;bus;Stadtverkehr Freising;Freising S R;Freising S R;PVG
+651;bus;Stadtverkehr Freising;Freising S R;Freising S R;PVG
 680;bus;;Thann;Moosburg;RVO/DRB/Bayernbus
-6800;bus;Ruftaxi;Palzing;Sixthaselbach;Bayernbus/HOV Hadersdorfer Omnibus
 681;bus;;Au;Moosburg;RVO/DRB/Bayernbus
 682;bus;;Leitersdorf;Moosburg;RVO/DRB/Bayernbus
 683/51;bus;;(Mainburg-);Moosburg;RVO/DRB/Bayernbus
@@ -417,6 +418,11 @@ N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzing
 693;bus;;Kammerberg;Lohhof S / Lohhof, Schulzentrum;RVO/Boos
 695;bus;;Kirchdorf;Garching-Hochbrück U;Boos
 698;bus;;Hallbergmoos S;Hallbergmoos S;Hagl
+6001;bus;Ruftaxi;Freising, Bahnhof;Haindlfing;Freisinger Parkhaus und Verkehrs-GmbH
+6002;bus;Ruftaxi;Freising, Bahnhof;Sünzhausen;Freisinger Parkhaus und Verkehrs-GmbH
+6003;bus;Ruftaxi;Freising, Bahnhof;Achering;Freisinger Parkhaus und Verkehrs-GmbH
+6004;bus;Ruftaxi;Freising, Bahnhof;Altenhausen/Zellhausen;Freisinger Parkhaus und Verkehrs-GmbH
+6800;bus;Ruftaxi;Palzing;Sixthaselbach;Bayernbus/HOV Hadersdorfer Omnibus
 #
 ==== Landkreis Dachau - 700 - 799
 701;bus;;Karlsfeld, Schwarzhölzlstraße;Karlsfeld;Busverkehr Südbayern
@@ -442,19 +448,19 @@ N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzing
 725;bus;;Fahrenzhausen;München, Karlsfelder Straße;Geldhauser
 726;bus;Stadtverkehr Dachau;Saubachsiedlung;Dachau S R;Stadtwerke Dachau
 727;bus;;Hebertshausen;Sigmertshausen;Geldhauser
-7270;bus;Ruftaxi;Hebertshausen S;Hebershausen S;Simperl
 728;bus;;Sigmertshausen;Obermarbach;Wintermayr GmbH
-7280;bus;Ruftaxi;Vierkirchen-Esterhofen S;Petershausen S R;Simperl
 729;bus;;Vierkirchen-Esterhofen S;Markt Indersdorf S;Huber
 732;bus;;Gaggers/Pfaffenhofen;Pasing S R;Geldhauser
-7320;bus;Ruftaxi;Unterumbach;Odelzhausen;Huber
-7321;bus;Ruftaxi;Maisach S;Maisach S;Zeiler GmbH
 736;bus;;Fürstenfeldbruck S;Dachau, Schulzentrum;Griensteidl
 744;bus;Stadtverkehr Dachau;Dachau, Kräutergarten;Dachau S R;Stadtwerke Dachau
 782;bus;;Randelsried;Markt Indersdorf S;Huber
 785;bus;;Erdweg S;Petershausen, P+R-Platz S R;Wintermayr GmbH
 786;bus;;Weißling;Petershausen, P+R-Platz S R;Wintermayr GmbH
 791;bus;;Gröbenried;Bergkirchen;Schilcher/Steiner
+7270;bus;Ruftaxi;Hebertshausen S;Hebershausen S;Simperl
+7280;bus;Ruftaxi;Vierkirchen-Esterhofen S;Petershausen S R;Simperl
+7320;bus;Ruftaxi;Unterumbach;Odelzhausen;Huber
+7321;bus;Ruftaxi;Maisach S;Maisach S;Zeiler GmbH
 #
 ==== Landkreis Fürstenfeldbruck - 800 - 899
 803;bus;;Inning, Marktplatz;Schöngeising, Bahnhofstraße;;
@@ -571,11 +577,5 @@ BBG;bus;Bürger-Bus Gauting;;;
 ET1;bus;Glonn: Ettenhuber 1;;;Verkehrsbetrieb Ettenhuber GmbH
 LTG;bus;Linien-Taxi Grünwald;;;Gemeinde Grünwald
 #
-== Anruf-Sammel-Taxi (AST) ohne Anerkennung des MVV-Tarifs
-=== Landkreis Freising
-AST 6001;share_taxi;Anruf-Sammel-Taxi;Freising, Bahnhof;Haindlfing;Freisinger Parkhaus und Verkehrs-GmbH
-AST 6002;share_taxi;Anruf-Sammel-Taxi;Freising, Bahnhof;Sünzhausen;Freisinger Parkhaus und Verkehrs-GmbH
-AST 6003;share_taxi;Anruf-Sammel-Taxi;Freising, Bahnhof;Achering;Freisinger Parkhaus und Verkehrs-GmbH
-AST 6004;share_taxi;Anruf-Sammel-Taxi;Freising, Bahnhof;Altenhausen/Zellhausen;Freisinger Parkhaus und Verkehrs-GmbH
-#
+
 </pre>
