@@ -14,10 +14,9 @@ ANALYSIS_PAGE="WikiProject_Luxembourg/Public_Transport/Analysis"
 ANALYSIS_TALK="Talk:WikiProject_Luxembourg/Public_Transport/Analysis"
 WIKI_ROUTES_PAGE="WikiProject_Luxembourg/Public_Transport/Analysis/LU-All-Routes"
 
-ANALYSIS_OPTIONS="--check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --expect-network-short"
+ANALYSIS_OPTIONS="--check-access --check-bus-stop --check-platform --check-roundabouts --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --expect-network-short"
 
 # --language=en
-# --check-bus-stop 
 # --expect-network-long
 # --expect-network-short-for=
 # --expect-network-long-for=
