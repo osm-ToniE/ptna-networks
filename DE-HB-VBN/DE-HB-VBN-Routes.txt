@@ -544,13 +544,14 @@ S35;bus;AM West;Westerstede;Oldenburg;Gerdes
 857;bus;;Eversen;Sottrum;
 863;bus;Bürgerbus;Zeven;Steddorf;
 864;bus;Bürgerbus;Zeven;Nartum;
-880;bus;;Visselhövede;Rotenburg (Wümme);
-880;bus;;Visselhövede;Drögenbostel;
-881;bus;;Visselhövede;Bleckwedel;
-884;bus;;Visselhövede;Wittorf;
-885;bus;;Hastedt;Bothel;
-887;bus;;Westerwalsede;Bothel;
-888;bus;;Söhlingen;Rotenburg;
+880;bus;;Visselhövede;Rotenburg (Wümme);Weser-Ems-Bus
+881;bus;;Visselhövede;Drögenbostel;Weser-Ems-Bus
+884;bus;;Visselhövede;Bleckwedel;Weser-Ems-Bus
+885;bus;;Visselhövede;Wittorf;Weser-Ems-Bus
+886;bus;;Hastedt;Bothel;Weser-Ems-Bus
+887;bus;;Westerwalsede;Bothel;Weser-Ems-Bus
+888;bus;;Söhlingen;Rotenburg;Weser-Ems-Bus
+889;bus;;Visselhövede;Rotenburg (Wümme);Weser-Ems-Bus
 
 === Busse 9xx
 910;bus;;Oldenburg;Friesoythe;Weser-Ems-Bus

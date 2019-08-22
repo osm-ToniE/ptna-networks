@@ -45,13 +45,13 @@
 -
 - Diese Liste ist zunächst eine '''!!!Bestandsaufnahme aller in OSM gefundenen Bahn-Relationen!!!''' unabhängig vom 'network' = Verkehrsverbund
 - 
-- Diese [[WikiProject_Germany/Railway/Route_Network/Analysis/DE-Bahnverkehr-Routes|Liste]] sowie eine [[Talk:WikiProject_Germany/Railway/Route_Network/Analysis|Diskussionsseite]] sind im OSM Wiki hinterlegt.
+- Diese [[Germany/Railway/Route_Network/Analysis/DE-Bahnverkehr-Routes|Liste]] sowie eine [[Talk:Germany/Railway/Route_Network/Analysis|Diskussionsseite]] sind im OSM Wiki hinterlegt.
 -
-- Diese [[WikiProject_Germany/Railway/Route_Network/Analysis/DE-Bahnverkehr-Routes|Liste]] kann von jedem aktualisiert, umsortiert, erweitert und korrigiert werden.
+- Diese [[Germany/Railway/Route_Network/Analysis/DE-Bahnverkehr-Routes|Liste]] kann von jedem aktualisiert, umsortiert, erweitert und korrigiert werden.
 -
 - !!!Bitte bei Änderungen an ''' 'ref' ''', ''' 'from' ''', ''' 'to' ''' oder ''' 'operator' ''' auch in dieser Liste entsprechend anpassen!!! Z.B. bei Änderung: 'ref'='RB7' --> 'ref'='RB 7'
 -
-- Auf Grund der verwendeten [[Talk:WikiProject_Germany/Railway/Route_Network/Analysis#Overpass-API_Abfrage|Overpass-API Abfrage]] zum Sammeln der Daten sind (mehr oder weniger zufällig) auch einige Verkehrsmittel '''Tram''' und '''Bus''' aufgeführt. Dieses ist unter Umständen auf deren Mitgliedschaft in Relationen vom 'type'='network' zurückzuführen: siehe auch [https://ptna.openstreetmap.de/results/DE/DE-Bahnverkehr-Analysis.html#morerelations Weitere Relationen] in dieser Auswertung.
+- Auf Grund der verwendeten [[Talk:Germany/Railway/Route_Network/Analysis#Overpass-API_Abfrage|Overpass-API Abfrage]] zum Sammeln der Daten sind (mehr oder weniger zufällig) auch einige Verkehrsmittel '''Tram''' und '''Bus''' aufgeführt. Dieses ist unter Umständen auf deren Mitgliedschaft in Relationen vom 'type'='network' zurückzuführen: siehe auch [https://ptna.openstreetmap.de/results/DE/DE-Bahnverkehr-Analysis.html#morerelations Weitere Relationen] in dieser Auswertung.
 -
 
 == Fernverkehr
@@ -1214,7 +1214,7 @@ KBS 831–867;train;;;;
 
 - Die hier aufgelisteten Verbindungen haben Start- oder Ziel-Punkte in Deutschland.
 -
-- Auf Grund der verwendeten [[Talk:WikiProject_Germany/Railway/Route_Network/Analysis#Overpass-API_Abfrage|Overpass-API Abfrage]] zum Sammeln der  Daten sind mitunter (eher zufällig) auch Verbindungen innerhalb Frankreichs, ... zu finden (mitunter mit fehlenden Daten für Route-Relationen: "Route wurde im geladenen Datensatz nicht gefunden").
+- Auf Grund der verwendeten [[Talk:Germany/Railway/Route_Network/Analysis#Overpass-API_Abfrage|Overpass-API Abfrage]] zum Sammeln der  Daten sind mitunter (eher zufällig) auch Verbindungen innerhalb Frankreichs, ... zu finden (mitunter mit fehlenden Daten für Route-Relationen: "Route wurde im geladenen Datensatz nicht gefunden").
 -
 
 == Aus Frankreich
@@ -1450,3 +1450,5 @@ RE29;train;euregioAIXpress;Aachen;Spa-Géronstère;NMBS/SNCB
 
 
 </pre>
+
+[[Category:Germany]]
