@@ -1,0 +1,445 @@
+<pre>
+#
+# Format: format is like in the OSM Wiki
+#
+# Links: [[...|...]] are interne link like in the OSM Wiki
+#        [... ...] are external links
+#
+# Headers start with '=', '==', '===', '====', ... at the beginning of a line
+#
+# Simple text starts with '-' at the beginning of a line.
+#    Simple text starts may only be placed directly after a header line.
+#    A single '-' at the beginning of a line, followed by nothing:
+#    - if there was simple text before, it creates a line feed (i.e. encloses the text in a paragraph <p> ... </p>)
+#    - if there was no simple text before or a line feed, it creates an empty line (i.e. <p>&amp;nbsp;</p>)
+#
+# !!!Text yellow background!!! in simple text or headers
+# '''''Text mit bold and italics''''' in simple text or headers
+# '''Text with bold chars''' in simple text or headers
+# ''Text with italic chars'' in simple text or headers
+#
+# Comments start with '#' at the beginning of a line. '#' inside text is not recognized as the start of a comment, i.e.. '#' may occur inside of text.
+#
+# Format of the file: UTF-8
+#
+#
+# Cotents in CSV-Format
+#
+# ref;type;comment;from;to;operator
+#
+# - ref       == tag 'ref' of route or route_master
+#                250            defines that routes with 'ref'='250' are expected
+#                250|250a|250b  defines that routes with 'ref'='250' or 'ref'='250a' or 'ref'='250b' are expected - independent of whether this is allowed according to PTv1/PTv2
+# - type      == contents of tags 'route' respectively 'route_master'
+# - comment   == can include comments like; Bus, Expressbus, ...  will not be analyzed, but simply be printed out
+#                !Text with yellow background! in comment (surrounded by single !)
+# - from      == if there is more than one entry with "ref;type" and "operator" is the same, then 'from' and 'to are also used to distinguish between same line number in different cities/villages
+# - to        == if there is more than one entry with "ref;type" and "operator" is the same, then 'from' and 'to are also used to distinguish between same line number in different cities/villages
+# - operator  == if there is more than one entry with "ref;type", then "operator" is used to distinguish between same line number in different cities/villages
+#
+
+
+= Overview on Public Transportation of RGTR network in Lëtzebuerg
+
+- Link to the data with the description of [[WikiProject_Luxembourg/Public_Transport/Analysis/LU-RGTR-Routes|RGTR Lines]] in OSM-Wiki.
+- Link to more [[Talk:WikiProject_Luxembourg/Public_Transport/Analysis/RGTR|information]] in OSM-Wiki.
+
+== Note
+
+- For the analysis, 'network' is expected as
+-
+- * "RGTR"                                    short form, oder
+-
+- * "Régime Général des Transports Routiers"  long form, or
+-
+- * empty string, i.e. not set
+-
+#
+#ref;type;comment;from;to;operator
+
+== Buslinen RGTR
+
+L10;bus;GTFS route_id=3:CFLBUS:L10;Drauffelt, Op der Gare;Ettelbruck, Gare;;
+L30;bus;GTFS route_id=3:CFLBUS:L30;Sandweiler;Luxembourg, Gare routière;;
+L40;bus;GTFS route_id=3:CFLBUS:L40;Saarbrücken Hbf;Luxembourg, Gare routière;;
+L50;bus;GTFS route_id=3:CFLBUS:L50;Kleinbettingen, Gare;Luxembourg, Gare routière;;
+L60;bus;GTFS route_id=3:CFLBUS:L60;Luxembourg, Gare routière;Bettembourg, Gare;;
+L90;bus;GTFS route_id=3:CFLBUS:L90;Luxembourg, Gare routière;Thionville, Gare;;
+4;bus;GTFS route_id=3:RGTR--:4;Leudelange, Gemeng;Luxembourg/Centre, Monterey;;
+5;bus;GTFS route_id=3:RGTR--:5;Bertrange, Gemeng;Bonnevoie, Demy Schlechter;;
+6;bus;GTFS route_id=3:RGTR--:6;Bertrange, Gemeng;Bonnevoie, Demy Schlechter;;
+8;bus;GTFS route_id=3:RGTR--:8;Bertrange, Waassertuerm;Eich, Centre Culturel;;
+10;bus;GTFS route_id=3:RGTR--:10;Steinsel, Michel Rodange Plaz;Luxembourg, Gare Centrale;;
+11;bus;GTFS route_id=3:RGTR--:11;Steinsel, Michel Rodange Plaz;Luxembourg, Gare Centrale;;
+16;bus;GTFS route_id=3:RGTR--:16;Luxembourg, Gare routière;Aéroport Luxembourg/Findel;;
+27;bus;GTFS route_id=3:RGTR--:27;Bertrange, Belle Etoile;Luxembourg, Gare Centrale;;
+28;bus;GTFS route_id=3:RGTR--:28;Luxembourg, Gare Centrale;Bertrange, Belle Etoile;;
+29;bus;GTFS route_id=3:RGTR--:29;Findel, Cargo Center;Gasperich, Hildegard von Bingen;;
+30;bus;GTFS route_id=3:RGTR--:30;Limpertsberg, Lycée Michel Lucius;Bonnevoie, Lycée Technique de Bonnevoie/Quais;;
+100;bus;GTFS route_id=3:RGTR--:100;Centre, Badanstalt;Diekirch, Gare;;
+101;bus;GTFS route_id=3:RGTR--:101;Limpertsberg, L.T.C.;Larochette, Bleech;;
+102;bus;GTFS route_id=3:RGTR--:102;Eisenborn, Am Duerf;Lorentzweiler, Gare;;
+104;bus;GTFS route_id=3:RGTR--:104;Medernach, Op der Lann;Müllerthal/Möllerdall;;
+107;bus;GTFS route_id=3:RGTR--:107;Beaufort, Härewiss;Kirchberg, Gare routière Luxexpo;;
+108;bus;GTFS route_id=3:RGTR--:108;Altrier, Heeschbregerwee;Grundhof, Bei der Ernz;;
+110;bus;GTFS route_id=3:RGTR--:110;Luxembourg, Gare routière;Echternach, Gare Centre;;
+111;bus;GTFS route_id=3:RGTR--:111;Luxembourg, Gare routière;Echternach, Gare Centre;;
+112;bus;GTFS route_id=3:RGTR--:112;Echternach, Gare Centre;Junglinster, Op der Gare;;
+113;bus;GTFS route_id=3:RGTR--:113;Limpertsberg, L.T.C.;Echternach, Gare Centre;;
+116;bus;GTFS route_id=3:RGTR--:116;Schweich, P&R;Kirchberg, Gare routière Luxexpo;;
+117;bus;GTFS route_id=3:RGTR--:117;Luxembourg, rue Heine;Trier, Christophstr.;;
+118;bus;GTFS route_id=3:RGTR--:118;Kirchberg, Gare routière Luxexpo;Trier, Hauptbahnhof;;
+119;bus;GTFS route_id=3:RGTR--:119;Kirchberg, Gare routière Luxexpo;Wasserbillig, Mesenich Frontière;;
+120;bus;GTFS route_id=3:RGTR--:120;Junglinster, Gemeng;Luxembourg, Gare Centrale;;
+121;bus;GTFS route_id=3:RGTR--:121;Merl, Geesseknäppchen (S);Junglinster, Op der Gare;;
+122;bus;GTFS route_id=3:RGTR--:122;Sandweiler, Am Eck;Findel, Cargo Center;;
+125/1;bus;GTFS route_id=3:RGTR--:125/1;Hollerich, Garage AVL;Oberanven, Gemeng;;
+126;bus;GTFS route_id=3:RGTR--:126;Schuttrange, Kiercheplaz;Limpertsberg, L.T.C.;;
+128;bus;GTFS route_id=3:RGTR--:128;Junglinster, Op der Gare;Kirchberg, Gare routière Luxexpo;;
+129;bus;GTFS route_id=3:RGTR--:129;Echternach, Lycée;Junglinster, Op der Gare;;
+130;bus;GTFS route_id=3:RGTR--:130;Kirchberg, Gare routière Luxexpo;Grevenmacher, Gare routière;;
+131;bus;GTFS route_id=3:RGTR--:131;Machtum, Ongkaf;Limpertsberg, L.T.C.;;
+132;bus;GTFS route_id=3:RGTR--:132;Nittel, Rochusstrasse;Grevenmacher, Gare routière;;
+134;bus;GTFS route_id=3:RGTR--:134;Grevenmacher, Gare routière;Konz, Konz Mitte;;
+135;bus;GTFS route_id=3:RGTR--:135;Kirchberg, Gare routière Luxexpo;Grevenmacher, Gare routière;;
+140;bus;GTFS route_id=3:RGTR--:140;Kirchberg, Gare routière Luxexpo;Canach, Z.A. Rëckschleed;;
+142;bus;GTFS route_id=3:RGTR--:142;Moutfort, Syrbréck;Kirchberg, Gare routière Luxexpo;;
+144;bus;GTFS route_id=3:RGTR--:144;Itzig, Hubertuspad;Neuhaeusgen, Iewescht Neihaischen;;
+145;bus;GTFS route_id=3:RGTR--:145;Merl, Geesseknäppchen (S);Neuhaeusgen, Iewescht Neihaischen;;
+150;bus;GTFS route_id=3:RGTR--:150;Ahn, Alphonse Steinès;Centre, F.D. Roosevelt;;
+151;bus;GTFS route_id=3:RGTR--:151;Limpertsberg, L.T.C.;Sandweiler, Am Eck;;
+152;bus;GTFS route_id=3:RGTR--:152;Ehnen, Puddel;Wormeldange/Haut, Hiehl;;
+155;bus;GTFS route_id=3:RGTR--:155;Kirchberg, Europe Gare routière;Saarlouis, Kleiner Markt;;
+156;bus;GTFS route_id=3:RGTR--:156;Centre, Stäreplaz / Étoile;Hotel;;
+157;bus;GTFS route_id=3:RGTR--:157;Kirchberg, Gare routière Luxexpo;Brückenstr.;;
+158;bus;GTFS route_id=3:RGTR--:158;Hollerich, Fonderie;Orscholz, Rehaklinik;;
+159;bus;GTFS route_id=3:RGTR--:159;Kirchberg, Europe Gare routière;Losheim, Bahnhof;;
+160;bus;GTFS route_id=3:RGTR--:160;Stadtbredimus, Vinsmoselle;Centre, F.D. Roosevelt;;
+161;bus;GTFS route_id=3:RGTR--:161;Remich, Pl. Nico Klopp;Centre, F.D. Roosevelt;;
+162;bus;GTFS route_id=3:RGTR--:162;Remich, rue de la Corniche;Limpertsberg, L.T.C.;;
+163;bus;GTFS route_id=3:RGTR--:163;Medingen, Aire de virage;Centre, F.D. Roosevelt;;
+164;bus;GTFS route_id=3:RGTR--:164;Limpertsberg, L.T.C.;Medingen, Aire de virage;;
+165;bus;GTFS route_id=3:RGTR--:165;Howald, P&R Howald;Medingen, Aire de virage;;
+166;bus;GTFS route_id=3:RGTR--:166;Merl, Geesseknäppchen (S);Howald, Minsbësch;;
+168;bus;GTFS route_id=3:RGTR--:168;Perl, Schengen Lyzeum;Noertzange, Gare;;
+170;bus;GTFS route_id=3:RGTR--:170;Hollerich, Fonderie;Filsdorf, Wäschbour;;
+171;bus;GTFS route_id=3:RGTR--:171;Limpertsberg, L.T.C.;Filsdorf, Wäschbour;;
+172;bus;GTFS route_id=3:RGTR--:172;Frisange, Park & Ride;Kirchberg, Rehazenter;;
+175;bus;GTFS route_id=3:RGTR--:175;Luxembourg, Gare routière;Remich, rue de la Corniche;;
+176;bus;GTFS route_id=3:RGTR--:176;Mondorf, Daundorf;Limpertsberg, L.T.C.;;
+177;bus;GTFS route_id=3:RGTR--:177;Remich, Pl. Nico Klopp;Hollerich, Fonderie;;
+178;bus;GTFS route_id=3:RGTR--:178;Perl, Schengen Lyzeum;Frisange, Hau;;
+180;bus;GTFS route_id=3:RGTR--:180;Remich, Gare routière;Mondorf, Christophorus;;
+182;bus;GTFS route_id=3:RGTR--:182;Perl, Schengen Lyzeum;Ersange/Ierséng;;
+184;bus;GTFS route_id=3:RGTR--:184;Remich, Gare routière;Kirchberg, Europe Gare routière;;
+185;bus;GTFS route_id=3:RGTR--:185;Schwebsingen, Centre;Ellenger Gare;;
+187;bus;GTFS route_id=3:RGTR--:187;Elvange/Mondorf, Bei Tubes;Perl, Schengen Lyzeum;;
+190;bus;GTFS route_id=3:RGTR--:190;Emerange, Centre Culturel;Mondorf, Christophorus;;
+191;bus;GTFS route_id=3:RGTR--:191;Merl, Geesseknäppchen (S);Hellange, Beteburgerstrooss;;
+192;bus;GTFS route_id=3:RGTR--:192;Kirchberg, Rehazenter;Hassel, Küneftchen;;
+193;bus;GTFS route_id=3:RGTR--:193;Hassel, Küneftchen;Merl, Geesseknäppchen (S);;
+194;bus;GTFS route_id=3:RGTR--:194;Sandweiler, Am Eck;Bettembourg, Gare;;
+195;bus;GTFS route_id=3:RGTR--:195;Kirchberg, Rehazenter;Peppange, Duerfplaz;;
+196;bus;GTFS route_id=3:RGTR--:196;Crauthem, Am Gruef;Merl, Geesseknäppchen (S);;
+197;bus;GTFS route_id=3:RGTR--:197;Luxembourg, Gare Rocade;Ottange, Pl. de Montcontour;;
+198;bus;GTFS route_id=3:RGTR--:198;Noertzange, Route de Kayl;Merl, Geesseknäppchen (S);;
+199;bus;GTFS route_id=3:RGTR--:199;Rumelange, A Wiendelen;Merl, Geesseknäppchen (S);;
+200;bus;GTFS route_id=3:RGTR--:200;Gasperich, Cloche d'Or;Bettembourg, Gare;;
+201;bus;GTFS route_id=3:RGTR--:201;Merl, Geesseknäppchen (S);Bettembourg, Café du Stadion;;
+202;bus;GTFS route_id=3:RGTR--:202;Centre, Monterey Parc;Obercorn, Chiers;;
+203;bus;GTFS route_id=3:RGTR--:203;Centre, Monterey Parc;Niedercorn, Hahneboesch;;
+204;bus;GTFS route_id=3:RGTR--:204;Merl, Geesseknäppchen (S);Differdange, Arbed;;
+205;bus;GTFS route_id=3:RGTR--:205;Luxembourg, Gare routière;Esch/Alzette, Lycée Tech.Lal.;;
+206;bus;GTFS route_id=3:RGTR--:206;Mondercange, Musekssall;Merl, Geesseknäppchen (S);;
+207;bus;GTFS route_id=3:RGTR--:207;Kirchberg, Gare routière Luxexpo;Dudelange, Gemeng;;
+208;bus;GTFS route_id=3:RGTR--:208;Leudelange, LaLux;Bettembourg, Gare;;
+209;bus;GTFS route_id=3:RGTR--:209;Howald, P&R Howald;Université, Gare;;
+210;bus;GTFS route_id=3:RGTR--:210;Bascharage/Sanem, Gare;Luxembourg, Gare routière;;
+211;bus;GTFS route_id=3:RGTR--:211;Merl, Geesseknäppchen (S);Sanem, Op Lohr;;
+212;bus;GTFS route_id=3:RGTR--:212;Rodange, Gare;Centre, Monterey Parc;;
+213;bus;GTFS route_id=3:RGTR--:213;Kirchberg, Rehazenter;Bertrange, Gemeng;;
+215;bus;GTFS route_id=3:RGTR--:215;Bascharage, R.P. André Siebenbour;Centre, Stäreplaz / Étoile;;
+216;bus;GTFS route_id=3:RGTR--:216;Merl, Geesseknäppchen (N);Bascharage, R.P. André Siebenbour;;
+218;bus;GTFS route_id=3:RGTR--:218;Messancy, Gare;Centre, Stäreplaz / Étoile;;
+222;bus;GTFS route_id=3:RGTR--:222;Kirchberg, Rehazenter;Steinfort, Um Quai;;
+225;bus;GTFS route_id=3:RGTR--:225;Merl, Geesseknäppchen (N);Bertrange, Dicks;;
+226;bus;GTFS route_id=3:RGTR--:226;Alzingen, Hondsbréck;Bertrange, Belle Etoile;;
+233;bus;GTFS route_id=3:RGTR--:233;Limpertsberg, L.T.C.;Strassen, Huorgarten;;
+240;bus;GTFS route_id=3:RGTR--:240;Centre, Monterey Parc;Clemency, Schock;;
+241;bus;GTFS route_id=3:RGTR--:241;Limpertsberg, L.T.C.;Clemency, Schock;;
+248;bus;GTFS route_id=3:RGTR--:248;Centre, Stäreplaz / Étoile;Eischen, Denn;;
+249;bus;GTFS route_id=3:RGTR--:249;Limpertsberg, L.T.C.;Eischen, Denn;;
+250;bus;GTFS route_id=3:RGTR--:250;Redange, Lycée Atert;Centre, Monterey Parc;;
+251;bus;GTFS route_id=3:RGTR--:251;Merl, Geesseknäppchen (N);Ell, Beim Musikssaul;;
+255;bus;GTFS route_id=3:RGTR--:255;Septfontaines, Schoul;Centre, Monterey Parc;;
+256;bus;GTFS route_id=3:RGTR--:256;Merl, Geesseknäppchen (N);Septfontaines, Schoul;;
+258;bus;GTFS route_id=3:RGTR--:258;Centre, Stäreplaz / Étoile;Rambrouch, Gare;;
+260;bus;GTFS route_id=3:RGTR--:260;Keispelt, Bei Péickes;Centre, Monterey Parc;;
+261;bus;GTFS route_id=3:RGTR--:261;Merl, Geesseknäppchen (N);Keispelt, Bei Péickes;;
+262;bus;GTFS route_id=3:RGTR--:262;Keispelt, Bei Péickes;Centre, Stäreplaz / Étoile;;
+265;bus;GTFS route_id=3:RGTR--:265;Redange, Gare;Centre, Monterey Parc;;
+266;bus;GTFS route_id=3:RGTR--:266;Merl, Geesseknäppchen (N);Redange, Gare;;
+267;bus;GTFS route_id=3:RGTR--:267;Proz, Bousserpad;Centre, Stäreplaz / Étoile;;
+270;bus;GTFS route_id=3:RGTR--:270;Hollenfels, Vereinsbau;Limpertsberg, L.T.C.;;
+272;bus;GTFS route_id=3:RGTR--:272;Ehner, Kapell;Saeul, Beim Sand;;
+275;bus;GTFS route_id=3:RGTR--:275;Mersch, Gare;Limpertsberg, Theater;;
+276;bus;GTFS route_id=3:RGTR--:276;Merl, Geesseknäppchen (N);Kopstal, Bréck;;
+282;bus;GTFS route_id=3:RGTR--:282;Limpertsberg, Theater;Steinsel, Kennedy;;
+286;bus;GTFS route_id=3:RGTR--:286;Steinsel, Michel Rodange Plaz;Limpertsberg, L.T.C.;;
+287;bus;GTFS route_id=3:RGTR--:287;Limpertsberg, L.T.C.;Mersch, Gare;;
+288;bus;GTFS route_id=3:RGTR--:288;Limpertsberg, L.T.C.;Boevange, Gare;;
+289;bus;GTFS route_id=3:RGTR--:289;Mersch, Maartplaz;Limpertsberg, L.T.C.;;
+290;bus;GTFS route_id=3:RGTR--:290;Mersch, Gare;Centre, Badanstalt;;
+295;bus;GTFS route_id=3:RGTR--:295;Mertzig, Gemeng;Mersch, Gare;;
+300;bus;GTFS route_id=3:RGTR--:300;Thionville, Foch Kiosque;Kirchberg, Europe Gare routière;;
+301;bus;GTFS route_id=3:RGTR--:301;Thionville, Foch Kiosque;Leudelange, LaLux;;
+303;bus;GTFS route_id=3:RGTR--:303;Kirchberg, Europe Gare routière;Manom, Centre Commercial;;
+304;bus;GTFS route_id=3:RGTR--:304;Ellange, Martialis;Bettembourg, Gare;;
+305;bus;GTFS route_id=3:RGTR--:305;Bettembourg, Gare;Bettembourg, Gare;;
+306;bus;GTFS route_id=3:RGTR--:306;Belvaux, Lycée Bel;Allee;;
+307;bus;GTFS route_id=3:RGTR--:307;Bettembourg, Gare;Esch/Alzette, Gare;;
+308;bus;GTFS route_id=3:RGTR--:308;Bettembourg, Gare;Val;;
+309;bus;GTFS route_id=3:RGTR--:309;Belvaux, Lycée Bel;Grevenmacher, Gare routière;;
+310;bus;GTFS route_id=3:RGTR--:310;Noertzange, Gare;Dudelange, Lycée Nic Biever;;
+311;bus;GTFS route_id=3:RGTR--:311;Peppange, Kirchwois;Dudelange, Lycée Nic Biever;;
+312;bus;GTFS route_id=3:RGTR--:312;Pontpierre, Pompjeesbau;Esch/Alzette, Lycée H. Clement;;
+313;bus;GTFS route_id=3:RGTR--:313;Esch/Alzette, Gare;Reckange/Mess, Am Duerf;;
+314;bus;GTFS route_id=3:RGTR--:314;Esch/Alzette, Gare;Mondercange, A.Thinnes;;
+315;bus;GTFS route_id=3:RGTR--:315;Perl, Schampaul;Nennig, Bahnhof;;
+319;bus;GTFS route_id=3:RGTR--:319;Piennes, Zone d'activités;Baptiste Merkels;;
+321;bus;GTFS route_id=3:RGTR--:321;Villerupt, Barbusse;Centre, Monterey Parc;;
+322;bus;GTFS route_id=3:RGTR--:322;Esch/Alzette, Gare;Rédange, Mairie;;
+323;bus;GTFS route_id=3:RGTR--:323;Yutz, AéroPark P&R;Kirchberg, Europe Gare routière;;
+325;bus;GTFS route_id=3:RGTR--:325;Hussigny, Place de l'Eglise;Obercorn, Chiers;;
+329;bus;GTFS route_id=3:RGTR--:329;Kleinbettingen, Gare;Bour;;
+330;bus;GTFS route_id=3:RGTR--:330;Mt.St.Martin, Douane;Pétange, Gare;;
+331;bus;GTFS route_id=3:RGTR--:331;Mamer, Lycee (gare routière);Kahler, Kiirch;;
+332;bus;GTFS route_id=3:RGTR--:332;Belval, Um Bedding;Steinfort, Um Quai;;
+334;bus;GTFS route_id=3:RGTR--:334;Steinfort, Um Quai;Pétange, Gare;;
+335;bus;GTFS route_id=3:RGTR--:335;Mamer, Lycee (gare routière);Eischen, Denn;;
+337;bus;GTFS route_id=3:RGTR--:337;Septfontaines, Schoul;Roodt/Bour, Bréck;;
+338;bus;GTFS route_id=3:RGTR--:338;Tuntange, Duerf;Goetzingen, Kiirch;;
+339;bus;GTFS route_id=3:RGTR--:339;Mamer, Lycee (gare routière);Bridel, Schanz;;
+340;bus;GTFS route_id=3:RGTR--:340;Mersch, Mierscherbierg;Kehlen, Bei Fiewer;;
+341;bus;GTFS route_id=3:RGTR--:341;Mamer, Lycee (gare routière);Limpach, Kiirch;;
+342;bus;GTFS route_id=3:RGTR--:342;Bascharage, R.P. André Siebenbour;Mamer, Lycee (gare routière);;
+344;bus;GTFS route_id=3:RGTR--:344;Mamer, Lycee (gare routière);Clemency, Schock;;
+346;bus;GTFS route_id=3:RGTR--:346;Kleinbettingen, Gare;Grass, Um Camping;;
+350;bus;GTFS route_id=3:RGTR--:350;Fingig, Maerchen;Lamadelaine, Lycée Technique Mathias Adam;;
+352;bus;GTFS route_id=3:RGTR--:352;Lamadelaine, Lycée Technique Mathias Adam;Rodange, Vullesang;;
+355;bus;GTFS route_id=3:RGTR--:355;Lamadelaine, Lycée Technique Mathias Adam;Sprinkange, Place de l'Eglise;;
+394;bus;GTFS route_id=3:RGTR--:394;Pétange, Gare;Pétange, Gare;;
+398;bus;GTFS route_id=3:RGTR--:398;Rodange, Gare;St. Charles, Eglise;;
+399;bus;GTFS route_id=3:RGTR--:399;Rodange, Gare;Saulnes, Place;;
+400;bus;GTFS route_id=3:RGTR--:400;Mersch, Gare;Ettelbruck, Gare;;
+401;bus;GTFS route_id=3:RGTR--:401;Bitburg, ZOB;Kirchberg, Europe Gare routière;;
+402;bus;GTFS route_id=3:RGTR--:402;Mersch, Gare;Ettelbruck, Gare;;
+403;bus;GTFS route_id=3:RGTR--:403;Nommern, Kiirch;Mersch, Gare;;
+405;bus;GTFS route_id=3:RGTR--:405;Lorentzweiler, Beim Atelier;Mersch, Gare;;
+407;bus;GTFS route_id=3:RGTR--:407;Prüm, Gerberweg;Ettelbruck, Gare;;
+409;bus;GTFS route_id=3:RGTR--:409;Stegen, Eglise;Mersch, Gare;;
+413;bus;GTFS route_id=3:RGTR--:413;Haller, Schoul;Christnach, Schoulstrooss;;
+414;bus;GTFS route_id=3:RGTR--:414;Echternach, Gare Centre;Larochette, Gare Routière;;
+415;bus;GTFS route_id=3:RGTR--:415;Christnach, Schoulstrooss;Savelborn, Haaptstrooss;;
+416;bus;GTFS route_id=3:RGTR--:416;Echternach, Gare Centre;Mersch, Gare;;
+417;bus;GTFS route_id=3:RGTR--:417;Mersch, Lycée Ermesinde;Beaufort, Huelewee;;
+418;bus;GTFS route_id=3:RGTR--:418;Junglinster, Lycée;Bollendorf, Gare;;
+419;bus;GTFS route_id=3:RGTR--:419;Heffingen, Abri (Centre);Mersch, Gare;;
+420;bus;GTFS route_id=3:RGTR--:420;Junglinster, Lycée;Angelsberg, Paafendall;;
+421;bus;GTFS route_id=3:RGTR--:421;Imbringen, Am Duerf;Mersch, Lycée Ermesinde;;
+422;bus;GTFS route_id=3:RGTR--:422;Junglinster, Lycée;Larochette, Bleech;;
+423;bus;GTFS route_id=3:RGTR--:423;Mersch, Lycée Ermesinde;Canach, Z.A. Rëckschleed;;
+424;bus;GTFS route_id=3:RGTR--:424;Junglinster, Lycée;Beaufort, Halerstrooss;;
+425;bus;GTFS route_id=3:RGTR--:425;Remich, Pl. Nico Klopp;Mersch, Lycée Ermesinde;;
+428;bus;GTFS route_id=3:RGTR--:428;Mersch, Gare;Schoenfels, Duerf;;
+429;bus;GTFS route_id=3:RGTR--:429;Mersch, Gare;Greisch, Op der Quaert;;
+431;bus;GTFS route_id=3:RGTR--:431;Mersch, Gare;Marienthal;;
+435;bus;GTFS route_id=3:RGTR--:435;Mersch, Gare;Eischen, Denn;;
+437;bus;GTFS route_id=3:RGTR--:437;Mersch, Gare;Saeul, Raiffeisen;;
+445;bus;GTFS route_id=3:RGTR--:445;Mersch, Gare;Redange, Lycée Atert;;
+447;bus;GTFS route_id=3:RGTR--:447;Mersch, Maartplaz;Ettelbruck, Gare;;
+450;bus;GTFS route_id=3:RGTR--:450;Grevenmacher, Gare routière;Remich, Gare routière;;
+453;bus;GTFS route_id=3:RGTR--:453;Stadtbredimus, Vinsmoselle;Grevenmacher, Schoul;;
+455;bus;GTFS route_id=3:RGTR--:455;Mondorf, Casino 2000;Grevenmacher, Schoul;;
+457;bus;GTFS route_id=3:RGTR--:457;Ersange/Ierséng;Grevenmacher, Schoul;;
+464;bus;GTFS route_id=3:RGTR--:464;Grevenmacher, Schoul;Gostingen, Am Ennerduerf;;
+465;bus;GTFS route_id=3:RGTR--:465;Kirchberg, Gare routière Luxexpo;Wecker, Gare;;
+468;bus;GTFS route_id=3:RGTR--:468;Breinert;Wecker, Gare;;
+469;bus;GTFS route_id=3:RGTR--:469;Kobenbour;Junglinster, Lycée;;
+470;bus;GTFS route_id=3:RGTR--:470;Altrier, Op der Schanz;Müllerthal/Möllerdall;;
+471;bus;GTFS route_id=3:RGTR--:471;Junglinster, Lycée;Niederanven, Routscheed;;
+472;bus;GTFS route_id=3:RGTR--:472;Altrier, Kreizenhéicht (RN);Berbourg, Kiirch;;
+473;bus;GTFS route_id=3:RGTR--:473;Echternach, Gare Centre;Junglinster, Lycée;;
+474;bus;GTFS route_id=3:RGTR--:474;Echternach, Gare Centre;Grevenmacher, Gare routière;;
+475;bus;GTFS route_id=3:RGTR--:475;Manternach, Gare;Echternach, Gare Centre;;
+477;bus;GTFS route_id=3:RGTR--:477;Junglinster, Op der Gare;Grevenmacher, Schoul;;
+479;bus;GTFS route_id=3:RGTR--:479;Junglinster, Lycée;Biwer, Mairie;;
+480;bus;GTFS route_id=3:RGTR--:480;Junglinster, Lycée;Neuhaeusgen, Iewescht Neihaischen;;
+481;bus;GTFS route_id=3:RGTR--:481;Manternach, Gare;Echternach, Gare Centre;;
+483;bus;GTFS route_id=3:RGTR--:483;Grevenmacher, Stadion;Wasserbillig, Rue des Celtes;;
+485;bus;GTFS route_id=3:RGTR--:485;Echternach, Gare Centre;Grevenmacher, Gare routière;;
+486;bus;GTFS route_id=3:RGTR--:486;Grevenmacher, Schoul 2;Echternach, Gare Centre;;
+487;bus;GTFS route_id=3:RGTR--:487;Rosport, Lokal;Wasserbillig, Gare;;
+488;bus;GTFS route_id=3:RGTR--:488;Steinheim, An der Uecht;Junglinster, Lycée;;
+492;bus;GTFS route_id=3:RGTR--:492;Echternach, Gare Centre;Grevenmacher, Gare routière;;
+496;bus;GTFS route_id=3:RGTR--:496;Echternach, Gare Centre;Born, Op der Gare;;
+500;bus;GTFS route_id=3:RGTR--:500;Echternach, Gare Centre;Ettelbruck, Gare;;
+501;bus;GTFS route_id=3:RGTR--:501;Echternach, Gare Centre;Diekirch, Gare;;
+502;bus;GTFS route_id=3:RGTR--:502;Ettelbruck, Gare;Beaufort, Härewiss;;
+503;bus;GTFS route_id=3:RGTR--:503;Beaufort, Härewiss;Ettelbruck, Lycée Technique Agricole;;
+504;bus;GTFS route_id=3:RGTR--:504;Ettelbruck, Lycée Technique Agricole;Haller, Schoul;;
+505;bus;GTFS route_id=3:RGTR--:505;Medernach, Op der Lann;Beaufort, Härewiss;;
+506;bus;GTFS route_id=3:RGTR--:506;Gilsdorf, Bei der Schoul;Roodt/Syre, Z.I. Rothoicht;;
+507;bus;GTFS route_id=3:RGTR--:507;Grevenmacher, Gare routière;Ettelbruck, Centre Hospitalier du Nord;;
+508;bus;GTFS route_id=3:RGTR--:508;Tuntange, Duerf;Ettelbruck, Gare;;
+509;bus;GTFS route_id=3:RGTR--:509;Ettelbruck, Gare;Ettelbruck, Gare;;
+510;bus;GTFS route_id=3:RGTR--:510;Ettelbruck, Gare;Elvange/Beckerich, Schoul;;
+511;bus;GTFS route_id=3:RGTR--:511;Bissen, Kiirch;Ettelbruck, Lycée Technique Agricole;;
+512;bus;GTFS route_id=3:RGTR--:512;Moestroff, Kiirch;Warken, Rue Bourschterbach;;
+515;bus;GTFS route_id=3:RGTR--:515;Redange, Gare;Eschette, Duerf;;
+517;bus;GTFS route_id=3:RGTR--:517;Diekirch, Neie Kolleisch;Roodt/Redange, Beim Pull;;
+518;bus;GTFS route_id=3:RGTR--:518;Ettelbruck, Gare;Redange, Lycée Atert;;
+519;bus;GTFS route_id=3:RGTR--:519;Mertzig, Gemeng;Vichten, Schoul;;
+520;bus;GTFS route_id=3:RGTR--:520;Diekirch, Neie Kolleisch;Oberpallen, Bréck;;
+521;bus;GTFS route_id=3:RGTR--:521;Ettelbruck, Lycée Technique Agricole;Oberpallen, Bréck;;
+522;bus;GTFS route_id=3:RGTR--:522;Mertzig, Gemeng;Oberfeulen, route d'Arlon;;
+525;bus;GTFS route_id=3:RGTR--:525;Heispelt;Grosbous, Kiircheplaz;;
+530;bus;GTFS route_id=3:RGTR--:530;Diekirch, Neie Kolleisch;Perlé, Schoul;;
+531;bus;GTFS route_id=3:RGTR--:531;Diekirch, Neie Kolleisch;Bigonville, Kéismaart;;
+535;bus;GTFS route_id=3:RGTR--:535;Ettelbruck, Gare;Insenborn, Duerf;;
+537;bus;GTFS route_id=3:RGTR--:537;Bastogne, Renval;Ettelbruck, Lycée Technique Agricole;;
+540;bus;GTFS route_id=3:RGTR--:540;Welscheid, Bei der Bréck;Ettelbruck, Gare;;
+545;bus;GTFS route_id=3:RGTR--:545;Heiderscheid;Ettelbruck, Gare;;
+546;bus;GTFS route_id=3:RGTR--:546;Redange, Lycée Atert;Ringel;;
+550;bus;GTFS route_id=3:RGTR--:550;Schlindermanderscheid, Kiirch;Ettelbruck, Gare;;
+552;bus;GTFS route_id=3:RGTR--:552;Consthum, Ennescht Duerf;Ettelbruck, Gare;;
+553;bus;GTFS route_id=3:RGTR--:553;Clervaux, Gare/Lycée;Diekirch, Neie Kolleisch;;
+554;bus;GTFS route_id=3:RGTR--:554;Dorscheid, Am Poul;Diekirch, Neie Kolleisch;;
+555;bus;GTFS route_id=3:RGTR--:555;Ettelbruck, Gare;Huldange, Schmëtt;;
+556;bus;GTFS route_id=3:RGTR--:556;Heinerscheid, Geméin;Grindhausen/Grandsen;;
+557;bus;GTFS route_id=3:RGTR--:557;Lieler, Gässelchen;Heinerscheid, Geméin;;
+558;bus;GTFS route_id=3:RGTR--:558;Diekirch, Hall logistique;Ettelbruck, Lycée Technique Agricole;;
+560;bus;GTFS route_id=3:RGTR--:560;Ettelbruck, Lycée Technique Agricole;Wahlhausen, Beim Chalet;;
+561;bus;GTFS route_id=3:RGTR--:561;Gralingen, Am Bréill;Clervaux, Gare/Lycée;;
+562;bus;GTFS route_id=3:RGTR--:562;Landscheid, Kiirch;Brandenbourg, Kapell;;
+564;bus;GTFS route_id=3:RGTR--:564;Walsdorf, An der Gaass;Bleesbréck;;
+565;bus;GTFS route_id=3:RGTR--:565;Mont St. Nicolas;Ettelbruck, Gare;;
+568;bus;GTFS route_id=3:RGTR--:568;Vianden, Gare;Vianden, Plank;;
+570;bus;GTFS route_id=3:RGTR--:570;Stolzembourg, Akescht;Ettelbruck, Gare;;
+571;bus;GTFS route_id=3:RGTR--:571;Obereisenbach, Bei der Baach;Ettelbruck, Lycée Technique Agricole;;
+572;bus;GTFS route_id=3:RGTR--:572;Vianden, Gare;Vianden, Scheierhaff 1;;
+575;bus;GTFS route_id=3:RGTR--:575;Bigelbach, Kiirch;Diekirch, Gare;;
+577;bus;GTFS route_id=3:RGTR--:577;Diekirch, Gare;Folkendange;;
+580;bus;GTFS route_id=3:RGTR--:580;Redange, Lycée Atert;Mertzig, Eglise;;
+582;bus;GTFS route_id=3:RGTR--:582;Redange, Lycée Atert;Rouscht;;
+584;bus;GTFS route_id=3:RGTR--:584;Michelbouch;Redange, Lycée Atert;;
+585;bus;GTFS route_id=3:RGTR--:585;Redange, Lycée Atert;Brouch/Mersch, Kloeppel;;
+586;bus;GTFS route_id=3:RGTR--:586;Saeul, Post;Redange, Lycée Atert;;
+587;bus;GTFS route_id=3:RGTR--:587;Redange, Lycée Atert;Schwebach, Am Duerf;;
+588;bus;GTFS route_id=3:RGTR--:588;Kleinbettingen, Gare;Redange, Lycée Atert;;
+590;bus;GTFS route_id=3:RGTR--:590;Perlé, Gare;Redange/Attert, Bian;;
+592;bus;GTFS route_id=3:RGTR--:592;Redange, Gare;Roodt/Redange, Beim Pull;;
+594;bus;GTFS route_id=3:RGTR--:594;Redange, Lycée Atert;Rambrouch, Gare;;
+595;bus;GTFS route_id=3:RGTR--:595;Redange, Lycée Atert;Bigonville, Knupp;;
+596;bus;GTFS route_id=3:RGTR--:596;Eschette, Duerf;Redange, Lycée Atert;;
+597;bus;GTFS route_id=3:RGTR--:597;Heispelt;Redange, Lycée Atert;;
+599;bus;GTFS route_id=3:RGTR--:599;Redange, Lycée Atert;Eschdorf, Mairie;;
+600;bus;GTFS route_id=3:RGTR--:600;Wilwerwiltz, Schoulkauz;Kautenbach, Op der Gare;;
+605;bus;GTFS route_id=3:RGTR--:605;Schinker, Um Rank;Kautenbach, Op der Gare;;
+606;bus;GTFS route_id=3:RGTR--:606;Lipperscheid, Leweck;Clervaux, Gare/Lycée;;
+608;bus;GTFS route_id=3:RGTR--:608;Kautenbach, Op der Gare;Büderscheid, Village;;
+609;bus;GTFS route_id=3:RGTR--:609;Dirbach, Village;Wiltz, Lycée du Nord;;
+610;bus;GTFS route_id=3:RGTR--:610;Goebelsmühle, Gare;Wiltz, Gare;;
+613;bus;GTFS route_id=3:RGTR--:613;Heiderscheid;Wiltz, Lycée du Nord;;
+618;bus;GTFS route_id=3:RGTR--:618;Esch;Wiltz, Gare;;
+619;bus;GTFS route_id=3:RGTR--:619;Lultzhausen, Driicht;Rambrouch, Gare;;
+620;bus;GTFS route_id=3:RGTR--:620;Wiltz, Lycée (navette);Rambrouch, Gare;;
+622;bus;GTFS route_id=3:RGTR--:622;Rambrouch, Gare;Wiltz, Lycée du Nord;;
+625;bus;GTFS route_id=3:RGTR--:625;Wiltz, Lycée du Nord;Oberwampach, Belzen;;
+628;bus;GTFS route_id=3:RGTR--:628;Weiler;Wiltz, Lycée du Nord;;
+630;bus;GTFS route_id=3:RGTR--:630;Wiltz, Lycée du Nord;Clervaux, Pl. de la Libération;;
+633;bus;GTFS route_id=3:RGTR--:633;Goedange;Wiltz, Lycée du Nord;;
+634;bus;GTFS route_id=3:RGTR--:634;Breidfeld;Wiltz, Lycée du Nord;;
+635;bus;GTFS route_id=3:RGTR--:635;Troisvierges, Pasterknapp;Wiltz, Lycée du Nord;;
+638;bus;GTFS route_id=3:RGTR--:638;Wiltz, Lycée du Nord;Leithum, Bei der Kirich;;
+640;bus;GTFS route_id=3:RGTR--:640;Brachtenbach;Wiltz, Gare;;
+641;bus;GTFS route_id=3:RGTR--:641;Niederwampach;Clervaux, Gare/Lycée;;
+642;bus;GTFS route_id=3:RGTR--:642;Clervaux, Gare/Lycée;Wiltz, Lycée du Nord;;
+645;bus;GTFS route_id=3:RGTR--:645;Wiltz, Lycée du Nord;Clervaux, Pl. de la Libération;;
+647;bus;GTFS route_id=3:RGTR--:647;Wiltz, Lycée du Nord;Wahlhausen, Akescht;;
+650;bus;GTFS route_id=3:RGTR--:650;Roder (Ruadder);Marnach, Geschäftszenter;;
+655;bus;GTFS route_id=3:RGTR--:655;Wiltz, Lycée du Nord;Hosingen, Parc Housen;;
+657;bus;GTFS route_id=3:RGTR--:657;Munshausen, Iewescht Duerf;Wilwerwiltz, Gare;;
+660;bus;GTFS route_id=3:RGTR--:660;Clervaux, Gare/Lycée;Lieler, Om Knupp;;
+661;bus;GTFS route_id=3:RGTR--:661;Lieler, Gässelchen;Clervaux, Gare/Lycée;;
+662;bus;GTFS route_id=3:RGTR--:662;Clervaux, Gare/Lycée;Clervaux, Kalborn/Kaalber;;
+663;bus;GTFS route_id=3:RGTR--:663;Vianden, Gare;Clervaux, Gare/Lycée;;
+664;bus;GTFS route_id=3:RGTR--:664;Clervaux, Gare/Lycée;Vianden, Gare;;
+665;bus;GTFS route_id=3:RGTR--:665;Hosingen, Eesberwee;Dorscheid, Am Duerf;;
+666;bus;GTFS route_id=3:RGTR--:666;Clervaux, Gare/Lycée;Untereisenbach, Bréck;;
+670;bus;GTFS route_id=3:RGTR--:670;Marnach, Geschäftszenter;Clervaux, Gare/Lycée;;
+677;bus;GTFS route_id=3:RGTR--:677;Clervaux, Gare/Lycée;Troine, Duerf;;
+678;bus;GTFS route_id=3:RGTR--:678;Crendal;Clervaux, Gare/Lycée;;
+680;bus;GTFS route_id=3:RGTR--:680;Clervaux, Pl. de la Libération;Sassel;;
+682;bus;GTFS route_id=3:RGTR--:682;Clervaux, Pl. de la Libération;Hachiville, Centre;;
+684;bus;GTFS route_id=3:RGTR--:684;Leithum, Bei der Kirich;Clervaux, Gare/Lycée;;
+685;bus;GTFS route_id=3:RGTR--:685;Leithum, Bei der Kirich;Troisvierges, Gare;;
+686;bus;GTFS route_id=3:RGTR--:686;St. Vith, Triangel;Troisvierges, Gare;;
+687;bus;GTFS route_id=3:RGTR--:687;Huldange, Schmëtt;Troisvierges, Gare;;
+688;bus;GTFS route_id=3:RGTR--:688;Wemperhaart, 3 Braken;Clervaux, Gare/Lycée;;
+689;bus;GTFS route_id=3:RGTR--:689;Troisvierges, Gare;Hautbellain;;
+720;bus;GTFS route_id=3:RGTR--:720;Contern, Kiircheplaz;Contern, Gare;;
+740;bus;GTFS route_id=3:RGTR--:740;P.A.S.;Luxembourg, Gare Centrale;;
+742;bus;GTFS route_id=3:RGTR--:742;Munsbach, Kulturzentrum;Stackint;;
+750;bus;GTFS route_id=3:RGTR--:750;Steinsel, Zone Industrielle;Niedercorn, Moartplatz;;
+751;bus;GTFS route_id=3:RGTR--:751;Rodange, Gare;Steinsel, Zone Industrielle;;
+752;bus;GTFS route_id=3:RGTR--:752;Steinsel, Zone Industrielle;Reisdorf, Bei der Gare;;
+800;bus;GTFS route_id=3:RGTR--:800;Roost, Luxlait;Mersch, Gare;;
+803;bus;GTFS route_id=3:RGTR--:803;Ettelbruck, Gare;Rambrouch, Gare;;
+805;bus;GTFS route_id=3:RGTR--:805;Martelange, Gare;Colmar, Centre;;
+808;bus;GTFS route_id=3:RGTR--:808;Ettelbruck, Gare;Bissen, Z.A.C. Klengbousbierg;;
+810;bus;GTFS route_id=3:RGTR--:810;Colmar, Usines;Luxembourg, Gare Centrale;;
+812;bus;GTFS route_id=3:RGTR--:812;Colmar, Usines;Rodange, Gare;;
+815;bus;GTFS route_id=3:RGTR--:815;Arlon, Square Astrid;Roost, Mold Plant;;
+817;bus;GTFS route_id=3:RGTR--:817;Colmar, Usines;Bigonville, Knupp;;
+819;bus;GTFS route_id=3:RGTR--:819;Colmar, Usines;Martelange, Gare;;
+820;bus;GTFS route_id=3:RGTR--:820;Colmar, Usines;Boulaide, Post;;
+822;bus;GTFS route_id=3:RGTR--:822;Bastogne, Centre Sportif;Colmar, Usines;;
+825;bus;GTFS route_id=3:RGTR--:825;Erpeldange/Wiltz;Rouscht;;
+834;bus;GTFS route_id=3:RGTR--:834;Asselborn, Centre;Colmar, Usine Hyosung;;
+840;bus;GTFS route_id=3:RGTR--:840;Bissen, ArcelorMittal S.A.;Troine, Duerf;;
+842;bus;GTFS route_id=3:RGTR--:842;Dosberbréck;Roost, Mold Plant;;
+848;bus;GTFS route_id=3:RGTR--:848;Colmar, Usines;Echternach, Ste Croix;;
+860;bus;GTFS route_id=3:RGTR--:860;Stolzembourg, S.E.O.;Clervaux, Gare/Lycée;;
+885;bus;GTFS route_id=3:RGTR--:885;Lentzweiler, Z.I.;Bastogne, Centre Sportif;;
+940;bus;GTFS route_id=3:RGTR--:940;Ettelbruck, Zone Industrielle;Ettelbruck, Gare;;
+942;bus;GTFS route_id=3:RGTR--:942;Bettendorf, Annexe L.T.A.;Ettelbruck, Gare;;
+944;bus;GTFS route_id=3:RGTR--:944;Ettelbruck, Gare;Warken, L.T.P.S.;;
+946;bus;GTFS route_id=3:RGTR--:946;Colmar, Z.I. Rond;Ettelbruck, Gare;;
+948;bus;GTFS route_id=3:RGTR--:948;Diekirch, Neie Kolleisch;Diekirch, Gare;;
+950;bus;GTFS route_id=3:RGTR--:950;Limpertsberg, L.T.C.;Luxembourg, Gare Centrale;;
+951;bus;GTFS route_id=3:RGTR--:951;Kirchberg, Rout Bréck;Limpertsberg, L.T.C.;;
+952;bus;GTFS route_id=3:RGTR--:952;Dommeldange, Gare;Limpertsberg, L.T.C.;;
+955;bus;GTFS route_id=3:RGTR--:955;Limpertsberg, Arts et Métiers;Luxembourg, Gare Centrale;;
+960;bus;GTFS route_id=3:RGTR--:960;Dommeldange, Uelzechtlycée;Luxembourg, Gare Centrale;;
+965;bus;GTFS route_id=3:RGTR--:965;Junglinster, Lycée;Luxembourg, Gare Centrale;;
+968;bus;GTFS route_id=3:RGTR--:968;Cents, I.N.S.;Luxembourg, Gare Rocade;;
+970;bus;GTFS route_id=3:RGTR--:970;Luxembourg, Gare Centrale;Bonnevoie, Lycée Technique de Bonnevoie/Quais;;
+971;bus;GTFS route_id=3:RGTR--:971;Itzig, Itzigerstee;Luxembourg, Gare routière;;
+972;bus;GTFS route_id=3:RGTR--:972;Centre, F.D. Roosevelt;Merl, Athénée;;
+975;bus;GTFS route_id=3:RGTR--:975;Merl, Geesseknäppchen (S);Hamilius;;
+980;bus;GTFS route_id=3:RGTR--:980;Belair, LTPS / Siège;Luxembourg, Gare Centrale;;
+982;bus;GTFS route_id=3:RGTR--:982;Mamer, Lycee (gare routière);Luxembourg, Gare Centrale;;
+983;bus;GTFS route_id=3:RGTR--:983;Capellen, Centre de Réadaptation;Luxembourg, Gare Centrale;;
+985;bus;GTFS route_id=3:RGTR--:985;Emerange, Centre Culturel;Wintrange, Dorefplaz;;
+989;bus;GTFS route_id=3:RGTR--:989;Dorscheid, Am Duerf;Siebenaler;;
+990;bus;GTFS route_id=3:RGTR--:990;Dommeldange, Uelzechtlycée;Mersch, Gare;;
+991;bus;GTFS route_id=3:RGTR--:991;Ermsdorf, Buntewee;Beaufort, Ennescht Heed;;
+992;bus;GTFS route_id=3:RGTR--:992;Allerborn, Maison 20;Troine, Duerf;;
+993;bus;GTFS route_id=3:RGTR--:993;Wincrange, Ecole;Boxhorn, Uschler;;
+994;bus;GTFS route_id=3:RGTR--:994;Hachiville, Centre;Wincrange, Ecole;;
+995;bus;GTFS route_id=3:RGTR--:995;Harlange, Bréck;Noertrange, Um Dréicht;;
+996;bus;GTFS route_id=3:RGTR--:996;Dosberbréck;Tandel, Schoul;;
+998;bus;GTFS route_id=3:RGTR--:998;Steinsel, Zone Industrielle;Luxembourg, Gare Centrale;;
+
+</pre>

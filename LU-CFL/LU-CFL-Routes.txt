@@ -1,0 +1,153 @@
+<pre>
+#
+# Format: format is like in the OSM Wiki
+#
+# Links: [[...|...]] are interne link like in the OSM Wiki
+#        [... ...] are external links
+#
+# Headers start with '=', '==', '===', '====', ... at the beginning of a line
+#
+# Simple text starts with '-' at the beginning of a line.
+#    Simple text starts may only be placed directly after a header line.
+#    A single '-' at the beginning of a line, followed by nothing:
+#    - if there was simple text before, it creates a line feed (i.e. encloses the text in a paragraph <p> ... </p>)
+#    - if there was no simple text before or a line feed, it creates an empty line (i.e. <p>&amp;nbsp;</p>)
+#
+# !!!Text yellow background!!! in simple text or headers
+# '''''Text mit bold and italics''''' in simple text or headers
+# '''Text with bold chars''' in simple text or headers
+# ''Text with italic chars'' in simple text or headers
+#
+# Comments start with '#' at the beginning of a line. '#' inside text is not recognized as the start of a comment, i.e.. '#' may occur inside of text.
+#
+# Format of the file: UTF-8
+#
+#
+# Cotents in CSV-Format
+#
+# ref;type;comment;from;to;operator
+#
+# - ref       == tag 'ref' of route or route_master
+#                250            defines that routes with 'ref'='250' are expected
+#                250|250a|250b  defines that routes with 'ref'='250' or 'ref'='250a' or 'ref'='250b' are expected - independent of whether this is allowed according to PTv1/PTv2
+# - type      == contents of tags 'route' respectively 'route_master'
+# - comment   == can include comments like; Bus, Expressbus, ...  will not be analyzed, but simply be printed out
+#                !Text with yellow background! in comment (surrounded by single !)
+# - from      == if there is more than one entry with "ref;type" and "operator" is the same, then 'from' and 'to are also used to distinguish between same line number in different cities/villages
+# - to        == if there is more than one entry with "ref;type" and "operator" is the same, then 'from' and 'to are also used to distinguish between same line number in different cities/villages
+# - operator  == if there is more than one entry with "ref;type", then "operator" is used to distinguish between same line number in different cities/villages
+#
+
+
+= Overview on Public Transportation of CFL network in Lëtzebuerg
+
+- Link to the data with the description of [[WikiProject_Luxembourg/Public_Transport/Analysis/LU-CFL-Routes|CFL Lines]] in OSM-Wiki.
+- Link to more [[Talk:WikiProject_Luxembourg/Public_Transport/Analysis/CFL|information]] in OSM-Wiki.
+
+== Note
+
+- For the analysis, 'network' is expected as
+-
+- * "CFL"                           short form, oder
+-
+- * "Chemins de Fer Luxembourgeois"  long form, or
+-
+- * empty string, i.e. not set
+-
+#
+#ref;type;comment;from;to;operator
+
+== Buslinen CFL
+
+Bus;bus;GTFS route_id=2:C82---:Bus;Luxembourg, Gare Centrale;Mexy, Lorraine;;
+CFB;bus;GTFS route_id=2:C82---:CFB;Luxembourg, Gare Centrale;Mexy, Lorraine;;
+
+== Züge CFL
+
+IC;train;GTFS route_id=2:C82---:IC100;Luxembourg, Gare Centrale;Liers;;
+IC;train;GTFS route_id=2:C82---:IC10100;Ettelbruck, Gare;Luxembourg, Gare Centrale;;
+IC;train;GTFS route_id=2:C82---:IC2100;Luxembourg, Gare Centrale;Namur, Gare;;
+IC;train;GTFS route_id=2:C82---:IC4600;Luxembourg, Gare Centrale;Arlon, Gare;;
+IC;train;GTFS route_id=2:C82---:IC7600;Luxembourg, Gare Centrale;Midi, Gare;;
+IC;train;GTFS route_id=2:C88---:IC100;Gouvy, Gare;Luxembourg, Gare Centrale;;
+IC;train;GTFS route_id=2:C88---:IC17600;Arlon, Gare;Luxembourg, Gare Centrale;;
+IC;train;GTFS route_id=2:C88---:IC2100;Arlon, Gare;Luxembourg, Gare Centrale;;
+IC;train;GTFS route_id=2:C88---:IC4600;Arlon, Gare;Luxembourg, Gare Centrale;;
+IC;train;GTFS route_id=2:C88---:IC7600;Arlon, Gare;Luxembourg, Gare Centrale;;
+RB;train;GTFS route_id=2:C80---:RB5100;Igel;Luxembourg, Gare Centrale;;
+RB;train;GTFS route_id=2:C82---:RB10700;Pétange, Gare;Bettembourg, Gare;;
+RB;train;GTFS route_id=2:C82---:RB13500;Luxembourg, Gare Centrale;Mersch, Gare;;
+RB;train;GTFS route_id=2:C82---:RB13600;Ettelbruck, Gare;Luxembourg, Gare Centrale;;
+RB;train;GTFS route_id=2:C82---:RB13700;Luxembourg, Gare Centrale;Mersch, Gare;;
+RB;train;GTFS route_id=2:C82---:RB16700;Bettembourg, Gare;Rodange, Gare;;
+RB;train;GTFS route_id=2:C82---:RB16800;Bettembourg, Gare;Pétange, Gare;;
+RB;train;GTFS route_id=2:C82---:RB17000;Luxembourg, Gare Centrale;Wasserbillig, Gare;;
+RB;train;GTFS route_id=2:C82---:RB1700;Kautenbach, Op der Gare;Wiltz, Gare;;
+RB;train;GTFS route_id=2:C82---:RB1800;Wiltz, Gare;Kautenbach, Op der Gare;;
+RB;train;GTFS route_id=2:C82---:RB3500;Ettelbruck, Gare;Luxembourg, Gare Centrale;;
+RB;train;GTFS route_id=2:C82---:RB3600;Diekirch, Gare;Luxembourg, Gare Centrale;;
+RB;train;GTFS route_id=2:C82---:RB3700;Luxembourg, Gare Centrale;Troisvierges, Gare;;
+RB;train;GTFS route_id=2:C82---:RB4400;Wasserbillig, Gare;Luxembourg, Gare Centrale;;
+RB;train;GTFS route_id=2:C82---:RB4700;Luxembourg, Gare Centrale;Athus, Gare;;
+RB;train;GTFS route_id=2:C82---:RB4800;Wasserbillig, Gare;Luxembourg, Gare Centrale;;
+RB;train;GTFS route_id=2:C82---:RB5000;Luxembourg, Gare Centrale;Athus, Gare;;
+RB;train;GTFS route_id=2:C82---:RB5100;Trier, Hauptbahnhof;Luxembourg, Gare Centrale;;
+RB;train;GTFS route_id=2:C82---:RB5600;Luxembourg, Gare Centrale;Kleinbettingen, Gare;;
+RB;train;GTFS route_id=2:C82---:RB5700;Kleinbettingen, Gare;Luxembourg, Gare Centrale;;
+RB;train;GTFS route_id=2:C82---:RB5800;Luxembourg, Gare Centrale;Arlon, Gare;;
+RB;train;GTFS route_id=2:C82---:RB5900;Luxembourg, Gare Centrale;Arlon, Gare;;
+RB;train;GTFS route_id=2:C82---:RB6000;Dudelange, Gare;Bettembourg, Gare;;
+RB;train;GTFS route_id=2:C82---:RB6100;Volmerange;Bettembourg, Gare;;
+RB;train;GTFS route_id=2:C82---:RB6200;Rumelange, Gare;Noertzange, Gare;;
+RB;train;GTFS route_id=2:C82---:RB6400;Audun;Esch/Alzette, Gare;;
+RB;train;GTFS route_id=2:C82---:RB6700;Luxembourg, Gare Centrale;Rodange, Gare;;
+RB;train;GTFS route_id=2:C82---:RB6800;Pétange, Gare;Luxembourg, Gare Centrale;;
+RB;train;GTFS route_id=2:C82---:RB700;Pétange, Gare;Wasserbillig, Gare;;
+RB;train;GTFS route_id=2:C82---:RB8600;Rodange, Gare;Virton;;
+RB;train;GTFS route_id=2:C88---:RB4700;Athus, Gare;Luxembourg, Gare Centrale;;
+RB;train;GTFS route_id=2:C88---:RB5000;Athus, Gare;Luxembourg, Gare Centrale;;
+RB;train;GTFS route_id=2:C88---:RB5800;Arlon, Gare;Luxembourg, Gare Centrale;;
+RB;train;GTFS route_id=2:C88---:RB5900;Arlon, Gare;Luxembourg, Gare Centrale;;
+RB;train;GTFS route_id=2:C88---:RB7600;Arlon, Gare;Luxembourg, Gare Centrale;;
+RE;train;GTFS route_id=2:C80---:RE5100;Remagen;Luxembourg, Gare Centrale;;
+RE;train;GTFS route_id=2:C82---:RE10400;Esch/Alzette, Gare;Ettelbruck, Gare;;
+RE;train;GTFS route_id=2:C82---:RE13700;Luxembourg, Gare Centrale;Ettelbruck, Gare;;
+RE;train;GTFS route_id=2:C82---:RE13800;Ettelbruck, Gare;Luxembourg, Gare Centrale;;
+RE;train;GTFS route_id=2:C82---:RE16300;Esch/Alzette, Gare;Bettembourg, Gare;;
+RE;train;GTFS route_id=2:C82---:RE16900;Bettembourg, Gare;Rodange, Gare;;
+RE;train;GTFS route_id=2:C82---:RE17000;Luxembourg, Gare Centrale;Usines;;
+RE;train;GTFS route_id=2:C82---:RE1700;Kautenbach, Op der Gare;Wiltz, Gare;;
+RE;train;GTFS route_id=2:C82---:RE17300;Oetrange, Gare;Luxembourg, Gare Centrale;;
+RE;train;GTFS route_id=2:C82---:RE17600;Ettelbruck, Gare;Esch/Alzette, Gare;;
+RE;train;GTFS route_id=2:C82---:RE1800;Wiltz, Gare;Kautenbach, Op der Gare;;
+RE;train;GTFS route_id=2:C82---:RE18600;Ettelbruck, Gare;Luxembourg, Gare Centrale;;
+RE;train;GTFS route_id=2:C82---:RE3700;Troisvierges, Gare;Luxembourg, Gare Centrale;;
+RE;train;GTFS route_id=2:C82---:RE3800;Troisvierges, Gare;Luxembourg, Gare Centrale;;
+RE;train;GTFS route_id=2:C82---:RE400;Rodange, Gare;Troisvierges, Gare;;
+RE;train;GTFS route_id=2:C82---:RE4600;Luxembourg, Gare Centrale;Arlon, Gare;;
+RE;train;GTFS route_id=2:C82---:RE4800;Luxembourg, Gare Centrale;Wasserbillig, Gare;;
+RE;train;GTFS route_id=2:C82---:RE5100;Luxembourg, Gare Centrale;Trier, Hauptbahnhof;;
+RE;train;GTFS route_id=2:C82---:RE6300;Esch/Alzette, Gare;Luxembourg, Gare Centrale;;
+RE;train;GTFS route_id=2:C82---:RE6500;Volmerange;Luxembourg, Gare Centrale;;
+RE;train;GTFS route_id=2:C82---:RE6900;Luxembourg, Gare Centrale;Rodange, Gare;;
+RE;train;GTFS route_id=2:C82---:RE7400;Luxembourg, Gare Centrale;Rodange, Gare;;
+RE;train;GTFS route_id=2:C82---:RE8600;Luxembourg, Gare Centrale;Arlon, Gare;;
+RE;train;GTFS route_id=2:C82---:RE86500;Luxembourg, Gare Centrale;Longwy, Gare;;
+RE;train;GTFS route_id=2:C87---:RE86500;Longwy, Gare;Luxembourg, Gare Centrale;;
+RE;train;GTFS route_id=2:C88---:RE2100;Arlon, Gare;Luxembourg, Gare Centrale;;
+RE;train;GTFS route_id=2:C88---:RE4600;Arlon, Gare;Luxembourg, Gare Centrale;;
+RE;train;GTFS route_id=2:C88---:RE7600;Arlon, Gare;Luxembourg, Gare Centrale;;
+RE;train;GTFS route_id=2:C88---:RE8600;Gouvy, Gare;Luxembourg, Gare Centrale;;
+TER;train;GTFS route_id=2:C82---:TER88500;Luxembourg, Gare Centrale;Nancy, Ville;;
+TER;train;GTFS route_id=2:C82---:TER88600;Luxembourg, Gare Centrale;Nancy, Ville;;
+TER;train;GTFS route_id=2:C82---:TER88700;Luxembourg, Gare Centrale;Thionville, Gare;;
+TER;train;GTFS route_id=2:C82---:TER88800;Luxembourg, Gare Centrale;Thionville, Gare;;
+TER;train;GTFS route_id=2:C87---:TER88500;Thionville, Gare;Luxembourg, Gare Centrale;;
+TER;train;GTFS route_id=2:C87---:TER88700;Thionville, Gare;Bettembourg, Gare;;
+TER;train;GTFS route_id=2:C87---:TER88800;Thionville, Gare;Luxembourg, Gare Centrale;;
+TGV;train;GTFS route_id=2:C82---:TGV2800;Bettembourg, Gare;Ville;;
+TGV;train;GTFS route_id=2:C82---:TGV9800;Bettembourg, Gare;Thionville, Gare;;
+TGV;train;GTFS route_id=2:C87---:TGV2800;Thionville, Gare;Luxembourg, Gare Centrale;;
+TGV;train;GTFS route_id=2:C87---:TGV9800;Thionville, Gare;Luxembourg, Gare Centrale;;
+
+</pre>
