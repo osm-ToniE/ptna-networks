@@ -17,7 +17,7 @@ ANALYSIS_PAGE="WikiProject_Luxembourg/Public_Transport/Analysis/CFL"
 ANALYSIS_TALK="Talk:WikiProject_Luxembourg/Public_Transport/Analysis/CFL"
 WIKI_ROUTES_PAGE="WikiProject_Luxembourg/Public_Transport/Analysis/LU-CFL-Routes"
 
-ANALYSIS_OPTIONS="--check-access --check-bus-stop --check-platform --check-roundabouts --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --expect-network-short"
+ANALYSIS_OPTIONS="--check-access --check-bus-stop --check-platform --check-roundabouts --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --expect-network-short"
 
 # --language=en
 # --expect-network-long
