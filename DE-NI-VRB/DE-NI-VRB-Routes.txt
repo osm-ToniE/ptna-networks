@@ -1,0 +1,132 @@
+<pre>
+#
+# Formatierung: die Formatierung lehnt sich ans Wiki an.
+#
+# Links: [[...|...]] sind (wie im OSM-Wiki) interne Verweise ins OSM-Wiki
+#        [... ...] sind (wie im OSM-Wiki) externe Verweise ins Internet
+#
+# Überschriften beginnen mit '=', '==', '===', '====', ... am Anfang einer Zeile
+#
+# Einfacher Text beginnt mit '-' am Anfang einer Zeile.
+#     Einfacher Text darf überall stehen.
+#     Ein einfaches '-' am Anfang der Zeile gefolgt von 'nichts':
+#     - wenn davor einfacher Text stand wird ein Zeilenumbruch erzeugt und das bisher ausgegebenen in einen Paragraphen <p> ... </p> gepackt
+#     - wenn vorher kein einfacher Text stand bzw. ein Zeilenumbruch erzeugt wurde, so wird eine Leerzeile erzeugt mit Hilfe von <p>&amp;nbsp;</p>
+#
+# !!!Text mit gelbem Hintergrund!!! in einfachem Text oder Überschriften
+# '''''Text mit dicken, kursiven Buchstaben''''' in einfachem Text oder Überschriften
+# '''Text mit dicken Buchstaben''' in einfachem Text oder Überschriften
+# ''Text mit kursiven Buchstaben'' in einfachem Text oder Überschriften
+#
+# Kommentare beginnen mit '#' am Anfang einer Zeile. Kommentare mittendrin werden nicht erkannt, d.h. '#' darf innerhalb von Text vorkommen.
+#
+# Format der Datei: UTF-8
+#
+#
+# Definition von Linieninformationen: Inhalt im CSV-Format
+#
+# ref;type;comment;from;to;operator
+#
+# - ref       == tag 'ref' von route oder route_master
+#                250            definiert, dass hier Linien mit 'ref'='250' erwartet wird
+#                250|250a|250b  definiert, dass hier Linien mit 'ref'='250' und 'ref'='250a' und 'ref'='250b' zulässig sind - ob das nach PTv1/PTv2 erlaubt ist, ist eine andere Sache
+# - type      == inhalt des tags 'route' bzw. 'route_master'
+# - comment   == kann Kommentar enthalten wie; Ruftaxi, Bus, Expressbus, ...  wird nicht ausgewertet, lediglich ausgegeben
+#                !Text mit gelbem Hintergrund! im comment (umgeben von einfachem !)
+# - from      == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
+# - to        == wird bei mehreren Linie mit identischem ref, type und operator zur Differenzierung herangezogen
+# - operator  == wird bei mehreren Linie mit identischem ref und type Differenzierung herangezogen
+#                Der Wert von 'operator' darf ';' enthalten
+#
+
+
+
+= Überblick über die ÖPNV-Linien des Verkehrsverbund Region Braunschweig
+
+- Verweis auf die Datei mit den [[Verkehrsverbund_Region_Braunschweig/Analyse/DE-NI-VRB-Routes|VRB Linien]] im Wiki.
+- Verweis auf mehr [[Talk:Verkehrsverbund_Region_Braunschweig/Analyse|Informationen]] im Wiki.
+
+== Hinweis
+- Grunddaten Stand 24.08.2019
+-
+- Bei der Analyse ist 'network' derzeit entweder
+-
+- * "VRB" (Kurzform), oder
+-
+- * "Verkehrsverbund Region Braunschweig", bzw. "Verbundtarif Region Braunschweig" (ausgeschriebene Form, wobei die letztere lediglich den Tarif des Verbundes beschreibt und eigentlich nicht verwendet werden sollte), oder
+-
+- * leer, d.h. nicht gesetzt
+-
+#
+#ref;type;comment;from;to;operator
+
+== RB-Eisenbahn
+
+== RE-Eisenbahn
+
+== Tram
+=== Stadt Braunschweig
+1;tram;;Wenden;Stöckheim;Braunschweiger Verkehrs-GmbH
+2;tram;;Heidberg;Siegfriedviertel;Braunschweiger Verkehrs-GmbH
+3;tram;;Weststadt Weserstraße;Volkmarode;Braunschweiger Verkehrs-GmbH
+4;tram;;Helmstedter Straße;Radeklint;Braunschweiger Verkehrs-GmbH
+5;tram;;Broitzem;Hauptbahnhof;Braunschweiger Verkehrs-GmbH
+
+== Bus
+=== Landkreis Gifhorn
+#
+=== Stadt Wolfsburg
+#
+=== Landkreis Helmstedt
+#
+=== Stadt Braunschweig
+411;bus;;Lamme;Mascherode;Braunschweiger Verkehrs-GmbH
+412;bus;;Helmstedter Straße;Südstadt;Braunschweiger Verkehrs-GmbH
+413;bus;;Leiferde;Bevenrode;Braunschweiger Verkehrs-GmbH
+414;bus;;Wenden;Stadion;Braunschweiger Verkehrs-GmbH
+416;bus;;Völkenrode;Kralenriede;Braunschweiger Verkehrs-GmbH
+417;bus;;Hondelage;Volkmarode;Braunschweiger Verkehrs-GmbH
+418;bus;;Lamme;Riddagshausen;Braunschweiger Verkehrs-GmbH
+419;bus;;Hauptbahnhof;Hauptbahnhof;Braunschweiger Verkehrs-GmbH
+420;bus;;BS Rathaus;WF Bahnhof;Braunschweiger Verkehrs-GmbH
+422;bus;;Lehndorf;Bebelhof;Braunschweiger Verkehrs-GmbH
+424;bus;;Rühme;Essenrode;Braunschweiger Verkehrs-GmbH
+426;bus;;Hamburger Straße;Flughafen;Braunschweiger Verkehrs-GmbH
+427;bus;;Essehof;Volkmarode;Braunschweiger Verkehrs-GmbH
+429;bus;;Hauptbahnhof;Hauptbahnhof;Braunschweiger Verkehrs-GmbH
+431;bus;;Hauptbahnhof;Helmstedter Straße;Braunschweiger Verkehrs-GmbH
+433;bus;;Völkenrode;Hondelage;Braunschweiger Verkehrs-GmbH
+434;bus;;Wenden;Lagesbüttel;Braunschweiger Verkehrs-GmbH
+435;bus;;Donauknoten;Messegelände Nordeingang;Braunschweiger Verkehrs-GmbH
+436;bus;;Hauptbahnhof;Flughafen;Braunschweiger Verkehrs-GmbH
+437;bus;;Volkmarode;Cremlingen;Braunschweiger Verkehrs-GmbH
+442;bus;;Helmstedter Straße;Melverode (- Stöckheim);Braunschweiger Verkehrs-GmbH
+443;bus;;Donauknoten;Querum;Braunschweiger Verkehrs-GmbH
+445;bus;;Lengede;Donauknoten;Braunschweiger Verkehrs-GmbH
+450;bus;;Vechelde;Rathaus;Braunschweiger Verkehrs-GmbH
+452;bus;;Helmstedter Straße;Bornum;Braunschweiger Verkehrs-GmbH
+454;bus;;Stadion;Schwarzer Berg;Braunschweiger Verkehrs-GmbH
+455;bus;;Geitelde;Donauknoten;Braunschweiger Verkehrs-GmbH
+461;bus;;PTB;Hauptbahnhof;Braunschweiger Verkehrs-GmbH
+464;bus;;Rühme;Volkmarode;Braunschweiger Verkehrs-GmbH
+465;bus;;Broitzem;Rüningen;Braunschweiger Verkehrs-GmbH
+471;bus;Anruf-Linien-Taxi;Klinikum Salzdahlumer Straße;Jägersruh;Braunschweiger Verkehrs-GmbH
+480;bus;;Groß Schwülper;Rathaus;Braunschweiger Verkehrs-GmbH
+481;bus;;Leiferde;Stöckheim;Braunschweiger Verkehrs-GmbH
+482;bus;;Hauptbahnhof;Braunschweiger Verkehrs-GmbH;Braunschweiger Verkehrs-GmbH
+484;bus;;Groß Schwülper;Rühme;Braunschweiger Verkehrs-GmbH
+485;bus;;Broitzem;Rüningen;Braunschweiger Verkehrs-GmbH
+493;bus;;Rathaus;Neuerkerode;Braunschweiger Verkehrs-GmbH
+#
+=== Landkreis Peine
+560;bus;;Wipshausen;Rathaus;Braunschweiger Verkehrs-GmbH
+566;bus;;Zweidorf;Vechelde;Braunschweiger Verkehrs-GmbH
+#
+=== Stadt Salzgitter
+#
+=== Landkreis Wolfenbüttel
+#
+=== Landkreis Goslar
+#
+
+</pre>
