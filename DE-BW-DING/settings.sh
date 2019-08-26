@@ -21,7 +21,6 @@ ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name --che
 # --expect-network-short
 # --expect-network-short-for=
 # --expect-network-long-for=
-# --relaxed-begin-end-for=
 
 # http://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation%5Bboundary%3Dadministrative%5D%5Badmin_level%3D6%5D%5Bname~%27(Ulm%7CLandkreis%20Sigmaringen%7CLandkreis%20Neu-Ulm%7CLandkreis%20Biberach%7CAlb-Donau-Kreis%7CLandkreis%20Göppingen%7CLandkreis%20Heidenheim%7CLandkreis%20Ravensburg%7CLandkreis%20Reutlingen)%27%5D%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B
 

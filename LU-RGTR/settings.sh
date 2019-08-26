@@ -17,11 +17,10 @@ ANALYSIS_PAGE="WikiProject_Luxembourg/Public_Transport/Analysis/RGTR"
 ANALYSIS_TALK="Talk:WikiProject_Luxembourg/Public_Transport/Analysis/RGTR"
 WIKI_ROUTES_PAGE="WikiProject_Luxembourg/Public_Transport/Analysis/LU-RGTR-Routes"
 
-ANALYSIS_OPTIONS="--check-access --check-bus-stop --check-platform --check-roundabouts --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --expect-network-short"
+ANALYSIS_OPTIONS="--check-access --check-bus-stop --check-platform --check-roundabouts --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --expect-network-short --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --language=en
 # --expect-network-long
 # --expect-network-short-for=
 # --expect-network-long-for=
-# --relaxed-begin-end-for=
 

@@ -14,12 +14,10 @@ ANALYSIS_PAGE="Kassel/Transportation/Analyse"
 ANALYSIS_TALK="Talk:Kassel/Transportation/Analyse"
 WIKI_ROUTES_PAGE="Kassel/Transportation/Analyse/DE-HE-NVV-Linien"
 
-ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --expect-network-short --ptv1-compatibility=allow"
+ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --expect-network-short --ptv1-compatibility=allow --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
-# --max-error=
 # --check-bus-stop 
 # --expect-network-long
 # --expect-network-short-for=
 # --expect-network-long-for=
-# --relaxed-begin-end-for=
 

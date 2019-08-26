@@ -14,11 +14,11 @@ ANALYSIS_PAGE="Mittelschwaben/Transportation/Analyse"
 ANALYSIS_TALK="Talk:Mittelschwaben/Transportation/Analyse"
 WIKI_ROUTES_PAGE="Mittelschwaben/Transportation/VVM-Linien-gesamt"
 
-ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=allow --positive-notes --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=allow --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --check-bus-stop 
 # --expect-network-long
 # --expect-network-short
 # --expect-network-short-for=
 # --expect-network-long-for=
-# --relaxed-begin-end-for=
+

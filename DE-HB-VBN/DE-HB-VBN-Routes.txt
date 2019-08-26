@@ -52,34 +52,43 @@
 1S;tram;HB Straßenbahn;Tenever;Hauptbahnhof;BSAG
 2;tram;HB Straßenbahn;Gröpelingen;Sebaldsbrück;BSAG
 3;tram;HB Straßenbahn;Gröpelingen;Weser­wehr;BSAG
-3S;tram;HB Straßenbahn;Gröpelingen;Humboldtstraße;BSAG
 4;tram;HB Straßenbahn;Arsten;Lilienthal-Falkenberg;BSAG
 4S;tram;HB Straßenbahn;Lilienthal-Falkenberg;Arsten;BSAG
+5;tram;HB Straßenbahn;Gröpelingen;Bürgerpark;BSAG
 6;tram;HB Straßenbahn;Flughafen;Universität;BSAG
 8;tram;HB Straßenbahn;Huchting;Kulenkampffallee;BSAG
 10;tram;HB Straßenbahn;Gröpelingen;Sebaldsbrück;BSAG
 == Bus
 
 === Busse xx
-20;bus;HB Stadt;Hohweg;Hauptbahnhof;BSAG
+20;bus;HB Stadt;Hohweg;Überseestadt;BSAG
+20;bus;VLN;Hoya;Nienburg;VGH
 21;bus;HB Stadt;Mercedes-Benz;Leher Feld;BSAG
+21;bus;VLN;Harbergen/Holte;Nienburg;VGH
 22;bus;HB Stadt;Kattenturm;Universität/Lehe;BSAG
 24;bus;HB Stadt;Rablinghausen;Neue Vahr Nord;BSAG
 25;bus;HB Stadt;Weidedamm;Osterholz;BSAG
-26;bus;HB Stadt;Huckelriede;Walle;BSAG
+26;bus;HB Stadt;Huckelriede;Überseestadt;BSAG
+26;bus;VLN;Hoya;Hoya;VGH
 27;bus;HB Stadt;Huckelriede;Findorff;BSAG
-28;bus;HB Stadt;Universität;Walle;BSAG
+27;bus;VLN;Hoya;Hoya;VGH
+28;bus;HB Stadt;Universität;Überseestadt;BSAG
+28;bus;VLN;Hoya;Wechold;VGH
 29;bus;HB Stadt;Kattenturm;Neue Vahr Nord;BSAG
+30;bus;VLN;Hoya;Nienburg;VGH
 31;bus;HB Stadt;Borgfeld-Ost;Borgfeld-Ost;BSAG
+32;bus;VLN;Hoya;Hämelhausen;VGH
 33;bus;HB Stadt;Horn;Sebaldsbrück;BSAG
+33;bus;VLN;Hoya;Hoya;VGH
 34;bus;HB Stadt;Sebaldsbrück;Horn;BSAG
-37;bus;HB Stadt;Sebaldsbrück;Kuhkamp;BSAG
-38;bus;HB Stadt;Osterholz/Weserpark;Bf Mahndorf;BSAG
+34;bus;VLN;Eystrup;Heemsen;VLN
+37;bus;HB Stadt;Sebaldsbrück;Bf Mahndorf;BSAG
+38;bus;HB Stadt;Weserpark Süd;Bf Mahndorf;BSAG
 39;bus;HB Stadt;Weserpark Süd;Bf Mahndorf;BSAG
-40;bus;HB Stadt;Weserwehr;Osterholz/Weserpark;BSAG
+40;bus;HB Stadt;Weserwehr;Bf Mahndorf;BSAG
 41;bus;HB Stadt;Weserwehr;Bf Mahndorf;BSAG
-42;bus;HB Stadt;Bf Sebaldsbrück;Gewerbepark Hansalinie;BSAG
-44;bus;HB Stadt;Sebaldsbrück;Mahndorf;BSAG
+42;bus;HB Stadt;Weserwehr;Gewerbepark Hansalinie;BSAG
+44;bus;HB Stadt;Sebaldsbrück;Bf Mahndorf;BSAG
 51;bus;HB Stadt;Huckelriede;Kattenturm;BSAG
 52;bus;HB Stadt;Huchting;Kattenturm;BSAG
 53;bus;HB Stadt;Huckelriede;Brinkum-Nord;BSAG
@@ -89,13 +98,11 @@
 61;bus;HB Stadt;Rablinghausen/Stromer Str.;Sandhausen;BSAG
 62;bus;HB Stadt;Rablinghausen/Stromer Str.;Hasenbüren;BSAG
 63;bus;HB Stadt;Hauptbahnhof;Hauptbahnhof;BSAG
-65;bus;HB Stadt;Rablinghausen/ Stromer Str.;Rablinghausen/ Stromer Str.;BSAG
-66;bus;HB Stadt;Rablinghausen;Rablinghausen;BSAG
-77;bus;HB Stadt;Vegesack;Bockhorn;BSAG
+65;bus;HB Stadt;Rablinghausen/Stromer Str.;Rablinghausen/Stromer Str.;BSAG
+66;bus;HB Stadt;Rablinghausen/Stromer Str.;Rablinghausen/Stromer Str.;BSAG
 80;bus;HB Stadt;Bf Oslebshausen;Gröpelingen;BSAG
 81;bus;HB Stadt;Gröpelingen;Industriehäfen;BSAG
 82;bus;HB Stadt;Gröpelingen;Gröpelingen;BSAG
-87;bus;HB Stadt;Vegesack;Beckedorf;BSAG
 90E;bus;HB Stadt;Vegesack;Neuenkirchner Weg/ SZ Sandwehen;BSAG
 90;bus;HB Stadt;Gröpelingen;Neuenkirchen;BSAG
 91;bus;HB Stadt;Rönnebeck;Gröpelingen;BSAG
@@ -103,7 +110,7 @@
 93;bus;HB Stadt;Gröpelingen;Marßel;BSAG
 94;bus;HB Stadt;Marßel;Schwanewede;BSAG
 95;bus;HB Stadt;Gröpelingen;Bockhorn;BSAG
-96;bus;HB Stadt;Bf Blumenthal;Blumenthal;BSAG
+96;bus;HB Stadt;Bf Blumenthal;Bf Blumenthal;BSAG
 96E;bus;HB Stadt;Bf Blumenthal;Neuenkirchener Weg;BSAG
 98;bus;HB Stadt;Vegesack;Vegesack;BSAG
 

@@ -598,7 +598,7 @@ RE4;train;;Jüterbog|Berlin-Spandau;Rathenow;Ostdeutsche Eisenbahn Gesellschaft
 RE4;train;;Lübeck|Bützow;Szczecin Główny|Ueckermünde Stadthafen;DB Regio AG
 RE4;train;;Bremen;Hamburg;Metronom Eisenbahngesellschaft
 RE4;train;Schwarzwaldbahn;;;DB Regio
-RE 4;train;;;;
+RE 4;train;;Halle (Saale);Goslar;Abellio Rail Mitteldeutschland GmbH
 RE5;train;Rhein-Express;Koblenz;Wesel;DB Regio NRW
 RE5;train;;Rostock|Stralsund;Elsterwerda;DB Regio AG
 RE5;train;;Heidelberg Hbf;Stuttgart Hbf;DB Regio
@@ -662,7 +662,7 @@ RE 20;train;;Magdeburg;Uelzen;DB Regio Sachsen-Anhalt
 
 ==== RE21 .. RE30
 
-RE 21;train;;Magdeburg;Goslar;HEX
+RE 21;train;;Magdeburg;Goslar;Abellio Rail Mitteldeutschland GmbH
 RE22;train;Eifel-Express;Köln;Gerolstein;DB Regio NRW
 RE25;train;Lahntal-Express;Gießen;Koblenz;DB Regio Südwest
 RE29;train;euregioAIXpress;Aachen;Spa-Géronstère;NMBS/SNCB

@@ -14,12 +14,11 @@ ANALYSIS_PAGE="Verkehrsverbund_Rhein-Neckar/Analyse"
 ANALYSIS_TALK="Talk:Verkehrsverbund_Rhein-Neckar/Analyse"
 WIKI_ROUTES_PAGE="Verkehrsverbund_Rhein-Neckar/Analyse/DE-RP-VRN-Linien"
 
-ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-stop-position --check-sequence --check-osm-separator --check-osm-separator --check-motorway-link --positive-notes --check-name --multiple-ref-type-entries=analyze --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-stop-position --check-sequence --check-osm-separator --check-osm-separator --check-motorway-link --positive-notes --check-name-relaxed --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --check-bus-stop 
 # --expect-network-long
 # --expect-network-short
 # --expect-network-short-for=
 # --expect-network-long-for=
-# --relaxed-begin-end-for=
-# 
+

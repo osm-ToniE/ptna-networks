@@ -14,12 +14,11 @@ ANALYSIS_PAGE="Bremen/Transport/Analyse"
 ANALYSIS_TALK="Talk:Bremen/Transport/Analyse"
 WIKI_ROUTES_PAGE="Bremen/Transport/Analyse/DE-HB-VBN-Linien"
 
-ANALYSIS_OPTIONS="--language=de --max-error=10 --positive-notes --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=de --max-error=10 --positive-notes --check-access --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --check-bus-stop 
 # --expect-network-long
 # --expect-network-short
 # --expect-network-short-for=
 # --expect-network-long-for=
-# --relaxed-begin-end-for=
 

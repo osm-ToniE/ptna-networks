@@ -63,12 +63,12 @@
 == RE-Eisenbahn
 RE 4;train;;Goslar;Halle (Saale);Abellio Rail Mitteldeutschland GmbH
 RE 6;train;;Wolfsburg;Magdeburg;Abellio Rail Mitteldeutschland GmbH
-RE 10;train;;Bad Harzburg;Hannover;erixx GmbH
+RE10;train;;Bad Harzburg;Hannover;erixx GmbH
 RE 21;train;;Goslar;Magdeburg;Abellio Rail Mitteldeutschland GmbH
 RE 30;train;;Wolfsburg;Hannover;Metronom Eisenbahngesellschaft mbH
-RE 50;train;;Wolfsburg;Hildesheim;Metronom Eisenbahngesellschaft mbH
-RE 60;train;;Braunschweig;Rheine;WestfalenBahn GmbH
-RE 70;train;;Braunschweig;Bielefeld;WestfalenBahn GmbH
+RE50;train;;Wolfsburg;Hildesheim;Metronom Eisenbahngesellschaft mbH
+RE60;train;;Braunschweig;Rheine;WestfalenBahn GmbH
+RE70;train;;Braunschweig;Bielefeld;WestfalenBahn GmbH
 
 == RB-Eisenbahn
 RB 35;train;;Wolfsburg;Stendal;Abellio Rail Mitteldeutschland GmbH
@@ -76,10 +76,11 @@ RB 36;train;;Wolfsburg;Magdeburg;Abellio Rail Mitteldeutschland GmbH
 RB 40;train;;Braunschweig;Magdeburg;DB Regio Südost
 RB 42;train;;Braunschweig;Bad Harzburg;erixx GmbH
 RB 43;train;;Braunschweig;Goslar;erixx GmbH
-RB 44;train;;Braunschweig;Salzgitter-Lebenstedt;DB Regio Nord
+RB44;train;;Braunschweig;Salzgitter-Lebenstedt;DB Regio Nord
 RB 45;train;;Braunschweig;Schöppenstedt;DB Regio Nord
-RB 46;train;;Braunschweig;Herzberg;DB Regio Nord
-RB 47;train;;Braunschweig;Uelzen;erixx GmbH
+RB46;train;;Braunschweig;Herzberg;DB Regio Nord
+RB47;train;;Braunschweig;Uelzen;erixx GmbH
+RB48;train;;Braunschweig;Salzgitter-Lebenstedt;DB Regio Nord
 RB 82;train;;Bad Harzburg;Göttingen;DB Regio Nord
 
 == Tram
@@ -186,6 +187,34 @@ RB 82;train;;Bad Harzburg;Göttingen;DB Regio Nord
 566;bus;;Zweidorf;Vechelde;Braunschweiger Verkehrs-GmbH
 #
 === Stadt Salzgitter
+601;bus;Expressbus;Salzgitter-Lebenstedt;Braunschweig;KVG Braunschweig
+602;bus;;Braunschweig;Braunschweig;KVG Braunschweig
+603;bus;;Salzgitter-Bad;Braunschweig;KVG Braunschweig
+604;bus;;Salzgitter-Lebenstedt;Braunschweig;KVG Braunschweig
+606;bus;;Salzgitter-Lebenstedt;Baddeckenstedt;KVG Braunschweig
+607;bus;;Salzgitter-Lebenstedt;Klein Flöthe;KVG Braunschweig
+608;bus;;Salzgitter-Lebenstedt;Salzgitter-Lebenstedt;KVG Braunschweig
+609;bus;;Salzgitter-Lebenstedt;Salzgitter-Lebenstedt;KVG Braunschweig
+610;bus;Expressbus;Salzgitter-Lebenstedt;Salzgitter-Bad;KVG Braunschweig
+611;bus;;Salzgitter-Bad;Salzgitter-Hohenrode;KVG Braunschweig
+612;bus;;Salzgitter-Lebenstedt;Salzgitter-Bad;KVG Braunschweig
+613;bus;;Salzgitter-Lebenstedt;Salzgitter-Bad;KVG Braunschweig
+615;bus;;Salzgitter-Bad;Fachhochschule;KVG Braunschweig
+616;bus;;Salzgitter-Lebenstedt;Salzgitter-Fredenberg;KVG Braunschweig
+618;bus;;Salzgitter-Bad;Thermasolbad;KVG Braunschweig
+619;bus;;Salzgitter-Lebenstedt;Salzgitter-Lichtenberg;KVG Braunschweig
+620;bus;;Salzgitter-Thiede-Steterburg;Braunschweig;KVG Braunschweig
+621;bus;;Salzgitter-Lebenstedt;MAN/Alstom;KVG Braunschweig
+626;bus;;Salzgitter-Lebenstedt;Salzgitter AG;KVG Braunschweig
+627;bus;;Salzgitter-Lichtenberg;Salzgitter AG;KVG Braunschweig
+628;bus;;Salzgitter-Bad;Salzgitter AG;KVG Braunschweig
+630;bus;;Salzgitter-Lebenstedt;Wolfenbüttel;KVG Braunschweig
+631;bus;Expressbus;Salzgitter-Bad;Braunschweig;KVG Braunschweig
+640;bus;;Salzgitter-Lebenstedt;Lengede;KVG Braunschweig
+650;bus;;Salzgitter-Bad;Seesen;Harzbus
+656;bus;;Salzgitter-Bad;Baddeckenstedt;Regionalbus Braunschweig
+658;bus;;Groß Elbe;Berel;Regionalbus Braunschweig
+660;bus;;Baddeckenstedt;Salzgitter-Bad;Regionalbus Braunschweig
 #
 === Landkreis Wolfenbüttel
 710;bus;;Wolfenbüttel;Winnigstedt;KVG Braunschweig
@@ -225,5 +254,7 @@ RB 82;train;;Bad Harzburg;Göttingen;DB Regio Nord
 #
 === Landkreis Goslar
 #
+=== Angrenzende Verbünde
+34;bus;;(Hildesheim -) Wartjenstedt;Binder (- Holle);Regionalverkehr Hildesheim
 
 </pre>

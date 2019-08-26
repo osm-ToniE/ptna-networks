@@ -14,12 +14,11 @@ ANALYSIS_PAGE="München/Transportation/Analyse"
 ANALYSIS_TALK="Talk:München/Transportation/Analyse"
 WIKI_ROUTES_PAGE="München/Transportation/MVV-Linien-gesamt"
 
-ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --check-route-ref --multiple-ref-type-entries=analyze --coloured-sketchline --expect-network-long"
+ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --check-route-ref --multiple-ref-type-entries=analyze --coloured-sketchline --expect-network-long --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --check-bus-stop 
 # --positive-notes
 # --expect-network-short
 # --expect-network-short-for=
 # --expect-network-long-for=
-# --relaxed-begin-end-for=
 
