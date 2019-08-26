@@ -108,6 +108,7 @@ RE83;train;;;;DB Regio
 5;bus;;;;Stadtverkehr Lübeck GmbH
 5;bus;;;;Aktiv Bus
 5;bus;;;;Stadtverkehr Rendsburg
+5;bus;;;;Autokraft
 6;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
 6;bus;;;;Stadtverkehr Lübeck GmbH
 6;bus;;;;Stadtverkehr Rendsburg
