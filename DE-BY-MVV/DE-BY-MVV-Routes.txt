@@ -525,7 +525,7 @@ N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzing
 936;bus;;Gauting S;Fürstenried West U;Demmelmair GmbH & Co
 947;bus;;Gilching-Argelsried;Weßling S;Demmelmair GmbH & Co
 949;bus;;Gilching-Argelsried;Starnberg Nord S;Demmelmair GmbH & Co
-950;bus;;Herrsching S/Herrsching, Martinsweg;Starnberg Nord S/Oberalting;RVO/Geldhauser
+950;bus;;Herrsching;Starnberg Nord S;RVO/Geldhauser
 950V;bus;;Herrsching, Martinsweg;Oberalting;Geldhauser
 951;bus;;Starnberg Nord S;Herrsching S;Geldhauser/RVO
 955;bus;;Weßling S;Starnberg Nord S;Demmelmair GmbH & Co

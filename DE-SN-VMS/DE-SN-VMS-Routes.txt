@@ -76,7 +76,7 @@
 39;bus;Klaffenbach - Hutholz / Neukirchen;;;Chemnitzer Verkehrs-AG
 41;bus;Schönau - Reichenbrand - Grüna (- Hohenstein-Ernstthal);;;Chemnitzer Verkehrs-AG
 42;bus;Schönau - Rabenstein, Grünaer Straße;;;Chemnitzer Verkehrs-AG
-43|E43;bus;(Schösserholz -) Adelsberg - Rabenstein, Tierpark;;;Chemnitzer-Verkehrs-AG
+43;bus;(Schösserholz -) Adelsberg - Rabenstein, Tierpark;;;Chemnitzer-Verkehrs-AG
 46;bus;Wittgensdorf, Chemnitztal - Borna;;;Chemnitzer Verkehrs-AG
 51;bus;Zentralhaltestelle - Zeisigwald, Klinik Bethanien bzw. Yorckgebiet;;;Chemnitzer Verkehrs-AG
 52;bus;Hutholz - Chemnitzer Straße - Zentralhaltestelle;;;Chemnitzer Verkehrs-AG
@@ -85,14 +85,14 @@
 62;bus;Flemmingstraße - Betriebshof Adelsberg;;;Chemnitzer Verkehrs-AG
 63;bus;Borna - Ebersdorf;;;Chemnitzer Verkehrs-AG
 69;bus;Ebersdorf, Brettmühle - Bahnhof Hilbersdorf;;;Chemnitzer Verkehrs-AG
-72|E72;bus;Rottluff / Flemmingstraße - Diesterwegschule;;;Chemnitzer Verkehrs-AG
+72;bus;Rottluff - Diesterwegschule;;;Chemnitzer Verkehrs-AG
 73;bus;Altchemnitz - TU Erfenschlager Straße - TU Campus;;;Chemnitzer Verkehrs-AG
 76;bus;Eibenberg - Einsiedel - Altchemnitz;;;Chemnitzer Verkehrs-AG
 79;bus;Küchwald - Zentralhaltestelle;;;Chemnitzer Verkehrs-AG
-82;bus;TU Campus - Schlosschemnitz - Fraunhoferstraße - TU Campus;;;Chemnitzer Verkehrs-AG
-86|E86;bus;Niederwiesa - Euba - Chemnitz, Gablenzplatz;;;Chemnitzer Verkehrs-AG
-89;bus;Gablenz - Beutenberg - Dresdner Straße;;;Chemnitzer Verkehrs-AG
-93;bus;Neefepark - Hutholz;;;Chemnitzer Verkehrs-AG
+82;bus;TU Campus - Schlosschemnitz - TU Campus;;;Chemnitzer Verkehrs-AG
+86;bus;Gablenzplatz - Euba - Niederwiesa;;;Chemnitzer Verkehrs-AG
+89;bus;Betriebshof Adelsberg - Dresdner Straße;;;Chemnitzer Verkehrs-AG
+93;bus;Neefepark Nord - Hutholz;;;Chemnitzer Verkehrs-AG
 96;bus;Wittgensdorf, Kornweg - Röhrsdorf, Chemnitz Center;;;Chemnitzer Verkehrs-AG
 N11;bus;Zentralhaltestelle - Ebersdorf;;;Chemnitzer Verkehrs-AG
 N12;bus;Zentralhaltestelle - Yorckgebiet;;;Chemnitzer Verkehrs-AG
@@ -138,7 +138,7 @@ C;bus;Nachtbus: Hauptmarkt - Neumarkt - Weißenborn;Hauptmarkt;Weißenborn;SVZ
 == Kleiner Stadtverkehr
 
 === Annaberg-Buchholz
-A;bus;Barbara-Uthmann-Ring - Markt - Buchholz;Barbara-Uthmann-Ring;Buchholz;RVE
+A;bus;Barbara-Uthmann-Ring - Markt - Buchholz;Annaberg-Buchholz, Busbahnhof;Barbara-Uthmann-Ring;Annaberg-Buchholz, Busbahnhof;Regionalverkehr Erzgebirge
 B;bus;Frohnau - Obere Stadt;Frohnau;Obere Stadt;RVE
 C;bus;Markt - Herzog-Georg-Ring - Erzgebirgs-Center - Markt;Markt;Markt;RVE
 D;bus;Markt - B95/Am Kätplatz - Markt;Markt;Markt;RVE
@@ -519,7 +519,6 @@ RB 37;train;Gößnitz - Glauchau       ;;;EGB
 RB 45;train;Elsterwerda - Riesa - Chemnitz;;;MRB
 RB 80;train;Chemnitz - Flöha - Annaberg-Buchholz - Cranzahl - Vejprty;;;EGB
 RB 81;train;Chemnitz - Flöha - Pockau-Lengefeld - Olbernhau-Grünthal;;;EGB
-RB 89;train;Chemnitz - Thalheim - Aue;;;EGB
 RB 95;train;Zwickau - Aue - Johanngeorgenstadt;;;EGB
 RB 110;train;Leipzig - Grimma - Döbeln;;;MRB
 CB 523;train;Glauchau - Stollberg (Sachs);;;CBC
