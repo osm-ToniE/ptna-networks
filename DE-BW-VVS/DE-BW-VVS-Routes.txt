@@ -68,7 +68,7 @@ U29;light_rail;;Hauptbahnhof;Botnang;
 U34;light_rail;;Heslach Vogelrain;Vogelsang;
 
 #
-== S-Bahn/Zug
+== S-Bahn
 S1;train;;Kirchheim (T);Herrenberg;
 S2;train;;Schorndorf;Filderstadt;
 S3;train;;Backnang;Flughafen/Messe;
@@ -77,7 +77,15 @@ S5;train;;Bietigheim-Bissingen;Stuttgart;DB Regio
 S6;train;;Weil der Stadt;Stuttgart;
 S11;train;Stadionlinie;Neckarpark;Herrenberg;
 S60;train;;Böblingen;Stuttgart;
+
+#
+== Regional-Bahn
 R 11;train;Schusterbahn;Kornwestheim;Untertürkheim;
+R21;train;;Oberndorf;Schorndorf;
+R61;train;Strohgäubahn;Heimerdingen;Korntal;
+R72;train;Schönbuchbahn;Dettenhausen;Holzgerlingen;
+R81;train;;Oberlenningen;Kirchheim (T);
+R82;train;Tälesbahn;Neuffen;Nürtingen;
 
 #
 == Zahnradbahn, Seilbahn
@@ -559,14 +567,7 @@ N92;bus;;Filderstadt;Bernhausen Bf;
 816A;bus;Schülerverkehr;Bonlanden;Neuhausen;
 818A;bus;Schülerverkehr;Bonlanden;Musberg;
 826A;bus;Schülerverkehr;Leinfelden;Tübingen;
-#
-=== Schienenersatzverkehr
-R21E;bus;;Schienenersatzverkehr Schorndorf;Oberndorf;
-R72A;bus;Schienenersatzverkehr;Dettenhausen;Böblingen;
-R72E;bus;Schienenersatzverkehr;Böblingen;Dettenhausen / Holzgerlingen;
-S1E;bus;Schienenersatzverkehr;Bad Cannstatt;Esslingen;
-S61E;bus;Schienenersatzverkehr;Korntal;Hemmingen;
-S6E;bus;Ersatzverkehr;Feuerbach;Zuffenhausen;
+
 
 
 #
@@ -584,13 +585,8 @@ R4;train;;Heilbronn;Stuttgart;
 R5;train;;Pforzheim;Stuttgart;
 R7;train;;Stuttgart;Horb/Freudenstadt;
 R8;train;;Tübingen;Stuttgart;
-R21;train;;Oberndorf;Schorndorf;
-R61;train;;Heimerdingen;Korntal;
-R72;train;;Dettenhausen;Holzgerlingen;
-R73;train;;Plochingen;Herrenberg;
+R73;train;;Tübingen;Herrenberg;
 R74;train;;Herrenberg;Freudenstadt;
-R81;train;;Oberlenningen;Kirchheim (T);
-R82;train;;Neuffen;Nürtingen (Tälesbahn);
 R83;train;;Bad Urach;Reutlingen;
 #
 === Bus

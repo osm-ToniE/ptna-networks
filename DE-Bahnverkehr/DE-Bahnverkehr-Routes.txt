@@ -362,7 +362,7 @@ RB 35;train;Rheinhessenbahn;Bingen;Worms;DB Regio Mitte
 RB 35;train;;Wolfsburg Hbf;Stendal;DB Regio Südost
 RB 36;train;Ruhrort-Bahn;Diesburg-Ruhrort;Oberhausen;NordWestBahn
 RB36;train;;Königs Wusterhausen;Frankfurt (Oder);NEB Betriebsgesellschaft mbH
-RB 36;train;;Magdeburg;Wolfsburg;DB Regio Südost
+RB 36;train;;Magdeburg;Wolfsburg;Abellio Rail Mitteldeutschland GmbH
 RB37;train;Der Wedauer;Duisburg Hbf;Entenfang;DB Regio NRW
 RB37;train;;Uelzen;Bremen;erixx GmbH
 RB37;train;Hunsrück-Bahn;Emmelshausen;Boppard Süd;Rhenus Veniro

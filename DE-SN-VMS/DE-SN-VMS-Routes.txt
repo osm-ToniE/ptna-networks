@@ -138,19 +138,19 @@ C;bus;Nachtbus: Hauptmarkt - Neumarkt - Weißenborn;Hauptmarkt;Weißenborn;SVZ
 == Kleiner Stadtverkehr
 
 === Annaberg-Buchholz
-A;bus;Barbara-Uthmann-Ring - Markt - Buchholz;Annaberg-Buchholz, Busbahnhof;Barbara-Uthmann-Ring;Annaberg-Buchholz, Busbahnhof;Regionalverkehr Erzgebirge
-B;bus;Frohnau - Obere Stadt;Frohnau;Obere Stadt;RVE
-C;bus;Markt - Herzog-Georg-Ring - Erzgebirgs-Center - Markt;Markt;Markt;RVE
-D;bus;Markt - B95/Am Kätplatz - Markt;Markt;Markt;RVE
-E;bus;Stadtbus Buchholz;;;RVE
-F;bus;Cunersdorf - Buchholz;Cunersdorf;Buchholz;RVE
-G;bus;Markt - Cunersdorf;Markt;Cunersdorf;RVE
+A;bus;Barbara-Uthmann-Ring - Markt - Buchholz;Annaberg-Buchholz, Busbahnhof;Annaberg-Buchholz, Busbahnhof;Regionalverkehr Erzgebirge
+B;bus;Frohnau - Obere Stadt;Annaberg-Buchholz, Busbahnhof;Annaberg-Buchholz, Busbahnhof;Regionalverkehr Erzgebirge
+C;bus;Markt - Herzog-Georg-Ring - Erzgebirgs-Center - Markt;Annaberg-Buchholz, Markt;Annaberg-Buchholz, Markt;Regionalverkehr Erzgebirge
+D;bus;Markt - B95/Am Kätplatz - Markt;Markt;Markt;Regionalverkehr Erzgebirge
+E;bus;Stadtbus Buchholz;;;Regionalverkehr Erzgebirge
+F;bus;Cunersdorf - Buchholz;Cunersdorf;Buchholz;Regionalverkehr Erzgebirge
+G;bus;Markt - Cunersdorf;Markt;Cunersdorf;Regionalverkehr Erzgebirge
 
 === Aue
-A;bus;Postplatz - Zeller Berg - Postplatz;Aue, Postplatz;Aue, Postplatz;RVE
-B;bus;Postplatz - Eichert - Postplatz;Aue, Postplatz;Aue, Postplatz;RVE
-C;bus;Postplatz - Brünlasberg - Postplatz;Aue, Postplatz;Aue, Postplatz;RVE
-D;bus;Postplatz - Neudörfel - Postplatz;Aue, Postplatz;Aue, Postplatz;RVE
+A;bus;Postplatz - Zeller Berg - Postplatz;Aue, Postplatz;Aue, Postplatz;Regionalverkehr Erzgebirge
+B;bus;Postplatz - Eichert - Postplatz;Aue, Postplatz;Aue, Postplatz;Regionalverkehr Erzgebirge
+C;bus;Postplatz - Brünlasberg - Postplatz;Aue, Postplatz;Aue, Postplatz;Regionalverkehr Erzgebirge
+D;bus;Postplatz - Neudörfel - Postplatz;Aue, Postplatz;Aue, Postplatz;Regionalverkehr Erzgebirge
 
 === Burgstädt
 A;bus;Sportzentrum - Bahnhof - Friedhof - Heiersdorf;Sportzentrum;Heiersdorf;RBM
@@ -175,17 +175,17 @@ E;bus;Frankenberg, Süd - Lützelhöhe - Frankenberg, Süd;Frankenberg, Süd;Fra
 2;bus;Bahnhof - Ernst-Thälmann-Siedlung - Fritz-Heckert-Siedlung - Bahnhof;Hohenstein-Ernstthal, Bahnhof;Hohenstein-Ernstthal, Bahnhof;RVW
 
 === Kurort Oberwiesenthal
-A;bus;Fichtelberg-Plateau - Bahnhof - Sparingberg - Bahnhof - Fichtelberg-Plateau;Fichtelberg-Plateau;Fichtelberg-Plateau;RVE
+A;bus;Fichtelberg-Plateau - Bahnhof - Sparingberg - Bahnhof - Fichtelberg-Plateau;Fichtelberg-Plateau;Fichtelberg-Plateau;Regionalverkehr Erzgebirge
 
 === Limbach-Oberfrohna
 C1;bus;City-Bus Limbach-Oberfrohna;;;FRI
 C2;bus;City-Bus Limbach-Oberfrohna;;;FRI
 
 === Lößnitz
-A;bus;Neustadt - Markt - Ostsiedlung - Neustadt;Lößnitz, Neustadt;Lößnitz, Neustadt;RVE
+A;bus;Neustadt - Markt - Ostsiedlung - Neustadt;Lößnitz, Neustadt;Lößnitz, Neustadt;Regionalverkehr Erzgebirge
 
 === Marienberg
-A;bus;Markt - Mooshaide - Mühlberg - Markt - Gewerbegebiet;Marienberg, Markt;Marienberg, Gewerbegebiet;RVE
+A;bus;Markt - Mooshaide - Mühlberg - Markt - Gewerbegebiet;Marienberg, Markt;Marienberg, Gewerbegebiet;Regionalverkehr Erzgebirge
 B;bus;Markt - Dörfel - Gelobtland - Gebirge - Dörfel - Markt;Marienberg, Markt;Marienberg, Markt;KRM
 D;bus;Marienberg - Lauterbach - Pobershau - Marienberg;Marienberg;Marienberg;KRM
 E;bus;Marienberg - Gebirge - Pobershau - Zöblitz - Marienberg;Marienberg;Marienberg;KRM
@@ -200,8 +200,8 @@ F;bus;Baumwollspinnerei Wendeschleife - Busbahnhof - Kaufland - Bahnhof;Baumwoll
 R;bus;Rathausstraße - Bahnhof - Obere Lindenbergstraße - Rathausstraße;Rochlitz, Rathausstraße;Rochlitz, Rathausstraße;RBM
 
 === Schwarzenberg
-A;bus;Heide - Busbahnhof - Sonnenleithe - Busbahnhof - Heide;Schwarzenberg, Heide;Schwarzenberg, Heide;RVE
-B;bus;Busbahnhof - Wildenau - Neuwelt - Bermsgrün - Busbahnhof;Schwarzenberg, Busbahnhof;Schwarzenberg, Busbahnhof;RVE
+A;bus;Heide - Busbahnhof - Sonnenleithe - Busbahnhof - Heide;Schwarzenberg, Heide;Schwarzenberg, Heide;Regionalverkehr Erzgebirge
+B;bus;Busbahnhof - Wildenau - Neuwelt - Bermsgrün - Busbahnhof;Schwarzenberg, Busbahnhof;Schwarzenberg, Busbahnhof;Regionalverkehr Erzgebirge
 
 === Stollberg
 STL 1;bus;Stadtlinie 1;;;RVE

@@ -57,6 +57,6 @@
 
 == Tramlinen Luxtram
 
-T1;tram;GTFS route_id=5:LUTRAM:T1;Centre, Stäreplaz / Étoile;Kirchberg, Luxexpo (Arrêt Tram);;
+T1;tram;GTFS route_id=5:LUTRAM:T1;Centre, Stäreplaz / Étoile;Kirchberg, Luxexpo (Arrêt Tram);
 
 </pre>
