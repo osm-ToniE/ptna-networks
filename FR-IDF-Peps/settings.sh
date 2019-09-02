@@ -13,8 +13,8 @@ OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata=Q12753
 NETWORK_LONG=""
 NETWORK_SHORT="Pep's"
 
-ANALYSIS_PAGE="WikiProject_France/Bus_Pep's/Analysis"
-ANALYSIS_TALK="Talk:WikiProject_France/Bus_Pep's/Analysis"
+ANALYSIS_PAGE="France/Bus_Pep's/Analysis"
+ANALYSIS_TALK="Talk:France/Bus_Pep's/Analysis"
 #
 # Routes data is in GitHub only, not in OSM-Wiki
 #
