@@ -946,7 +946,7 @@ N100;bus;;Berlin;Paris;FlixMobility GmbH
 N101;bus;Seit 05.11.2018 nicht mehr buchbar, wurde eingestellt.;München;Saint-Louis;FlixMobility GmbH
 N106;bus;;München;Lyon;FlixMobility GmbH
 N109;bus;;Paris;Prag;FlixMobility GmbH
-N110;bus;;Hamburg;Chur;FlixMobility GmbH
+N110;bus;;Kopenhagen;Ulm;FlixMobility GmbH
 N116;bus;Seite nicht mehr verfügbar.;Wiesbaden;Amsterdam;FlixMobility GmbH
 N121;bus;seit 05.11.2018 nicht mehr buchbar, wurde eingestellt.;München;Berlin;FlixMobility GmbH
 N122;bus;;Frankfurt am Main;Lyon;FlixMobility GmbH
@@ -1105,7 +1105,7 @@ N804;bus;eingestellt ab 27.06.2018;Amsterdam;Paris;FlixMobility GmbH
 N814;bus;;Amsterdam;London;FlixMobility GmbH
 N815;bus;;Frankfurt am Main;London;FlixMobility GmbH
 N818;bus;;Chaleroi;Hamburg;FlixMobility GmbH
-N819;bus;;Amsterdam;Brügge;FlixMobility GmbH
+N819;bus;;Hamburg;Calais;FlixMobility GmbH
 N831;bus;;Amsterdam;Zürich;FlixMobility GmbH
 N836;bus;;Amsterdam;Mailand;FlixMobility GmbH
 N837;bus;;Eindhoven;Zürich;FlixMobility GmbH
@@ -1177,6 +1177,7 @@ N1305;bus;;Warschau;Breslau;FlixMobility GmbH
 N1311;bus;;Gdingen;Budapest;FlixMobility GmbH
 N1320;bus;;Warschau;Posen;FlixMobility GmbH
 N1321;bus;;Berlin;Warschau;FlixMobility GmbH
+N1323;bus;;Berlin;Posen/Sulwalki;FlixMobility GmbH
 N1340;bus;;Warschau;Stettin;FlixMobility GmbH
 N1360;bus;;Bremen;Przemyśl;FlixMobility GmbH
 N1362;bus;;Stettin;Zakopane;FlixMobility GmbH

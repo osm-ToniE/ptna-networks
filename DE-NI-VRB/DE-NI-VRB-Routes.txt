@@ -44,7 +44,10 @@
 = Überblick über die ÖPNV-Linien des Verkehrsverbund Region Braunschweig
 
 - Verweis auf die Datei mit den [[Verkehrsverbund_Region_Braunschweig/Analyse/DE-NI-VRB-Routes|VRB Linien]] im Wiki.
+-
 - Verweis auf mehr [[Talk:Verkehrsverbund_Region_Braunschweig/Analyse|Informationen]] im Wiki.
+-
+- Die aktuelle Liste mit allen Buslinien sowie zugehörigen Fahrplänen im Gebiet des VRB ist unter [https://www.regionalverband-braunschweig.de/oepnv-und-mobilitaet/fahrplaene/bus-und-tram/ regionalverband-braunschweig.de/oepnv-und-mobilitaet/fahrplaene/bus-und-tram] sowie [https://www.vrb-online.de/bus/bus0.html vrb-online.de/bus/bus0.html] einsehbar.
 
 == Hinweis
 - Grunddaten Stand 24.08.2019
@@ -53,7 +56,7 @@
 -
 - * "VRB" (Kurzform), oder
 -
-- * "Verkehrsverbund Region Braunschweig", bzw. "Verbundtarif Region Braunschweig" (ausgeschriebene Form, wobei die letztere lediglich den Tarif des Verbundes beschreibt und eigentlich nicht verwendet werden sollte), oder
+- * "Verkehrsverbund Region Braunschweig", bzw. "Verbundtarif Region Braunschweig" (ausgeschriebene Form, wobei die letztere lediglich den Tarif des Verbundes beschreibt und nicht verwendet werden sollte), oder
 -
 - * leer, d.h. nicht gesetzt
 -
@@ -86,6 +89,8 @@ RB 82;train;;Bad Harzburg;Göttingen;DB Regio Nord
 == Tram
 === Stadt Braunschweig
 1;tram;;Wenden;Stöckheim;Braunschweiger Verkehrs-GmbH
+# Gültig mit Fahrplanwechsel am 3.10.2019
+# 10;tram;;Hauptbahnhof;Rühme;Braunschweiger Verkehrs-GmbH
 2;tram;;Heidberg;Siegfriedviertel;Braunschweiger Verkehrs-GmbH
 3;tram;;Weststadt Weserstraße;Volkmarode;Braunschweiger Verkehrs-GmbH
 4;tram;;Helmstedter Straße;Radeklint;Braunschweiger Verkehrs-GmbH
@@ -93,7 +98,82 @@ RB 82;train;;Bad Harzburg;Göttingen;DB Regio Nord
 
 == Bus
 === Landkreis Gifhorn
+100;bus;;Wesendorf;Gifhorn Bahnhof;Verkehrsgesellschaft Landkreis Gifhorn
+101;bus;;Winkel;Neubokel;Verkehrsgesellschaft Landkreis Gifhorn
+102;bus;;Wesendorf;Gifhorn;Verkehrsgesellschaft Landkreis Gifhorn
+103;bus;;II. Koppelweg;Wilsche;Verkehrsgesellschaft Landkreis Gifhorn
+104;bus;Ringlinie via Dannenbütteler Weg;A.-Riese-Schule;A.Riese-Schule;Verkehrsgesellschaft Landkreis Gifhorn
+105;bus;;Wasbüttel;Gifhorn;Verkehrsgesellschaft Landkreis Gifhorn
+106;bus;;Wesendorf;Gifhorn;Verkehrsgesellschaft Landkreis Gifhorn
+107;bus;;Neubokel Ortsmitte;Wilsche Schule;Verkehrsgesellschaft Landkreis Gifhorn
+111;bus;;BS Wenden;Gifhorn;Verkehrsgesellschaft Landkreis Gifhorn
+112;bus;;Adenbüttel;BS Wenden;Verkehrsgesellschaft Landkreis Gifhorn
+113;bus;;Groß Schwülper;BS Wenden;Verkehrsgesellschaft Landkreis Gifhorn
+114;bus;;Didderse;Gifhorn;Verkehrsgesellschaft Landkreis Gifhorn
+120;bus;;Wittingen;Hankensbüttel;Bischof-Brauner GbR
+121;bus;;Wittingen;Wittingen;Bischof-Brauner GbR
+122;bus;;Knesebeck;Hankensbüttel;Verkehrsgesellschaft Landkreis Gifhorn
+123;bus;;Groß Oesingen;Hankensbüttel;Bischof-Brauner GbR
+124;bus;;Steinhorst;Hankenbüttel;Bischof-Brauner GbR
+125;bus;;Wittingen;Ehra-Lessien;Bischof-Brauner GbR
+126;bus;Ringlinie via Steinhorst und Groß Oesingen;Hankensbüttel;Hankensbüttel;Bischof-Brauner GbR
+127;bus;;Bokel;Hankensbüttel;Bischof-Brauner GbR
+128;bus;;Schweimke;Hankensbüttel;Bischof-Brauner GbR
+129;bus;Ringlinie via Bokel und Steimke;Hankensbüttel;Hankensbüttel;Bischof-Brauner GbR
+131;bus;;Knesebeck;Schönewörde;Verkehrsgesellschaft Landkreis Gifhorn
+132;bus;;Wesendorf;Schönewörde;Verkehrsgesellschaft Landkreis Gifhorn
+133;bus;;Wesendorf;Groß Oesingen;Verkehrsgesellschaft Landkreis Gifhorn
+134;bus;;Texas;Groß Oesingen;Verkehrsgesellschaft Landkreis Gifhorn
+135;bus;;Wesendorf;Hankensbüttel;Verkehrsgesellschaft Landkreis Gifhorn
+136;bus;;Bokel;Groß Oesingen;Verkehrsgesellschaft Landkreis Gifhorn
+137;bus;;Wesendorf;Wittingen;Verkehrsgesellschaft Landkreis Gifhorn
+138;bus;;Westerbeck Schulzentrum;Wittingen;Verkehrsgesellschaft Landkreis Gifhorn
+139;bus;;Wesendorf;Westerbeck Schulzentrum;Verkehrsgesellschaft Landkreis Gifhorn
+140;bus;;Ahnsen;Gifhorn;Bischof-Brauner GbR
+141;bus;;Gifhorn;Flettmar;Bischof-Brauner GbR
+142;bus;;Müden;Müden;Bischof-Brauner GbR
+143;bus;;Hillerse;Ohof;Bischof-Brauner GbR
+144;bus;;Meinersen;Böckelse;Bischof-Brauner GbR
+145;bus;;Dalldorf;Leiferde;Verkehrsgesellschaft Landkreis Gifhorn
+146;bus;;Ohof;Leiferde;Bischof-Brauner GbR
+147;bus;;Leiferde;Müden;Bischof-Brauner GbR
+148;bus;;Ahnsen;Böckelse;Bischof-Brauner GbR
+150;bus;;Schönewörde;VW Werk;Verkehrsgesellschaft Landkreis Gifhorn
+151;bus;;Wittingen;VW Werk;Verkehrsbetriebe Bachstein
+152;bus;;Platendorf;VW Werk;Verkehrsgesellschaft Landkreis Gifhorn
+153;bus;;Brome;VW Werk;Verkehrsbetriebe Bachstein
+154;bus;;Wilsche;VW Werk;Verkehrsgesellschaft Landkreis Gifhorn
+155;bus;;Gifhorn;VW Werk;Verkehrsgesellschaft Landkreis Gifhorn
+156;bus;;Wesendorf;VW Werk;Verkehrsgesellschaft Landkreis Gifhorn
+157;bus;;Müden;VW Werk;Verkehrsgesellschaft Landkreis Gifhorn
+158;bus;;Hillerse;VW Werk;Verkehrsgesellschaft Landkreis Gifhorn
+159;bus;;Gifhorn;VW Werk;Verkehrsgesellschaft Landkreis Gifhorn
+160;bus;;Wolfsburg;Brome;Verkehrsbetriebe Bachstein
+161;bus;;Brome;Wolfsburg Kreuzheide;Verkehrsbetriebe Bachstein
+162;bus;;Ehra-Lessien;Vorsfelde;Verkehrsbetriebe Bachstein
+163;bus;;Wittingen;Zicherie;Verkehrsbetriebe Bachstein
+164;bus;;Brome;Gifhorn;Verkehrsgesellschaft Landkreis Gifhorn
+165;bus;;Wittingen;Zicherie;Verkehrsbetriebe Bachstein
+170;bus;;Wolfsburg;Gifhorn;Verkehrsgesellschaft Landkreis Gifhorn
+171;bus;;Tiddische;Weyhausen;Verkehrsgesellschaft Landkreis Gifhorn
+172;bus;;Stüde;Weyhausen;Verkehrsgesellschaft Landkreis Gifhorn
+173;bus;;Platendorf;Weyhausen;Verkehrsgesellschaft Landkreis Gifhorn
+174;bus;;Westerbeck;Gifhorn;Verkehrsgesellschaft Landkreis Gifhorn
+180;bus;;Wolfsburg Hauptbahnhof;Gifhorn;Verkehrsgesellschaft Landkreis Gifhorn
+182;bus;;Jelpke;Calberlah;Verkehrsgesellschaft Landkreis Gifhorn
+183;bus;;Tankumsee;Isenbüttel;Verkehrsgesellschaft Landkreis Gifhorn
+184;bus;;Detmerode;Gifhorn;Verkehrsgesellschaft Landkreis Gifhorn
+185;bus;;Ausbüttel;Calberlah;Verkehrsgesellschaft Landkreis Gifhorn
+186;bus;;Jelpke;Westerbeck Schulzentrum;Verkehrsgesellschaft Landkreis Gifhorn
+191;bus;;Braunschweig;Gifhorn;Verkehrsgesellschaft Landkreis Gifhorn
+192;bus;;Grassel;Meine;Verkehrsgesellschaft Landkreis Gifhorn
+193;bus;;Isenbüttel;Meine;Verkehrsgesellschaft Landkreis Gifhorn
+194;bus;;Groß Schwülper;Meine;Verkehrsgesellschaft Landkreis Gifhorn
+195;bus;;Schwülper;Schwülper;Verkehrsgesellschaft Landkreis Gifhorn
+196;bus;;Schwülper;Meine;Verkehrsgesellschaft Landkreis Gifhorn
+197;bus;;Braunschweig Wenden;Gifhorn;Verkehrsgesellschaft Landkreis Gifhorn
 #
+
 === Stadt Wolfsburg
 201;bus;;Velstove;Mörser Winkel;Wolfsburger Verkehrs-GmbH
 202;bus;;Detmerode;Brackstedt;Wolfsburger Verkehrs-GmbH
@@ -117,8 +197,9 @@ RB 82;train;;Bad Harzburg;Göttingen;DB Regio Nord
 268;bus;;VW Werk;Nordsteimke;Wolfsburger Verkehrs-GmbH
 269;bus;;VW Werk;Königslutter;Wolfsburger Verkehrs-GmbH
 #
+
 === Landkreis Helmstedt
-335;bus;;Oebisfelde;Wolfsburg;VB Bachstein
+335;bus;;Oebisfelde;Wolfsburg;Verkehrsbetriebe Bachstein
 360;bus;;Königslutter;Wolfsburg;KVG Braunschweig
 370;bus;;Helmstedt;Schöppenstedt;KVG Braunschweig
 371;bus;;Schöppenstedt;Schöningen;KVG Braunschweig
@@ -131,7 +212,7 @@ RB 82;train;;Bad Harzburg;Göttingen;DB Regio Nord
 385;bus;;Königslutter;Königslutter;KVG Braunschweig
 386;bus;;Lehre;Essenrode;KVG Braunschweig
 387;bus;;Königslutter;Essehof;KVG Braunschweig
-388;bus;;Essenrode;Essehof (- Kampstüh);KVG Braunschweig
+388;bus;;Essenrode;Essehof/Kampstüh;KVG Braunschweig
 390;bus;;Helmstedt;Königslutter;KVG Braunschweig
 391;bus;;Werner-v.-Siemens-Straße;Max-Planck-Weg;KVG Braunschweig
 392;bus;;Emmerstedt;Markt;KVG Braunschweig
@@ -141,50 +222,87 @@ RB 82;train;;Bad Harzburg;Göttingen;DB Regio Nord
 396;bus;;Helmstedt;Schöningen;KVG Braunschweig
 397;bus;;Helmstedt;Gevensleben;KVG Braunschweig
 398;bus;;Helmstedt;Warberg;KVG Braunschweig
-399;bus;;Helmstedt;Clarabad (- Beendorf);KVG Braunschweig
+399;bus;;Helmstedt;Clarabad/Beendorf;KVG Braunschweig
 #
+
 === Stadt Braunschweig
 411;bus;;Lamme;Mascherode;Braunschweiger Verkehrs-GmbH
 412;bus;;Helmstedter Straße;Südstadt;Braunschweiger Verkehrs-GmbH
 413;bus;;Leiferde;Bevenrode;Braunschweiger Verkehrs-GmbH
-414;bus;;Wenden;Stadion;Braunschweiger Verkehrs-GmbH
+414;bus;;Wenden;Stadion (Schwarzer Berg);Braunschweiger Verkehrs-GmbH
 416;bus;;Völkenrode;Kralenriede;Braunschweiger Verkehrs-GmbH
 417;bus;;Hondelage;Volkmarode;Braunschweiger Verkehrs-GmbH
 418;bus;;Lamme;Riddagshausen;Braunschweiger Verkehrs-GmbH
 419;bus;;Hauptbahnhof;Hauptbahnhof;Braunschweiger Verkehrs-GmbH
 420;bus;;BS Rathaus;WF Bahnhof;Braunschweiger Verkehrs-GmbH
 422;bus;;Lehndorf;Bebelhof;Braunschweiger Verkehrs-GmbH
-424;bus;;Rühme;Essenrode;Braunschweiger Verkehrs-GmbH
+# Gültig mit Fahrplanwechsel am 3.10.2019
+# 423;bus;;Weststadt Donauknoten;Herzogin-Elisabeth-Straße;Braunschweiger Verkehrs-GmbH
+424;bus;;Rühme;Waggum/Bevenrode/Essenrode;Braunschweiger Verkehrs-GmbH
+# Gültig mit Fahrplanwehchsel am 3.10.2019
+# 426;bus;;Cyriaksring;Siegfriedviertel/Kralenriede;Braunschweiger Verkehrs-GmbH
 426;bus;;Hamburger Straße;Flughafen;Braunschweiger Verkehrs-GmbH
 427;bus;;Essehof;Volkmarode;Braunschweiger Verkehrs-GmbH
 429;bus;;Hauptbahnhof;Hauptbahnhof;Braunschweiger Verkehrs-GmbH
+# Gültig mit Fahrplanwechsel am 3.10.2019
+# 430;bus;;Braunschweig Hauptbahnhof;Gardessen/Bornum;Braunschweiger Verkehrs-GmbH
 431;bus;;Hauptbahnhof;Helmstedter Straße;Braunschweiger Verkehrs-GmbH
 433;bus;;Völkenrode;Hondelage;Braunschweiger Verkehrs-GmbH
 434;bus;;Wenden;Lagesbüttel;Braunschweiger Verkehrs-GmbH
-435;bus;;Donauknoten;Messegelände Nordeingang;Braunschweiger Verkehrs-GmbH
+435;bus;;Weststadt Donauknoten;Messegelände Nordeingang;Braunschweiger Verkehrs-GmbH
 436;bus;;Hauptbahnhof;Flughafen;Braunschweiger Verkehrs-GmbH
 437;bus;;Volkmarode;Cremlingen;Braunschweiger Verkehrs-GmbH
-442;bus;;Helmstedter Straße;Melverode (- Stöckheim);Braunschweiger Verkehrs-GmbH
+442;bus;;Helmstedter Straße;Melverode/Stöckheim;Braunschweiger Verkehrs-GmbH
+# Linie 443 wird durch die 423 ersetzt (Gültig mit Fahrplanwechsel am 3.10.2019)
 443;bus;;Donauknoten;Querum;Braunschweiger Verkehrs-GmbH
 445;bus;;Lengede;Donauknoten;Braunschweiger Verkehrs-GmbH
 450;bus;;Vechelde;Rathaus;Braunschweiger Verkehrs-GmbH
-452;bus;;Helmstedter Straße;Bornum;Braunschweiger Verkehrs-GmbH
+452;bus;;Helmstedter Straße;Bornum/Gardessen;Braunschweiger Verkehrs-GmbH
 454;bus;;Stadion;Schwarzer Berg;Braunschweiger Verkehrs-GmbH
 455;bus;;Geitelde;Donauknoten;Braunschweiger Verkehrs-GmbH
 461;bus;;PTB;Hauptbahnhof;Braunschweiger Verkehrs-GmbH
+# Gültig mit Fahrplanwechsel am 3.10.2019
+# 464;bus;;Harxbüttel;Stadion;Braunschweiger Verkehrs-GmbH
 464;bus;;Rühme;Volkmarode;Braunschweiger Verkehrs-GmbH
 465;bus;;Broitzem;Rüningen;Braunschweiger Verkehrs-GmbH
+# Gültig mit Fahrplanwechsel am 3.10.2019
+# 466;bus;;Rüningen;Broitzem;Braunschweiger Verkehrs-GmbH
 471;bus;Anruf-Linien-Taxi;Klinikum Salzdahlumer Straße;Jägersruh;Braunschweiger Verkehrs-GmbH
 480;bus;;Groß Schwülper;Rathaus;Braunschweiger Verkehrs-GmbH
 481;bus;;Leiferde;Stöckheim;Braunschweiger Verkehrs-GmbH
 482;bus;;Hauptbahnhof;Braunschweiger Verkehrs-GmbH;Braunschweiger Verkehrs-GmbH
 484;bus;;Groß Schwülper;Rühme;Braunschweiger Verkehrs-GmbH
+# Linie 485 wird durch die 466 ersetzt (Gültig mit Fahrplanwechsel am 3.10.2019)
 485;bus;;Broitzem;Rüningen;Braunschweiger Verkehrs-GmbH
 493;bus;;Rathaus;Neuerkerode;Braunschweiger Verkehrs-GmbH
 #
+
 === Landkreis Peine
-560;bus;;Wipshausen;Rathaus;Braunschweiger Verkehrs-GmbH
-566;bus;;Zweidorf;Vechelde;Braunschweiger Verkehrs-GmbH
+500;bus;;Peine;Peine;Omnibus Nahverkehr Service
+501;bus;;Bründeln;Peine;Omnibus Nahverkehr Service
+502;bus;;Harber;Peine;Omnibus Nahverkehr Service
+503;bus;;Peine;Groß Ilsede;Omnibus Nahverkehr Service
+504;bus;;Mehrum;Groß Ilsede;Omnibus Nahverkehr Service
+505;bus;;Peine;Röhrse;Omnibus Nahverkehr Service
+506;bus;;Eickenrode;Peine;Omnibus Nahverkehr Service
+507;bus;;Oelserse;Edemissen;Omnibus Nahverkehr Service
+508;bus;;Edemissen;Wipshausen;Omnibus Nahverkehr Service
+509;bus;;Peine;Wipshausen;Peiner Verkehrsgesellschaft
+511;bus;;Vechelde;Groß Gleidingen;Peiner Verkehrsgesellschaft
+512;bus;;Peine;Harvesse;Peiner Verkehrsgesellschaft
+513;bus;;Vechelde;Meerdorf;Peiner Verkehrsgesellschaft
+514;bus;;Peine/Vechelde;Vechelde;Peiner Verkehrsgesellschaft
+515;bus;;Groß Ilsede;Peine;Peiner Verkehrsgesellschaft
+516;bus;;Wahle;Groß Gleidingen;Peiner Verkehrsgesellschaft
+517;bus;;Peine;Peine;Peiner Verkehrsgesellschaft
+521;bus;;Peine Bahnhof;Peine Klinikum;Peiner Verkehrsgesellschaft
+522;bus;;Vöhrum Bahnhof;Peine Bahnhof;Peiner Verkehrsgesellschaft
+524;bus;;Peine Bahnhof;Peine Bahnhof;Peiner Verkehrsgesellschaft
+525;bus;;Peine Bahnhof;Stederdorf;Peiner Verkehrsgesellschaft
+530;bus;;Peine;Broistedt;Omnibus Nahverkehr Service
+531;bus;nur an Schultagen;Peine;Broistedt;Omnibus Nahverkehr Service
+560;bus;;Wipshausen;Rathaus;Kraftverkehr Mundstock
+566;bus;;Zweidorf;Vechelde;Kraftverkehr Mundstock
 #
 === Stadt Salzgitter
 601;bus;Expressbus;Salzgitter-Lebenstedt;Braunschweig;KVG Braunschweig
@@ -211,11 +329,12 @@ RB 82;train;;Bad Harzburg;Göttingen;DB Regio Nord
 630;bus;;Salzgitter-Lebenstedt;Wolfenbüttel;KVG Braunschweig
 631;bus;Expressbus;Salzgitter-Bad;Braunschweig;KVG Braunschweig
 640;bus;;Salzgitter-Lebenstedt;Lengede;KVG Braunschweig
-650;bus;;Salzgitter-Bad;Seesen;Harzbus
+650;bus;;Salzgitter-Bad;Seesen;HarzBus
 656;bus;;Salzgitter-Bad;Baddeckenstedt;Regionalbus Braunschweig
 658;bus;;Groß Elbe;Berel;Regionalbus Braunschweig
 660;bus;;Baddeckenstedt;Salzgitter-Bad;Regionalbus Braunschweig
 #
+
 === Landkreis Wolfenbüttel
 710;bus;;Wolfenbüttel;Winnigstedt;KVG Braunschweig
 730;bus;;Evessen;Braunschweig;Reisebüro Schmidt
@@ -232,15 +351,15 @@ RB 82;train;;Bad Harzburg;Göttingen;DB Regio Nord
 746;bus;;Winnigstedt;Schöppenstedt;Reisebüro Schmidt
 747;bus;;Winnigstedt;Schöppenstedt;Reisebüro Schmidt
 748;bus;;Remlingen;Schöppenstedt;Reisebüro Schmidt
-750;bus;;Hornburg;Wolfenbüttel;VB Bachstein
-751;bus;;Börßum;Wolfenbüttel;VB Bachstein
-752;bus;;Schöppenstedt;Wolfenbüttel;VB Bachstein
-753;bus;;Ohrum;Schladen;VB Bachstein
-754;bus;;Hornburg;Hornburg;VB Bachstein
-755;bus;;Schladen;Börßum;VB Bachstein
-756;bus;;Remlingen;Denkte;VB Bachstein
-757;bus;;Schladen;Schladen;VB Bachstein
-789;bus;;WF Linden;WF Kornmarkt ( - Groß Stöckheim);KVG Braunschweig
+750;bus;;Hornburg;Wolfenbüttel;Verkehrsbetriebe Bachstein
+751;bus;;Börßum;Wolfenbüttel;Verkehrsbetriebe Bachstein
+752;bus;;Schöppenstedt;Wolfenbüttel;Verkehrsbetriebe Bachstein
+753;bus;;Ohrum;Schladen;Verkehrsbetriebe Bachstein
+754;bus;;Hornburg;Hornburg;Verkehrsbetriebe Bachstein
+755;bus;;Schladen;Börßum;Verkehrsbetriebe Bachstein
+756;bus;;Remlingen;Denkte;Verkehrsbetriebe Bachstein
+757;bus;;Schladen;Schladen;Verkehrsbetriebe Bachstein
+789;bus;;WF Linden;WF Kornmarkt/Groß Stöckheim;KVG Braunschweig
 790;bus;;WF Kornmarkt;Salzgitter Thiede;KVG Braunschweig
 791;bus;;Wolfenbüttel Lebenshilfe;Westring;KVG Braunschweig
 792;bus;;Atzum;Westring;KVG Braunschweig
@@ -252,9 +371,91 @@ RB 82;train;;Bad Harzburg;Göttingen;DB Regio Nord
 798;bus;;Salzdahlum;Kornmarkt;KVG Braunschweig
 799;bus;;Linden Süd;Kornmarkt;KVG Braunschweig
 #
+
 === Landkreis Goslar
+801;bus;;Oker Schrevenwiesen;Goslar Krankenhaus;Stadtbus Goslar
+802;bus;;Oker Am Müllerkamp;Goslar Krankenhaus;Stadtbus Goslar
+803;bus;;Baßgeige;Bergbaumuseum;Stadtbus Goslar
+804;bus;;Nordberg;Hahndorf;Stadtbus Goslar
+805;bus;;Oker Am Müllerkamp;Goslar Schulzentrum;Stadtbus Goslar
+806;bus;;Oker Schrevenwiesen;Goslar Bahnhof;Stadtbus Goslar
+810;bus;;Goslar;Bad Harzburg;HarzBus
+820;bus;;Bad Harzburg;Sankt Andreasberg;KVG Braunschweig
+821;bus;;Bad Harzburg;Vienenburg;HarzBus
+822;bus;;Goslar;Beuchte;HarzBus
+830;bus;;Goslar;Clausthal-Zellerfeld;HarzBus
+831;bus;;Goslar;Altenau;HarzBus
+832;bus;;Goslar;Lautenthal;HarzBus
+833;bus;;Goslar;Bredelem;HarzBus
+834;bus;;Goslar;Neuwallmoden;HarzBus
+836;bus;;Seesen;Rhüden;Pülm Reisen GmbH
+837;bus;;Seesen;Bad Gandersheim;Pülm Reisen GmbH
+840;bus;;Clausthal-Zellerfeld;Sankt Andreasberg;HarzBus
+841;bus;;Schulenberg;Clausthal-Zellerfeld;HarzBus
+842;bus;;Clausthal-Zellerfeld Ostbahnhof;Clausthal-Zellerfeld Kronenplatz;HarzBus
+851;bus;;Salzgitter Bad;Klein Döhren/Neuenkirchen;HarzBus
+852;bus;;Goslar;Liebenburg;HarzBus
+859;bus;;Seesen Bahnhof;Seesen Bahnhof;HarzBus
+860;bus;;Goslar;Salzgitter Bad;HarzBus
+861;bus;;Altenau;Goslar;HarzBus
+# 866;bus;Saisonverkehr (Frühling bis Herbst);Bad Harzburg;Kästeklippen;KVG Braunschweig - Linie ist laut Internetseite der KVG seit dem 14.08.2019 eingestellt
+871;bus;;Bad Harzburg Burgbergbahn;Bad Harzburg Burgbergbahn;KVG Braunschweig
+873;bus;;Bad Harzburg Bahnhof;Bad Harzburg Bahnhof;KVG Braunschweig
+874;bus;;Bad Harzburg;Eckertal;KVG Braunschweig
+875;bus;Saisonverkehr (Frühling bis Herbst) und zusätzliche Tagesmaut zum Fahrpreis;Bad Harzburg;Bad Harzburg;KVG Braunschweig
 #
+
 === Angrenzende Verbünde
-34;bus;;(Hildesheim -) Wartjenstedt;Binder (- Holle);Regionalverkehr Hildesheim
+
+- Liste aller Linien, die das Gebiet des VRB durchfahren, allerdings nicht von einem Unternehmen betrieben werden, welches Teil des VRB ist.
+
+==== Verkehrsbetriebe Nordhausen
+23;bus;Nordhausen;Hohegeiß;Verkehrsbetriebe Nordhausen
+
+==== Regionalverkehr Hildesheim
+N3;bus;Nachtbus;Hildesheim;Hohenhameln;Regionalverkehr Hildesheim
+N4;bus;Nachtbus;Hildesheim;Groß Lafferde;Regionalverkehr Hildesheim
+25;bus;;Hildesheim;Soßmar;Regionalverkehr Hildesheim
+31;bus;;Hildesheim;Bierbergen;Regionalverkehr Hildesheim
+32;bus;;Hildesheim;Groß Lafferde;Regionalverkehr Hildesheim
+34;bus;;Hildesheim;Holle;Regionalverkehr Hildesheim
+461;bus;;Seesen;Derneburg;Regionalverkehr Hildeheim
+
+==== Harzer Verkehrsbetriebe
+210;bus;;Halberstadt;Vienenburg;Harzer Verkehrsbetriebe GmbH
+211;bus;;Osterwieck;Schladen/Wülperode;Harzer Verkehrsbetriebe GmbH
+262;bus;;Benneckenstein;Braunlage;Harzer Verkehrsbetriebe GmbH
+264;bus;;Wernigerode;Braunlage;Harzer Verkehrsbetriebe GmbH
+265;bus;;Wernigerode;Hohegeiß;Harzer Verkehrsbetriebe GmbH
+270;bus;;Wernigerode;Abbenrode/Bad Harzburg;Harzer Verkehrsbetriebe GmbH
+
+==== üstra
+370;bus;;Mehrum;Hannover;üstra Hannoversche Verkehrsbetriebe AG
+
+==== Verkehrsgesellschaft Südniedersachsen
+440;bus;;Clausthal-Zellerfeld;Osterode;Verkehrsgesellschaft Südniedersachsen
+450;bus;;Sankt Andreasberg;Herzberg;Regionalbus Braunschweig
+460;bus;;Osterode;Clausthal-Zellerfeld;Verkehrsgesellschaft Südniedersachsen
+
+==== CeBus
+460;bus;;Lachendorf;Steinhorst;CeBus
+470;bus;;Lachendorf;Ummern;CeBus
+
+==== Hahne Reisen
+470;bus;;Braunlage;Bad Sachsa;Hahne Reisen
+472;bus;;Braunlage;Bad Sachsa;Hahne Reisen
+
+==== BördeBus
+633;bus;;Döhren/Grasleben;Beendorf;BördeBus
+653;bus;;Oschersleben;Schöningen;BördeBus
+666;bus;;Belsdorf;Helmstedt;BördeBus
+
+==== Personenverkehrsgesellschaft Altmarkkreis Salzwedel
+302;bus;Anruf-Linien-Taxi;Klötze;Brome;Personenverkehrsgesellschaft Altmarkkreis Salzwedel
+802;bus;Anruf-Linien-Taxi;Diesdorf;Diesdorf;Personenverkehrsgesellschaft Altmarkkreis Salzwedel
+803;bus;Anruf-Linien-Taxi;Diesdorf;Diesdorf;Personenverkehrsgesellschaft Altmarkkreis Salzwedel
+
+==== RegioBus Hannover
+948;bus;;Hohenhameln;Hämelerwald;RegioBus Hannover
 
 </pre>

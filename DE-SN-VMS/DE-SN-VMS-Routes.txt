@@ -141,9 +141,9 @@ C;bus;Nachtbus: Hauptmarkt - Neumarkt - Weißenborn;Hauptmarkt;Weißenborn;SVZ
 A;bus;Barbara-Uthmann-Ring - Markt - Buchholz;Annaberg-Buchholz, Busbahnhof;Annaberg-Buchholz, Busbahnhof;Regionalverkehr Erzgebirge
 B;bus;Frohnau - Obere Stadt;Annaberg-Buchholz, Busbahnhof;Annaberg-Buchholz, Busbahnhof;Regionalverkehr Erzgebirge
 C;bus;Markt - Herzog-Georg-Ring - Erzgebirgs-Center - Markt;Annaberg-Buchholz, Markt;Annaberg-Buchholz, Markt;Regionalverkehr Erzgebirge
-D;bus;Markt - B95/Am Kätplatz - Markt;Markt;Markt;Regionalverkehr Erzgebirge
-E;bus;Stadtbus Buchholz;;;Regionalverkehr Erzgebirge
-F;bus;Cunersdorf - Buchholz;Cunersdorf;Buchholz;Regionalverkehr Erzgebirge
+D;bus;Markt - B95/Am Kätplatz - Markt;Annaberg-Buchholz, Markt;Annaberg-Buchholz, Markt;Regionalverkehr Erzgebirge
+E;bus;Stadtbus Buchholz;Annaberg-Buchholz, Katharinenkirche;Annaberg-Buchholz, Katharinenkirche;Regionalverkehr Erzgebirge
+F;bus;Cunersdorf - Buchholz;Annaberg-Buchholz, Katharinenkirche;Frohnau, Schule;Regionalverkehr Erzgebirge
 G;bus;Markt - Cunersdorf;Markt;Cunersdorf;Regionalverkehr Erzgebirge
 
 === Aue
