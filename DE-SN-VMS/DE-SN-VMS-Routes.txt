@@ -144,7 +144,7 @@ C;bus;Markt - Herzog-Georg-Ring - Erzgebirgs-Center - Markt;Annaberg-Buchholz, M
 D;bus;Markt - B95/Am Kätplatz - Markt;Annaberg-Buchholz, Markt;Annaberg-Buchholz, Markt;Regionalverkehr Erzgebirge
 E;bus;Stadtbus Buchholz;Annaberg-Buchholz, Katharinenkirche;Annaberg-Buchholz, Katharinenkirche;Regionalverkehr Erzgebirge
 F;bus;Cunersdorf - Buchholz;Annaberg-Buchholz, Katharinenkirche;Frohnau, Schule;Regionalverkehr Erzgebirge
-G;bus;Markt - Cunersdorf;Markt;Cunersdorf;Regionalverkehr Erzgebirge
+G;bus;Markt - Cunersdorf;Cunersdorf, Gasthof Morgensonne;Annaberg-Buchholz, Busbahnhof;Regionalverkehr Erzgebirge
 
 === Aue
 A;bus;Postplatz - Zeller Berg - Postplatz;Aue, Postplatz;Aue, Postplatz;Regionalverkehr Erzgebirge

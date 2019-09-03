@@ -419,7 +419,7 @@ N4;bus;Nachtbus;Hildesheim;Groß Lafferde;Regionalverkehr Hildesheim
 31;bus;;Hildesheim;Bierbergen;Regionalverkehr Hildesheim
 32;bus;;Hildesheim;Groß Lafferde;Regionalverkehr Hildesheim
 34;bus;;Hildesheim;Holle;Regionalverkehr Hildesheim
-461;bus;;Seesen;Derneburg;Regionalverkehr Hildeheim
+461;bus;;Seesen;Derneburg;Regionalverkehr Hildesheim
 
 ==== Harzer Verkehrsbetriebe
 210;bus;;Halberstadt;Vienenburg;Harzer Verkehrsbetriebe GmbH
