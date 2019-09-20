@@ -60,26 +60,17 @@
 
 === Busse xx
 20;bus;HB Stadt;Hohweg;Überseestadt;BSAG
-20;bus;VLN;Hoya;Nienburg;VGH
 21;bus;HB Stadt;Mercedes-Benz;Leher Feld;BSAG
-21;bus;VLN;Harbergen/Holte;Nienburg;VGH
 22;bus;HB Stadt;Kattenturm;Universität/Lehe;BSAG
 24;bus;HB Stadt;Rablinghausen;Neue Vahr Nord;BSAG
 25;bus;HB Stadt;Weidedamm;Osterholz;BSAG
 26;bus;HB Stadt;Huckelriede;Überseestadt;BSAG
-26;bus;VLN;Hoya;Hoya;VGH
 27;bus;HB Stadt;Huckelriede;Findorff;BSAG
-27;bus;VLN;Hoya;Hoya;VGH
 28;bus;HB Stadt;Universität;Überseestadt;BSAG
-28;bus;VLN;Hoya;Wechold;VGH
 29;bus;HB Stadt;Kattenturm;Neue Vahr Nord;BSAG
-30;bus;VLN;Hoya;Nienburg;VGH
 31;bus;HB Stadt;Borgfeld-Ost;Borgfeld-Ost;BSAG
-32;bus;VLN;Hoya;Hämelhausen;VGH
 33;bus;HB Stadt;Horn;Sebaldsbrück;BSAG
-33;bus;VLN;Hoya;Hoya;VGH
 34;bus;HB Stadt;Sebaldsbrück;Horn;BSAG
-34;bus;VLN;Eystrup;Heemsen;VLN
 37;bus;HB Stadt;Sebaldsbrück;Bf Mahndorf;BSAG
 38;bus;HB Stadt;Weserpark Süd;Bf Mahndorf;BSAG
 39;bus;HB Stadt;Weserpark Süd;Bf Mahndorf;BSAG
@@ -111,39 +102,39 @@
 98;bus;HB Stadt;Vegesack;Vegesack;BSAG
 
 === Busse 1xx
-101;bus;DH Nordwest;Bassum;Bremen Hbf/ZOB;Borchers-Reisen VGH Wilmering DHE
-102T;bus;DH Nordwest;Brinkum;Syke;
-102;bus;DH Nordwest;Bremen Hbf;Syke;Wilmering
-103;bus;DH Nordwest;Ristedt;Syke;Borchers-Reisen VGH Wilmering DHE
-104;bus;DH Nordwest;Nienstedt;Bassum;Borchers-Reisen VGH Wilmering DHE
-105;bus;DH Nordwest;Syke;Bassum;Borchers-Reisen VGH Wilmering DHE
-105T;bus;DH Nordwest;Heiligenfelde;Heiligenfelde;Wilmering
-106;bus;DH Nordwest;Seckenhausen;Syke;Borchers-Reisen VGH Wilmering DHE
-107;bus;DH Nordwest;Syke;Martfeld;Wilmering
+101;bus;DH Nordwest;Bassum;Bremen Hbf/ZOB;VDN
+102;bus;DH Nordwest;Bremen Hbf;Syke;VDN
+102T;bus;DH Nordwest;Brinkum;Syke;VDN
+103;bus;DH Nordwest;Ristedt;Syke;VDN
+104;bus;DH Nordwest;Nienstedt;Bassum;VDN
+105;bus;DH Nordwest;Syke;Bassum;VDN
+105T;bus;DH Nordwest;Heiligenfelde;Heiligenfelde;VDN
+106;bus;DH Nordwest;Seckenhausen;Syke;VDN
+107;bus;DH Nordwest;Syke;Martfeld;VDN
 108;bus;;Verden;Hoya;Wilmering
-109;bus;DH Nordwest;Stuhr;Stuhr;Borchers-Reisen VGH Wilmering DHE
-113;bus;DH Nordwest;Stuhr, Heiligenrode;Bremen, Roland-Center;Wilmering
-116;bus;DH Nordwest Bürgerbus;Melchiorshausen;Jeebel;Weser-Ems-Bus
-117;bus;DH Nordwest;Erichshof;Sudweyhe;Weser-Ems-Bus
-118;bus;DH Nordwest;Leeste;Ahausen;Weser-Ems-Bus
-119;bus;DH Nordwest;Dreye;Syke;Weser-Ems-Bus
-120;bus;DH Nordwest;Kirchweyhe;Bremen Hbf/ZOB;Weser-Ems-Bus
-121;bus;DH Nordwest;Kirchweyhe;Bremen Hbf/ZOB;Weser-Ems-Bus
-122;bus;DH Südost;Sulingen;Sulingen;Weser-Ems-Bus
-123;bus;DH Südost;Bassum;Sulingen;Weser-Ems-Bus
+109;bus;DH Nordwest;Stuhr;Stuhr;VDN
+113;bus;DH Nordwest;Stuhr, Heiligenrode;Bremen, Roland-Center;VDN
+116;bus;DH Nordwest Bürgerbus;Melchiorshausen;Jeebel;VDN
+117;bus;DH Nordwest;Erichshof;Sudweyhe;VDN
+118;bus;DH Nordwest;Leeste;Ahausen;VDN
+119;bus;DH Nordwest;Dreye;Syke;VDN
+120;bus;DH Nordwest;Kirchweyhe;Bremen Hbf/ZOB;VDN
+121;bus;DH Nordwest;Kirchweyhe;Bremen Hbf/ZOB;VDN
+122;bus;DH Südost;Sulingen;Sulingen;VDS
+123;bus;DH Südost;Bassum;Sulingen;VDS
 125;bus;DH Südwest;Twistringen;Diepholz;Weser-Ems-Bus
-126;bus;DH Südost;Harbergen;Nienburg;Weser-Ems-Bus
-127;bus;DH Südost;Sulingen;Kirchdorf;Weser-Ems-Bus
-128;bus;DH Südost;Sulingen;Borstel;Weser-Ems-Bus
+126;bus;DH Süd VLN;Harbergen;Nienburg;Weser-Ems-Bus
+127;bus;DH Südost;Sulingen;Kirchdorf;VDS
+128;bus;DH Südost;Sulingen;Borstel;VDS
 129;bus;DH Südwest;Brockum;Diepholz;Weser-Ems-Bus
 131;bus;DH Südwest;Barnstorf;Drebber;Weser-Ems-Bus
-132;bus;DH Südost;Freistatt;Kirchdorf;Weser-Ems-Bus
-133;bus;DH Südost;Sulingen;Rahden;Weser-Ems-Bus
-134;bus;DH Südost;Sulingen;Asendorf;Weser-Ems-Bus
-135;bus;DH Südost;Sudwalde;Brelloh;Weser-Ems-Bus
-136;bus;DH Südost;Mellinghausen;Ehrenburg;Weser-Ems-Bus
+132;bus;DH Südost;Freistatt;Kirchdorf;VDS
+133;bus;DH Südost;Sulingen;Rahden;VDS
+134;bus;DH Südost;Sulingen;Asendorf;VDS
+135;bus;DH Südost;Sudwalde;Brelloh;VDS
+136;bus;DH Südost;Mellinghausen;Ehrenburg;VDS
 137;bus;DH Südwest;Sulingen;Diepholz;Weser-Ems-Bus
-138;bus;DH Südost;Sulingen;Nienburg;Weser-Ems-Bus
+138;bus;DH Süd VLN;Sulingen;Nienburg;Weser-Ems-Bus
 140;bus;DH Südwest;Diepholz;Diepholz;Weser-Ems-Bus
 141;bus;DH Südwest;Lembruch;Brockum;Weser-Ems-Bus
 142;bus;DH Südwest;Drentwede;Barnstorf;Weser-Ems-Bus
@@ -151,17 +142,17 @@
 144;bus;DH Südwest;Barnstorf;Barnstorf;Weser-Ems-Bus
 145;bus;DH Südwest;Ströhen;Ströhen;Weser-Ems-Bus
 146;bus;DH Südwest;Diepholz;Aschen;Weser-Ems-Bus
-150;bus;DH Nordost;Hoya;Syke;VGH
-151;bus;DH Nordost;Hoya-Graue;Syke;VGH
+150;bus;DH Nordost VLN;Hoya;Syke;VGH
+151;bus;DH Nordost VLN;Hoya-Graue;Syke;VGH
 152;bus;DH Nordost;Bruchhausen-Vilsen;Sulingen;VGH
 153;bus;DH Nordost;Bruchhausen-Vilsen;Syke;VGH
 154;bus;DH Nordost;Asendorf;Bruchhausen-Vilsen;VGH
-157;bus;DH Nordwest;Twistringen/Wedehorn;Bassum;VGH Wilmering DHE Borchers-Reisen
-158;bus;DH Südost;Sulingen;Twistringen;Gaumann
+157;bus;DH Nordwest;Twistringen/Wedehorn;Bassum;VDN
+158;bus;DH Südost;Sulingen;Twistringen;VDS
 159;bus;DH Südwest;Twistringen;Twistringen;DHE Borchers-Reisen VGH Wilmering
 161;bus;DH Südwest;Twistringen;Twistringen;VGH Wilmering DHE Borchers-Reisen
 162;bus;DH Südwest;Anstedt;Twistringen;VGH Wilmering DHE Borchers-Reisen
-163;bus;DH Nordwest;Twistringen;Syke;Borchers-Reisen VGH Wilmering DHE
+163;bus;DH Nordwest;Twistringen;Syke;VDN
 164;bus;DH Nordost;Martfeld;Bruchausen-Vilsen;Kirschner
 165;bus;DH Nordost;Schwarme;Bruchhausen-Vilsen;Kirschner
 167;bus;DH Südwest;Bokel;Wagenfeld;Lahrmann
@@ -170,18 +161,18 @@
 170;bus;DH Südwest;Ströhen;Diepholz;Lahrmann
 171;bus;DH Südwest;Förlingen;Wagenfeld;Lahrmann
 172;bus;DH Südwest;Haßlingen;Wagenfeld;Lahrmann
-173;bus;DH Nordwest;Blocken;Brinkum;VGH Wilmering Borchers-Reisen DHE
-177;bus;DH Nordost;Uepsen;Bruchhausen-Vilsen;Primo-Reisen
-178;bus;DH Nordost;Steinborn;Bruchhausen-Vilsen;Primo-Reisen
-179;bus;DH Nordost;Affendorf;Asendorf;Primo-Reisen
-181;bus;DH Nordwest Bürgerbus;Bassum;Nordwohlde;Borchers-Reisen VGH Wilmering DHE
-182;bus;DH Nordwest Bürgerbus;Bassum;Ringmar;Borchers-Reisen VGH Wilmering DHE
-183;bus;DH Nordwest Bürgerbus;Bassum;Neubruchhausen;Borchers-Reisen Wilmering VGH DHE
-184;bus;DH Nordwest Bürgerbus;Bassum;Groß Bramstedt;Wilmering
+173;bus;DH Nordwest;Blocken;Brinkum;VDN
+177;bus;DH Nordost;Uepsen;Bruchhausen-Vilsen;VGH
+178;bus;DH Nordost;Steinborn;Bruchhausen-Vilsen;VGH
+179;bus;DH Nordost;Affendorf;Asendorf;VGH
+181;bus;DH Nordwest Bürgerbus;Bassum;Nordwohlde;VDN
+182;bus;DH Nordwest Bürgerbus;Bassum;Ringmar;VDN
+183;bus;DH Nordwest Bürgerbus;Bassum;Neubruchhausen;VDN
+184;bus;DH Nordwest Bürgerbus;Bassum;Groß Bramstedt;VDN
 185;bus;DH Nordwest Bürgerbus;Syke Bahnhof;Syke Bahnhof;VGH
 186;bus;DH Nordwest Bürgerbus;Syke Bahnhof;Syke Bahnhof;VGH
-193;bus;DH Nordwest;Seckenhausen;Melchiorshausen;Weser-Ems-Bus
-194;bus;DH Nordwest;Stuhr;Syke;Weser-Ems-Bus
+193;bus;;Seckenhausen;Melchiorshausen;Weser-Ems-Bus
+194;bus;DH Nordwest;Stuhr;Syke;VDN
 
 === Busse 2xx
 201;bus;DEL;Huchting, Roland-Center;Deichhorst, Hilversumer Straße;Delbus
@@ -203,7 +194,7 @@
 223;bus;OL Nord BB;Rethorn;Bookholzberg;
 226;bus;OL Südost;Wildeshausen;Bremen Hbf;DHE
 227;bus;OL Südost;Wildeshausen;Bremen-Huchting, Roland Center;DHE
-228;bus;DH Nordwest;Syke;Harpstedt;DHE Wilmering Borchers-Reisen VGH
+228;bus;DH Nordwest;Syke;Harpstedt;VDN
 229;bus;OL Südost;Delmenhorst;Harpstedt;DHE
 230;bus;OL Südost;Kirchseelte;Wildeshausen;DHE
 231;bus;OL Südost;Hackfeld;Wildeshausen;DHE
@@ -328,21 +319,21 @@ S35;bus;AM West;Westerstede;Oldenburg;Gerdes
 369;bus;AM West;Westerstede;Aperberg;Gerdes
 370;bus;AM Ost;Rastede;Bad Zwischenahn;Weser-Ems-Bus
 371;bus;AM West;Westerstede;Rostrup;Gerdes
-372;bus;AM Süd;Westerholtsfelde;Ofen;ABB
-373;bus;AM Süd;Bad Zwischenahn;Ofen;Weser-Ems-Bus
-374;bus;AM Süd;Edewecht;Rostrup;Weser-Ems-Bus
-375;bus;AM Süd;Süddorf;Bad Zwischenahn;Weser-Ems-Bus
-377;bus;AM Süd;Bad Zwischenahn;Bad Zwischenahn;Weser-Ems-Bus
-379;bus;AM Süd;Bad Zwischenahn;Oldenburg;ABB
-380;bus;AM Süd;Barßel;Oldenburg;Weser-Ems-Bus
-382;bus;AM Süd;Edewecht;Friedrichsfehn;ABB
-384;bus;AM Süd;Friedrichsfehn;Edewecht;ABB
-385;bus;AM Süd;Wittenriede;Edewecht;ABB
-386;bus;AM Süd;Hogenset;Osterscheps;ABB
-387;bus;AM Süd;Wildenloh;Bad Zwischenahn;ABB
-388;bus;AM Süd;Friedrichsfehn;Jeddeloh II;ABB
-393;bus;AM Süd;Jeddeloh I;Edewecht;
-394;bus;AM Süd Bürgerbus;Bad Zwischenahn;Petersfehn;
+372;bus;AM Süd;Westerholtsfelde;Ofen;Bruns
+373;bus;AM Süd;Bad Zwischenahn;Ofen;Bruns
+374;bus;AM Süd;Edewecht;Rostrup;Bruns
+375;bus;AM Süd;Süddorf;Bad Zwischenahn;Bruns
+377;bus;AM Süd;Bad Zwischenahn;Bad Zwischenahn;Bruns
+379;bus;AM Süd;Bad Zwischenahn;Oldenburg;Bruns
+380;bus;AM Süd;Barßel;Oldenburg;Bruns
+382;bus;AM Süd;Edewecht;Friedrichsfehn;Bruns
+384;bus;AM Süd;Friedrichsfehn;Edewecht;Bruns
+385;bus;AM Süd;Wittenriede;Edewecht;Bruns
+386;bus;AM Süd;Hogenset;Osterscheps;Bruns
+387;bus;AM Süd;Wildenloh;Bad Zwischenahn;Bruns
+388;bus;AM Süd;Friedrichsfehn;Jeddeloh II;Bruns
+393;bus;AM Süd;Jeddeloh I;Edewecht;Bruns
+394;bus;AM Süd Bürgerbus;Bad Zwischenahn;Petersfehn;Bruns
 395;bus;AM Süd;Bad Zwischenahn;Bad Zwischenahn;Bruns
 396;bus;AM Süd;Langebrügge;Bad Zwischenahn;Bruns
 397;bus;AM Süd;Bad Zwischenahn;Edewecht;Bruns
@@ -511,7 +502,7 @@ S35;bus;AM West;Westerstede;Oldenburg;Gerdes
 726;bus;VER Nord;Ortsverkehr Langwedel;;Weser-Ems-Bus Langwedeler
 730;bus;VER Nord;Ottersberg;Bremen Hbf/ZOB;Weser-Ems-Bus
 733;bus;VER Nord;Badenermoor;Achim;Weser-Ems-Bus
-735;bus;VER Süd;Verden;Hoya/Eystrup;Weser-Ems-Bus
+735;bus;VER Süd VLN;Verden;Hoya/Eystrup;von Rahden
 739;bus;VER Nord;Bremen Hbf;Posthausen;Weser-Ems-Bus
 740;bus;VER Nord;Verden, ZOB;Bremen, Hauptbahnhof;Weser-Ems-Bus
 745;bus;VER Nord;Narthausen;Achim;Weser-Ems-Bus
@@ -559,7 +550,7 @@ S35;bus;AM West;Westerstede;Oldenburg;Gerdes
 === Busse 9xx
 910;bus;;Oldenburg;Friesoythe;Weser-Ems-Bus
 917;bus;;Gemeindeverkehr Bösel;;Weser-Ems-Bus
-918;bus;;Wardenburg;Bösel;
+918;bus;;Wardenburg;Bösel;Nienaber
 930;bus;;Löningen;Ahlhorn;Weser-Ems-Bus
 980;bus;;Ahlhorn;Lohne;
 
@@ -573,7 +564,7 @@ N6;bus;HB Stadt Nachtlinie;Kirchhuchting;Kirchhuchting;BSAG
 N7;bus;HB Stadt;Bremen Hauptbahnhof;Neuenkirchen;BSAG
 N9;bus;HB Stadt;Huckelriede;Neue Vahr Nord;BSAG
 N10;tram;HB Straßenbahn;Gröpelingen;Sebaldsbrück;BSAG
-N12;bus;Nachtschwärmer;Bremen Hbf;Kirchweyhe;BSAG Weser-Ems-Bus Wolters
+N12;bus;DH Nord Nachtschwärmer;Bremen Hbf;Kirchweyhe;BSAG Weser-Ems-Bus Wolters
 N25;bus;OL West;Oldenburg;Ahlhorn;VOL
 N26;bus;OL Südost;Bremen;Wildeshausen;
 N27;bus;OL West;Oldenburg;Wildeshausen;

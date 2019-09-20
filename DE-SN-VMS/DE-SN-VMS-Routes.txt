@@ -147,65 +147,65 @@ F;bus;Cunersdorf - Buchholz;Annaberg-Buchholz, Katharinenkirche;Frohnau, Schule;
 G;bus;Markt - Cunersdorf;Cunersdorf, Gasthof Morgensonne;Annaberg-Buchholz, Busbahnhof;Regionalverkehr Erzgebirge
 
 === Aue
-A;bus;Postplatz - Zeller Berg - Postplatz;Aue, Postplatz;Aue, Postplatz;Regionalverkehr Erzgebirge
+A;bus;Postplatz - Zeller Berg - Postplatz;Aue, Bahnhofsvorplatz;Aue, Bahnhofsvorplatz;Regionalverkehr Erzgebirge
 B;bus;Postplatz - Eichert - Postplatz;Aue, Postplatz;Aue, Postplatz;Regionalverkehr Erzgebirge
-C;bus;Postplatz - Brünlasberg - Postplatz;Aue, Postplatz;Aue, Postplatz;Regionalverkehr Erzgebirge
-D;bus;Postplatz - Neudörfel - Postplatz;Aue, Postplatz;Aue, Postplatz;Regionalverkehr Erzgebirge
+C;bus;Postplatz - Brünlasberg - Postplatz;Aue, Bahnhofsvorplatz;Aue, Bahnhofsvorplatz;Regionalverkehr Erzgebirge
+D;bus;Postplatz - Neudörfel - Postplatz;Aue, Bahnhofsvorplatz;Aue, Bahnhofsvorplatz;Regionalverkehr Erzgebirge
 
 === Burgstädt
-A;bus;Sportzentrum - Bahnhof - Friedhof - Heiersdorf;Sportzentrum;Heiersdorf;RBM
-B;bus;Heiersdorf - Friedhof - Bahnhof - Sportzentrum;Heiersdorf;Sportzentrum;RBM
+A;bus;Sportzentrum - Bahnhof - Friedhof;Burgstädt, Sportzentrum;Burgstädt, Friedhof;REGIOBUS Mittelsachsen GmbH
+B;bus;Friedhof - Bahnhof - Sportzentrum;Burgstädt, Friedhof;Burgstädt, Sportzentrum;REGIOBUS Mittelsachsen GmbH
 
 === Döbeln
-A;bus;Hauptbahnhof - Busbahnhof - (Krankenhaus -) Unnaer Str - Hauptbahnhof;Döbeln, Hauptbahnhof;Döbeln, Hauptbahnhof;RBM
-B;bus;Marktkauf - Busbahnhof - Muldenterasse - Technitz;Marktkauf;Technitz;RBM
-C;bus;Rotes Kreuz - Busbahnhof - Hauptbahnhof - Gärtitz;Rotes Kreuz;Gärtitz;RBM
-D;bus;Busbahnhof - Ebersbach - Busbahnhof;Döbeln, Busbahnhof;Döbeln, Busbahnhof;RBM
+A;bus;Busbahnhof - Döbeln Ost - Busbahnhof;Döbeln, Busbahnhof;Döbeln, Busbahnhof;REGIOBUS Mittelsachsen GmbH
+B;bus;Busbahnhof - Döbeln Nord - Busbahnhof;Döbeln, Busbahnhof;Döbeln, Busbahnhof;REGIOBUS Mittelsachsen GmbH
+C;bus;Rotes Kreuz - Busbahnhof - Hauptbahnhof - Gärtitz;Döbeln, Busbahnhof ;Döbeln, Busbahnhof;REGIOBUS Mittelsachsen GmbH
+D;bus;Busbahnhof - Ebersbach - Busbahnhof;Döbeln, Busbahnhof;Döbeln, Busbahnhof;REGIOBUS Mittelsachsen GmbH
 
 === Flöha
-1;bus;Am Sattelgut - Busbahnhof - Lessingstraße - Gymnasium - Lärchenstraße;Flöha, Am Sattelgut;Flöha, Lärchenstraße;RBM
-2;bus;Am Sattelgut - Feldstraße - Am Mörbitzbach - Straße des Friedens - Busbahnhof;Flöha, Am Sattelgut;Flöha, Busbahnhof;RBM
+1;bus;Am Sattelgut - Busbahnhof - Lessingstraße - Gymnasium - Lärchenstraße;Flöha, WG Am Sattelgut;Flöha, Lärchenstraße, Wendestelle;REGIOBUS Mittelsachsen GmbH
+2;bus;Am Sattelgut - Feldstraße - Am Mörbitzbach - Straße des Friedens - Busbahnhof;Flöha, WG Am Sattelgut;Flöha, Busbahnhof;REGIOBUS Mittelsachsen GmbH
 
 === Frankenberg
-D;bus;Frankenberg, Süd - Neubaugebiet - Frankenberg, Süd;Frankenberg, Süd;Frankenberg, Süd;RBM
-E;bus;Frankenberg, Süd - Lützelhöhe - Frankenberg, Süd;Frankenberg, Süd;Frankenberg, Süd;RBM
+D;bus;Frankenberg, Süd - Neubaugebiet - Frankenberg, Süd;Frankenberg, Süd;Frankenberg, Süd;REGIOBUS Mittelsachsen GmbH
+E;bus;Frankenberg, Süd - Lützelhöhe - Frankenberg, Süd;Frankenberg, Süd;Frankenberg, Süd;REGIOBUS Mittelsachsen GmbH
 
 === Hohenstein-Ernstthal
-1;bus;Bahnhof - Hüttengrund - Heiterer Blick - Bahnhof - Sonnenstraße - Wüstenbrand - Bahnhof;Hohenstein-Ernstthal, Bahnhof;Hohenstein-Ernstthal, Bahnhof;RVW
-2;bus;Bahnhof - Ernst-Thälmann-Siedlung - Fritz-Heckert-Siedlung - Bahnhof;Hohenstein-Ernstthal, Bahnhof;Hohenstein-Ernstthal, Bahnhof;RVW
+1;bus;Bahnhof - Hüttengrund - Heiterer Blick - Bahnhof - Sonnenstraße - Wüstenbrand - Bahnhof;Hohenstein-Ernstthal, Bahnhof;Hohenstein-Ernstthal, Bahnhof;Regionalverkehr Westsachsen
+2;bus;Bahnhof - Ernst-Thälmann-Siedlung - Fritz-Heckert-Siedlung - Bahnhof;Hohenstein-Ernstthal, Bahnhof;Hohenstein-Ernstthal, Bahnhof;Regionalverkehr Westsachsen
 
 === Kurort Oberwiesenthal
 A;bus;Fichtelberg-Plateau - Bahnhof - Sparingberg - Bahnhof - Fichtelberg-Plateau;Fichtelberg-Plateau;Fichtelberg-Plateau;Regionalverkehr Erzgebirge
 
 === Limbach-Oberfrohna
-C1;bus;City-Bus Limbach-Oberfrohna;;;FRI
-C2;bus;City-Bus Limbach-Oberfrohna;;;FRI
+C1;bus;City-Bus Limbach-Oberfrohna;;;Fritzsche GmbH
+C2;bus;City-Bus Limbach-Oberfrohna;;;Fritzsche GmbH
 
 === Lößnitz
 A;bus;Neustadt - Markt - Ostsiedlung - Neustadt;Lößnitz, Neustadt;Lößnitz, Neustadt;Regionalverkehr Erzgebirge
 
 === Marienberg
 A;bus;Markt - Mooshaide - Mühlberg - Markt - Gewerbegebiet;Marienberg, Markt;Marienberg, Gewerbegebiet;Regionalverkehr Erzgebirge
-B;bus;Markt - Dörfel - Gelobtland - Gebirge - Dörfel - Markt;Marienberg, Markt;Marienberg, Markt;KRM
-D;bus;Marienberg - Lauterbach - Pobershau - Marienberg;Marienberg;Marienberg;KRM
-E;bus;Marienberg - Gebirge - Pobershau - Zöblitz - Marienberg;Marienberg;Marienberg;KRM
+B;bus;Markt - Dörfel - Gelobtland - Gebirge - Dörfel - Markt;Marienberg, Markt;Marienberg, Markt;Katzenstein-Reisen
+D;bus;Marienberg - Lauterbach - Pobershau - Marienberg;Marienberg;Marienberg;Katzenstein-Reisen
+E;bus;Marienberg - Gebirge - Pobershau - Zöblitz - Marienberg;Marienberg;Marienberg;Katzenstein-Reisen
 
 === Mittweida
-A;bus;Baumwollspinnerei Wendeschleife - Markt - Bahnhof;Baumwollspinnerei Wendeschleife;Mittweida, Bahnhof;RBM
-B;bus;Kaufland - Lauenhainer Straße - Krankenhaus - Busbahnhof - Lauenhainer Straße - Kaufland;Mittweida, Kaufland;Mittweida, Kaufland;RBM
-C;bus;Lauenhain - Mittweida - Altmittweida;Lauenhain;Altmittweida;RBM
-F;bus;Baumwollspinnerei Wendeschleife - Busbahnhof - Kaufland - Bahnhof;Baumwollspinnerei Wendeschleife;Mittweida, Bahnhof;RBM
+A;bus;Baumwollspinnerei Wendeschleife - Markt - Bahnhof;Baumwollspinnerei Wendeschleife;Mittweida, Bahnhof;Regiobus Mittelsachsen
+B;bus;Kaufland - Lauenhainer Straße - Krankenhaus - Busbahnhof - Lauenhainer Straße - Kaufland;Mittweida, Kaufland;Mittweida, Kaufland;Regiobus Mittelsachsen
+C;bus;Lauenhain - Mittweida - Altmittweida;Lauenhain;Altmittweida;Regiobus Mittelsachsen
+F;bus;Baumwollspinnerei Wendeschleife - Busbahnhof - Kaufland - Bahnhof;Baumwollspinnerei Wendeschleife;Mittweida, Bahnhof;Regiobus Mittelsachsen
 
 === Rochlitz
-R;bus;Rathausstraße - Bahnhof - Obere Lindenbergstraße - Rathausstraße;Rochlitz, Rathausstraße;Rochlitz, Rathausstraße;RBM
+R;bus;Rathausstraße - Bahnhof - Obere Lindenbergstraße - Rathausstraße;Rochlitz, Rathausstraße;Rochlitz, Rathausstraße;Regiobus Mittelsachsen
 
 === Schwarzenberg
 A;bus;Heide - Busbahnhof - Sonnenleithe - Busbahnhof - Heide;Schwarzenberg, Heide;Schwarzenberg, Heide;Regionalverkehr Erzgebirge
 B;bus;Busbahnhof - Wildenau - Neuwelt - Bermsgrün - Busbahnhof;Schwarzenberg, Busbahnhof;Schwarzenberg, Busbahnhof;Regionalverkehr Erzgebirge
 
 === Stollberg
-STL 1;bus;Stadtlinie 1;;;RVE
-STL 2;bus;Stadtlinie 2;;;RVE
+STL 1;bus;Stadtlinie 1;;;Regionalverkehr Erzgebirge
+STL 2;bus;Stadtlinie 2;;;Regionalverkehr Erzgebirge
 
 === Zschopau
 1;bus;Hohndorf - Zschopau - Gornau, Einkaufszentrum;Hohndorf, Siedlung;Gornau, Einkaufszentrum Zschopau/Gornau;Regionalverkehr Erzgebirge GmbH
@@ -410,7 +410,7 @@ STL 2;bus;Stadtlinie 2;;;RVE
 633;bus;Leisnig - Böhlen - Bröhsen - Grimma;;;RL
 636;bus;Mittweida - Ottendorf - Chemnitz, Chemnitz Center - Chemnitz, Omnibusbahnhof;;;RBM
 637;bus;Mittweida - Oberlichtenau - Auerswalde - Chemnitz;;;RBM
-638;bus;Garnsdorf - Köthensdorf - Taura - Burgstädt;;;RBM
+638;bus;Garnsdorf - Köthensdorf - Taura - Burgstädt;;;REGIOBUS Mittelsachsen GmbH
 639;bus;Mittweida - Zschöppichen - Ottendorf - Garnsdorf - Chemnitz;;;RBM
 640;bus;Chemnitz - Frankenberg - Hainichen - Roßwein;;;RBM
 642;bus;Zschopautaler: Chemnitz - Frankenberg - Mittweida - Kriebstein;;;RBM

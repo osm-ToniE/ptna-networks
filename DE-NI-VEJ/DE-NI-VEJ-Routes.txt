@@ -234,6 +234,7 @@ K2;bus;;;;
 K3;bus;;;;
 N39;bus;;;;
 N41;bus;;;;
+N43;bus;;;;
 N61;bus;;;;
 N62;bus;;;;
 N63;bus;;;;

@@ -231,6 +231,7 @@ T84;bus;Taxibus;;;Stadtwerke Münster
 T85;bus;Taxibus;;;Stadtwerke Münster
 T87;bus;Taxibus;;;Stadtwerke Münster
 T341;bus;;;;Stadtwerke Münster
+T541;bus;;Ottmarsbocholt;Amelsbüren;Regionalverkehr Münsterland GmbH
 
 === Kreis Steinfurt
 
@@ -725,7 +726,7 @@ T55;bus;;Capelle;Werne;Regionalverkehr Münsterland GmbH
 T57;bus;;Olfen;Selm;Regionalverkehr Münsterland GmbH
 T65;bus;;Darup;Dülmen;Regionalverkehr Münsterland GmbH
 T67;bus;;Billerbeck;Nottuln;Regionalverkehr Münsterland GmbH
-T541;bus;;;;Regionalverkehr Münsterland GmbH
+T541;bus;;Ottmarsbocholt;Amelsbüren;Regionalverkehr Münsterland GmbH
 T612;bus;;;;Euregio-Verkehrsgesellschaft GmbH & Co. KG
 
 === Kreis Borken
