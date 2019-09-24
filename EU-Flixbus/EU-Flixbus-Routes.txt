@@ -671,6 +671,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 1303;bus;;Warschau;Breslau/Karpacz;FlixMobility GmbH
 1304;bus;;Warschau;Dresden;FlixMobility GmbH
 1305;bus;;Salzburg;Breslau;FlixMobility GmbH
+1306;bus;;Posen;Karpacz;FlixMobility GmbH
 1307;bus;;Breslau;Gdingen;FlixMobility GmbH
 1310;bus;;Prag;Krakau;FlixMobility GmbH
 1311;bus;;Posen;Budapest;FlixMobility GmbH
@@ -686,17 +687,21 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 1362;bus;;Stettin;Zakopane;FlixMobility GmbH
 1363;bus;;Zakopane;Kattowitz;FlixMobility GmbH
 1364;bus;;Zakopane;Oppeln;FlixMobility GmbH
+1365A;bus;;Posen;Przemyśl;FlixMobility GmbH
+1365B;bus;;Breslau;Krakau;FlixMobility GmbH
 1366;bus;;Dresden;Breslau;FlixMobility GmbH
-1367;bus;;Breslau;Krakau;FlixMobility GmbH
+1367;bus;;Breslau;Przemyśl;FlixMobility GmbH
 1368;bus;;Tschenstochau;Krakau;FlixMobility GmbH
 1369;bus;;Krakau;Cieszyn;FlixMobility GmbH
 1372;bus;;Bielitz-Biala;Wieliczka;FlixMobility GmbH
 1373;bus;;Krakau;Ustrzyki Polne;FlixMobility GmbH
+1374;bus;;Kattowitz;Szczawnica;FlixMobility GmbH
 1380;bus;;Gdingen;Prag;FlixMobility GmbH
 1381;bus;;Berlin;Posen/Toruń;FlixMobility GmbH
 1382;bus;;Kudowa-Zdroj;Gdingen;FlixMobility GmbH
 1383;bus;;Legnica;Gdingen;FlixMobility GmbH
 1388;bus;;Berlin;Gorzów/Gdingen;FlixMobility GmbH
+1395;bus;;Kattowitz;Zakopane;FlixMobility GmbH
 
 
 == 14xx-Linien (Überwiegend Italien)
@@ -861,15 +866,16 @@ K989;bus;;Linz;Valjevo;Europa Bus Valjevo
 K995;bus;;Pančevo;Herceg Novi;Fudeks
 K997;bus;läuft auch als Eurolines EU0457(Eurolines von Flixbus gekauft);Freiburg;Imotski;Lubina Bus
 K3000;bus;;Warschau;Kiew;TOV Gunsel
+K3001;bus;;Breslau;Kiev;TOV Gunsel
 K3002;bus;;Prag;Kiew;TOV Gunsel
 
 
 == Kooperationslinien mit Fernbusunternehmen Polskibus aus Polen
 
-KPB1;bus;Seite nicht mehr verfügbar.;Lublin;Krakau;Polskibus
+KPB1;bus;;Lublin;Krakau;Polskibus
 KPB2;bus;Seite nicht mehr verfügbar.;Lublin;Zakopane;Polskibus
 KPB3;bus;;Lublin;Gdingen;Polskibus
-KPB5;bus;Seite nicht mehr verfügbar.;Lublin;Breslau;Polskibus
+KPB5;bus;;Lublin;Breslau;Polskibus
 
 P1;bus;;Danzig;Warschau;"PolskiBus" Souter Holdings Poland Sp. z o. o.
 P2;bus;;Warschau;Bromberg;"PolskiBus" Souter Holdings Poland Sp. z o. o.
@@ -1187,6 +1193,7 @@ N979;bus;Seit 09.09.2018 nicht mehr buchbar, wurde eingestellt.;Budapest;Budva;F
 N980;bus;;Bukarest;Sofia;FlixMobility GmbH
 N981;bus;;München;Plovdiv;FlixMobility GmbH
 N982;bus;;Sofia;Wien;FlixMobility GmbH
+N986;bus;;Budapest;Krakau;FlixMobility GmbH
 N990;bus;;Pančevo;Wien;FlixMobility GmbH
 N997;bus;;Rom;Zagreb;FlixMobility GmbH
 N998;bus;;Zürich;Virovitica;FlixMobility GmbH

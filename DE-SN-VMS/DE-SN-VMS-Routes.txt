@@ -171,11 +171,11 @@ D;bus;Frankenberg, Süd - Neubaugebiet - Frankenberg, Süd;Frankenberg, Süd;Fra
 E;bus;Frankenberg, Süd - Lützelhöhe - Frankenberg, Süd;Frankenberg, Süd;Frankenberg, Süd;REGIOBUS Mittelsachsen GmbH
 
 === Hohenstein-Ernstthal
-1;bus;Bahnhof - Hüttengrund - Heiterer Blick - Bahnhof - Sonnenstraße - Wüstenbrand - Bahnhof;Hohenstein-Ernstthal, Bahnhof;Hohenstein-Ernstthal, Bahnhof;Regionalverkehr Westsachsen
-2;bus;Bahnhof - Ernst-Thälmann-Siedlung - Fritz-Heckert-Siedlung - Bahnhof;Hohenstein-Ernstthal, Bahnhof;Hohenstein-Ernstthal, Bahnhof;Regionalverkehr Westsachsen
+1;bus;Bahnhof - Hüttengrund - Heiterer Blick - Bahnhof - Sonnenstraße - Wüstenbrand - Bahnhof;Hohenstein-Ernstthal, Bahnhof;Hohenstein-Ernstthal, Bahnhof;Regionalverkehr Westsachsen GmbH
+2;bus;Bahnhof - Ernst-Thälmann-Siedlung - Fritz-Heckert-Siedlung - Bahnhof;Hohenstein-Ernstthal, Bahnhof;Hohenstein-Ernstthal, Bahnhof;Regionalverkehr Westsachsen GmbH
 
 === Kurort Oberwiesenthal
-A;bus;Fichtelberg-Plateau - Bahnhof - Sparingberg - Bahnhof - Fichtelberg-Plateau;Fichtelberg-Plateau;Fichtelberg-Plateau;Regionalverkehr Erzgebirge
+A;bus;Fichtelberg-Plateau - Bahnhof - Sparingberg - Bahnhof - Fichtelberg-Plateau;Kurort Oberwiesenthal, Fichtelberg-Plateau;Kurort Oberwiesenthal, Fichtelberg-Plateau;Regionalverkehr Erzgebirge GmbH
 
 === Limbach-Oberfrohna
 C1;bus;City-Bus Limbach-Oberfrohna;;;Fritzsche GmbH
@@ -304,7 +304,7 @@ STL 2;bus;Stadtlinie 2;;;Regionalverkehr Erzgebirge
 242;bus;Zschopau - Waldkirchen - Witzschdorf - Gornau;;;RVE
 247;bus;Meinersdorf - Gornsdorf - Thum;;;RVE
 251;bus;Chemnitz, Schönau - Oberlungwitz - Gersdorf - Lichtenstein;;;RVE;CVAG
-253;bus;Chemnitz, Schönau - Chemnitz, Reichenbrand - Chemnitz, Rabenstein - Limbach-Oberfrohna OT Rußdorf;;;RVE
+253;bus;Chemnitz, Schönau - Rußdorf, Wendeschleife;;;Regionalverkehr Westsachsen GmbH
 256;bus;Hohenstein-Ernstthal - Pleißa - Limbach-Oberfrohna - Bräunsdorf;;;RVW
 260;bus;Grüne Linie: Stollberg - Neuwürschnitz - Oelsnitz - Lugau - Stollberg;;;RVE
 261;bus;Grüne Linie: Stollberg - Lugau - Oelsnitz - Neuwürschnitz - Stollberg;;;RVE

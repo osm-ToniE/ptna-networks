@@ -49,21 +49,16 @@
 
 == Bus
 
+=== Stadtverkehr Emden
+
 1;bus;Emden;Emden;Emden;Stadtwerke Emden
-1;bus;Wilhelmshaven;Wilhelmshaven;Wilhelmshaven;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
 2;bus;Emden;Emden;Emden;Stadtwerke Emden
-2;bus;Wilhelmshaven;Wilhelmshaven;Wilhelmshaven;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
 3;bus;Emden;Emden;Emden;Stadtwerke Emden
-3;bus;Wilhelmshaven;Wilhelmshaven;Wilhelmshaven;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
 4;bus;Emden;Emden;Emden;Stadtwerke Emden
-4;bus;Wilhelmshaven;Wilhelmshaven;Wilhelmshaven;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
 5;bus;Emden;Emden;Emden;Stadtwerke Emden
-5;bus;Wilhelmshaven;Wilhelmshaven;Wilhelmshaven;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
 6;bus;Emden;Emden;Emden;Stadtwerke Emden
-6;bus;Wilhelmshaven;Wilhelmshaven;Wilhelmshaven;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
 7;bus;Emden;;;Stadtwerke Emden
 8;bus;Emden;Emden;Emden;Stadtwerke Emden
-8;bus;Wilhelmshaven;Wilhelmshaven;Wilhelmshaven;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
 9;bus;Emden;;;Stadtwerke Emden
 11;bus;Emden;;;Stadtwerke Emden
 14;bus;Emden;;;Stadtwerke Emden
@@ -71,6 +66,27 @@
 17;bus;Emden;;;Stadtwerke Emden
 19;bus;Emden;;;Stadtwerke Emden
 29;bus;Emden;;;Stadtwerke Emden
+
+=== Stadtverkehr Wilhelmshaven
+
+1;bus;Wilhelmshaven;Wilhelmshaven;Wilhelmshaven;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+2;bus;Wilhelmshaven;Wilhelmshaven;Wilhelmshaven;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+3;bus;Wilhelmshaven;Wilhelmshaven;Wilhelmshaven;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+4;bus;Wilhelmshaven;Wilhelmshaven;Wilhelmshaven;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+5;bus;Wilhelmshaven;Wilhelmshaven;Wilhelmshaven;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+6;bus;Wilhelmshaven;Wilhelmshaven;Wilhelmshaven;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+8;bus;Wilhelmshaven;Wilhelmshaven;Wilhelmshaven;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+S1;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+S2;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+S3;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+S4;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+S5;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+S6;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+S7;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+S8;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
+
+=== Sonstige Linien
+
 111;bus;Wilhelmshaven - Wiesmoor;;;
 121;bus;Wilhelmshaven - Schillig;;;
 211;bus;Jever - Harlesiel;;;
@@ -238,14 +254,6 @@ N43;bus;;;;
 N61;bus;;;;
 N62;bus;;;;
 N63;bus;;;;
-S1;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
-S2;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
-S3;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
-S4;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
-S5;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
-S6;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
-S7;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
-S8;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
 
 
 </pre>
