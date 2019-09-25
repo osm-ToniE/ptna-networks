@@ -815,7 +815,7 @@ K288/E02;bus;;Zürich Flughafen;Montreux;Eurobus
 K318;bus;;Warschau;Bialystock;ŹakExpress
 K319;bus;;Prag;Minsk;VisitTour
 K320;bus;;Warschau;Minsk;BayerTrans
-K321;bus;;Warschau;Sulwalki;ŹakExpress
+K321;bus;;Warschau;Suwalki;ŹakExpress
 K322;bus;;Danzig;Brest(Weissrussland);PKS Gdańsk
 K326;bus;;Lautzenhausen;Heidelberg;BBK Barbis Verkehrsleistungen GmbH
 K330;bus;;Mestre;Venedig Flughafen Marco Polo;ATVO Airport Shuttle
@@ -1204,18 +1204,19 @@ N1210;bus;;Warschau;Gdingen;FlixMobility GmbH
 N1271;bus;;Warschau;Ustrzyki Górne;FlixMobility GmbH
 N1282;bus;;Warschau;Pula;FlixMobility GmbH
 N1283;bus;;Krakau;Split;FlixMobility GmbH
-N1291;bus;;Wien;Przemyśl;FlixMobility GmbH
+N1291;bus;;Wien;Medyka;FlixMobility GmbH
 N1293;bus;;Breslau;Budapest;FlixMobility GmbH
 
 N1300;bus;;Warschau;Prag;FlixMobility GmbH
 N1304;bus;;München;Warschau;FlixMobility GmbH
 N1305;bus;;Warschau;Breslau;FlixMobility GmbH
+N1310;bus;;Jastrzębie-Zdrój;Medyka;FlixMobility GmbH
 N1311;bus;;Gdingen;Budapest;FlixMobility GmbH
 N1320;bus;;Warschau;Bonn;FlixMobility GmbH
 N1321;bus;;Berlin;Warschau;FlixMobility GmbH
-N1323;bus;;Berlin;Posen/Sulwalki;FlixMobility GmbH
+N1323;bus;;Berlin;Posen/Suwalki;FlixMobility GmbH
 N1340;bus;;Warschau;Stettin;FlixMobility GmbH
-N1360;bus;;Bremen;Przemyśl;FlixMobility GmbH
+N1360;bus;;Bremen;Medyka;FlixMobility GmbH
 N1362;bus;;Stettin;Zakopane;FlixMobility GmbH
 N1365;bus;;Berlin;Zakopane;FlixMobility GmbH
 N1376;bus;;Kopenhagen;Krakau;FlixMobility GmbH
