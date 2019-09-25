@@ -6,6 +6,8 @@
 
 PREFIX="BR-MG-BHTrans"
 
+PTNA_TIMEZONE="America/Sao_Paulo"
+
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata=Q42800][type=boundary];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Empresa de Transporte e Trânsito de Belo Horizonte"
 NETWORK_SHORT="BHTRANS|BR:MG:Belo Horizonte"
