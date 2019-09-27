@@ -1,0 +1,101 @@
+<pre>
+#
+# Format: format is like in the OSM Wiki
+#
+# Links: [[...|...]] are interne link like in the OSM Wiki
+#        [... ...] are external links
+#
+# Headers start with '=', '==', '===', '====', ... at the beginning of a line
+#
+# Simple text starts with '-' at the beginning of a line.
+#    Simple text starts may only be placed directly after a header line.
+#    A single '-' at the beginning of a line, followed by nothing:
+#    - if there was simple text before, it creates a line feed (i.e. encloses the text in a paragraph <p> ... </p>)
+#    - if there was no simple text before or a line feed, it creates an empty line (i.e. <p>&amp;nbsp;</p>)
+#
+# !!!Text yellow background!!! in simple text or headers
+# '''''Text mit bold and italics''''' in simple text or headers
+# '''Text with bold chars''' in simple text or headers
+# ''Text with italic chars'' in simple text or headers
+#
+# Comments start with '#' at the beginning of a line. '#' inside text is not recognized as the start of a comment, i.e.. '#' may occur inside of text.
+#
+# Format of the file: UTF-8
+#
+#
+# Cotents in CSV-Format
+#
+# ref;type;comment;from;to;operator
+#
+# - ref       == tag 'ref' of route or route_master
+#                250            defines that routes with 'ref'='250' are expected
+#                250|250a|250b  defines that routes with 'ref'='250' or 'ref'='250a' or 'ref'='250b' are expected - independent of whether this is allowed according to PTv1/PTv2
+# - type      == contents of tags 'route' respectively 'route_master'
+# - comment   == can include comments like; Bus, Expressbus, ...  will not be analyzed, but simply be printed out
+#                !Text with yellow background! in comment (surrounded by single !)
+# - from      == if there is more than one entry with "ref;type" and "operator" is the same, then 'from' and 'to are also used to distinguish between same line number in different cities/villages
+# - to        == if there is more than one entry with "ref;type" and "operator" is the same, then 'from' and 'to are also used to distinguish between same line number in different cities/villages
+# - operator  == if there is more than one entry with "ref;type", then "operator" is used to distinguish between same line number in different cities/villages
+#
+
+
+= Overview on Public Transportation of the IRTRAMMA network in Managua, Nicaragua
+
+#- Link to the data with the description of [[ES:Nicaragua/Transporte_p%C3%BAblico/Managua/Análisis/IRTRAMMA_Líneas|IRTRAMMA Líneas]] in OSM-Wiki.
+#- Link to more [[ES_talk:Nicaragua/Transporte_p%C3%BAblico/Managua/Análisis|information]] in OSM-Wiki.
+
+- based on [https://datos.mapanica.net/ni-managua-gtfs.zip GTFS information] downloaded on 2019-09-27 from [https://datos.mapanica.net this site].
+-
+-
+
+#
+#ref;type;comment;from;to;operator
+
+ESQ;bus;;Esquipulas;Esquipulas;
+MR4;bus;;Miniruta 4 (261);Miniruta 4 (261);
+SIS;bus;;San Isidro;San Isidro;
+VAN;bus;;Los Vanegas;Los Vanegas;
+6;bus;;Ruta 6;Ruta 6;
+101;bus;;Ruta 101;Ruta 101;
+102;bus;;Ruta 102;Ruta 102;
+103;bus;;Ruta 103;Ruta 103;
+104;bus;;Ruta 104;Ruta 104;
+105;bus;;Ruta 105;Ruta 105;
+106;bus;;Ruta 106;Ruta 106;
+107;bus;;Ruta 107;Ruta 107;
+108;bus;;Ruta 108;Ruta 108;
+109;bus;;Ruta 109;Ruta 109;
+110;bus;;Ruta 110;Ruta 110;
+111;bus;;Ruta 111;Ruta 111;
+112;bus;;Ruta 112;Ruta 112;
+113;bus;;Ruta 113;Ruta 113;
+114;bus;;Ruta 114;Ruta 114;
+115;bus;;Ruta 115;Ruta 115;
+116;bus;;Ruta 116;Ruta 116;
+117;bus;;Ruta 117;Ruta 117;
+118;bus;;Ruta 118;Ruta 118;
+119;bus;;Ruta 119;Ruta 119;
+120;bus;;Ruta 120;Ruta 120;
+123;bus;;Ruta 123;Ruta 123;
+125;bus;;Ruta 125;Ruta 125;
+125CS;bus;;Ruta 125 (Ciudad Sandino);Ruta 125 (Ciudad Sandino);
+133;bus;;Ruta 133;Ruta 133;
+154;bus;;Ruta 154;Ruta 154;
+158;bus;;Ruta 158;Ruta 158;
+159;bus;;Ruta 159;Ruta 159;
+163;bus;;Ruta 163;Ruta 163;
+164;bus;;Ruta 164;Ruta 164;
+165;bus;;Ruta 165;Ruta 165;
+167;bus;;Ruta 167;Ruta 167;
+168;bus;;Ruta 168;Ruta 168;
+169;bus;;Ruta 169;Ruta 169;
+170;bus;;Ruta 170;Ruta 170;
+172;bus;;Ruta 172;Ruta 172;
+175;bus;;Ruta 175;Ruta 175;
+195;bus;;Ruta 195;Ruta 195;
+210;bus;;Ruta 210;Ruta 210;
+262;bus;;Ruta 262;Ruta 262;
+266;bus;;Ruta 266;Ruta 266;
+-
+
+</pre>
