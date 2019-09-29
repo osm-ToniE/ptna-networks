@@ -84,17 +84,13 @@ RB 85;train;;;;
 6;bus;;;;
 7;bus;;;;
 8;bus;;;;
-9;bus;;;;
 10;bus;;;;
-11;bus;;;;
 # 12;bus;;;; wurde in 14 integriert
 13;bus;;;;
 14;bus;;;;
 15;bus;;;;
 16;bus;;;;
 17;bus;;;;
-18;bus;;;;
-19;bus;;;;
 30;bus;;;;
 81;bus;;;;
 82;bus;;;;

@@ -217,9 +217,7 @@ S8;bus;Wilhelmshaven;;;Stadtwerke-Verkehrsgesellschaft Wilhelmshaven GmbH
 639;bus;;;;
 641;bus;;;;
 651;bus;Leer;;;
-651S;bus;Leer;;;
 652;bus;Leer;;;
-652S;bus;Leer;;;
 655;bus;;;;
 656;bus;Burlage - Leer;;;
 661;bus;Moormerland - Aurich;;;

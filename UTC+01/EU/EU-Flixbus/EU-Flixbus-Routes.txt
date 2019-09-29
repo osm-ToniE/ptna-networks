@@ -230,6 +230,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 248;bus;;Berlin;Zingst;FlixMobility GmbH
 249;bus;;Hamburg;Stettin;FlixMobility GmbH
 250;bus;;Cuxhaven;Berlin;FlixMobility GmbH
+253;bus;;Hamburg;Berlin;FlixMobility GmbH
 260;bus;;Budapest;Berlin;FlixMobility GmbH
 262;bus;ehm. Flixbus K474;Linz;Graz;FlixMobility GmbH
 264;bus;;Göttingen;Brüssel;FlixMobility GmbH
@@ -243,7 +244,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 280;bus;;Wuppertal;Antwerpen;FlixMobility GmbH
 283;bus;;Zürich;Prag;FlixMobility GmbH
 284;bus;;Karlsruhe;Prag;FlixMobility GmbH
-289;bus;;Amberg;Berlin;FlixMobility GmbH
+289;bus;Linie wurde eingestellt;Amberg;Berlin;FlixMobility GmbH
 291;bus;Seit 25.04.2018 nicht mehr buchbar, wurde eingestellt.;München;Zagreb;FlixMobility GmbH
 299;bus;;Brüssel;Luzern;FlixMobility GmbH
 

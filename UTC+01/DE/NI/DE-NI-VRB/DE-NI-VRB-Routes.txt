@@ -89,8 +89,7 @@ RB 82;train;;Bad Harzburg;Göttingen;DB Regio Nord
 == Tram
 === Stadt Braunschweig
 1;tram;;Wenden;Stöckheim;Braunschweiger Verkehrs-GmbH
-# Gültig mit Fahrplanwechsel am 3.10.2019
-# 10;tram;;Hauptbahnhof;Rühme;Braunschweiger Verkehrs-GmbH
+10;tram;;Hauptbahnhof;Rühme;Braunschweiger Verkehrs-GmbH
 2;tram;;Heidberg;Siegfriedviertel;Braunschweiger Verkehrs-GmbH
 3;tram;;Weststadt Weserstraße;Volkmarode;Braunschweiger Verkehrs-GmbH
 4;tram;;Helmstedter Straße;Radeklint;Braunschweiger Verkehrs-GmbH
@@ -236,16 +235,12 @@ RB 82;train;;Bad Harzburg;Göttingen;DB Regio Nord
 419;bus;;Hauptbahnhof;Hauptbahnhof;Braunschweiger Verkehrs-GmbH
 420;bus;;BS Rathaus;WF Bahnhof;Braunschweiger Verkehrs-GmbH
 422;bus;;Lehndorf;Bebelhof;Braunschweiger Verkehrs-GmbH
-# Gültig mit Fahrplanwechsel am 3.10.2019
-# 423;bus;;Weststadt Donauknoten;Herzogin-Elisabeth-Straße;Braunschweiger Verkehrs-GmbH
+423;bus;;Weststadt Donauknoten;Herzogin-Elisabeth-Straße;Braunschweiger Verkehrs-GmbH
 424;bus;;Rühme;Waggum/Bevenrode/Essenrode;Braunschweiger Verkehrs-GmbH
-# Gültig mit Fahrplanwehchsel am 3.10.2019
-# 426;bus;;Cyriaksring;Siegfriedviertel/Kralenriede;Braunschweiger Verkehrs-GmbH
-426;bus;;Hamburger Straße;Flughafen;Braunschweiger Verkehrs-GmbH
+426;bus;;Cyriaksring;Siegfriedviertel/Kralenriede;Braunschweiger Verkehrs-GmbH
 427;bus;;Essehof;Volkmarode;Braunschweiger Verkehrs-GmbH
 429;bus;;Hauptbahnhof;Hauptbahnhof;Braunschweiger Verkehrs-GmbH
-# Gültig mit Fahrplanwechsel am 3.10.2019
-# 430;bus;;Braunschweig Hauptbahnhof;Gardessen/Bornum;Braunschweiger Verkehrs-GmbH
+430;bus;;Braunschweig Hauptbahnhof;Gardessen/Bornum;Braunschweiger Verkehrs-GmbH
 431;bus;;Hauptbahnhof;Helmstedter Straße;Braunschweiger Verkehrs-GmbH
 433;bus;;Völkenrode;Hondelage;Braunschweiger Verkehrs-GmbH
 434;bus;;Wenden;Lagesbüttel;Braunschweiger Verkehrs-GmbH
@@ -253,27 +248,19 @@ RB 82;train;;Bad Harzburg;Göttingen;DB Regio Nord
 436;bus;;Hauptbahnhof;Flughafen;Braunschweiger Verkehrs-GmbH
 437;bus;;Volkmarode;Cremlingen;Braunschweiger Verkehrs-GmbH
 442;bus;;Helmstedter Straße;Melverode/Stöckheim;Braunschweiger Verkehrs-GmbH
-# Linie 443 wird durch die 423 ersetzt (Gültig mit Fahrplanwechsel am 3.10.2019)
-443;bus;;Donauknoten;Querum;Braunschweiger Verkehrs-GmbH
 445;bus;;Lengede;Donauknoten;Braunschweiger Verkehrs-GmbH
 450;bus;;Vechelde;Rathaus;Braunschweiger Verkehrs-GmbH
-452;bus;;Helmstedter Straße;Bornum/Gardessen;Braunschweiger Verkehrs-GmbH
 454;bus;;Stadion;Schwarzer Berg;Braunschweiger Verkehrs-GmbH
 455;bus;;Geitelde;Donauknoten;Braunschweiger Verkehrs-GmbH
 461;bus;;PTB;Hauptbahnhof;Braunschweiger Verkehrs-GmbH
-# Gültig mit Fahrplanwechsel am 3.10.2019
-# 464;bus;;Harxbüttel;Stadion;Braunschweiger Verkehrs-GmbH
-464;bus;;Rühme;Volkmarode;Braunschweiger Verkehrs-GmbH
+464;bus;;Rühme/Harxbüttel;Stadion/Volkmarode;Braunschweiger Verkehrs-GmbH
 465;bus;;Broitzem;Rüningen;Braunschweiger Verkehrs-GmbH
-# Gültig mit Fahrplanwechsel am 3.10.2019
-# 466;bus;;Rüningen;Broitzem;Braunschweiger Verkehrs-GmbH
+466;bus;;Rüningen;Broitzem;Braunschweiger Verkehrs-GmbH
 471;bus;Anruf-Linien-Taxi;Klinikum Salzdahlumer Straße;Jägersruh;Braunschweiger Verkehrs-GmbH
 480;bus;;Groß Schwülper;Rathaus;Braunschweiger Verkehrs-GmbH
 481;bus;;Leiferde;Stöckheim;Braunschweiger Verkehrs-GmbH
 482;bus;;Hauptbahnhof;Braunschweiger Verkehrs-GmbH;Braunschweiger Verkehrs-GmbH
 484;bus;;Groß Schwülper;Rühme;Braunschweiger Verkehrs-GmbH
-# Linie 485 wird durch die 466 ersetzt (Gültig mit Fahrplanwechsel am 3.10.2019)
-485;bus;;Broitzem;Rüningen;Braunschweiger Verkehrs-GmbH
 493;bus;;Rathaus;Neuerkerode;Braunschweiger Verkehrs-GmbH
 #
 

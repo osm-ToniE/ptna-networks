@@ -39,12 +39,12 @@
 #
 
 
-= Overview on Public Transportation of the IRTRAMMA network in Managua, Nicaragua
+= Descripción general del transporte público de la red IRTRAMMA en Managua, Nicaragua
 
-#- Link to the data with the description of [[ES:Nicaragua/Transporte_p%C3%BAblico/Managua/Análisis/IRTRAMMA_Líneas|IRTRAMMA Líneas]] in OSM-Wiki.
-#- Link to more [[ES_talk:Nicaragua/Transporte_p%C3%BAblico/Managua/Análisis|information]] in OSM-Wiki.
+- Enlace a los datos con la descripción de[[ES:Nicaragua/Transporte_p%C3%BAblico/Managua/Análisis/IRTRAMMA_Rutas|IRTRAMMA Rutas]] en OSM-Wiki.
+- Enlace a más [[ES_talk:Nicaragua/Transporte_p%C3%BAblico/Managua/Análisis|información]] en OSM-Wiki.
 
-- based on [https://datos.mapanica.net/ni-managua-gtfs.zip GTFS information] downloaded on 2019-09-27 from [https://datos.mapanica.net this site].
+- Basado en la [https://datos.mapanica.net/ni-managua-gtfs.zip información GTFS] descargado el 27/09/2019 desde sitio de [https://datos.mapanica.net MapaNica].
 -
 -
 
