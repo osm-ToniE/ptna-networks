@@ -1,48 +1,50 @@
 <pre>
 #
-# Format: format is like in the OSM Wiki
+# Format: o formato é como no OSM Wiki
 #
-# Links: [[...|...]] are interne link like in the OSM Wiki
-#        [... ...] are external links
+# Links: [[... | ...]] são links internos, como no OSM Wiki
+#        [... ...] são links externos
 #
-# Headers start with '=', '==', '===', '====', ... at the beginning of a line
+# Os cabeçalhos começam com '=', '==', '===', '====', ... no início de uma linha
 #
-# Simple text starts with '-' at the beginning of a line.
-#    Simple text starts may only be placed directly after a header line.
-#    A single '-' at the beginning of a line, followed by nothing:
-#    - if there was simple text before, it creates a line feed (i.e. encloses the text in a paragraph <p> ... </p>)
-#    - if there was no simple text before or a line feed, it creates an empty line (i.e. <p>&amp;nbsp;</p>)
+# O texto simples começa com '-' no início de uma linha.
+#    O início simples do texto só pode ser colocado diretamente após uma linha de cabeçalho.
+#    Um único '-' no início de uma linha, seguido por nada:
+#    - se houver algum texto antes, ele cria um avanço de linha (ou seja, coloca o texto em um parágrafo <p> ... </p>)
+#    - se não houver texto simples antes ou um feed de linha, ele criará uma linha vazia (ou seja, <p>&amp;nbsp;</p>)
 #
-# !!!Text yellow background!!! in simple text or headers
-# '''''Text mit bold and italics''''' in simple text or headers
-# '''Text with bold chars''' in simple text or headers
-# ''Text with italic chars'' in simple text or headers
+# !!!Fundo amarelo de texto!!! em texto simples ou cabeçalhos
+# '''''Texto em negrito e itálico''''' em texto simples ou cabeçalhos
+# '''Texto com caracteres em negrito''' em texto simples ou cabeçalhos
+# ''Texto com caracteres itálicos'' em texto simples ou cabeçalhos
 #
-# Comments start with '#' at the beginning of a line. '#' inside text is not recognized as the start of a comment, i.e.. '#' may occur inside of text.
+# Os comentários começam com '#' no início de uma linha. '#' o texto interno não é reconhecido como o início de um comentário, ou seja, ... 'pode ocorrer dentro do texto.
 #
-# Format of the file: UTF-8
+# Formato do arquivo: UTF-8
 #
 #
-# Cotents in CSV-Format
+# Cotents no formato CSV
 #
 # ref;type;comment;from;to;operator
 #
-# - ref       == tag 'ref' of route or route_master
-#                250            defines that routes with 'ref'='250' are expected
-#                250|250a|250b  defines that routes with 'ref'='250' or 'ref'='250a' or 'ref'='250b' are expected - independent of whether this is allowed according to PTv1/PTv2
-# - type      == contents of tags 'route' respectively 'route_master'
-# - comment   == can include comments like; Bus, Expressbus, ...  will not be analyzed, but simply be printed out
-#                !Text with yellow background! in comment (surrounded by single !)
-# - from      == if there is more than one entry with "ref;type" and "operator" is the same, then 'from' and 'to are also used to distinguish between same line number in different cities/villages
-# - to        == if there is more than one entry with "ref;type" and "operator" is the same, then 'from' and 'to are also used to distinguish between same line number in different cities/villages
-# - operator  == if there is more than one entry with "ref;type", then "operator" is used to distinguish between same line number in different cities/villages
+# - ref       == tag 'ref' da rota ou route_master
+#                250            define que rotas com 'ref' = '250' são esperadas
+#                250|250a|250b  define que rotas com 'ref' = '250' ou 'ref' = '250a' ou 'ref' = '250b' são esperadas - independentemente de isso ser permitido ou não, de acordo com PTv1/PTv2
+# - type      == conteúdo das tags 'route' respectivamente 'route_master'
+# - comment   == pode incluir comentários como; Bus, Express Bus, ... não serão analisados, mas simplesmente impressos
+#                !Texto com fundo amarelo! no comentário (cercado por single '!')
+# - from      == se houver mais de uma entrada com "ref; type" e "operator" é a mesma, então 'from' e 'to' também serão usados para distinguir o mesmo número de linha em diferentes cidades / vilas
+# - to        == se houver mais de uma entrada com "ref; type" e "operator" é a mesma, então 'from' e 'to' também serão usados para distinguir o mesmo número de linha em diferentes cidades / vilas
+# - operator  == se houver mais de uma entrada com "ref; type", "operador" será usado para distinguir entre o mesmo número de linha em diferentes cidades / vilas
 #
 
 
-= Overview on Public Transportation of the BHTtrans network in Belo Horizonte, MG
+= Visão Geral sobre Transporte Público da rede BHTtrans em Belo Horizonte, MG
 
-- Link to the data with the description of [[Belo_Horizonte/Public_Transport/Analysis/BHTrans_Lines|BHTrans Lines]] in OSM-Wiki.
-- Link to more [[Talk:Belo_Horizonte/Public_Transport/Analysis|information]] in OSM-Wiki.
+- Link para os dados com a descrição de [[Belo_Horizonte/Public_Transport/Analysis/BHTrans_Lines|BHTrans Lines]] no OSM-Wiki.
+-
+- Link para mais [[Talk:Belo_Horizonte/Public_Transport/Analysis|informações]] no OSM-Wiki.
+-
 
 #
 #ref;type;comment;from;to;operator

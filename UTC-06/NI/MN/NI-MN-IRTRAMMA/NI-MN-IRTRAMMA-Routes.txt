@@ -41,9 +41,10 @@
 
 = Descripción general del transporte público de la red IRTRAMMA en Managua, Nicaragua
 
-- Enlace a los datos con la descripción de[[ES:Nicaragua/Transporte_p%C3%BAblico/Managua/Análisis/IRTRAMMA_Rutas|IRTRAMMA Rutas]] en OSM-Wiki.
+- Enlace a los datos con la descripción de [[ES:Nicaragua/Transporte_p%C3%BAblico/Managua/Análisis/IRTRAMMA_Rutas|IRTRAMMA Rutas]] en OSM-Wiki.
+-
 - Enlace a más [[ES_talk:Nicaragua/Transporte_p%C3%BAblico/Managua/Análisis|información]] en OSM-Wiki.
-
+-
 - Basado en la [https://datos.mapanica.net/ni-managua-gtfs.zip información GTFS] descargado el 27/09/2019 desde sitio de [https://datos.mapanica.net MapaNica].
 -
 -
@@ -51,51 +52,52 @@
 #
 #ref;type;comment;from;to;operator
 
-ESQ;bus;;Esquipulas;Esquipulas;
-MR4;bus;;Miniruta 4 (261);Miniruta 4 (261);
-SIS;bus;;San Isidro;San Isidro;
-VAN;bus;;Los Vanegas;Los Vanegas;
-6;bus;;Ruta 6;Ruta 6;
-101;bus;;Ruta 101;Ruta 101;
-102;bus;;Ruta 102;Ruta 102;
-103;bus;;Ruta 103;Ruta 103;
-104;bus;;Ruta 104;Ruta 104;
-105;bus;;Ruta 105;Ruta 105;
-106;bus;;Ruta 106;Ruta 106;
-107;bus;;Ruta 107;Ruta 107;
-108;bus;;Ruta 108;Ruta 108;
-109;bus;;Ruta 109;Ruta 109;
-110;bus;;Ruta 110;Ruta 110;
-111;bus;;Ruta 111;Ruta 111;
-112;bus;;Ruta 112;Ruta 112;
-113;bus;;Ruta 113;Ruta 113;
-114;bus;;Ruta 114;Ruta 114;
-115;bus;;Ruta 115;Ruta 115;
-116;bus;;Ruta 116;Ruta 116;
-117;bus;;Ruta 117;Ruta 117;
-118;bus;;Ruta 118;Ruta 118;
-119;bus;;Ruta 119;Ruta 119;
-120;bus;;Ruta 120;Ruta 120;
-123;bus;;Ruta 123;Ruta 123;
-125;bus;;Ruta 125;Ruta 125;
-125CS;bus;;Ruta 125 (Ciudad Sandino);Ruta 125 (Ciudad Sandino);
-133;bus;;Ruta 133;Ruta 133;
-154;bus;;Ruta 154;Ruta 154;
-158;bus;;Ruta 158;Ruta 158;
-159;bus;;Ruta 159;Ruta 159;
-163;bus;;Ruta 163;Ruta 163;
-164;bus;;Ruta 164;Ruta 164;
-165;bus;;Ruta 165;Ruta 165;
-167;bus;;Ruta 167;Ruta 167;
-168;bus;;Ruta 168;Ruta 168;
-169;bus;;Ruta 169;Ruta 169;
-170;bus;;Ruta 170;Ruta 170;
-172;bus;;Ruta 172;Ruta 172;
-175;bus;;Ruta 175;Ruta 175;
-195;bus;;Ruta 195;Ruta 195;
-210;bus;;Ruta 210;Ruta 210;
-262;bus;;Ruta 262;Ruta 262;
-266;bus;;Ruta 266;Ruta 266;
--
+ESQ;bus;OSM relation/6456809;Esquipulas;Esquipulas;
+MR4;bus;OSM relation/3665505;Miniruta 4 (261);Miniruta 4 (261);
+SIS;bus;OSM relation/5910109;San Isidro;San Isidro;
+VAN;bus;OSM relation/3665504;Los Vanegas;Los Vanegas;
+6;bus;OSM relation/3665530;Ruta 6;Ruta 6;
+101;bus;OSM relation/3665506;Ruta 101;Ruta 101;
+102;bus;OSM relation/3665507;Ruta 102;Ruta 102;
+103;bus;OSM relation/3665508;Ruta 103;Ruta 103;
+104;bus;OSM relation/3665509;Ruta 104;Ruta 104;
+105;bus;OSM relation/3665510;Ruta 105;Ruta 105;
+106;bus;OSM relation/6456810;Ruta 106;Ruta 106;
+107;bus;OSM relation/3665512;Ruta 107;Ruta 107;
+108;bus;OSM relation/3665513;Ruta 108;Ruta 108;
+109;bus;OSM relation/3665514;Ruta 109;Ruta 109;
+110;bus;OSM relation/3665515;Ruta 110;Ruta 110;
+111;bus;OSM relation/3665516;Ruta 111;Ruta 111;
+112;bus;OSM relation/3665517;Ruta 112;Ruta 112;
+113;bus;OSM relation/6456811;Ruta 113;Ruta 113;
+114;bus;OSM relation/3665518;Ruta 114;Ruta 114;
+115;bus;OSM relation/6456812;Ruta 115;Ruta 115;
+116;bus;OSM relation/3665519;Ruta 116;Ruta 116;
+117;bus;OSM relation/6456813;Ruta 117;Ruta 117;
+118;bus;OSM relation/3665520;Ruta 118;Ruta 118;
+119;bus;OSM relation/3665521;Ruta 119;Ruta 119;
+120;bus;OSM relation/3665522;Ruta 120;Ruta 120;
+123;bus;OSM relation/6456814;Ruta 123;Ruta 123;
+125;bus;OSM relation/6456816;Ruta 125;Ruta 125;
+125CS;bus;OSM relation/6456815;Ruta 125 (Ciudad Sandino);Ruta 125 (Ciudad Sandino);
+133;bus;OSM relation/3665523;Ruta 133;Ruta 133;
+154;bus;OSM relation/6456817;Ruta 154;Ruta 154;
+158;bus;OSM relation/6456818;Ruta 158;Ruta 158;
+159;bus;OSM relation/3665524;Ruta 159;Ruta 159;
+163;bus;OSM relation/6456819;Ruta 163;Ruta 163;
+164;bus;OSM relation/6456820;Ruta 164;Ruta 164;
+165;bus;OSM relation/6456821;Ruta 165;Ruta 165;
+167;bus;OSM relation/6456822;Ruta 167;Ruta 167;
+168;bus;OSM relation/3665525;Ruta 168;Ruta 168;
+169;bus;OSM relation/6456823;Ruta 169;Ruta 169;
+170;bus;OSM relation/3665526;Ruta 170;Ruta 170;
+172;bus;OSM relation/6456824;Ruta 172;Ruta 172;
+175;bus;OSM relation/6456825;Ruta 175;Ruta 175;
+195;bus;OSM relation/6456826;Ruta 195;Ruta 195;
+210;bus;OSM relation/3665527;Ruta 210;Ruta 210;
+262;bus;OSM relation/3665528;Ruta 262;Ruta 262;
+266;bus;OSM relation/3665529;Ruta 266;Ruta 266;
 
 </pre>
+
+[[Category:ES:Transporte público en Nicaragua]]

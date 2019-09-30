@@ -918,6 +918,7 @@ X75;bus;seit 10.04.2019 nicht mehr buchbar, wurde eingestellt;Amsterdam;Kiel;Fli
 X96;bus;;Schwechat;Graz;FlixMobility GmbH
 X400;bus;;Mailand;Treviso;FlixMobility GmbH
 X411;bus;;Mailand;Cortina d'Ampezzo;FlixMobility GmbH
+X800;bus;;Paris;Amsterdam;FlixMobility GmbH
 X913;bus;;Pilsen;Krakau;FlixMobility GmbH
 
 

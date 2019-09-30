@@ -293,6 +293,7 @@ RB12;train;;Berlin Ostkreuz;Templin Stadt;NEB Betriebsgesellschaft mbH
 RB12;train;;Bad Doberan;Graal-Müritz;DB Regio
 RB13;train;;Berlin-Spandau;Wustermark;DB Regio
 RB13;train;;Parchim;Rehna;Ostdeutsche Eisenbahn GmbH
+RB13;train;;Stuttgart;Crailsheim;Go-Ahead Verkehrsgesellschaft Deutschland GmbH
 RB14;train;;Nauen;Berlin-Schönefeld;DB Regio AG
 RB14;train;;Hagenow Stadt;Parchim;Ostdeutsche Eisenbahn GmbH
 RB15;train;;Inselstadt Malchow;Waren (Müritz);DB Regio
@@ -407,7 +408,7 @@ RB48;train;Rhein-Wupper-Bahn;Wuppertal;Bonn;National Express Rail GmbH
 RB48;train;Horlofftalbahn - KBS 632;Nidda;Friedberg;HLB
 RB48;train;;Kaiserslautern;Monsheim;DB Regio Südwest
 RB48;train;;Calbe Ost;Bernburg;DB Regio AG Sachsen-Anhalt
-RB48;train;;Braunschweig;Salzgitter-Lebenstedt Bahnhof;DB Regio AG
+RB48;train;;Braunschweig;Salzgitter-Lebenstedt;DB Regio Nord
 RB49;train;;Gießen;Hanau;DB Regio
 RB49;train;;Ludwigshafen BASF;Wörth|Kaiserslautern;DB Regio Rhein-Neckar
 RB49;train;;Falkenberg (Elster);Cottbus, Hauptbahnhof;DB Regio Südost
@@ -583,6 +584,7 @@ RE2;train;Rhein-Haard-Express;Münster;Düsseldorf;DB Regio NRW
 RE2;train;;Berlin Ostbahnhof|Cottbus;Wismar;Ostdeutsche Eisenbahn GmbH
 RE2;train;;Göttingen;Uelzen;Metronom Eisenbahngesellschaft mbH
 RE2;train;;Koblenz Hbf;Frankfurt (Main) Hbf;DB Regio AG
+RE2;train;Schwarzwaldbahn;Karlsruhe Hbf;Konstanz;DB Regio
 RE 2;train;;Kassel-Wilhelmshöhe;Mühlhausen|Erfurt Hbf;DB
 RE 2;train;;Dresden;Zittau|Liberec;Die Länderbahn GmbH
 RE3;train;;Koblenz|Saarbrücken;Frankfurt|Mainz;vlexx GmbH

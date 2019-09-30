@@ -104,16 +104,16 @@ N17;bus;Zentralhaltestelle - Talanger;;;Chemnitzer Verkehrs-AG
 N18;bus;Zentralhaltestelle - Omnibusbahnhof -Borna;;;Chemnitzer Verkehrs-AG
 
 === Freiberg
-A;bus;Busbahnhof - Olbernhauer Straße - Wasserberg - Anton-Günther-Straße - Busbahnhof;Freiberg, Busbahnhof;Freiberg, Busbahnhof;RBM
-B;bus;Brand-Erbisdorf - Zug - Freiberg, Busbahnhof - Freiberg, Clausthaler Straße;Brand-Erbisdorf;Freiberg, Clausthaler Straße;RBM
-C;bus;Busbahnhof - Meißner Ring - Uni-Gelände - Friedeburg - Wasserberg - Häuersteig - Seilerberg - Busbahnhof;Freiberg, Busbahnhof;Freiberg, Busbahnhof;RBM
-D;bus;Freiberg, Busbahnhof - Anton-Günther-Straße - Wasserberg - Olbernhauer Straße - Busbahnhof - Frauensteiner Straße - Dammstraße - Freiberg, Busbahnhof;Freiberg, Busbahnhof;Freiberg, Busbahnhof;RBM
-E;bus;Busbahnhof - Schlossplatz - Friedeburg - Schlossplatz - Busbahnhof;Freiberg, Busbahnhof;Freiberg, Busbahnhof;RBM
-F;bus;Freiberg, Busbahnhof (- Wasserberg) - Freiberg, Häuersteig - Brand-E., Am Goldbachtal - Brand-E.;Freiberg, Busbahnhof;Brand-Erbisdorf;RBM
-G;bus;Brand-Erbisdorf - St. Michaelis - Oberschöna;Brand-Erbisdorf;Oberschöna;RBM
-H;bus;Freiberg, Busbahnhof - Tuttendorf - Halsbrücke, Wendeschleife;Freiberg, Busbahnhof;Halsbrücke, Wendeschleife;RBM
-I;bus;Tour 1: Brand-Erbisdorf - Zug - Industriegebiet Saxonia - GWG Freiberg Ost;Brand-Erbisdorf;GWG Freiberg Ost;RBM
-I;bus;Tour 2: Freiberg (Friedeburg - Wasserberg - Seilerberg) - Busbahnhof - Industriegebiet Saxonia - GWG - Pulvermühlenweg - Halsbrücke;Freiberg;Halsbrücke;RBM
+A;bus;Busbahnhof - Olbernhauer Straße - Wasserberg - Anton-Günther-Straße - Busbahnhof;Freiberg, Busbahnhof;Freiberg, Busbahnhof;Regiobus Mittelsachsen GmbH
+B;bus;Brand-Erbisdorf - Zug - Freiberg, Busbahnhof - Freiberg, Clausthaler Straße;Brand-Erbisdorf;Freiberg, Clausthaler Straße;Regiobus Mittelsachsen GmbH
+C;bus;Busbahnhof - Meißner Ring - Uni-Gelände - Friedeburg - Wasserberg - Häuersteig - Seilerberg - Busbahnhof;Freiberg, Busbahnhof;Freiberg, Busbahnhof;Regiobus Mittelsachsen GmbH
+D;bus;Freiberg, Busbahnhof - Anton-Günther-Straße - Wasserberg - Olbernhauer Straße - Busbahnhof - Frauensteiner Straße - Dammstraße - Freiberg, Busbahnhof;Freiberg, Busbahnhof;Freiberg, Busbahnhof;Regiobus Mittelsachsen GmbH
+E;bus;Busbahnhof - Schlossplatz - Friedeburg - Schlossplatz - Busbahnhof;Freiberg, Busbahnhof;Freiberg, Busbahnhof;Regiobus Mittelsachsen GmbH
+F;bus;Freiberg, Busbahnhof (- Wasserberg) - Freiberg, Häuersteig - Brand-E., Am Goldbachtal - Brand-E.;Freiberg, Busbahnhof;Brand-Erbisdorf;Regiobus Mittelsachsen GmbH
+G;bus;Brand-Erbisdorf - St. Michaelis - Oberschöna;Brand-Erbisdorf;Oberschöna;Regiobus Mittelsachsen GmbH
+H;bus;Freiberg, Busbahnhof - Tuttendorf - Halsbrücke, Wendeschleife;Freiberg, Busbahnhof;Halsbrücke, Wendeschleife;Regiobus Mittelsachsen GmbH
+I;bus;Tour 1: Brand-Erbisdorf - Zug - Industriegebiet Saxonia - GWG Freiberg Ost;Brand-Erbisdorf;GWG Freiberg Ost;Regiobus Mittelsachsen GmbH
+I;bus;Tour 2: Freiberg (Friedeburg - Wasserberg - Seilerberg) - Busbahnhof - Industriegebiet Saxonia - GWG - Pulvermühlenweg - Halsbrücke;Freiberg;Halsbrücke;Regiobus Mittelsachsen GmbH
 
 ===  Zwickau
 3;tram;Eckersbach - Neuplanitz;;;SVZ
