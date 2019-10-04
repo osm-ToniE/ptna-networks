@@ -743,7 +743,8 @@ S8;train;;S Birkenwerder;S Zeuthen;S-Bahn Berlin GmbH
 S9;train;;S Flughafen Schönefeld;S Rathaus Spandau;S-Bahn Berlin GmbH
 S25;train;;Henningsdorf;Teltow;S-Bahn Berlin GmbH
 S26;train;;Waidmannslust;Teltow;S-Bahn Berlin GmbH
-"S41;S42|S41|S42";train;Innenring im/gegen Uhrzeigersinn;;;S-Bahn Berlin GmbH
+S41;train;Innenring im Uhrzeigersinn;;;S-Bahn Berlin GmbH
+S42;train;Innenring gegen Uhrzeigersinn;;;S-Bahn Berlin GmbH
 S45;train;;S Flughafen Berlin-Schönefeld;S Südkreuz;S-Bahn Berlin GmbH
 S46;train;;S Königs Wusterhausen;Westend;S-Bahn Berlin GmbH
 S47;train;;S Hermannstraße;S Spindlersfeld;S-Bahn Berlin GmbH

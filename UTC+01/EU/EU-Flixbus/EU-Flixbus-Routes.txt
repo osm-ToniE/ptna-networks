@@ -549,6 +549,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 822;bus;;Groningen;Brüssel;FlixMobility GmbH
 831;bus;;Amsterdam;Luxembourg;FlixMobility GmbH
 833;bus;;Aachen;Amsterdam;FlixMobility GmbH
+835;bus;;Amsterdam;Bonn;FlixMobility GmbH
 850;bus;;Brünn;Prag;FlixMobility GmbH
 851;bus;;Pilsen;Prag;FlixMobility GmbH
 852;bus;;Liberec;Prag;FlixMobility GmbH

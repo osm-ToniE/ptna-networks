@@ -61,7 +61,6 @@
 8;bus;Emden;Emden;Emden;Stadtwerke Emden
 9;bus;Emden;;;Stadtwerke Emden
 11;bus;Emden;;;Stadtwerke Emden
-14;bus;Emden;;;Stadtwerke Emden
 16;bus;Emden;;;Stadtwerke Emden
 17;bus;Emden;;;Stadtwerke Emden
 19;bus;Emden;;;Stadtwerke Emden

@@ -182,7 +182,7 @@ C1;bus;City-Bus Limbach-Oberfrohna;;;Fritzsche GmbH
 C2;bus;City-Bus Limbach-Oberfrohna;;;Fritzsche GmbH
 
 === Lößnitz
-A;bus;Neustadt - Markt - Ostsiedlung - Neustadt;Lößnitz, Neustadt;Lößnitz, Neustadt;Regionalverkehr Erzgebirge
+A;bus;Neustadt - Markt - Ostsiedlung - Neustadt;Lößnitz, Goethestraße;Lößnitz, Goethestraße;Regionalverkehr Erzgebirge GmbH
 
 === Marienberg
 A;bus;Markt - Mooshaide - Mühlberg - Markt - Gewerbegebiet;Marienberg, Markt;Marienberg, Gewerbegebiet;Regionalverkehr Erzgebirge
