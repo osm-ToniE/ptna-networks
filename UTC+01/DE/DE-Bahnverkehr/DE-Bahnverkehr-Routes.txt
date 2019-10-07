@@ -91,6 +91,7 @@ ICE 91;train;;;;
 === Inter City (IC)
 
 IC 4;train;;;;
+IC5;train;;Fredericia;Flensborg;DSB
 IC 26.1;train;;;;
 "EC 27;IC 27";train;;Praha|Decin;Stralsund|Berlin|Dresden|Hamburg;DB Fernverkehr AG
 IC 28;train;;;;
@@ -374,7 +375,7 @@ RB39;train;Rhein-Ahr-Bahn;Remagen;Ahrbrück;DB Regio NRW
 RB39;train;Erft-Schwalm-Bahn;Bedburg (Erft);Düsseldorf Hbf;VIAS
 RB40;train;Mittelhessenexpress ;Frankfurt (Main);Dillenburg;DB
 RB40;train;Ruhrtal-Bahn;Hagen;Essen;Abellio Rail NRW
-RB 40;train;;Braunschweig;Burg;DB
+RB 40;train;;Braunschweig;Burg;DB Regio Südost
 
 ==== RB41 .. RB50
 

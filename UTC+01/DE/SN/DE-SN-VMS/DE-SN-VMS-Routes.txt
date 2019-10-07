@@ -109,7 +109,7 @@ B;bus;Brand-Erbisdorf - Zug - Freiberg, Busbahnhof - Freiberg, Clausthaler Stra�
 C;bus;Busbahnhof - Meißner Ring - Uni-Gelände - Friedeburg - Wasserberg - Häuersteig - Seilerberg - Busbahnhof;Freiberg, Busbahnhof;Freiberg, Busbahnhof;Regiobus Mittelsachsen GmbH
 D;bus;Freiberg, Busbahnhof - Anton-Günther-Straße - Wasserberg - Olbernhauer Straße - Busbahnhof - Frauensteiner Straße - Dammstraße - Freiberg, Busbahnhof;Freiberg, Busbahnhof;Freiberg, Busbahnhof;Regiobus Mittelsachsen GmbH
 E;bus;Busbahnhof - Schlossplatz - Friedeburg - Schlossplatz - Busbahnhof;Freiberg, Busbahnhof;Freiberg, Busbahnhof;Regiobus Mittelsachsen GmbH
-F;bus;Freiberg, Busbahnhof (- Wasserberg) - Freiberg, Häuersteig - Brand-E., Am Goldbachtal - Brand-E.;Freiberg, Busbahnhof;Brand-Erbisdorf;Regiobus Mittelsachsen GmbH
+F;bus;Freiberg, Busbahnhof (- Wasserberg) - Freiberg, Häuersteig - Brand-E., Am Goldbachtal - Brand-E.;Freiberg, Busbahnhof;Brand-Erbisdorf, Ring der Einheit/Wendeschleife;REGIOBUS Mittelsachsen GmbH
 G;bus;Brand-Erbisdorf - St. Michaelis - Oberschöna;Brand-Erbisdorf;Oberschöna;Regiobus Mittelsachsen GmbH
 H;bus;Freiberg, Busbahnhof - Tuttendorf - Halsbrücke, Wendeschleife;Freiberg, Busbahnhof;Halsbrücke, Wendeschleife;Regiobus Mittelsachsen GmbH
 I;bus;Tour 1: Brand-Erbisdorf - Zug - Industriegebiet Saxonia - GWG Freiberg Ost;Brand-Erbisdorf;GWG Freiberg Ost;Regiobus Mittelsachsen GmbH
@@ -175,7 +175,7 @@ E;bus;Frankenberg, Süd - Lützelhöhe - Frankenberg, Süd;Frankenberg, Süd;Fra
 2;bus;Bahnhof - Ernst-Thälmann-Siedlung - Fritz-Heckert-Siedlung - Bahnhof;Hohenstein-Ernstthal, Bahnhof;Hohenstein-Ernstthal, Bahnhof;Regionalverkehr Westsachsen GmbH
 
 === Kurort Oberwiesenthal
-A;bus;Fichtelberg-Plateau - Bahnhof - Sparingberg - Bahnhof - Fichtelberg-Plateau;Kurort Oberwiesenthal, Fichtelberg-Plateau;Kurort Oberwiesenthal, Fichtelberg-Plateau;Regionalverkehr Erzgebirge GmbH
+A;bus;Fichtelberg-Plateau - Bahnhof - Sparingberg - Bahnhof - Fichtelberg-Plateau;Kurort Oberwiesenthal, Fichtelberg-Plateau|Kurort Oberwiesenthal, Am Bahnhof;Kurort Oberwiesenthal, Fichtelberg-Plateau|Kurort Oberwiesenthal, Hotel Am Fichtelberg ;Regionalverkehr Erzgebirge GmbH
 
 === Limbach-Oberfrohna
 C1;bus;City-Bus Limbach-Oberfrohna;;;Fritzsche GmbH
@@ -185,10 +185,10 @@ C2;bus;City-Bus Limbach-Oberfrohna;;;Fritzsche GmbH
 A;bus;Neustadt - Markt - Ostsiedlung - Neustadt;Lößnitz, Goethestraße;Lößnitz, Goethestraße;Regionalverkehr Erzgebirge GmbH
 
 === Marienberg
-A;bus;Markt - Mooshaide - Mühlberg - Markt - Gewerbegebiet;Marienberg, Markt;Marienberg, Gewerbegebiet;Regionalverkehr Erzgebirge
-B;bus;Markt - Dörfel - Gelobtland - Gebirge - Dörfel - Markt;Marienberg, Markt;Marienberg, Markt;Katzenstein-Reisen
-D;bus;Marienberg - Lauterbach - Pobershau - Marienberg;Marienberg;Marienberg;Katzenstein-Reisen
-E;bus;Marienberg - Gebirge - Pobershau - Zöblitz - Marienberg;Marienberg;Marienberg;Katzenstein-Reisen
+A;bus;Markt - Mooshaide - Mühlberg - Markt - Gewerbegebiet;Marienberg, Markt;Marienberg, Markt;Regionalverkehr Erzgebirge GmbH
+B;bus;Markt - Dörfel - Gelobtland - Gebirge - Dörfel - Markt;Marienberg, Markt;Marienberg, Markt;Regionalverkehr Erzgebirge GmbH
+D;bus;Marienberg - Lauterbach - Pobershau - Marienberg;Marienberg, Markt;Marienberg, Markt;Regionalverkehr Erzgebirge GmbH
+E;bus;Marienberg - Gebirge - Pobershau - Zöblitz - Marienberg;Marienberg, Markt;Marienberg, Bahnhof;Regionalverkehr Erzgebirge GmbH
 
 === Mittweida
 A;bus;Baumwollspinnerei Wendeschleife - Markt - Bahnhof;Baumwollspinnerei Wendeschleife;Mittweida, Bahnhof;Regiobus Mittelsachsen
@@ -200,8 +200,8 @@ F;bus;Baumwollspinnerei Wendeschleife - Busbahnhof - Kaufland - Bahnhof;Baumwoll
 R;bus;Rathausstraße - Bahnhof - Obere Lindenbergstraße - Rathausstraße;Rochlitz, Rathausstraße;Rochlitz, Rathausstraße;Regiobus Mittelsachsen
 
 === Schwarzenberg
-A;bus;Heide - Busbahnhof - Sonnenleithe - Busbahnhof - Heide;Schwarzenberg, Heide;Schwarzenberg, Heide;Regionalverkehr Erzgebirge
-B;bus;Busbahnhof - Wildenau - Neuwelt - Bermsgrün - Busbahnhof;Schwarzenberg, Busbahnhof;Schwarzenberg, Busbahnhof;Regionalverkehr Erzgebirge
+A;bus;Heide - Busbahnhof - Sonnenleithe - Busbahnhof - Heide;Schwarzenberg, Heide Wendeschleife;Schwarzenberg, Heide, Wendeschleife;Regionalverkehr Erzgebirge GmbH
+B;bus;Busbahnhof - Wildenau - Neuwelt - Bermsgrün - Busbahnhof;Schwarzenberg, Busbahnhof;Schwarzenberg, Busbahnhof;Regionalverkehr Erzgebirge GmbH
 
 === Stollberg
 STL 1;bus;Stadtlinie 1;;;Regionalverkehr Erzgebirge

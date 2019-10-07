@@ -220,7 +220,7 @@
 253;bus;OL Nord;Holle;Wüsting;
 254;bus;OL Nord;Hude;Oldenburg;
 254;bus;;Varel;Jaderberg;
-256;bus;OL Nord;Delmenhorst;Oldenburg;Weser-Ems-Bus
+256;bus;OL Nord;Delmenhorst;Oldenburg;Hutfilter
 256;bus;;Idagroden;Jaderberg;
 257;bus;;Dangast;Jaderberg;
 257;bus;OL Nord;Wüsting;Hemmelsberg;

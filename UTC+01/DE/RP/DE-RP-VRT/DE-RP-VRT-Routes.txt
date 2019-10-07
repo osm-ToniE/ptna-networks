@@ -104,12 +104,13 @@ RB 85;train;;;;
 - Der VRT hat sein Gebiet in Unterabschnitte aufgeteilt. Diese werden in den nächsten Jahren realisiert. Zur besseren Übersicht habe ich sie nachfogend aufgelistet.
 
 == Abschnittsübergreifend
-333;bus;;;; # 1.4.-1.11. Sa,Su,PH Trier=>Kues
+333;bus;;;;Moselbahn GmbH
 
 
 == Östliche Vulkaneifel
 === RegioBus-Line
-300;bus;;;;
+300;bus;;;;DB Regio Bus Rhein-Mosel GmbH
+500;bus;;;;
 510;bus;;;;
 520;bus;;;;
 
