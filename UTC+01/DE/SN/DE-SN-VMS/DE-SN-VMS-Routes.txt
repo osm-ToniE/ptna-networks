@@ -191,8 +191,8 @@ D;bus;Marienberg - Lauterbach - Pobershau - Marienberg;Marienberg, Markt;Marienb
 E;bus;Marienberg - Gebirge - Pobershau - Zöblitz - Marienberg;Marienberg, Markt;Marienberg, Bahnhof;Regionalverkehr Erzgebirge GmbH
 
 === Mittweida
-A;bus;Baumwollspinnerei Wendeschleife - Markt - Bahnhof;Baumwollspinnerei Wendeschleife;Mittweida, Bahnhof;Regiobus Mittelsachsen
-B;bus;Kaufland - Lauenhainer Straße - Krankenhaus - Busbahnhof - Lauenhainer Straße - Kaufland;Mittweida, Kaufland;Mittweida, Kaufland;Regiobus Mittelsachsen
+A;bus;Baumwollspinnerei Wendeschleife - Markt - Bahnhof;Mittweida, Baumwollspinnerei Wendeschleife;Mittweida, Bahnhof;REGIOBUS Mittelsachsen GmbH
+B;bus;Kaufland - Lauenhainer Straße - Krankenhaus - Busbahnhof - Lauenhainer Straße - Kaufland;Mittweida, Kaufland;Mittweida, Kaufland;REGIOBUS Mittelsachsen GmbH
 C;bus;Lauenhain - Mittweida - Altmittweida;Lauenhain;Altmittweida;Regiobus Mittelsachsen
 F;bus;Baumwollspinnerei Wendeschleife - Busbahnhof - Kaufland - Bahnhof;Baumwollspinnerei Wendeschleife;Mittweida, Bahnhof;Regiobus Mittelsachsen
 

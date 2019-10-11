@@ -510,7 +510,7 @@ RB76;train;;Saarbrücken;Homburg(Saar);DB Regio Südwest
 RB 77;train;Weserbahn;Bünde;Hildesheim;NordWestBahn
 RB77;train;Nied-Bahn;Dillingen(Saar);Niedaltdorf;DB Regio Südwest
 RB77;train;;Neumünster;Kiel;DB Regio
-RB 77;train;Unstrutbahn;Naumburg (Saale) Ost;Wangen;Abellio Mitteldeutschland
+RB 77;train;Unstrutbahn;Naumburg (Saale) Ost;Wangen;Abellio Rail Mitteldeutschland GmbH
 RE78;train;Porta-Express;Bielefeld;Nienburg/Weser;Eurobahn
 RB 78;train;;Merseburg;Querfurt;Burgenlandbahn (DB Regio Südost)
 RB 79;train;Lammetalbahn;Hildesheim;Bodenburg;NordWestBahn

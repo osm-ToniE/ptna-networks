@@ -352,6 +352,7 @@ S35;bus;AM West;Westerstede;Oldenburg;Gerdes
 410;bus;WM Nord;Seefeld;Seefeld;VBW
 411;bus;WM Nord;Seefeld;Rodenkirchen;VBW
 414;bus;WM Nord;Reitland;Schwei;VBW
+415;bus;WM Nord;Kleinensiel;Rodenkirchen;VBW
 416;bus;WM Nord;Nordenham;Kleinensiel;VBW
 419;bus;WM Nord;Burhave;Tossens;VBW
 421;bus;WM Nord;Golzwarden;Oberhammelwarden;VBW
