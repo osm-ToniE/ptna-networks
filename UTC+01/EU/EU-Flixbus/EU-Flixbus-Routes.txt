@@ -702,7 +702,9 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 1381;bus;;Berlin;Posen/Toruń;FlixMobility GmbH
 1382;bus;;Kudowa-Zdroj;Gdingen;FlixMobility GmbH
 1383;bus;;Legnica;Gdingen;FlixMobility GmbH
+1385;bus;;Stettin;Olsztyn;FlixMobility GmbH
 1388;bus;;Berlin;Gorzów/Gdingen;FlixMobility GmbH
+1390;bus;;Gdingen;Krakau;FlixMobility GmbH
 1395;bus;;Kattowitz;Zakopane;FlixMobility GmbH
 
 
@@ -1224,6 +1226,7 @@ N1362;bus;;Stettin;Zakopane;FlixMobility GmbH
 N1365;bus;;Berlin;Zakopane;FlixMobility GmbH
 N1376;bus;;Kopenhagen;Krakau;FlixMobility GmbH
 N1380;bus;;Prag;Gdingen;FlixMobility GmbH
+N1385;bus;;Stettin;Olstyn;FlixMobility GmbH
 N1395;bus;;Wien;Gdingen;FlixMobility GmbH
 
 N1501;bus;;Genua;Sala Consilia;FlixMobility GmbH

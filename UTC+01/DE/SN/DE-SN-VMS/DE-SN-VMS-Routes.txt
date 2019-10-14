@@ -193,11 +193,11 @@ E;bus;Marienberg - Gebirge - Pobershau - Zöblitz - Marienberg;Marienberg, Markt
 === Mittweida
 A;bus;Baumwollspinnerei Wendeschleife - Markt - Bahnhof;Mittweida, Baumwollspinnerei Wendeschleife;Mittweida, Bahnhof;REGIOBUS Mittelsachsen GmbH
 B;bus;Kaufland - Lauenhainer Straße - Krankenhaus - Busbahnhof - Lauenhainer Straße - Kaufland;Mittweida, Kaufland;Mittweida, Kaufland;REGIOBUS Mittelsachsen GmbH
-C;bus;Lauenhain - Mittweida - Altmittweida;Lauenhain;Altmittweida;Regiobus Mittelsachsen
-F;bus;Baumwollspinnerei Wendeschleife - Busbahnhof - Kaufland - Bahnhof;Baumwollspinnerei Wendeschleife;Mittweida, Bahnhof;Regiobus Mittelsachsen
+C;bus;Lauenhain - Mittweida - Altmittweida;Lauenhain, Kindergarten;Altmittweida, Wende;REGIOBUS Mittelsachsen GmbH
+F;bus;Baumwollspinnerei Wendeschleife - Busbahnhof - Kaufland - Bahnhof;Mittweida, Baumwollspinnerei Wendeschleife;Mittweida, Bahnhof;REGIOBUS Mittelsachsen GmbH
 
 === Rochlitz
-R;bus;Rathausstraße - Bahnhof - Obere Lindenbergstraße - Rathausstraße;Rochlitz, Rathausstraße;Rochlitz, Rathausstraße;Regiobus Mittelsachsen
+R;bus;Rathausstraße - Bahnhof - Obere Lindenbergstraße - Rathausstraße;Rochlitz, Rathausstraße;Rochlitz, Rathausstraße;REGIOBUS Mittelsachsen GmbH
 
 === Schwarzenberg
 A;bus;Heide - Busbahnhof - Sonnenleithe - Busbahnhof - Heide;Schwarzenberg, Heide Wendeschleife;Schwarzenberg, Heide, Wendeschleife;Regionalverkehr Erzgebirge GmbH

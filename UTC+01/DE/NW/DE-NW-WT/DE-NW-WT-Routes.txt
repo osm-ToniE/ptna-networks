@@ -379,6 +379,7 @@ BB;bus;;;;Veelker GmbH & Co. KG
 BB1;bus;;Emsdetten;Saerbeck;Regionalverkehr Münsterland GmbH
 BB2;bus;;Emsdetten;Emsdetten;Regionalverkehr Münsterland GmbH
 B2;bus;;Borghorst;Burgsteinfurt;Regionalverkehr Münsterland GmbH
+B4;bus;;Lienen;Glandorf;Regionalverkehr Münsterland GmbH
 
 C1;bus;Rheine;Rheine;Rheine;Stadtwerke Rheine
 C1;bus;;Emsdetten;Emsdetten;Regionalverkehr Münsterland GmbH
