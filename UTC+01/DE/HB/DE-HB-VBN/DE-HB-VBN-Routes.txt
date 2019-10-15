@@ -426,6 +426,7 @@ S35;bus;AM West;Westerstede;Oldenburg;Gerdes
 566;bus;;Beverstedt;Geestenseth;
 567;bus;;Beverstedt;Geestenseth;
 568;bus;;Geestenseth;Bremerhaven;
+570;bus;;Hagen;Bremerhaven;Giese
 571;bus;;Beverstedt;Hagen;
 573;bus;;Sandstedt;Hagen;
 575;bus;;Beverstedt;Bremerhaven;
