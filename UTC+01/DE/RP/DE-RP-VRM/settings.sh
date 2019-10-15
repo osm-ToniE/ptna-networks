@@ -7,7 +7,7 @@
 PREFIX="DE-RP-VRM"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=public_transport][name='Verkehrsverbund Rhein-Mosel'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="Verkehrsverbund Rhein-Mosel"
+NETWORK_LONG="Verkehrsverbund Rhein-Mosel|Verkehrsverbund Rhein-Mosel GmbH"
 NETWORK_SHORT="VRM"
 
 ANALYSIS_PAGE="Verkehrsverbund_Rhein-Mosel/Analyse"
