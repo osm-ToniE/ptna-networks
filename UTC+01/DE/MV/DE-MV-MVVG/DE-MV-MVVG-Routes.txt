@@ -62,7 +62,7 @@
 5;bus;;;;
 6;bus;;;;
 8;bus;;;;
-9;bus;Nationalbuslinie;Waren, Steinmole;Boeker Kanal;MVVG
+9;bus;Nationalbuslinie;Waren, Steinmole;Bolter Kanal;MVVG
 9;bus;;;;Neubrandenburger Verkehrsbetriebe GmbH
 9;bus;;;;neu.sw
 -
