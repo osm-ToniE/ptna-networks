@@ -200,7 +200,7 @@ F;bus;Baumwollspinnerei Wendeschleife - Busbahnhof - Kaufland - Bahnhof;Mittweid
 R;bus;Rathausstraße - Bahnhof - Obere Lindenbergstraße - Rathausstraße;Rochlitz, Rathausstraße;Rochlitz, Rathausstraße;REGIOBUS Mittelsachsen GmbH
 
 === Schwarzenberg
-A;bus;Heide - Busbahnhof - Sonnenleithe - Busbahnhof - Heide;Schwarzenberg, Heide Wendeschleife;Schwarzenberg, Heide, Wendeschleife;Regionalverkehr Erzgebirge GmbH
+A;bus;Heide - Busbahnhof - Sonnenleithe - Busbahnhof - Heide;Heide Wendeschleife;Heide, Wendeschleife;Regionalverkehr Erzgebirge GmbH
 B;bus;Busbahnhof - Wildenau - Neuwelt - Bermsgrün - Busbahnhof;Schwarzenberg, Busbahnhof;Schwarzenberg, Busbahnhof;Regionalverkehr Erzgebirge GmbH
 
 === Stollberg

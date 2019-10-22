@@ -278,7 +278,7 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzinger
 285;bus;;Haar S;Ismaning S;Verkehrsbetrieb Ettenhuber GmbH
 285V;bus;;Ottendichl;Haar, Jagdfeldbad;Verkehrsbetrieb Ettenhuber GmbH
-285W;bus;!ab 10.09.2019!;Aschheim, Sportpark;Ismaning (S);Verkehrsbetrieb Ettenhuber GmbH
+285W;bus;;Aschheim, Sportpark;Ismaning (S);Verkehrsbetrieb Ettenhuber GmbH
 290;bus;;Stadtbus Garching;;Verkehrsbetrieb Ettenhuber GmbH
 290V;bus;;Hochbrück, Jahnstraße;Prof.-Angermair-Ring;Verkehrsbetrieb Ettenhuber GmbH
 291;bus;;Dachau S R;Unterschleißheim S;Busverkehr Südbayern

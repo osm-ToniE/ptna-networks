@@ -64,8 +64,8 @@ RB61;train;;;;NBE nordbahn Eisenbahngesellschaft
 RB62;train;;;;DB Regio
 RB 63;train;;;;NBE Nordbahn
 RB 64;train;;Husum;Bad St. Peter-Ording;DB Regio AG - Region Nord
-"RB 65;136";train;;Niebüll;Dagebüll Mole;Norddeutsche Eisenbahngesellschaft Niebüll
-"RB 66;136";train;;Niebüll;Tønder;Norddeutsche Eisenbahngesellschaft Niebüll
+RB 65;train;;Niebüll;Dagebüll Mole;Norddeutsche Eisenbahngesellschaft Niebüll
+RB 66;train;;Niebüll;Tønder;Norddeutsche Eisenbahngesellschaft Niebüll
 RB71;train;;;;NBE nordbahn Eisenbahngesellschaft
 RB 76;train;;;;
 RB77;train;;;;DB Regio

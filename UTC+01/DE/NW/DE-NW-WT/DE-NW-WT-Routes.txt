@@ -511,8 +511,8 @@ X15;bus;;;;Regionalverkehr Münsterland GmbH
 466;bus;;Ennigerloh;Enniger;Regionalverkehr Münsterland GmbH
 467;bus;;Enniger;Enniger;Regionalverkehr Münsterland GmbH
 471;bus;;Oelde;Oelde;Regionalverkehr Münsterland GmbH
-472;bus;;;;Regionalverkehr Münsterland GmbH
-473;bus;;;;Regionalverkehr Münsterland GmbH
+472;bus;;Oelde;Oelde;Regionalverkehr Münsterland GmbH
+473;bus;;Oelde;Sünninghausen;Regionalverkehr Münsterland GmbH
 474;bus;;;;Regionalverkehr Münsterland GmbH
 475;bus;;;;Regionalverkehr Münsterland GmbH
 480;bus;;;;Regionalverkehr Münsterland GmbH
@@ -1228,6 +1228,9 @@ Hw-T4;bus;;Harsewinkel;Breslauer Straße;Transdev Ostwestfalen GmbH
 628;bus;;;;MKB-MühlenkreisBus GmbH
 629;bus;;;;MKB-MühlenkreisBus GmbH
 630;bus;;;;MKB-MühlenkreisBus GmbH
+631;bus;SV Varl;;;MKB-MühlenkreisBus GmbH
+632;bus;SV Rahden;;;MKB-MühlenkreisBus GmbH
+633;bus;SV Rahden;;;MKB-MühlenkreisBus GmbH
 635;bus;;;;MKB-MühlenkreisBus GmbH
 636;bus;;;;MKB-MühlenkreisBus GmbH
 637;bus;;;;MKB-MühlenkreisBus GmbH
@@ -1581,7 +1584,6 @@ T114;bus;;;;Verkehrsbetrieb Hamm GmbH
 620;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 621;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 623;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
-624;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 625;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 626;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 632;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
@@ -1712,8 +1714,11 @@ U41;tram;;Hörde;Brambauer;DSW21
 464;bus;;Schmallenberg;Bad Fredeburg;WB Westfalen Bus GmbH
 465;bus;;Schmallenberg;Bad Fredeburg;WB Westfalen Bus GmbH
 466;bus;;Schmallenberg;Latrop;WB Westfalen Bus GmbH
-467;bus;;Schmallenberg;Berghausen;WB Westfalen Bus GmbH
-468;bus;;Bracht;Berghausen;WB Westfalen Bus GmbH
+467;bus;;Schmallenberg;Schmallenberg;WB Westfalen Bus GmbH
+468;bus;;Schmallenberg;Schmallenberg;WB Westfalen Bus GmbH
+471;bus;;Schmallenberg;Bad Fredeburg;WB Westfalen Bus GmbH
+472;bus;;Schmallenberg;Schmallenberg;WB Westfalen Bus GmbH
+473;bus;;Schmallenberg;Bad Fredeburg;WB Westfalen Bus GmbH
 475;bus;;Meschede;Meschede;Regionalverkehr Ruhr-Lippe GmbH
 476;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
 480;bus;;Brilon;Alme;Regionalverkehr Ruhr-Lippe GmbH
@@ -1866,6 +1871,7 @@ T73;bus;;;;WB Westfalen Bus GmbH
 665;bus;;Lipperode;Bad Waldliesborn;Regionalverkehr Ruhr-Lippe GmbH
 672;bus;;;;WB Westfalen Bus GmbH
 673;bus;;;;WB Westfalen Bus GmbH
+674;bus;;;;WB Westfalen Bus GmbH
 676;bus;;Eikeloh;Erwitte;Regionalverkehr Ruhr-Lippe GmbH
 678;bus;;Stirpe;Erwitte;Regionalverkehr Ruhr-Lippe GmbH
 679;bus;;Horn;Erwitte;Regionalverkehr Ruhr-Lippe GmbH
@@ -1874,6 +1880,7 @@ T73;bus;;;;WB Westfalen Bus GmbH
 686;bus;;Bad Sassendorf;Ostinghausen;WB Westfalen Bus GmbH
 687;bus;;Bad Sassendorf;Weslarn;WB Westfalen Bus GmbH
 688;bus;;Bad Sassendorf;Bad Sassendorf;WB Westfalen Bus GmbH
+690;bus;;;;WB Westfalen Bus GmbH
 691;bus;;;;WB Westfalen Bus GmbH
 692;bus;;Geseke;Bönninghausen;WB Westfalen Bus GmbH
 

@@ -213,7 +213,7 @@ RB 82;train;;Bad Harzburg;Göttingen;DB Regio Nord
 387;bus;;Königslutter;Essehof;KVG Braunschweig
 388;bus;;Essenrode;Essehof/Kampstüh;KVG Braunschweig
 390;bus;;Helmstedt;Königslutter;KVG Braunschweig
-391;bus;;Werner-v.-Siemens-Straße;Max-Planck-Weg;KVG Braunschweig
+391;bus;;Werner-von-Siemens-Straße;Galgenbreite;KVG Braunschweig
 392;bus;;Emmerstedt;Markt;KVG Braunschweig
 393;bus;;Helmstedt;Königslutter;KVG Braunschweig
 394;bus;;Helmstedt;Volkmarsdorf;KVG Braunschweig
@@ -221,7 +221,7 @@ RB 82;train;;Bad Harzburg;Göttingen;DB Regio Nord
 396;bus;;Helmstedt;Schöningen;KVG Braunschweig
 397;bus;;Helmstedt;Gevensleben;KVG Braunschweig
 398;bus;;Helmstedt;Warberg;KVG Braunschweig
-399;bus;;Helmstedt;Clarabad/Beendorf;KVG Braunschweig
+399;bus;;Helmstedt;Beendorf;KVG Braunschweig
 #
 
 === Stadt Braunschweig

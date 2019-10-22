@@ -353,7 +353,7 @@ N73;bus;NachtBus;Betzdorf;Betzdorf;Westerwaldbus GmbH
 300;bus;RegioLinie (RegioRadler MaareMosel);Daun;Bernkastel-Kues;DB Regio Bus
 302;bus;;Wittlich;Bullay/Bad Bertrich;FriBus
 321;bus;;Traben-Trarbach;Kirchberg;RMV
-330;bus;Burgenbus;Treis-Karden;Burg Pyrmont;RMV
+330;bus;Burgenbus;Treis-Karden Bf;Burg Pyrmont;Rhein-Mosel Verkehrsgesellschaft
 333;bus;;Traben-Trarbach;Bullay;Moselbahn
 334;bus;;Ulmen / Boos;Mayen;RMV
 341;bus;;Mayen;Kaisersesch;RMV
@@ -499,7 +499,7 @@ N11;bus;;Hbf;Montabaur;RMV
 310;bus;;Maria Laach;Andernach;RMV
 319;bus;;Siershahn;Koblenz/Neuwied;RMV
 320;bus;;Mayen;Mendig;FriBus
-330;bus;Burgenbus;Burg Pyrmont;Treis-Karden;RMV
+330;bus;Burgenbus;Treis-Karden Bf;Burg Pyrmont;Rhein-Mosel Verkehrsgesellschaft
 331;bus;;Kreuznick;Weiler;RMV
 332;bus;;Luxem;Mayen;RMV
 334;bus;;Mayen;Ulmen / Boos;RMV
@@ -658,7 +658,7 @@ N10;bus;;Mayen;Hbf;RMV
 319;bus;;Siershahn;Koblenz/Neuwied;RMV
 335;bus;;Neuwied;Mayen;RMV
 357;bus;;Koblenz;Neuwied;RMV
-370;bus;;Mülheim-Kärlich;Koblenz;Mülheim-Kärlich;RMV
+370;bus;;Koblenz;Mülheim-Kärlich;RMV
 
 461;bus;;Dierdorf/Selters;Siershahn;DB Regio Bus Rhein-Mosel GmbH
 464;bus;;Dierdorf/Hachenburg;Montabaur;FriBus

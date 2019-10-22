@@ -144,12 +144,12 @@ RT5;tram;;Kassel;Melsungen;RBK
 
 === 100 .. 199
 100;bus;;Bahnhof Wilhelmshöhe;Calden;Reisedienst Bonte
-110;bus;;Bahnhof Wilhelmshöhe;Wolfhagen;HLB Hessenbus
+110;bus;;Bahnhof Wilhelmshöhe;Wolfhagen;Hessische Landesbahn GmbH
 111;bus;Stadtbus Wolfhagen;Gasterfeld;Viesebeck;HLB Hessenbus
 112;bus;Stadtbus Wolfhagen;Hessenklinik;Hessenklinik;
-117;bus;;Habichtswald;Oelshausen;
+117;bus;;Habichtswald;Oelshausen;Hessische Landesbahn GmbH
 120;bus;;Wolfhagen;Warburg;
-130;bus;;Volkmarsen;Grebenstein;HLB Hessenbus
+130;bus;;Volkmarsen;Grebenstein;Hessische Landesbahn GmbH
 140;bus;;Hofgeismar;Warburg;
 142;bus;;Bad Emstal;Wolfhagen;
 152;bus;;Heimershausen;Breitenbach;Reisedienst Bonte

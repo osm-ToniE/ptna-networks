@@ -74,8 +74,8 @@
 18;bus;;Schwäbisch Hall;Ilshofen;Müller
 18A;bus;;Ortsverkehr Vellberg;Müller
 20;bus;;Schwäbisch Hall;Wüstenrot;Müller
-20A;bus;;Mainhardt;Backnang;VVS, RBS
-21;bus;;Murrhardt;Mainhardt;VVS, Eisemann
+20A;bus;Fährt als Bus 380 des VVS;Mainhardt;Backnang;VVS, RBS
+21;bus;Fährt als Bus 372 des VVS;Murrhardt;Mainhardt;VVS, Eisemann
 23;bus;;Schwäbisch Hall;Rot am See;Müller
 23Nord;bus;;Ilshofen;Wolpertshausen;Müller
 23A;bus;;Ortsverkehr Ilshofen;Müller

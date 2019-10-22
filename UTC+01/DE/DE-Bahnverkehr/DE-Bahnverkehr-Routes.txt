@@ -187,6 +187,7 @@ R7;train;;Schnelldorf|Stuttgart Hbf;Nürnberg Hbf;DB Regio AG
 R7;train;;Stuttgart;Horb;DB
 R8;train;;Uffenheim;Treuchtlingen;DB Regio AG - Regio Bayern
 R8;train;;Augsburg;Klosterlechfeld;
+R8;train;;Nørre Nebel;Niebüll;Arriva PLC
 R9;train;;Nürnberg;Allersberg (Rothsee);
 
 ==== R11 .. R20
@@ -280,7 +281,7 @@ RB 5;train;;Fulda;Kassel;Cantus
 RB 5;train;;Plauen;Sokolov;Vogtlandbahn GmbH
 RB6;train;;Eisenach;Bebra;cantus Verkehrsgesellschaft mbH
 RB7;train;;Göttingen;Fulda;Cantus
-RB 8;train;;Kassel;Göttingen;Cantus
+RB 8;train;;Kassel;Göttingen;cantus Verkehrsgesellschaft mbH
 RB10;train;Rheingau-Linie;Neuwied;Frankfurt;VIAS GmbH
 RB10;train;;Nauen;Berlin-Südkreuz;DB Regio AG
 
@@ -382,7 +383,7 @@ RB 40;train;;Braunschweig;Burg;DB Regio Südost
 RB41;train;;Hamburg;Bremen;Metronom Eisenbahngesellschaft mbH
 RB41;train;;Cottbus;Lübben;Ostdeutsche Eisenbahn Gesellschaft
 RB41;train;KBS 334, 335;Aschersleben;Magdeburg;DB
-RB41;train;Mittelhessenexpress;Treysa;Frankfurt;DB
+RB41;train;Mittelhessenexpress;Treysa;Frankfurt;DB Regio AG Mitte
 RE42;train;Niers-Haard-Express;Münster;Mönchengladbach;DB Regio NRW
 RB 42;train;;Dessau;Magdeburg;DB Regio Sachsen-Anhalt
 RB 42;train;;Bad-Harzburg;Braunschweig;erixx GmbH
@@ -408,7 +409,7 @@ RB 47;train;;Bernburg;Halle;Abellio Rail
 RB48;train;Rhein-Wupper-Bahn;Wuppertal;Bonn;National Express Rail GmbH
 RB48;train;Horlofftalbahn - KBS 632;Nidda;Friedberg;HLB
 RB48;train;;Kaiserslautern;Monsheim;DB Regio Südwest
-RB48;train;;Calbe Ost;Bernburg;DB Regio AG Sachsen-Anhalt
+RB48;train;;Calbe Ost;Bernburg;Abellio Rail Mitteldeutschland GmbH
 RB48;train;;Braunschweig;Salzgitter-Lebenstedt;DB Regio Nord
 RB49;train;;Gießen;Hanau;DB Regio
 RB49;train;;Ludwigshafen BASF;Wörth|Kaiserslautern;DB Regio Rhein-Neckar
@@ -432,7 +433,7 @@ RB53;train;;Iserlohn;Dortmund;DB Regio NRW
 RB53;train;;Neustadt (Weinstraße);Wissembourg;DB Regio SüdWest
 RB53;train;;Gemünden (Main);Schlüchtern;DB Regio
 RB 53;train;;Gotha;Bad Langensalza;DB Regio
-RB54;train;Kurbadlinie;Bad Bergzabern;Winden;DB Regio Rhein-Neckar
+RB54;train;Kurbadlinie;Bad Bergzabern;Winden;DB Regio Mitte
 RB54;train;Hönnetal-Bahn;;;DB Regio NRW
 RB54;train;;Löwenberg (Mark);Rheinsberg (Mark);NEB Betriebsgesellschaft mbH
 RB55;train;Queichtalbahn;Landau;Pirmasens;DB Regio Südwest
@@ -461,7 +462,7 @@ RB62;train;;Heide;Itzehoe;DB Regio
 RB62;train;;Angermünde;Prenzlau;NEB Betriebsgesellschaft mbH
 RB63;train;Baumberge-Bahn;Münster;Coesfeld;DB Regio AG, Region NRW
 RB63;train;;Eberswalde;Templin;Niederbarnimer Eisenbahn
-RB63;train;Nibelungenbahn;Bensheim;Worms;DB Regio Rhein-Neckar
+RB63;train;Nibelungenbahn;Bensheim;Worms;DB Regio AG Mitte
 RB 63;train;;Neumünster;Büsum;NBE Nordbahn
 RB64;train;Euregio-Bahn;Münster;Enschede;DB Regio NRW
 RB64;train;Biebermühlbahn;Kaiserslautern;Pirmasens;DB Regio Südwest
@@ -470,12 +471,12 @@ RB 64;train;;Husum;Bad St Peter-Ording;DB Regio AG - Region Nord
 RB65;train;Ems-Bahn;Münster;Rheine;Eurobahn
 RB65;train;Alsenztalbahn;Bingen;Kaiserslautern;DB Regio Mitte
 RB65;train;;Cottbus;Zittau;Ostdeutsche Eisenbahn GmbH
-"RB 65;136";train;;Niebüll;Dagebüll Mole;Norddeutsche Eisenbahngesellschaft Niebüll
+RB 65;train;;Niebüll;Dagebüll Mole;Norddeutsche Eisenbahngesellschaft Niebüll
 RB66;train;Lautertalbahn;Kaiserslautern;Lauterecken;DB Regio Mitte
 RB66;train;Pfungstadtbahn;Pfungstadt;Darmstadt;VIAS GmbH
 RB66;train;Teuto-Bahn;Münster;Osnabrück;Eurobahn
 RB66;train;;Angermünde;Szczecin Główny;DB Regio
-"RB 66;136";train;;Niebüll;Tønder;Norddeutsche Eisenbahngesellschaft Niebüll
+RB 66;train;;Niebüll;Tønder;Norddeutsche Eisenbahngesellschaft Niebüll
 RB67;train;Glantal-Bahn;Kaiserslautern;Kursel;DB Regio Südwest
 RB67;train;Main-Neckar-Bahn;Frankfurt;Mannheim;DB Regio Hessen
 RB67;train;Der Warendorfer;Bielefeld;Münster;Eurobahn
@@ -543,6 +544,7 @@ RB90;train;Westerwald-Sieg-Bahn;Siegen;Limburg (Lahn);HLB
 ==== RB91 .. RB100
 
 RB91;train;Ruhr-Sieg-Bahn;Siegen|Iserlohn;Hagen;Abellio Rail NRW
+RB91;train;;Frankfurt (Oder);Poznań;PKP
 RB92;train;Biggesee-Express;Olpe;Finnentrop;HLB Hessenbahn GmbH
 RB93;train;Rothaar-Bahn;Betzdorf (Sieg);Bad Berleburg;DB Regio NRW
 RB93;train;;Forst;Żagań;Deutsche Bahn
@@ -586,10 +588,10 @@ RE2;train;;Berlin Ostbahnhof|Cottbus;Wismar;Ostdeutsche Eisenbahn GmbH
 RE2;train;;Göttingen;Uelzen;Metronom Eisenbahngesellschaft mbH
 RE2;train;;Koblenz Hbf;Frankfurt (Main) Hbf;DB Regio AG
 RE2;train;Schwarzwaldbahn;Karlsruhe Hbf;Konstanz;DB Regio
-RE 2;train;;Kassel-Wilhelmshöhe;Mühlhausen|Erfurt Hbf;DB
+RE 2;train;;Kassel-Wilhelmshöhe;Mühlhausen|Erfurt Hbf;DB Regio AG Südost
 RE 2;train;;Dresden;Zittau|Liberec;Die Länderbahn GmbH
 RE3;train;;Koblenz|Saarbrücken;Frankfurt|Mainz;vlexx GmbH
-RE3;train;;Mannheim;Heilbronn;DB Regio AG Region Mitte
+RE3;train;;Mannheim;Heilbronn;DB Regio AG Baden-Württemberg
 RE3;train;;Uelzen;Hamburg;Metronom Eisenbahngesellschaft mbH
 RE3;train;Rhein-Emscher-Express;Düsseldorf;Hamm;Eurobahn
 RE3;train;;Falkenberg (Elster)|Lutherstadt Wittenberg;Schwedt|Stralsund;DB Regio AG
@@ -666,11 +668,12 @@ RE 20;train;;Magdeburg;Uelzen;DB Regio Sachsen-Anhalt
 ==== RE21 .. RE30
 
 RE 21;train;;Magdeburg;Goslar;Abellio Rail Mitteldeutschland GmbH
+RE21;train;Rheintal-Express;Koblenz;Karlsruhe Hbf;DB Regio Mitte
 RE22;train;Eifel-Express;Köln;Gerolstein;DB Regio NRW
 RE25;train;Lahntal-Express;Gießen;Koblenz;DB Regio Südwest
 RE29;train;euregioAIXpress;Aachen;Spa-Géronstère;NMBS/SNCB
-RE 30;train;;Kassel Hbf;Frankfurt (Main) Hbf;DB
-RE 30;train;;Hannover Hbf;Wolfsburg Hbf;Metronom
+RE 30;train;;Kassel Hbf;Frankfurt (Main) Hbf;DB Regio AG Mitte
+RE 30;train;;Hannover Hbf;Wolfsburg Hbf;Enno
 
 ==== RE31 .. RE40
 
@@ -714,7 +717,7 @@ RE85;train;Odenwaldbahn;Erbach;Frankfurt;VIAS GmbH
 
 ==== RE91 .. RE100
 
-RE 98;train;;Kassel Hbf;Frankfurt (Main) Hbf;DB
+RE 98;train;;Kassel Hbf;Frankfurt (Main) Hbf;Hessische Landesbahn GmbH
 RE99;train;Main-Sieg-Express;Siegen;Frankfurt;DB Regio Hessen
 
 ==== RE101 ...
@@ -1433,7 +1436,7 @@ U28;train;;;;
 
 5;train;;Hamburg Hbf;Østerport;Danske Statsbaner
 50;train;;;;
-R8;train;;Nørre Nebel;Niebüll;NEG-ARRIVA
+R8;train;;Nørre Nebel;Niebüll;Arriva PLC
 -
 
 == Aus den Niederlanden

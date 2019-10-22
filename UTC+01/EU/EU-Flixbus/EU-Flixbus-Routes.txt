@@ -677,7 +677,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 1307;bus;;Breslau;Gdingen;FlixMobility GmbH
 1310;bus;;Prag;Krakau;FlixMobility GmbH
 1311;bus;;Posen;Budapest;FlixMobility GmbH
-1312;bus;;Kattowitz;Kołobrzeg Jagiellońska;FlixMobility GmbH
+1312;bus;;Kattowitz;Kolberg;FlixMobility GmbH
 1320;bus;;Berlin;Warschau;FlixMobility GmbH
 1321;bus;;Berlin;Warschau;FlixMobility GmbH
 1322;bus;;Hamburg;Warschau;FlixMobility GmbH
@@ -696,13 +696,13 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 1368;bus;;Tschenstochau;Krakau;FlixMobility GmbH
 1369;bus;;Krakau;Cieszyn;FlixMobility GmbH
 1372;bus;;Bielitz-Biala;Wieliczka;FlixMobility GmbH
-1373;bus;;Krakau;Ustrzyki Polne;FlixMobility GmbH
+1373;bus;;Krakau;Ustrzyki Dolne;FlixMobility GmbH
 1374;bus;;Kattowitz;Szczawnica;FlixMobility GmbH
 1380;bus;;Gdingen;Prag;FlixMobility GmbH
 1381;bus;;Berlin;Posen/Toruń;FlixMobility GmbH
 1382;bus;;Kudowa-Zdroj;Gdingen;FlixMobility GmbH
 1383;bus;;Legnica;Gdingen;FlixMobility GmbH
-1385;bus;;Stettin;Olsztyn;FlixMobility GmbH
+1385;bus;;Berlin;Olsztyn;FlixMobility GmbH
 1388;bus;;Berlin;Gorzów/Gdingen;FlixMobility GmbH
 1390;bus;;Gdingen;Krakau;FlixMobility GmbH
 1395;bus;;Kattowitz;Zakopane;FlixMobility GmbH
@@ -819,7 +819,7 @@ K288/E02;bus;;Zürich Flughafen;Montreux;Eurobus
 K318;bus;;Warschau;Bialystock;ŹakExpress
 K319;bus;;Prag;Minsk;VisitTour
 K320;bus;;Warschau;Minsk;BayerTrans
-K321;bus;;Warschau;Suwalki;ŹakExpress
+K321;bus;;Warschau;Suwalki/Goldap;ŹakExpress
 K322;bus;;Danzig;Brest(Weissrussland);PKS Gdańsk
 K326;bus;;Lautzenhausen;Heidelberg;BBK Barbis Verkehrsleistungen GmbH
 K330;bus;;Mestre;Venedig Flughafen Marco Polo;ATVO Airport Shuttle
@@ -839,7 +839,7 @@ K606;bus;;Oslo Busterminalen Galleriet;Oslo Flughafen Gardermoen;Flybussen FB2
 K608;bus;;Stockholm;Ljusdal;Härjedalingen
 K614;bus;;Stockholm;Sollefteå;YBuss
 K615;bus;;Stockholm;Hofors;SGS Bussen
-K767;bus;;Warschau;Kołobrzeg Jagiellońska;Voyager
+K767;bus;;Warschau;Kolberg;Voyager
 K780;bus;;Lissabon;Luxemburg;SOCIEDAD DE TRANSPORTES S.L.(=Iberocoach)
 K781;bus;Seit 03.09.2017 nicht mehr buchbar, wurde eingestellt.;Madrid;Rennes;SOCIEDAD DE TRANSPORTES S.L.(=Iberocoach)
 K782;bus;;Viana do Castelo;Pierrelaye;SOCIEDAD DE TRANSPORTES S.L.(=Iberocoach)
@@ -847,7 +847,7 @@ K783;bus;;Vagos;Annecy;SOCIEDAD DE TRANSPORTES S.LIb.(=Iberocoach)
 K784;bus;;Lissabon;Beausoleil;SOCIEDAD DE TRANSPORTES S.L.(=Iberocoach)
 K785;bus;Seit 02.09.2018 nicht mehr buchbar, wurde eingestellt.;Porto;A Coruña;SOCIEDAD DE TRANSPORTES S.L.(=Iberocoach)
 K786;bus;Seit 02.09.2018 nicht mehr buchbar, wurde eingestellt.;Fuengirola(Malaga);Porto;SOCIEDAD DE TRANSPORTES S.L.(=Iberocoach)
-K787;bus;;Krakau;Kołobrzeg Jagiellońska;Voyager
+K787;bus;;Krakau;Kolberg;Voyager
 K790;bus;;Barcelona;Pontevedra;SOCIEDAD DE TRANSPORTES S.L.(=Iberocoach)?
 K803;bus;;Ljubljana;Treviso Flughafen;Nomago
 K810;bus;;Prag;Třebíč;Trado Bus
@@ -1226,7 +1226,8 @@ N1362;bus;;Stettin;Zakopane;FlixMobility GmbH
 N1365;bus;;Berlin;Zakopane;FlixMobility GmbH
 N1376;bus;;Kopenhagen;Krakau;FlixMobility GmbH
 N1380;bus;;Prag;Gdingen;FlixMobility GmbH
-N1385;bus;;Stettin;Olstyn;FlixMobility GmbH
+N1385;bus;;Berlin;Olstyn;FlixMobility GmbH
+N1392;bus;;Posen;Ustrzyki Górne;FlixMobility GmbH
 N1395;bus;;Wien;Gdingen;FlixMobility GmbH
 
 N1501;bus;;Genua;Sala Consilia;FlixMobility GmbH
