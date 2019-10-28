@@ -1,0 +1,74 @@
+#
+# Format: format is like in the OSM Wiki
+#
+# Links: [[...|...]] are interne link like in the OSM Wiki
+#        [... ...] are external links
+#
+# Headers start with '=', '==', '===', '====', ... at the beginning of a line
+#
+# Simple text starts with '-' at the beginning of a line.
+#    Simple text starts may only be placed directly after a header line.
+#    A single '-' at the beginning of a line, followed by nothing:
+#    - if there was simple text before, it creates a line feed (i.e. encloses the text in a paragraph <p> ... </p>)
+#    - if there was no simple text before or a line feed, it creates an empty line (i.e. <p>&amp;nbsp;</p>)
+#
+# !!!Text yellow background!!! in simple text or headers
+# '''''Text mit bold and italics''''' in simple text or headers
+# '''Text with bold chars''' in simple text or headers
+# ''Text with italic chars'' in simple text or headers
+#
+# Comments start with '#' at the beginning of a line. '#' inside text is not recognized as the start of a comment, i.e.. '#' may occur inside of text.
+#
+# Format of the file: UTF-8
+#
+#
+# Cotents in CSV-Format
+#
+# ref;type;comment;from;to;operator
+#
+# - ref       == tag 'ref' of route or route_master
+#                250            defines that routes with 'ref'='250' are expected
+#                250|250a|250b  defines that routes with 'ref'='250' or 'ref'='250a' or 'ref'='250b' are expected - independent of whether this is allowed according to PTv1/PTv2
+# - type      == contents of tags 'route' respectively 'route_master'
+# - comment   == can include comments like; Bus, Expressbus, ...  will not be analyzed, but simply be printed out
+#                !Text with yellow background! in comment (surrounded by single !)
+# - from      == if there is more than one entry with "ref;type" and "operator" is the same, then 'from' and 'to are also used to distinguish between same line number in different cities/villages
+# - to        == if there is more than one entry with "ref;type" and "operator" is the same, then 'from' and 'to are also used to distinguish between same line number in different cities/villages
+# - operator  == if there is more than one entry with "ref;type", then "operator" is used to distinguish between same line number in different cities/villages
+#
+
+
+= Overview on Flixbus lines in the USA
+
+- Link to a list of expected routes [[United_States/Transportation/Bus_Routes/Flixbus/Flixbus_Lines|Flixbus lines]] in OSM Wiki.
+-
+- Link to more [[Talk:United_States/Transportation/Bus_Routes/Flixbus/Analysis|information]] in OSM Wiki.
+-
+
+== Flixbus lines in the USA
+
+2000;bus;;Los Angeles;San Francisco;
+2001;bus;;;;
+2003;bus;;;;
+2006;bus;;San Francisco;Anaheim;
+2009;bus;;Los Angeles;Anaheim/Las Vegas;
+2010;bus;;San Diego;Las Vegas;
+2016;bus;;Los Angeles;Las Vegas;
+2017;bus;;Los Angeles;San Diego;
+2039;bus;;Las Vegas;Santa Monica;
+2052;bus;;San Diego;Los Angeles;
+2062;bus;;San Francisco;Sacramento/Reno;
+2064;bus;;San Francisco;Reno;
+2100;bus;;Tucson;Las Vegas/Flagstaff;
+2201;bus;;Los Angeles;Tucson;
+2203;bus;;El Paso;Phoenix;
+2211;bus;;New Orleans;Houston;
+2600;bus;;Washington D.C/Rockville;New York;
+N2003;bus;;San Diego;Vallejo;
+N2006;bus;;San Francisco;Los Angeles/Reno;
+N2008;bus;;San Francisco;Las Vegas;
+N2009;bus;;San Diego; Las Vegas;
+N2100;bus;;Las Vegas;Tucson;
+N2201;bus;;Los Angeles;Tucson;
+N2210;bus;;New Orleans;San Antonio;
+N2221;bus;;Biloxi;Fort Worth;
