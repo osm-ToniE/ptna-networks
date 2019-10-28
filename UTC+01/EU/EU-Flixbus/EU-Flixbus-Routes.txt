@@ -662,6 +662,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 1262;bus;;Warschau;Košice;FlixMobility GmbH
 1271;bus;;Warschau;Rzeszów;FlixMobility GmbH
 1281;bus;;Warschau;Rybnik;FlixMobility GmbH
+1282;bus;;Warschau;Bielsko-Biala;FlixMobility GmbH
 1291;bus;;Wien;Krakau;FlixMobility GmbH
 
 
@@ -784,6 +785,8 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 ==19xx-Linien (Rumänien + Verbindungen Rumänien mit Rest-Europa)
 
 1900;bus;;Ljubljana;Belgrad;FlixMobility GmbH
+1910;bus;;Budapest;Belgrad;FlixMobility GmbH
+1910a;bus;;Budapest;Belgrad;FlixMobility GmbH
 1920;bus;;London;Bukarest;FlixMobility GmbH
 1921;bus;;Bilbao;Bukarest;FlixMobility GmbH
 1922;bus;;Bordeaux;Bukarest;FlixMobility GmbH
@@ -812,6 +815,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 
 AN587;bus;;Bergamo;Fiorenzuola;
 AN588;bus;;Bozen;Modena;
+E01;bus;Frankfurt;Mannheim;
 EL750;bus;;Paris;Prag;
 K188;bus;;Basel Airport;Lugano;Eurobus
 K188/E03;bus;;Zürich Flughafen;Basel;Eurobus
@@ -849,6 +853,7 @@ K785;bus;Seit 02.09.2018 nicht mehr buchbar, wurde eingestellt.;Porto;A Coruña;
 K786;bus;Seit 02.09.2018 nicht mehr buchbar, wurde eingestellt.;Fuengirola(Malaga);Porto;SOCIEDAD DE TRANSPORTES S.L.(=Iberocoach)
 K787;bus;;Krakau;Kolberg;Voyager
 K790;bus;;Barcelona;Pontevedra;SOCIEDAD DE TRANSPORTES S.L.(=Iberocoach)?
+K801;bus;;Amsterdam;Sjenica;
 K803;bus;;Ljubljana;Treviso Flughafen;Nomago
 K810;bus;;Prag;Třebíč;Trado Bus
 K811;bus;;Bratislava;Banská Bystrica;Turancar
@@ -1254,6 +1259,7 @@ N1795;bus;;Lissabon;Màlaga;FlixMobility GmbH
 N1900;bus;;Belgrad;Ljubljana;FlixMobility GmbH
 N1905;bus;;Belgrad;Split;FlixMobility GmbH
 N1906;bus;;Belgrad;Pula;FlixMobility GmbH
+N1910;bus;;Budapest;Belgrad;FlixMobility GmbH
 N1960;bus;seit 04.11.2018 nicht mehr buchbar, wurde eingestellt.;Kozluk;St. Pölten;FlixMobility GmbH
 N1961;bus;;Dortmund;Tuzla;FlixMobility GmbH
 N1962;bus;;Hamburg;Tuzla;FlixMobility GmbH
@@ -1270,29 +1276,6 @@ N3300;bus;;Wien;Kiew;FlixMobility GmbH
 
 == Buslinien in den USA
 
-2000;bus;;Los Angeles;San Francisco;
-2001;bus;;;;
-2006;bus;;San Francisco;Anaheim;
-2009;bus;;Los Angeles;Anaheim/Las Vegas;
-2010;bus;;San Diego;Las Vegas;
-2016;bus;;Los Angeles;Las Vegas;
-2017;bus;;Los Angeles;San Diego;
-2039;bus;;Las Vegas;Santa Monica;
-2052;bus;;San Diego;Los Angeles;
-2062;bus;;San Francisco;Sacramento/Reno;
-2064;bus;;San Francisco;Reno;
-2100;bus;;Tucson;Las Vegas/Flagstaff;
-2201;bus;;Los Angeles;Tucson;
-2203;bus;;El Paso;Phoenix;
-2211;bus;;New Orleans;Houston;
-2600;bus;;Washington D.C/Rockville;New York;
-N2003;bus;;San Diego;Vallejo;
-N2006;bus;;San Francisco;Los Angeles/Reno;
-N2008;bus;;San Francisco;Las Vegas;
-N2009;bus;;San Diego; Las Vegas;
-N2100;bus;;Las Vegas;Tucson;
-N2201;bus;;Los Angeles;Tucson;
-N2210;bus;;New Orleans;San Antonio;
-N2221;bus;;Biloxi;Fort Worth;
+siehe https://wiki.openstreetmap.org/wiki/Https://ptna.openstreetmap.de/results/US/US-Flixbus-Analysis.html
 
 </pre>

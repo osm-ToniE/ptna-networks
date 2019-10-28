@@ -1552,6 +1552,7 @@ T114;bus;;;;Verkehrsbetrieb Hamm GmbH
 158;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 160;bus;;;;WB Westfalen Bus GmbH
 170;bus;;;;WB Westfalen Bus GmbH
+177;bus;;Holzwickede;Holzwickede;Verkehrsgesellschaft Kreis Unna mbH
 178;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 179;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 180;bus;;;;WB Westfalen Bus GmbH
@@ -1906,8 +1907,9 @@ C3;bus;Soest;Soest;Soest;Regionalverkehr Ruhr-Lippe GmbH
 C3;bus;Werl;Werl;Holtum;Verkehrsgesellschaft Breitenbach mbH & Co. KG
 C4;bus;Lippstadt;Lippstadt;Bad Waldliesborn;Regionalverkehr Ruhr-Lippe GmbH
 C4;bus;Soest;Soest;Günne;Regionalverkehr Ruhr-Lippe GmbH
-C5;bus;Soest;Soest;Osttönnen;Regionalverkehr Ruhr-Lippe GmbH
 C5;bus;Lippstadt;Lippstadt;Lipperode;Regionalverkehr Ruhr-Lippe GmbH
+C5;bus;Soest;Soest;Osttönnen;Regionalverkehr Ruhr-Lippe GmbH
+C6;bus;Lippstadt;Lippstadt;Cappel;Regionalverkehr Ruhr-Lippe GmbH
 C6;bus;Soest;Soest;Soest;Regionalverkehr Ruhr-Lippe GmbH
 C7;bus;Soest;Soest;Soest;Regionalverkehr Ruhr-Lippe GmbH
 C8;bus;Soest;Soest;Soest;Regionalverkehr Ruhr-Lippe GmbH
@@ -1953,9 +1955,10 @@ T661;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
 
 === Märkischer Kreis
 
-1;bus;;;;Märkische Verkehrsgesellschaft GmbH
-2;bus;;Iserlohn;Hemer;Märkische Verkehrsgesellschaft GmbH
-3;bus;;Hemer;Hemer-Ihmert;Märkische Verkehrsgesellschaft GmbH
+1;bus;;Hagen;Menden;Märkische Verkehrsgesellschaft GmbH
+2;bus;;Hemer;Hemer;Märkische Verkehrsgesellschaft GmbH
+3;bus;;Hemer;Hemer;Märkische Verkehrsgesellschaft GmbH
+4;bus;;Iserlohn;Iserlohn;Märkische Verkehrsgesellschaft GmbH
 5;bus;;Letmathe, Mitte|Iserlohn, Stübbeken|Letmathe, Bahnhof|Letmathe, Gymnasium|Iserlohn, Lasbeck;Ergste, Kirchstraße|Iserlohn, Lasbeck;Märkische Verkehrsgesellschaft GmbH
 6;bus;;;;Märkische Verkehrsgesellschaft GmbH
 7;bus;;;;Märkische Verkehrsgesellschaft GmbH
