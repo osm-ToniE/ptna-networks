@@ -87,7 +87,7 @@
 30;bus;;Schwäbisch Hall;Schönenberg;Röhler
 31;bus;;Schwäbisch Hall;Crailsheim;Röhler
 32;bus;;Schwäbisch Hall;Waldenburg;Röhler
-40NVH;bus;;Neuwirtshaus;Öhringen;NVH
+40;bus;Wird beim Verkehrsverbund als 40NVH gelistet;Neuwirtshaus;Öhringen;NVH
 40;bus;;CityFlitzer Stadtgebiet Gaildorf;Hofmann
 41;bus;Fährt als Bus 63 des Fahrbus Ostalb;Gaildorf;Schwäbisch Gmünd;FahrBus Ostalb
 43;bus;;Gaildorf;Gaildorf (Nordring);Hofmann
