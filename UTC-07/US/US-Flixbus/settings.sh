@@ -12,9 +12,9 @@ OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=[timeout:1800];area[
 NETWORK_LONG="Flixbus"
 NETWORK_SHORT=""
 
-ANALYSIS_PAGE= #"Europa/Transportation/Analyse"
-ANALYSIS_TALK= #"Talk:Europa/Transportation/Analyse"
-WIKI_ROUTES_PAGE= #"Europa/Transportation/Analyse/Flixbuslinien"
+ANALYSIS_PAGE="United_States/Transportation/Bus_Routes/Flixbus/Analysis"
+ANALYSIS_TALK="Talk:United_States/Transportation/Bus_Routes/Flixbus/Analysis"
+WIKI_ROUTES_PAGE="United_States/Transportation/Bus_Routes/Flixbus/Flixbus_Lines"
 
 ANALYSIS_OPTIONS="--allow-coach --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
