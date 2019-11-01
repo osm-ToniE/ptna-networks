@@ -598,8 +598,8 @@ Marktfahrten;bus;;Rotenburg;Thedinghausen;
 === RegionalExpress
 RE1;train;;Hannover;Emden/Norddeich;Deutsche Bahn
 RE4;train;;Bremen;Hamburg;Metronom
-RE8;train;;Bremerhaven-Lehe;Hannover;Deutsche Bahn
-RE9;train;;Bremerhaven-Lehe;Osnabrück;Deutsche Bahn
+RE8;train;;Bremerhaven-Lehe;Hannover;DB Regio Nord
+RE9;train;;Bremerhaven-Lehe;Osnabrück;DB Regio Nord
 RE 18;train;;Wilhelmshaven;Osnabrück;NordWestBahn
 RE 19;train;;Bremen;Wilhelmshaven;NordWestBahn
 === Regio-S-Bahn

@@ -181,12 +181,19 @@ RT5;tram;;Kassel;Melsungen;RBK
 303;bus;Stadtverkehr Rotenburg;Bahnhof;Herz-Kreislauf-Zentrum;DB Regio Bus Mitte
 313;bus;Stadtverkehr Bebra;Bahnhof;Luisenstraße;DB Regio Bus Mitte
 314;bus;Stadtverkehr Bebra;Bahnhof;Industriegebiet;DB Regio Bus Mitte
+330;bus;;Obersuhl;Bad Hersfeld;RöhnEnergie Bus
 331;bus;;Obersuhl/Herfa;Heringen;RöhnEnergie Bus
+340;bus;;Hohenroda;Bad Hersfeld;RöhnEnergie Bus
+341;bus;;Hohenroda;Schenklengsfeld;RöhnEnergie Bus
+345;bus;;Hohenroda;Bad Hersfeld;RöhnEnergie Bus
+349;bus;Anrufsammeltaxi;Schenklengsfeld;Bad Hersfeld;RöhnEnergie Bus
+#350;bus;Stadtbus Bad Hersfeld;;;Wirtschaftsbetriebe Bad Hersfeld
 360;bus;;Eiterfeld;Bad Hersfeld;Omnibusbetrieb Käberich
 380;bus;;Bad Hersfeld;Kirchheim;Omnibusbetrieb Käberich
 
 === 400 .. 499
 400;bus;;Hessisch Lichtenau;Fritzlar;
+410;bus;;Borken;Bad Wildungen;BKW Bad Wildungen
 422;bus;;Homberg(Efze);Homberg(Efze);
 426;bus;;Schwarzenborn;Homberg(Efze);
 427;bus;;Hergetsfeld;Homberg(Efze);
