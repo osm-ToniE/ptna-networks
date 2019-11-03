@@ -58,8 +58,10 @@
 2006;bus;;San Francisco;Anaheim;
 2009;bus;;Los Angeles;Anaheim/Las Vegas;
 2010;bus;;San Diego;Las Vegas;
+2013;bus;;San Louis(CA);Los Angeles
 2016;bus;;Los Angeles;Las Vegas;
 2017;bus;;Los Angeles;San Diego;
+2030;bus;;Anaheim; Las Vegas;
 2039;bus;;Las Vegas;Santa Monica;
 2052;bus;;San Diego;Los Angeles;
 2062;bus;;San Francisco;Sacramento/Reno;
@@ -67,13 +69,19 @@
 2100;bus;;Tucson;Las Vegas/Flagstaff;
 2201;bus;;Los Angeles;Tucson;
 2203;bus;;El Paso;Phoenix;
-2211;bus;;New Orleans;Houston;
+2211;bus;;New Orleans;San Antonio;
+2230;bus;;San Antonio;Dallas/Fort Worth;
+2240;bus;;Houston;Dallas/Fort Worth;
+2270;bus;;Austin;Pasadena;
 2600;bus;;Washington D.C/Rockville;New York;
+2601;bus;;Washington D.C/Richmond;New York;
 N2003;bus;;San Diego;Vallejo;
 N2006;bus;;San Francisco;Los Angeles/Reno;
 N2008;bus;;San Francisco;Las Vegas;
 N2009;bus;;San Diego; Las Vegas;
+N2039;bus;;Santa Barbara; Las Vegas;
 N2100;bus;;Las Vegas;Tucson;
+N2203;bus;;Los Angeles; El Paso;
 N2201;bus;;Los Angeles;Tucson;
 N2210;bus;;New Orleans;San Antonio;
 N2221;bus;;Biloxi;Fort Worth;

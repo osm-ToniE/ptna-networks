@@ -265,6 +265,7 @@ RB;train;;Aschaffenburg;Miltenberg;"DB RegioNetz Verkehrs GmbH; Westfrankenbahn"
 RB;train;;Wertheim;Miltenberg;"DB RegioNetz Verkehrs GmbH; Westfrankenbahn"
 RB;train;;Osterburken|Neckarsulm|Mosbach-Neckarelz|Heilbronn Hauptbahnhof;Stuttgart Hauptbahnhof|Bad Friedrichshall Hauptbahnhof;DB Regio
 RB;train;;Öhringen Hauptbahnhof;Schwäbisch Hall-Hessental;WestFrankenBahn
+RB;train;Trireno RB;Basel;Lauchringen;DB
 
 ==== RB1 .. RB10
 
@@ -312,7 +313,7 @@ RB20;train;;Potsdam;Oranienburg;DB Regio AG
 RB21;train;Ländchesbahn;Limburg (Lahn);Wiesbaden;HLB
 RB21;train;Rurtalbahn;Düren;Heimbach|Linnich;Rurtalbahn GmbH
 "RB21;RB22|RB21|RB22";train;;Wustermark/Königs Wusterhausen;Berlin Friedrichstraße;DB Regio AG
-RB22;train;Main-Lahn-Bahn;Limburg (Lahn);Frankfurt (Main) Hbf;DB Regio Hessen
+RB22;train;Main-Lahn-Bahn;Limburg (Lahn);Frankfurt (Main) Hbf;DB Regio AG Mitte
 RB22;train;Eifel-Express;Gerolstein;Trier;DB Regio NRW
 RB23;train;;Michendorf;Potsdam;DB Regio AG
 RB23;train;;Świnoujście Centrum;Stralsund Hbf|Wolgast|Züssow;DB Regio AG
@@ -358,7 +359,7 @@ RB 34;train;;Kamenz;Dresden;DB Regio Nordost
 RB 34;train;;Stendal;Rathenow;Ostdeutsche Eisenbahn Gesellschaft
 RB34;train;Schwalm-Nette-Bahn;Mönchengladbach Hbf;Dalheim;VIAS
 RB34;train;Nahebahn;Kirn;Baumholder;vlexx GmbH
-RB34;train;Niddertalbahn;Stockheim;Frankfurt;DB
+RB34;train;Niddertalbahn;Stockheim;Frankfurt;DB Regio AG Mitte
 RB35;train;Emscher-Niederrhein-Bahn;Wesel;Mönchengladbach;Abellio Rail NRW
 RB35;train;;Fürstenwalde;Bad Saarow Klinikum;NEB Betriebsgesellschaft mbH
 RB 35;train;Rheinhessenbahn;Bingen;Worms;DB Regio Mitte
@@ -374,7 +375,7 @@ RB38;train;Pellenz-Eifel-Bahn;Kaisersesc;Andernach;DB Regio SüdWest
 RB38;train;Erft-Bahn;Köln|Horrem;Bedburg (Erft);DB Regio NRW
 RB39;train;Rhein-Ahr-Bahn;Remagen;Ahrbrück;DB Regio NRW
 RB39;train;Erft-Schwalm-Bahn;Bedburg (Erft);Düsseldorf Hbf;VIAS
-RB40;train;Mittelhessenexpress ;Frankfurt (Main);Dillenburg;DB
+RB40;train;Mittelhessenexpress ;Frankfurt (Main);Dillenburg;DB Regio AG Mitte
 RB40;train;Ruhrtal-Bahn;Hagen;Essen;Abellio Rail NRW
 RB 40;train;;Braunschweig;Burg;DB Regio Südost
 
@@ -452,7 +453,7 @@ RB60V;train;;Bischofswerda;Görlitz;Ostdeutsche Eisenbahn GmbH
 
 ==== RB61 .. RB70
 
-RB61;train;Dreieichbahn;Dieburg;Frankfurt|Neu-Isenburg;DB Regio AG
+RB61;train;Dreieichbahn;Dieburg;Frankfurt|Neu-Isenburg;DB Regio AG Mitte
 RB61;train;Wiehengebirgs-Bahn;Bielefeld;Hengelo;Eurobahn
 RB61;train;;Hamburg;Itzehoe;NBE Nordbahn Eisenbahngesellschaft mbh & Co. KG
 RB61;train;;Angermünde;Schwedt (Oder);Niederbarnimer Eisenbahn
@@ -478,10 +479,10 @@ RB66;train;Teuto-Bahn;Münster;Osnabrück;Eurobahn
 RB66;train;;Angermünde;Szczecin Główny;DB Regio
 RB 66;train;;Niebüll;Tønder;Norddeutsche Eisenbahngesellschaft Niebüll
 RB67;train;Glantal-Bahn;Kaiserslautern;Kursel;DB Regio Südwest
-RB67;train;Main-Neckar-Bahn;Frankfurt;Mannheim;DB Regio Hessen
+RB67;train;Main-Neckar-Bahn;Frankfurt;Mannheim;DB Regio AG Mitte
 RB67;train;Der Warendorfer;Bielefeld;Münster;Eurobahn
 RB68;train;Schwarzbachtalbahn;Saarbrücken;Pirmasens;DB Regio Südwest
-RB68;train;Main-Neckar-Bahn;Heidelberg Hbf;Frankfurt (Main);DB Regio Hessen
+RB68;train;Main-Neckar-Bahn;Heidelberg Hbf;Frankfurt (Main);DB Regio AG Mitte
 RB69;train;Ems-Börde-Bahn;Münster;Bielefeld;Eurobahn
 RB 69;train;Weschnitztalbahn;Weinheim (Bergstraße);Fürth (Odenwald);DB Regio Mitte
 RB70;train;;Kaiserslautern;Merzig (Saar);DB Regio Südwest
@@ -571,6 +572,7 @@ RE;train;;Heilbronn Hbf;Crailsheim;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
 RE;train;;Offenburg;Basel SBB;DB Regio
 RE;train;;Aschaffenburg;Crailsheim;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
 RE;train;;Stuttgart Hauptbahnhof;Nürnberg Hauptbahnhof;DB Regio AG
+RE/RB;train;Trireno RE/RB;Freiburg (Breisgau);Basel SBB;DB Regio
 RE|RE2;train;;Heilbronn;Mannheim;DB Regio Rhein-Neckar
 
 ==== RE1 .. RE10
@@ -662,7 +664,7 @@ RE 19;train;;Halle (Saale) Hbf;Nordhausen;DB Regio Südost
 RE 19;train;;Halle (Saale) Hbf;Leinefelde;Abellio Rail Mitteldeutschland GmbH
 RE19;train;Rhein-IJssel-Express;Arnhem;Düsseldorf;Abellio Rail NRW
 RE 19;train;;Bremen;Wilhelmshaven;NordWestBahn
-RE20;train;Main-Lahn-Bahn;Limburg (Lahn);Frankfurt (Main);DB
+RE20;train;Main-Lahn-Bahn;Limburg (Lahn);Frankfurt (Main);DB Regio AG Mitte
 RE 20;train;;Magdeburg;Uelzen;DB Regio Sachsen-Anhalt
 
 ==== RE21 .. RE30
@@ -683,7 +685,7 @@ RE 31;train;;Magdeburg;Blankenburg;Abellio Rail
 
 RE 42;train;;Nürnberg:Leipzig;DB Regio Südost
 RE 45;train;;Erfurt;Meiningen;DB
-RE50;train;Kinzigtalbahn;Fulda;Frankfurt (Main);DB Regio Mitte 
+RE50;train;Kinzigtalbahn;Fulda;Frankfurt (Main);DB Regio AG Mitte
 RE50;train;;Hildesheim;Wolfsburg;Metronom
 RE 50;train;Saxonia;Leipzig;Dresden;DB Regio Südost
 
@@ -694,11 +696,11 @@ RE55;train;;Würzburg;Frankfurt;DB Regio AG
 RE55/RE56;train;;Erfurt;Nordhausen;DB Regio AG
 RE59;train;;Aschaffenburg;Frankfurt (Main) Flughafen;DB Regio AG
 RE60;train;Ems-Leine-Express;Braunschweig;Rheine;Westfalenbahn
-RE60;train;Main-Neckar-Bahn;Mannheim;Frankfurt;DB Regio Hessen
+RE60;train;Main-Neckar-Bahn;Mannheim;Frankfurt;DB Regio AG Mitte
 
 ==== RE61 .. RE70
 
-RE70;train;Riedbahn;Mannheim Hbf|Worms;Frankfurt (Main) Hbf;DB Regio Hessen
+RE70;train;Riedbahn;Mannheim Hbf|Worms;Frankfurt (Main) Hbf;DB Regio AG Mitte
 RE70;train;Weser-Leine-Express;Braunschweig;Bielefeld;Westfalenbahn
 RE70;train;;Hamburg;Kiel;DB Regio AG
 RE 72;train;;Kiel Hbf;Flensburg;DB Regio AG - Region Nord
@@ -718,7 +720,7 @@ RE85;train;Odenwaldbahn;Erbach;Frankfurt;VIAS GmbH
 ==== RE91 .. RE100
 
 RE 98;train;;Kassel Hbf;Frankfurt (Main) Hbf;Hessische Landesbahn GmbH
-RE99;train;Main-Sieg-Express;Siegen;Frankfurt;DB Regio Hessen
+RE99;train;Main-Sieg-Express;Siegen;Frankfurt;Hessische Landesbahn GmbH
 
 ==== RE101 ...
 

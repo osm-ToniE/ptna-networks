@@ -1958,7 +1958,6 @@ T661;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
 1;bus;;Hagen;Menden;Märkische Verkehrsgesellschaft GmbH
 2;bus;;Hemer;Hemer;Märkische Verkehrsgesellschaft GmbH
 3;bus;;Hemer;Hemer;Märkische Verkehrsgesellschaft GmbH
-4;bus;;Iserlohn;Iserlohn;Märkische Verkehrsgesellschaft GmbH
 5;bus;;Letmathe, Mitte|Iserlohn, Stübbeken|Letmathe, Bahnhof|Letmathe, Gymnasium|Iserlohn, Lasbeck;Ergste, Kirchstraße|Iserlohn, Lasbeck;Märkische Verkehrsgesellschaft GmbH
 6;bus;;;;Märkische Verkehrsgesellschaft GmbH
 7;bus;;;;Märkische Verkehrsgesellschaft GmbH
@@ -1978,8 +1977,6 @@ T661;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
 22;bus;;;;Märkische Verkehrsgesellschaft GmbH
 23;bus;;Fröndenberg;Menden;Märkische Verkehrsgesellschaft GmbH
 24;bus;;;;Märkische Verkehrsgesellschaft GmbH
-25 ALF;bus;;;;Märkische Verkehrsgesellschaft GmbH
-26 ALF;bus;;;;Märkische Verkehrsgesellschaft GmbH
 27;bus;;Unna;Menden;Märkische Verkehrsgesellschaft GmbH
 30;bus;;Altena;Altena;Märkische Verkehrsgesellschaft GmbH
 32;bus;;;;Märkische Verkehrsgesellschaft GmbH
@@ -2013,8 +2010,6 @@ T661;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
 63;bus;;;;Märkische Verkehrsgesellschaft GmbH
 64;bus;;;;Märkische Verkehrsgesellschaft GmbH
 65;bus;;;;Märkische Verkehrsgesellschaft GmbH
-66;bus;;;;Märkische Verkehrsgesellschaft GmbH
-67;bus;;;;Märkische Verkehrsgesellschaft GmbH
 70;bus;;;;Märkische Verkehrsgesellschaft GmbH
 71;bus;;Plettenberg;Plettenberg;Märkische Verkehrsgesellschaft GmbH
 73;bus;;;;Märkische Verkehrsgesellschaft GmbH
@@ -2036,7 +2031,6 @@ T661;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
 93;bus;;Niederbuschhausen;Halver;Märkische Verkehrsgesellschaft GmbH
 94;bus;;Rönsahl;Erlen;Märkische Verkehrsgesellschaft GmbH
 95;bus;;Meinerzhagen;Meinerzhagen;Märkische Verkehrsgesellschaft GmbH
-96;bus;;;;Märkische Verkehrsgesellschaft GmbH
 98;bus;;;;Märkische Verkehrsgesellschaft GmbH
 99;bus;;Brake;Kierspe;Märkische Verkehrsgesellschaft GmbH
 132;bus;;Neuenrade, Bahnhof|Balve, Höveringhausen|Balve, Schulzentrum|Garbeck, Schulstraße;Fröndenberg, Bahnhof P+R|Menden, Bahnhof|Menden, Nordwall;WB Westfalen Bus GmbH
@@ -2075,6 +2069,13 @@ T661;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
 291;bus;;Engstfeld;Halver;Märkische Verkehrsgesellschaft GmbH
 296;bus;;Kropplenberg;Meinerzhagen;Märkische Verkehrsgesellschaft GmbH
 336;bus;;Sundern;Balve;WB Westfalen Bus GmbH
+
+ALF4;bus;;Iserlohn;Iserlohn;Märkische Verkehrsgesellschaft GmbH
+ALF25;bus;;;;Märkische Verkehrsgesellschaft GmbH
+ALF26;bus;;;;Märkische Verkehrsgesellschaft GmbH
+ALF66;bus;;;;Märkische Verkehrsgesellschaft GmbH
+ALF67;bus;;;;Märkische Verkehrsgesellschaft GmbH
+ALF96;bus;;;;Märkische Verkehrsgesellschaft GmbH
 
 BB1;bus;;Menden;Menden;Bürgerbus Menden e.V.
 Bürgerbus Linie 1;bus;;;;Bürgerbusverein Balve e.V.
