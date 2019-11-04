@@ -869,6 +869,7 @@ K928;bus;;Zagreb;Ilok;Francuzević
 K943;bus;;Sarajevo;Pula;Babić
 K944;bus;;Zagreb;Vareš;Babić
 K945;bus;;Crikvenica;Varaždin;Vincek
+K946;bus;;Paris;Sarajewo;Centrotrans,Eurolines
 K950;bus;;Zadar;Novalja;Antonio Tours
 K951;bus;;Zagreb;Vlašići;Antonio Tours
 K989;bus;;Linz;Valjevo;Europa Bus Valjevo
@@ -1276,6 +1277,6 @@ N3300;bus;;Wien;Kiew;FlixMobility GmbH
 
 == Buslinien in den USA
 
-siehe https://wiki.openstreetmap.org/wiki/Https://ptna.openstreetmap.de/results/US/US-Flixbus-Analysis.html
+- siehe [https://ptna.openstreetmap.de/results/US/index.html US-Flixbus]
 
 </pre>

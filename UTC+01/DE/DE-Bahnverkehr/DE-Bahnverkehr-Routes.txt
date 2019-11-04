@@ -440,6 +440,7 @@ RB54;train;;Löwenberg (Mark);Rheinsberg (Mark);NEB Betriebsgesellschaft mbH
 RB55;train;Queichtalbahn;Landau;Pirmasens;DB Regio Südwest
 RB55;train;;Hennigsdorf;Kremmen;DB Regio
 RB56;train;Kahlgrundbahn;Schöllkrippen;Hanau;"DB RegioNetz Verkehrs GmbH; Westfrankenbahn"
+RB56;train;;Bad Bentheim;Neuenhaus;Bentheimer Eisenbahn AG
 RE57;train;Dortmund-Sauerland-Express;Dortmund Hbf;Brilon Stadt|Winterberg (Westf.);DB Regio NRW
 RB 57;train;;Leipzig;Lutherstadt Wittenberg;DB Regio Südost
 RB58;train;;Aschaffenburg;Frankfurt (Main);DB Regio AG
