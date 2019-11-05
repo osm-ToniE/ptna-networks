@@ -419,6 +419,10 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 601;bus;;Uppsala;Göteborg;FlixMobility GmbH
 602;bus;;Stockholm;Kopenhagen;FlixMobility GmbH
 603;bus;;Malmö;Oslo;FlixMobility GmbH
+607;bus;;Stockholm;Jönköping;FlixMobility GmbH
+609;bus;;Västerås/Örebro;Stockholm Arlanda Airport;FlixMobility GmbH
+610;bus;;Stockholm;Mora;FlixMobility GmbH
+612;bus;;Uppsala;Kalmar;FlixMobility GmbH
 613;bus;;Oslo;Kopenhagen;FlixMobility GmbH
 620;bus;;Grenaa;Kopenhagen;FlixMobility GmbH
 620a;bus;Seit 02.04.2018 nicht mehr buchbar, wurde eingestellt.;Kopenhagen;Aarhus;FlixMobility GmbH
@@ -439,6 +443,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 632A;bus;Seit 31.08.2018 nicht mehr buchbar, wurde eingestellt.;Kopnhagen;Viborg;FlixMobility GmbH
 633;bus;Kopenhagen;Horsens;FlixMobility GmbH
 641;bus;;Vordingborg;Kopenhagen Flughafen;FlixMobility GmbH
+690;bus;;Stockholm, Arlanda Airport;Stockholm;FlixMobility GmbH
 
 
 
@@ -816,7 +821,8 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 AN587;bus;;Bergamo;Fiorenzuola;
 AN588;bus;;Bozen;Modena;
 E01;bus;Frankfurt;Mannheim;
-EL750;bus;;Paris;Prag;
+EL450;bus;;Paris;London;Eurolines/Isiline
+EL750;bus;;Paris;Prag;Eurolines
 K188;bus;;Basel Airport;Lugano;Eurobus
 K188/E03;bus;;Zürich Flughafen;Basel;Eurobus
 K288/E02;bus;;Zürich Flughafen;Montreux;Eurobus
@@ -843,6 +849,7 @@ K606;bus;;Oslo Busterminalen Galleriet;Oslo Flughafen Gardermoen;Flybussen FB2
 K608;bus;;Stockholm;Ljusdal;Härjedalingen
 K614;bus;;Stockholm;Sollefteå;YBuss
 K615;bus;;Stockholm;Hofors;SGS Bussen
+K618;bus;;Stockholm;Edsbyn;
 K767;bus;;Warschau;Kolberg;Voyager
 K780;bus;;Lissabon;Luxemburg;SOCIEDAD DE TRANSPORTES S.L.(=Iberocoach)
 K781;bus;Seit 03.09.2017 nicht mehr buchbar, wurde eingestellt.;Madrid;Rennes;SOCIEDAD DE TRANSPORTES S.L.(=Iberocoach)

@@ -317,7 +317,7 @@ RB22;train;Main-Lahn-Bahn;Limburg (Lahn);Frankfurt (Main) Hbf;DB Regio AG Mitte
 RB22;train;Eifel-Express;Gerolstein;Trier;DB Regio NRW
 RB23;train;;Michendorf;Potsdam;DB Regio AG
 RB23;train;;Świnoujście Centrum;Stralsund Hbf|Wolgast|Züssow;DB Regio AG
-RB23;train;Lahn-Eifel-Bahn;Mayen Ost;Limburg;DB AG
+RB23;train;Lahn-Eifel-Bahn;Mayen Ost;Limburg;DB Regio AG Mitte
 RB 24;train;;Zinnowitz;Peenemünde;DB Regio AG
 RB 24;train;;Grossheringen;Saalfeld;Abellio Rail Mitteldeutschland GmbH
 RB24;train;Eifel-Bahn;Köln;Gerolstein;DB Regio NRW
@@ -396,7 +396,7 @@ RB44;train;;Braunschweig;Salzgitter-Lebenstedt;DB Regio
 RB 44;train;Der Dorstener;Oberhausen;Dorsten;NordWestBahn
 RB 45;train;Der Coesfelder;Coesfeld;Dorsten;NordWestBahn
 RB45;train;;Neustadt (Weinstraße);Monsheim;DB Regio Südwest
-RB45;train;Lahntalbahn ;Limburg;Fulda;DB Regio Südwest
+RB45;train;Lahntalbahn Vogelsbergbahn;Limburg;Fulda;Hessische Landesbahn GmbH
 RB 45;train;;Elsterwerda;Chemnitz;Mitteldeutsche RegioBahn
 RB 45;train;;Schöppenstedt;Braunschweig;DB Regio Nord
 RB46;train;;Cottbus;Forst (Lausitz);Ostdeutsche Eisenbahn GmbH
@@ -439,7 +439,7 @@ RB54;train;Hönnetal-Bahn;;;DB Regio NRW
 RB54;train;;Löwenberg (Mark);Rheinsberg (Mark);NEB Betriebsgesellschaft mbH
 RB55;train;Queichtalbahn;Landau;Pirmasens;DB Regio Südwest
 RB55;train;;Hennigsdorf;Kremmen;DB Regio
-RB56;train;Kahlgrundbahn;Schöllkrippen;Hanau;"DB RegioNetz Verkehrs GmbH; Westfrankenbahn"
+RB56;train;Kahlgrundbahn;Schöllkrippen;Hanau;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
 RB56;train;;Bad Bentheim;Neuenhaus;Bentheimer Eisenbahn AG
 RE57;train;Dortmund-Sauerland-Express;Dortmund Hbf;Brilon Stadt|Winterberg (Westf.);DB Regio NRW
 RB 57;train;;Leipzig;Lutherstadt Wittenberg;DB Regio Südost
@@ -673,7 +673,7 @@ RE 20;train;;Magdeburg;Uelzen;DB Regio Sachsen-Anhalt
 RE 21;train;;Magdeburg;Goslar;Abellio Rail Mitteldeutschland GmbH
 RE21;train;Rheintal-Express;Koblenz;Karlsruhe Hbf;DB Regio Mitte
 RE22;train;Eifel-Express;Köln;Gerolstein;DB Regio NRW
-RE25;train;Lahntal-Express;Gießen;Koblenz;DB Regio Südwest
+RE25;train;Lahntal-Express;Gießen;Koblenz;DB Regio AG Mitte
 RE29;train;euregioAIXpress;Aachen;Spa-Géronstère;NMBS/SNCB
 RE 30;train;;Kassel Hbf;Frankfurt (Main) Hbf;DB Regio AG Mitte
 RE 30;train;;Hannover Hbf;Wolfsburg Hbf;Enno
