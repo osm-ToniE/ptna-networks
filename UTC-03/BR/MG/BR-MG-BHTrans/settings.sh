@@ -24,3 +24,31 @@ ANALYSIS_OPTIONS="--language=pt_BR --check-access --check-bus-stop --check-round
 # --expect-network-short-for=
 # --expect-network-long-for=
 
+#
+# extensions to support ptna-www and PHP in results/xx/index.php files by code in ptna-network.sh (section: upload results)
+#
+# column 1 = Name + Link to Analysis Result Page on server
+# automatically build by PHP script
+
+# column 2 = Name + Link to Overpass-Turbo call to show area on map
+PTNA_WWW_REGION_NAME="Belo Horizonte / Minas Gerais"
+PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%0A%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A%0A(%0A%0A%20%20relation%5B%22wikidata%22%3D%22Q42800%22%5D%3B%0A)%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B"
+
+# column 3 = Name + Link to the network provider / transport association
+PTNA_WWW_NETWORK_NAME="Empresa de Transporte e Trânsito de Belo Horizonte (BHTRANS)"
+PTNA_WWW_NETWORK_LINK=""
+
+# column 4 = Date and Time of last analysis in UTC and Local Time format
+# automatically build by PHP script
+
+# column 5 = Date and Time of latest changes in UTC and Local Time format
+# automatically build by PHP script
+
+# column 6 = Name + Link to discussion / documentation page (usually in OSM Wiki)
+PTNA_WWW_DISCUSSION_NAME="Discussão"
+PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
+
+# column 7 Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
+PTNA_WWW_ROUTES_NAME="BHTrans Linhas"
+PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
+

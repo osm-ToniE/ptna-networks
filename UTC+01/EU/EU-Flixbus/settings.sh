@@ -10,8 +10,8 @@ OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=[timeout:900];(rel(p
 NETWORK_LONG="Flixbus|FlixTrain"
 NETWORK_SHORT=""
 
-ANALYSIS_PAGE="Europa/Transportation/Analyse"
-ANALYSIS_TALK="Talk:Europa/Transportation/Analyse"
+ANALYSIS_PAGE="Europa/Transportation/Analyse/Flixbus"
+ANALYSIS_TALK="Talk:Europa/Transportation/Analyse/Flixbus"
 WIKI_ROUTES_PAGE="Europa/Transportation/Analyse/Flixbuslinien"
 
 ANALYSIS_OPTIONS="--allow-coach --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
@@ -23,4 +23,31 @@ ANALYSIS_OPTIONS="--allow-coach --check-access --check-name --check-stop-positio
 # --expect-network-long-for=
 # 
 
+#
+# extensions to support ptna-www and PHP in results/xx/index.php files by code in ptna-network.sh (section: upload results)
+#
+# column 1 = Name + Link to Analysis Result Page on server
+# automatically build by PHP script
+
+# column 2 = Name + Link to Overpass-Turbo call to show area on map
+PTNA_WWW_REGION_NAME="Europe"
+PTNA_WWW_REGION_LINK=""
+
+# column 3 = Name + Link to the network provider / transport association
+PTNA_WWW_NETWORK_NAME="Flixbus;Flixtrain"
+PTNA_WWW_NETWORK_LINK="https://global.flixbus.com/"
+
+# column 4 = Date and Time of last analysis in UTC and Local Time format
+# automatically build by PHP script
+
+# column 5 = Date and Time of latest changes in UTC and Local Time format
+# automatically build by PHP script
+
+# column 6 = Name + Link to discussion / documentation page (usually in OSM Wiki)
+PTNA_WWW_DISCUSSION_NAME="Discussion"
+PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
+
+# column 7 Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
+PTNA_WWW_ROUTES_NAME="Flixbus Lines"
+PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
 
