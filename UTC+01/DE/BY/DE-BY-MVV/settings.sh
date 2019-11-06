@@ -22,3 +22,31 @@ ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name-relax
 # --expect-network-short-for=
 # --expect-network-long-for=
 
+#
+# extensions to support ptna-www and PHP in results/xx/index.php files by code in ptna-network.sh (section: upload results)
+#
+# column 1 = Name + Link to Analysis Result Page on server
+# automatically build by PHP script
+
+# column 2 = Name + Link to Overpass-Turbo call to show area on map
+PTNA_WWW_REGION_NAME="Region München"
+PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation%5Bboundary%3Dadministrative%5D%5Badmin_level%3D6%5D%5Bname~%27(Dachau%7CM%C3%BCnchen%7CEbersberg%7CErding%7CStarnberg%7CFreising%7CT%C3%B6lz%7CWolfratshausen%7CF%C3%BCrstenfeldbruck)%27%5D%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
+
+# column 3 = Name + Link to the network provider / transport association
+PTNA_NETWORK_NAME="Münchner Verkehrs- und Tarifverbund und weitere"
+PTNA_NETWORK_LINK="https://www.mvv-muenchen.de/"
+
+# column 4 = Date and Time of last analysis in UTC and Local Time format
+# automatically build by PHP script
+
+# column 5 = Date and Time of latest changes in UTC and Local Time format
+# automatically build by PHP script
+
+# column 6 = Name + Link to discussion / documentation page (usually in OSM Wiki)
+PTNA_DISCUSSION_NAME="Diskussion"
+PTNA_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
+
+# column 7 Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
+PTNA_ROUTES_NAME="MVV Linien"
+PTNA_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
+
