@@ -385,7 +385,6 @@ RB41;train;;Hamburg;Bremen;Metronom Eisenbahngesellschaft mbH
 RB41;train;;Cottbus;Lübben;Ostdeutsche Eisenbahn Gesellschaft
 RB41;train;KBS 334, 335;Aschersleben;Magdeburg;DB
 RB41;train;Mittelhessenexpress;Treysa;Frankfurt;DB Regio AG Mitte
-RE42;train;Niers-Haard-Express;Münster;Mönchengladbach;DB Regio NRW
 RB 42;train;;Dessau;Magdeburg;DB Regio Sachsen-Anhalt
 RB 42;train;;Bad-Harzburg;Braunschweig;erixx GmbH
 RB 43;train;Emschertal-Bahn;Dortmund;Dorsten;NordWestBahn
@@ -462,11 +461,11 @@ RB 61;train;;Dresden;Zittau;Die Länderbahn GmbH
 RB62;train;Riedbahn;Biblis;Worms;DB Regio Südwest
 RB62;train;;Heide;Itzehoe;DB Regio
 RB62;train;;Angermünde;Prenzlau;NEB Betriebsgesellschaft mbH
-RB63;train;Baumberge-Bahn;Münster;Coesfeld;DB Regio AG, Region NRW
+RB63;train;Baumberge-Bahn;Münster;Coesfeld;DB Regio AG NRW
 RB63;train;;Eberswalde;Templin;Niederbarnimer Eisenbahn
 RB63;train;Nibelungenbahn;Bensheim;Worms;DB Regio AG Mitte
 RB 63;train;;Neumünster;Büsum;NBE Nordbahn
-RB64;train;Euregio-Bahn;Münster;Enschede;DB Regio NRW
+RB64;train;Euregio-Bahn;Münster;Enschede;DB Regio AG NRW
 RB64;train;Biebermühlbahn;Kaiserslautern;Pirmasens;DB Regio Südwest
 RB64;train;;Hoyerswerda;Görlitz;Ostdeutsche Eisenbahn GmbH
 RB 64;train;;Husum;Bad St Peter-Ording;DB Regio AG - Region Nord
@@ -486,19 +485,19 @@ RB68;train;Schwarzbachtalbahn;Saarbrücken;Pirmasens;DB Regio Südwest
 RB68;train;Main-Neckar-Bahn;Heidelberg Hbf;Frankfurt (Main);DB Regio AG Mitte
 RB69;train;Ems-Börde-Bahn;Münster;Bielefeld;Eurobahn
 RB 69;train;Weschnitztalbahn;Weinheim (Bergstraße);Fürth (Odenwald);DB Regio Mitte
-RB70;train;;Kaiserslautern;Merzig (Saar);DB Regio Südwest
+RB70;train;;Kaiserslautern;Merzig (Saar);DB Regio AG Mitte
 
 ==== RB71 .. RB80
 
 RB71;train;Ravensberger Bahn;Rahden (Kr Lübbecke);Bielefeld;Eurobahn
-RB71;train;Saartal-Bahn;Homburg(Saar)Hbf;TrierHbf;DB Regio Mitte
+RB71;train;Saartal-Bahn;Homburg(Saar)Hbf;TrierHbf;DB Regio AG Mitte
 RB71;train;;Hamburg-Altona;Wrist|Itzehoe;NBE Nordbahn Eisenbahngesellschaft mbh & Co. KG
 RB 71;train;;Pirna;Sebnitz;Städtebahn Sachsen GmbH
 RB72;train;Ostwestfalen-Bahn;Paderborn;Herford;Eurobahn
 RB72;train;Fischbach-Illtal-Bahn;Saarbrücken;Lebach-Jabach;DB Regio Südwest
 RB 72;train;Müglitztalbahn;Altenberg;Heidenau;Städtebahn Sachsen GmbH
 RB73;train;Der Lipperländer;Lemgo;Bielefeld;Eurobahn
-RB73;train;Nahetalbahn;Saarbrücken Hvf;Neubrücke (Nahe);DB Regio Südwest
+RB73;train;Nahetalbahn;Saarbrücken Hvf;Neubrücke (Nahe);DB Regio AG Mitte
 RB73;train;;Neustadt (Dosse);Pritzwalk|Kyritz;Hanseatische Eisenbahn GmbH
 RB 74;train;Senne-Bahn;Bielefeld;Paderborn;NordWestBahn
 RB74;train;;Illingen;Homburg(Saar) Hbf;DB Regio Südwest
@@ -578,7 +577,7 @@ RE|RE2;train;;Heilbronn;Mannheim;DB Regio Rhein-Neckar
 
 ==== RE1 .. RE10
 
-RE1;train;;Hannover;Norddeich(Mole);DB Regio AG
+RE1;train;;Hannover;Norddeich(Mole);DB Regio AG Nord
 RE1;train;;Koblenz Hbf;Mannheim Hbf;DB Regio Mitte
 RE1;train;;Aachen Hbf;Hamm (Westf);DB Regio AG Region NRW
 RE1;train;;Hamburg;Rostock|Schwerin;DB Regio AG
@@ -586,7 +585,7 @@ RE1;train;;Eisenhüttenstadt;Magdeburg;DB Regio AG
 RE1;train;;;Stuttgart;
 RE 1;train;;Glauchau;Göttingen;DB Regio Südost
 RE 1;train;;Görlitz;Dresden;Die Länderbahn GmbH
-RE2;train;Rhein-Haard-Express;Münster;Düsseldorf;DB Regio NRW
+RE2;train;Rhein-Haard-Express;Münster;Düsseldorf;DB Regio AG NRW
 RE2;train;;Berlin Ostbahnhof|Cottbus;Wismar;Ostdeutsche Eisenbahn GmbH
 RE2;train;;Göttingen;Uelzen;Metronom Eisenbahngesellschaft mbH
 RE2;train;;Koblenz Hbf;Frankfurt (Main) Hbf;DB Regio AG
@@ -599,7 +598,7 @@ RE3;train;;Uelzen;Hamburg;Metronom Eisenbahngesellschaft mbH
 RE3;train;Rhein-Emscher-Express;Düsseldorf;Hamm;Eurobahn
 RE3;train;;Falkenberg (Elster)|Lutherstadt Wittenberg;Schwedt|Stralsund;DB Regio AG
 RE 3;train;;Dresden;Hof;Mitteldeutsche Regiobahn
-RE 3;train;;Altenburg;Erfurt;DB Regio Südost
+RE 3;train;;Altenburg;Erfurt;DB Regio AG Südost
 RE4;train;Wupper-Express;Dortmund;Aachen;DB Regio AG, Region NRW
 RE4;train;;Frankfurt|Mainz;Karlsruhe;DB Regio Mitte
 RE4;train;;Jüterbog|Berlin-Spandau;Rathenow;Ostdeutsche Eisenbahn Gesellschaft
@@ -620,7 +619,7 @@ RE 6;train;;Chemnitz Hbf;Leipzig Hbf;Transdev Regio Ost GmbH
 RE7;train;Rhein-Münsterland-Express;Rheine;Krefeld;National Express Rail GmbH
 RE7;train;;Hamburg;Flensburg;DB Regio AG
 RE7;train;;Dessau;Wünsdorf-Waldstadt;DB Regio Nordost
-RE 7;train;;Würzburg Hbf;Erfurt Hbf;DB Regio AG
+RE 7;train;;Würzburg Hbf;Erfurt Hbf;DB Regio AG Südost
 RE 7;train;;Magdeburg;Wittenberge;DB Regio Sachsen-Anhalt
 RE8;train;Rhein-Erft-Express;Mönchengladbach|Kaldenkirchen;Köln Messe/Deutz|Koblenz;DB Regio NRW
 RE8;train;;Bremerhaven-Lehe;Hannover;DB Regio Nord
@@ -632,7 +631,7 @@ RE 9;train;;Kassel-Wilhelmshöhe;Halle (Saale) Hbf;Abellio Rail Mitteldeutschlan
 RE 10;train;Niers-Express;Kleve;Düsseldorf;NordWestBahn
 RE10;train;;Hannover;Bad Harzburg;erixx
 RE 10;train;;Leipzig Hbf;Cottbus;DB Regio Südost
-RE 10;train;;Erfurt;Magdeburg;DB Regio AG
+RE 10;train;;Erfurt;Magdeburg;Abellio Rail Mitteldeutschland GmbH
 
 ==== RE11 .. RE20
 
@@ -685,6 +684,7 @@ RE 31;train;;Magdeburg;Blankenburg;Abellio Rail
 ==== RE41 .. RE50
 
 RE 42;train;;Nürnberg:Leipzig;DB Regio Südost
+RE42;train;Niers-Haard-Express;Münster;Mönchengladbach;DB Regio AG NRW
 RE 45;train;;Erfurt;Meiningen;DB
 RE50;train;Kinzigtalbahn;Fulda;Frankfurt (Main);DB Regio AG Mitte
 RE50;train;;Hildesheim;Wolfsburg;Metronom
@@ -694,7 +694,7 @@ RE 50;train;Saxonia;Leipzig;Dresden;DB Regio Südost
 
 RE54;train;;Würzburg;Frankfurt;DB Regio AG
 RE55;train;;Würzburg;Frankfurt;DB Regio AG
-RE55/RE56;train;;Erfurt;Nordhausen;DB Regio AG
+RE55/RE56;train;;Erfurt;Nordhausen;DB Regio AG Südost
 RE59;train;;Aschaffenburg;Frankfurt (Main) Flughafen;DB Regio AG
 RE60;train;Ems-Leine-Express;Braunschweig;Rheine;Westfalenbahn
 RE60;train;Main-Neckar-Bahn;Mannheim;Frankfurt;DB Regio AG Mitte
@@ -803,16 +803,16 @@ S31;light_rail;;;;S-Bahn Hamburg GmbH
 
 === Hannover: Großraum Hannover Verbund (GHV)
 
-S1;train;;Minden (Westf);Haste;DB Regio AG
-S2;train;;Haste;Nienburg (Weser);DB Regio AG
+S1;train;;Minden (Westf);Haste;DB Regio AG Nord
+S2;train;;Haste;Nienburg (Weser);DB Regio AG Nord
 S3;train;;Hildesheim;Hannover;DB Regio AG
-S4;train;;Hildesheim;Bennemühlen;DB Regio AG
-S5;train;;Bad Pyrmont|Hannover Hbf|Paderborn Hbf|Hameln;Hannover Flughafen;DB Regio AG
+S4;train;;Hildesheim;Bennemühlen;DB Regio AG Nord
+S5;train;;Bad Pyrmont|Hannover Hbf|Paderborn Hbf|Hameln;Hannover Flughafen;DB Regio AG Nord
 S6;train;;Hannover;Celle;DB Regio AG
 S7;train;;Hannover Hbf;Celle;DB Regio AG
-S8;train;;Hannover Flughafen;Hannover Messe/Laatzen;DB Regio AG
+S8;train;;Hannover Flughafen;Hannover Messe/Laatzen;DB Regio AG Nord
 S21;train;;Hannover Hbf;Barsinghausen;DB Regio AG
-S51;train;;Seelze;Hameln;DB Regio AG
+S51;train;;Seelze;Hameln;DB Regio AG Nord
 -
 
 === Karlsruhe: Karlsruher Verkehrsverbund (KVV)

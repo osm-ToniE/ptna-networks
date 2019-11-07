@@ -180,10 +180,10 @@ MS;bus;;Saarbrücken;Hombourg-Haut;Aloys Baron GmbH
 == Zug
 === RegionalBahn (RB)
 RB68;train;;Saarbrücken;Pirmasens;DB Regio Südwest
-RB70;train;;Kaiserslautern;Merzig(Saar);DB Regio Südwest
-RB71;train;;Homburg(Saar);Trier;DB Regio Mitte
+RB70;train;;Kaiserslautern;Merzig(Saar);DB Regio AG Mitte
+RB71;train;;Homburg(Saar);Trier;DB Regio AG Mitte
 RB72;train;;Saarbrücken;Lebach-Jabach;DB Regio Südwest
-RB73;train;;Saarbrücken;Neubrücke (Nahe);DB Regio Südwest
+RB73;train;;Saarbrücken;Neubrücke (Nahe);DB Regio AG Mitte
 RB74;train;;Illingen;Homburg(Saar);DB Regio Südwest
 RB76;train;;Saarbrücken;Homburg(Saar);DB Regio Südwest
 RB77;train;;Niedaltdorf;Dillingen(Saar);DB Regio Südwest

@@ -104,7 +104,7 @@ RB91;train;;;;Abellio Rail NRW
 === RE
 
 RE1;train;;;;DB Regio AG Region NRW
-RE2;train;;;;DB Regio NRW
+RE2;train;;;;DB Regio AG NRW
 RE3;train;;;;Eurobahn
 RE4;train;;;;DB Regio NRW
 RE5;train;;;;DB Regio NRW
@@ -118,7 +118,7 @@ RE 14;train;;;;NordWestBahn
 RE16;train;;;;Abellio Rail NRW
 RE17;train;;;;DB Regio NRW
 RE19;train;;;;Abellio Rail NRW
-RE42;train;;;;DB Regio NRW
+RE42;train;;;;DB Regio AG NRW
 RE57;train;;;;DB Regio NRW
 
 === S

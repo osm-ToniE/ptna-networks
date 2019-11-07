@@ -71,8 +71,8 @@ RB54;train;;;;
 RB 58;train;;;;NordWestBahn
 RB59;train;;Dortmund;Soest;Eurobahn
 RB61;train;;Bielefeld;Hengelo;Eurobahn
-RB63;train;;;;
-RB64;train;;;;DB Regio NRW
+RB63;train;;;;DB Regio AG NRW
+RB64;train;;;;DB Regio AG NRW
 RB65;train;;;;Eurobahn
 RB66;train;;;;Eurobahn
 RB67;train;;Bielefeld;Münster;Eurobahn
@@ -94,7 +94,7 @@ RB94;train;;;;DB RegioNetz Verkehrs GmbH; Kurhessenbahn
 RB95;train;;;;DreiLänderBahn
 RB96;train;;;;HLB
 RE1;train;;;;DB Regio AG Region NRW
-RE2;train;;;;DB Regio NRW
+RE2;train;;;;DB Regio AG NRW
 RE3;train;;;;Eurobahn
 RE6;train;;Köln/Bonn Flughafen;Minden;DB Regio NRW
 RE7;train;;;;DB Regio NRW
@@ -106,7 +106,7 @@ RE15;train;;;;Westfalenbahn
 RE16;train;;;;Abellio Rail NRW
 RE17;train;;;;DB Regio NRW
 RE 18;train;;Wilhelmshaven;Osnabrück;NordWestBahn
-RE42;train;;;;DB Regio NRW
+RE42;train;;;;DB Regio AG NRW
 RE57;train;;;;
 RE60;train;;Rheine;Braunschweig;Westfalenbahn
 RE70;train;;Bielefeld;Braunschweig;Westfalenbahn
@@ -117,8 +117,8 @@ RE99;train;;;;DB Regio Hessen
 
 == S-Bahn
 
-S1;train;;Haste;Minden (Westfalen);DB Regio AG
-S5;train;;Hannover Flughafen;Paderborn Hbf|Bad Pyrmont;DB Regio AG
+S1;train;;Haste;Minden (Westfalen);DB Regio AG Nord
+S5;train;;Hannover Flughafen;Paderborn Hbf|Bad Pyrmont;DB Regio AG Nord
 -
 
 == Teilraum Münsterland

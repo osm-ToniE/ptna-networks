@@ -62,8 +62,8 @@ EBx 12;train;;;;
 
 == Regional Express
 
-RE 3;train;;;;
-RE 4;train;;;;
+RE 3;train;;Altenburg;Erfurt;DB Regio AG Südost
+RE 4;train;;Halle (Saale);Goslar;Abellio Rail Mitteldeutschland GmbH
 RE 6;train;;;;
 RE 9;train;;;;
 RE 10;train;;;;
