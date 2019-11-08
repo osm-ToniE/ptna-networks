@@ -24,5 +24,31 @@ ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name-relax
 # --expect-network-short-for=
 # --expect-network-long-for=
 
-#OVERPASS_TURBO="https://overpass-turbo.eu/map.html?Q=node(around%3A30%2C48.4539045%2C9.9891665%2C48.4226263%2C9.8661771%2C48.3578424%2C9.8687857%2C48.3193944%2C9.9358786%2C48.3347822%2C10.1169242%2C48.4308096%2C10.0760772)%3B%0Aout%3B"
+#
+# extensions to support ptna-www and PHP in results/xx/index.php files by code in ptna-network.sh (section: upload results)
+#
+# column 1 = Name + Link to Analysis Result Page on server
+# automatically build by PHP script
+
+# column 2 = Name + Link to Overpass-Turbo call to show area on map
+PTNA_WWW_REGION_NAME="Ulm / Neu-Ulm"
+PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=node(around%3A30%2C48.4539045%2C9.9891665%2C48.4226263%2C9.8661771%2C48.3578424%2C9.8687857%2C48.3193944%2C9.9358786%2C48.3347822%2C10.1169242%2C48.4308096%2C10.0760772)%3B%0Aout%3B"
+
+# column 3 = Name + Link to the network provider / transport association
+PTNA_WWW_NETWORK_NAME="Donau-Iller-Nahverkehrsverbund-GmbH, Betreiber Stadtwerke Ulm"
+PTNA_WWW_NETWORK_LINK=""
+
+# column 4 = Date and Time of last analysis in UTC and Local Time format
+# automatically build by PHP script
+
+# column 5 = Date and Time of latest changes in UTC and Local Time format
+# automatically build by PHP script
+
+# column 6 = Name + Link to discussion / documentation page (usually in OSM Wiki)
+PTNA_WWW_DISCUSSION_NAME="Diskussion"
+PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
+
+# column 7 Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
+PTNA_WWW_ROUTES_NAME="SWU Linien"
+PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
 
