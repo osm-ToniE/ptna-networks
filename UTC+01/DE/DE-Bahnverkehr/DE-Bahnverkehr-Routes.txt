@@ -183,7 +183,7 @@ R5;train;;Nürnberg;Parsberg;
 R6;train;;Augusburg;Dinkelscherben;
 R6;train;;Nürnberg Hbf;Treuchtlingen;
 R7;train;;Augsburg;Schwabmünchen;
-R7;train;;Schnelldorf|Stuttgart Hbf;Nürnberg Hbf;DB Regio AG
+R7;train;;Schnelldorf|Stuttgart Hbf;Nürnberg Hbf;DB Regio AG Baden-Württemberg
 R7;train;;Stuttgart;Horb;DB
 R8;train;;Uffenheim;Treuchtlingen;DB Regio AG - Regio Bayern
 R8;train;;Augsburg;Klosterlechfeld;
@@ -423,7 +423,7 @@ RB51;train;Westmünsterland-Bahn;Dortmund;Enschede;DB Regio Westfalen
 RB51;train;;Brandenburg Hauptbahnhof;Rathenow;Ostdeutsche Eisenbahn Gesellschaft
 RB51;train;;Falkenberg;Dessau;DB Regio Südost
 RB51;train;Pfälzische Maximiliansbahn;Karslruhe;Neustadt (Weinstraße);DB Regio Mitte
-RB51;train;Kinzigtalbahn;Bad Soden-Salmünster;Frankfurt;DB Regio
+RB51;train;Kinzigtalbahn;Bad Soden-Salmünster;Frankfurt;DB Regio AG Mitte
 RB 51;train;; Heilbad Heiligenstadt;Nordhausen;Abellio Rail Mitteldeutschland GmbH
 RB52;train;;Wörth;Lauterburg;DB Regio SüdWest
 RB52;train;Rhönbahn;Fulda;Gersfeld (Rhön);Hessische Landesbahn
@@ -442,7 +442,7 @@ RB56;train;Kahlgrundbahn;Schöllkrippen;Hanau;"DB RegioNetz Verkehrs GmbH;Westfr
 RB56;train;;Bad Bentheim;Neuenhaus;Bentheimer Eisenbahn AG
 RE57;train;Dortmund-Sauerland-Express;Dortmund Hbf;Brilon Stadt|Winterberg (Westf.);DB Regio NRW
 RB 57;train;;Leipzig;Lutherstadt Wittenberg;DB Regio Südost
-RB58;train;;Aschaffenburg;Frankfurt (Main);DB Regio AG
+RB58;train;;Aschaffenburg;Frankfurt (Main);Hessische Landesbahn GmbH
 RB 58;train;Der Bramscher;Osnabrück;Bremen;NordWestBahn
 RB 59;train;;Esens;Wilhelmhaven;NordWestBahn
 RB59;train;Hellweg-Bahn;Soest;Dortmund;Eurobahn
@@ -692,8 +692,8 @@ RE 50;train;Saxonia;Leipzig;Dresden;DB Regio Südost
 
 ==== RE51 .. RE60
 
-RE54;train;;Würzburg;Frankfurt;DB Regio AG
-RE55;train;;Würzburg;Frankfurt;DB Regio AG
+RE54;train;;Würzburg;Frankfurt;DB Regio AG Bayern
+RE55;train;;Würzburg;Frankfurt;DB Regio AG Bayern
 RE55/RE56;train;;Erfurt;Nordhausen;DB Regio AG Südost
 RE59;train;;Aschaffenburg;Frankfurt (Main) Flughafen;DB Regio AG
 RE60;train;Ems-Leine-Express;Braunschweig;Rheine;Westfalenbahn
@@ -805,13 +805,13 @@ S31;light_rail;;;;S-Bahn Hamburg GmbH
 
 S1;train;;Minden (Westf);Haste;DB Regio AG Nord
 S2;train;;Haste;Nienburg (Weser);DB Regio AG Nord
-S3;train;;Hildesheim;Hannover;DB Regio AG
+S3;train;;Hildesheim;Hannover;DB Regio AG Nord
 S4;train;;Hildesheim;Bennemühlen;DB Regio AG Nord
 S5;train;;Bad Pyrmont|Hannover Hbf|Paderborn Hbf|Hameln;Hannover Flughafen;DB Regio AG Nord
-S6;train;;Hannover;Celle;DB Regio AG
-S7;train;;Hannover Hbf;Celle;DB Regio AG
+S6;train;;Hannover;Celle;DB Regio AG Nord
+S7;train;;Hannover Hbf;Celle;DB Regio AG Nord
 S8;train;;Hannover Flughafen;Hannover Messe/Laatzen;DB Regio AG Nord
-S21;train;;Hannover Hbf;Barsinghausen;DB Regio AG
+S21;train;;Hannover Hbf;Barsinghausen;DB Regio AG Nord
 S51;train;;Seelze;Hameln;DB Regio AG Nord
 -
 
