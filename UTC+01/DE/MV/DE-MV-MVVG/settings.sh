@@ -10,9 +10,9 @@ OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=admini
 NETWORK_LONG="Mecklenburg-Vorpommersche-Verkehrsgesellschaft"
 NETWORK_SHORT="MVVG"
 
-#ANALYSIS_PAGE="Mecklenburg-Vorpommern/ÖPNV/MVVG/Analyse"
-#ANALYSIS_TALK="Talk:Mecklenburg-Vorpommern/ÖPNV/MVVG/Analyse"
-#WIKI_ROUTES_PAGE="Mecklenburg-Vorpommern/ÖPNV/MVVG/Analyse/MVVG-Linien"
+ANALYSIS_PAGE="Mecklenburg-Vorpommern/ÖPNV/MVVG/Analyse"
+ANALYSIS_TALK="Talk:Mecklenburg-Vorpommern/ÖPNV/MVVG/Analyse"
+WIKI_ROUTES_PAGE="Mecklenburg-Vorpommern/ÖPNV/MVVG/Analyse/MVVG-Linien"
 
 ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
