@@ -199,6 +199,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 174;bus;;Aachen;Rostock;FlixMobility GmbH
 175;bus;;Hannover;Rotterdam;FlixMobility GmbH
 180;bus;;Düsseldorf;Lüttich;FlixMobility GmbH
+183;bus;;Prag;München;FlixMobility GmbH
 184;bus;Seit 25.04.2018 nicht mehr buchbar, wurde eingestellt.;Tübingen;Krakau;FlixMobility GmbH
 186;bus;;Bamberg;München;FlixMobility GmbH
 189;bus;;Ulm;Berlin;FlixMobility GmbH

@@ -284,7 +284,7 @@ RB6;train;;Eisenach;Bebra;cantus Verkehrsgesellschaft mbH
 RB7;train;;Göttingen;Fulda;Cantus
 RB 8;train;;Kassel;Göttingen;cantus Verkehrsgesellschaft mbH
 RB10;train;Rheingau-Linie;Neuwied;Frankfurt;VIAS GmbH
-RB10;train;;Nauen;Berlin-Südkreuz;DB Regio AG
+RB10;train;;Nauen;Berlin-Südkreuz;DB Regio AG Nordost
 
 ==== RB11 .. RB20
 
@@ -294,10 +294,10 @@ RB11;train;Sodener Bahn;Bad Soden;Höchst;FKE
 RB12;train;;Königstein;Frankfurt;HLB
 RB12;train;;Berlin Ostkreuz;Templin Stadt;NEB Betriebsgesellschaft mbH
 RB12;train;;Bad Doberan;Graal-Müritz;DB Regio
-RB13;train;;Berlin-Spandau;Wustermark;DB Regio
+RB13;train;;Berlin-Spandau;Wustermark;DB Regio AG Nordost
 RB13;train;;Parchim;Rehna;Ostdeutsche Eisenbahn GmbH
 RB13;train;;Stuttgart;Crailsheim;Go-Ahead Verkehrsgesellschaft Deutschland GmbH
-RB14;train;;Nauen;Berlin-Schönefeld;DB Regio AG
+RB14;train;;Nauen;Berlin-Schönefeld;DB Regio AG Nordost
 RB14;train;;Hagenow Stadt;Parchim;Ostdeutsche Eisenbahn GmbH
 RB15;train;;Inselstadt Malchow;Waren (Müritz);DB Regio
 RB15;train;Taunusbahn;Brandoberndorf;Bad Homburg|Frankfurt;HLB
@@ -306,7 +306,7 @@ RB 16;train;;Kleinseenbahn;Mirow;Neustrelitz;HANSeatische Eisenbahn GmbH
 RB 17;train;;Wismar;Ludwigslust;DB Regio
 RB 20;train;;Leipzig;Eisenach;Abellio Rail Mitteldeutschland GmbH
 RB20;train;euregiobahn;Stolberg;Düren;DB Regio AG NRW
-RB20;train;;Potsdam;Oranienburg;DB Regio AG
+RB20;train;;Potsdam;Oranienburg;DB Regio AG Nordost
 
 ==== RB21 .. RB30
 
@@ -437,7 +437,7 @@ RB54;train;Kurbadlinie;Bad Bergzabern;Winden;DB Regio Mitte
 RB54;train;Hönnetal-Bahn;;;DB Regio NRW
 RB54;train;;Löwenberg (Mark);Rheinsberg (Mark);NEB Betriebsgesellschaft mbH
 RB55;train;Queichtalbahn;Landau;Pirmasens;DB Regio Südwest
-RB55;train;;Hennigsdorf;Kremmen;DB Regio
+RB55;train;;Hennigsdorf;Kremmen;DB Regio AG Nordost
 RB56;train;Kahlgrundbahn;Schöllkrippen;Hanau;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
 RB56;train;;Bad Bentheim;Neuenhaus;Bentheimer Eisenbahn AG
 RE57;train;Dortmund-Sauerland-Express;Dortmund Hbf;Brilon Stadt|Winterberg (Westf.);DB Regio NRW
@@ -612,7 +612,7 @@ RE5;train;;Heidelberg Hbf;Stuttgart Hbf;DB Regio
 RE5;train;;Hamburg;Cuxhaven;Verkehrsgesellschaft Start Unterelbe mbH
 RE6;train;Rhein-Weser-Express;Minden;Köln/Bonn Flughafen;DB Regio NRW
 RE6;train;Pfälzische Maximiliansbahn;Neustadt (Weinstraße);Karlsruhe;DB Regio Mitte
-RE6;train;;Berlin-Gesundbrunnen;Wittenberge;DB Regio
+RE6;train;;Berlin-Gesundbrunnen;Wittenberge;DB Regio AG Nordost
 RE6;train;;Hamburg;Westerland;DB Regio AG
 RE6;train;;Lübeck;Stettin;DB Regio
 RE 6;train;;Chemnitz Hbf;Leipzig Hbf;Transdev Regio Ost GmbH
