@@ -851,6 +851,7 @@ K608;bus;;Stockholm;Ljusdal;Härjedalingen
 K614;bus;;Stockholm;Sollefteå;YBuss
 K615;bus;;Stockholm;Hofors;SGS Bussen
 K618;bus;;Stockholm;Edsbyn;
+K702;bus;;Madrid;Aldeanueva del Camino;
 K767;bus;;Warschau;Kolberg;Voyager
 K780;bus;;Lissabon;Luxemburg;SOCIEDAD DE TRANSPORTES S.L.(=Iberocoach)
 K781;bus;Seit 03.09.2017 nicht mehr buchbar, wurde eingestellt.;Madrid;Rennes;SOCIEDAD DE TRANSPORTES S.L.(=Iberocoach)
