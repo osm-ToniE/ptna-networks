@@ -63,6 +63,7 @@
 2017;bus;;Los Angeles;San Diego;
 2030;bus;;Anaheim; Las Vegas;
 2039;bus;;Las Vegas;Santa Monica;
+2050;bus;;Tucson;Los Angeles;
 2052;bus;;San Diego;Los Angeles;
 2062;bus;;San Francisco;Sacramento/Reno;
 2064;bus;;San Francisco;Reno;
@@ -80,6 +81,7 @@ N2006;bus;;San Francisco;Los Angeles/Reno;
 N2008;bus;;San Francisco;Las Vegas;
 N2009;bus;;San Diego; Las Vegas;
 N2039;bus;;Santa Barbara; Las Vegas;
+N2050;bus;;Los Angeles;Tucson;
 N2100;bus;;Las Vegas;Tucson;
 N2203;bus;;Los Angeles; El Paso;
 N2201;bus;;Los Angeles;Tucson;

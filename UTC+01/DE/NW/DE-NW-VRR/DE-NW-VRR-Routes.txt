@@ -88,14 +88,14 @@ RB35;train;;;;Abellio Rail NRW
 RB 36;train;;;;NordWestBahn
 RB37;train;;;;DB Regio NRW
 RB39;train;;;;VIAS
-RB40;train;;;;Abellio Rail NRW
+RB40;train;;;;Abellio Rail NRW GmbH
 RB 43;train;;;;NordWestBahn
 RB 44;train;;;;NordWestBahn
 RB 45;train;;;;NordWestBahn
 RB46;train;;;;Abellio Rail NRW
 RB48;train;;;;National Express Rail GmbH
 RB50;train;;;;Eurobahn
-RB51;train;;;;DB Regio Westfalen
+RB51;train;;;;DB Regio AG NRW
 RB52;train;;;;DB Regio NRW
 RB53;train;;;;DB Regio NRW
 RB59;train;;;;Eurobahn
@@ -103,10 +103,10 @@ RB91;train;;;;Abellio Rail NRW
 
 === RE
 
-RE1;train;;;;DB Regio AG Region NRW
+RE1;train;;;;DB Regio AG NRW
 RE2;train;;;;DB Regio AG NRW
 RE3;train;;;;Eurobahn
-RE4;train;;;;DB Regio NRW
+RE4;train;;;;DB Regio AG NRW
 RE5;train;;;;DB Regio NRW
 RE6;train;;;;DB Regio NRW
 RE7;train;;;;National Express Rail GmbH
@@ -115,8 +115,8 @@ RE 10;train;;;;NordWestBahn
 RE11;train;;;;Abellio Rail NRW
 RE13;train;;;;Eurobahn
 RE 14;train;;;;NordWestBahn
-RE16;train;;;;Abellio Rail NRW
-RE17;train;;;;DB Regio NRW
+RE16;train;;;;Abellio Rail NRW GmbH
+RE17;train;;;;DB Regio AG NRW
 RE19;train;;;;Abellio Rail NRW
 RE42;train;;;;DB Regio AG NRW
 RE57;train;;;;DB Regio NRW

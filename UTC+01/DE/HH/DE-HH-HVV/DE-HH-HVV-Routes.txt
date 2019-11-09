@@ -78,10 +78,10 @@ RE4;train;;;;Metronom Eisenbahngesellschaft mbH
 RE5;train;;;;Verkehrsgesellschaft Start Unterelbe mbH
 RE6;train;;;;DB Regio AG
 RE7;train;;;;DB Regio AG
-RE70;train;;;;DB Regio AG
+RE70;train;;Hamburg;Kiel;DB Regio AG Nord
 RE8;train;;;;DB Regio AG
 RE80;train;;;;DB Regio AG
-RE83;train;;;;DB Regio AG
+RE83;train;;Kiel;Lüneburg;DB Regio AG Nord
 
 == S-Bahn
 A1;train;;;;AKN Eisenbahn GmbH

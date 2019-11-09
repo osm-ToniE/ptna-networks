@@ -93,7 +93,7 @@ RB93;train;;;;DB Regio NRW
 RB94;train;;;;DB RegioNetz Verkehrs GmbH; Kurhessenbahn
 RB95;train;;;;DreiLänderBahn
 RB96;train;;;;HLB
-RE1;train;;;;DB Regio AG Region NRW
+RE1;train;;;;DB Regio AG NRW
 RE2;train;;;;DB Regio AG NRW
 RE3;train;;;;Eurobahn
 RE6;train;;Köln/Bonn Flughafen;Minden;DB Regio NRW
@@ -103,8 +103,8 @@ RE11;train;;;;DB Regio NRW
 RE13;train;;;;Eurobahn
 RE 14;train;;;;NordWestBahn
 RE15;train;;;;Westfalenbahn
-RE16;train;;;;Abellio Rail NRW
-RE17;train;;;;DB Regio NRW
+RE16;train;;;;Abellio Rail NRW GmbH
+RE17;train;;;;DB Regio AG NRW
 RE 18;train;;Wilhelmshaven;Osnabrück;NordWestBahn
 RE42;train;;;;DB Regio AG NRW
 RE57;train;;;;
