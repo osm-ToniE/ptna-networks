@@ -20,7 +20,7 @@ ANALYSIS_TALK=""
 # Routes data is in GitHub only, not in OSM-Wiki
 #
 WIKI_ROUTES_PAGE=""
-GITHUB_ROUTES_PAGE="$PREFIX/$PREFIX-Routes.txt"
+GITHUB_ROUTES_PAGE="UTC+01/FR/IDF/$PREFIX/$PREFIX-Routes.txt"
 
 ANALYSIS_OPTIONS="--language=fr --check-access --check-bus-stop --check-name-relaxed --check-osm-separator --check-sequence --check-stop-position --check-version --coloured-sketchline --check-motorway-link --max-error=10 --multiple-ref-type-entries=analyze --positive-notes"
 
