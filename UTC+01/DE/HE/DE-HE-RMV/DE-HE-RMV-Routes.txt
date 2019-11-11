@@ -40,10 +40,24 @@
 #
 
 
-= Überblick über die ÖPNV-Linien des Rhain-Main Verkehrsverbund
+= Überblick über die ÖPNV-Linien des Rhein-Main-Verkehrsverbund
 
-# - Verweis auf die Datei mit den [[Kassel/Transportation/Analyse/DE-HE-NVV-Linien|NVV-Linien]] im Wiki.
-# - Verweis auf mehr [[Talk:Kassel/Transportation/Analyse|Informationen]] im Wiki.
+- Verweis auf die Datei mit den [[Rhein-Main-Verkehrsverbund/Analyse/DE-HE-RMV-Linien|RMV-Linien]] im Wiki.
+- Verweis auf mehr [[Talk:Rhein-Main-Verkehrsverbund/Analyse|Informationen]] im Wiki.
 
+== Hinweis
+
+- Dieses ist eine !!!'''IST-Analyse'''!!! und spiegelt den Status der in OSM gemappten Linien im Gebiet des "Rhein-Main-Verkehrsverbund" wider.
+-
+- Bei der Analyse ist 'network' derzeit entweder
+-
+- * "RMV"                           short form, oder
+-
+- * "Rhein-Main-Verkehrsverbund"  long form, oder
+-
+- * leer, d.h. nicht gesetzt
+-
+#
+#ref;type;comment;from;to;operator
 
 </pre>
