@@ -10,9 +10,9 @@ OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=public
 NETWORK_LONG="Rhein-Main-Verkehrsverbund"
 NETWORK_SHORT="RMV"
 
-#ANALYSIS_PAGE="Rhein-Main-Verkehrsverbund/Analyse"
-#ANALYSIS_TALK="Talk:Rhein-Main-Verkehrsverbund/Analyse"
-#WIKI_ROUTES_PAGE="Rhein-Main-Verkehrsverbund/Analyse/DE-HE-RMV-Linien"
+ANALYSIS_PAGE="Rhein-Main-Verkehrsverbund/Analyse"
+ANALYSIS_TALK="Talk:Rhein-Main-Verkehrsverbund/Analyse"
+WIKI_ROUTES_PAGE="Rhein-Main-Verkehrsverbund/Analyse/DE-HE-RMV-Linien"
 
 ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --expect-network-short --ptv1-compatibility=allow --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
