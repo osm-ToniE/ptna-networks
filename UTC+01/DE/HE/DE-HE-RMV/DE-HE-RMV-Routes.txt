@@ -60,4 +60,184 @@
 #
 #ref;type;comment;from;to;operator
 
+== Regional-Züge
+
+R 42;train;;Marburg (Lahn);Brilon Stadt|Bestwig;"DB RegioNetz Verkehrs GmbH;Kurhessenbahn"
+
+RB 5;train;;Kassel;Fulda;Cantus
+RB7;train;;Göttingen;Fulda;Cantus
+RB10;train;Rheingaulinie;Frankfurt (Main) Hbf;Neuwied;VIAS GmbH
+RB11;train;Sodener Bahn;Bad Soden;Frankfurt-Höchst;FKE
+RB12;train;;Königstein;Frankfurt;HLB
+RB15;train;Taunusbahn;Brandoberndorf;Bad Homburg v. d. Höhe|Frankfurt Hauptbahnhof;HLB
+RB16;train;;Friedrichsdorf;Friedberg;
+RB21;train;Ländchesbahn;Limburg (Lahn);Wiesbaden Hbf;HLB
+RB22;train;Main-Lahn-Bahn;Limburg (Lahn);Frankfurt (Main) Hbf;DB Regio AG Mitte
+RB23;train;Lahn-Eifel-Bahn;Mayen Ost;Limburg;DB Regio AG Mitte
+RB29;train;Unterwesterwaldbahn;Siershahn;Limburg (Lahn);HLB
+RB 31;train;;Kirchheimbolanden;Frankfurt (Main) Hbf;Vlexx
+RB33;train;Nahebahn;Neubrücke (Nahe);Mainz;vlexx GmbH
+RB34;train;Niddertalbahn;Stockheim;Frankfurt;DB Regio AG Mitte
+RB40;train;Mittelhessenexpress;Dillenburg;Frankfurt;DB Regio AG Mitte
+RB41;train;Mittelhessenexpress;Treysa;Frankfurt;DB Regio AG Mitte
+RB45;train;Lahntalbahn Vogelsbergbahn;Fulda;Limburg;Hessische Landesbahn GmbH
+RB46;train;Lahn-Kinzig-Bahn;Gießen;Gelnhausen;HLB
+RB47;train;Horlofftalbahn;Wölfersheim-Södel;Friedberg;HLB
+RB48;train;Horlofftalbahn;Nidda;Frankfurt|Friedberg;HLB
+RB49;train;;Gießen;Hanau;DB Regio
+RB51;train;Kinzigtalbahn;Bad Soden-Salmünster;Frankfurt;DB Regio AG Mitte
+RB52;train;Rhöntalbahn;Gersfeld (Rhön);Fulda;Hessische Landesbahn
+RB53;train;;Gemünden (Main);Schlüchtern;DB Regio
+RB56;train;Kahlgrundbahn;Schöllkrippen;Hanau;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
+RB58;train;;Aschaffenburg Hbf;Frankfurt (Main) Hbf;Hessische Landesbahn GmbH
+RB61;train;Dreieichbahn;DieburgFrankfurt|Neu-Isenburg;DB Regio AG Mitte
+RB66;train;Pfungstadtbahn;Pfungstadt;Darmstadt;VIAS GmbH
+RB67;train;Main-Neckar-Bahn;Mannheim;Frankfurt;DB Regio AG Mitte
+RB68;train;Main-Neckar-Bahn;Heidelberg Hbf;Frankfurt (Main) Hbf;DB Regio AG Mitte
+RB75;train;;Wiesbaden;Aschaffenburg;Hessische Landesbahn GmbH
+RB81;train;Odenwaldbahn;Erbach;Pfungstadt;VIAS GmbH
+RB82;train;Odenwaldbahn;Eberbach;Frankfurt (Main) Hbf;VIAS GmbH
+RB86;train;Odenwaldbahn;Wiebelsbach;Hanau;VIAS GmbH
+RB90;train;Westerwald-Sieg-Bahn;Limburg (Lahn);Siegen;HLB
+RB94;train;;Marburg;Erndtebrück;"DB RegioNetz Verkehrs GmbH; Kurhessenbahn"
+RB95;train;Sieg-Dill-Bahn;Siegen;Dillenburg;DreiLänderBahn
+RB96;train;Hellertalbahn;Dillenburg;Betzdorf (Sieg);HLB
+
+RE3;train;;Koblenz/Saarbrücken;Frankfurt;vlexx GmbH
+RE14;train;;Frankfurt;Mannheim;DB Regio Südwest
+RE 15;train;;Kaiserslautern Hbf;Mainz Hbf;DB Regio Südwest
+RE 30;train;;Kassel;Frankfurt;DB Regio AG Mitte
+-
+
+== S-Bahnen
+
+S1;train;;;;DB S-Bahn Rhein-Main
+S2;train;;;;DB S-Bahn Rhein-Main
+S3;train;;;;DB S-Bahn Rhein-Main
+S4;train;;;;DB S-Bahn Rhein-Main
+S5;train;;;;DB S-Bahn Rhein-Main
+S6;train;;;;DB S-Bahn Rhein-Main
+S7;train;;;;DB S-Bahn Rhein-Main
+S8;train;;;;DB S-Bahn Rhein-Main
+S9;train;;;;DB S-Bahn Rhein-Main
+-
+
+== U-Bahnen
+
+U1;subway;;;;VGF
+U2;subway;;;;VGF
+U3;subway;;;;VGF
+U4;subway;;;;VGF
+U5;subway;;;;VGF
+U6;subway;;;;VGF
+U7;subway;;;;VGF
+U8;subway;;;;VGF
+U9;subway;;;;VGF
+-
+
+== Straßenbahnen
+
+=== Darmstadt
+
+1;tram;;;;DADINA
+2;tram;;;;DADINA
+3;tram;;;;DADINA
+4;tram;;;;DADINA
+5;tram;;;;DADINA
+6;tram;;;;DADINA
+7;tram;;;;DADINA
+8;tram;;;;DADINA
+9;tram;;;;DADINA
+-
+
+=== Frankfurt
+
+11;tram;;;;VGF
+12;tram;;;;VGF
+14;tram;;;;VGF
+15;tram;;;;VGF
+16;tram;;;;VGF
+17;tram;;;;VGF
+18;tram;;;;VGF
+19;tram;;;;VGF
+20;tram;;;;VGF
+21;tram;;;;VGF
+EEx;tram;;;;VGF
+-
+
+=== Mainz
+
+50;tram;;;;MVG
+51;tram;;;;MVG
+52;tram;;;;MVG
+53;tram;;;;MVG
+59;tram;;;;MVG
+-
+
+== Busse
+
+=== Bad Homburg
+
+1;bus;;;;Magistrat der Stadt Bad Homburg v.d.H.
+2;bus;;;;Magistrat der Stadt Bad Homburg v.d.H.
+3;bus;;;;Magistrat der Stadt Bad Homburg v.d.H.
+-
+
+=== Frankfurt/Main
+
+-
+
+=== Fulda
+
+1;bus;;;;Rhönenergie Fulda
+2;bus;;;;Rhönenergie Fulda
+3;bus;;;;Rhönenergie Fulda
+-
+
+=== Gießen
+
+1;bus;;;;Stadtwerke Gießen
+2;bus;;;;Stadtwerke Gießen
+3;bus;;;;Stadtwerke Gießen
+-
+
+=== Hanau
+
+1;bus;;;;Hanauer Straßenbahn GmbH
+2;bus;;;;Hanauer Straßenbahn GmbH
+3;bus;;;;Hanauer Straßenbahn GmbH
+-
+
+=== Mainz
+
+-
+
+=== Marburg
+
+1;bus;;;;SWM
+2;bus;;;;Stadtwerke Marburg
+3;bus;;;;Stadtwerke Marburg
+-
+
+=== Michelstadt
+
+1;bus;;;;Stadtwerke Michelstadt GmbH
+2;bus;;;;Stadtwerke Michelstadt GmbH
+3;bus;;;;Stadtwerke Michelstadt GmbH
+-
+
+=== Rüsselsheim
+
+1;bus;;;;Stadtwerke Rüsselsheim
+-
+
+=== Wiesbaden
+
+1;bus;;;;ESWE
+2;bus;;;;ESWE
+3;bus;;;;ESWE
+-
+
+
+
 </pre>
