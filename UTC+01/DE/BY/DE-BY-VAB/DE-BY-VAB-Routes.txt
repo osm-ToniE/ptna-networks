@@ -73,9 +73,10 @@
 9;bus;;Aschaffenburg ROB;Glattbach;Stadtwerke Aschaffenburg
 10;bus;;Aschaffenburg ROB;Steubenstraße;Stadtwerke Aschaffenburg
 11;bus;;Aschaffenburg ROB;Strietwald Ind. Handwerkskammer;Stadtwerke Aschaffenburg
-12/16;bus;;Aschaffenburg ROB;Dörrmorsbach;Stadtwerke Aschaffenburg
+12;bus;;Aschaffenburg ROB;Klinikul;Stadtwerke Aschaffenburg
 14;bus;;Aschaffenburg ROB;Mainaschaff;Stadtwerke Aschaffenburg
 15;bus;;Aschaffenburg ROB;Schweinheim Steubenstraße;Stadtwerke Aschaffenburg
+16;bus;;Aschaffenburg ROB;Dörrmorsbach;Stadtwerke Aschaffenburg
 -
 
 == Landkreis Aschaffenburg
@@ -113,7 +114,7 @@ KEX 33;bus;Kahlgrundexpress;Schöllkrippen;Aschaffenburg;
 
 60;bus;;Aschaffenburg;OBB-Elsenfeld;
 61;bus;;Aschaffenburg;Mönchberg;
-62 ;bus;;Aschaffenburg;OBB-Elsenfeld;
+62;bus;;Aschaffenburg;OBB-Elsenfeld;
 62A;bus;;Roßbach;Heimbuchenthal;
 63;bus;;Aschaffenburg;Kleinwallstadt;
 63P;bus;;Aschaffenburg-Gailbach, Zum Spielplatz;Soden (Kirche);
