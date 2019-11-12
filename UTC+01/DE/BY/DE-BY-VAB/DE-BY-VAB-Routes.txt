@@ -60,4 +60,85 @@
 #
 #ref;type;comment;from;to;operator
 
+== Stadtbereich Aschaffenburg
+
+1;bus;;Aschaffenburg ROB;Sulzbach;Stadtwerke Aschaffenburg
+2;bus;;Aschaffenburg ROB;Strietwald;Stadtwerke Aschaffenburg
+3;bus;;Aschaffenburg ROB;Stockstadt;Stadtwerke Aschaffenburg
+4;bus;;Aschaffenburg ROB;Schweinheim;Stadtwerke Aschaffenburg
+5;bus;;Aschaffenburg ROB;Dörrmorsbach;Stadtwerke Aschaffenburg
+6;bus;;Aschaffenburg ROB;Nilkheim;Stadtwerke Aschaffenburg
+7;bus;;Aschaffenburg ROB;Aschaffenburg ROB;Stadtwerke Aschaffenburg
+8;bus;;Aschaffenburg ROB;Damm;Stadtwerke Aschaffenburg
+9;bus;;Aschaffenburg ROB;Glattbach;Stadtwerke Aschaffenburg
+10;bus;;Aschaffenburg ROB;Steubenstraße;Stadtwerke Aschaffenburg
+11;bus;;Aschaffenburg ROB;Strietwald Ind. Handwerkskammer;Stadtwerke Aschaffenburg
+12/16;bus;;Aschaffenburg ROB;Dörrmorsbach;Stadtwerke Aschaffenburg
+14;bus;;Aschaffenburg ROB;Mainaschaff;Stadtwerke Aschaffenburg
+15;bus;;Aschaffenburg ROB;Schweinheim Steubenstraße;Stadtwerke Aschaffenburg
+-
+
+== Landkreis Aschaffenburg
+
+20;bus;;Aschaffenburg;Schöllkrippen;
+21;bus;;Aschaffenburg;Unterafferbach;
+23;bus;;Aschaffenburg;Mömbris;
+24;bus;;Aschaffenburg;Mömbris;
+25;bus;;Aschaffenburg;Schöllkrippen;
+26;bus;;Mömbris;Hemsbach;
+27;bus;;Wiesen;Hösbach;
+28;bus;;Heigenbrücken;Hösbach;
+29;bus;;Blankenbach;Vormwald;
+29;bus;;S Vormwald;Blankenbach;
+30;bus;;Schöllkrippen;Gelnhausen;
+31;bus;;Aschaffenburg;Somborn;
+32;bus;;Kahl;Kahl;
+KEX 33;bus;Kahlgrundexpress;Schöllkrippen;Aschaffenburg;
+40;bus;;Aschaffenburg;Dammbach;
+41;bus;;Aschaffenburg;Hösbach-Bahnhof;
+42;bus;;Aschaffenburg;Weibersbrunn;
+43;bus;;Aschaffenburg;Waldaschaff;
+44;bus;;Aschaffenburg;Hain;
+45;bus;;Aschaffenburg;Eichenberg;
+47;bus;Wochenendverkehr;Hochspessart;;
+50;bus;;Aschaffenburg;Kahl;
+53;bus;;Aschaffenburg;Babenhausen;
+54;bus;;Aschaffenburg;Babenhausen;
+55;bus;;Aschaffenburg;Obernburg-Elsenfeld;
+56;bus;;Sulzbach;Großostheim;
+58;bus;;Aschaffenburg;Weiskirchen;
+-
+
+== Landkreis Miltenberg
+
+60;bus;;Aschaffenburg;OBB-Elsenfeld;
+61;bus;;Aschaffenburg;Mönchberg;
+62 ;bus;;Aschaffenburg;OBB-Elsenfeld;
+62A;bus;;Roßbach;Heimbuchenthal;
+63;bus;;Aschaffenburg;Kleinwallstadt;
+63P;bus;;Aschaffenburg-Gailbach, Zum Spielplatz;Soden (Kirche);
+64;bus;;BB-Elsenfeld;Neuhammer;
+65;bus;;Streit;Erlenbach;
+67;bus;;Klingenberg;Seckmauern;
+68;bus;;OBB-Elsenfeld;Mömlingen;
+69;bus;;Eschau;OBB-Elsenfeld Bahnhof;
+80;bus;;Miltenberg;Miltenberg;
+81;bus;;Miltenberg;Erlenbach Krankenhaus;
+82;bus;;Miltenberg;Höhenorte;
+83;bus;;Miltenberg;Wertheim;
+84;bus;;Miltenberg;Amorbach;
+85;bus;;Miltenberg;Wertheim;
+86;bus;;Miltenberg;Miltenberg;
+87;bus;;Miltenberg;Wenschdorf / Monbrunn / Schippach / Berndiel;
+88;bus;;Breitendiel;Stadtverkehr Miltenberg;
+92;bus;Stadtverkehr Amorbach;;;
+93;bus;;Schneeberg;Glanzstoffwerke;
+94;bus;;Amorbach; Gönz;
+95;bus;;Amorbach;Breitenbuch/Ottorfszell;
+96;bus;;Amorbach;Mudau;
+97;bus;;;;
+98;bus;;Amorbach;Beuchen;
+99;bus;;Amorbach;Zittenfelden;
+-
+
 </pre>
