@@ -28,7 +28,7 @@ ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name-relax
 # automatically build by PHP script
 
 # column 2 = Name + Link to Overpass-Turbo call to show area on map
-PTNA_WWW_REGION_NAME=""
+PTNA_WWW_REGION_NAME="Stadt und Landkreis Aschaffenburg;Landkreis Miltenberg"
 PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation%5Bboundary%3Dpublic_transport%5D%5Bname%3D%27Verkehrsgemeinschaft%20am%20Bayerischen%20Untermain%27%5D%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
 
 # column 3 = Name + Link to the network provider / transport association
