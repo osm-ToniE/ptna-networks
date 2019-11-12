@@ -90,7 +90,7 @@
 27;bus;;Wiesen;Hösbach;
 28;bus;;Heigenbrücken;Hösbach;
 29;bus;;Blankenbach;Vormwald;
-29;bus;;S Vormwald;Blankenbach;
+29 S;bus;;Vormwald;Blankenbach;
 30;bus;;Schöllkrippen;Gelnhausen;
 31;bus;;Aschaffenburg;Somborn;
 32;bus;;Kahl;Kahl;
