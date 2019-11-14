@@ -59,7 +59,7 @@
 
 == Bahnlinien
 
-R 42;train;;;;DB RegioNetz Verkehrs GmbH; Kurhessenbahn
+R 42;train;;;;DB RegioNetz Verkehrs GmbH;Kurhessenbahn
 RB25;train;;;;DB Regio NRW
 RB32;train;;;;Abellio Rail NRW
 RB 45;train;;;;NordWestBahn
@@ -90,7 +90,7 @@ RB90;train;;;;HLB
 RB91;train;;;;Abellio Rail NRW
 RB92;train;;;;HLB Hessenbahn GmbH
 RB93;train;;;;DB Regio NRW
-RB94;train;;;;DB RegioNetz Verkehrs GmbH; Kurhessenbahn
+RB94;train;;;;DB RegioNetz Verkehrs GmbH;Kurhessenbahn
 RB95;train;;;;DreiLänderBahn
 RB96;train;;;;HLB
 RE1;train;;;;DB Regio AG NRW
@@ -1204,7 +1204,7 @@ Hw-T4;bus;;Harsewinkel;Breslauer Straße;Transdev Ostwestfalen GmbH
 581;bus;;Lübbecke;Frotheim;MKB-MühlenkreisBus GmbH
 591;bus;;Lübbecke;Rahden;MKB-MühlenkreisBus GmbH
 600;bus;;;;BVO Busverkehr Ostwestfalen GmbH
-600/507/508;bus;;;;BVO Busverkehr Ostwestfalen GmbH; MKB-MühlenkreisBus
+600/507/508;bus;;;;BVO Busverkehr Ostwestfalen GmbH;MKB-MühlenkreisBus
 603;bus;;;;Transdev Ostwestfalen GmbH
 604;bus;;;;MKB-MühlenkreisBus GmbH
 605;bus;;;;MKB-MühlenkreisBus GmbH

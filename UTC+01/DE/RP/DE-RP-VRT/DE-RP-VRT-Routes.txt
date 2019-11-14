@@ -166,7 +166,7 @@ RB 85;train;;;;
 == Trierer Land
 25;bus;;;;
 26;bus;;;;
-28;bus;;;
+28;bus;;;;
 251;bus;;;;
 252;bus;;;;
 260;bus;;;;
@@ -182,7 +182,25 @@ RB 85;train;;;;
 282;bus;;;;
 
 == Südeifel
-- Noch keine Informationen gefunden beim VRT
+400;bus;;Trier;Bitburg;Tempus mobil GmbH
+401;bus;;Bitburg;Welschbillig;Tempus mobil GmbH
+402;bus;;Idenheim;Welschbillig;Tempus mobil GmbH
+410;bus;;Bitburg;Luxemburg Luxexpo;Tempus mobil GmbH
+420;bus;;Trier;Irrel;Tempus mobil GmbH
+423;bus;;Irrel;Neuerburg;Tempus mobil GmbH
+428;bus;;Bitburg;Flughafen Bitburg;Tempus mobil GmbH
+431;bus;;Irrel;Biesdorf;Tempus mobil GmbH
+
+=== RufBus-Line
+408;Bus;;Bitburg;Wolfsfeld;Tempus mobil GmbH
+429;Bus;;Bettingen;Mettendorf;Tempus mobil GmbH
+
+=== Schulbus-Line
+406;Bus;;Oberstedem / Eßlingen / Niederweis;Wolfsfeld;Tempus mobil GmbH
+409;Bus;;Bitburg;Irrel;Tempus mobil GmbH
+421;Bus;;Träg;Irrel;Tempus mobil GmbH
+426;Bus;;Träg/ Aach/ Igel;Echternacherbrück/ Irrel;Tempus mobil GmbH
+427;Bus;;Irrel;Neuerburg;Tempus mobil GmbH
 
 == Schneifel (Start 2020)
 - Noch keine Informationen gefunden beim VRT

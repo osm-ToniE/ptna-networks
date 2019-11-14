@@ -100,9 +100,8 @@ IC 31;train;;;;
 IC 32;train;;;;
 IC 35;train;;;;
 IC 37;train;;;;
-IC 50;train;;;;
 IC 50 E;train;;;;
-IC 50 MDV;train;;;;
+"IC 50|IC 50 MDV";train;;;;
 IC 55;train;;;;
 IC 56;train;;;;
 IC 60;train;;;;
@@ -212,7 +211,7 @@ R31;train;;Nürnberg Hauptbahnhof;Simmelsdorf-Hüttenbach;
 R32;train;;Bayreuth;Weidenberg;agilis
 R33;train;;Schnabelwaid;Heidenaab Göppmannsbühl;
 R34;train;;Bayreuth;Ramsenthal;agilis
-R 39;train;;Kassel;Bad Wildungen;"DB RegioNetz Verkehrs GmbH; Kurhessenbahn"
+R 39;train;;Kassel;Bad Wildungen;"DB RegioNetz Verkehrs GmbH;Kurhessenbahn"
 
 ==== R41 .. R50
 
@@ -258,11 +257,11 @@ R99;train;Klosterstadtexpress;;;Deutsche Bahn
 
 ==== RB
 
-RB;train;;Lauda;Wertheim;"DB RegioNetz Verkehrs GmbH; Westfrankenbahn"
-RB;train;;Bad Mergentheim;Würzburg;"DB RegioNetz Verkehrs GmbH; Westfrankenbahn"
-RB;train;;Seckach;Miltenberg;"DB RegioNetz Verkehrs GmbH; Westfrankenbahn"
-RB;train;;Aschaffenburg;Miltenberg;"DB RegioNetz Verkehrs GmbH; Westfrankenbahn"
-RB;train;;Wertheim;Miltenberg;"DB RegioNetz Verkehrs GmbH; Westfrankenbahn"
+RB;train;;Lauda;Wertheim;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
+RB;train;;Bad Mergentheim;Würzburg;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
+RB;train;;Seckach;Miltenberg;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
+RB;train;;Aschaffenburg;Miltenberg;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
+RB;train;;Wertheim;Miltenberg;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
 RB;train;;Osterburken|Neckarsulm|Mosbach-Neckarelz|Heilbronn Hauptbahnhof;Stuttgart Hauptbahnhof|Bad Friedrichshall Hauptbahnhof;DB Regio
 RB;train;;Öhringen Hauptbahnhof;Schwäbisch Hall-Hessental;WestFrankenBahn
 RB;train;Trireno RB;Basel;Lauchringen;DB
@@ -424,7 +423,7 @@ RB51;train;;Brandenburg Hauptbahnhof;Rathenow;Ostdeutsche Eisenbahn Gesellschaft
 RB51;train;;Falkenberg;Dessau;DB Regio Südost
 RB51;train;Pfälzische Maximiliansbahn;Karslruhe;Neustadt (Weinstraße);DB Regio Mitte
 RB51;train;Kinzigtalbahn;Bad Soden-Salmünster;Frankfurt;DB Regio AG Mitte
-RB 51;train;; Heilbad Heiligenstadt;Nordhausen;Abellio Rail Mitteldeutschland GmbH
+RB 51;train;;Heilbad Heiligenstadt;Nordhausen;Abellio Rail Mitteldeutschland GmbH
 RB52;train;;Wörth;Lauterburg;DB Regio SüdWest
 RB52;train;Rhönbahn;Fulda;Gersfeld (Rhön);Hessische Landesbahn
 RB52;train;Volmetalbahn;Dortmund;Lüdenscheid;DB Regio NRW
@@ -517,7 +516,7 @@ RE78;train;Porta-Express;Bielefeld;Nienburg/Weser;Eurobahn
 RB 78;train;;Merseburg;Querfurt;Burgenlandbahn (DB Regio Südost)
 RB 79;train;Lammetalbahn;Hildesheim;Bodenburg;NordWestBahn
 RB80;train;;Göttingen;Nordhausen;DB Regio Nord
-RB 80;train;;Chemnitz Hauptbahnhof;Cranzahl;"DB RegioNetz Verkehrs GmbH; Erzgebirgsbahn"
+RB 80;train;;Chemnitz Hauptbahnhof;Cranzahl;"DB RegioNetz Verkehrs GmbH;Erzgebirgsbahn"
 
 ==== RB81 .. RB90
 
@@ -525,7 +524,7 @@ RB81;train;Odenwaldbahn;Erbach;Pfungstadt;VIAS GmbH
 RB81;train;;Bad Oldesloe;Hamburg;DB Regio AG
 RB81;train;;Koblenz Hbf;Trier Hbf;DB Regio Mitte
 RB81;train;;Nordhausen;Bodenfelde;DB Regio Nord
-RB 81;train;;Chemnitz Hauptbahnhof;Olbernhau-Grünthal;"DB RegioNetz Verkehrs GmbH; Erzgebirgsbahn"
+RB 81;train;;Chemnitz Hauptbahnhof;Olbernhau-Grünthal;"DB RegioNetz Verkehrs GmbH;Erzgebirgsbahn"
 RB82;train;Odenwaldbahn;Frankfurt;Erbach|Eberbach;VIAS GmbH
 RB82;train;;Perl;Wittlich;DB Regio Mitte
 RB82;train;;Neumünster;Bad Oldesloe;NBE Nordbahn Eisenbahngesellschaft mbh & Co. KG
@@ -539,7 +538,7 @@ RB86;train;Odenwaldbahn;Hanau;Wiebelsbach;VIAS GmbH
 RB86;train;;Travemünde Strand;Lübeck Hbf;DB Regio AG - Region Nord
 RB86;train;;Einbeck Mitte;Einbeck-Salzderhelden;DB Regio Nord
 RB89;train;Ems-Börde-Bahn;Warburg (Westf);Münster (Westf);Eurobahn
-RB 89;train;;Chemnitz Hauptbahnhof;Aue (Sachsen);"DB RegioNetz Verkehrs GmbH; Erzgebirgsbahn"
+#RB 89;train;;Chemnitz Hauptbahnhof;Aue (Sachsen);"DB RegioNetz Verkehrs GmbH;Erzgebirgsbahn"
 RB90;train;Westerwald-Sieg-Bahn;Siegen;Limburg (Lahn);HLB
 
 ==== RB91 .. RB100
@@ -549,9 +548,9 @@ RB91;train;;Frankfurt (Oder);Poznań;PKP
 RB92;train;Biggesee-Express;Olpe;Finnentrop;HLB Hessenbahn GmbH
 RB93;train;Rothaar-Bahn;Betzdorf (Sieg);Bad Berleburg;DB Regio NRW
 RB93;train;;Forst;Żagań;Deutsche Bahn
-RB94;train;;Marburg;Erndtebrück;"DB RegioNetz Verkehrs GmbH; Kurhessenbahn"
+RB94;train;;Marburg;Erndtebrück;"DB RegioNetz Verkehrs GmbH;Kurhessenbahn"
 RB95;train;Sieg-Dill-Bahn;Siegen;Dillenburg;DreiLänderBahn
-RB 95;train;;Zwickau;Johanngeorgenstadt;"DB RegioNetz Verkehrs GmbH; Erzgebirgsbahn"
+RB 95;train;;Zwickau;Johanngeorgenstadt;"DB RegioNetz Verkehrs GmbH;Erzgebirgsbahn"
 RB96;train;Hellertalbahn;Dillenburg;Betzdorf (Sieg);HLB
 RB97;train;Daadetalbahn;Betzdorf (Sieg);Daaden;Westerwaldbahn GmbH
 
@@ -1031,8 +1030,8 @@ Lößnitzgrundbahn;train;;;;Sächsische Dampfeisenbahngesellschaft
 MKO;train;Museumseisenbahn Küstenbahn Ostfriesland;;;;
 Museumsbahn Lüneburg - Bleckede;train;Bleckeder Kleinbahn;Lüneburg;Bleckede;
 Nerobergbahn;light_rail;Nerobergbahn;Nerotal;Neroberg;
-OBS;train;Schwarzatalbahn;Rottenbach;Katzhütte;"DB RegioNetz Verkehrs GmbH; Oberweißbacher Berg- und Schwarzatalbahn"
-OBS;train;Flachstrecke;Lichtenhain;Cursdorf;"DB RegioNetz Verkehrs GmbH; Oberweißbacher Berg- und Schwarzatalbahn"
+OBS;train;Schwarzatalbahn;Rottenbach;Katzhütte;"DB RegioNetz Verkehrs GmbH;Oberweißbacher Berg- und Schwarzatalbahn"
+OBS;train;Flachstrecke;Lichtenhain;Cursdorf;"DB RegioNetz Verkehrs GmbH;Oberweißbacher Berg- und Schwarzatalbahn"
 OTB;train;;;;
 Palmen-Express;train;;;;
 Parkeisenbahn Auensee;train;Parkeisenbahn Auensee;;;;

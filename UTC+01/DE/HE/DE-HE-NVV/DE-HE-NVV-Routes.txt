@@ -63,17 +63,17 @@
 
 == Tram
 
-1;tram;;Wilhelmshöhe (Park);Vellmar Nord;Kasseler Verkehrs-Gesellschaft AG
-2;tram;;Baunatal;Brückenhof;Kasseler Verkehrs-Gesellschaft AG
-3;tram;;Ihringshäuser Straß;Mattenberg;Kasseler Verkehrs-Gesellschaft AG
-4;tram;;Druseltal;Hess. Lichtenau;Kasseler Verkehrs-Gesellschaft AG
-5;tram;;Baunatal;Holländische Straße;Kasseler Verkehrs-Gesellschaft AG
-6;tram;;Brückenhof;Ihringshäuser Straße;Kasseler Verkehrs-Gesellschaft AG
-7;tram;;Hauptbahnhof;Wolfsanger;Kasseler Verkehrs-Gesellschaft AG
-8;tram;;Hessenschanze => Kaufungen-Papierfabrik;
-RT1;tram;;Kassel;Hümme;RTG
-RT4;tram;;Kassel;Wolfhagen;RBK
-RT5;tram;;Kassel;Melsungen;RBK
+1;tram;;Wilhelmshöhe (Park);Vellmar Nord;KVG
+2;tram;;Baunatal;Brückenhof;KVG
+3;tram;;Ihringshäuser Straß;Mattenberg;KVG
+4;tram;;Druseltal;Hess. Lichtenau;KVG
+5;tram;;Baunatal;Holländische Straße;KVG
+6;tram;;Brückenhof;Ihringshäuser Straße;KVG
+7;tram;;Hauptbahnhof;Wolfsanger;KVG
+8;tram;;Hessenschanze;Kaufungen-Papierfabrik;KVG
+RT1;tram;Regiotram;Kassel;Hümme;RTG
+RT4;tram;Regiotram;Kassel;Wolfhagen;RTG
+RT5;tram;Regiotram;Kassel;Melsungen;RTG
 
 == Busse
 
@@ -144,28 +144,28 @@ RT5;tram;;Kassel;Melsungen;RBK
 
 === 100 .. 199
 100;bus;;Bahnhof Wilhelmshöhe;Calden;Reisedienst Bonte
-110;bus;;Bahnhof Wilhelmshöhe;Wolfhagen;Hessische Landesbahn GmbH
+110;bus;;Bahnhof Wilhelmshöhe;Wolfhagen;HLB Hessenbus
 111;bus;Stadtbus Wolfhagen;Gasterfeld;Viesebeck;HLB Hessenbus
-112;bus;Stadtbus Wolfhagen;Hessenklinik;Hessenklinik;
-117;bus;;Habichtswald;Oelshausen;Hessische Landesbahn GmbH
-120;bus;;Wolfhagen;Warburg;
-130;bus;;Volkmarsen;Grebenstein;Hessische Landesbahn GmbH
-140;bus;;Hofgeismar;Warburg;
-142;bus;;Bad Emstal;Wolfhagen;
+112;bus;Stadtbus Wolfhagen;Hessenklinik;Hessenklinik;HLB Hessenbus
+117;bus;;Habichtswald;Oelshausen;HLB Hessenbus
+120;bus;;Wolfhagen;Warburg;HLB Hessenbus
+130;bus;;Volkmarsen;Grebenstein;HLB Hessenbus
+140;bus;;Hofgeismar;Warburg;Reisedienst Bonte
+142;bus;Anrufsammeltaxi;Bad Emstal;Wolfhagen;Reisedienst Bonte
 152;bus;;Heimershausen;Breitenbach;Reisedienst Bonte
 154;bus;;Fritzlar;Naumburg;Reisedienst Bonte
-173;bus;;Immenhausen;Immenhausen;
-180;bus;;Hofgeismar;Karlshafen;
-190;bus;;Hofgeismar;Hann. Münden;
-191;bus;;Vaake;Hofgeismar;
-193;bus;;Gottstreu;Karlshafen;
-195;bus;;Gieselwerder;Hann. Münden;
+173;bus;;Immenhausen;Immenhausen;Reisedienst Bonte
+180;bus;;Hofgeismar;Karlshafen;Omnibusbetrieb Sallwey
+190;bus;;Hofgeismar;Hann. Münden;Omnibusbetrieb Sallwey
+191;bus;;Vaake;Hofgeismar;Omnibusbetrieb Sallwey
+193;bus;;Gottstreu;Karlshafen;Regiobus Uhlendorff
+195;bus;;Gieselwerder;Hann. Münden;Regiobus Uhlendorff
 
 === 200 .. 299
 200;bus;;Eschwege;Hessisch Lichtenau;EOV Frölich
 205;bus;;Großalmerode;Hessisch Lichtenau;Frölich-Reisen
 210;bus;;Helsa;Witzenhausen;Frölich-Reisen
-214;bus;;Neu-Eichenberg;Witzenhausen;RKH
+214;bus;;Neu-Eichenberg;Witzenhausen;Omnibusbetrieb Sallwey
 218;bus;;Witzenhausen;Gertenbach;Omnibusbetrieb Sallwey
 231.1;bus;StadtBus Eschwege;Heuberg;Döhlestraße;EOV Frölich
 231.2;bus;StadtBus Eschwege;Stadtmitte;Heuberg;EOV Frölich
@@ -228,11 +228,11 @@ RT5;tram;;Kassel;Melsungen;RBK
 508;bus;;Diemelsee;Korbach;ALV Oberhessen
 510;bus;Sommerfahrplan;Korbach;Bad Wildungen;BKW Bad Wildungen
 510.2;bus;;Korbach;Waldeck;BKW Bad Wildungen
-512;bus;;Frebershausen;Bad Wildungen;BKW Bad Wildungen
-515;bus;;Bad Wildungen;Edertal-Bringshausen;BKW Bad Wildungen
+512;bus;;Frebershausen;Bad Wildungen;BWV Bad Wildungen
+515;bus;;Bad Wildungen;Edertal-Bringshausen;BWV Bad Wildungen
 516;bus;;Bad Arolsen;Volkhardinghausen;ALV Oberhessen
 520;bus;;Frankenberg;Bad Wildungen;ALV Oberhessen
-521;bus;;Frankenau;Herzhausen;BKW Bad Wildungen
+521;bus;;Frankenau;Herzhausen;ALV Oberhessen
 525;bus;;Frankenberg;Gemünden;BKW Bad Wildungen
 526;bus;;Bad Arolsen;Diemelstadt;ALV Oberhessen
 530;bus;;Frankenberg;Medebach;ALV Oberhessen

@@ -42,12 +42,12 @@
 
 = Überblick über die ÖPNV-Linien der Verkehrsgemeinschaft am Bayerischen Untermain
 
-#- Verweis auf die Datei mit den [[???/Analyse/DE-BY-VAB-Linien|VAB-Linien]] im Wiki.
-#- Verweis auf mehr [[Talk:???/Analyse|Informationen]] im Wiki.
+- Verweis auf die Datei mit den [[Verkehrsgemeinschaft_am_Bayerischen_Untermain/Analyse/DE-BY-VAB-Linien|VAB-Linien]] im Wiki.
+- Verweis auf mehr [[Talk:Verkehrsgemeinschaft_am_Bayerischen_Untermain/Analyse|Informationen]] im Wiki.
 
 == Hinweis
 
-- Dieses ist eine !!!'''IST-Analyse'''!!! und spiegelt den Status der in OSM gemappten Linien im Gebiet des "Verkehrsgemeinschaft am Bayerischen Untermain" wider.
+- Dieses ist eine !!!'''IST-Analyse'''!!! und spiegelt den Status der in OSM gemappten Linien im Gebiet der "Verkehrsgemeinschaft am Bayerischen Untermain" wider.
 -
 - Bei der Analyse ist 'network' derzeit entweder
 -

@@ -884,6 +884,7 @@ K951;bus;;Zagreb;Vlašići;Antonio Tours
 K989;bus;;Linz;Valjevo;Europa Bus Valjevo
 K995;bus;;Pančevo;Herceg Novi;Fudeks
 K997;bus;läuft auch als Eurolines EU0457(Eurolines von Flixbus gekauft);Freiburg;Imotski;Lubina Bus
+K1299;bus;;Danzig Flughafen;Königsberg;Zelenogradsk Trans
 K3000;bus;;Warschau;Kiew;TOV Gunsel
 K3001;bus;;Breslau;Kiev;TOV Gunsel
 K3002;bus;;Prag;Kiew;TOV Gunsel
