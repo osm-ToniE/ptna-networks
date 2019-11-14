@@ -10,9 +10,9 @@ OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=public
 NETWORK_LONG="Verkehrsgemeinschaft am Bayerischen Untermain|Verkehrsgemeinschaft am Bayerischen Untermain (VAB)"
 NETWORK_SHORT="VAB"
 
-#ANALYSIS_PAGE="???/Analyse"
-#ANALYSIS_TALK="Talk:???/Analyse"
-#WIKI_ROUTES_PAGE="???/Analyse/DE-BY-VAB-Linien"
+ANALYSIS_PAGE="Verkehrsgemeinschaft_am_Bayerischen_Untermain/Analyse"
+ANALYSIS_TALK="Talk:Verkehrsgemeinschaft_am_Bayerischen_Untermain/Analyse"
+WIKI_ROUTES_PAGE="Verkehrsgemeinschaft_am_Bayerischen_Untermain/Analyse/DE-BY-VAB-Linien"
 
 ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --ptv1-compatibility=allow --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
@@ -44,9 +44,9 @@ PTNA_WWW_NETWORK_LINK="https://www.vab-info.de/"
 
 # column 6 = Name + Link to discussion / documentation page (usually in OSM Wiki)
 PTNA_WWW_DISCUSSION_NAME="Diskussion"
-PTNA_WWW_DISCUSSION_LINK="" #https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
+PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 
 # column 7 Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
 PTNA_WWW_ROUTES_NAME="VAB Linien"
-PTNA_WWW_ROUTES_LINK="" #https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
+PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
 
