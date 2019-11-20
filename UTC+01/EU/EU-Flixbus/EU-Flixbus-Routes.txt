@@ -838,6 +838,7 @@ K332;bus;;Fiera Milano City;Mailand Flughafen Malpensa;Malpensa Shuttle
 K358;bus;;Bergamo Flughafen;Mailand Flughafen Malpensa;Orio Shuttle
 K380;bus;;Breslau Flughafen;Breslau Busbahnhof;Polbus-PKS sp.z o.o.
 K388/E01;bus;;Genf Flughafen;St. Gallen;Eurobus
+K412;bus;;Cortina d'Ampezzo;Mestre;Cortina Express
 K471;bus;Seit 31.12.2017 nicht mehr so buchbar, wurde in 162 umbenannt.;Wien;Klagenfurt;Blaguss Reisen GmbH
 K472;bus;;Wien Erdberg;Wien Flughafen Schwechat;Blaguss Reisen GmbH
 K473;bus;Seit 31.12.2017 nicht mehr so buchbar, wurde in 362 umbenannt.;Salzburg;Graz;Blaguss Reisen GmbH

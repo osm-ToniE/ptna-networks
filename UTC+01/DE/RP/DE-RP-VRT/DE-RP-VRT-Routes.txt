@@ -192,15 +192,15 @@ RB 85;train;;;;
 431;bus;;Irrel;Biesdorf;Tempus mobil GmbH
 
 === RufBus-Line
-408;Bus;;Bitburg;Wolfsfeld;Tempus mobil GmbH
-429;Bus;;Bettingen;Mettendorf;Tempus mobil GmbH
+408;bus;;Bitburg;Wolfsfeld;Tempus mobil GmbH
+429;bus;;Bettingen;Mettendorf;Tempus mobil GmbH
 
 === Schulbus-Line
-406;Bus;;Oberstedem / Eßlingen / Niederweis;Wolfsfeld;Tempus mobil GmbH
-409;Bus;;Bitburg;Irrel;Tempus mobil GmbH
-421;Bus;;Träg;Irrel;Tempus mobil GmbH
-426;Bus;;Träg/ Aach/ Igel;Echternacherbrück/ Irrel;Tempus mobil GmbH
-427;Bus;;Irrel;Neuerburg;Tempus mobil GmbH
+406;bus;;Oberstedem / Eßlingen / Niederweis;Wolfsfeld;Tempus mobil GmbH
+409;bus;;Bitburg;Irrel;Tempus mobil GmbH
+421;bus;;Träg;Irrel;Tempus mobil GmbH
+426;bus;;Träg/ Aach/ Igel;Echternacherbrück/ Irrel;Tempus mobil GmbH
+427;bus;;Irrel;Neuerburg;Tempus mobil GmbH
 
 == Schneifel (Start 2020)
 - Noch keine Informationen gefunden beim VRT

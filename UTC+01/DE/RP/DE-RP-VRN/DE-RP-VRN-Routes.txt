@@ -123,6 +123,20 @@ RB2;train;;;;
 
 === 5xx
 
+500;bus;;Neustadt;Landau;
+501;bus;;Neustadt;Landau;
+502;bus;;Neustadt;Hambach;
+503;bus;;Kalmitexpress Neustadt;Kalmit;
+507;bus;;Neustadt;Speyer;
+508;bus;;Lachen;Ludwigshafen BASF;
+509;bus;;Neustadt;Lustadt;
+510;bus;;Neustadt;Haßloch;
+511;bus;;Neustadt;Haardt;
+512;bus;;Neustadt;Forst;
+514;bus;;Neustadt;Mußbach;
+515;bus;;Heidenbrunnental;Neustadt-Afrikaviertel;
+517;bus;;(Neustadt-) Lambrecht;Iggelbach (-Johanniskreuz);
+
 === 6xx
 
 === 7xx
@@ -135,5 +149,40 @@ RB2;train;;;;
 718;bus;;;;
 
 ==== Sinsheim (76x bis 79x und 741)
+
+=== 8xx
+
+821;bus;;Buchen;Eberbach;
+822;bus;;Mosbach;Eberbach;
+823;bus;;Buchen;Buchen;
+828;bus;;Mosbach;Neckarmühlbach;
+830;bus;;Diedesheim;Mosbach;
+831;bus;;Neckarelz;Mosbach;
+832;bus;;Neckarelz;Mudau;
+833;bus;;Mosbach;Obrigheim;
+834;bus;;Mosbach;Sattelbach;
+835;bus;;Mosbach;Oberschefflenz;
+836;bus;;Mosbach;Neunkirchen;
+837;bus;;Mosbach;Waldbrunn;
+838;bus;;Mosbach;Mosbach;
+841;bus;;Neckarelz;Schweinberg;
+842;bus;;Seckach;Walldüm;
+843;bus;;Buchen;Gerichtstetten;
+844;bus;;Buchen;Unterginsbach;
+845;bus;;Ringlinie: Buchen Hauptbahnhof;Hauptbahnhof
+848;bus;;Buchen;Großeicholzheim;
+899;bus;;Neckarelz;Sinsheim;
+
+=== 9xx
+
+999;bus;;Regiobus Buchen;Tauberbischofsheim;
+
+== Ruftaxi
+
+8930;share_taxi;;Seckach - Buchen;Hardheim;
+8943;share_taxi;;Buchen - Mudau;Buchen;
+8944;share_taxi;;Buchen - Limbach;Buchen;
+8945;share_taxi;;Buchen - Hettigenbeuern;Buchen;
+8946;share_taxi;;Buchen - Hettingen;Buchen;
 
 </pre>

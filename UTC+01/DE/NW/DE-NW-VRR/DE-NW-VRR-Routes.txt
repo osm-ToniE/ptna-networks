@@ -141,7 +141,7 @@ S68;train;;;;DB Regio NRW
 
 === BusNr < 99 Kleve ...
 
-1;bus;Quelle gtfs;K.-L. Neues Rathaus Bstg 3;Rheinberg Ossenberg Kirche Bstg 1;Niederrheinische Verkehrsbetriebe Ag NIAG
+1;bus;Quelle gtfs;K.-L. Neues Rathaus Bstg 3;Rheinberg Ossenberg Kirche Bstg 1;Niederrheinische Verkehrsbetriebe
 SW1;bus;Quelle gtfs;Weeze Bahnhof Bstg 2;Weeze Wemb Kirche Bstg 1;Niederrheinische Verkehrsbetriebe
 2;bus;Quelle gtfs;K.-L. Neues Rathaus Bstg 3;Kamp-Lintfort Zur Linde Bstg 1;Niederrheinische Verkehrsbetriebe
 3;bus;Quelle gtfs;Moers Königlicher Hof Bstg 6;Duisburg Kaldenhausen Krölls Bstg 3;Niederrheinische Verkehrsbetriebe

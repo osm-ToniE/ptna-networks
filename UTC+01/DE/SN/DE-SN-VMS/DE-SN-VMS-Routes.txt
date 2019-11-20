@@ -204,8 +204,8 @@ A;bus;Heide - Busbahnhof - Sonnenleithe - Busbahnhof - Heide;Heide Wendeschleife
 B;bus;Busbahnhof - Wildenau - Neuwelt - Bermsgrün - Busbahnhof;Schwarzenberg, Busbahnhof;Schwarzenberg, Busbahnhof;Regionalverkehr Erzgebirge GmbH
 
 === Stollberg
-STL 1;bus;Stadtlinie 1;;;Regionalverkehr Erzgebirge
-STL 2;bus;Stadtlinie 2;;;Regionalverkehr Erzgebirge
+STL 1;bus;Bahnhof - Niederdorf - Albrecht-Dürer-Straße - Auer Straße - Bahnhof ;Stollberg, Bahnhof;Stollberg, Bahnhof;Regionalverkehr Erzgebirge GmbH
+STL 2;bus;Bahnhof - Niederdorf - Auer Straße - Albrecht-Dürer-Straße - Bahnhof;Stollberg, Bahnhof;Stollberg, Bahnhof;Regionalverkehr Erzgebirge GmbH
 
 === Zschopau
 1;bus;Hohndorf - Zschopau - Gornau, Einkaufszentrum;Hohndorf, Siedlung;Gornau, Einkaufszentrum Zschopau/Gornau;Regionalverkehr Erzgebirge GmbH

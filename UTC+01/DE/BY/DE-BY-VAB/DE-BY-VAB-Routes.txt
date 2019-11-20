@@ -60,7 +60,19 @@
 #
 #ref;type;comment;from;to;operator
 
-== Stadtbereich Aschaffenburg
+== Regionalzüge
+
+RB;train;;Seckach;Miltenberg;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
+RB;train;;Aschaffenburg;Miltenberg;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
+RB;train;;Wertheim;Miltenberg;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
+RB56;train;Kahlgrundbahn;Schöllkrippen;Hanau;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
+RE;train;;Aschaffenburg;Crailsheim;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
+640;train;;Frankfurt;Aschaffenburg;
+781;train;Maintalbahn;Wertheim;Aschaffenburg;
+800;train;;Aschaffenburg;Würzburg;Deutsche Bahn
+-
+
+== Busse im Stadtbereich Aschaffenburg
 
 1;bus;;Aschaffenburg ROB;Sulzbach;Stadtwerke Aschaffenburg
 2;bus;;Aschaffenburg ROB;Strietwald;Stadtwerke Aschaffenburg
@@ -79,7 +91,7 @@
 16;bus;;Aschaffenburg ROB;Dörrmorsbach;Stadtwerke Aschaffenburg
 -
 
-== Landkreis Aschaffenburg
+== Busse im Landkreis Aschaffenburg
 
 20;bus;;Aschaffenburg;Schöllkrippen;
 21;bus;;Aschaffenburg;Unterafferbach;
@@ -110,7 +122,7 @@ KEX 33;bus;Kahlgrundexpress;Schöllkrippen;Aschaffenburg;
 58;bus;;Aschaffenburg;Weiskirchen;
 -
 
-== Landkreis Miltenberg
+== Busse im Landkreis Miltenberg
 
 60;bus;;Aschaffenburg;OBB-Elsenfeld;
 61;bus;;Aschaffenburg;Mönchberg;

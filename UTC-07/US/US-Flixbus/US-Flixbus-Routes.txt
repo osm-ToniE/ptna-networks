@@ -56,7 +56,7 @@
 2001;bus;;;;
 2003;bus;;;;
 2006;bus;;San Francisco;Anaheim;
-2009;bus;;Los Angeles;Anaheim/Las Vegas;
+2009;bus;;Los Angeles/Anaheim;Las Vegas;
 2010;bus;;San Diego;Las Vegas;
 2013;bus;;San Louis(CA);Los Angeles
 2016;bus;;Los Angeles;Las Vegas;
