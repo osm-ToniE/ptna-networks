@@ -47,6 +47,6 @@ PTNA_WWW_DISCUSSION_NAME="Diskussion"
 PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 
 # column 7 Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
-PTNA_WWW_ROUTES_NAME="VLP Linien"
+PTNA_WWW_ROUTES_NAME="VBP/VLP Linien"
 PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
 
