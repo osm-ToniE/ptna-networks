@@ -40,9 +40,9 @@
 #
 
 
-= Überblick Buslinien "Verkehrsgemeinschaft Landkreis Passau" (VLP) und "Verkehrsbetriebsgesellschaft Passau" (VBP)
+= Überblick Buslinien "Verkehrsbetriebsgesellschaft Passau" (VBP) und "Verkehrsgemeinschaft Landkreis Passau" (VLP)
 
-- Verweis auf die Datei mit den [[Passau/Transportation/Analyse/DE-BY-VLP-Linien|Passauer Stadt- und Landkreis-Linien]] im Wiki.
+- Verweis auf die Datei mit den [[Passau/Transportation/Analyse/DE-BY-VBP-VLP-Linien|Passauer Stadt- und Landkreis-Linien]] im Wiki.
 - Verweis auf mehr [[Talk:Passau/Transportation/Analyse|Informationen]] im Wiki.
 
 
