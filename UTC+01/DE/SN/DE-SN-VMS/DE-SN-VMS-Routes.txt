@@ -212,36 +212,36 @@ STL 2;bus;Bahnhof - Niederdorf - Auer Straße - Albrecht-Dürer-Straße - Bahnho
 
 == Omnibus-Regionalverkehr
 20;bus;Greiz - Teichwolframsdorf - Seelingstädt;Greiz;Seelingstädt;PRG
-101;bus;Glauchau, Bahnhof - Schönbörnchen, Südhang;;;RVW
-102;bus;Glauchau, Friedenshöhe - Glauchau, Bahnhof;;;RVW
-105;bus;Glauchau - Meerane;;;RVW
-106;bus;Meerane, Crotenlaide - Waldsachsen - Crimmitschau;;;RVW
-107;bus;Glauchau - Thurm;;;RVW
-108;bus;Glauchau - Lichtenstein;;;RVW
-109;bus;Glauchau - Wernsdorf - Voigtlaide;;;RVW
-110;bus;Waldenburg - Oberwiera - Meerane;;;RVW
-111;bus;Glauchau - Mosel - Zwickau;;;RVW
-112;bus;Glauchau - Waldenburg - Langenchursdorf;;;RVW
-113;bus;Hohenstein-Ernstthal - Falken - Langenchursdorf;;;RVW
-115;bus;Hohenstein-Ernstthal - St. Egidien / Bernsdorf - Lichtenstein;;;RVW
-116;bus;Hohenstein-Ernstthal - Oberlungwitz - Gersdorf - Oelsnitz (Erzgeb);;;RVW
-117;bus;Lichtenstein - Heinrichsort - Rödlitz - Lichtenstein;;;RVE;RVW
+101;bus;Glauchau, Bahnhof - Schönbörnchen, Südhang;;;Regionalverkehr Westsachsen GmbH
+102;bus;Glauchau, Friedenshöhe - Glauchau, Bahnhof;;;Regionalverkehr Westsachsen GmbH
+105;bus;Glauchau - Meerane;;;Regionalverkehr Westsachsen GmbH
+106;bus;Meerane, Crotenlaide - Waldsachsen - Crimmitschau;;;Regionalverkehr Westsachsen GmbH
+107;bus;Glauchau - Thurm;;;Regionalverkehr Westsachsen GmbH
+108;bus;Glauchau - Lichtenstein;;;Regionalverkehr Westsachsen GmbH
+109;bus;Glauchau - Wernsdorf - Voigtlaide;;;Regionalverkehr Westsachsen GmbH
+110;bus;Waldenburg - Oberwiera - Meerane;;;Regionalverkehr Westsachsen GmbH
+111;bus;Glauchau - Mosel - Zwickau;;;Regionalverkehr Westsachsen GmbH
+112;bus;Glauchau - Waldenburg - Langenchursdorf;;;Regionalverkehr Westsachsen GmbH
+113;bus;Hohenstein-Ernstthal - Falken - Langenchursdorf;;;Regionalverkehr Westsachsen GmbH
+115;bus;Hohenstein-Ernstthal - St. Egidien / Bernsdorf - Lichtenstein;;;Regionalverkehr Westsachsen GmbH
+116;bus;Hohenstein-Ernstthal - Oberlungwitz - Gersdorf - Oelsnitz (Erzgeb);;;Regionalverkehr Westsachsen GmbH
+117;bus;Lichtenstein - Heinrichsort - Rödlitz - Lichtenstein;;;Regionalverkehr Westsachsen GmbH
 118;bus;Lichtenstein - Lobsdorf;;;RVE
-119;bus;Glauchau - Meerane - Crimmitschau;;;RVW
-120;bus;Hohenstein-Ernstthal - Waldenburg;;;RVW
-122;bus;Hohenstein-Ernstthal - Limbach-Oberfrohna;;;RVW
-123;bus;Waldenburg - Langenchursdorf - Falken - Limbach-Oberfrohna;;;RVW
-124;bus;Hohenstein-Ernstthal - Reichenbach - Grumbach - Callenberg - Langenchursdorf;;;RVW
-125;bus;Hohenstein-Ernstthal - Wüstenbrand - Oberlungwitz - Hohenstein-Ernstthal;;;RVW
-128;bus;Crimmitschau, Bahnhof - Karl-Liebknecht-Siedlung - Crimmitschau Center - Crimmitschau, Bahnhof;;;RVW
-129;bus;Zwickau - Werdau - Steinpleis - Zwickau;;;RVW
-130;bus;Zwickau - Steinpleis - Fraureuth;;;RVW
-132;bus;Wilkau-Haßlau - Cunersdorf - Niedercrinitz - Kirchberg;;;RVW
-133;bus;Zwickau - Dennheritz - Meerane - Gößnitz;;;RVW
-135;bus;Zwickau - Reinsdorf - Friedrichsgrün - Vielau - Wilkau-Haßlau;;;RVW
-137;bus;Wilkau-Haßlau - Cainsdorf - Wilkau-Haßlau - Stadtzentrum - Haara - Rosenthal - Gewerbegebiet;;;RVW
-138;bus;Zwickau - Mülsen - Neuschönburg - Marienau;;;RVW
-139;bus;Zwickau - Lichtenstein;;;RVW
+119;bus;Glauchau - Meerane - Crimmitschau;;;Regionalverkehr Westsachsen GmbH
+120;bus;Hohenstein-Ernstthal - Waldenburg;;;Regionalverkehr Westsachsen GmbH
+122;bus;Hohenstein-Ernstthal - Limbach-Oberfrohna;;;Regionalverkehr Westsachsen GmbH
+123;bus;Waldenburg - Langenchursdorf - Falken - Limbach-Oberfrohna;;;Regionalverkehr Westsachsen GmbH
+124;bus;Hohenstein-Ernstthal - Reichenbach - Grumbach - Callenberg - Langenchursdorf;;;Regionalverkehr Westsachsen GmbH
+125;bus;Hohenstein-Ernstthal - Wüstenbrand - Oberlungwitz - Hohenstein-Ernstthal;;;Regionalverkehr Westsachsen GmbH
+128;bus;Crimmitschau, Bahnhof - Karl-Liebknecht-Siedlung - Crimmitschau Center - Crimmitschau, Bahnhof;;;Regionalverkehr Westsachsen GmbH
+129;bus;Zwickau - Werdau - Steinpleis - Zwickau;;;Regionalverkehr Westsachsen GmbH
+130;bus;Zwickau - Steinpleis - Fraureuth;;;Regionalverkehr Westsachsen GmbH
+132;bus;Wilkau-Haßlau - Cunersdorf - Niedercrinitz - Kirchberg;;;Regionalverkehr Westsachsen GmbH
+133;bus;Zwickau - Dennheritz - Meerane - Gößnitz;;;Regionalverkehr Westsachsen GmbH
+135;bus;Zwickau - Reinsdorf - Friedrichsgrün - Vielau - Wilkau-Haßlau;;;Regionalverkehr Westsachsen GmbH
+137;bus;Wilkau-Haßlau - Cainsdorf - Wilkau-Haßlau - Stadtzentrum - Haara - Rosenthal - Gewerbegebiet;;;Regionalverkehr Westsachsen GmbH
+138;bus;Zwickau - Mülsen - Neuschönburg - Marienau;;;Regionalverkehr Westsachsen GmbH
+139;bus;Zwickau - Lichtenstein;;;Regionalverkehr Westsachsen GmbH
 140;bus;Zwickau - Mülsen - Thurm;;;RVW
 142;bus;Wildenfels - Zschocken - Thierfeld - Hartenstein;;;RVW
 143;bus;Zwickau - Ebersbrunn - Hirschfeld;;;RVW

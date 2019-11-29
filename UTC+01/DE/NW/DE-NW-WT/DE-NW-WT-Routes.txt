@@ -1982,7 +1982,7 @@ T661;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
 32;bus;;;;Märkische Verkehrsgesellschaft GmbH
 33;bus;;Altena;Hemer;Märkische Verkehrsgesellschaft GmbH
 34;bus;;;;Märkische Verkehrsgesellschaft GmbH
-35;bus;;Dahle;Altena-Dahle;Märkische Verkehrsgesellschaft GmbH
+35;bus;;Evingsen;Dahle;Märkische Verkehrsgesellschaft GmbH
 36;bus;;;;Märkische Verkehrsgesellschaft GmbH
 37;bus;;;;Märkische Verkehrsgesellschaft GmbH
 38;bus;;Breitenhagen;Altena;Märkische Verkehrsgesellschaft GmbH

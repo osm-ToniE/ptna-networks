@@ -332,6 +332,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 472;bus;;Verona;Genf;FlixMobility GmbH
 474;bus;;Lugano;Genua;FlixMobility GmbH
 475;bus;;Mailand;Yverdon les Bain;FlixMobility GmbH
+476;bus;;Mailand;Koblenz;FlixMobility GmbH
 477;bus;;Bern;Mailand;FlixMobility GmbH
 478;bus;;Grenoble;Bologna;FlixMobility GmbH
 479;bus;;Paris;Mailand;FlixMobility GmbH

@@ -90,9 +90,28 @@ RB2;train;;;;
 
 == Stadtbahn
 
-4|4A;light_rail;;;;
-4X;light_rail;;;;
-5;light_rail;;;;
+1;tram;;Mannheim Schönau;Mannheim Rheinau Bf;RNV Rhein-Neckar-Verkehr GmbH
+2;tram;Erfassungslinie Strab;Mannheim Feudenheim;Mannheim Neckarstadt West;RNV Rhein-Neckar-Verkehr GmbH
+3;tram;Erfassungsl. Strab;Mannheim Sandhofen;Mannheim Rheingoldhalle;RNV Rhein-Neckar-Verkehr GmbH
+4;tram;;Bad Dürkheim;Waldfriedhof;RNV Rhein-Neckar-Verkehr GmbH
+4A;tram;;Bad Dürkheim;Käfertal Wald;RNV Rhein-Neckar-Verkehr GmbH
+4X;tram;;Expresslinie Bad Dürkheim;Ludwigshafen Oppau;RNV Rhein-Neckar-Verkehr GmbH
+5;tram;;Weinheim;Weinheim;RNV Rhein-Neckar-Verkehr GmbH
+5A;tram;;Heddesheim;Abendakademie;RNV Rhein-Neckar-Verkehr GmbH
+6;tram;Erfassungslinie Straba für Mischlinie 08006;Ludwigshafen Rheingönheim;Mannheim Neuostheim;RNV Rhein-Neckar-Verkehr GmbH
+6A;tram;Strab 6A Erfassungslinie für Mischlinie 08006;Ludwigshafen Rheingönheim;Mannheim Neuostheim;RNV Rhein-Neckar-Verkehr GmbH
+6E;tram;Strab 6A Erfassungslinie für Mischlinie 08006;Ludwigshafen Rheingönheim;Mannheim Neuostheim;RNV Rhein-Neckar-Verkehr GmbH
+7;tram;Erf. Strab;Ludwigshafen Oppau;Mannheim Vogelstang;RNV Rhein-Neckar-Verkehr GmbH
+8;tram;;Expresslinie Mannheim Rheinau;Ludwigshafen Oppau;RNV Rhein-Neckar-Verkehr GmbH
+9;tram;Erfassungslinie Strab;Mannheim Neuostheim;Mannheim Hauptbahnhof;RNV Rhein-Neckar-Verkehr GmbH
+10;tram;;Ludwigshafen Friesenheim;Ludwigshafen Luitpoldhafen;RNV Rhein-Neckar-Verkehr GmbH
+15;tram;;Heddesheim;Mannheim Hauptbahnhof;RNV Rhein-Neckar-Verkehr GmbH
+21;tram;;Heidelberg Handschuhsheim Hans-Thoma-Platz;Heidelberg Bismarckplatz;RNV Rhein-Neckar-Verkehr GmbH
+21A;tram;;Bismarckplatz;Bismarckplatz;RNV Rhein-Neckar-Verkehr GmbH
+22;tram;;Heidelberg Bismarckplatz;Eppelheim;RNV Rhein-Neckar-Verkehr GmbH
+23;tram;;Leimen;Heidelberg Handschuhsheim;RNV Rhein-Neckar-Verkehr GmbH
+24;tram;;Schriesheim;Rohrbach Süd;RNV Rhein-Neckar-Verkehr GmbH
+26;tram;;Heidelberg Bismarckplatz;Kirchheim;RNV Rhein-Neckar-Verkehr GmbH
 
 == Straßenbahn
 
@@ -101,6 +120,115 @@ RB2;train;;;;
 === Heidelberg
 
 == Buslinien
+
+=== Buslinien (1 bis 99)
+
+1;bus;;Mannheim Schönau;Mannheim Rheinau Bf;RNV Rhein-Neckar-Verkehr GmbH
+1/2;bus;;Michelstadt;Michelstadt;OREG
+2;bus;;Mannheim Neckarstadt West;Feudenheim;RNV Rhein-Neckar-Verkehr GmbH
+3;bus;;Mannheim Neckarau West;Mannheim Sandhofen;RNV Rhein-Neckar-Verkehr GmbH
+4;bus;SEV;Ludwigshafen Oggersheim;Ludwigshafen Berliner Platz;RNV Rhein-Neckar-Verkehr GmbH
+5;bus;;Mannheim Käfertal;Mannheim Hauptbahnhof;RNV Rhein-Neckar-Verkehr GmbH
+5;bus;;Michelstadt;Michelstadt;OREG
+6;bus;;Mannheim Neuhermsheim;Ludwigshafen Berliner Platz;RNV Rhein-Neckar-Verkehr GmbH
+7;bus;;Mannheim Hauptbahnhof;Mannheim Vogelstang;RNV Rhein-Neckar-Verkehr GmbH
+9;bus;Erfassungslinie Bus;Mannheim Neuostheim;Mannheim Hauptbahnhof;RNV Rhein-Neckar-Verkehr GmbH
+10;bus;;Ludwigshafen Friesenheim;Ludwigshafen Luitpoldhafen;RNV Rhein-Neckar-Verkehr GmbH
+12;bus;;Reichelsheim;Wersau;OREG
+14;bus;;Reichelsheim;Reichelsheim;OREG
+15;bus;;Laudenau;Reichelsheim;OREG
+20;bus;;Heidelberg Hauptbahnhof;Karlsplatz;RNV Rhein-Neckar-Verkehr GmbH
+20;bus;;Mömlingen;Höchst;OREG
+21;bus;;Lützelbach;Höchst;OREG
+22;bus;;Lützelbach;Höchst;OREG
+23;bus;;Kinzigtal;Höchst;OREG
+24;bus;;Schriesheim;Rohrbach Süd;RNV Rhein-Neckar-Verkehr GmbH
+25;bus;;Bad König;Momart;OREG
+26;bus;;Bad König;Hassenroth;OREG
+27;bus;;Erbach;Neustadt;OREG
+27;bus;;Heidelberg Rohrbach Süd;Emmertsgrund Endstelle;RNV Rhein-Neckar-Verkehr GmbH
+28;bus;;Heidelberg Rohrbach Markt;Rohrbach Markt;RNV Rhein-Neckar-Verkehr GmbH
+28;bus;;Vielbrunn;Bad König;OREG
+29;bus;;Bad König;Fürstengrund;OREG
+29;bus;;Heidelberg Technologiepark;Technologiepark;RNV Rhein-Neckar-Verkehr GmbH
+3/4;bus;;Steinbach;Steinbach;OREG
+30;bus;;Erbach;Rehbach;OREG
+30;bus;;Science-Bus: Max-Planck-Institut für Astronomie;Schlierbach HITS;RNV Rhein-Neckar-Verkehr GmbH
+31;bus;;Heidelberg Uniklinikum;Universitätsplatz;RNV Rhein-Neckar-Verkehr GmbH
+31;bus;;Hiltersklingen;Erbach;OREG
+32;bus;;Heidelberg Uniklinikum;Universitätsplatz;RNV Rhein-Neckar-Verkehr GmbH
+32;bus;;Michelstadt;Unter-Mossau;OREG
+32A;bus;;Heidelberg Hauptbahnhof;Universitätsplatz;RNV Rhein-Neckar-Verkehr GmbH
+33;bus;;Heidelberg Emmertsgrund;Ziegelhausen Köpfel;RNV Rhein-Neckar-Verkehr GmbH
+33;bus;;Hiltersklingen;Erbach / Michelstadt;OREG
+34;bus;;Erbach;Haisterbach;OREG
+34;bus;;Heiligkreuzsteinach;Pfaffengrund;RNV Rhein-Neckar-Verkehr GmbH
+35;bus;;Michelstadt;Hassenroth;OREG
+35;bus;;Heidelberg Wieblingen;Neckargemünd;RNV Rhein-Neckar-Verkehr GmbH
+36;bus;;Heidelberg Orthopäd. Klinik S-Bf;Bärenbach;RNV Rhein-Neckar-Verkehr GmbH
+37;bus;;Heidelberg Sportzentrum Nord;Heidelberg Hauptbahnhof;RNV Rhein-Neckar-Verkehr GmbH
+38;bus;;Heidelberg Handschuhsheim Hans-Thoma-Platz;Hans-Thoma-Platz;RNV Rhein-Neckar-Verkehr GmbH
+39;bus;;Heidelberg Bismarckplatz;Königstuhl;RNV Rhein-Neckar-Verkehr GmbH
+39A;bus;;Bismarckplatz;Mombertplatz;RNV Rhein-Neckar-Verkehr GmbH
+40;bus;;Mannheim Seckenheim Rathaus;Mannheim Rheinau Karlsplatz;RNV Rhein-Neckar-Verkehr GmbH
+40;bus;;Vielbrunn;Michelstadt;OREG
+41;bus;;Erbach;Vielbrunn;OREG
+42;bus;;Heidelberg Waldorfschule;Gewerbegebiet Mühlfeld;RNV Rhein-Neckar-Verkehr GmbH
+42;bus;;Ernsbach;Michelstadt;OREG
+43;bus;;Bullau;Michelstadt;OREG
+43;bus;;Mannheim Seckenheim Rathaus;Mannheim Seckenheim Rathaus;RNV Rhein-Neckar-Verkehr GmbH
+44;bus;;Erbach;Amorbach;OREG
+44;bus;;Mannheim Seckenheim Rathaus;Mannheim Seckenheim Rathaus;RNV Rhein-Neckar-Verkehr GmbH
+44E;bus;;Oktoberfest-Renntag Mannheim Seckenheim Rathaus;Seckenheim Rathaus;RNV Rhein-Neckar-Verkehr GmbH
+45;bus;;Mannheim Rheinau Karlsplatz;Mannheim Waldhof Bf;RNV Rhein-Neckar-Verkehr GmbH
+46;bus;;Mannheim Seckenheim West;Seckenheim West;RNV Rhein-Neckar-Verkehr GmbH
+47;bus;;Mannheim Fridtjof-Nansen-Weg;Mannheim Rheinau Bf;RNV Rhein-Neckar-Verkehr GmbH
+48;bus;;Mannheim Rheinauhafen;Mannheim Rheinau Bahnhof;RNV Rhein-Neckar-Verkehr GmbH
+49;bus;;Mannheim Neckarau Rheingoldhalle;Mannheim Neckarau Strandbad;RNV Rhein-Neckar-Verkehr GmbH
+50;bus;;Eberbach;Michelstadt;OREG
+50;bus;;Mannheim Neckarau West;Mannheim Sandhofen;RNV Rhein-Neckar-Verkehr GmbH
+50;bus;;Michelstadt;Eberbach;OREG
+51;bus;;Mannheim Sandhofen;Mannheim Blumenau;RNV Rhein-Neckar-Verkehr GmbH
+52;bus;;Mannheim Sandhofen;Mannheim Sandhofen;RNV Rhein-Neckar-Verkehr GmbH
+53;bus;;Beerfelden;Hesselbach;OREG
+53;bus;;Mannheim Kurpfalzbrücke;Käfertal Im Rott;RNV Rhein-Neckar-Verkehr GmbH
+54;bus;;Beerfelden;Hirschhorn;OREG
+54;bus;;Mannheim real Vogelstang;Mannheim real Vogelstang;RNV Rhein-Neckar-Verkehr GmbH
+55;bus;;Affolterbach;Beerfelden;OREG
+55;bus;;Käfertaler Wald;Waldhof Bf;RNV Rhein-Neckar-Verkehr GmbH
+56;bus;;Mannheim Vogelstang Warnemünder Weg;Mannheim Käfertal Bf;RNV Rhein-Neckar-Verkehr GmbH
+57;bus;;Mannheim Feudenheim;Mannheim Feudenheim;RNV Rhein-Neckar-Verkehr GmbH
+57E;bus;;Mannheim Feudenheim;Mannheim Vogelstang Warnemünder Weg;RNV Rhein-Neckar-Verkehr GmbH
+58;bus;;Mannheim Seckenheim Rathaus;Mannheim Friesenheimer Insel;RNV Rhein-Neckar-Verkehr GmbH
+59;bus;;Mannheim Sandhofen;Sandhofen;RNV Rhein-Neckar-Verkehr GmbH
+60;bus;;Mannheim Pfeifferswörth;Mannheim Oststadt;RNV Rhein-Neckar-Verkehr GmbH
+61;bus;;Wohlgelegen EKZ;Mannheim Kurpfalzbrücke;RNV Rhein-Neckar-Verkehr GmbH
+62;bus;;Mannheim Neuhermsheim;Mannheim Neuhermsheim;RNV Rhein-Neckar-Verkehr GmbH
+63;bus;;Mannheim Pfalzplatz;Mannheim Hauptbahnhof;RNV Rhein-Neckar-Verkehr GmbH
+64;bus;;Mannheim Käfertal Bf;Mannheim Hauptbahnhof;RNV Rhein-Neckar-Verkehr GmbH
+65;bus;;Hochschule West;Popakademie;RNV Rhein-Neckar-Verkehr GmbH
+66;bus;;Mannheim Käfertal Platz der Freundschaft;Käfertal Platz der Freundschaft;RNV Rhein-Neckar-Verkehr GmbH
+67;bus;;Mannheim Käfertal Bahnhof;Käfertal Bahnhof;RNV Rhein-Neckar-Verkehr GmbH
+70;bus;;Ludwigshafen Adolf-Kolping-Straße;Ludwigshafen Hbf;RNV Rhein-Neckar-Verkehr GmbH
+71;bus;Erfassungslinie Bus;Ludwigshafen Notwende;Ludwigshafen Rathaus;RNV Rhein-Neckar-Verkehr GmbH
+72;bus;Erfassungslinie Bus;Ludwigshafen Ruchheim;Melm;RNV Rhein-Neckar-Verkehr GmbH
+73;bus;;Ludwigshafen Oggersheim Bahnhof;Otto-Thiele-Platz;RNV Rhein-Neckar-Verkehr GmbH
+74;bus;;Ludwigshafen Berliner Platz;Ludwigshafen Rathaus;RNV Rhein-Neckar-Verkehr GmbH
+75;bus;;Ludwigshafen Berliner Platz;Rheingönheim;RNV Rhein-Neckar-Verkehr GmbH
+76;bus;;Ludwigshafen Berliner Platz;Maudach;RNV Rhein-Neckar-Verkehr GmbH
+77;bus;Erfassunslinie Bus;Ludwigshafen Berliner Platz;Berliner Platz;RNV Rhein-Neckar-Verkehr GmbH
+78;bus;;Ludwigshafen BASF Süd;Ludwigshafen Maudach;RNV Rhein-Neckar-Verkehr GmbH
+79E;bus;;Ludwigshafen Maudach;Berliner Platz;RNV Rhein-Neckar-Verkehr GmbH
+80;bus;;BASF Süd;Am Schwanen;RNV Rhein-Neckar-Verkehr GmbH
+84;bus;;Frankenthal;Ludwigshafen Oppau;RNV Rhein-Neckar-Verkehr GmbH
+85;bus;;Ludwigshafen Oppau;Ludwigshafen Oppau West;RNV Rhein-Neckar-Verkehr GmbH
+86;bus;;Ludwigshafen Oppau;Ludwigshafen Oppau;RNV Rhein-Neckar-Verkehr GmbH
+87;bus;;Ludwigshafen Pfingstweide;Ludwigshafen Oppau;RNV Rhein-Neckar-Verkehr GmbH
+90;bus;;Ludwigshafen Berliner Platz;Notwende/Melm;RNV Rhein-Neckar-Verkehr GmbH
+94;bus;;Ludwigshafen Berliner Platz;Niederfeld;RNV Rhein-Neckar-Verkehr GmbH
+96;bus;;Ludwigshafen Berliner Platz;Maudach;RNV Rhein-Neckar-Verkehr GmbH
+97;bus;;Ludwigshafen Berliner Platz;Pfingstweide;RNV Rhein-Neckar-Verkehr GmbH
+98;bus;;MA-Neckarau;Altrip;Rheinfähre Altrip
 
 === Kaiserslautern (10x und 11x)
 
@@ -121,63 +249,488 @@ RB2;train;;;;
 
 === Landkreis Kaiserslautern Nord und West (13x - 17x)
 
+130;bus;;Kaiserslautern;Wörsbach;DB Regio Bus Mitte GmbH
+131;bus;;Kaiserslautern;Ginsweiler;DB Regio Bus Mitte GmbH
+132;bus;;Kaiserslautern Maxstraße;Erfenbach Stauchwiesen;DB Regio Bus Mitte GmbH
+133;bus;;Gundersweiler;Kaiserslautern;DB Regio Bus Mitte GmbH
+134;bus;;Kaiserslautern;Frankelbach;DB Regio Bus Mitte GmbH
+135;bus;;Frankenstein/Waldleiningen/Fischbach;Kaiserslautern;DB Regio Bus Mitte GmbH
+136;bus;;Kaiserslautern;Winnweiler/Börrstadt;DB Regio Bus Mitte GmbH
+137;bus;;Kaiserslautern;Falkenstein;DB Regio Bus Mitte GmbH
+138;bus;;Weilerbach;Reichenbach;Stadtwerke Viernheim GmbH
+139;bus;;Landstuhl;Kaiserslautern;Stadtwerke Viernheim GmbH
+140;bus;;Kaiserslautern;Reichenbach;Stadtwerke Viernheim GmbH
+141;bus;;Kaiserslautern;Ramstein;Stadtwerke Viernheim GmbH
+142;bus;;Ramstein;Schönenberg;Stadtwerke Viernheim GmbH
+143;bus;;Kindsbach;Landstuhl;Stadtwerke Viernheim GmbH
+144;bus;;Landstuhl;Niedermohr;Stadtwerke Viernheim GmbH
+147;bus;;Ramstein Air Base Shuttle / US Kühlhaus;;Stadtwerke Viernheim GmbH
+148;bus;;Landstuhl;Schönenberg;Stadtwerke Viernheim GmbH
+149;bus;;Reichenbach-Steegen;Landstuhl;Stadtwerke Viernheim GmbH
+153;bus;;Ramstein;Lauterecken;Stadtwerke Viernheim GmbH
+156;bus;;Kollweiler;Eßweiler;Stadtwerke Viernheim GmbH
+160;bus;;Kaiserslautern;Ramstein;DB Regio Bus Mitte GmbH
+161;bus;;Kaiserslautern;Saalstadt;DB Regio Bus Mitte GmbH
+170;bus;;Waldfischbach;Kaiserslautern;DB Regio Bus Mitte GmbH
+171;bus;;Landstuhl;Wallhalben;DB Regio Bus Mitte GmbH
+172;bus;;Landstuhl;Bruchmühlbach;DB Regio Bus Mitte GmbH
+173;bus;;Schönenberg;Landstuhl;DB Regio Bus Mitte GmbH
+174;bus;;Landstuhl Schulzentrum;Melkerei;DB Regio Bus Mitte GmbH
+175;bus;;Sickingenbus Landstuhl: Stadthalle;Atzel/Melkerei;DB Regio Bus Mitte GmbH
+178;bus;;Trippstadt;Landstuhl;DB Regio Bus Mitte GmbH
+
+=== 2xx
+
+221;bus;;Gleiwitzstraße (Langental);Rimschweiler;SWEG
+222;bus;;Europaring (Ernstweiler);Hengstbach;SWEG
+223;bus;;Mölschbacher Str. (Wattweiler);Wolfsloch (Bubenhausen);SWEG
+224;bus;;Pasteurstr. (Fasanerieberg);Otterstein (Niederauerbach) / (Oberauerbach);SWEG
+225;bus;;J.-F.-Kennedy-Str. (Niederauerbach);Pasteurstr. (Fasanerieberg);SWEG
+226;bus;;Mörsbach;Flughafen/Fashion Outlet;SWEG
+229;bus;;Europaring (Ernstweiler);Stadtmitte;SWEG
+231;bus;;Zweibrücken;Wallhalben;DB Regio Bus Mitte GmbH
+232;bus;;Zweibrücken;Martinshöhe/Bruchmühlbach;DB Regio Bus Mitte GmbH
+233;bus;;Zweibrücken;Riedelberg;DB Regio Bus Mitte GmbH
+234;bus;;Zweibrücken;Schmitshausen;DB Regio Bus Mitte GmbH
+235;bus;;Zweibrücken;Walshausen;DB Regio Bus Mitte GmbH
+236;bus;;Zweibrücken;Brenschelbach;DB Regio Bus Mitte GmbH
+237;bus;;Zweibrücken;Brenschelbach;DB Regio Bus Mitte GmbH
+238;bus;;Homburg;Martinshöhe;DB Regio Bus Mitte GmbH
+240;bus;;Pirmasens;Zweibrücken;DB Regio Bus Mitte GmbH
+242;bus;;Pirmasens;Riedelberg;SWEG
+243;bus;;Pirmasens;Wallhalben;SWEG
+244;bus;;Waldfischbach;Wallhalben;SWEG
+245;bus;;Pirmasens;Wallhalben;SWEG
+246;bus;;Waldfischbach;Geiselberg / Schmalenberg;SWEG
+248;bus;;Waldfischbach-Burgalben;Pirmasens;SWEG
+249;bus;;Rodalben;Pirmasens;SWEG
+250;bus;;Pirmasens;Dahn;SWEG
+251;bus;;Hinterweidenthal;Ludwigswinkel;SWEG
+252;bus;;Hauenstein;Wissembourg;SWEG
+255;bus;;Pirmasens;Eppenbrunn;SWEG
+256;bus;;Pirmasens;Leimen;SWEG
+258;bus;;Ortsverkehr Hauenstein;;SWEG
+259;bus;;Schülerverkehr Schwanheim;Wilgartswiesen;SWEG
+265;bus;;Odenbach;Niederkirchen;DB Regio Bus Mitte GmbH
+266;bus;;St. Julian;Deimberg;DB Regio Bus Mitte GmbH
+267;bus;;Herrensulzbach;Lauterecken;DB Regio Bus Mitte GmbH
+268;bus;;Lauterecken;Nußbach;DB Regio Bus Mitte GmbH
+269;bus;;Lauterecken;Cronenberg;DB Regio Bus Mitte GmbH
+270;bus;;Lauterecken;Kusel;DB Regio Bus Mitte GmbH
+271;bus;;Kusel;Lauterecken;DB Regio Bus Mitte GmbH
+272;bus;;Lauterecken;Eßweiler;DB Regio Bus Mitte GmbH
+273;bus;;Nußbach;Wolfstein;DB Regio Bus Mitte GmbH
+274;bus;;Wolfstein;Kusel;DB Regio Bus Mitte GmbH
+275;bus;;Wolfstein;Kusel;DB Regio Bus Mitte GmbH
+276;bus;;Mühlbach;Kusel;DB Regio Bus Mitte GmbH
+277;bus;;Kusel;Niederstaufenbach;DB Regio Bus Mitte GmbH
+278;bus;;Föckelberg;Haschbach;DB Regio Bus Mitte GmbH
+279;bus;;Kuseler Stern: Kusel;Homburg;DB Regio Bus Mitte GmbH
+280;bus;;Homburg (Saar);Kusel;DB Regio Bus Mitte GmbH
+281;bus;;Brücken;Kusel;DB Regio Bus Mitte GmbH
+282;bus;;Glan-Münchweiler;Herschweiler-Pettersheim;DB Regio Bus Mitte GmbH
+283;bus;;Glan-Münchweiler;Brücken;DB Regio Bus Mitte GmbH
+285;bus;;Glan-Münchweiler;Homburg;DB Regio Bus Mitte GmbH
+286;bus;;Homburg;Bruchmühlbach;DB Regio Bus Mitte GmbH
+287;bus;;Dunzweiler;Homburg (Saar);DB Regio Bus Mitte GmbH
+288;bus;;Kusel;Homburg (Saar);DB Regio Bus Mitte GmbH
+288;bus;;Pendelverkehr: Ohmbach;Ohmbach;DB Regio Bus Mitte GmbH
+290;bus;;Baumholder;Kusel;DB Regio Bus Mitte GmbH
+292;bus;;Baumholder;Kusel;DB Regio Bus Mitte GmbH
+293;bus;;Kusel;Selchenbach;DB Regio Bus Mitte GmbH
+294;bus;;Kusel;Herchweiler;DB Regio Bus Mitte GmbH
+295;bus;;Bahnhof;Bahnhof;DB Regio Bus Mitte GmbH
+296;bus;;Kusel;Kusel;DB Regio Bus Mitte GmbH
+297;bus;;Burgenbus Kusel;Burg Lichtenberg;DB Regio Bus Mitte GmbH
+
+=== 3xx
+
+360;bus;;Lauterecken;Fischbach-Weierbach;DB Regio Bus Mitte GmbH
+
+=== 4xx
+
+401;bus;;Worms ZOB;Pfiffligheim;DB Regio Bus Mitte GmbH
+402;bus;;Neuhausen Bildungszentrum;Weinsheim;DB Regio Bus Mitte GmbH
+403;bus;;Worms HBF;Herrnsheim NVZ;DB Regio Bus Mitte GmbH
+404;bus;;Worms Hbf/ZOB;Heppenheim;DB Regio Bus Mitte GmbH
+405;bus;;Worms Hbf/ZOB;Pfeddersheim;DB Regio Bus Mitte GmbH
+406;bus;;Worms Hbf/ZOB;Industriegebiet;DB Regio Bus Mitte GmbH
+407;bus;;Worms Hbf/ZOB;Klinikum;DB Regio Bus Mitte GmbH
+408;bus;;Worms Römischer Kaiser;Herrnsheim Klinikum;DB Regio Bus Mitte GmbH
+409;bus;;Worms Hbf/ZOB;Karl-Marx-Siedlung;DB Regio Bus Mitte GmbH
+410;bus;;Neuhausen West;Rheinufer;DB Regio Bus Mitte GmbH
+414;bus;;Worms Hbf/ZOB;Heppenheim;DB Regio Bus Mitte GmbH
+415;bus;;Worms Hbf/ZOB;Pfeddersheim;DB Regio Bus Mitte GmbH
+417;bus;;Klinikum;Worms Hbf/ZOB;DB Regio Bus Mitte GmbH
+418;bus;;Worms Hbf/ZOB;Abenheim;DB Regio Bus Mitte GmbH
+419;bus;;Worms Hbf/ZOB;Karl-Marx-Siedlung;DB Regio Bus Mitte GmbH
+421;bus;Stadtbus;Alzey: Bahnhof;Bahnhof;DB Regio Bus Mitte GmbH
+422;bus;;Alzey Rheinhessen-Center;Alzey Weinheim;DB Regio Bus Mitte GmbH
+422;bus;;Alzey Weinheim-Krankenhaus;Alzey Weinheim;SWEG
+423;bus;;Flonheim;Mauchenheim;SWEG
+423;bus;;Mauchenheim;Flonheim;DB Regio Bus Mitte GmbH
+424;bus;;Mauchenheim;Flomborn;DB Regio Bus Mitte GmbH
+424;bus;;Ober-Flörsheim;Alzey;SWEG
+425;bus;;Wöllstein;Alzey;SWEG
+426;bus;;Kircheimbolanden;Alzey;SWEG
+427;bus;;Alzey;Westhofen;DB Regio Bus Mitte GmbH
+428;bus;;AZ-Weinheim;Ober-Flörsheim;DB Regio Bus Mitte GmbH
+429;bus;;AZ-Weinheim;Westhofen;DB Regio Bus Mitte GmbH
+430;bus;;Worms;Alzey;DB Regio Bus Mitte GmbH
+431;bus;;Osthofen;Worms Hbf/ZOB;DB Regio Bus Mitte GmbH
+432;bus;;Worms ZOB;Guntersblum;DB Regio Bus Mitte GmbH
+433;bus;;Osthofen;Gimbsheim;DB Regio Bus Mitte GmbH
+434;bus;;Worms ZOB;Osthofen;DB Regio Bus Mitte GmbH
+435;bus;;Worms ZOB;Alzey;DB Regio Bus Mitte GmbH
+436;bus;;Eich Schulzentrum;Weinolsheim;DB Regio Bus Mitte GmbH
+437;bus;;Offstein/Kindenheim;Monsheim;DB Regio Bus Mitte GmbH
+438;bus;;Bermersheim;Osthofen;DB Regio Bus Mitte GmbH
+440;bus;;Alzey;Bad Kreuznach;DB Regio Bus Mitte GmbH
+441;bus;;Gau-Odernheim/Wörrstadt;Saulheim;SWEG
+442;bus;;Gau Odernheim;Wörrstadt;SWEG
+442;bus;;Wörrstadt;Gau-Odernheim;DB Regio Bus Mitte GmbH
+443;bus;;Alzey;Wörrstadt;SWEG
+444;bus;;Wöllstein;Wörrstadt;DB Regio Bus Mitte GmbH
+444;bus;;Wörrstadt;Wöllstein;SWEG
+445;bus;;Schimsheim;Wendelsheim;DB Regio Bus Mitte GmbH
+445;bus;;Wendelsheim;Schimsheim;SWEG
+446;bus;;Wendelsheim;Alzey;SWEG
+447;bus;;Saulheim;Wörrstadt;DB Regio Bus Mitte GmbH
+447;bus;;Wörrstadt;Saulheim;SWEG
+448;bus;;Gau Odernheim;Nieder-Wiesen;SWEG
+449;bus;;Gau-Odernheim;Alzey;SWEG
+451;bus;;Grünstadt;Worms;SWEG
+452;bus;;Grünstadt;Frankenthal;SWEG
+453;bus;;Bad Dürkheim;Grünstadt;SWEG
+454;bus;;Grünstadt;Grünstadt Leininger Ring;SWEG
+455;bus;;Grünstadt;Eisenberg;SWEG
+457;bus;;Grünstadt;Enkenbach;SWEG
+458;bus;;Eisenberg;Höningen;SWEG
+459;bus;Schülerverkehr;Grundschule Kallstadt / Realschule Plus Weisenheim am Berg;;SWEG
+460;bus;;Ludwigshafen BASF;Grünstadt;SWEG
+461;bus;;Grünstadt;Ludwigshafen;SWEG
+462;bus;;Frankenthal;Bobenheim Bahnhof;DB Regio Bus Mitte GmbH
+463;bus;;Bobenheim Bahnhof;Frankenthal Hauptbahnhof;DB Regio Bus Mitte GmbH
+464;bus;;Frankenthal;Mörsch;DB Regio Bus Mitte GmbH
+465;bus;;Frankenthal;Am Herrschaftsweiher;DB Regio Bus Mitte GmbH
+466;bus;;Frankenthal;Eppstein;DB Regio Bus Mitte GmbH
+467;bus;;LU-Oggersheim;Frankenthal Hbf;DB Regio Bus Mitte GmbH
+471;bus;;Stadtverkehr Grünstadt Bahnhof;Bahnhof (Friedrich-Ebert-Str.);SWEG
+472;bus;;Stadtverkehr Grünstadt Bahnhof (Friedrich-Ebert-Str.);Bahnhof;SWEG
+473;bus;;Stadtverkehr Grünstadt Ringlinie Bahnhof;Bahnhof;SWEG
+474;bus;;Stadtverkehr Grünstadt Ringlinie Bahnhof;Bahnhof;SWEG
+476;bus;;Schnellbus Ludwigshafen BASF;Kirchheimbolanden;SWEG
+477;bus;Schülerverkehr;Dekan-Ernst-Grundschule;;SWEG
+481;bus;;Wörrstadt Bahnhof;Gewerbepark;SWEG
+485;bus;;Bad Dürkheim;Ruheforst;SWEG
+486;bus;;Bad Dürkheim;Rudolf-Bart-Siedlung;SWEG
+487;bus;;Bad Dürkheim;Gewerbegebiet;SWEG
+488;bus;;Bad Dürkheim;Lindemannsruhe;SWEG
+491;bus;;Würzburg;Wenkheim;Stadtwerke Viernheim GmbH
+492;bus;;Würzburg;Steinbach;Stadtwerke Viernheim GmbH
+497;bus;;Bad Dürkheim Tours Bad Dürkheim;Bad Dürkheim;SWEG
+498;bus;;Burgunder Tours Bockenheim;Bad Dürkheim;SWEG
+499;bus;;Riesling Tours Bad Dürkheim;Hambacher Schloss;SWEG
+
 === 5xx
 
 500;bus;;Neustadt;Landau;
 501;bus;;Neustadt;Landau;
-502;bus;;Neustadt;Hambach;
+502;bus;;Neustadt Hbf;Hambacher Schloß;Busverkehr Imfeld
 503;bus;;Kalmitexpress Neustadt;Kalmit;
 507;bus;;Neustadt;Speyer;
 508;bus;;Lachen;Ludwigshafen BASF;
 509;bus;;Neustadt;Lustadt;
 510;bus;;Neustadt;Haßloch;
-511;bus;;Neustadt;Haardt;
-512;bus;;Neustadt;Forst;
-514;bus;;Neustadt;Mußbach;
-515;bus;;Heidenbrunnental;Neustadt-Afrikaviertel;
-517;bus;;(Neustadt-) Lambrecht;Iggelbach (-Johanniskreuz);
+511;bus;;Neustadt Haardt;Hauptfriedhof;Busverkehr Imfeld
+512;bus;;Neustadt;Forst;Busverkehr Imfeld
+514;bus;;Neustadt Hbf;Mußbach;Busverkehr Imfeld
+515;bus;;Afrikaviertel;Heidenbrunnental;Busverkehr Imfeld
+517;bus;;Johanniskreuz;Neustadt;Busverkehr Imfeld
+518;bus;;Haßloch Bf;Holiday Park;SWEG
+520;bus;;Ranschbach;Landau;SWEG
+521;bus;;Landau;Ramberg;SWEG
+522;bus;;Schülerverkehr Ramberg / Siebeldingen;Annweiler;SWEG
+523;bus;;Albersweiler;Bindersbach;SWEG
+524;bus;;Pfalzklinikum;Albersweiler;SWEG
+525;bus;;Bad Bergzabern;Annweiler;SWEG
+526;bus;;Hauenstein / Hofstätten;Annweiler;SWEG
+527;bus;;Annweiler;Burg Trifels;SWEG
+530;bus;;Landau;Ranschbach;SWEG
+531;bus;;Landau;Annweiler;SWEG
+532;bus;;Freizeitbus Trifelsland: Forsthaus Taubensuhl;Silz;SWEG
+535;bus;;Landau Danziger Platz;Wollmesheimer Höhe;SWEG
+536;bus;;Mörlheim;Landau;SWEG
+537;bus;;Stadtbus Landau: Hbf/ZOB;Hbf/ZOB;SWEG
+538;bus;;Landau;Mörzheim;SWEG
+539;bus;;Venningen;Landau;SWEG
+540;bus;;Landau;Bad Bergzabern;DB Regio Bus Mitte GmbH
+541;bus;;Bad Bergzabern;Landau;DB Regio Bus Mitte GmbH
+543;bus;;Bad Bergzabern;Wissembourg;DB Regio Bus Mitte GmbH
+544;bus;;Bad Bergzabern;Schweighofen;DB Regio Bus Mitte GmbH
+545;bus;;Dahn;Bad Bergzabern;SWEG
+546;bus;;Kandel;Böllenborn;DB Regio Bus Mitte GmbH
+546A;bus;;Hergersweiler;Hergersweiler;DB Regio Bus Mitte GmbH
+547;bus;;Bad Bergzabern;Wörth;DB Regio Bus Mitte GmbH
+548;bus;;Leimersheim;Wörth;DB Regio Bus Mitte GmbH
+549;bus;;Kandel;Wörth;DB Regio Bus Mitte GmbH
+550;bus;Regio-Linie;Landau;Germersheim;BRH Viabus GmbH
+552;bus;;Landau;Rheinzabern;BRH Viabus GmbH
+554;bus;;Kandel;Kandel;BRH Viabus GmbH
+555;bus;;Landau;Hördt;BRH Viabus GmbH
+556;bus;;Jockgrim;Landau;BRH Viabus GmbH
+557;bus;;Neupotz;Landau;BRH Viabus GmbH
+558;bus;;Herxheim;Landau;BRH Viabus GmbH
+559;bus;;Herxheim;Bellheim / Hochstadt;BRH Viabus GmbH
+561;bus;;Speyer Hbf/ZOB;Hbf/ZOB;DB Regio Bus Mitte GmbH
+562;bus;;Speyer Neuland;Hbf/ZOB;DB Regio Bus Mitte GmbH
+563;bus;;Speyer Hbf/ZOB;Vogelgesang;DB Regio Bus Mitte GmbH
+564;bus;;Speyer Nord;Flugzeugwerke;DB Regio Bus Mitte GmbH
+565;bus;;Speyer Flugzeugwerke;Speyer Nord;DB Regio Bus Mitte GmbH
+566;bus;;Speyer Hbf/ZOB;Hbf/ZOB;DB Regio Bus Mitte GmbH
+567;bus;;Speyer Hbf/ZOB;Speyer Hbf/ZOB;DB Regio Bus Mitte GmbH
+568;bus;;Römerberg;Hbf/ZOB;DB Regio Bus Mitte GmbH
+569;bus;;Speyer Hasenpfühlerweide;Quartiersmensa West;DB Regio Bus Mitte GmbH
+590;bus;;Germersheim;Landau;SWEG
+592;bus;;Freisbach;Lingenfeld;SWEG
+593;bus;;Steinweiler;Wörth;DB Regio Bus Mitte GmbH
+594;bus;;Herxheim;Rheinzabern;DB Regio Bus Mitte GmbH
+595;bus;;Rheinzabern;Germersheim;BRH Viabus GmbH
+596;bus;;Lingenfeld;Rülzheim;BRH Viabus GmbH
+598;bus;;Hördt;Wörth;DB Regio Bus Mitte GmbH
+599;bus;;Freisbach;Germersheim;SWEG
 
 === 6xx
+
+601;bus;;Hofheim;Lampertheim Bahnhof;SWEG
+602;bus;;HP;Schulzentrum West;SWEG
+603;bus;;Lampertheim Biedensand;Seniorenwohnheim;SWEG
+604;bus;;Lampertheim Europabrücke;Biedensand;SWEG
+605;bus;;Lampertheim Pestalozzischule;Neuschloß;SWEG
+606;bus;;Lampertheim Bahnhof;Mannheim Sandhofen (IKEA);SWEG
+611;bus;Ring-Linie;Viernheim: Bahnhof;Bahnhof;SWEG
+612;bus;City-Linie;Viernheim: Bahnhof;Bahnhof;SWEG
+624;bus;Schulverkehr;Heiligkreuzsteinach;Schriesheim-Röschbach;SWEG
+625;bus;;Feudenheim;Seckenheim Rathaus;SWEG
+626;bus;;Feudenheim;Seckenheim Rathaus;SWEG
+627;bus;;Heddesheim;Pflastermühle;SWEG
+628;bus;;Seckenheim;Wilhelmsfeld;SWEG
+629;bus;;Ringlinie: Heddesheim;Großsachsen;SWEG
+630;bus;;Ringlinie: Heddesheim;Leutershausen;SWEG
+631;bus;;Weinheim;Sulzbach West;SWEG
+632;bus;;Lützelsachsen;Laudenbach;SWEG
+632A;bus;;Ritschweier;Hemsbach;SWEG
+633;bus;;Ringlinie: Hbf;Hbf;SWEG
+634;bus;;Ringlinie: Hbf;Hbf;SWEG
+635;bus;;Ritschweier;Laudenbach;SWEG
+652;bus;;Bobstadt;Boxheimer Hof;SWEG
+655;bus;;Lampertheim;Riedrode;SWEG
+659;bus;;Sprendlingen;Wöllstein;DB Regio Bus Mitte GmbH
+659;bus;;Wöllstein;Sprendlingen;SWEG
+675;bus;;Elsenz;Eppingen;SWEG
+678;bus;;Rufbus: Partenheim;Wörrstadt;SWEG
+678;bus;;Rufbus: Wörrstadt;Partenheim;DB Regio Bus Mitte GmbH
+693;bus;;Darmstadt;Fürth;SWEG
 
 === 7xx
 
 ==== Wiesloch (70x)
 
+701;bus;;Wiesloch-Walldorf Bf;Rauenberg;SWEG
+702;bus;;Rot-Malsch Bf;Wiesloch-Walldorf Bf;SWEG
+703;bus;;Wiesloch-Walldorf Bf;Waldangelloch;SWEG
+704;bus;;Mühlhausen;Rot-Malsch Bahnhof;SWEG
+705;bus;;St. Leon;Östringen;SWEG
+706;bus;;Walldorf IKEA;Wiesloch;SWEG
+707;bus;;Schatthausen;Walldorf Industriegebiet;SWEG
+708;bus;;Walldorf Astoria-Halle;Wiesloch;SWEG
+709;bus;;Bf Wiesloch-Walldorf / Frauenweiler;Wiesloch PZN;SWEG
+
 ==== 71x
 
-717;bus;;;;
-718;bus;;;;
+710;bus;;Mannheim;Schwetzingen;SWEG
+711;bus;;Mannheim;Schwetzingen;SWEG
+712;bus;;Schwetzingen;Walldorf;SWEG
+713;bus;;Heidelberg Pfaffengrund;Heidelberg Pfaffengrund;SWEG
+714;bus;Bürgerbus;Plankstadt;;SWEG
+715;bus;Stadtbus;Schwetzingen: Bahnhof;Bahnhof;SWEG
+716;bus;Stadtbus;Schwetzingen: Bahnhof;Bahnhof;SWEG
+717;bus;;Heidelberg;Speyer;SWEG
+717 B;bus;Shuttle;Luxhof;Speyer;SWEG
+718;bus;;Walldorf;Altlußheim;SWEG
+719;bus;;Rot-Malsch Bf;Neulußheim;SWEG
+
+==== 72x bis 75x
+
+720;bus;;Heidelberg;St. Leon-Rot;SWEG
+720;bus;;Sandhausen Nord;Sandhausen Sportzentrum Zusatzfahrten zum Heimspiel des SV Sandhausen;
+721;bus;;HD-Neuenheim;Wiesloch-Walldorf Bf;SWEG
+722;bus;;Heidelberg Kirchheim Rathaus;Heidelberg Kirchheim Rathaus;SWEG
+723;bus;;Leimen;Wiesloch;SWEG
+724;bus;Schnellbus;Wiesloch;Heidelberg;SWEG
+725;bus;Ortsbus;Sandhausen Lebenshilfe;St. Ilgen Bf;SWEG
+726;bus;Schulverkehr;Sandhausen;Nußloch;SWEG
+728;bus;Schulverkehr;Förderschule Schwetzingen;;SWEG
+731;bus;Stadtverkehr;Hockenheim Ringlinie;;SWEG
+732;bus;City-Bus;Eppelheim;;SWEG
+735;bus;;Heidelberg;Heiligkreuzsteinach;SWEG
+736;bus;Schulverkehr;Kleingemünd;Neckargemünd;SWEG
+737;bus;;Wiesenbach;Gaiberg;SWEG
+743;bus;;Meckesheim;Waldwimmersbach;SWEG
+744;bus;Schulbusverkehr;Lobenfeld;Waldwimmersbach;SWEG
+745;bus;;Neckarbischofsheim;Aglasterhausen und zurück;SWEG
+746;bus;Schulverkehr;Neckargemünd;;SWEG
+748;bus;Schulverkehr;Zuzenhausen;Neckargemünd;SWEG
+751;bus;City-Bus;Leimen;Leimen;SWEG
+752;bus;;Heidelberg;Mückenloch;SWEG
+753;bus;;Mückenloch;Kleingemünd;SWEG
+754;bus;;Heidelberg;Schönbrunn;SWEG
+755;bus;;Heidelberg;Sinsheim;SWEG
+757;bus;;Heidelberg;Schatthausen;SWEG
+758;bus;City-Bus;Leimen;Sandhausen;SWEG
+759;bus;;St. Ilgen;St. Ilgen;SWEG
 
 ==== Sinsheim (76x bis 79x und 741)
 
+760;bus;;Mühlhausen;Stadionverkehr TSG Hoffenheim;SWEG
+791;bus;;Östringen;Waldangelloch;SWEG
+792;bus;;Tairnbach;Östringen Schulzentrum;SWEG
+793;bus;Schulverkehr;Wiesloch Schillerschule und Maria-Sibylla-Merian Schule;;SWEG
+794;bus;;Mauer Bahnhof;Schatthausen;SWEG
+
 === 8xx
 
-821;bus;;Buchen;Eberbach;
-822;bus;;Mosbach;Eberbach;
-823;bus;;Buchen;Buchen;
-828;bus;;Mosbach;Neckarmühlbach;
-830;bus;;Diedesheim;Mosbach;
-831;bus;;Neckarelz;Mosbach;
-832;bus;;Neckarelz;Mudau;
-833;bus;;Mosbach;Obrigheim;
-834;bus;;Mosbach;Sattelbach;
-835;bus;;Mosbach;Oberschefflenz;
-836;bus;;Mosbach;Neunkirchen;
-837;bus;;Mosbach;Waldbrunn;
-838;bus;;Mosbach;Mosbach;
-841;bus;;Neckarelz;Schweinberg;
-842;bus;;Seckach;Walldüm;
-843;bus;;Buchen;Gerichtstetten;
-844;bus;;Buchen;Unterginsbach;
-845;bus;;Ringlinie: Buchen Hauptbahnhof;Hauptbahnhof
-848;bus;;Buchen;Großeicholzheim;
-899;bus;;Neckarelz;Sinsheim;
+801;bus;;Eberbach Bahnhof;Ledigsberg und zurück;SWEG
+802;bus;;Eberbach Bf;Eberbach Bf;SWEG
+803;bus;;Eberbach Bf;Eberbach Bf;SWEG
+804;bus;;Eberbach Bf;Eberbach Bf;SWEG
+805;bus;;Eberbach Bahnhof;Eberbach Bahnhof;SWEG
+806;bus;;Langenthal;Langenthal;SWEG
+807;bus;;Eberbach Bahnhof;Ledigsberg;SWEG
+808;bus;;Eberbach Schulverkehr;SWEG;
+809;bus;;Eberbach Bahnhof;Eberbach Bahnhof;SWEG
+817;bus;;Grein;Neckarsteinach und zurück;
+821;bus;;Eberbach;Buchen;SWEG
+822;bus;;Mosbach;Eberbach;SWEG
+823;bus;;Buchen;Buchen;SWEG
+824;bus;;Aglasterhausen;Aglasterhausen;SWEG
+828;bus;;Mosbach;Neckarmühlbach;SWEG
+830;bus;Stadtverkehr;Mosbach I;;SWEG
+831;bus;Stadtverkehr;Mosbach II;;SWEG
+832;bus;;Neckarelz;Mudau;SWEG
+833;bus;;Mosbach;Obrigheim;SWEG
+834;bus;;Mosbach;Sattelbach;SWEG
+835;bus;;Mosbach;Oberschefflenz;SWEG
+836;bus;;Neunkirchen;Mosbach;SWEG
+837;bus;;Mosbach;Weisbach;SWEG
+838;bus;;Mosbach;Mosbach;SWEG
+839;bus;;Neckargerach Bf;Neunkirchen;SWEG
+840;bus;Schulverkehr/Ortsverkehr;Limbach;;SWEG
+841;bus;;Neckarelz;Schweinberg;SWEG
+842;bus;;Seckach;Amorbach;SWEG
+843;bus;;Buchen;Gerichtstetten;SWEG
+844;bus;;Buchen;Unterginsbach;SWEG
+845;bus;Stadtverkehr;Buchen;;SWEG
+846;bus;Stadtbuslinie;Walldürn;;SWEG
+848;bus;;Großeicholzheim;Buchen;SWEG
+849;bus;;Glashofen;Altheim;SWEG
+850;bus;;Würzburg;Hardheim;SWEG
+851;bus;;Wittighausen;Osterburken;SWEG
+857;bus;;Leibenstadt;Osterburken;
+899;bus;;Sinsheim;Mosbach;SWEG
 
 === 9xx
 
-999;bus;;Regiobus Buchen;Tauberbischofsheim;
+900;bus;;Donnersberglinie: Kirchheimbolanden;Winnweiler;SWEG
+901;bus;;Kirchheimbolanden;Rockenhausen;SWEG
+902;bus;;Gaugrehweiler;Eisenberg;SWEG
+903;bus;;Rockenhausen;Eisenberg;SWEG
+904;bus;;Kirchheimbolanden;Eisenberg;SWEG
+905;bus;;Winnweiler;Rohrbach;SWEG
+906;bus;;Rockenhausen;Eisenberg;SWEG
+907;bus;;Ilbesheim;Kirchheimbolanden;SWEG
+908;bus;;Alsenz;Winnweiler;SWEG
+911;bus;;Rockenhausen;Winnweiler;SWEG
+912;bus;;Reipoltskirchen;Rockenhausen;SWEG
+913;bus;;Alsenz;Rockenhausen;SWEG
+914;bus;;Alsenz;Rockenhausen;SWEG
+915;bus;;Alsenz;Rockenhausen;SWEG
+917;bus;;Eisenberger Flitzer: Eisenberg;Stauf;SWEG
+918;bus;;Eisenberger Flitzer:  Rosenthal;Eisenberg;SWEG
+920;bus;;RegioLinie  Eisenberg;Kirchheimbolanden;SWEG
+921;bus;;Kirchheimbolanden;Monsheim;SWEG
+922;bus;;Alsenz;Kirchheimbolanden;SWEG
+924;bus;;RockiBus Rockenhausen: Bahnhof;Bahnhof;SWEG
+925;bus;;RockiBus Rockenhausen: Bahnhof;Bahnhof;SWEG
+926;bus;;RockiBus Rockenhausen: Bahnhof;Bahnhof;SWEG
+927;bus;;ResidenzRenner Kirchheimbolanden: Bahnhof;Bahnhof;SWEG
+928;bus;;ResidenzRenner Kirchheimbolanden: Bahnhof;Bahnhof;SWEG
+929;bus;;ResidenzRenner Kirchheimbolanden: Bahnhof;Bahnhof;SWEG
+931;bus;;Frankfurt;Rothenburg o.d.T.;
+933;bus;;Krautheim;Bad Mergentheim;SWEG
+934;bus;;Bad Mergentheim;Boxberg;SWEG
+937;bus;;Boxberg;Boxberg;SWEG
+939;bus;;Eubigheim;Schillingstadt;SWEG
+940;bus;;Ringverkehr Grünsfeld;Grünsfeld;SWEG
+941;bus;;Wertheim;Lauda;SWEG
+942;bus;;Lauda;Boxberg-Unterschüpf;SWEG
+943;bus;;Lauda;Unterbalbach;SWEG
+944;bus;;Apfelbach;Bad Mergentheim;SWEG
+945;bus;;Bad Mergentheim;Lauda;SWEG
+949;bus;;Bowiesen;Bad Mergentheim;SWEG
+952;bus;;Bad Mergentheim;Bowiesen;SWEG
+955;bus;;Hollenbach;Bad Mergentheim;SWEG
+956;bus;Stadtbus;Bad Mergentheim Weberdorf;Herrenwiesen;SWEG
+957;bus;Stadtbus;Bad Mergentheim Löffelstelzen;SWEG;
+958;bus;Stadtbus;Bad Mergentheim Igersheim;Neunkirchen;SWEG
+959;bus;;Bad Mergentheim;Oberstetten;SWEG
+961;bus;;Weikersheim;Weikersheim;SWEG
+962;bus;;Weikersheim;Lichtenhöfe;SWEG
+963;bus;;Weikersheim;Creglingen;SWEG
+964;bus;;Ringverkehr Niederstetten;Niederstetten;SWEG
+965;bus;;Niederstetten;Weikersheim;SWEG
+966;bus;;Niederstetten;Streichental;SWEG
+967;bus;;Creglingen;Creglingen;SWEG
+968;bus;;Creglingen;Creglingen;SWEG
+969;bus;;Creglingen;Creglingen;SWEG
+970;bus;;Creglingen;Creglingen;SWEG
+971;bus;;Tauberbischofsheim;Wertheim;SWEG
+972;bus;;Freudenberg;Wertheim;SWEG
+973;bus;;Höhefeld;Wertheim;SWEG
+974;bus;Stadtverkehr;Wertheim ZOB;Wartberg;SWEG
+975;bus;Stadtverkehr;Wertheim ZOB;Vockenrot;SWEG
+976;bus;Stadtverkehr;Wertheim;Hofgarten;SWEG
+977;bus;;Miltenberg;Würzburg;SWEG
+980;bus;;Weikersheim;Rothenburg;SWEG
+982/85;bus;;Miltenberg;Wertheim;SWEG
+986;bus;;Marktheidenfeld;Wertheim;SWEG
+988;bus;Night-Life-Shuttle;Bad Mergentheim;Tauberbischofsheim;SWEG
+989;bus;Night-Life-Shuttle;O´st/Niederstetten;Würzburg;SWEG
+990;bus;Night-Life-Shuttle;Külsheim;Würzburg;SWEG
+991;bus;Night-Life-Shuttle;Wertheim;Würzburg;SWEG
+999;bus;;Tauberbischofsheim;Buchen;SWEG
 
 == Ruftaxi
+
+=== 1xxx
+
+1003;share_taxi;Ruftaxi;Mannheim Friedrichsfeld Mitte;Alteichwaldsiedlung und zurück;RNV Rhein-Neckar-Verkehr GmbH
+1004;share_taxi;Ruftaxi;Heidelberg Bismarckplatz;EMBL;RNV Rhein-Neckar-Verkehr GmbH
+1005;share_taxi;Ruftaxi;Heidelberg Hausackerweg;S-Bf.Schlierbach/Zgh.;RNV Rhein-Neckar-Verkehr GmbH
+1006;share_taxi;Ruftaxi;Heidelberg Ziegelhausen;Ziegelhausen;RNV Rhein-Neckar-Verkehr GmbH
+1007;share_taxi;Ruftaxi;Heidelberg Bismarckplatz;Kohlhof Fachklinik;RNV Rhein-Neckar-Verkehr GmbH
+1008;share_taxi;Ruftaxi;Heidelberg Handschuhsh. H.-Thoma-Platz;H.-Thoma-Platz;RNV Rhein-Neckar-Verkehr GmbH
+1009;share_taxi;Ruftaxi;Heidelberg Wieblingen;Pfaffengrund;RNV Rhein-Neckar-Verkehr GmbH
+1010;share_taxi;Ruftaxi;Heidelberg Rohrbach Markt;Rohrbach Berghalde;RNV Rhein-Neckar-Verkehr GmbH
+1011;share_taxi;Ruftaxi;Heidelberg Kirchheim Rathaus;Neurott;RNV Rhein-Neckar-Verkehr GmbH
+1012;share_taxi;Ruftaxi;Heidelberg Ziegelhausen Fürstendamm;Sitzbuchweg;RNV Rhein-Neckar-Verkehr GmbH
+1013;share_taxi;Ruftaxi;Heidelberg Wieblingen Mitte;Wieblingen Grenzhof;RNV Rhein-Neckar-Verkehr GmbH
+1071;share_taxi;Ruftaxi;Ludwigshafen Ludwigshafen Rathaus;Ebertpark Süd;RNV Rhein-Neckar-Verkehr GmbH
+1072;share_taxi;Ruftaxi;Ludwigshafen Ludwigshafen Ruchheim;Oggersheim;RNV Rhein-Neckar-Verkehr GmbH
+1075;share_taxi;Ruftaxi;Ludwigshafen Ludwigshafen Hochschule;Berliner Platz;RNV Rhein-Neckar-Verkehr GmbH
+1077;share_taxi;Ruftaxi;Ludwigshafen: Ludwigshafen Berliner Platz;Berliner Platz;RNV Rhein-Neckar-Verkehr GmbH
+
+=== 8xxx
 
 8930;share_taxi;;Seckach - Buchen;Hardheim;
 8943;share_taxi;;Buchen - Mudau;Buchen;

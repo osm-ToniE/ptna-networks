@@ -68,8 +68,8 @@ K2;bus;;;;
 K3;bus;;;;
 K4;bus;;;;
 
-City-Bus;bus;;;;
-Oberhaus-Bus;bus;;;;
+City-Bus;bus;;;;Stadtwerke Passau GmbH
+Oberhausbus;bus;Rathaus;Oberhausmuseum;;Stadtwerke Passau GmbH
 
 
 === Abendverkehr

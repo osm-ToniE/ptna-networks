@@ -93,6 +93,7 @@ RE83;train;;;;DB Regio AG Nord
 1;bus;;;;Stadtverkehr Lübeck GmbH
 1;bus;;;;Aktiv Bus
 1;bus;;;;Stadtverkehr Rendsburg
+1;bus;;Husum, ZOB;Husum, ZOB;Autokraft
 2;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
 2A;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
 2;bus;;;;Stadtverkehr Lübeck GmbH
@@ -101,6 +102,7 @@ RE83;train;;;;DB Regio AG Nord
 3;bus;;;;Stadtverkehr Lübeck GmbH
 3;bus;;;;Aktiv Bus
 3;bus;;;;Stadtverkehr Rendsburg
+3;bus;;Husum ZOB;Husum ZOB;Autokraft 
 4;bus;;;;Stadtverkehr Lübeck GmbH
 4;bus;;;;Aktiv Bus
 4;bus;;;;Autokraft
@@ -114,8 +116,9 @@ RE83;train;;;;DB Regio AG Nord
 6;bus;;;;Stadtverkehr Rendsburg
 7;bus;;;;Stadtverkehr Lübeck GmbH
 7;bus;;;;Aktiv Bus
-7;bus;;;;Autokraft GmbH
+7;bus;;Parkplatz, Flintbek;Parkplatz, Flintbek;Autokraft GmbH
 7;bus;;;;Stadtverkehr Rendsburg
+7;bus;;Husum, ZOB;Husum, ZOB;Autokraft
 8;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
 8;bus;;;;Stadtverkehr Lübeck
 9;bus;;;;KVG - Kieler Verkehrsgesellschaft mbH
