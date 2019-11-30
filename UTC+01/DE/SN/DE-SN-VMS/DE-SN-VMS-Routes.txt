@@ -126,7 +126,7 @@ I;bus;Tour 2: Freiberg (Friedeburg - Wasserberg - Seilerberg) - Busbahnhof - Ind
 20;bus;Planitz, Markt - Rottmannsdorf / Hüttelsgrün;Planitz, Markt;Rottmannsdorf / Hüttelsgrün;SVZ
 21;bus;Neumarkt - Georgenplatz - Brand - Weißenbrunn, Mühlensteig;;;SVZ
 22;bus;Zentralhaltestelle - (Newtonstraße -) Niederhohndorf;;;SVZ
-23/141;bus;Zwickau, Hbf - Zwickau, Oberhohndorf - Reinsdorf - Vielau - Wildenfels - Hartenstein - Langenbach;;;SVZ;RVW
+23;bus;Hauptbahnhof - Oberhohndorf, Gasthaus;Hauptbahnhof;Oberhohndorf, Gasthaus;Städtische Verkehrsbetriebe Zwickau GmbH
 24;bus;Auerbach - Neumarkt - Pöhlau;;;SVZ
 27;bus;Städtisches Klinikum - Paulusstraße - Neuplanitz - Planitz, Markt;;;SVZ
 28;bus;Dresdner Straße - Eckersbach - Weißenborn;;;SVZ
@@ -243,6 +243,7 @@ STL 2;bus;Bahnhof - Niederdorf - Auer Straße - Albrecht-Dürer-Straße - Bahnho
 138;bus;Zwickau - Mülsen - Neuschönburg - Marienau;;;Regionalverkehr Westsachsen GmbH
 139;bus;Zwickau - Lichtenstein;;;Regionalverkehr Westsachsen GmbH
 140;bus;Zwickau - Mülsen - Thurm;;;RVW
+141;bus;Zwickau - Wildenfels - Hartenstein - Langenbach;;;Regionalverkehr Westsachsen GmbH
 142;bus;Wildenfels - Zschocken - Thierfeld - Hartenstein;;;RVW
 143;bus;Zwickau - Ebersbrunn - Hirschfeld;;;RVW
 147;bus;Kirchberg - Bärenwalde - Obercrinitz;;;RVW

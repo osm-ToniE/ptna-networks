@@ -112,7 +112,6 @@ HBEL;ferry;;;;
 == MetroBus
 1;bus;;;;
 2;bus;;;;
-3;bus;;;;
 4;bus;;;;
 5;bus;;;;
 6;bus;;;;
@@ -126,6 +125,7 @@ HBEL;ferry;;;;
 14;bus;;;;
 15;bus;;;;
 17;bus;;;;
+19;bus;;;;
 20;bus;;;;
 21;bus;;;;
 22;bus;;;;
@@ -135,19 +135,21 @@ HBEL;ferry;;;;
 26;bus;;;;
 27;bus;;;;
 28;bus;;;;
+29;bus;;;;
 
 == Schnellbus
 31;bus;;;;
 34;bus;;;;
-35;bus;;;;
 36;bus;;;;
 37;bus;;;;
 
-== EilBus
-E30;bus;;;;
-E40;bus;;;;
-E69;bus;;;;
-E86;bus;;;;
+== XpressBus
+X3;bus;;;;
+X30;bus;;;;
+X32;bus;;;;
+X35;bus;;;;
+X40;bus;;;;
+X86;bus;;;;
 
 == Nachtbus
 600;bus;;;;
@@ -175,9 +177,6 @@ E86;bus;;;;
 639;bus;;;;
 640;bus;;;;
 641;bus;;;;
-642;bus;;;;
-643;bus;;;;
-644;bus;;;;
 647;bus;;;;
 648;bus;;;;
 649;bus;;;;
@@ -192,6 +191,7 @@ E86;bus;;;;
 116;bus;;;;
 118;bus;;;;
 120;bus;;;;
+122;bus;;;;
 124;bus;;;;
 130;bus;;;;
 131;bus;;;;
@@ -201,13 +201,13 @@ E86;bus;;;;
 137;bus;;;;
 138;bus;;;;
 139;bus;;;;
-140;bus;;;;
+140;bus;;;;Hamburger Hochbahn AG
 141;bus;;;;
 142;bus;;;;
 143;bus;;;;
 144;bus;;;;
 145;bus;;;;
-146;bus;;;;
+146;bus;;;;Hamburger Hochbahn AG
 148;bus;;;;
 149;bus;;;;
 150;bus;;;;
@@ -216,7 +216,7 @@ E86;bus;;;;
 153;bus;;;;
 154;bus;;;;
 156;bus;;;;
-157;bus;;;;
+157;bus;;;;Hamburger Hochbahn AG
 160;bus;;;;
 162;bus;;;;
 163;bus;;;;
@@ -267,7 +267,6 @@ E86;bus;;;;
 239;bus;;;;
 240;bus;;;;
 241;bus;;;;
-# 243;bus;;;; # Nicht mehr im System zu finden
 245;bus;;;;
 247;bus;;;;
 248;bus;;;;
@@ -314,12 +313,12 @@ E86;bus;;;;
 337;bus;;;;
 338;bus;;;;
 339;bus;;;;
-340;bus;;;;
+340;bus;;;;Hamburger Hochbahn AG
 343;bus;;;;
 345;bus;;;;
 347;bus;;;;
 348;bus;;;;
-349;bus;;;;
+349;bus;;;;Hamburger Hochbahn AG
 351;bus;;;;
 354;bus;;;;
 355;bus;;;;
@@ -338,6 +337,7 @@ E86;bus;;;;
 391;bus;;;;
 392;bus;;;;
 393;bus;;;;
+394;bus;;;;
 395;bus;;;;
 410;bus;;;;
 411;bus;;;;
@@ -378,7 +378,7 @@ E86;bus;;;;
 537;bus;;;;
 539;bus;;;;
 540;bus;;;;
-543;bus;;;;
+543;bus;;;;Hamburger Hochbahn AG
 548;bus;;;;
 562;bus;;;;
 563;bus;;;;
@@ -405,7 +405,150 @@ E86;bus;;;;
 794;bus;;;;
 796;bus;;;;
 
-== Busse im Umland
+== Busverkehr im Kreis Stormarn
+=== StadtBus
+169;bus;;;;
+269;bus;;;;
+268;bus;;;;
+369;bus;;;;
+376;bus;;;;
+536;bus;;;;
+769;bus;;;;
+776;bus;;;;
+648;bus;;;;
+658;bus;;;;
+896;bus;;;;
+8101;bus;;;;Autokraft GmbH
+8102;bus;;;;Autokraft GmbH
+8103;bus;;;;Autokraft GmbH
+8104;bus;;;;Autokraft GmbH
+8105;bus;;;;Autokraft GmbH
+8106;bus;;;;
+
+
+=== RegionalBus
+333;bus;;;;
+433;bus;;;;
+8110;bus;;;;
+8111;bus;;;;Autokraft GmbH
+8112;bus;;;;Autokraft GmbH
+8113;bus;;;;Autokraft GmbH
+8114;bus;;;;Autokraft GmbH
+8115;bus;;;;Autokraft GmbH
+8116;bus;;;;Autokraft GmbH
+8117;bus;;;;Autokraft GmbH
+8118;bus;;;;Autokraft GmbH
+8119;bus;;;;Autokraft GmbH
+8120;bus;;;;
+8130;bus;;;;
+8140;bus;;;;
+8160;bus;;;;
+8170;bus;;;;
+8180;bus;;;;
+8181;bus;;;;
+8182;bus;;;;
+
+== Busverkehr im Kreis Herzogtum Lauenburg
+=== StadtBus
+443;bus;;;;
+539;bus;;;;
+8502;bus;;;;
+
+=== RegionalBus
+735;bus;;;;
+8752;bus;;;;
+8754;bus;;;;
+8794;bus;;;;
+8755;bus;;;;
+8792;bus;;;;
+8800;bus;;;;
+8810;bus;;;;
+8811;bus;;;;
+8830;bus;;;;
+8831;bus;;;;
+
+== Busverkehr im Landkreis Lüneburg
+=== StadtBus
+5002;bus;;;;
+5003;bus;;;;
+5004;bus;;;;
+5005;bus;;;;
+5006;bus;;;;
+5007;bus;;;;
+5009;bus;;;;
+5010;bus;;;;
+5011;bus;;;;
+5012;bus;;;;
+5013;bus;;;;
+5014;bus;;;;
+5015;bus;;;;
+5019;bus;;;;
+5020;bus;;;;
+
+=== RegionalBus
+5100;bus;;;;
+5110;bus;;;;
+5200;bus;;;;
+5300;bus;;;;
+5600;bus;;;;
+5700;bus;;;;
+5900;bus;;;;
+
+== Busverkehr im Landkreis Harburg
+=== StadtBus
+343;bus;;;;KVG
+348;bus;;;;
+440;bus;;;;KVG
+540;bus;;;;KVG
+548;bus;;;;
+4001;bus;;;;
+4002;bus;;;;
+4801;bus;;;;KVG
+
+=== RegionalBus
+149;bus;;;;
+4148;bus;;;;
+4200;bus;;;;
+4210;bus;;;;
+4402;bus;;;;
+4405;bus;;;;
+4406;bus;;;;
+4407;bus;;;;
+4410;bus;;;;
+4604;bus;;;;
+4605;bus;;;;
+4606;bus;;;;
+4608;bus;;;;
+4663;bus;;;;
+4665;bus;;;;
+4666;bus;;;;
+4860;bus;;;;KVG
+4870;bus;;;;
+4888;bus;;;;KVG
+
+== Busverkehr im Landkreis Stade
+=== StadtBus
+=== RegionalBus
+2024;bus;;;;
+2040;bus;;;;
+2044;bus;;;;
+2050;bus;;;;
+2062;bus;;;;
+2063;bus;;;;
+2064;bus;;;;
+2103;bus;;;;
+2365;bus;;;;KVG
+2368;bus;;;;KVG
+2369;bus;;;;KVG
+2370;bus;;;;KVG
+2371;bus;;;;KVG
+2372;bus;;;;KVG
+2373;bus;;;;KVG
+2375;bus;;;;
+2376;bus;;;;
+2377;bus;;;;
+
+== Busse im Umland (Nach neuer Unterteilung oben, muss hier noch geräumt und verteilt werden)
 1705;bus;;;;
 1824;bus;;;;
 2001;bus;;;;
