@@ -84,21 +84,21 @@ RE80;train;;;;DB Regio AG
 RE83;train;;Kiel;Lüneburg;DB Regio AG Nord
 
 == S-Bahn
-A1;train;;;;AKN Eisenbahn GmbH
-A2;train;;;;AKN Eisenbahn GmbH
-A3;train;;;;AKN Eisenbahn GmbH
-S1;light_rail;;;;S-Bahn Hamburg GmbH
-S11;light_rail;;;;S-Bahn Hamburg GmbH
-S2;light_rail;;;;S-Bahn Hamburg GmbH
-S21;light_rail;;;;S-Bahn Hamburg GmbH
-S3;light_rail;;;;S-Bahn Hamburg GmbH
-S31;light_rail;;;;S-Bahn Hamburg GmbH
+A1;train;;Eidelstedt;Neumünster / Hamburg Hbf;AKN Eisenbahn GmbH
+A2;train;;Norderstedt Mitte;Kaltenkirchen;AKN Eisenbahn GmbH
+A3;train;;Elmshorn;Kaltenkirchen / Ulzburg Süd;AKN Eisenbahn GmbH
+S1;light_rail;;Wedel;Hamburg Airport (Flughafen) / Poppenbüttel;S-Bahn Hamburg GmbH
+S11;light_rail;;Blankenese;Poppenbüttel;S-Bahn Hamburg GmbH
+S2;light_rail;;Altona;Bergedorf;S-Bahn Hamburg GmbH
+S21;light_rail;;Aumühle;Elbgaustraße;S-Bahn Hamburg GmbH
+S3;light_rail;;Pinneberg;Stade;S-Bahn Hamburg GmbH
+S31;light_rail;;Altona;Berliner Tor / Neugraben;S-Bahn Hamburg GmbH
 
 == U-Bahn
-U1;subway;;;;Hamburger Hochbahn AG
-U2;subway;;;;Hamburger Hochbahn AG
-U3;subway;;;;Hamburger Hochbahn AG
-U4;subway;;;;Hamburger Hochbahn AG
+U1;subway;;Norderstedt Mitte;Großhansdorf / Ohlstedt;Hamburger Hochbahn AG
+U2;subway;;Niendorf Nord;Mümmelmannsberg;Hamburger Hochbahn AG
+U3;subway;;Barmbek;Wandsbek-Gartenstadt;Hamburger Hochbahn AG
+U4;subway;;Billstedt;Elbbrücken;Hamburger Hochbahn AG
 
 == Hafenfähren
 61;ferry;;;;HADAG Seetouristik und Fährdienst AG
@@ -108,8 +108,8 @@ U4;subway;;;;Hamburger Hochbahn AG
 73;ferry;;;;HADAG Seetouristik und Fährdienst AG
 75;ferry;;;;HADAG Seetouristik und Fährdienst AG
 HBEL;ferry;;;;
-
-== MetroBus
+== Busse in der Stadt Hamburg
+=== MetroBus
 1;bus;;;;
 2;bus;;;;
 4;bus;;;;
@@ -137,13 +137,13 @@ HBEL;ferry;;;;
 28;bus;;;;
 29;bus;;;;
 
-== Schnellbus
+=== Schnellbus
 31;bus;;;;
 34;bus;;;;
 36;bus;;;;
 37;bus;;;;
 
-== XpressBus
+=== XpressBus
 X3;bus;;;;
 X30;bus;;;;
 X32;bus;;;;
@@ -151,7 +151,7 @@ X35;bus;;;;
 X40;bus;;;;
 X86;bus;;;;
 
-== Nachtbus
+=== Nachtbus
 600;bus;;;;
 601;bus;;;;
 602;bus;;;;
@@ -178,12 +178,19 @@ X86;bus;;;;
 640;bus;;;;
 641;bus;;;;
 647;bus;;;;
-648;bus;;;;
 649;bus;;;;
-658;bus;;;;
 688;bus;;;;
 
-== Stadt- und Regionalbus
+=== Stadtbus
+136;bus;;;;
+140;bus;;S Neugragen (Am Johannisland);S Neuwiedenthal;Hamburger Hochbahn AG
+146;bus;;;;Hamburger Hochbahn AG
+157;bus;;;;Hamburger Hochbahn AG
+340;bus;;S Neuwiedenthal;Bf. Harburg;Hamburger Hochbahn AG
+349;bus;;;;Hamburger Hochbahn AG
+543;bus;;Nachtigallenweg;Emmelndorf, Gartenstraße;Hamburger Hochbahn AG
+
+== Stadt- und Regionalbus: teilweise müssen Linen auf die Kreise verteilt werden!
 109;bus;;;;
 111;bus;;;;
 112;bus;;;;
@@ -205,18 +212,13 @@ X86;bus;;;;
 141;bus;;;;
 142;bus;;;;
 143;bus;;;;
-144;bus;;;;
 145;bus;;;;
-146;bus;;;;Hamburger Hochbahn AG
-148;bus;;;;
-149;bus;;;;
 150;bus;;;;
 151;bus;;;;
 152;bus;;;;
 153;bus;;;;
 154;bus;;;;
 156;bus;;;;
-157;bus;;;;Hamburger Hochbahn AG
 160;bus;;;;
 162;bus;;;;
 163;bus;;;;
@@ -224,7 +226,6 @@ X86;bus;;;;
 166;bus;;;;
 167;bus;;;;
 168;bus;;;;
-169;bus;;;;
 170;bus;;;;
 171;bus;;;;
 172;bus;;;;
@@ -280,8 +281,6 @@ X86;bus;;;;
 261;bus;;;;
 263;bus;;;;
 264;bus;;;;
-268;bus;;;;
-269;bus;;;;
 270;bus;;;;
 271;bus;;;;
 274;bus;;;;
@@ -308,17 +307,12 @@ X86;bus;;;;
 329;bus;;;;
 330;bus;;;;
 332;bus;;;;
-333;bus;;;;
 336;bus;;;;
 337;bus;;;;
 338;bus;;;;
 339;bus;;;;
-340;bus;;;;Hamburger Hochbahn AG
-343;bus;;;;
 345;bus;;;;
 347;bus;;;;
-348;bus;;;;
-349;bus;;;;Hamburger Hochbahn AG
 351;bus;;;;
 354;bus;;;;
 355;bus;;;;
@@ -326,10 +320,8 @@ X86;bus;;;;
 363;bus;;;;
 364;bus;;;;
 368;bus;;;;
-369;bus;;;;
 374;bus;;;;
 375;bus;;;;
-376;bus;;;;
 378;bus;;;;
 385;bus;;;;
 388;bus;;;;
@@ -338,7 +330,6 @@ X86;bus;;;;
 392;bus;;;;
 393;bus;;;;
 394;bus;;;;
-395;bus;;;;
 410;bus;;;;
 411;bus;;;;
 412;bus;;;;
@@ -348,11 +339,9 @@ X86;bus;;;;
 427;bus;;;;
 428;bus;;;;
 432;bus;;;;
-433;bus;;;;
 436;bus;;;;
 438;bus;;;;
 439;bus;;;;
-440;bus;;;;
 443;bus;;;;
 447;bus;;;;
 448;bus;;;;
@@ -362,7 +351,6 @@ X86;bus;;;;
 462;bus;;;;
 464;bus;;;;
 465;bus;;;;
-469;bus;;;;
 474;bus;;;;
 476;bus;;;;
 478;bus;;;;
@@ -374,12 +362,7 @@ X86;bus;;;;
 533;bus;;;;
 534;bus;;;;
 535;bus;;;;
-536;bus;;;;
 537;bus;;;;
-539;bus;;;;
-540;bus;;;;
-543;bus;;;;Hamburger Hochbahn AG
-548;bus;;;;
 562;bus;;;;
 563;bus;;;;
 567;bus;;;;
@@ -388,28 +371,36 @@ X86;bus;;;;
 576;bus;;;;
 578;bus;;;;
 588;bus;;;;
-589;bus;;;;
 593;bus;;;;
 594;bus;;;;
-595;bus;;;;
 733;bus;;;;
-735;bus;;;;
 736;bus;;;;
 737;bus;;;;
 764;bus;;;;
 765;bus;;;;
-769;bus;;;;
 774;bus;;;;
-776;bus;;;;
 781;bus;;;;
 794;bus;;;;
 796;bus;;;;
 
 == Busverkehr im Kreis Stormarn
 === StadtBus
+395;bus;;;;
+=== RegionalBus
+589;bus;;;;
+594;bus;;;;
+6668;bus;;;;
+
+== Busverkehr im Kreis Stormarn
+=== StadtBus
+394;bus;;;;
+=== RegionalBus
+
+== Busverkehr im Kreis Stormarn
+=== StadtBus
 169;bus;;;;
-269;bus;;;;
 268;bus;;;;
+269;bus;;;;
 369;bus;;;;
 376;bus;;;;
 536;bus;;;;
@@ -424,7 +415,6 @@ X86;bus;;;;
 8104;bus;;;;Autokraft GmbH
 8105;bus;;;;Autokraft GmbH
 8106;bus;;;;
-
 
 === RegionalBus
 333;bus;;;;
@@ -548,7 +538,7 @@ X86;bus;;;;
 2376;bus;;;;
 2377;bus;;;;
 
-== Busse im Umland (Nach neuer Unterteilung oben, muss hier noch geräumt und verteilt werden)
+== Busse im Umland: Verteilung auf die Kreise noch erforderlich!
 1705;bus;;;;
 1824;bus;;;;
 2001;bus;;;;
@@ -570,11 +560,8 @@ X86;bus;;;;
 2036;bus;;;;
 2037;bus;;;;
 2038;bus;;;;
-2040;bus;;;;
 2043;bus;;;;
-2044;bus;;;;
 2045;bus;;;;
-2050;bus;;;;
 2051;bus;;;;
 2052;bus;;;;
 2053;bus;;;;
@@ -582,7 +569,6 @@ X86;bus;;;;
 2057;bus;;;;
 2060;bus;;;;
 2061;bus;;;;
-2064;bus;;;;
 2065;bus;;;;
 2066;bus;;;;
 2067;bus;;;;
@@ -596,7 +582,6 @@ X86;bus;;;;
 2079;bus;;;;
 2080;bus;;;;
 2081;bus;;;;
-2090;bus;;;;
 2091;bus;;;;
 2092;bus;;;;
 2093;bus;;;;
@@ -604,23 +589,14 @@ X86;bus;;;;
 2096;bus;;;;
 2101;bus;;;;
 2102;bus;;;;
-2103;bus;;;;
 2104;bus;;;;
 2105;bus;;;;
 2111;bus;;;;
 2113;bus;;;;
 2114;bus;;;;
 2129;bus;;;;
-2286;bus;;;;
-2310;bus;;;;
-2322;bus;;;;
-2330;bus;;;;
-2331;bus;;;;
-2332;bus;;;;
-2333;bus;;;;
 2385;bus;;;;
 2386;bus;;;;
-2401;bus;;;;
 2405;bus;;;;
 2703;bus;;;;
 2704;bus;;;;
@@ -634,32 +610,20 @@ X86;bus;;;;
 2719;bus;;;;
 3813;bus;;;;
 3860;bus;;;;
-4001;bus;;;;
-4002;bus;;;;
-4003;bus;;;;
 4037;bus;;;;
 4038;bus;;;;
 4039;bus;;;;
 4101;bus;;;;
 4102;bus;;;;
 4103;bus;;;;
-4148;bus;;;;
 4207;bus;;;;
 4208;bus;;;;
-4244;bus;;;;
 4400;bus;;;;
-4402;bus;;;;
 4404;bus;;;;
-4405;bus;;;;
-4406;bus;;;;
-4407;bus;;;;
 4408;bus;;;;
 4409;bus;;;;
-4410;bus;;;;
 4602;bus;;;;
 4603;bus;;;;
-4604;bus;;;;
-4608;bus;;;;
 4609;bus;;;;
 4611;bus;;;;
 4613;bus;;;;
@@ -680,7 +644,6 @@ X86;bus;;;;
 4650;bus;;;;
 4661;bus;;;;
 4662;bus;;;;
-4663;bus;;;;
 4664;bus;;;;
 4681;bus;;;;
 4682;bus;;;;
@@ -694,42 +657,20 @@ X86;bus;;;;
 4715;bus;;;;
 4716;bus;;;;
 4717;bus;;;;
-4801;bus;;;;
-4860;bus;;;;
-4870;bus;;;;
 4887;bus;;;;
-4888;bus;;;;
 4889;bus;;;;
-4890;bus;;;;
 5001;bus;;;;
-5002;bus;;;;
-5003;bus;;;;
-5004;bus;;;;
-5005;bus;;;;
-5006;bus;;;;
-5007;bus;;;;
-5009;bus;;;;
-5010;bus;;;;
-5011;bus;;;;
-5012;bus;;;;
-5013;bus;;;;
-5014;bus;;;;
-5015;bus;;;;
-5100;bus;;;;
 5101;bus;;;;
 5102;bus;;;;
 5103;bus;;;;
 5104;bus;;;;
-5110;bus;;;;
 5111;bus;;;;
 5112;bus;;;;
 5114;bus;;;;
 5120;bus;;;;
-5200;bus;;;;
 5201;bus;;;;
 5202;bus;;;;
 5203;bus;;;;
-5300;bus;;;;
 5301;bus;;;;
 5302;bus;;;;
 5303;bus;;;;
@@ -740,18 +681,13 @@ X86;bus;;;;
 5403;bus;;;;
 5404;bus;;;;
 5405;bus;;;;
-5600;bus;;;;
 5604;bus;;;;
 5606;bus;;;;
-5610;bus;;;;
-5620;bus;;;;
-5700;bus;;;;
 5701;bus;;;;
 5702;bus;;;;
 5703;bus;;;;
 5705;bus;;;;
 5706;bus;;;;
-5900;bus;;;;
 5901;bus;;;;
 5902;bus;;;;
 5903;bus;;;;
@@ -789,7 +725,6 @@ X86;bus;;;;
 6663;bus;;;;
 6665;bus;;;;
 6667;bus;;;;
-6668;bus;;;;
 6669;bus;;;;
 6702;bus;;;;
 7141;bus;;;;
@@ -836,41 +771,19 @@ X86;bus;;;;
 7975;bus;;;;
 7977;bus;;;;
 7980;bus;;;;
-8101;bus;;;;
-8102;bus;;;;
-8103;bus;;;;
-8104;bus;;;;
 8105;bus;;;;
-8110;bus;;;;
-8111;bus;;;;
-8112;bus;;;;
-8113;bus;;;;
-8114;bus;;;;
-8115;bus;;;;
-8116;bus;;;;
-8117;bus;;;;
-8118;bus;;;;
-8120;bus;;;;
 8121;bus;;;;
 8122;bus;;;;
-8130;bus;;;;
 8131;bus;;;;
 8133;bus;;;;
 8134;bus;;;;
 8136;bus;;;;
-8140;bus;;;;
 8142;bus;;;;
 8145;bus;;;;
 8146;bus;;;;
 8150;bus;;;;
-8160;bus;;;;
-8161;bus;;;;
-8162;bus;;;;
-8163;bus;;;;
-8170;bus;;;;
 8171;bus;;;;
 8501;bus;;;;
-8502;bus;;;;
 8511;bus;;;;
 8512;bus;;;;
 8513;bus;;;;
@@ -899,10 +812,7 @@ X86;bus;;;;
 8742;bus;;;;
 8750;bus;;;;
 8751;bus;;;;
-8752;bus;;;;
 8753;bus;;;;
-8754;bus;;;;
-8755;bus;;;;
 8760;bus;;;;
 8761;bus;;;;
 8762;bus;;;;
@@ -914,12 +824,7 @@ X86;bus;;;;
 8781;bus;;;;
 8790;bus;;;;
 8791;bus;;;;
-8792;bus;;;;
 8793;bus;;;;
-8794;bus;;;;
-8800;bus;;;;
-8810;bus;;;;
-8811;bus;;;;
 8812;bus;;;;
 8813;bus;;;;
 8814;bus;;;;
@@ -927,8 +832,6 @@ X86;bus;;;;
 8821;bus;;;;
 8822;bus;;;;
 8823;bus;;;;
-8830;bus;;;;
-8831;bus;;;;
 8832;bus;;;;
 8833;bus;;;;
 8840;bus;;;;

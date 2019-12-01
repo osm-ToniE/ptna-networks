@@ -387,8 +387,8 @@ RB41;train;Mittelhessenexpress;Treysa;Frankfurt;DB Regio AG Mitte
 RB 42;train;;Dessau;Magdeburg;DB Regio Sachsen-Anhalt
 RB 42;train;;Bad-Harzburg;Braunschweig;erixx GmbH
 RB 43;train;Emschertal-Bahn;Dortmund;Dorsten;NordWestBahn
+RB 43;train;;Magdeburg;Oschersleben;Abellio Rail Mitteldeutschland GmbH
 RB43;train;;Falkenberg (Elster);Cottbus;DB Regio AG
-RB 43;train;;Magdeburg;Halle;DB Regio Südost
 RB 43;train;;Braunschweig;Goslar;erixx GmbH
 RB44;train;;Braunschweig;Salzgitter-Lebenstedt;DB Regio
 RB 44;train;Der Dorstener;Oberhausen;Dorsten;NordWestBahn
@@ -675,6 +675,7 @@ RE25;train;Lahntal-Express;Gießen;Koblenz;DB Regio AG Mitte
 RE29;train;euregioAIXpress;Aachen;Spa-Géronstère;NMBS/SNCB
 RE 30;train;;Kassel Hbf;Frankfurt (Main) Hbf;DB Regio AG Mitte
 RE 30;train;;Hannover Hbf;Wolfsburg Hbf;Enno
+RE 30;train;;Magdeburg;Halle;DB Regio Südost
 
 ==== RE31 .. RE40
 

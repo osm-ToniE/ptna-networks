@@ -56,7 +56,7 @@
 -
 - * Die Daten aus dem '''GTFS-Feed''' dürfen ausdrücklich für OpenStreetMap verwendet werden. In diesem Fall genügt es, im '''Source-Tag''' als Herkunft die '''Münchner Verkehrs- und Tarifverbund GmbH (MVV)''' und die '''Versionsnummer des Feeds''' anzugeben.
 -
-- ** Vorschlag für Changeset-Quelle: '''Münchner Verkehrs- und Tarifverbund GmbH (MVV);  GTFS vom 26.03.2019'''
+- ** Vorschlag für Changeset-Quelle: '''Münchner Verkehrs- und Tarifverbund GmbH (MVV); GTFS vom 02.09.2019'''
 -
 - !!![[München/Transportation/MVV-GTFS|Mehr zur Nutzung der MVV-GTFS-Daten im OSM-Wiki]]!!!
 -

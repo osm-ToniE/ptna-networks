@@ -327,42 +327,38 @@ SB82;bus;;Kall;Vogelsang;RVK
 201;bus;Quelle gtfs;Leverkusen, Lützenkirchen Forellental;Leverkusen, Wiesdorf CHEMPARK S-Bahn;wupsi wupsi GmbH
 202;bus;Quelle gtfs;Leverkusen, Schlebusch;Leverkusen, Opladen Villa Römer;wupsi wupsi GmbH
 203;bus;Quelle gtfs;Leverkusen, Küppersteg Im Eisholz;Leverkusen, Opladen Busbf;wupsi wupsi GmbH
-204;bus;Quelle gtfs;Leverkusen, Bürrig Reuschenberg Friedhof;Leverkusen, Bürrig Reuschenberg Friedhof;wupsi wupsi GmbH
-205;bus;Quelle gtfs;Leverkusen, Lützenkirchen Mitte;Leverkusen, Quettingen Maurinusstr.;wupsi wupsi GmbH
-206;bus;Quelle gtfs;Leverkusen, Quettingen Torstr.;Leverkusen, Opladen Birkenberg;wupsi wupsi GmbH
+204;bus;Quelle wupsi website;Leverkusen, Bürrig Reuschenberg Friedhof;Leverkusen, Stegerwaldsiedlung;wupsi wupsi GmbH
+205;bus;Quelle wupsi website, aus alter 215, alte 205 jetzt 235;Opladen, Busbf.;Schlebusch, Stadtbahn;wupsi wupsi GmbH
+206;bus;Quelle wupsi website, aus alter 231, alte 206 jetzt 234;Mathildenhof (Potsdamer Str.);Langenfeld, Turnerstr.;wupsi wupsi GmbH
 207;bus;Quelle gtfs;Leverkusen, Rheindorf Peenestr.;Leverkusen, Mathildenhof Schöneberger Str.;wupsi wupsi GmbH
 208;bus;Quelle gtfs;Leverkusen, Wiesdorf Rheinallee;Leverkusen, Mathildenhof Wilmersdorfer Str.;wupsi wupsi GmbH
-209;bus;Quelle gtfs;Leverkusen, Quettingen Schützenplatz;Leverkusen, Wiesdorf Doktorsburg;wupsi wupsi GmbH
-
-210;bus;Quelle gtfs;Leverkusen, Rheindorf Peenestr.;Leverkusen, Steinbüchel Alt-Steinbüchel;wupsi wupsi GmbH
+209;bus;Quelle wupsi website;Leverkusen, Quettingen Schützenplatz;Leverkusen, Wiesdorf Rathausgalerie;wupsi wupsi GmbH
+210;bus;Quelle wupsi website, ersetzt durch SB21;;;
 211;bus;Quelle gtfs;Leverkusen, Rheindorf Peenestr.;Leverkusen, Steinbüchel Alt-Steinbüchel;wupsi wupsi GmbH
-212;bus;Quelle gtfs;Leverkusen, Wiesdorf Doktorsburg;Odenthal, Altenberg;wupsi wupsi GmbH
-213;bus;Quelle gtfs;Burscheid, Hilgen Raiffeisenplatz;Leverkusen, Schlebusch Am Mittelberg;wupsi wupsi GmbH
+212;bus;Quelle wupsi website;Leverkusen, Wiesdorf Doktorsburg;Odenthal, Schule;wupsi wupsi GmbH
+213;bus;Quelle wupsi website;Burscheid, Hilgen Raiffeisenplatz;Leverkusen, Schlebusch Museum./K.-Carstens-Rg.;wupsi wupsi GmbH
 214;bus;Quelle gtfs;Leverkusen, Fixheide wupsi Betriebshof (Einfahrt);Leverkusen, Wiesdorf Rathaus-Galerie;wupsi wupsi GmbH
-215;bus;Quelle gtfs;Leverkusen, Lützenkirchen Forellental;Leverkusen, Schlebusch;wupsi wupsi GmbH
-# 216;bus;Nicht im Fahrplan 2018 und 2019;;; existiert nicht
-217;bus;Quelle gtfs;Leverkusen, Fixheide wupsi Betriebshof (Einfahrt);Leverkusen, Wiesdorf CHEMPARK S-Bahn;wupsi wupsi GmbH
-# 219;bus;;;;
-
-220;bus;Quelle gtfs;Leverkusen, Lützenkirchen Forellental;Leverkusen, Wiesdorf Rathaus-Galerie;wupsi wupsi GmbH
-221;bus;Quelle gtfs;Leverkusen, Rheindorf Peenestr.;Köln, Flittard CHEMPARK Tor 10;wupsi wupsi GmbH
+215;bus;Quelle wupsi website, ersetzt durch 205 und 236;;;
+217;bus;Quelle wupsi website, existiert nicht mehr;;;
+220;bus;Quelle wupsi website, ersetzt durch SB20;;;
+221;bus;Quelle wupsi website, ersetzt durch SB27;;;
 222;bus;Quelle gtfs;Bergisch Gladbach (S);Leverkusen, Opladen Busbf;wupsi wupsi GmbH
 223;bus;Quelle gtfs;Leverkusen, Opladen Busbf;Leverkusen, Opladen Busbf;wupsi wupsi GmbH
-224;bus;Quelle gtfs;Leverkusen, Steinbüchel Alt-Steinbüchel;Köln, Flittard CHEMPARK Tor 10;wupsi wupsi GmbH
-225;bus;Quelle gtfs;Leverkusen, Mathildenhof Potsdamer Str.;Köln, Flittard CHEMPARK Tor 10;wupsi wupsi GmbH
-# 226;bus;Linie vermutlich aufgehoben, nicht im Fahrplan 2018 und 2019;;;
-227;bus;Quelle gtfs;Bergisch Gladbach, Moitzfeld Steinacker;Leverkusen, Wiesdorf Doktorsburg;wupsi wupsi GmbH
-229;bus;Quelle gtfs;Leverkusen, Lützenkirchen Mitte;Burscheid Bf;wupsi wupsi GmbH
-
-231;bus;Quelle gtfs;Leverkusen, Mathildenhof Schöneberger Str.;Langenfeld, Turnerstr.;wupsi wupsi GmbH
+224;bus;Quelle wupsi website, ersetzt durch SB29;;;
+225;bus;Quelle wupsi website, ersetzt durch SB28;;;
+227;bus;Quelle wupsi website;Bergisch Gladbach, Moitzfeld Steinacker;Leverkusen, Wiesdorf Rathausgalerie;wupsi wupsi GmbH
+229;bus;Quelle wupsi website;Leverkusen, Lützenkirchen In Holzhausen;Burscheid Bf;wupsi wupsi GmbH
+231;bus;Quelle wupsi website, ersetzt durch 206;;;
 232;bus;Quelle gtfs;Leverkusen, Opladen Busbf;Langenfeld, Turnerstr.;wupsi wupsi GmbH
-233;bus;Quelle gtfs;Leverkusen, Wiesdorf Rathaus-Galerie;Monheim am Rhein, Monheim Busbf;wupsi wupsi GmbH
+233;bus;Quelle wupsi website, ersetzt durch SB23;;;
+234;bus;Quelle wupsi website, neue Linie, ersetzt 206;Opladen, Busbf.;Birkenberg;wupsi wupsi GmbH
+235;bus;Quelle wupsi website, neue Linie, ersetzt 205, Rundverkehr ;Lützenkirchen Mitte;Lützenkirchen In Holzhausen;wupsi wupsi GmbH
+236;bus;Quelle wupsi website, neue Linie, ersetzt 215;Lützenkirchen;Meckhofen;wupsi wupsi GmbH
 238;bus;Quelle gtfs;Wermelskirchen, Dabringhausen Mitte;Odenthal Schule;wupsi wupsi GmbH
 239;bus;;Opladen;Hilgen;wupsi
 240;bus;Bus AST240 läuft parallel;Opladen;Lennep;Stadtwerke Remscheid;Wiedenhoff
 244;bus;Quelle gtfs;Leverkusen, Hitdorf Concordiastr.;Leverkusen, Opladen Schule an der Wupper;wupsi wupsi GmbH
-249;bus;;;;
-
+249;bus;Bürgerbus Burscheid;;;
 250;bus;Quelle gtfs;Solingen, Graf-Wilhelm-Platz;Köln, Breslauer Platz/Hbf;KGW Kraftverkehr Gebr. Wiedenhoff
 251;bus;Quelle gtfs;Leverkusen, Wiesdorf CHEMPARK Kasino;Leichlingen Busbf;VH Verkehrsbetrieb Hüttebäucker
 252;bus;Quelle gtfs;Solingen, Graf-Wilhelm-Platz;Burscheid, Hauptstr.;KGW Kraftverkehr Gebr. Wiedenhoff
@@ -500,8 +496,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 450;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach (S);wupsi wupsi GmbH
 451;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach, Refrath Halbenmorgen;wupsi wupsi GmbH
 452;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach, Frankenforst Mozartstr.;wupsi wupsi GmbH
-453;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach, Herkenrath Grünenbäumchen;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
-453;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach, Herkenrath Grünenbäumchen;wupsi wupsi GmbH
+453;bus;;Bergisch Gladbach (S);Bergisch Gladbach, Herkenrath Grünenbäumchen;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.;wupsi wupsi GmbH
 454;bus;Quelle gtfs;Bergisch Gladbach, Bensberg;Kürten, Bechen Mitte;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
 455;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach, Bensberg Technologie-Park;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
 456;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach, Hand Kirche;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.

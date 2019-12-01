@@ -72,6 +72,7 @@ RE 16;train;;;;
 RE 17;train;;;;
 RE 18;train;;;;
 RE 19;train;;;;
+RE 30;train;;;;
 RE 42;train;;;;
 RE 50;train;;;;
 
@@ -81,7 +82,6 @@ RE 50;train;;;;
 
 RB 20;train;;;;
 RB 25;train;;;;
-RB 43;train;;;;
 RB 47;train;;;;
 RB 57;train;;;;
 RB 75;train;;;;
