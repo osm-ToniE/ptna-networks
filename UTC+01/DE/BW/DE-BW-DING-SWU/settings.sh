@@ -32,7 +32,7 @@ ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name-relax
 
 # column 2 = Name + Link to Overpass-Turbo call to show area on map
 PTNA_WWW_REGION_NAME="Ulm / Neu-Ulm"
-PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=node(around%3A30%2C48.4539045%2C9.9891665%2C48.4226263%2C9.8661771%2C48.3578424%2C9.8687857%2C48.3193944%2C9.9358786%2C48.3347822%2C10.1169242%2C48.4308096%2C10.0760772)%3B%0Aout%3B"
+PTNA_WWW_REGION_LINK="https://umap.openstreetmap.de/de/map/ptna-search-area-de-sw-ding-swu_1637"
 
 # column 3 = Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="Donau-Iller-Nahverkehrsverbund-GmbH, Betreiber Stadtwerke Ulm"
