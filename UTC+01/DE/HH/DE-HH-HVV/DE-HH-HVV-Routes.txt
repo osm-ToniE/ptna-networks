@@ -47,7 +47,7 @@
 - Verweis auf mehr [[Talk:Hamburger_Verkehrsverbund/Analyse|Informationen]] im Wiki.
 
 == Hinweis
-- Grunddaten Stand 6.12.18
+- Grunddaten Stand 6.12.18 -- mit Änderungen zum Fahrplanwechsel 2019
 -
 - Bei der Analyse ist 'network' derzeit entweder
 -
@@ -108,6 +108,7 @@ U4;subway;;Billstedt;Elbbrücken;Hamburger Hochbahn AG
 73;ferry;;;;HADAG Seetouristik und Fährdienst AG
 75;ferry;;;;HADAG Seetouristik und Fährdienst AG
 HBEL;ferry;;;;
+
 == Busse in der Stadt Hamburg
 === MetroBus
 1;bus;;;;
@@ -182,15 +183,6 @@ X86;bus;;;;
 688;bus;;;;
 
 === Stadtbus
-136;bus;;;;
-140;bus;;S Neugragen (Am Johannisland);S Neuwiedenthal;Hamburger Hochbahn AG
-146;bus;;;;Hamburger Hochbahn AG
-157;bus;;;;Hamburger Hochbahn AG
-340;bus;;S Neuwiedenthal;Bf. Harburg;Hamburger Hochbahn AG
-349;bus;;;;Hamburger Hochbahn AG
-543;bus;;Nachtigallenweg;Emmelndorf, Gartenstraße;Hamburger Hochbahn AG
-
-== Stadt- und Regionalbus: teilweise müssen Linen auf die Kreise verteilt werden!
 109;bus;;;;
 111;bus;;;;
 112;bus;;;;
@@ -201,23 +193,23 @@ X86;bus;;;;
 122;bus;;;;
 124;bus;;;;
 130;bus;;;;
-131;bus;;;;
+136;bus;;;;
 133;bus;;;;
 135;bus;;;;
 136;bus;;;;
 137;bus;;;;
-138;bus;;;;
-139;bus;;;;
-140;bus;;;;Hamburger Hochbahn AG
+140;bus;;S Neugragen (Am Johannisland);S Neuwiedenthal;Hamburger Hochbahn AG
 141;bus;;;;
 142;bus;;;;
 143;bus;;;;
 145;bus;;;;
+146;bus;;;;Hamburger Hochbahn AG
 150;bus;;;;
 151;bus;;;;
 152;bus;;;;
 153;bus;;;;
 154;bus;;;;
+157;bus;;;;Hamburger Hochbahn AG
 156;bus;;;;
 160;bus;;;;
 162;bus;;;;
@@ -245,6 +237,14 @@ X86;bus;;;;
 191;bus;;;;
 192;bus;;;;
 193;bus;;;;
+340;bus;;S Neuwiedenthal;Bf. Harburg;Hamburger Hochbahn AG
+349;bus;;;;Hamburger Hochbahn AG
+543;bus;;Nachtigallenweg;Emmelndorf, Gartenstraße;Hamburger Hochbahn AG
+
+== Stadt- und Regionalbus: teilweise müssen Linen auf die Kreise verteilt werden!
+
+138;bus;;;;
+139;bus;;;;
 194;bus;;;;
 195;bus;;;;
 196;bus;;;;
@@ -445,6 +445,7 @@ X86;bus;;;;
 8502;bus;;;;
 
 === RegionalBus
+131;bus;;;;
 735;bus;;;;
 8752;bus;;;;
 8754;bus;;;;

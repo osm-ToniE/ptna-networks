@@ -121,16 +121,16 @@ I;bus;Tour 2: Freiberg (Friedeburg - Wasserberg - Seilerberg) - Busbahnhof - Ind
 5;tram;Hauptbahnhof - Städtisches Klinikum;;;SVZ
 7;tram;Pölbitz - Hauptbahnhof;;;SVZ
 10;bus;Zwickau, Niederhohndorf / Weißenborn - Neumarkt - Hauptbahnhof - Zwickau, Planitz - Wilkau-Haßlau;;;SVZ
-13/136;bus;Neumarkt / Zentralhaltestelle - Wilkau-Haßlau - Kirchberg - Rothenkirchen;;;SVZ;RVW
+13;bus;Neumarkt - Wilkau-Haßlau;;;Städtische Verkehrsbetriebe Zwickau GmbH
 18;bus;Neumarkt - Georgenplatz - Königswalde / Hartmannsdorf;;;SVZ
 20;bus;Planitz, Markt - Rottmannsdorf / Hüttelsgrün;Planitz, Markt;Rottmannsdorf / Hüttelsgrün;SVZ
 21;bus;Neumarkt - Georgenplatz - Brand - Weißenbrunn, Mühlensteig;;;SVZ
 22;bus;Zentralhaltestelle - (Newtonstraße -) Niederhohndorf;;;SVZ
-23;bus;Hauptbahnhof - Oberhohndorf, Gasthaus;Hauptbahnhof;Oberhohndorf, Gasthaus;Städtische Verkehrsbetriebe Zwickau GmbH
+23;bus;Hauptbahnhof - Oberhohndorf;;;Städtische Verkehrsbetriebe Zwickau GmbH
 24;bus;Auerbach - Neumarkt - Pöhlau;;;SVZ
 27;bus;Städtisches Klinikum - Paulusstraße - Neuplanitz - Planitz, Markt;;;SVZ
 28;bus;Dresdner Straße - Eckersbach - Weißenborn;;;SVZ
-29/181;bus;Zwickau - Lichtentanne / Schönfels - Neumark - Reichenbach;;;SVZ;RVW
+29;bus;Neumarkt - Lichtentanne;;;Städtische Verkehrsbetriebe Zwickau GmbH
 A;bus;Nachtbus: Hauptmarkt - Neumarkt - Hbf - Marienthal - Neuplanitz - Cainsdorf - Wilkau-Haßlau - Hauptmarkt;Hauptmarkt;Hauptmarkt;SVZ
 B;bus;Nachtbus: Hauptbahnhof - Neumarkt - Nordvorstadt - Eckersbach;Hauptbahnhof;Eckersbach;SVZ
 C;bus;Nachtbus: Hauptmarkt - Neumarkt - Weißenborn;Hauptmarkt;Weißenborn;SVZ
@@ -239,6 +239,7 @@ STL 2;bus;Bahnhof - Niederdorf - Auer Straße - Albrecht-Dürer-Straße - Bahnho
 132;bus;Wilkau-Haßlau - Cunersdorf - Niedercrinitz - Kirchberg;;;Regionalverkehr Westsachsen GmbH
 133;bus;Zwickau - Dennheritz - Meerane - Gößnitz;;;Regionalverkehr Westsachsen GmbH
 135;bus;Zwickau - Reinsdorf - Friedrichsgrün - Vielau - Wilkau-Haßlau;;;Regionalverkehr Westsachsen GmbH
+136;bus;Zwickau - Wilkau-Haßlau - Kirchberg - Rothenkirchen;;;Regionalverkehr Westsachsen GmbH
 137;bus;Wilkau-Haßlau - Cainsdorf - Wilkau-Haßlau - Stadtzentrum - Haara - Rosenthal - Gewerbegebiet;;;Regionalverkehr Westsachsen GmbH
 138;bus;Zwickau - Mülsen - Neuschönburg - Marienau;;;Regionalverkehr Westsachsen GmbH
 139;bus;Zwickau - Lichtenstein;;;Regionalverkehr Westsachsen GmbH
@@ -266,6 +267,7 @@ STL 2;bus;Bahnhof - Niederdorf - Auer Straße - Albrecht-Dürer-Straße - Bahnho
 171;bus;Crimmitschau - Langenreinsdorf - Blankenhain - Großpillingsdorf - Seelingstädt;;;RVW
 173;bus;Zwickau - Crossen - Thurm;;;RVW
 177;bus;Kirchberg - Hirschfeld - Bärenwalde;;;RVW
+181;bus;Zwickau - Lichtentanne - Neumark - Reichenbach;;;Regionalverkehr Westsachsen GmbH
 182;bus;Schönau - Wildenfels - Grünau;;;RVW
 183;bus;Ortsverkehr Thalheim;;;RVE
 184;bus;Stollberg - Dorfchemnitz - Zwönitz - Kühnhaide;;;RVE

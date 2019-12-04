@@ -864,7 +864,7 @@ K785;bus;Seit 02.09.2018 nicht mehr buchbar, wurde eingestellt.;Porto;A Coruña;
 K786;bus;Seit 02.09.2018 nicht mehr buchbar, wurde eingestellt.;Fuengirola(Malaga);Porto;SOCIEDAD DE TRANSPORTES S.L.(=Iberocoach)
 K787;bus;;Krakau;Kolberg;Voyager
 K790;bus;;Barcelona;Pontevedra;SOCIEDAD DE TRANSPORTES S.L.(=Iberocoach)?
-K801;bus;;Amsterdam;Sjenica;
+K801;bus;;Amsterdam;Sjenica;Garo Reisen
 K803;bus;;Ljubljana;Treviso Flughafen;Nomago
 K810;bus;;Prag;Třebíč;Trado Bus
 K811;bus;;Bratislava;Banská Bystrica;Turancar
@@ -883,6 +883,10 @@ K945;bus;;Crikvenica;Varaždin;Vincek
 K946;bus;;Paris;Sarajewo;Centrotrans,Eurolines
 K950;bus;;Zadar;Novalja;Antonio Tours
 K951;bus;;Zagreb;Vlašići;Antonio Tours
+K984;bus;;Banja Luka;Budvas;Neobas
+K985;bus;;Stuttgart Flughafen;Banja Luka;Neobas
+K986;bus;;Zürich;Banja Luka;Neobas
+K987;bus;;Linz;Teslić;Neobas
 K989;bus;;Linz;Valjevo;Europa Bus Valjevo
 K995;bus;;Pančevo;Herceg Novi;Fudeks
 K997;bus;läuft auch als Eurolines EU0457(Eurolines von Flixbus gekauft);Freiburg;Imotski;Lubina Bus

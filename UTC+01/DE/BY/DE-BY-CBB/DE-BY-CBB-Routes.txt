@@ -43,21 +43,9 @@
 
 = Überblick über die ÖPNV-Linien des "City-Bus Burghausen"
 
-- Verweis auf die Datei mit den [[Burghausen/ÖPNV/City-Bus/City-Bus_Linien]] im Wiki.
+- Verweis auf die Datei mit den [[Burghausen/ÖPNV/City-Bus/City-Bus_Linien|City-Bus Linien]] im Wiki.
 - Verweis auf mehr [[Talk:Burghausen/ÖPNV/City-Bus/Analyse|Informationen]] im Wiki.
 
-== Hinweis
-
-- Dieses ist eine !!!'''IST-Analyse'''!!! und spiegelt den Status der in OSM gemappten Linien im Gebiet des "City-Bus Burghausen" wider.
--
-- Bei der Analyse ist 'network' derzeit entweder
--
-- * "CBB"                             short form, oder
--
-- * "City-Bus Burghausen"  long form, oder
--
-- * leer, d.h. nicht gesetzt
--
 #
 #ref;type;comment;from;to;operator
 

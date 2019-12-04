@@ -77,15 +77,11 @@ S41;train;;;;
 S42;train;;;;
 
 == Regional-Express
-
-=== SÜWEX
-
 RE1;train;;;;
 RE4;train;;;;
 RE14;train;;;;
 
 == Regional-Bahn
-
 RB2;train;;;;
 
 == Stadtbahn

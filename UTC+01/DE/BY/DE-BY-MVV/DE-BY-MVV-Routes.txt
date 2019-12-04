@@ -42,10 +42,10 @@
 
 = Überblick über die ÖPNV-Linien des Münchner Verkehrs- und Tarifverbundes
 
-- Einige Veränderungen und neue Linien sind hier (via [[München/Transportation/MVV-Linien-gesamt|MVV Linien]]) vermerkt.
--
 - Verweis auf die Datei mit den [[München/Transportation/MVV-Linien-gesamt|MVV Linien]] im Wiki.
 - Verweis auf mehr [[Talk:München/Transportation/Analyse|Informationen]] im Wiki.
+-
+- !!!Änderungen zum 15.12.2019!!! sind in den Tabellen mit !!!gelben Kommentaren!!! hinterlegt
 -
 
 == Quellen 
@@ -217,18 +217,20 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 #
 === Regionalbus (Verbundlandkreise)
 ==== Landkreis München - 200 - 299
-210;bus;;Brunnthal, Zusestraße;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
-211;bus;;Harthausen;Campeon;Verkehrsbetrieb Ettenhuber GmbH
-212;bus;;Grasbrunn;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
-212V;bus;;Grasbrunn;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
-213;bus;;Ostbahnhof U S R;Taufkirchen, Lilienthalstraße;RVO/Geldhauser
-214;bus;;Riemerling, Altenheim;Hohenbrunn;Verkehrsbetrieb Ettenhuber GmbH
-214V;bus;;Ottobrunn, Einsteinstraße;Neubiberg, Realschule;Verkehrsbetrieb Ettenhuber GmbH
-215;bus;;Lohhof S Süd;Unterschleißheim S Ost;VBR GmbH, München
-216;bus;;Taufkirchen, Hugo-Junkers-Straße;Faistenhaar;RVO/Geldhauser
-216V;bus;;Neubiberg, Realschule;Faistenhaar, Waldsiedlung / Hofolding / Sauerlach S;Verkehrsbetrieb Ettenhuber GmbH
-217;bus;;Neuperlach Süd U S;Unterhaching S;Demmelmair GmbH & Co
-218;bus;;Unterschleißheim S West;Lohhof S Süd;VBR GmbH/Busverkehr Südbayern GmbH
+210;bus;!2 Varianten ändrn sich!;Brunnthal, Zusestraße;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
+211;bus;!Komplett anders: andere Ziele und dann nur noch 4 Varianten!;Harthausen;Campeon;Verkehrsbetrieb Ettenhuber GmbH
+211V;bus;!Neu ab 15.12.2019!;Neubiberg, Realschule;Unterbiberg;Verkehrsbetrieb Ettenhuber GmbH
+211W;bus;!Neu ab 15.12.2019!;Solalinden;Putzbrunn;Verkehrsbetrieb Ettenhuber GmbH
+212;bus;!Leichte Änderungen an 2 Varianten!;Grasbrunn;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
+212V;bus;!Entfällt ab 15.12.2019!;Grasbrunn;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
+213;bus;!OK!;Ostbahnhof U S R;Taufkirchen, Lilienthalstraße;RVO/Geldhauser
+214;bus;!OK!;Riemerling, Altenheim;Hohenbrunn;Verkehrsbetrieb Ettenhuber GmbH
+214V;bus;!OK!;Ottobrunn, Einsteinstraße;Neubiberg, Realschule;Verkehrsbetrieb Ettenhuber GmbH
+215;bus;!OK!;Lohhof S Süd;Unterschleißheim S Ost;VBR GmbH, München
+216;bus;!OK!;Taufkirchen, Hugo-Junkers-Straße;Faistenhaar;RVO/Geldhauser
+216V;bus;!OK!;Neubiberg, Realschule;Faistenhaar, Waldsiedlung / Hofolding / Sauerlach S;Verkehrsbetrieb Ettenhuber GmbH
+217;bus;!Leichte Änderungen, nur noch 2 Varianten!;Neuperlach Süd U S;Unterhaching S;Demmelmair GmbH & Co
+218;bus;!Leichte Änderungen!;Unterschleißheim S West;Lohhof S Süd;VBR GmbH/Busverkehr Südbayern GmbH
 219;bus;;Garching-Hochbrück U;Unterschleißheim S Ost;VBR GmbH, München
 219V;bus;;Hochbrück, Jahnstraße;Oberschleißheim, Rathaus;VBR GmbH/Busverkehr Südbayern GmbH
 220;bus;;Winning;Giesing U S;Verkehrsbetrieb Ettenhuber GmbH
@@ -296,7 +298,6 @@ N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzing
 372;bus;;Beuerberg;Wolfratshausen S;Regionalverkehr Obb.
 373;bus;;Seeshaupt R;Wolfratshausen S;Regionalverkehr Obb.
 373V;bus;;Ammerland/Ambach;Wolfratshausen S;Regionalverkehr Obb.
-373W;bus;!nur bis 30.11.2019?!;Münsing, Am Kirchberg;Degerndorf;Regionalverkehr Obb.
 374;bus;;Penzberg;Wolfratshausen S;Regionalverkehr Obb.
 375;bus;;Endlhausen;Wolfratshausen S;Geldhauser/RVO
 376;bus;;Bad Heilbrunn;Wolfratshausen S;Regionalverkehr Obb.

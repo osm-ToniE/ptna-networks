@@ -333,24 +333,27 @@ SB82;bus;;Kall;Vogelsang;RVK
 207;bus;Quelle gtfs;Leverkusen, Rheindorf Peenestr.;Leverkusen, Mathildenhof Schöneberger Str.;wupsi wupsi GmbH
 208;bus;Quelle gtfs;Leverkusen, Wiesdorf Rheinallee;Leverkusen, Mathildenhof Wilmersdorfer Str.;wupsi wupsi GmbH
 209;bus;Quelle wupsi website;Leverkusen, Quettingen Schützenplatz;Leverkusen, Wiesdorf Rathausgalerie;wupsi wupsi GmbH
-210;bus;Quelle wupsi website, ersetzt durch SB21;;;
+#210;bus;Quelle wupsi website, ersetzt durch SB21;;;
+
 211;bus;Quelle gtfs;Leverkusen, Rheindorf Peenestr.;Leverkusen, Steinbüchel Alt-Steinbüchel;wupsi wupsi GmbH
 212;bus;Quelle wupsi website;Leverkusen, Wiesdorf Doktorsburg;Odenthal, Schule;wupsi wupsi GmbH
 213;bus;Quelle wupsi website;Burscheid, Hilgen Raiffeisenplatz;Leverkusen, Schlebusch Museum./K.-Carstens-Rg.;wupsi wupsi GmbH
 214;bus;Quelle gtfs;Leverkusen, Fixheide wupsi Betriebshof (Einfahrt);Leverkusen, Wiesdorf Rathaus-Galerie;wupsi wupsi GmbH
-215;bus;Quelle wupsi website, ersetzt durch 205 und 236;;;
-217;bus;Quelle wupsi website, existiert nicht mehr;;;
-220;bus;Quelle wupsi website, ersetzt durch SB20;;;
-221;bus;Quelle wupsi website, ersetzt durch SB27;;;
+#215;bus;Quelle wupsi website, ersetzt durch 205 und 236;;;
+#217;bus;Quelle wupsi website, existiert nicht mehr;;;
+
+#220;bus;Quelle wupsi website, ersetzt durch SB20;;;
+#221;bus;Quelle wupsi website, ersetzt durch SB27;;;
 222;bus;Quelle gtfs;Bergisch Gladbach (S);Leverkusen, Opladen Busbf;wupsi wupsi GmbH
 223;bus;Quelle gtfs;Leverkusen, Opladen Busbf;Leverkusen, Opladen Busbf;wupsi wupsi GmbH
-224;bus;Quelle wupsi website, ersetzt durch SB29;;;
-225;bus;Quelle wupsi website, ersetzt durch SB28;;;
+#224;bus;Quelle wupsi website, ersetzt durch SB29;;;
+#225;bus;Quelle wupsi website, ersetzt durch SB28;;;
 227;bus;Quelle wupsi website;Bergisch Gladbach, Moitzfeld Steinacker;Leverkusen, Wiesdorf Rathausgalerie;wupsi wupsi GmbH
 229;bus;Quelle wupsi website;Leverkusen, Lützenkirchen In Holzhausen;Burscheid Bf;wupsi wupsi GmbH
-231;bus;Quelle wupsi website, ersetzt durch 206;;;
+
+#231;bus;Quelle wupsi website, ersetzt durch 206;;;
 232;bus;Quelle gtfs;Leverkusen, Opladen Busbf;Langenfeld, Turnerstr.;wupsi wupsi GmbH
-233;bus;Quelle wupsi website, ersetzt durch SB23;;;
+#233;bus;Quelle wupsi website, ersetzt durch SB23;;;
 234;bus;Quelle wupsi website, neue Linie, ersetzt 206;Opladen, Busbf.;Birkenberg;wupsi wupsi GmbH
 235;bus;Quelle wupsi website, neue Linie, ersetzt 205, Rundverkehr ;Lützenkirchen Mitte;Lützenkirchen In Holzhausen;wupsi wupsi GmbH
 236;bus;Quelle wupsi website, neue Linie, ersetzt 215;Lützenkirchen;Meckhofen;wupsi wupsi GmbH
@@ -359,6 +362,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 240;bus;Bus AST240 läuft parallel;Opladen;Lennep;Stadtwerke Remscheid;Wiedenhoff
 244;bus;Quelle gtfs;Leverkusen, Hitdorf Concordiastr.;Leverkusen, Opladen Schule an der Wupper;wupsi wupsi GmbH
 249;bus;Bürgerbus Burscheid;;;
+
 250;bus;Quelle gtfs;Solingen, Graf-Wilhelm-Platz;Köln, Breslauer Platz/Hbf;KGW Kraftverkehr Gebr. Wiedenhoff
 251;bus;Quelle gtfs;Leverkusen, Wiesdorf CHEMPARK Kasino;Leichlingen Busbf;VH Verkehrsbetrieb Hüttebäucker
 252;bus;Quelle gtfs;Solingen, Graf-Wilhelm-Platz;Burscheid, Hauptstr.;KGW Kraftverkehr Gebr. Wiedenhoff
@@ -379,6 +383,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 267;bus;Quelle gtfs;Wermelskirchen, Reisegarten Eifgen;Odenthal, Herzogenfeld;RVK Regionalverkehr Köln GmbH NL Wermelsk.
 268;bus;Quelle gtfs;Wermelskirchen, Eifgen;Wermelskirchen Busbf;RVK Regionalverkehr Köln GmbH NL Wermelsk.
 269;bus;;;;
+
 270;bus;Quelle gtfs;Wermelskirchen Busbf;Wermelskirchen, Krankenhaus;RVK Regionalverkehr Köln GmbH NL Wermelsk.
 271;bus;Quelle gtfs;Wermelskirchen Busbf;Wermelskirchen, Am Stadtrand;RVK Regionalverkehr Köln GmbH NL Wermelsk.
 276;bus;;;;
