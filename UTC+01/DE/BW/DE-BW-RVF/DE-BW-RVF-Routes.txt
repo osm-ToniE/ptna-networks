@@ -182,10 +182,6 @@ RE/RB;train;Trireno;Freiburg (Breisgau);Basel SBB;DB Regio
 7201;bus;;;;Südbadenbus GmbH
 7204;bus;;;;Südbadenbus GmbH
 7205;bus;;;;Südbadenbus GmbH
-7205-S;bus;;;;Südbadenbus GmbH
-7205.1;bus;;;;Südbadenbus GmbH
-7205.2;bus;;;;Südbadenbus GmbH
-7205.3;bus;;;;Südbadenbus GmbH
 7206 N;bus;;;;Südbadenbus GmbH
 7206.1;bus;;;;Südbadenbus GmbH
 7206.2;bus;;;;Südbadenbus GmbH

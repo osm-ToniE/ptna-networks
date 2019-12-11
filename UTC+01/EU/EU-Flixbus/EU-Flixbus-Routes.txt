@@ -168,6 +168,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 128;bus;;München;Maastricht;FlixMobility GmbH
 129;bus;;Hamburg;München;FlixMobility GmbH
 131;bus;seit 05.11.2018 nicht mehr buchbar, wurde eingestellt;Berlin;Groningen;FlixMobility GmbH
+134;bus;München;Bayreuth/Berlin;FlixMobility GmbH
 135;bus;;Frankfurt am Main;Berlin;FlixMobility GmbH
 137;bus;Seit 25.04.2018 nicht mehr buchbar, wurde eingestellt.;Würzburg;Schönau am Königssee;FlixMobility GmbH
 138;bus;;Berlin;Kaiserslautern;FlixMobility GmbH
@@ -823,8 +824,18 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 AN587;bus;;Bergamo;Fiorenzuola;
 AN588;bus;;Bozen;Modena;
 E01;bus;Frankfurt;Mannheim;
+EL140;bus;;Amsterdam;London;Eurolines
+EL150;bus;Paris;München;Eurolines/Isiline
+EL210;bus;Paris;Madrid;Eurolines/Isiline
+EL360;bus;Paris;Antwerpen/Lüttich;Eurolines/Isiline
+EL400;bus;Paris;Amsterdam;Eurolines/Isiline
+EL410;bus;Paris;Bologna;Eurolines/Isiline
 EL450;bus;;Paris;London;Eurolines/Isiline
+EL550;bus;;Paris;Berlin;Eurolines/Isiline
+EL555;bus;;Berlin;Rotterdam;Eurolines
+EL700;bus;;München;Prag;Eurolines
 EL750;bus;;Paris;Prag;Eurolines
+EL890;bus;;Amsterdam;Verona;Eurolines
 K188;bus;;Basel Airport;Lugano;Eurobus
 K188/E03;bus;;Zürich Flughafen;Basel;Eurobus
 K288/E02;bus;;Zürich Flughafen;Montreux;Eurobus
@@ -949,6 +960,7 @@ X913;bus;;Pilsen;Krakau;FlixMobility GmbH
 
 == Nachtbuslinien
 
+N02;bus;;Berlin;Jena;FlixMobility GmbH
 N05;bus;;Kopenhagen;München;FlixMobility GmbH
 N06;bus;seit 06.11.2018 nicht mehr buchbar, wurde eingestellt;Zürich;Berlin;FlixMobility GmbH
 N07;bus;;Essen;Mailand;FlixMobility GmbH

@@ -255,7 +255,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 113;bus;Quelle gtfs;Köln, Braunsfeld Aachener Str./Gürtel;Köln, Ehrenfeld Venloer Str./Gürtel;KVB Kölner Verkehrs-Betriebe AG
 118;bus;Quelle gtfs;Hürth, Efferen;Köln, Sülz Universität;KVB Kölner Verkehrs-Betriebe AG
 
-120;bus;!zum 1.12.2019 neue Haltestelle Alte Straße!;Köln, Chorweiler;Köln, Roggendorf Further Str.;KVB Kölner Verkehrs-Betriebe AG
+120;bus;!zum 15.12.2019 neue Haltestelle Alte Straße!;Köln, Chorweiler;Köln, Roggendorf Further Str.;KVB Kölner Verkehrs-Betriebe AG
 121;bus;Quelle gtfs;Köln, Langel linksrheinisch Langel Fähre;Köln, Nippes Neusser Str./Gürtel;KVB Kölner Verkehrs-Betriebe AG
 122;bus;Quelle gtfs;Köln, Longerich Wilhelm-Sollmann-Str.;Köln, Pesch Schulstr.;KVB Kölner Verkehrs-Betriebe AG
 123;bus;Quelle gtfs;Köln, Chorweiler;Köln, Roggendorf Further Str.;KVB Kölner Verkehrs-Betriebe AG

@@ -92,11 +92,12 @@ S20;train;;Höllriegelskreuth;Geltendorf;DB Regio AG/S-Bahn München
 19;tram;;Pasing Bf;Berg-am Laim;SWM/MVG
 20;tram;;Moosach;Karlsplatz (Stachus);SWM/MVG
 21;tram;;Westfriedhof;St.-Veit-Straße;SWM/MVG
-22;tram;;Hochschule München;Karlsplatz (Stachus);SWM/MVG
+22;tram;!Ab 15.12.2019: Neue Linie 29 ersetzt Linie 22!;Hochschule München;Karlsplatz (Stachus);SWM/MVG
 23;tram;;Schwabing Nord;Münchner Freiheit;SWM/MVG
 25;tram;;Max-Weber-Platz;Grünwald;SWM/MVG
 27;tram;;Petuelring;Sendlinger Tor;SWM/MVG
 28;tram;;Scheidplatz;Sendlinger Tor;SWM/MVG
+29;tram;!Ab 15.12.2019: Neue Linie 29 ersetzt Linie 22!;Hochschule München;Karlsplatz (Stachus);SWM/MVG
 #
 === Nacht-Tram
 N17;tram;;Amalienburgstraße;Effnerplatz;SWM/MVG
@@ -107,8 +108,10 @@ N27;tram;;Petuelring;Großhesseloher Brücke;SWM/MVG
 #
 == Bus
 === Express-Bus (München)
-X30;bus;ExpressBus;Harras U S R;Ostbahnhof U S R;SWM/MVG
-X50;bus;ExpressBus;Moosach U S R;Alte Heide U;SWM/MVG,
+X30;bus;ExpressBus !Ab 15.12.2019: Verlängert nach Arabellapark!;Harras U S R;Ostbahnhof U S R;SWM/MVG
+X35;bus;ExpressBus !Ab 15.12.2019: X35 ersetzt X50!;Moosach U S R;Alte Heide U;SWM/MVG
+X36;bus;ExpressBus !Ab 15.12.2019: neue Linie!;;;SWM/MVG,
+X50;bus;ExpressBus !Ab 15.12.2019: X35 ersetzt X50!;Moosach U S R;Alte Heide U;SWM/MVG
 X80;bus;ExpressBus;Puchheim S Süd;Moosach U S R;SWM/MVG
 X98;bus;ExpressBus;Hauptbahnhof;Tierpark (Alemannenstraße);SWM/MVG
 #
@@ -139,7 +142,7 @@ N72;bus;;St. Emmeram;Herkomerplatz;SWM/MVG
 N74;bus;;Ostbahnhof;Messestadt Ost;SWM/MVG
 N75;bus;;Ostbahnhof;Kiefernstraße;SWM/MVG
 N76;bus;;Dülferstraße;Petuelring;SWM/MVG
-N77;bus;;Neuaubing West;Pasing;SWM/MVG
+N77;bus;!Ab 15.12.2019: Verlängert nach Berduxstraße!;Neuaubing West;Pasing;SWM/MVG
 N78;bus;;Blutenburg;Blumenau;SWM/MVG
 N79;bus;;Neuperlach Süd;Haar, Ludwig-Moser-Straße;SWM/MVG
 N80;bus;;Pasing;Pasing;SWM/MVG
@@ -165,7 +168,7 @@ O7;bus;MVG-Museum-Shuttle;Giesing U S;MVG-Museum;SWM/MVG
 150;bus;;Bremer Straße;Arabellapark U;SWM/MVG
 151;bus;;Westfriedhof U;Parkstadt Solln;SWM/MVG
 153;bus;;HS München (Lothstraße);Am Harras;SWM/MVG
-154;bus;;Nordbad;Bruno-Walter-Ring;SWM/MVG
+154;bus;!Ab 15.12.2019: Endhaltestellen im Osten tauschen mit 184!;Nordbad;Bruno-Walter-Ring;SWM/MVG
 155;bus;;Max-Weber-Platz U;Emdenstraße;SWM/MVG
 157;bus;;Germeringer Weg;Pasing S R;SWM/MVG
 158;bus;;Im Wismat;Amalienburgstraße;SWM/MVG
@@ -181,18 +184,19 @@ O7;bus;MVG-Museum-Shuttle;Giesing U S;MVG-Museum;SWM/MVG
 168;bus;;Wastl-Witt-Straße;Nymphenburg Süd;SWM/MVG
 169;bus;;Moosach U S R;Moosach U S R;SWM/MVG
 170;bus;;Feldmoching U S R;Kieferngarten U;SWM/MVG
-171;bus;;Feldmoching U S R;Kieferngarten U;SWM/MVG
+171;bus;!Ab 15.12.2019: 171 verkürzt und in beide Richtungen gleich!;Feldmoching U S R;Kieferngarten U;SWM/MVG
 172;bus;;Dachau S R;Am Hart U;SWM/MVG
 173;bus;;Feldmoching U S R;Petuelring U;SWM/MVG
+174;bus;!Ab 15.12.2019: neue Linie!;;;SWM/MVG
 175;bus;;Ludwigsfeld;Georg-Brauchle-Ring U;SWM/MVG
 176;bus;;Karlsfelder Straße;Moosach U S R;SWM/MVG
 177;bus;;Petuelring U;Studentenstadt U;SWM/MVG
 178;bus;;Kieferngarten;Frankfurter Ring U;SWM/MVG
 179;bus;;Olschewskibogen;Frankfurter Ring U;SWM/MVG
-180;bus;;Westfriedhof U;Kieferngarten U;SWM/MVG
+180;bus;!Ab 15.12.2019: Verlängert nach Berduxstraße!;Westfriedhof U;Kieferngarten U;SWM/MVG
 181;bus;;Wallnerstraße;Studentenstadt U;SWM/MVG
 183;bus;;Arabellapark U;Messestadt West U;SWM/MVG
-184;bus;;Arabellapark U;Westerlandanger;SWM/MVG
+184;bus;!Ab 15.12.2019: Endhaltestellen im Osten tauschen mit 154!;Arabellapark U;Westerlandanger;SWM/MVG
 185;bus;;Arabellapark U;Iltisstraße;SWM/MVG
 186;bus;;Messestadt Ost U;Hofbräuallee;SWM/MVG
 187;bus;;Arabellapark U;Michaelibad U;SWM/MVG
@@ -217,109 +221,112 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 #
 === Regionalbus (Verbundlandkreise)
 ==== Landkreis München - 200 - 299
-210;bus;!2 Varianten ändrn sich!;Brunnthal, Zusestraße;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
-211;bus;!Komplett anders: andere Ziele und dann nur noch 4 Varianten!;Harthausen;Campeon;Verkehrsbetrieb Ettenhuber GmbH
+210;bus;!Kleinere Änderungen an 2 Varianten ab 15.12.2019!;Brunnthal, Zusestraße;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
+211;bus;!Komplett anders ab 15.12.2019: andere Ziele und dann nur noch 4 Varianten!;Harthausen;Campeon;Verkehrsbetrieb Ettenhuber GmbH
 211V;bus;!Neu ab 15.12.2019!;Neubiberg, Realschule;Unterbiberg;Verkehrsbetrieb Ettenhuber GmbH
 211W;bus;!Neu ab 15.12.2019!;Solalinden;Putzbrunn;Verkehrsbetrieb Ettenhuber GmbH
-212;bus;!Leichte Änderungen an 2 Varianten!;Grasbrunn;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
+212;bus;!Kleinere Änderungen an 2 Varianten ab 15.12.2019!;Grasbrunn;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
 212V;bus;!Entfällt ab 15.12.2019!;Grasbrunn;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
-213;bus;!OK!;Ostbahnhof U S R;Taufkirchen, Lilienthalstraße;RVO/Geldhauser
-214;bus;!OK!;Riemerling, Altenheim;Hohenbrunn;Verkehrsbetrieb Ettenhuber GmbH
-214V;bus;!OK!;Ottobrunn, Einsteinstraße;Neubiberg, Realschule;Verkehrsbetrieb Ettenhuber GmbH
-215;bus;!OK!;Lohhof S Süd;Unterschleißheim S Ost;VBR GmbH, München
-216;bus;!OK!;Taufkirchen, Hugo-Junkers-Straße;Faistenhaar;RVO/Geldhauser
-216V;bus;!OK!;Neubiberg, Realschule;Faistenhaar, Waldsiedlung / Hofolding / Sauerlach S;Verkehrsbetrieb Ettenhuber GmbH
-217;bus;!Leichte Änderungen, nur noch 2 Varianten!;Neuperlach Süd U S;Unterhaching S;Demmelmair GmbH & Co
-218;bus;!Leichte Änderungen!;Unterschleißheim S West;Lohhof S Süd;VBR GmbH/Busverkehr Südbayern GmbH
-219;bus;;Garching-Hochbrück U;Unterschleißheim S Ost;VBR GmbH, München
-219V;bus;;Hochbrück, Jahnstraße;Oberschleißheim, Rathaus;VBR GmbH/Busverkehr Südbayern GmbH
-220;bus;;Winning;Giesing U S;Verkehrsbetrieb Ettenhuber GmbH
-220V;bus;;Unterhaching;Fasanenpark S;Verkehrsbetrieb Ettenhuber GmbH
-221;bus;;Unterhaching S;München, Waldheimplatz;Verkehrsbetrieb Ettenhuber GmbH
-222;bus;;Deisenhofen S;Neuperlach Süd U S;Busservice Watzinger
-223;bus;;Sauerlach S;Arget;Verkehrsbetrieb Ettenhuber GmbH
-224;bus;;Unterhaching S;Höllriegelskreuth S;Demmelmair GmbH & Co
-225;bus;;Taufkirchen S;Gewerbegebiet Potzham;Geldhauser
-226;bus;;Sauerlach S;Deisenhofen S R;RVO/Geldhauser
-227;bus;;Ortsbus Oberhaching;;Busservice Watzinger
-229;bus;;Ottobrunn, Phönix Bad;Neuperlach Süd U S;Geldhauser
-230;bus;;Fischerhäuser;Garching-Forschungszentrum U;VBR GmbH, München
-230V;bus;;Garching, Untere Straßäcker;Ismaning S;VBR GmbH, München
-231;bus;;Ismaning S;Studentenstadt U;VBR GmbH, München
-231V;bus;;Unterföhring, Siedlerstraße;Ismaning S;VBR GmbH, München
-232;bus;;Unterföhring, Fichtenstraße;St. Emmeram;Hadersdorfer/Scharf
-233;bus;;Studentenstadt U;Unterföhring S;Geldhauser
-234;bus;;Messestadt Ost U;Unterföhring S;Geldhauser
-240;bus;;Harthausen;Neukeferloh;DB Regio Bus Bayern GmbH
-240V;bus;;Harthausen;Baldham/Haar;DB Regio Bus Bayern GmbH
-241;bus;;Haar S;Taufkirchen, Friedhof;Verkehrsbetrieb Ettenhuber GmbH
-241V;bus;;Putzbrunn, Hohenbrunner Straße;Riemerling, Theodor-Heuss-Straße;Verkehrsbetrieb Ettenhuber GmbH
-242;bus;;Haar S;Gronsdorf S;DB Regio Bus Bayern GmbH
-242V;bus;;Gronsdorf S;Haar, Jagdfeldbad;DB Regio Bus Bayern GmbH
-243;bus;;Haar, Hans-Stießberger-Straße;Neukeferloh;DB Regio Bus Bayern GmbH
-244;bus;;Taufkirchen, Hugo-Junkers-Straße;Sauerlach S;Verkehrsbetrieb Ettenhuber GmbH
-258;bus;;Gräfelfing S;Starnberger Straße;Busservice Watzinger
-259;bus;;Pasing Bf S R;Martinsried;Demmelmair GmbH & Co
-260;bus;;Germering-Unterpfaffenhofen S;Fürstenried West U;Busservice Watzinger
-260V;bus;;Neuried, Hainbuchenring;Planegg S;Busservice Watzinger,
-261;bus;;Neuried;Fürstenried West U;Busservice Watzinger
-262;bus;;Heimstetten S;Kirchheim, Gewerbegebiet;Verkehrsbetrieb Ettenhuber GmbH
-263;bus;;Messestadt West U;Feldkirchen S;Verkehrsbetrieb Ettenhuber GmbH
-263V;bus;;Feldkirchen;Riem S Dornach;Verkehrsbetrieb Ettenhuber GmbH
-264;bus;;Messestadt West U;Riem S Dornach;Verkehrsbetrieb Ettenhuber GmbH
-265;bus;;Pasing S R;Planegg S;Busservice Watzinger
-266;bus;;Planegg S;Klinikum Großhadern U;Busservice Watzinger
-267;bus;;Neuaubing;Fürstenried West U;Busservice Watzinger
-267V;bus;;Neuried, Rathaus;Pasing, Gymnasium;Busservice Watzinger
-268;bus;;Waldfriedhof;Gräfelfing S;Busservice Watzinger
-268V;bus;;Großhadern U;Gräfelfing, Am Haag;Busservice Watzinger
-269;bus;;Neuried;Klinikum Großhadern U;Busverkehr Südbayern
-270;bus;;Höllriegelskreuth S;Solln S;Demmelmair GmbH & Co
-271;bus;;Höllriegelskreuth S;Dietramszell;Geldhauser/RVO
-271V;bus;Egling;Grünwald, Gymnasium;Geldhauser/RVO
-N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzinger
-285;bus;;Haar S;Ismaning S;Verkehrsbetrieb Ettenhuber GmbH
-285V;bus;;Ottendichl;Haar, Jagdfeldbad;Verkehrsbetrieb Ettenhuber GmbH
-285W;bus;;Aschheim, Sportpark;Ismaning (S);Verkehrsbetrieb Ettenhuber GmbH
-290;bus;;Stadtbus Garching;;Verkehrsbetrieb Ettenhuber GmbH
-290V;bus;;Hochbrück, Jahnstraße;Prof.-Angermair-Ring;Verkehrsbetrieb Ettenhuber GmbH
-291;bus;;Dachau S R;Unterschleißheim S;Busverkehr Südbayern
-292;bus;;Garching-Forschungszentrum U;Sonnenstraße;Boos/Hadersdorfer/Scharf
-293;bus;;Dirnismaning;Garching U;Verkehrsbetrieb Ettenhuber GmbH
-294;bus;;Am Hart U;Garching-Hochbrück U;Verkehrsbetrieb Ettenhuber GmbH
-295;bus;;Am Hart U;Oberschleißheim;Hadersdorfer/Boos/Scharf
+213;bus;!Keine Änderungen ab 15.12.2019!;Ostbahnhof U S R;Taufkirchen, Lilienthalstraße;RVO/Geldhauser
+214;bus;!Keine Änderungen ab 15.12.2019!;Riemerling, Altenheim;Hohenbrunn;Verkehrsbetrieb Ettenhuber GmbH
+214V;bus;!Keine Änderungen ab 15.12.2019!;Ottobrunn, Einsteinstraße;Neubiberg, Realschule;Verkehrsbetrieb Ettenhuber GmbH
+215;bus;!Keine Änderungen ab 15.12.2019!;Lohhof S Süd;Unterschleißheim S Ost;VBR GmbH, München
+216;bus;!Keine Änderungen ab 15.12.2019!;Taufkirchen, Hugo-Junkers-Straße;Faistenhaar;RVO/Geldhauser
+216V;bus;!Keine Änderungen ab 15.12.2019!;Neubiberg, Realschule;Faistenhaar, Waldsiedlung / Hofolding / Sauerlach S;Verkehrsbetrieb Ettenhuber GmbH
+217;bus;!Kleinere Änderungen ab 15.12.2019, nur noch 2 Varianten!;Neuperlach Süd U S;Unterhaching S;Demmelmair GmbH & Co
+218;bus;!Kleinere Änderungen ab 15.12.2019!;Unterschleißheim S West;Lohhof S Süd;VBR GmbH/Busverkehr Südbayern GmbH
+219;bus;!Keine Änderungen ab 15.12.2019!;Garching-Hochbrück U;Unterschleißheim S Ost;VBR GmbH/Busverkehr Südbayern GmbH,
+219V;bus;!Keine Änderungen ab 15.12.2019!;Hochbrück, Jahnstraße;Oberschleißheim, Rathaus;VBR GmbH/Busverkehr Südbayern GmbH
+220;bus;!Keine Änderungen ab 15.12.2019!;Winning;Giesing U S;Verkehrsbetrieb Ettenhuber GmbH
+220V;bus;!Keine Änderungen ab 15.12.2019!;Unterhaching;Fasanenpark S;Verkehrsbetrieb Ettenhuber GmbH
+221;bus;!Keine Änderungen ab 15.12.2019!;Unterhaching S;München, Waldheimplatz;Verkehrsbetrieb Ettenhuber GmbH
+222;bus;!Ab 15.12.2019: Verlängert via Grünwald nach Höllriegelskreuth, Taufkirchen, Bergham/Potzham werden nicht mehr angefahren!;Deisenhofen S;Neuperlach Süd U S;Busservice Watzinger
+222V;bus;!Neu ab 15.12.2019!;Bergham/Taufkirchen;Pullach/Straßlach;Geldhauser
+223;bus;!Keine Änderungen ab 15.12.2019!;Sauerlach S;Arget;Verkehrsbetrieb Ettenhuber GmbH
+224;bus;!Größere Änderungen ab 15.12.2019!;Unterhaching S;Höllriegelskreuth S;Demmelmair GmbH & Co
+225;bus;!Keine Änderungen ab 15.12.2019!;Taufkirchen S;Gewerbegebiet Potzham;Geldhauser
+226;bus;!Keine Änderungen ab 15.12.2019!;Sauerlach S;Deisenhofen S R;RVO/Geldhauser
+227;bus;!Keine Änderungen ab 15.12.2019!;Ortsbus Oberhaching;;Busservice Watzinger
+229;bus;!Kleinere Änderung ab 15.12.2019: via Neubiberg (S) statt Neubiberg, Haupstraße!;Ottobrunn, Phönix Bad;Neuperlach Süd U S;Geldhauser
+230;bus;!Größere Änderungen ab 15.12.2019: Verlängert nach Haar!;Fischerhäuser;Garching-Forschungszentrum U;VBR GmbH, München
+230V;bus;!Kleinere Änderung ab 15.12.2019: 1 zusätzliche Variante!;Garching, Untere Straßäcker;Ismaning S;VBR GmbH, München
+230W;bus;!Neu ab 15.12.2019!;Ottendichl;Haar, Jagdfeldbad;Verkehrsbetrieb Ettenhuber GmbH
+231;bus;!Keine Änderungen ab 15.12.2019!;Ismaning S;Studentenstadt U;DB Regionalverkehr Bayern / Regionalverkehr Oberbayern / DB Regio Bus Bayern
+231V;bus;!Keine Änderungen ab 15.12.2019!;Unterföhring, Siedlerstraße;Ismaning S;VBR GmbH
+232;bus;!Keine Änderungen ab 15.12.2019!;Unterföhring, Fichtenstraße;St. Emmeram;Verkehrsbetrieb Ettenhuber GmbH
+233;bus;!Keine Änderungen ab 15.12.2019!;Studentenstadt U;Unterföhring S;Geldhauser
+234;bus;!Kleinere Änderung ab 15.12.2019!;Messestadt Ost U;Unterföhring S;Geldhauser
+240;bus;!Keine Änderungen ab 15.12.2019!;Harthausen;Neukeferloh;DB Regio Bus Bayern GmbH
+240V;bus;!Keine Änderungen ab 15.12.2019!;Harthausen;Baldham/Haar;DB Regio Bus Bayern GmbH
+241;bus;!Keine Änderungen ab 15.12.2019!;Haar S;Taufkirchen, Friedhof;Verkehrsbetrieb Ettenhuber GmbH
+241V;bus;!Entfällt ab 15.12.2019!;Putzbrunn, Hohenbrunner Straße;Riemerling, Theodor-Heuss-Straße;Verkehrsbetrieb Ettenhuber GmbH
+242;bus;!Keine Änderungen ab 15.12.2019!;Haar S;Gronsdorf S;DB Regio Bus Bayern GmbH
+242V;bus;!Keine Änderungen ab 15.12.2019!;Gronsdorf S;Haar, Jagdfeldbad;DB Regio Bus Bayern GmbH
+243;bus;!Keine Änderungen ab 15.12.2019!;Haar, Hans-Stießberger-Straße;Neukeferloh;DB Regio Bus Bayern GmbH
+244;bus;!Keine Änderungen ab 15.12.2019!;Taufkirchen, Hugo-Junkers-Straße;Sauerlach S;Verkehrsbetrieb Ettenhuber GmbH
+258;bus;!Keine Änderungen ab 15.12.2019!;Gräfelfing S;Starnberger Straße;Busservice Watzinger
+259;bus;!Keine Änderungen ab 15.12.2019!;Pasing Bf S R;Martinsried;Demmelmair GmbH & Co
+260;bus;!Keine Änderungen ab 15.12.2019!;Germering-Unterpfaffenhofen S;Fürstenried West U;Busservice Watzinger
+260V;bus;!Keine Änderungen ab 15.12.2019!;Neuried, Hainbuchenring;Planegg S;Busservice Watzinger
+261;bus;!Keine Änderungen ab 15.12.2019!;Neuried;Fürstenried West U;Busservice Watzinger
+262;bus;!Komplett anders ab 15.12.2019: andere Ziele und dann 6 Varianten!;Heimstetten S;Kirchheim, Gewerbegebiet;Verkehrsbetrieb Ettenhuber GmbH
+263;bus;!Kleinere Änderung ab 15.12.2019!;Messestadt West U;Feldkirchen S;Verkehrsbetrieb Ettenhuber GmbH
+263V;bus;!Kleinere Änderung ab 15.12.2019!;Feldkirchen;Riem S Dornach;Verkehrsbetrieb Ettenhuber GmbH
+264;bus;!Keine Änderungen ab 15.12.2019!;Messestadt West U;Riem S Dornach;Verkehrsbetrieb Ettenhuber GmbH
+265;bus;!Keine Änderungen ab 15.12.2019!;Pasing S R;Planegg S;Demmelmair GmbH & Co
+266;bus;!Keine Änderungen ab 15.12.2019!;Planegg S;Klinikum Großhadern U;Busservice Watzinger
+267;bus;!Keine Änderungen ab 15.12.2019!;Neuaubing;Fürstenried West U;Busservice Watzinger
+267V;bus;!Keine Änderungen ab 15.12.2019!;Neuried, Rathaus;Pasing, Gymnasium;Busservice Watzinger
+268;bus;!Keine Änderungen ab 15.12.2019!;Waldfriedhof;Gräfelfing S;Busservice Watzinger
+268V;bus;!Entfällt ab 15.12.2019!;Großhadern U;Gräfelfing, Am Haag;Busservice Watzinger
+269;bus;!Keine Änderungen ab 15.12.2019!;Neuried;Klinikum Großhadern U;Busverkehr Südbayern
+270;bus;!Größere Änderungen ab 15.12.2019!;Höllriegelskreuth S;Solln S;Demmelmair GmbH & Co
+270V;bus;!Neu ab 15.12.2019!;München, Siemensallee;Pullach, Gartenstraße / Rathaus;Geldhauser
+271;bus;!Keine Änderungen ab 15.12.2019!;Höllriegelskreuth S;Dietramszell;Geldhauser/RVO
+271V;bus;!Kleinere Änderung ab 15.12.2019: 1 Teilstrecke als neue Variante!;Egling;Grünwald, Gymnasium;Geldhauser/RVO
+N272;bus;Nachtbus !Keine Änderungen ab 15.12.2019!;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzinger
+285;bus;!Entfällt ab 15.12.2019!;Haar S;Ismaning S;Verkehrsbetrieb Ettenhuber GmbH
+285V;bus;!Entfällt ab 15.12.2019!;Ottendichl;Haar, Jagdfeldbad;Verkehrsbetrieb Ettenhuber GmbH
+285W;bus;!Entfällt ab 15.12.2019!;Aschheim, Sportpark;Ismaning (S);Verkehrsbetrieb Ettenhuber GmbH
+290;bus;!Keine Änderungen ab 15.12.2019!;Stadtbus Garching;;Verkehrsbetrieb Ettenhuber GmbH
+290V;bus;!Keine Änderungen ab 15.12.2019!;Hochbrück, Jahnstraße;Prof.-Angermair-Ring;Verkehrsbetrieb Ettenhuber GmbH
+291;bus;!Keine Änderungen ab 15.12.2019!;Dachau S R;Unterschleißheim S West;Busverkehr Südbayern
+292;bus;!Keine Änderungen ab 15.12.2019!;Garching-Forschungszentrum U;Sonnenstraße;Busverkehr Südbayern GmbH/Bayernbus GmbH
+293;bus;!Keine Änderungen ab 15.12.2019!;Dirnismaning;Garching U;Verkehrsbetrieb Ettenhuber GmbH
+294;bus;!Keine Änderungen ab 15.12.2019!;Am Hart U;Garching-Hochbrück U;Busverkehr Südbayern GmbH/Bayernbus GmbH
+295;bus;!Keine Änderungen ab 15.12.2019!;Am Hart U;Oberschleißheim;Busverkehr Südbayern GmbH/Bayernbus GmbH
 #
 ==== Landkreis Bad Tölz - Wolfratshausen - 300 - 399
-301;bus;Stadtbus Wolfratshausen;;;deuCon GmbH
-302;bus;Stadtbus Wolfratshausen;;;deuCon GmbH
-310;bus;Stadtbus Geretsried;;deuCon GmbH
-370;bus;;Geretsried, Stein;Wolfratshausen S;Regionalverkehr Obb.
-370V/378V;bus;;Geretsried, Stein;Wolfratshausen S;Regionalverkehr Obb.
-372;bus;;Beuerberg;Wolfratshausen S;Regionalverkehr Obb.
-373;bus;;Seeshaupt R;Wolfratshausen S;Regionalverkehr Obb.
-373V;bus;;Ammerland/Ambach;Wolfratshausen S;Regionalverkehr Obb.
-374;bus;;Penzberg;Wolfratshausen S;Regionalverkehr Obb.
-375;bus;;Endlhausen;Wolfratshausen S;Geldhauser/RVO
-376;bus;;Bad Heilbrunn;Wolfratshausen S;Regionalverkehr Obb.
-377;bus;;Bad Tölz;Wolfratshausen S;Regionalverkehr Obb.
-377V;bus;;Egling;Geretsried;Regionalverkehr Obb.
-378;bus;;Geretsried, Stein;Wolfratshausen S;Regionalverkehr Obb.
-379;bus;;Bad Tölz;Wolfratshausen S;Regionalverkehr Obb.
-379V;bus;;Bad Tölz;Wolfratshausen S;Regionalverkehr Obb.
-381;bus;;Deisenhofen S;Geretsried, Schulzentrum;Geldhauser/RVO
-381V;bus;;Dietramszell;Geretsried, Schulzentrum;Geldhauser/RVO
+301;bus;Stadtbus Wolfratshausen !Ab 15.12.2029: nur noch eine Variante, ohne "Stobäusstraß"!;;;deuCon GmbH
+302;bus;Stadtbus Wolfratshausen !Ab 15.12.2019: Margeritenstraße wird auch angefahren!;;;deuCon GmbH
+310;bus;Stadtbus Geretsried !Keine Änderungen ab 15.12.2019!;;;deuCon GmbH
+370;bus;!Keine Änderungen ab 15.12.2019!;Geretsried, Stein;Wolfratshausen S;Regionalverkehr Obb.
+370V/378V;bus;!Keine Änderungen ab 15.12.2019!;Geretsried, Stein;Wolfratshausen S;Regionalverkehr Obb.
+372;bus;!Keine Änderungen ab 15.12.2019!;Beuerberg;Wolfratshausen S;Regionalverkehr Obb.
+373;bus;!Kleinere Änderung ab 15:12:2019: "Gh. Neuwirt" wird Richtung WOL nicht mehr angefahren!;Seeshaupt R;Wolfratshausen S;Regionalverkehr Obb.
+373V;bus;!Kleinere Änderung ab 15:12:2019: "Gh. Neuwirt" wird Richtung WOL nicht mehr angefahren!;Ammerland/Ambach;Wolfratshausen S;Regionalverkehr Obb.
+374;bus;!Keine Änderungen ab 15.12.2019!;Penzberg;Wolfratshausen S;Regionalverkehr Obb.
+375;bus;!Keine Änderungen ab 15.12.2019!;Endlhausen;Wolfratshausen S;Geldhauser/RVO
+376;bus;!Keine Änderungen ab 15.12.2019!;Bad Heilbrunn;Wolfratshausen S;Regionalverkehr Obb.
+377;bus;!Keine Änderungen ab 15.12.2019!;Bad Tölz;Wolfratshausen S;Regionalverkehr Obb.
+377V;bus;!Keine Änderungen ab 15.12.2019!;Egling;Geretsried;Regionalverkehr Obb.
+378;bus;!Keine Änderungen ab 15.12.2019!;Geretsried, Stein;Wolfratshausen S;Regionalverkehr Obb.
+379;bus;!Keine Änderungen ab 15.12.2019!;Bad Tölz;Wolfratshausen S;Regionalverkehr Obb.
+379V;bus;!Kleinere Änderung ab 15:12:2019: viele Hst als 'exit_only' bei Bad Tölz, Schulzentrum => Wolfratshausen (S)!;Bad Tölz;Wolfratshausen S;Regionalverkehr Obb.
+381;bus;!Keine Änderungen ab 15.12.2019!;Deisenhofen S;Geretsried, Schulzentrum;Geldhauser/RVO
+381V;bus;!Keine Änderungen ab 15.12.2019!;Dietramszell;Geretsried, Schulzentrum;Geldhauser/RVO
 #
 ==== Landkreis Ebersberg - 400 - 499
-411;bus;;Antholing;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
-413;bus;;Antholing;Höhenkirchen-Siegertsbrunn S;Verkehrsbetrieb Ettenhuber GmbH
-440;bus;;Piusheim, Schule / Glonn;Grafing Stadt, Gymnasium / Ebersberg, Realschule;Verkehrsbetrieb Ettenhuber GmbH
-442;bus;;Grafing Bf S R;Eglharting;Larcher, Markt Schwaben
-443;bus;;Steinhöring R;Steinhöring R;Omnibusverkehr Reisberger GmbH
-444;bus;;Grafing Bf S R;Schalldorf;Verkehrsbetrieb Ettenhuber GmbH
-445;bus;;Ebersberg S R;Erding S;Larcher, Markt Schwaben
-446;bus;;Markt Schwaben S R;Ebersberg S R;Larcher, Markt Schwaben
-446V;bus;;Markt Schwaben;Niederried;Larcher Touristik GmbH
-447;bus;;Aßling, Rathaus;Grafing Bahnhof S R;Omnibusverkehr Reisberger GmbH
+411;bus;!Keine Änderungen ab 15.12.2019!;Antholing;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
+413;bus;!Kleinere Änderungen ab 15.12.2019: Samstag-, Sonntagverkehr!;Antholing;Höhenkirchen-Siegertsbrunn S;Verkehrsbetrieb Ettenhuber GmbH
+440;bus;!Kleinere Änderungen ab 15.12.2019!;Piusheim, Schule / Glonn;Grafing Stadt, Gymnasium / Ebersberg, Realschule;Verkehrsbetrieb Ettenhuber GmbH
+442;bus;!Kleinere Änderungen ab 15.12.2019: 1 Variante entfällt!;Grafing Bf S R;Eglharting;Larcher, Markt Schwaben
+443;bus;!Keine Änderungen ab 15.12.2019!;Steinhöring R;Steinhöring R;Omnibusverkehr Reisberger GmbH
+444;bus;!Kleinere Änderungen ab 15.12.2019!;Grafing Bf S R;Schalldorf;Verkehrsbetrieb Ettenhuber GmbH
+445;bus;!Keine Änderungen ab 15.12.2019!;Ebersberg S R;Erding S;Larcher, Markt Schwaben
+446;bus;!Kleinere Änderungen ab 15.12.2019!;Markt Schwaben S R;Ebersberg S R;Larcher, Markt Schwaben
+446V;bus;!Kleinere Änderungen ab 15.12.2019!;Markt Schwaben;Niederried;Larcher Touristik GmbH
+447;bus;!Keinee Änderungen ab 15.12.2019!;Aßling, Rathaus;Grafing Bahnhof S R;Omnibusverkehr Reisberger GmbH
 451;bus;;Vaterstetten S;Vaterstetten S;Larcher, Markt Schwaben
 452;bus;;Vaterstetten S;Grub S Süd;Larcher, Markt Schwaben
 453;bus;;Glonn;Zorneding S;Verkehrsbetrieb Ettenhuber GmbH

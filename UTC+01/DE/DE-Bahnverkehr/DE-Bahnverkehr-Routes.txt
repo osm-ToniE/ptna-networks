@@ -303,6 +303,7 @@ RB15;train;Taunusbahn;Brandoberndorf;Bad Homburg|Frankfurt;HLB
 RB16;train;;Friedrichsdorf;Friedberg;
 RB 16;train;;Kleinseenbahn;Mirow;Neustrelitz;HANSeatische Eisenbahn GmbH
 RB 17;train;;Wismar;Ludwigslust;DB Regio
+"RB 17A;RE 17B;RB 17C|RB 17A|RE 17B|RB 17C";train;;Stuttgart Hbf <=> Heidelberg Hbf|Pforzheim Hbf;Abellio Rail Baden-Württemberg GmbH
 RB 20;train;;Leipzig;Eisenach;Abellio Rail Mitteldeutschland GmbH
 RB20;train;euregiobahn;Stolberg;Düren;DB Regio AG NRW
 RB20;train;;Potsdam;Oranienburg;DB Regio AG Nordost

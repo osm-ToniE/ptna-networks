@@ -2079,14 +2079,44 @@ ALF66;bus;;;;Märkische Verkehrsgesellschaft GmbH
 ALF67;bus;;;;Märkische Verkehrsgesellschaft GmbH
 ALF96;bus;;;;Märkische Verkehrsgesellschaft GmbH
 
+BB1;bus;;;;Bürgerbus Altena;Märkische Verkehrsgesellschaft GmbH
 BB1;bus;;;;Bürgerbus Balve;Märkische Verkehrsgesellschaft GmbH
+BB1;bus;;;;Bürgerbus Halver;Märkische Verkehrsgesellschaft GmbH
 BB1;bus;;Hemer;Hemer;Bürgerbus Hemer;Märkische Verkehrsgesellschaft GmbH
+BB1;bus;;;;Bürgerbus Herscheid;Märkische Verkehrsgesellschaft GmbH
+BB1;bus;;;;Bürgerbus Kierspe;Märkische Verkehrsgesellschaft GmbH
 BB1;bus;;Menden;Menden;Bürgerbus Menden;Märkische Verkehrsgesellschaft GmbH
+BB1;bus;;;;Bürgerbus Nachrodt-Wiblingwerde;Märkische Verkehrsgesellschaft GmbH
+BB1;bus;;;;Bürgerbus Neuenrade;Märkische Verkehrsgesellschaft GmbH
+BB1;bus;;;;Bürgerbus Plettenberg;Märkische Verkehrsgesellschaft GmbH
+BB1;bus;;;;Bürgerbus Schalksmühle;Märkische Verkehrsgesellschaft GmbH
+BB1;bus;;;;Bürgerbus Werdohl;Märkische Verkehrsgesellschaft GmbH
+BB2;bus;;;;Bürgerbus Altena;Märkische Verkehrsgesellschaft GmbH
+BB2;bus;;;;Bürgerbus Balve;Märkische Verkehrsgesellschaft GmbH
+BB2;bus;;;;Bürgerbus Halver;Märkische Verkehrsgesellschaft GmbH
 BB2;bus;;Hemer;Hemer;Bürgerbus Hemer;Märkische Verkehrsgesellschaft GmbH
+BB2;bus;;;;Bürgerbus Herscheid;Märkische Verkehrsgesellschaft GmbH
+BB2;bus;;;;Bürgerbus Nachrodt-Wiblingwerde;Märkische Verkehrsgesellschaft GmbH
+BB2;bus;;;;Bürgerbus Neuenrade;Märkische Verkehrsgesellschaft GmbH
+BB2;bus;;;;Bürgerbus Plettenberg;Märkische Verkehrsgesellschaft GmbH
+BB2;bus;;;;Bürgerbus Schalksmühle;Märkische Verkehrsgesellschaft GmbH
+BB2;bus;;;;Bürgerbus Werdohl;Märkische Verkehrsgesellschaft GmbH
+BB3;bus;;;;Bürgerbus Altena;Märkische Verkehrsgesellschaft GmbH
+BB3;bus;;;;Bürgerbus Balve;Märkische Verkehrsgesellschaft GmbH
+BB3;bus;;;;Bürgerbus Halver;Märkische Verkehrsgesellschaft GmbH
 BB3;bus;;Hemer;Hemer;Bürgerbus Hemer;Märkische Verkehrsgesellschaft GmbH
 BB3;bus;;;;Bürgerbus Herscheid;Märkische Verkehrsgesellschaft GmbH
 BB3;bus;;;;Bürgerbus Werdohl;Märkische Verkehrsgesellschaft GmbH
+BB3;bus;;;;Bürgerbus Nachrodt-Wiblingwerde;Märkische Verkehrsgesellschaft GmbH
+BB3;bus;;;;Bürgerbus Plettenberg;Märkische Verkehrsgesellschaft GmbH
+BB3;bus;;;;Bürgerbus Schalksmühle;Märkische Verkehrsgesellschaft GmbH
+BB4;bus;;;;Bürgerbus Altena;Märkische Verkehrsgesellschaft GmbH
+BB4;bus;;;;Bürgerbus Balve;Märkische Verkehrsgesellschaft GmbH
 BB4;bus;;Hemer;Hemer;Bürgerbus Hemer;Märkische Verkehrsgesellschaft GmbH
+BB4;bus;;;;Bürgerbus Nachrodt-Wiblingwerde;Märkische Verkehrsgesellschaft GmbH
+BB4;bus;;;;Bürgerbus Schalksmühle;Märkische Verkehrsgesellschaft GmbH
+BB5;bus;;;;Bürgerbus Plettenberg;Märkische Verkehrsgesellschaft GmbH
+BB5;bus;;;;Bürgerbus Schalksmühle;Märkische Verkehrsgesellschaft GmbH
 
 N7;bus;;Lüdenscheid;Plettenberg;Märkische Verkehrsgesellschaft GmbH
 

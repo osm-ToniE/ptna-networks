@@ -503,6 +503,10 @@ V-64;bus;Rodewisch - Rothenkirchen - Stützengrün;;;GVG
 V-66;bus;Rodewisch - Lengenfeld - Ebersbrunn - Zwickau;;;RVB
 V-75;bus;Neumark - Reuth - Schönfels;;;RVB
 V-92;bus;Rodewisch - Lengenfeld - Stangengrün - Irfersgrün;;;GVG
+== Schülerverkehr
+=== Chemnitz
+S91;bus;TU Campus - Humboldtplatz;;;Chemnitzer Verkehrs-AG
+S92;bus;Klaffenbach - Einsiedel;;;Chemnitzer Verkehrs-AG
 == Sonderverkehrsmittel
 Drahtseilbahn;funicular;Drahtseilbahn Augustusburg - Erdmannsdorf;;;VMS
 Fichtelbergbahn;train;Cranzahl - Kurort Oberwiesenthal;;;SDG
