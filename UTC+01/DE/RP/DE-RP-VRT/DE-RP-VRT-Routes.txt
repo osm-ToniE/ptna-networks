@@ -71,7 +71,7 @@ RB24;train;;;;
 RB71;train;;;;
 RB81;train;;;;
 RB82;train;;;;
-#RB83;train;;;; neue Line über Trier-West, PT noch nicht in Betrieb
+RB83;train;;;;
 #RB84;train;;;; neue Line über Trier-West, PT noch nicht in Betrieb
 RB 85;train;;;;
 

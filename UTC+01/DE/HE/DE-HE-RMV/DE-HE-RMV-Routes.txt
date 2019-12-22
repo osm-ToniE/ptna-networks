@@ -284,6 +284,7 @@ Venus;bus;;;;Stadtwerke Gießen
 10;bus;;;;Hanauer Straßenbahn GmbH
 11;bus;;;;Hanauer Straßenbahn GmbH
 12;bus;;;;Hanauer Straßenbahn GmbH
+20;bus;;Hanau Hauptbahnhof;Hanau Kiefernweg;Hanauer Straßenbahn GmbH
 ==== Main-Kinzig-Kreis
 ==== Regionale Buslinien
 -
@@ -298,7 +299,7 @@ Venus;bus;;;;Stadtwerke Gießen
 
 === Landkreis Marburg-Biedenkopf
 ==== Stadtbusverkehr Marburg
-1;bus;;;;SWM
+1;bus;;;;MVG
 2;bus;;;;Stadtwerke Marburg
 3;bus;;;;Stadtwerke Marburg
 4;bus;;;;Stadtwerke Marburg

@@ -81,7 +81,7 @@
 
 RB27;train;;;;DB Regio Mitte
 RB 31;train;;;;NordWestBahn
-RB32;train;;;;Abellio Rail NRW
+RB 32;train;Rhein-Emscher-Bahn;;;Abellio Rail NRW GmbH
 RB33;train;;;;DB Regio NRW
 RB34;train;;;;VIAS
 RB35;train;;;;Abellio Rail NRW
@@ -118,7 +118,9 @@ RE 14;train;;;;NordWestBahn
 RE16;train;;;;Abellio Rail NRW GmbH
 RE17;train;;;;DB Regio AG NRW
 RE19;train;;;;Abellio Rail NRW
+RE19a;train;Der Bocholter;Wesel;Bocholt;Abellio Rail NRW
 RE42;train;;;;DB Regio AG NRW
+RE49;train;;Wuppertal;Wesel;Abellio Rail NRW GmbH
 RE57;train;;;;DB Regio NRW
 
 === S

@@ -680,7 +680,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 1301;bus;;Warschau;Prag;FlixMobility GmbH
 1302;bus;;Warschau;Waldenburg;FlixMobility GmbH
 1303;bus;;Warschau;Breslau/Karpacz;FlixMobility GmbH
-1304;bus;;Warschau;Dresden;FlixMobility GmbH
+1304;bus;;Warschau;Brüssel;FlixMobility GmbH
 1305;bus;;Salzburg;Breslau;FlixMobility GmbH
 1306;bus;;Posen;Karpacz;FlixMobility GmbH
 1307;bus;;Breslau;Gdingen;FlixMobility GmbH
@@ -745,7 +745,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 
 1701;bus;;Nantes;Rennes;FlixMobility GmbH
 1702;bus;;Paris, Flughafen Charles de Gaulle;Saint-Brieuc;FlixMobility GmbH
-1704;bus;;;;
+1704;bus;;Paris;Lorient;FlixMobility GmbH
 1705;bus;;Paris, Flughafen Charles de Gaulle;Orléans;FlixMobility GmbH
 1709;bus;;Paris;Chambéry;FlixMobility GmbH
 1711;bus;;Bordeaux;Nantes;FlixMobility GmbH
@@ -765,6 +765,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 1742;bus;;Paris;Rouen;FlixMobility GmbH
 1747;bus;;Paris;Tourcoing;FlixMobility GmbH
 1748;bus;;Paris;Lille;FlixMobility GmbH
+1750;bus;;Paris;Straßburg;FlixMobility GmbH
 1751;bus;;;;
 1752;bus;;Paris;Caen;FlixMobility GmbH
 1754;bus;;Salouel;Courbevoie;FlixMobility GmbH
@@ -785,6 +786,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 1783;bus;;Porto;Ferrol;FlixMobility GmbH
 1787;bus;;Grenoble;Lyon;FlixMobility GmbH
 1789;bus;;Montpellier;Genf;FlixMobility GmbH
+1790;bus;;Paris;Metz;FlixMobility GmbH
 1792;bus;;Vannes;Paris;FlixMobility GmbH
 1797;bus;;Lyon Flughafen;Grenoble;FlixMobility GmbH
 1799;bus;;Mulhouse;Paris;FlixMobility GmbH
@@ -1248,7 +1250,7 @@ N1293;bus;;Breslau;Budapest;FlixMobility GmbH
 
 N1300;bus;;Warschau;Prag;FlixMobility GmbH
 N1304;bus;;München;Warschau;FlixMobility GmbH
-N1305;bus;;Warschau;Breslau;FlixMobility GmbH
+N1305;bus;;Warschau;Paris;FlixMobility GmbH
 N1310;bus;;Jastrzębie-Zdrój;Medyka;FlixMobility GmbH
 N1311;bus;;Gdingen;Budapest;FlixMobility GmbH
 N1320;bus;;Warschau;Bonn;FlixMobility GmbH

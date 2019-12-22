@@ -75,9 +75,10 @@
 33;bus;Bernsdorf - Adelsberg - Schösserholz;;;Chemnitzer Verkehrs-AG
 39;bus;Klaffenbach - Hutholz / Neukirchen;;;Chemnitzer Verkehrs-AG
 41;bus;Schönau - Reichenbrand - Grüna (- Hohenstein-Ernstthal);;;Chemnitzer Verkehrs-AG
-42;bus;Schönau - Rabenstein, Grünaer Straße;;;Chemnitzer Verkehrs-AG
+42;bus;Schönau - Rabenstein;;;Chemnitzer Verkehrs-AG
 43;bus;(Schösserholz -) Adelsberg - Rabenstein, Tierpark;;;Chemnitzer-Verkehrs-AG
 46;bus;Wittgensdorf, Chemnitztal - Borna;;;Chemnitzer Verkehrs-AG
+49;bus;Grüna - Mittelbach;;;Chemnitzer Verkehrs-AG
 51;bus;Zentralhaltestelle - Zeisigwald, Klinik Bethanien bzw. Yorckgebiet;;;Chemnitzer Verkehrs-AG
 52;bus;Hutholz - Chemnitzer Straße - Zentralhaltestelle;;;Chemnitzer Verkehrs-AG
 53;bus;Chemnitzer Straße - Altchemnitz - Technopark;;;Chemnitzer Verkehrs-AG
@@ -118,8 +119,6 @@ I;bus;Tour 2: Freiberg (Friedeburg - Wasserberg - Seilerberg) - Busbahnhof - Ind
 ===  Zwickau
 3;tram;Eckersbach - Neuplanitz;;;SVZ
 4;tram;Pölbitz - Städtisches Klinikum;;;SVZ
-5;tram;Hauptbahnhof - Städtisches Klinikum;;;SVZ
-7;tram;Pölbitz - Hauptbahnhof;;;SVZ
 10;bus;Zwickau, Niederhohndorf / Weißenborn - Neumarkt - Hauptbahnhof - Zwickau, Planitz - Wilkau-Haßlau;;;SVZ
 13;bus;Neumarkt - Wilkau-Haßlau;;;Städtische Verkehrsbetriebe Zwickau GmbH
 18;bus;Neumarkt - Georgenplatz - Königswalde / Hartmannsdorf;;;SVZ
@@ -284,8 +283,8 @@ STL 2;bus;Bahnhof - Niederdorf - Auer Straße - Albrecht-Dürer-Straße - Bahnho
 199;bus;Mülsen St. Jacob - Lichtenstein - Oelsnitz (Erzgeb) - Lugau / Stollberg;;;RVE
 200;bus;Chemnitz, Hutholz - Leukersdorf - Jahnsdorf - Neukirchen - Chemnitz, Hutholz - Neukirchen;;;RVE
 201;bus;Neukirchen - Chemnitz, Hutholz - Jahnsdorf - Leukersdorf - Neukirchen - Chemnitz, Hutholz;;;RVE
-206;bus;Chemnitz - Zschopau - Marienberg;;;Regionalverkehr Erzgebirge
-207;bus;Chemnitz - Zschopau - Marienberg - Olbernhau;;;Regionalverkehr Erzgebirge
+206;bus;Chemnitz - Zschopau - Marienberg;;;Regionalverkehr Erzgebirge GmbH
+207;bus;Chemnitz - Zschopau - Marienberg;;;Regionalverkehr Erzgebirge GmbH
 208;bus;Chemnitz, Altchemnitz - Einsiedel - Dittersdorf - Weißbach - Gelenau;;;RVE
 209;bus;Ortsverkehr Gelenau;;;RVE
 210;bus;Chemnitz - Thum - (Geyer -) Annaberg-Buchholz - Bärenstein - Kurort Oberwiesenthal;;;RVE

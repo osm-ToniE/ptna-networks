@@ -83,9 +83,9 @@ S60;train;;Böblingen;Stuttgart;
 R 11;train;Schusterbahn;Kornwestheim;Untertürkheim;
 R21;train;;Oberndorf;Schorndorf;
 R61;train;Strohgäubahn;Heimerdingen;Korntal;
-R72;train;Schönbuchbahn;Dettenhausen;Holzgerlingen;
 R81;train;;Oberlenningen;Kirchheim (T);
 R82;train;Tälesbahn;Neuffen;Nürtingen;
+RB46;train;Schönbuchbahn;Dettenhausen;Holzgerlingen;
 
 #
 == Zahnradbahn, Seilbahn

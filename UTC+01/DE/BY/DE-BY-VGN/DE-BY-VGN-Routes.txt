@@ -726,6 +726,7 @@ U3;subway;;;;
 922;bus;;;;
 925;bus;;;;
 927;bus;;;;
+929;bus; Ringlinie;;;
 930;bus;;;;
 931;bus;;;;
 935;bus;;;;

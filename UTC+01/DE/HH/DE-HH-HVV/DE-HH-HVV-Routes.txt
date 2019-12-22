@@ -47,7 +47,7 @@
 - Verweis auf mehr [[Talk:Hamburger_Verkehrsverbund/Analyse|Informationen]] im Wiki.
 
 == Hinweis
-- Grunddaten Stand 6.12.18 -- mit Änderungen zum Fahrplanwechsel 2019
+- Die Grunddaten für diese Analyse stammen aus verschiedenen Quellen, darunter dem Transparenzportal der Stadt Hamburg, dem Presse-Portal nahverkehrhamburg.de und mitwirkenden OSM-Mappern.
 -
 - Bei der Analyse ist 'network' derzeit entweder
 -
@@ -61,27 +61,31 @@
 #ref;type;comment;from;to;operator
 
 == RB-Eisenbahn
-RB31;train;;;;Metronom Eisenbahngesellschaft mbH
-RB32;train;;;;erixx GmbH
-RB33;train;;;;Eisenbahnen und Verkehrsbetriebe Elbe-Weser GmbH
-RB38;train;;;;erixx GmbH
-RB41;train;;;;Metronom Eisenbahngesellschaft mbH
-RB61;train;;;;NBE Nordbahn Eisenbahngesellschaft mbh & Co. KG
-RB71;train;;;;NBE Nordbahn Eisenbahngesellschaft mbh & Co. KG
-RB81;train;;;;DB Regio AG
-RB82;train;;;;NBE Nordbahn Eisenbahngesellschaft mbh & Co. KG
+RB31;train;;Hamburg;Lüneburg;Metronom Eisenbahngesellschaft mbH
+RB32;train;;Lüneburg;Dannenberg;erixx GmbH
+RB33;train;;Bremerhaven;Buxtehude;Eisenbahnen und Verkehrsbetriebe Elbe-Weser GmbH
+RB37;train;;Bremen;Uelzen;
+RB38;train;;Harburg;Soltau;erixx GmbH
+RB41;train;;Hamburg;Bremen;Metronom Eisenbahngesellschaft mbH
+RB47;train;;Uelzen;Braunschweig;
+RB61;train;;Itzhoe;Hamburg;NBE Nordbahn Eisenbahngesellschaft mbh & Co. KG
+RB71;train;;Elmshorn;Hamburg;NBE Nordbahn Eisenbahngesellschaft mbh & Co. KG
+RB81;train;;Bad Oldesloe;Hamburg;DB Regio AG
+RB82;train;;Neumünster;Bad Oldesloe;NBE Nordbahn Eisenbahngesellschaft mbh & Co. KG
 
 == RE-Eisenbahn
-RE1;train;;;;DB Regio AG
-RE3;train;;;;Metronom Eisenbahngesellschaft mbH
-RE4;train;;;;Metronom Eisenbahngesellschaft mbH
-RE5;train;;;;Verkehrsgesellschaft Start Unterelbe mbH
-RE6;train;;;;DB Regio AG
-RE7;train;;;;DB Regio AG
-RE70;train;;Hamburg;Kiel;DB Regio AG Nord
-RE8;train;;;;DB Regio AG
-RE80;train;;;;DB Regio AG
-RE83;train;;Kiel;Lüneburg;DB Regio AG Nord
+RE1;train;;Hamburg;Rostock;DB Regio AG
+RE3;train;;Hamburg;Uelzen;Metronom Eisenbahngesellschaft mbH
+RE2;train;;Uelzen;Göttingen;
+RE20;train;;Uelzen;Magdeburg;
+RE4;train;;Hamburg;Bremen;Metronom Eisenbahngesellschaft mbH
+RE5;train;;Hamburg;Cuxhaven;Verkehrsgesellschaft Start Unterelbe mbH
+RE6;train;;Westerland;Hamburg;DB Regio AG
+RE7;train;;Flensburg;Hamburg;DB Regio AG
+RE70;train;;Kiel;Hamburg;DB Regio AG Nord
+RE8;train;;Hamburg;Lübeck;DB Regio AG
+RE80;train;;Lübeck;Hamburg;DB Regio AG
+RE83;train;;Lübeck;Lüneburg;DB Regio AG Nord
 
 == S-Bahn
 A1;train;;Eidelstedt;Neumünster / Hamburg Hbf;AKN Eisenbahn GmbH
@@ -111,38 +115,39 @@ HBEL;ferry;;;;
 
 == Busse in der Stadt Hamburg
 === MetroBus
-1;bus;;;;
-2;bus;;;;
-4;bus;;;;
-5;bus;;;;
-6;bus;;;;
-7;bus;;;;
-8;bus;;;;
-9;bus;;;;
-10;bus;;;;
-11;bus;;;;
-12;bus;;;;
-13;bus;;;;
-14;bus;;;;
-15;bus;;;;
-17;bus;;;;
-19;bus;;;;
-20;bus;;;;
-21;bus;;;;
-22;bus;;;;
-23;bus;;;;
-24;bus;;;;
-25;bus;;;;
-26;bus;;;;
-27;bus;;;;
-28;bus;;;;
-29;bus;;;;
+1;bus;;S Rissen;Bf. Altona;Verkehrsbetriebe Hamburg-Holstein GmbH
+2;bus;;Schenefeld;Bf. Altona;Verkehrsbetriebe Hamburg-Holstein GmbH
+3;bus;;Schenefeld;Tiefstack;Verkehrsbetriebe Hamburg-Holstein GmbH
+4;bus;;Eidelstedt;Brandstwiete;Hamburger Hochbahn AG
+5;bus;;A Burgwedel;Hauptbahnhof;Hamburger Hochbahn AG
+6;bus;;Speicherstadt;U Borgweg;Hamburger Hochbahn AG
+7;bus;;U S Barmbek;Steishoop;Hamburger Hochbahn AG
+8;bus;;U Wandsbek Markt;S Poppenbüttel;Hamburger Hochbahn AG
+9;bus;;U Wandsbek Markt;Großlohe;Hamburger Hochbahn AG
+10;bus;;U Wandsbek Markt;Glatzer Straße;Hamburger Hochbahn AG
+11;bus;;U Wandsbek Markt;Sorenkoppel;Hamburger Hochbahn AG
+12;bus;;U Billstedt;S Allermöhe;Verkehrsbetriebe Hamburg-Holstein GmbH
+13;bus;;S Veddel;Kirchdorf (Süd);Hamburger Hochbahn AG
+14;bus;;Eißendorf;Fleestedt;Hamburger Hochbahn AG
+15;bus;;S Othmarschen;Alsterchaussee;Verkehrsbetriebe Hamburg-Holstein GmbH
+17;bus;;;;Hamburger Hochbahn AG
+19;bus;;;;Hamburger Hochbahn AG
+20;bus;;;;Hamburger Hochbahn AG
+21;bus;;U Niendorf;Teufelsbrück;Verkehrsbetriebe Hamburg-Holstein GmbH
+22;bus;;S Blankenese;U Kellingshusenstraße;Verkehrsbetriebe Hamburg-Holstein GmbH
+23;bus;;;;Hamburger Hochbahn AG
+24;bus;;;;Hamburger Hochbahn AG
+25;bus;;;;Hamburger Hochbahn AG
+26;bus;;;;Hamburger Hochbahn AG
+27;bus;;;;Hamburger Hochbahn AG
+28;bus;;;;Hamburger Hochbahn AG
+29;bus;;Bf. Tonndorf / Kielkoppelstraße;Bf. Bergedorf;Verkehrsbetriebe Hamburg-Holstein GmbH
 
 === Schnellbus
-31;bus;;;;
-34;bus;;;;
-36;bus;;;;
-37;bus;;;;
+31;bus;;U Rödingsmarkt;Lauenburg, ZOB;Verkehrsbetriebe Hamburg-Holstein GmbH
+34;bus;;;;Hamburger Hochbahn AG
+36;bus;;;;Hamburger Hochbahn AG
+37;bus;;;;Hamburger Hochbahn AG
 
 === XpressBus
 X3;bus;;;;
@@ -177,13 +182,12 @@ X86;bus;;;;
 638;bus;;;;
 639;bus;;;;
 640;bus;;;;
-641;bus;;;;
+641;bus;;Bf. Altona;S Neu Wulmstorf;Hamburger Hochbahn AG
 647;bus;;;;
 649;bus;;;;
 688;bus;;;;
 
-=== Stadtbus
-109;bus;;;;
+=== Stadt- und Regionalbus
 111;bus;;;;
 112;bus;;;;
 114;bus;;;;
@@ -238,6 +242,7 @@ X86;bus;;;;
 193;bus;;;;
 340;bus;;S Neuwiedenthal;Bf. Harburg;Hamburger Hochbahn AG
 349;bus;;;;Hamburger Hochbahn AG
+530;bus;;U Hammer Kirche;Schule Mittlerer Landweg;Verkehrsbetriebe Hamburg-Holstein GmbH
 543;bus;;Nachtigallenweg;Emmelndorf, Gartenstraße;Hamburger Hochbahn AG
 
 == Stadt- und Regionalbus: teilweise müssen Linen auf die Kreise verteilt werden!
@@ -387,6 +392,10 @@ X86;bus;;;;
 589;bus;;;;
 594;bus;;;;
 6668;bus;;;;
+=== Anruf-Sammel-Taxi (AST)
+8769-AST;bus;;;;
+8888-AST;bus;;;;
+8889-AST;bus;;;;
 
 == Busverkehr im Kreis Stormarn
 === StadtBus
@@ -535,6 +544,11 @@ X86;bus;;;;
 2375;bus;;;;
 2376;bus;;;;
 2377;bus;;;;
+=== BürgerBusse
+2311-KVG;bus;;;;
+2312-KVG;bus;;;;
+2313-KVG;bus;;;;
+2314-KVG;bus;;;;
 
 == Busse im Umland: Verteilung auf die Kreise noch erforderlich!
 1705;bus;;;;

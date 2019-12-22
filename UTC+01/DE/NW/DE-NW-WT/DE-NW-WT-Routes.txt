@@ -61,7 +61,7 @@
 
 R 42;train;;;;DB RegioNetz Verkehrs GmbH;Kurhessenbahn
 RB25;train;;;;DB Regio NRW
-RB32;train;;;;Abellio Rail NRW
+RB 32;train;;;;Abellio Rail NRW
 RB 45;train;;;;NordWestBahn
 RB50;train;;;;Eurobahn
 RB51;train;;;;
@@ -106,6 +106,7 @@ RE15;train;;;;Westfalenbahn
 RE16;train;;;;Abellio Rail NRW GmbH
 RE17;train;;;;DB Regio AG NRW
 RE 18;train;;Wilhelmshaven;Osnabrück;NordWestBahn
+RE19a;train;Der Bocholter;Wesel;Bocholt;Abellio Rail NRW
 RE42;train;;;;DB Regio AG NRW
 RE57;train;;;;
 RE60;train;;Rheine;Braunschweig;Westfalenbahn
@@ -2107,13 +2108,11 @@ BB3;bus;;;;Bürgerbus Halver;Märkische Verkehrsgesellschaft GmbH
 BB3;bus;;Hemer;Hemer;Bürgerbus Hemer;Märkische Verkehrsgesellschaft GmbH
 BB3;bus;;;;Bürgerbus Herscheid;Märkische Verkehrsgesellschaft GmbH
 BB3;bus;;;;Bürgerbus Werdohl;Märkische Verkehrsgesellschaft GmbH
-BB3;bus;;;;Bürgerbus Nachrodt-Wiblingwerde;Märkische Verkehrsgesellschaft GmbH
 BB3;bus;;;;Bürgerbus Plettenberg;Märkische Verkehrsgesellschaft GmbH
 BB3;bus;;;;Bürgerbus Schalksmühle;Märkische Verkehrsgesellschaft GmbH
 BB4;bus;;;;Bürgerbus Altena;Märkische Verkehrsgesellschaft GmbH
 BB4;bus;;;;Bürgerbus Balve;Märkische Verkehrsgesellschaft GmbH
 BB4;bus;;Hemer;Hemer;Bürgerbus Hemer;Märkische Verkehrsgesellschaft GmbH
-BB4;bus;;;;Bürgerbus Nachrodt-Wiblingwerde;Märkische Verkehrsgesellschaft GmbH
 BB4;bus;;;;Bürgerbus Schalksmühle;Märkische Verkehrsgesellschaft GmbH
 BB5;bus;;;;Bürgerbus Plettenberg;Märkische Verkehrsgesellschaft GmbH
 BB5;bus;;;;Bürgerbus Schalksmühle;Märkische Verkehrsgesellschaft GmbH
