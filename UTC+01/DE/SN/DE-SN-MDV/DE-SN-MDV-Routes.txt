@@ -241,6 +241,11 @@ B;bus;Delitzsch;;;Auto Webel
 A;bus;Grimma;Grimma oberer Bahnhof|Hohnstädt|Nicolaiplatz|Hengstberg;Gerichtswiesen|Hartgrund;Regionalbus Leipzig GmbH
 B;bus;Grimma;Nicolaiplatz|Vorwerkstraße/Alte Poststraße;August-Bebel-Straße/Alte Poststraße;Regionalbus Leipzig GmbH
 
+==== Merseburg
+
+A;bus;;Merseburg;Frankleben;PNVG
+B;bus;;Merseburg;Elisabethhöhe;PNVG
+
 ==== Schmölln
 
 R;bus;Schmölln;;;Thüsac

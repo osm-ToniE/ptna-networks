@@ -2113,8 +2113,8 @@ BB3;bus;;;;Bürgerbus Schalksmühle;Märkische Verkehrsgesellschaft GmbH
 BB4;bus;;;;Bürgerbus Altena;Märkische Verkehrsgesellschaft GmbH
 BB4;bus;;;;Bürgerbus Balve;Märkische Verkehrsgesellschaft GmbH
 BB4;bus;;Hemer;Hemer;Bürgerbus Hemer;Märkische Verkehrsgesellschaft GmbH
+BB4;bus;;;;Bürgerbus Plettenberg;Märkische Verkehrsgesellschaft GmbH
 BB4;bus;;;;Bürgerbus Schalksmühle;Märkische Verkehrsgesellschaft GmbH
-BB5;bus;;;;Bürgerbus Plettenberg;Märkische Verkehrsgesellschaft GmbH
 BB5;bus;;;;Bürgerbus Schalksmühle;Märkische Verkehrsgesellschaft GmbH
 
 N7;bus;;Lüdenscheid;Plettenberg;Märkische Verkehrsgesellschaft GmbH

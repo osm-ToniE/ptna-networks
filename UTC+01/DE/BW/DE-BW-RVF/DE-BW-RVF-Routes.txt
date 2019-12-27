@@ -158,6 +158,7 @@ RE/RB;train;Trireno;Freiburg (Breisgau);Basel SBB;DB Regio
 281;bus;;;;
 291;bus;;;;
 295;bus;;;;
+297;bus;;;;
 -
 
 === Bus 301 - 311

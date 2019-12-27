@@ -109,9 +109,8 @@ N27;tram;;Petuelring;Großhesseloher Brücke;SWM/MVG
 == Bus
 === Express-Bus (München)
 X30;bus;ExpressBus !Ab 15.12.2019: Verlängert nach Arabellapark!;Harras U S R;Arabellapark U;SWM/MVG
-X35;bus;ExpressBus !Ab 15.12.2019: X35 ersetzt X50!;Moosach U S R;Alte Heide U;SWM/MVG
-X36;bus;ExpressBus !Ab 15.12.2019: neue Linie!;Allach S;Alte Heide U;SWM/MVG,
-#X50;bus;ExpressBus !Ab 15.12.2019: X35 ersetzt X50!;Moosach U S R;Alte Heide U;SWM/MVG
+X35;bus;ExpressBus;Moosach U S R;Alte Heide U;SWM/MVG
+X36;bus;ExpressBus;Allach S;Alte Heide U;SWM/MVG,
 X80;bus;ExpressBus;Puchheim S Süd;Moosach U S R;SWM/MVG
 X98;bus;ExpressBus;Hauptbahnhof;Tierpark (Alemannenstraße);SWM/MVG
 #
@@ -225,8 +224,7 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 211;bus;;Neuperlach Süd (S/U);Putzbrunn;Verkehrsbetrieb Ettenhuber GmbH
 211V;bus;!Neu ab 15.12.2019!;Neubiberg, Realschule;Unterbiberg;Verkehrsbetrieb Ettenhuber GmbH
 211W;bus;!Neu ab 15.12.2019!;Solalinden;Putzbrunn;Verkehrsbetrieb Ettenhuber GmbH
-212;bus;!Kleinere Änderungen an 2 Varianten ab 15.12.2019!;Grasbrunn;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
-#212V;bus;!Entfällt ab 15.12.2019!;Grasbrunn;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
+212;bus;;Grasbrunn;Neuperlach Süd U S;Verkehrsbetrieb Ettenhuber GmbH
 213;bus;;Ostbahnhof U S R;Taufkirchen, Lilienthalstraße;RVO/Geldhauser
 214;bus;;Riemerling, Altenheim;Hohenbrunn;Verkehrsbetrieb Ettenhuber GmbH
 214V;bus;;Ottobrunn, Einsteinstraße;Neubiberg, Realschule;Verkehrsbetrieb Ettenhuber GmbH
@@ -259,7 +257,6 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 240;bus;;Harthausen;Neukeferloh;DB Regio Bus Bayern GmbH
 240V;bus;;Harthausen;Baldham/Haar;DB Regio Bus Bayern GmbH
 241;bus;;Haar S;Taufkirchen, Friedhof;Verkehrsbetrieb Ettenhuber GmbH
-#241V;bus;!Entfällt ab 15.12.2019!;Putzbrunn, Hohenbrunner Straße;Riemerling, Theodor-Heuss-Straße;Verkehrsbetrieb Ettenhuber GmbH
 242;bus;;Haar S;Gronsdorf S;DB Regio Bus Bayern GmbH
 242V;bus;;Gronsdorf S;Haar, Jagdfeldbad;DB Regio Bus Bayern GmbH
 243;bus;;Haar, Hans-Stießberger-Straße;Neukeferloh;DB Regio Bus Bayern GmbH
@@ -278,16 +275,12 @@ X910;bus;ExpressBus;Klinikum Großhadern U;Weßling S;RVO/Geldhauser
 267;bus;;Neuaubing;Fürstenried West U;Busservice Watzinger
 267V;bus;;Neuried, Rathaus;Pasing, Gymnasium;Busservice Watzinger
 268;bus;;Waldfriedhof;Gräfelfing S;Busservice Watzinger
-#268V;bus;!Entfällt ab 15.12.2019!;Großhadern U;Gräfelfing, Am Haag;Busservice Watzinger
 269;bus;;Neuried;Klinikum Großhadern U;Busverkehr Südbayern
 270;bus;!Größere Änderungen ab 15.12.2019, nur noch 4 Varianten, 2 davon als Teilstrecken!;Höllriegelskreuth S;Solln S;Geldhauser
 270V;bus;!Neu ab 15.12.2019!;München, Siemensallee;Pullach, Gartenstraße / Rathaus;Geldhauser
 271;bus;;Höllriegelskreuth S;Dietramszell;Geldhauser/RVO
 271V;bus;!Kleinere Änderung ab 15.12.2019: 1 Teilstrecke als neue Variante!;Egling;Grünwald, Gymnasium;Geldhauser/RVO
 N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzinger
-#285;bus;!Entfällt ab 15.12.2019!;Haar S;Ismaning S;Verkehrsbetrieb Ettenhuber GmbH
-#285V;bus;!Entfällt ab 15.12.2019!;Ottendichl;Haar, Jagdfeldbad;Verkehrsbetrieb Ettenhuber GmbH
-#285W;bus;!Entfällt ab 15.12.2019!;Aschheim, Sportpark;Ismaning (S);Verkehrsbetrieb Ettenhuber GmbH
 290;bus;;Stadtbus Garching;;Verkehrsbetrieb Ettenhuber GmbH
 290V;bus;;Hochbrück, Jahnstraße;Prof.-Angermair-Ring;Verkehrsbetrieb Ettenhuber GmbH
 291;bus;;Dachau S R;Unterschleißheim S West;Busverkehr Südbayern

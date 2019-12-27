@@ -462,7 +462,9 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 709;bus;;Paris;Grenoble;FlixMobility GmbH
 711;bus;Linie in Winterpause, evtl. ganz eingestellt?;Rennes;Bordeaux;FlixMobility GmbH
 712;bus;;Nantes;Brüssel;FlixMobility GmbH
+713;bus;;Caen;Brüssel;FlixMobility GmbH
 714;bus;;Les Sables d'Olonne;Paris;FlixMobility GmbH
+715;bus;;Paris;Angers;FlixMobility GmbH
 716;bus;;Toulouse;Lyon;FlixMobility GmbH
 717;bus;Seit 02.09.2018 nicht mehr buchbar, wurde eingestellt.;Adge;Paris;FlixMobility GmbH
 718;bus;;Toulon;Bordeaux;FlixMobility GmbH
@@ -503,7 +505,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 759;bus;;Lons-le-Saunier;Paris;FlixMobility GmbH
 760;bus;Seit 24.04.2018 nicht mehr buchbar, wurde eingestellt.;Aachen;Paris;FlixMobility GmbH
 761;bus;;Lorient;Bordeaux;FlixMobility GmbH
-762;bus;Seit 02.09.2018 nicht mehr buchbar, wurde eingestellt.;Paris;Etretat;FlixMobility GmbH
+762;bus;;Paris;Etretat;FlixMobility GmbH
 763;bus;bis 02.09.2020 buchbar, wird eingestellt?;Paris;Dolancourt;FlixMobility GmbH
 765;bus;Linie in Winterpause, evtl. ganz eingestellt?;Tarbes;Bordeaux;FlixMobility GmbH
 766;bus;;Annecy;Lyon;FlixMobility GmbH
@@ -521,6 +523,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 778;bus;Seit 07.01.2018 nicht mehr buchbar, wurde eingestellt.;Toulouse;Montpellier;FlixMobility GmbH
 779;bus;;Paris;Annecy;FlixMobility GmbH
 780;bus;;Vandoeuvre les Nancy;Frankfurt am Main;FlixMobility GmbH
+781;bus;;Paris;Lille;FlixMobility GmbH
 782;bus;;Arras;Zaventern;FlixMobility GmbH
 783;bus;;Porto;Paris;FlixMobility GmbH
 785;bus;;Sevilla;Lissabon;FlixMobility GmbH
@@ -558,6 +561,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 831;bus;;Amsterdam;Luxembourg;FlixMobility GmbH
 833;bus;;Aachen;Amsterdam;FlixMobility GmbH
 835;bus;;Amsterdam;Bonn;FlixMobility GmbH
+838;bus;;Kehl;Lille;FlixMobility GmbH
 850;bus;;Brünn;Prag;FlixMobility GmbH
 851;bus;;Pilsen;Prag;FlixMobility GmbH
 852;bus;;Liberec;Prag;FlixMobility GmbH
@@ -745,6 +749,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 
 1701;bus;;Nantes;Rennes;FlixMobility GmbH
 1702;bus;;Paris, Flughafen Charles de Gaulle;Saint-Brieuc;FlixMobility GmbH
+1703;bus;;Paris;Tours;FlixMobility GmbH
 1704;bus;;Paris;Lorient;FlixMobility GmbH
 1705;bus;;Paris, Flughafen Charles de Gaulle;Orléans;FlixMobility GmbH
 1709;bus;;Paris;Chambéry;FlixMobility GmbH
@@ -754,18 +759,22 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 1719;bus;;Paris;Grenoble;FlixMobility GmbH
 1721;bus;;Barcelona;Toulouse;FlixMobility GmbH
 1722;bus;;Nantes;Caen;FlixMobility GmbH
+1723;bus;;Paris;Rouen;FlixMobility GmbH
 1725;bus;;Genf;Turin;FlixMobility GmbH
 1726;bus;;Lyon;Chambéry;FlixMobility GmbH
+1727;bus;;Paris;Clermont-Ferrand;FlixMobility GmbH
 1730;bus;;Marseille;Dijon;FlixMobility GmbH
 1732;bus;;Paris; Le Havre;FlixMobility GmbH
 1733;bus;;Tours;Tremblay-en-France;FlixMobility GmbH
 1734;bus;;Grenoble;Clermont-Ferrand;FlixMobility GmbH
 1735;bus;;Châteauroux;Paris;FlixMobility GmbH
 1739;bus;;Lausanne;Grenoble;FlixMobility GmbH
+1740;bus;;Paris;Lille;FlixMobility GmbH
+1741;bus;;Toulouse;Nantes;FlixMobility GmbH
 1742;bus;;Paris;Rouen;FlixMobility GmbH
 1747;bus;;Paris;Tourcoing;FlixMobility GmbH
 1748;bus;;Paris;Lille;FlixMobility GmbH
-1750;bus;;Paris;Straßburg;FlixMobility GmbH
+1750;bus;;Paris;Rouen/Straßburg;FlixMobility GmbH
 1751;bus;;;;
 1752;bus;;Paris;Caen;FlixMobility GmbH
 1754;bus;;Salouel;Courbevoie;FlixMobility GmbH
@@ -773,6 +782,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 1756;bus;;Paris;Reims;FlixMobility GmbH
 1757;bus;;Paris;Lille;FlixMobility GmbH
 1758;bus;;Paris;Châlons-en-Champagne;FlixMobility GmbH
+1759;bus;;Paris;Straßburg;FlixMobility GmbH
 1760;bus;;Lyon Flughafen;Dijon;FlixMobility GmbH
 1761;bus;;Nantes;Rennes;FlixMobility GmbH
 1772;bus;;Vannes;Paris;FlixMobility GmbH
@@ -829,6 +839,7 @@ E01;bus;Frankfurt;Mannheim;
 EL140;bus;;Amsterdam;London;Eurolines
 EL150;bus;Paris;München;Eurolines/Isiline
 EL210;bus;Paris;Madrid;Eurolines/Isiline
+EL310;bus;Paris;Bilbao;Eurolines/Isiline
 EL360;bus;Paris;Antwerpen/Lüttich;Eurolines/Isiline
 EL400;bus;Paris;Amsterdam;Eurolines/Isiline
 EL410;bus;Paris;Bologna;Eurolines/Isiline
@@ -1143,8 +1154,9 @@ N716;bus;;Bilbao;Lyon;FlixMobility GmbH
 N717;bus;;Barcelona;Paris;FlixMobility GmbH
 N718;bus;;Nizza;Bordeaux;FlixMobility GmbH
 N719;bus;;Genua;Paris;FlixMobility GmbH
-N720;bus;;Straßburg;Mailand;FlixMobility GmbH
+N720;bus;;Straßburg;Marseille;FlixMobility GmbH
 N721;bus;;Nantes;Barcelona;FlixMobility GmbH
+N723;bus;;Paris, Flughafen Charles de Gaulle;Rochefort;FlixMobility GmbH
 N724;bus;;Brest;Grenoble;FlixMobility GmbH
 N727;bus;Saisonbus in der Sommersaison?;Paris;Tarragona;FlixMobility GmbH
 N728;bus;;München;Barcelona;FlixMobility GmbH
@@ -1279,10 +1291,12 @@ N1594;bus;;Reggio Calabria;Siena;FlixMobility GmbH
 N1597;bus;;Messina;Trapani;FlixMobility GmbH
 N1599;bus;;Palermo;Urbino;FlixMobility GmbH
 
+N1717;bus;;Paris;Montpellier;FlixMobility GmbH
 N1720;bus;;Mainz;Barcelona;FlixMobility GmbH
 N1729;bus;;Rom;Paris;FlixMobility GmbH
 N1759;bus;;Prag;Lyon Flughafen;FlixMobility GmbH
 N1769;bus;;London;Grenoble;FlixMobility GmbH
+N1773;bus;;Bordeaux;Paris Disneyland;FlixMobility GmbH
 N1785;bus;;Lissabon;Granada;FlixMobility GmbH
 N1793;bus;;Madrid;Paris;FlixMobility GmbH
 N1795;bus;;Lissabon;Màlaga;FlixMobility GmbH

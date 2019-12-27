@@ -215,7 +215,6 @@
 398;bus;GTFS route_id=3:RGTR--:398;Rodange, Gare;St. Charles, Eglise;
 399;bus;GTFS route_id=3:RGTR--:399;Rodange, Gare;Saulnes, Place;
 400;bus;GTFS route_id=3:RGTR--:400;Mersch, Gare;Ettelbruck, Gare;
-401;bus;GTFS route_id=3:RGTR--:401;Bitburg, ZOB;Kirchberg, Europe Gare routière;
 402;bus;GTFS route_id=3:RGTR--:402;Mersch, Gare;Ettelbruck, Gare;
 403;bus;GTFS route_id=3:RGTR--:403;Nommern, Kiirch;Mersch, Gare;
 405;bus;GTFS route_id=3:RGTR--:405;Lorentzweiler, Beim Atelier;Mersch, Gare;

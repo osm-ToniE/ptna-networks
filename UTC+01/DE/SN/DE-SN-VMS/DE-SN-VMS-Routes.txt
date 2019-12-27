@@ -383,9 +383,9 @@ STL 2;bus;Bahnhof - Niederdorf - Auer Straße - Albrecht-Dürer-Straße - Bahnho
 439;bus;Annaberg-Buchholz - Geyersdorf - Falkenbach -Streckewalde - Wolkenstein;;;RVE
 441;bus;Ehrenfriedersdorf - Geyer - Schwarzenberg;;;RVE
 452;bus;Olbernhau - Neuhausen;;;RVE
-453;bus;Olbernhau - Kurort Seiffen - Deutschneudorf - Olbernhau;;;RBM;RVE
+453;bus;Olbernhau - Kurort Seiffen - Deutschneudorf - Olbernhau;;;Regionalverkehr Erzgebirge GmbH
 454;bus;Olbernhau - Pockau - Lengefeld;;;RVE
-455;bus;Kurort Seiffen - Oberseiffenbach;;;RBM
+455;bus;Kurort Seiffen - Oberseiffenbach;;;Regionalverkehr Erzgebirge GmbH
 458;bus;Olbernhau - Sayda - Dörnthal - Haselbach;;;RVE
 465;bus;Olbernhau - Sayda - Rechenberg-Bienenmühle - Frauenstein;;;RVE
 471;bus;Olbernhau - Oberneuschönberg - Olbernhau - Kleinneuschönberg - Blumenau - Olbernhau;;;RVE
