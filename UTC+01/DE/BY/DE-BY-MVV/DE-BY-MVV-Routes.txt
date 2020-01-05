@@ -183,7 +183,7 @@ O7;bus;MVG-Museum-Shuttle;Giesing U S;MVG-Museum;SWM/MVG
 168;bus;;Wastl-Witt-Straße;Nymphenburg Süd;SWM/MVG
 169;bus;;Moosach U S R;Moosach U S R;SWM/MVG
 170;bus;;Feldmoching U S R;Kieferngarten U;SWM/MVG
-171;bus;!Ab 15.12.2019: 171 verkürzt und in beide Richtungen gleich; Haltestelle "Dientzenhoferstraße" entfällt!;Feldmoching U S R;Am Hart U;SWM/MVG
+171;bus;!Ab 15.12.2019: 171 verkürzt und in beide Richtungen gleich und Haltestelle "Dientzenhoferstraße" entfällt!;Feldmoching U S R;Am Hart U;SWM/MVG
 172;bus;;Dachau S R;Am Hart U;SWM/MVG
 173;bus;;Feldmoching U S R;Petuelring U;SWM/MVG
 174;bus;!Ab 15.12.2019: neue Linie!;Dientzenhoferstraße;Am Hart U;SWM/MVG

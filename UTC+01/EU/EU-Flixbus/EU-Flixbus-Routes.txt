@@ -752,6 +752,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 1703;bus;;Paris;Tours;FlixMobility GmbH
 1704;bus;;Paris;Lorient;FlixMobility GmbH
 1705;bus;;Paris, Flughafen Charles de Gaulle;Orléans;FlixMobility GmbH
+1707;bus;;Le Havre;Orléans;FlixMobility GmbH
 1709;bus;;Paris;Chambéry;FlixMobility GmbH
 1711;bus;;Bordeaux;Nantes;FlixMobility GmbH
 1714;bus;;Paris, Flughafen Charles de Gaulle;Le Mans;FlixMobility GmbH
@@ -772,10 +773,11 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 1740;bus;;Paris;Lille;FlixMobility GmbH
 1741;bus;;Toulouse;Nantes;FlixMobility GmbH
 1742;bus;;Paris;Rouen;FlixMobility GmbH
+1744;bus;;Paris;Saint-Nazaire;FlixMobility GmbH
 1747;bus;;Paris;Tourcoing;FlixMobility GmbH
 1748;bus;;Paris;Lille;FlixMobility GmbH
 1750;bus;;Paris;Rouen/Straßburg;FlixMobility GmbH
-1751;bus;;;;
+1751;bus;;Paris;Lille;FlixMobility GmbH
 1752;bus;;Paris;Caen;FlixMobility GmbH
 1754;bus;;Salouel;Courbevoie;FlixMobility GmbH
 1755;bus;;Lille;Massy;FlixMobility GmbH
@@ -785,11 +787,13 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 1759;bus;;Paris;Straßburg;FlixMobility GmbH
 1760;bus;;Lyon Flughafen;Dijon;FlixMobility GmbH
 1761;bus;;Nantes;Rennes;FlixMobility GmbH
+1770;bus;;Lille;Brüssel;FlixMobility GmbH
+1771;bus;;Nantes;Bordeaux;FlixMobility GmbH
 1772;bus;;Vannes;Paris;FlixMobility GmbH
 1774;bus;;Paris;Caen;FlixMobility GmbH
 1776;bus;;Clermond-Ferrand;Grenoble;FlixMobility GmbH
 1777;bus;;Lyon Flughafen;Dijon;FlixMobility GmbH
-1778;bus;Seit 05.11.2018 nicht mehr buchbar, wurde eingestellt;Orléans;Nantes;FlixMobility GmbH
+1778;bus;;Bordeaux;Montpellier;FlixMobility GmbH
 1779;bus;;Clermond-Ferrand;Grenoble;FlixMobility GmbH
 1781;bus;;;
 1782;bus;;Paris;Quimper;FlixMobility GmbH
@@ -846,7 +850,7 @@ EL410;bus;Paris;Bologna;Eurolines/Isiline
 EL450;bus;;Paris;London;Eurolines/Isiline
 EL550;bus;;Paris;Berlin;Eurolines/Isiline
 EL555;bus;;Berlin;Rotterdam;Eurolines
-EL700;bus;;München;Prag;Eurolines
+EL700;bus;;Lyon;Prag;Eurolines
 EL750;bus;;Paris;Prag;Eurolines
 EL890;bus;;Amsterdam;Verona;Eurolines
 K188;bus;;Basel Airport;Lugano;Eurobus

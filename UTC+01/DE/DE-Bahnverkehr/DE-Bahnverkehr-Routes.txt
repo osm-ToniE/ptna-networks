@@ -93,7 +93,7 @@ ICE 91;train;;;;
 IC 4;train;;;;
 IC5;train;;Fredericia;Flensborg;DSB
 IC 26.1;train;;;;
-"EC 27;IC 27";train;;Praha|Decin;Stralsund|Berlin|Dresden|Hamburg;DB Fernverkehr AG
+"EC 27;IC 27|EC 27|IC 27";train;;Decin;Berlin|Dresden|Hamburg;DB Fernverkehr AG
 IC 28;train;;;;
 IC 30;train;;;;
 IC 31;train;;;;
@@ -120,7 +120,7 @@ EC 6;train;;;;
 EC 7;train;;;;
 EC 8;train;;;;
 EC 9;train;;;;
-"EC 27;IC 27";train;;Praha|Decin;Stralsund|Berlin|Dresden|Hamburg;DB Fernverkehr AG
+"EC 27;IC 27|EC 27|IC 27";train;;Decin;Berlin|Dresden|Hamburg;DB Fernverkehr AG
 EC 54;train;;;;
 EC 55;train;;;;
 EC 62;train;;;;

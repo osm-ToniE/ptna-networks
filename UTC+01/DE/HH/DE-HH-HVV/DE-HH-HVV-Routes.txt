@@ -242,6 +242,7 @@ X86;bus;;;;
 193;bus;;;;
 340;bus;;S Neuwiedenthal;Bf. Harburg;Hamburger Hochbahn AG
 349;bus;;;;Hamburger Hochbahn AG
+335;bus;;S Allermöhe;Wentorf, Am Petersilienberg / Wentorf, Am Grotensahl;Verkehrsbetriebe Hamburg-Holstein GmbH
 530;bus;;U Hammer Kirche;Schule Mittlerer Landweg;Verkehrsbetriebe Hamburg-Holstein GmbH
 543;bus;;Nachtigallenweg;Emmelndorf, Gartenstraße;Hamburger Hochbahn AG
 
@@ -290,7 +291,6 @@ X86;bus;;;;
 274;bus;;;;
 275;bus;;;;
 276;bus;;;;
-277;bus;;;;
 278;bus;;;;
 281;bus;;;;
 283;bus;;;;
@@ -305,8 +305,8 @@ X86;bus;;;;
 295;bus;;;;
 321;bus;;;;
 322;bus;;;;
-323;bus;;;;
-327;bus;;;;
+323;bus;;Fersenweg;Schule Curslack (Kehre);Verkehrsbetriebe Hamburg-Holstein GmbH
+327;bus;;Bf. Bergedorf; Schule Curslack (Kehre) / Zwischen den Zäunen;Verkehrsbetriebe Hamburg-Holstein GmbH
 328;bus;;;;
 329;bus;;;;
 330;bus;;;;

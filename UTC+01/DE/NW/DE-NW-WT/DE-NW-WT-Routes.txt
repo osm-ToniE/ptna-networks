@@ -1554,11 +1554,9 @@ T114;bus;;;;Verkehrsbetrieb Hamm GmbH
 156;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 158;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 160;bus;;;;WB Westfalen Bus GmbH
-170;bus;;;;WB Westfalen Bus GmbH
 177;bus;;Holzwickede;Holzwickede;Verkehrsgesellschaft Kreis Unna mbH
 178;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 179;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
-180;bus;;;;WB Westfalen Bus GmbH
 183;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 184;bus;;Hamm;Kamen;Verkehrsgesellschaft Kreis Unna mbH
 185;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
@@ -1601,7 +1599,6 @@ B3;bus;;Fröndenberg;Fröndenberg;Bürgerbus Fröndenberg/Ruhr;WB Westfalen Bus 
 B4;bus;;Fröndenberg;Fröndenberg;Bürgerbus Fröndenberg/Ruhr;WB Westfalen Bus GmbH
 
 C1;bus;;Brambauer;Lünen;Verkehrsgesellschaft Kreis Unna mbH
-C2;bus;;Alstedde;Lünen;Verkehrsgesellschaft Kreis Unna mbH
 C4;bus;;Dortmund;Niederaden;Verkehrsgesellschaft Kreis Unna mbH
 C5;bus;;Dortmund;Lünen;Verkehrsgesellschaft Kreis Unna mbH
 C6;bus;;Brambauer;Wethmar;Verkehrsgesellschaft Kreis Unna mbH
@@ -1626,6 +1623,7 @@ C73;bus;;;;WB Westfalen Bus GmbH
 C74;bus;;;;WB Westfalen Bus GmbH
 C91;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 
+D1;bus;;Brambauer;Lünen;Verkehrsgesellschaft Kreis Unna mbH
 D19;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 D45;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 D79;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
@@ -1652,11 +1650,10 @@ R30;bus;;Schwerte;Iserlohn;WB Westfalen Bus GmbH
 R50;bus;;Schwerte;Dortmund;WB Westfalen Bus GmbH
 R51;bus;;Unna;Opherdicke;Verkehrsgesellschaft Kreis Unna mbH
 R52;bus;;Unna;Holzwickede;WB Westfalen Bus GmbH
-R53;bus;;Unna;Heeren;Verkehrsgesellschaft Kreis Unna mbH
 R54;bus;;Unna;Methler;Verkehrsgesellschaft Kreis Unna mbH
+R70;bus;;Fröndenberg;Unna;WB Westfalen Bus GmbH
 R81;bus;;Werne;Unna;Verkehrsgesellschaft Kreis Unna mbH
 R82;bus;;Werne;Bergkamen;Verkehrsgesellschaft Kreis Unna mbH
-R92;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 
 S10;bus;;Hamm;Lünen;Verkehrsgesellschaft Kreis Unna mbH
 S20;bus;;Hamm;Lünen;Verkehrsgesellschaft Kreis Unna mbH
@@ -1674,7 +1671,6 @@ T47;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 T48;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 T53;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 T54;bus;;Massen;Massen;Verkehrsgesellschaft Kreis Unna mbH
-T71;bus;;;;WB Westfalen Bus GmbH
 T93;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 T138;bus;;;;Verkehrsgesellschaft Kreis Unna mbH
 
@@ -2117,6 +2113,7 @@ BB4;bus;;;;Bürgerbus Plettenberg;Märkische Verkehrsgesellschaft GmbH
 BB4;bus;;;;Bürgerbus Schalksmühle;Märkische Verkehrsgesellschaft GmbH
 BB5;bus;;;;Bürgerbus Schalksmühle;Märkische Verkehrsgesellschaft GmbH
 
+N4;bus;;Lüdenscheid;Schalksmühle;Märkische Verkehrsgesellschaft GmbH
 N7;bus;;Lüdenscheid;Plettenberg;Märkische Verkehrsgesellschaft GmbH
 
 R30;bus;;Schwerte;Iserlohn;WB Westfalen Bus GmbH

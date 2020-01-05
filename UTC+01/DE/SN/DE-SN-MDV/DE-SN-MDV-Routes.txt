@@ -158,6 +158,10 @@ E;tram;;;;HAVAG
 
 == PlusBusse
 
+=== PlusBusse +65
+
++65;bus;;;;
+
 === PlusBusse +91
 
 +91;bus;;;;
@@ -295,7 +299,6 @@ SEV8;bus;;;;
 61;bus;;;;
 62;bus;;;;
 63;bus;;;;
-65;bus;;;;
 66;bus;;;;
 67;bus;;;;
 70;bus;;;;
