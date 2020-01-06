@@ -183,7 +183,6 @@ R9;train;;Nürnberg;Allersberg (Rothsee);
 
 ==== R11 .. R20
 
-R 11;train;Schusterbahn;Kornwestheim;Untertürkheim;DB Regio
 R11;train;;Augsburg;Schmiechen;
 R11;train;Rangaubahn;Fürth;Cadolzburg;DB Regio Mittelfranken
 R12;train;;Fürth;Markt Erlbach;DB Regio Mittelfranken
@@ -192,7 +191,6 @@ R15;train;;Bamberg;Haßfurt;DB
 ==== R21 .. R30
 
 R21;train;;Gräfenberg|Eschenau;Nürnberg;DB Regio AG - Regio Bayern
-R21;train;Wieslauftalbahn;Schorndorf;Oberndorf;Württembergische Eisenbahn-Gesellschaft mbH
 R22;train;;Forchheim;Ebermannstadt;agilis
 R24;train;;Lichtenfels;Mainroth;agilis
 R26;train;;Bamberg;Ebern;Agilis
@@ -216,7 +214,6 @@ R43;train;;Bayreuth;Kirchenlaibach;
 
 ==== R61 .. R70
 
-R61;train;Strohgäubahn;Korntal;Weissach;Württembergische Eisenbahn-Gesellschaft mbH
 R61;train;;Hilpoltstein;Roth;
 R61;train;;Pforzheim;Tübingen;
 R62;train;;Pleinfeld;Gunzenhausen;
@@ -281,6 +278,7 @@ RB 10a;train;;Mosbach-Neckarelz;Heilbronn Hauptbahnhof;Abellio Rail Baden-Württ
 
 ==== RB11 .. RB20
 
+RB11;train;Schusterbahn;Kornwestheim;Untertürkheim;DB Regio
 RB11;train;;;Cottbus;DB Regio AG
 RB11;train;;Wismar;Tessin;DB Regio AG
 RB11;train;Sodener Bahn;Bad Soden;Höchst;FKE
@@ -400,6 +398,7 @@ RB46;train;;Braunschweig;Herzberg|Seesen;DB Regio Nord
 RB46;train;Eistalbahn;Frankenthal;Eiswoog;DB Regio Südwest
 RB46;train;Lahn-Kinzig-Bahn;Gießen;Gelnhausen;HLB
 RB46;train;Schönbuchbahn;Böblingen;Dettenhausen;Württembergische Eisenbahn-Gesellschaft mbH
+RB47;train;Strohgäubahn;Korntal;Weissach;Württembergische Eisenbahn-Gesellschaft mbH
 RB47;train;;Braunschweig;Uelzen;erixx
 RB47;train;Horlofftalbahn;Wölfersheim-Södel;Friedberg;HLB
 RB 47;train;;Bernburg;Halle;Abellio Rail
@@ -450,6 +449,7 @@ RB60V;train;;Bischofswerda;Görlitz;Ostdeutsche Eisenbahn GmbH
 
 ==== RB61 .. RB70
 
+RB61;train;Wieslauftalbahn;Schorndorf;Oberndorf;Württembergische Eisenbahn-Gesellschaft mbH
 RB61;train;Dreieichbahn;Dieburg;Frankfurt|Neu-Isenburg;DB Regio AG Mitte
 RB61;train;Wiehengebirgs-Bahn;Bielefeld;Hengelo;Eurobahn
 RB61;train;;Hamburg;Itzehoe;NBE Nordbahn Eisenbahngesellschaft mbh & Co. KG
@@ -462,10 +462,12 @@ RB63;train;Baumberge-Bahn;Münster;Coesfeld;DB Regio AG NRW
 RB63;train;;Eberswalde;Templin;Niederbarnimer Eisenbahn
 RB63;train;Nibelungenbahn;Bensheim;Worms;DB Regio AG Mitte
 RB 63;train;;Neumünster;Büsum;NBE Nordbahn
+RB64;train;Teckbahn;Oberlenningen;Kirchheim (Teck);DB Regio
 RB64;train;Euregio-Bahn;Münster;Enschede;DB Regio AG NRW
 RB64;train;Biebermühlbahn;Kaiserslautern;Pirmasens;DB Regio Südwest
 RB64;train;;Hoyerswerda;Görlitz;Ostdeutsche Eisenbahn GmbH
 RB 64;train;;Husum;Bad St Peter-Ording;DB Regio AG - Region Nord
+RB65;train;Tälesbahn;Nürtingen;Neuffen;Württembergische Eisenbahn-Gesellschaft mbH
 RB65;train;Ems-Bahn;Münster;Rheine;Eurobahn
 RB65;train;Alsenztalbahn;Bingen;Kaiserslautern;DB Regio Mitte
 RB65;train;;Cottbus;Zittau;Ostdeutsche Eisenbahn GmbH

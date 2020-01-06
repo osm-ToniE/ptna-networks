@@ -57,7 +57,11 @@
 
 === Fußballlinie
 
-8;tram;Stadion-Linie, Bedienung nur bei Bedarf;Königsplatz;Fußball-Arena;
+8;tram;Stadion-Linie, Bedienung nur bei Bedarf;Hauptbahnhof;Fußball-Arena;
+
+=== Messelinie
+
+9;tram;Messe-Linie, Bedienung nur bei Bedarf;Hauptbahnhof;Messezentrum;
 
 == Bus
 

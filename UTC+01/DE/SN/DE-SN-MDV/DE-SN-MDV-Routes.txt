@@ -68,12 +68,10 @@ RE 6;train;;;;
 RE 9;train;;;;
 RE 10;train;;;;
 RE 13;train;;;;
-RE 16;train;;;;
 RE 17;train;;;;
 RE 18;train;;;;
 RE 19;train;;;;
 RE 30;train;;;;
-RE 42;train;;;;
 RE 50;train;;;;
 
 -
@@ -340,6 +338,7 @@ SEV8;bus;;;;
 175;bus;;;;
 176;bus;;;;
 191;bus;;;;
+192;bus;;;;
 195;bus;;;;
 197;bus;;;;
 
