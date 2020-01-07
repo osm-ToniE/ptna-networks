@@ -265,7 +265,7 @@ RB97;train;Daadetalbahn (DAA);Betzdorf;Daaden;Westerwaldbahn
 
 101;bus;Rhein-Westerwald-Express;(Altenkirchen-) Horhausen;Neuwied;DB Regio Bus Rhein-Mosel GmbH
 120;bus;;Altenkirchen;Dierdorf/Neustadt;DB Regio Bus Rhein-Mosel GmbH
-121;bus;;Altenkirchen;Puderbach;MB
+121;bus;;Altenkirchen;Puderbach;Martin Becker
 122;bus;;Altenkirchen;Seelbach;MB
 123;bus;;Altenkirchen;Altenkirchen;MB
 124;bus;;Altenkirchen;Altenkirchen;MB
@@ -626,7 +626,7 @@ N10;bus;;Mayen;Hbf;RMV
 110;bus;;Neuwied Bahnhof;Weißenthurm;VRW
 117;bus;;Neuwied Schloßstraße;Dierdorf;VRW
 120;bus;;Altenkirchen;Dierdorf/Neustadt;DB Regio Bus Rhein-Mosel GmbH
-121;bus;;Puderbach;Altenkirchen;MB
+121;bus;;Puderbach;Altenkirchen;Martin Becker
 122;bus;;Seelbach;Altenkirchen;MB
 131;bus;;Neuwied;Asbach;DB Regio Bus Rhein-Mosel GmbH
 132;bus;RegioLine;(Neuwied-) Horhausen;Altenkirchen;Zickenheiner

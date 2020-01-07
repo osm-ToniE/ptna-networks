@@ -80,12 +80,12 @@ S60;train;;Böblingen;Stuttgart;
 
 #
 == Regional-Bahn
-R 11;train;Schusterbahn;Kornwestheim;Untertürkheim;
-R21;train;;Oberndorf;Schorndorf;
-R61;train;Strohgäubahn;Heimerdingen;Korntal;
-R81;train;;Oberlenningen;Kirchheim (T);
-R82;train;Tälesbahn;Neuffen;Nürtingen;
+RB11;train;Schusterbahn;Kornwestheim;Untertürkheim;
 RB46;train;Schönbuchbahn;Dettenhausen;Holzgerlingen;
+RB47;train;Strohgäubahn;Weissach;Korntal;
+RB61;train;Wieslauftalbahn;Oberndorf;Schorndorf;
+RB64;train;Teckbahn;Oberlenningen;Kirchheim (Teck);
+RB65;train;Tälesbahn;Neuffen;Nürtingen;
 
 #
 == Zahnradbahn, Seilbahn

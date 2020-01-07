@@ -49,6 +49,12 @@
 - Verweis auf mehr [[Talk:Landkreis_Harz/Transportation/Analyse|Informationen]] im Wiki.
 -
 
+== Züge
+
+HSB;train;;;;Harzer Schmalspurbahnen GmbH - HSB
+RE 11;train;;Magdeburg;Thale;Abellio Rail
+RE 31;train;;Magdeburg;Blankenburg;Abellio Rail
+
 
 == Stadtverkehr Wernigerode
 

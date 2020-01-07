@@ -839,14 +839,14 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 
 AN587;bus;;Bergamo;Fiorenzuola;
 AN588;bus;;Bozen;Modena;
-E01;bus;Frankfurt;Mannheim;
+E01;bus;;Frankfurt;Mannheim;
 EL140;bus;;Amsterdam;London;Eurolines
-EL150;bus;Paris;München;Eurolines/Isiline
-EL210;bus;Paris;Madrid;Eurolines/Isiline
-EL310;bus;Paris;Bilbao;Eurolines/Isiline
-EL360;bus;Paris;Antwerpen/Lüttich;Eurolines/Isiline
-EL400;bus;Paris;Amsterdam;Eurolines/Isiline
-EL410;bus;Paris;Bologna;Eurolines/Isiline
+EL150;bus;;Paris;München;Eurolines/Isiline
+EL210;bus;;Paris;Madrid;Eurolines/Isiline
+EL310;bus;;Paris;Bilbao;Eurolines/Isiline
+EL360;bus;;Paris;Antwerpen/Lüttich;Eurolines/Isiline
+EL400;bus;;Paris;Amsterdam;Eurolines/Isiline
+EL410;bus;;Paris;Bologna;Eurolines/Isiline
 EL450;bus;;Paris;London;Eurolines/Isiline
 EL550;bus;;Paris;Berlin;Eurolines/Isiline
 EL555;bus;;Berlin;Rotterdam;Eurolines
@@ -920,7 +920,7 @@ K995;bus;;Pančevo;Herceg Novi;Fudeks
 K997;bus;läuft auch als Eurolines EU0457(Eurolines von Flixbus gekauft);Freiburg;Imotski;Lubina Bus
 K1299;bus;;Danzig Flughafen;Königsberg;Zelenogradsk Trans
 K3000;bus;;Warschau;Kiew;TOV Gunsel
-K3001;bus;;Breslau;Kiev;TOV Gunsel
+K3001;bus;;Breslau;Kiew;TOV Gunsel
 K3002;bus;;Prag;Kiew;TOV Gunsel
 
 
@@ -1320,6 +1320,7 @@ N3200;bus;;Köln;Kiew;FlixMobility GmbH
 N3201;bus;;Rostock;Kiew;FlixMobility GmbH
 N3202;bus;;Karlsruhe;Kiew;FlixMobility GmbH
 N3203;bus;;Stuttgart;Kiew;FlixMobility GmbH
+N3277;bus;;Pilsen;Odessa;FlixMobility GmbH
 N3300;bus;;Wien;Kiew;FlixMobility GmbH
 
 

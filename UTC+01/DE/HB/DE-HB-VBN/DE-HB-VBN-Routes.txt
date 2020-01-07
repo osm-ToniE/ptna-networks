@@ -476,24 +476,24 @@ S35;bus;AM West;Westerstede;Oldenburg;Gerdes
 689;bus;;Ocholt;Veenhusen;Gerdes
 
 === Busse 7xx
-701;bus;VER Ost;Verden;Kirchlinteln Otersen;VWE
+701;bus;VER Ost;Verden;Ludwigslust;AllerBus
 702;bus;VER Süd;Thedinghausen;Achim;VWE
 703;bus;VER Nord;Bassen;Achim;VWE
 704;bus;VER Nord;Völkersen;Langwedel;VWE
-711;bus;VER Ost;Verden;Dauelsen;VWG
-712;bus;VER Ost;Verden;Verden;VWG
-713;bus;VER Ost;Verden;Kirchlinteln Verden;VWG
-714;bus;VER Ost;Verden;Gewerbegebiet Ost;VWG
-715;bus;VER Ost;Bendingbostel;Brunsbrock-Verden;VWG
-717;bus;VER Ost;Rieda;Verden Dauelsen;VWG
-718;bus;VER Ost;Eissel;Verden Scharnhorst;VWG
+711;bus;VER Ost;Verden;Dauelsen;AllerBus
+712;bus;VER Ost;Verden;Verden;AllerBus
+713;bus;VER Ost;Verden;Verden;AllerBus
+714;bus;VER Ost;Verden;Gewerbegebiet Ost;AllerBus
+715;bus;VER Ost;Kirchlinteln;Verden;AllerBus
+717;bus;VER Ost;Rieda;Dauelsen;AllerBus
+718;bus;VER Ost;Eissel;Verden;AllerBus
 720;bus;VER Süd;Thedinghausen;Verden;Weser-Ems-Bus
 721;bus;VER Süd;Ortsverkehr Thedinghausen;Blender;Weser-Ems-Bus
-722;bus;VER Nord;Achim Uphusen;Oyten;Weser-Ems-Bus
-723;bus;VER Nord;Achim-Baden;Oyten;Weser-Ems-Bus
-725;bus;VER Ost;Verden;Verden;Weser-Ems-Bus
-726;bus;VER Nord;Ortsverkehr Langwedel;;Weser-Ems-Bus Langwedeler
-730;bus;VER Nord;Ottersberg;Bremen Hbf/ZOB;Weser-Ems-Bus
+722;bus;VER Nord;Oyten;Oyten;Weser-Ems-Bus
+723;bus;VER Nord;Baden;Oyten;Weser-Ems-Bus
+725;bus;VER Ost;Verden;Süderwalsede;AllerBus
+726;bus;VER Nord;Ortsverkehr Langwedel;Langwedel;Weser-Ems-Bus
+730;bus;VER Nord;Otterstedt;Bremen Hbf/ZOB;Weser-Ems-Bus
 733;bus;VER Nord;Badenermoor;Achim;Weser-Ems-Bus
 735;bus;VER Süd VLN;Verden;Hoya/Eystrup;von Rahden
 739;bus;VER Nord;Bremen Hbf;Posthausen;Weser-Ems-Bus
@@ -503,18 +503,21 @@ S35;bus;AM West;Westerstede;Oldenburg;Gerdes
 750;bus;VER Süd;Morsum;Bremen;Masemann
 760;bus;VER Nord;Fischerhude;Verden;Weser-Ems-Bus
 765;bus;VER Süd;Verden;Rethem;Weser-Ems-Bus
-781;bus;VER Ost Bürgerbus;Kirchlinteln;Kirchlinteln;VVG
-782;bus;VER Ost;Kirchlinteln;Kirchlinteln;
-783;bus;VER Ost Bürgerbus;Kirchlinteln;Kirchlinteln;
-784;bus;VER Ost Bürgerbus;Kirchlinteln;Kirchlinteln;
+781;bus;VER Ost Bürgerbus;Kirchlinteln;Kirchlinteln;AllerBus
+782;bus;VER Ost Bürgerbus;Kirchlinteln;Kirchlinteln;AllerBus
+783;bus;VER Ost Bürgerbus;Kirchlinteln;Kirchlinteln;AllerBus
+784;bus;VER Ost Bürgerbus;Kirchlinteln;Kirchlinteln;AllerBus
 785;bus;VER Süd Bürgerbus;Thedinghausen;Emtinghausen;
 786;bus;VER Süd;Thedinghausen;Blender;
-788;bus;VER Nord;Posthausen;Ottersberg;
+788;bus;VER Nord;Posthausen;Otterstedt;
 789;bus;VER Nord;Ottersberg;Sagehorn;
 791;bus;VER Nord Bürgerbus;Achim;Uphusen;Weser-Ems-Bus
 792;bus;VER Nord Bürgerbus;Achim;Baden;Weser-Ems-Bus
 793;bus;VER Nord Bürgerbus;Achim;Embsen;Weser-Ems-Bus
 794;bus;VER Nord Bürgerbus;Achim;Badenermoor;
+796;bus;VER Nord Bürgerbus;Oyten;Oyten;
+797;bus;VER Nord Bürgerbus;Oyten;Oyten;
+798;bus;VER Nord Bürgerbus;Oyten;Oyten;
 
 === Busse 8xx
 800;bus;;Bremervörde;Rotenburg;OvA

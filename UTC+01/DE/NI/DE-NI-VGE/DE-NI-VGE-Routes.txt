@@ -51,5 +51,27 @@
 
 == Bus
 
+101;bus;;Haselünne;Lingen;
+102;bus;;Lengerich;Bawinkel;
+111;bus;;Brögbern;Lingen;
+121;bus;;Wettrup;Lingen;
+122;bus;;Lengerich;Thuine;
+131;bus;;Fürstenau;Lingen;
+132;bus;;Langen;Lingen;
+133;bus;;Hopsten;Lingen;
+134;bus;;Baccum;Baccum;
+141;bus;;Rheine;Lingen;
+143;bus;;Emsbüren;Bramsche;
+151;bus;;Emsbüren;Lingen;
+152;bus;;Rheine;Emsbüren;
+153;bus;;Rheine;Bentheim;
+154;bus;;Emsbüren;Emsbüren;
+160;bus;;Bahnhof;Bahnhof;
+171;bus;;Groß Hesepe;Lingen;
+174;bus;;Bahnhof;Bahnhof;
+192;bus;;Hopsten;Lengerich;
+193;bus;;Lünne;Freren;
+194;bus;;Lünne;Thuine;
+195;bus;;Rheine;Fürstenau;
 
 </pre>

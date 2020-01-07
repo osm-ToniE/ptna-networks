@@ -146,12 +146,12 @@ S19;train;;;;
 74;bus;;;;
 75;bus;;;;
 80;bus;;;;
-81;bus;;;;
 82;bus;;;;
 83;bus;;;;
 84;bus;;;;
 85;bus;;;;
 86;bus;;;;
+88;bus;;;;
 89;bus;;;;
 90;bus;;;;
 96;bus;;;;
@@ -182,7 +182,6 @@ S19;train;;;;
 212;bus;;;;
 213;bus;;;;
 214;bus;;;;
-215;bus;;;;
 216;bus;;;;
 217;bus;;;;
 218;bus;;;;
@@ -192,9 +191,13 @@ S19;train;;;;
 222;bus;;;;
 223;bus;;;;
 224;bus;;;;
+225;bus;;;;
+227;bus;;;;
 228;bus;;;;
+229;bus;;;;
 230;bus;;;;
 231;bus;;;;
+232;bus;;;;
 233;bus;;;;
 234;bus;;;;
 235;bus;;;;
@@ -211,11 +214,15 @@ S19;train;;;;
 281;bus;;;;
 283;bus;;;;
 284;bus;;;;
+285;bus;;;;
 286;bus;;;;
 287;bus;;;;
+291;bus;;;;
+292;bus;;;;
 294;bus;;;;
 295;bus;;;;
 296;bus;;;;
+297;bus;;;;
 298;bus;;;;
 
 === 300 - 399
@@ -272,6 +279,10 @@ AL 6;bus;;;;
 === BB
 
 BB;bus;;;;
+
+=== Citybus
+
+Citybus;bus;;;;
 
 === BW
 
@@ -334,10 +345,18 @@ Rursee Bahn;bus;;;;
 
 SB 1;bus;;;;
 SB 3;bus;;;;
+SB 8;bus;;;;
+SB 15;bus;;;;
 SB 20;bus;;;;
+SB 35;bus;;;;
+SB 38;bus;;;;
 SB 63;bus;;;;
 SB 66;bus;;;;
+SB 70;bus;;;;
 SB 81;bus;;;;
+SB 86;bus;;;;
+SB 88;bus;;;;
+SB 95;bus;;;;
 SB 98;bus;;;;
 
 === Stadtring
