@@ -22,6 +22,7 @@ ANALYSIS_OPTIONS="--language=de --max-error=10 --check-version --check-access --
 # --expect-network-short
 # --expect-network-short-for=
 # --expect-network-long-for=
+# --positive-notes
 
 #
 # extensions to support ptna-www and PHP in results/xx/index.php files by code in ptna-network.sh (section: upload results)
