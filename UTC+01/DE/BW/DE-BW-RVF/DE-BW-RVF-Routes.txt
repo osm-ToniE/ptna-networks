@@ -238,6 +238,12 @@ RE/RB;train;Trireno;Freiburg (Breisgau);Basel SBB;DB Regio
 9051;bus;;;;Südbadenbus GmbH
 -
 
+=== Nachtbus Freiburg
+
+N46;bus;;;;
+N47;bus;;;;
+-
+
 === Andere Busse
 
 AST 5;bus;;;;

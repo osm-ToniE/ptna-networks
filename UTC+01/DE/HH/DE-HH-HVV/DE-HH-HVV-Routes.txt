@@ -246,7 +246,7 @@ X86;bus;;;;
 530;bus;;U Hammer Kirche;Schule Mittlerer Landweg;Verkehrsbetriebe Hamburg-Holstein GmbH
 543;bus;;Nachtigallenweg;Emmelndorf, Gartenstraße;Hamburger Hochbahn AG
 
-== Stadt- und Regionalbus: teilweise müssen Linen auf die Kreise verteilt werden!
+== Stadt- und Regionalbus
 
 138;bus;;;;
 139;bus;;;;
@@ -385,7 +385,7 @@ X86;bus;;;;
 794;bus;;;;
 796;bus;;;;
 
-== Busverkehr im Kreis Stormarn
+== Busverkehr im Kreis Pinneberg
 === StadtBus
 395;bus;;;;
 === RegionalBus
@@ -464,254 +464,313 @@ X86;bus;;;;
 8830;bus;;;;
 8831;bus;;;;
 
-== Busverkehr im Landkreis Lüneburg
-=== StadtBus
-5002;bus;;;;
-5003;bus;;;;
-5004;bus;;;;
-5005;bus;;;;
-5006;bus;;;;
-5007;bus;;;;
-5009;bus;;;;
-5010;bus;;;;
-5011;bus;;;;
-5012;bus;;;;
-5013;bus;;;;
-5014;bus;;;;
-5015;bus;;;;
-5019;bus;;;;
-5020;bus;;;;
+== Busverkehr im Landkreis Lüneburg / weitere Infos unter https://www.luenebus.de/
+=== Stadtverkehr Lüneburg
+5001;bus;Universitätslinie;Leuphana;Bahnhof/ZOB;KVG Stade GmbH & Co. KG
+5002;bus;;ZOB;Bardowick;KVG Stade GmbH & Co. KG
+5003;bus;;ZOB;Oedeme;KVG Stade GmbH & Co. KG
+5004;bus;;ZOB;Hanseviertel;KVG Stade GmbH & Co. KG
+5005;bus;;Goseburg;Ochtmissen;KVG Stade GmbH & Co. KG
+5006;bus;;ZOB;Adendorf;KVG Stade GmbH & Co. KG
+5007;bus;;Oedeme;Erbstorf/Adendorf;KVG Stade GmbH & Co. KG
+5009;bus;;Freibad;Vögelsen/Mechtersen;KVG Stade GmbH & Co. KG
+5010;bus;;ZOB;Hafen;KVG Stade GmbH & Co. KG
+5011;bus;;Bülows Kamp;Häcklingen/ Rettmer;KVG Stade GmbH & Co. KG
+5012;bus;;Bockelsberg;Hagen;KVG Stade GmbH & Co. KG
+5013;bus;;ZOB;Reppenstedt;KVG Stade GmbH & Co. KG
+5014;bus;;Wilhelm-Leuschner-Straße/Kaltenmoor;Kreideberg;KVG Stade GmbH & Co. KG
+5015;bus;;Jüttkenmoor;Ebensberg;KVG Stade GmbH & Co. KG
+5019;bus;;ZOB;Wendisch Evern;KVG Stade GmbH & Co. KG
+5020;bus;;ZOB;Deutsch Evern;KVG Stade GmbH & Co. KG
 
 === RegionalBus
-5100;bus;;;;
-5110;bus;;;;
-5200;bus;;;;
-5300;bus;;;;
-5600;bus;;;;
-5700;bus;;;;
-5900;bus;;;;
+4405;bus;;;;KVG Stade GmbH & Co. KG
+4406;bus;;;;KVG Stade GmbH & Co. KG
+4714;bus;;;;KVG Stade GmbH & Co. KG
+4945;bus;;;;KVG Stade GmbH & Co. KG
+4947;bus;;;;KVG Stade GmbH & Co. KG
+5100;bus;;;;KVG Stade GmbH & Co. KG
+5101;bus;;;;KVG Stade GmbH & Co. KG
+5102;bus;;;;KVG Stade GmbH & Co. KG
+5103;bus;;;;KVG Stade GmbH & Co. KG
+5104;bus;;;;KVG Stade GmbH & Co. KG
+5110;bus;;;;KVG Stade GmbH & Co. KG
+5111;bus;;;;KVG Stade GmbH & Co. KG
+5200;bus;;;;KVG Stade GmbH & Co. KG
+5201;bus;;;;KVG Stade GmbH & Co. KG
+5202;bus;;;;KVG Stade GmbH & Co. KG
+5300;bus;;;;KVG Stade GmbH & Co. KG
+5303;bus;;;;KVG Stade GmbH & Co. KG
+5304;bus;;;;KVG Stade GmbH & Co. KG
+5361;bus;;;;KVG Stade GmbH & Co. KG
+5362;bus;;;;KVG Stade GmbH & Co. KG
+5402;bus;;;;KVG Stade GmbH & Co. KG
+5405;bus;;;;KVG Stade GmbH & Co. KG
+5600;bus;;;;KVG Stade GmbH & Co. KG
+5604;bus;;;;KVG Stade GmbH & Co. KG
+5700;bus;;;;KVG Stade GmbH & Co. KG
+5701;bus;;;;KVG Stade GmbH & Co. KG
+5702;bus;;;;KVG Stade GmbH & Co. KG
+5703;bus;;;;KVG Stade GmbH & Co. KG
+5900;bus;;;;KVG Stade GmbH & Co. KG
+5901;bus;;;;KVG Stade GmbH & Co. KG
+5931;bus;;;;KVG Stade GmbH & Co. KG
+
+== Schulbus Verkehr
+5112;bus;;;;KVG Stade GmbH & Co. KG
+5114;bus;;;;KVG Stade GmbH & Co. KG
+5120;bus;;;;KVG Stade GmbH & Co. KG
+5131;bus;;;;KVG Stade GmbH & Co. KG
+5203;bus;;;;KVG Stade GmbH & Co. KG
+5203;bus;;;;KVG Stade GmbH & Co. KG
+5301;bus;;;;KVG Stade GmbH & Co. KG
+5302;bus;;;;KVG Stade GmbH & Co. KG
+5403;bus;;;;KVG Stade GmbH & Co. KG
+5404;bus;;;;KVG Stade GmbH & Co. KG
+5606;bus;;;;KVG Stade GmbH & Co. KG
+5705;bus;;;;KVG Stade GmbH & Co. KG
+5706;bus;;;;KVG Stade GmbH & Co. KG
+5902;bus;;;;KVG Stade GmbH & Co. KG
+5903;bus;;;;KVG Stade GmbH & Co. KG
+5904;bus;;;;KVG Stade GmbH & Co. KG
+5917;bus;;;;KVG Stade GmbH & Co. KG
+5918;bus;;;;KVG Stade GmbH & Co. KG
+5919;bus;;;;KVG Stade GmbH & Co. KG
+5920;bus;;;;KVG Stade GmbH & Co. KG
+5921;bus;;;;KVG Stade GmbH & Co. KG
+5922;bus;;;;KVG Stade GmbH & Co. KG
+5925;bus;;;;KVG Stade GmbH & Co. KG
+
+== Mein RufMobil
+5151;bus;;;;KVG Stade GmbH & Co. KG
+5152;bus;;;;KVG Stade GmbH & Co. KG
+5101;bus;;;;KVG Stade GmbH & Co. KG
+5251;bus;;;;KVG Stade GmbH & Co. KG
+5451;bus;;;;KVG Stade GmbH & Co. KG
+
+== Anruf-Sammel-Mobil
+5801;bus;;;;KVG Stade GmbH & Co. KG
+5802;bus;;;;KVG Stade GmbH & Co. KG
+5803;bus;;;;KVG Stade GmbH & Co. KG
+5804;bus;;;;KVG Stade GmbH & Co. KG
+5805;bus;;;;KVG Stade GmbH & Co. KG
+5806;bus;;;;KVG Stade GmbH & Co. KG
+5807;bus;;;;KVG Stade GmbH & Co. KG
+5808;bus;;;;KVG Stade GmbH & Co. KG
+5809;bus;;;;KVG Stade GmbH & Co. KG
+5813;bus;;;;KVG Stade GmbH & Co. KG
+5815;bus;;;;KVG Stade GmbH & Co. KG
+5817;bus;;;;KVG Stade GmbH & Co. KG
+5819;bus;;;;KVG Stade GmbH & Co. KG
+5821;bus;;;;KVG Stade GmbH & Co. KG
+5822;bus;;;;KVG Stade GmbH & Co. KG
+5823;bus;;;;KVG Stade GmbH & Co. KG
+5824;bus;;;;KVG Stade GmbH & Co. KG
+5825;bus;;;;KVG Stade GmbH & Co. KG
+5826;bus;;;;KVG Stade GmbH & Co. KG
+5827;bus;;;;KVG Stade GmbH & Co. KG
+5829;bus;;;;KVG Stade GmbH & Co. KG
 
 == Busverkehr im Landkreis Harburg
-=== StadtBus
-343;bus;;;;KVG
-348;bus;;;;
-440;bus;;;;KVG
-540;bus;;;;KVG
-548;bus;;;;
-4001;bus;;;;
-4002;bus;;;;
-4801;bus;;;;KVG
+=== Stadtverkehr Winsen (Luhe)
+4001;bus;;;;KVG Stade GmbH & Co. KG
+4002;bus;;;;KVG Stade GmbH & Co. KG
 
 === RegionalBus
-149;bus;;;;
-4148;bus;;;;
-4200;bus;;;;
-4210;bus;;;;
-4402;bus;;;;
-4405;bus;;;;
-4406;bus;;;;
-4407;bus;;;;
-4410;bus;;;;
-4604;bus;;;;
-4605;bus;;;;
-4606;bus;;;;
-4608;bus;;;;
-4663;bus;;;;
-4665;bus;;;;
-4666;bus;;;;
-4860;bus;;;;KVG
-4870;bus;;;;
-4888;bus;;;;KVG
+149;bus;;;;KVG Stade GmbH & Co. KG
+248;bus;;;;KVG Stade GmbH & Co. KG
+343;bus;;;;KVG Stade GmbH & Co. KG
+348;bus;;;;KVG Stade GmbH & Co. KG
+440;bus;;;;KVG Stade GmbH & Co. KG
+540;bus;;;;KVG Stade GmbH & Co. KG
+647;bus;;;;KVG Stade GmbH & Co. KG
+2038;bus;;;;KVG Stade GmbH & Co. KG
+4037;bus;;;;KVG Stade GmbH & Co. KG
+4038;bus;;;;KVG Stade GmbH & Co. KG
+4039;bus;;;;KVG Stade GmbH & Co. KG
+4148;bus;;;;KVG Stade GmbH & Co. KG
+4200;bus;;;;KVG Stade GmbH & Co. KG
+4207;bus;;;;KVG Stade GmbH & Co. KG
+4208;bus;;;;KVG Stade GmbH & Co. KG
+4210;bus;;;;KVG Stade GmbH & Co. KG
+4404;bus;;;;KVG Stade GmbH & Co. KG
+4405;bus;;;;KVG Stade GmbH & Co. KG
+4406;bus;;;;KVG Stade GmbH & Co. KG
+4407;bus;;;;KVG Stade GmbH & Co. KG
+4408;bus;;;;KVG Stade GmbH & Co. KG
+4410;bus;;;;KVG Stade GmbH & Co. KG
+4700;bus;;;;KVG Stade GmbH & Co. KG
+4701;bus;;;;KVG Stade GmbH & Co. KG
+4705;bus;;;;KVG Stade GmbH & Co. KG
+4710;bus;;;;KVG Stade GmbH & Co. KG
+4714;bus;;;;KVG Stade GmbH & Co. KG
+4715;bus;;;;KVG Stade GmbH & Co. KG
+4716;bus;;;;KVG Stade GmbH & Co. KG
+4717;bus;;;;KVG Stade GmbH & Co. KG
+4801;bus;;;;KVG Stade GmbH & Co. KG
+4860;bus;;;;KVG Stade GmbH & Co. KG
+4870;bus;;;;KVG Stade GmbH & Co. KG
+4943;bus;Anruf-Linien-Taxi parallel zur Linie 149;;;KVG Stade GmbH & Co. KG
+4944;bus;Anruf-Linien-Taxi parallel zur Linie 4404;;;KVG Stade GmbH & Co. KG
+4945;bus;Anruf-Linien-Taxi parallel zur Linie 5402;;;KVG Stade GmbH & Co. KG
+4946;bus;Anruf-Linien-Taxi parallel zur Linie 4410;;;KVG Stade GmbH & Co. KG
+4947;bus;Anruf-Linien-Taxi parallel zur Linie 4406;;;KVG Stade GmbH & Co. KG
+4948;bus;Anruf-Linien-Taxi parallel zur Linie 4407;;;KVG Stade GmbH & Co. KG
+5200;bus;;;;KVG Stade GmbH & Co. KG
+5201;bus;;;;KVG Stade GmbH & Co. KG
+5202;bus;;;;KVG Stade GmbH & Co. KG
+5402;bus;;;;KVG Stade GmbH & Co. KG
+5403;bus;;;;KVG Stade GmbH & Co. KG
+5405;bus;;;;KVG Stade GmbH & Co. KG
+5903;bus;;;;KVG Stade GmbH & Co. KG
+5904;bus;;;;KVG Stade GmbH & Co. KG
+6702;bus;;;;KVG Stade GmbH & Co. KG
+6920;bus;;;;KVG Stade GmbH & Co. KG
+
+== Schulbus Verkehr
+247;bus;;;;KVG Stade GmbH & Co. KG
+347;bus;;;;KVG Stade GmbH & Co. KG
+447;bus;;;;KVG Stade GmbH & Co. KG
+448;bus;;;;KVG Stade GmbH & Co. KG
+548;bus;;;;KVG Stade GmbH & Co. KG
+4409;bus;;;;KVG Stade GmbH & Co. KG
+4602;bus;;;;KVG Stade GmbH & Co. KG
+4603;bus;;;;KVG Stade GmbH & Co. KG
+4604;bus;;;;KVG Stade GmbH & Co. KG
+4605;bus;;;;KVG Stade GmbH & Co. KG
+4606;bus;;;;KVG Stade GmbH & Co. KG
+4608;bus;;;;KVG Stade GmbH & Co. KG
+4609;bus;;;;KVG Stade GmbH & Co. KG
+4611;bus;;;;KVG Stade GmbH & Co. KG
+4613;bus;;;;KVG Stade GmbH & Co. KG
+4615;bus;;;;KVG Stade GmbH & Co. KG
+4618;bus;Baustellenfahrplan bis 2020-06-30;;;KVG Stade GmbH & Co. KG
+4620;bus;;;;KVG Stade GmbH & Co. KG
+4621;bus;;;;KVG Stade GmbH & Co. KG
+4623;bus;;;;KVG Stade GmbH & Co. KG
+4630;bus;;;;KVG Stade GmbH & Co. KG
+4631;bus;;;;KVG Stade GmbH & Co. KG
+4632;bus;;;;KVG Stade GmbH & Co. KG
+4633;bus;;;;KVG Stade GmbH & Co. KG
+4640;bus;;;;KVG Stade GmbH & Co. KG
+4641;bus;;;;KVG Stade GmbH & Co. KG
+4642;bus;;;;KVG Stade GmbH & Co. KG
+4643;bus;;;;KVG Stade GmbH & Co. KG
+4644;bus;;;;KVG Stade GmbH & Co. KG
+4650;bus;;;;KVG Stade GmbH & Co. KG
+4661;bus;;;;KVG Stade GmbH & Co. KG
+4662;bus;;;;KVG Stade GmbH & Co. KG
+4663;bus;;;;KVG Stade GmbH & Co. KG
+4664;bus;;;;KVG Stade GmbH & Co. KG
+4665;bus;;;;KVG Stade GmbH & Co. KG
+4666;bus;;;;KVG Stade GmbH & Co. KG
+4681;bus;;;;KVG Stade GmbH & Co. KG
+4682;bus;;;;KVG Stade GmbH & Co. KG
+4683;bus;;;;KVG Stade GmbH & Co. KG
+4684;bus;;;;KVG Stade GmbH & Co. KG
+4887;bus;;;;KVG Stade GmbH & Co. KG
+4888;bus;;;;KVG Stade GmbH & Co. KG
+4889;bus;;;;KVG Stade GmbH & Co. KG
+4949;bus;Anruf-Linien-Taxi parallel zur Linie 4632;;;KVG Stade GmbH & Co. KG
 
 == Busverkehr im Landkreis Stade
-=== StadtBus
+=== Stadtverkehr Buxtehude 
+2101;bus;;;;KVG Stade GmbH & Co. KG
+2102;bus;;;;KVG Stade GmbH & Co. KG
+2103;bus;;;;KVG Stade GmbH & Co. KG
+2104;bus;;;;KVG Stade GmbH & Co. KG
+2105;bus;;;;KVG Stade GmbH & Co. KG
+
+=== Stadtverkehr Stade
+2001;bus;;;;KVG Stade GmbH & Co. KG
+2002;bus;Baustellenverkehr bis 2020-03-20;;;KVG Stade GmbH & Co. KG
+2004;bus;;;;KVG Stade GmbH & Co. KG
+2005;bus;;;;KVG Stade GmbH & Co. KG
+2006;bus;;;;KVG Stade GmbH & Co. KG
+2007;bus;;;;KVG Stade GmbH & Co. KG
+2008;bus;;;;KVG Stade GmbH & Co. KG
+2021;bus;;;;KVG Stade GmbH & Co. KG
+
 === RegionalBus
-2024;bus;;;;
-2040;bus;;;;
-2044;bus;;;;
-2050;bus;;;;
-2062;bus;;;;
-2063;bus;;;;
-2064;bus;;;;
-2103;bus;;;;
-2365;bus;;;;KVG
-2368;bus;;;;KVG
-2369;bus;;;;KVG
-2370;bus;;;;KVG
-2371;bus;;;;KVG
-2372;bus;;;;KVG
-2373;bus;;;;KVG
-2375;bus;;;;
-2376;bus;;;;
-2377;bus;;;;
-=== BürgerBusse
-2311-KVG;bus;;;;
-2312-KVG;bus;;;;
-2313-KVG;bus;;;;
-2314-KVG;bus;;;;
+257;bus;;;;KVG Stade GmbH & Co. KG
+1705;bus;;;;KVG Stade GmbH & Co. KG
+1824;bus;;;;KVG Stade GmbH & Co. KG
+2025;bus;;;;KVG Stade GmbH & Co. KG
+2026;bus;;;;KVG Stade GmbH & Co. KG
+2027;bus;Baustellenverkehr bis 2020-03-31;;;KVG Stade GmbH & Co. KG
+2028;bus;Baustellenverkehr bis 2020-03-31;;;KVG Stade GmbH & Co. KG
+2030;bus;;;;KVG Stade GmbH & Co. KG
+2035;bus;;;;KVG Stade GmbH & Co. KG
+2036;bus;;;;KVG Stade GmbH & Co. KG
+2038;bus;;;;KVG Stade GmbH & Co. KG
+2040;bus;;;;KVG Stade GmbH & Co. KG
+2050;bus;Baustellenverkehr bis auf Weiteres;;;KVG Stade GmbH & Co. KG
+2051;bus;Baustellenverkehr bis auf Weiteres;;;KVG Stade GmbH & Co. KG
+2053;bus;;;;KVG Stade GmbH & Co. KG
+2060;bus;;;;KVG Stade GmbH & Co. KG
+2066;bus;;;;KVG Stade GmbH & Co. KG
+2078;bus;Baustellenverkehr bis auf Weiteres;;;KVG Stade GmbH & Co. KG
+2365;bus;Baustellenverkehr bis auf Weiteres;;;KVG Stade GmbH & Co. KG
+2370;bus;Baustellenverkehr bis auf Weiteres;;;KVG Stade GmbH & Co. KG
+2375;bus;Baustellenverkehr bis auf Weiteres;;;KVG Stade GmbH & Co. KG
+2433;bus;Verkehrt nicht zum HVV-Tarif;;;KVG Stade GmbH & Co. KG
+2703;bus;;;;KVG Stade GmbH & Co. KG
+2704;bus;;;;KVG Stade GmbH & Co. KG
+2706;bus;;;;KVG Stade GmbH & Co. KG
+2707;bus;;;;KVG Stade GmbH & Co. KG
+2708;bus;;;;KVG Stade GmbH & Co. KG
+2711;bus;;;;KVG Stade GmbH & Co. KG
+2712;bus;;;;KVG Stade GmbH & Co. KG
+2713;bus;;;;KVG Stade GmbH & Co. KG
+2718;bus;;;;KVG Stade GmbH & Co. KG
+2719;bus;;;;KVG Stade GmbH & Co. KG
+2927;bus;Verkehrt nicht zum HVV-Tarif;;;KVG Stade GmbH & Co. KG
+
+== Schulbus Verkehr
+2011;bus;;;;KVG Stade GmbH & Co. KG
+2017;bus;;;;KVG Stade GmbH & Co. KG
+2018;bus;;;;KVG Stade GmbH & Co. KG
+2034;bus;;;;KVG Stade GmbH & Co. KG
+2037;bus;;;;KVG Stade GmbH & Co. KG
+2043;bus;;;;KVG Stade GmbH & Co. KG
+2044;bus;;;;KVG Stade GmbH & Co. KG
+2045;bus;;;;KVG Stade GmbH & Co. KG
+2052;bus;;;;KVG Stade GmbH & Co. KG
+2054;bus;;;;KVG Stade GmbH & Co. KG
+2057;bus;;;;KVG Stade GmbH & Co. KG
+2061;bus;;;;KVG Stade GmbH & Co. KG
+2062;bus;;;;KVG Stade GmbH & Co. KG
+2063;bus;;;;KVG Stade GmbH & Co. KG
+2064;bus;;;;KVG Stade GmbH & Co. KG
+2065;bus;;;;KVG Stade GmbH & Co. KG
+2067;bus;;;;KVG Stade GmbH & Co. KG
+2068;bus;;;;KVG Stade GmbH & Co. KG
+2069;bus;;;;KVG Stade GmbH & Co. KG
+2070;bus;;;;KVG Stade GmbH & Co. KG
+2072;bus;;;;KVG Stade GmbH & Co. KG
+2073;bus;;;;KVG Stade GmbH & Co. KG
+2074;bus;;;;KVG Stade GmbH & Co. KG
+2079;bus;;;;KVG Stade GmbH & Co. KG
+2024;bus;;;;KVG Stade GmbH & Co. KG
+2091;bus;;;;KVG Stade GmbH & Co. KG
+2092;bus;;;;KVG Stade GmbH & Co. KG
+2093;bus;;;;KVG Stade GmbH & Co. KG
+2094;bus;;;;KVG Stade GmbH & Co. KG
+2096;bus;;;;KVG Stade GmbH & Co. KG
+2111;bus;;;;KVG Stade GmbH & Co. KG
+2113;bus;;;;KVG Stade GmbH & Co. KG
+2114;bus;;;;KVG Stade GmbH & Co. KG
+2129;bus;;;;KVG Stade GmbH & Co. KG
+2368;bus;;;;KVG Stade GmbH & Co. KG
+2369;bus;;;;KVG Stade GmbH & Co. KG
+2371;bus;;;;KVG Stade GmbH & Co. KG
+2372;bus;;;;KVG Stade GmbH & Co. KG
+2373;bus;;;;KVG Stade GmbH & Co. KG
+2376;bus;;;;KVG Stade GmbH & Co. KG
+2377;bus;;;;KVG Stade GmbH & Co. KG
+
 
 == Busse im Umland: Verteilung auf die Kreise noch erforderlich!
-1705;bus;;;;
-1824;bus;;;;
-2001;bus;;;;
-2002;bus;;;;
-2004;bus;;;;
-2005;bus;;;;
-2007;bus;;;;
-2008;bus;;;;
-2011;bus;;;;
-2017;bus;;;;
-2021;bus;;;;
-2025;bus;;;;
-2026;bus;;;;
-2027;bus;;;;
-2028;bus;;;;
-2030;bus;;;;
-2034;bus;;;;
-2035;bus;;;;
-2036;bus;;;;
-2037;bus;;;;
-2038;bus;;;;
-2043;bus;;;;
-2045;bus;;;;
-2051;bus;;;;
-2052;bus;;;;
-2053;bus;;;;
-2054;bus;;;;
-2057;bus;;;;
-2060;bus;;;;
-2061;bus;;;;
-2065;bus;;;;
-2066;bus;;;;
-2067;bus;;;;
-2068;bus;;;;
-2069;bus;;;;
-2070;bus;;;;
-2072;bus;;;;
-2073;bus;;;;
-2074;bus;;;;
-2078;bus;;;;
-2079;bus;;;;
-2080;bus;;;;
-2081;bus;;;;
-2091;bus;;;;
-2092;bus;;;;
-2093;bus;;;;
-2094;bus;;;;
-2096;bus;;;;
-2101;bus;;;;
-2102;bus;;;;
-2104;bus;;;;
-2105;bus;;;;
-2111;bus;;;;
-2113;bus;;;;
-2114;bus;;;;
-2129;bus;;;;
-2385;bus;;;;
-2386;bus;;;;
-2405;bus;;;;
-2703;bus;;;;
-2704;bus;;;;
-2706;bus;;;;
-2707;bus;;;;
-2708;bus;;;;
-2711;bus;;;;
-2712;bus;;;;
-2713;bus;;;;
-2718;bus;;;;
-2719;bus;;;;
-3813;bus;;;;
-3860;bus;;;;
-4037;bus;;;;
-4038;bus;;;;
-4039;bus;;;;
-4101;bus;;;;
-4102;bus;;;;
-4103;bus;;;;
-4207;bus;;;;
-4208;bus;;;;
-4400;bus;;;;
-4404;bus;;;;
-4408;bus;;;;
-4409;bus;;;;
-4602;bus;;;;
-4603;bus;;;;
-4609;bus;;;;
-4611;bus;;;;
-4613;bus;;;;
-4615;bus;;;;
-4618;bus;;;;
-4620;bus;;;;
-4621;bus;;;;
-4623;bus;;;;
-4624;bus;;;;
-4630;bus;;;;
-4631;bus;;;;
-4632;bus;;;;
-4633;bus;;;;
-4640;bus;;;;
-4641;bus;;;;
-4642;bus;;;;
-4643;bus;;;;
-4650;bus;;;;
-4661;bus;;;;
-4662;bus;;;;
-4664;bus;;;;
-4681;bus;;;;
-4682;bus;;;;
-4683;bus;;;;
-4684;bus;;;;
-4700;bus;;;;
-4701;bus;;;;
-4705;bus;;;;
-4710;bus;;;;
-4714;bus;;;;
-4715;bus;;;;
-4716;bus;;;;
-4717;bus;;;;
-4887;bus;;;;
-4889;bus;;;;
-5001;bus;;;;
-5101;bus;;;;
-5102;bus;;;;
-5103;bus;;;;
-5104;bus;;;;
-5111;bus;;;;
-5112;bus;;;;
-5114;bus;;;;
-5120;bus;;;;
-5201;bus;;;;
-5202;bus;;;;
-5203;bus;;;;
-5301;bus;;;;
-5302;bus;;;;
-5303;bus;;;;
-5304;bus;;;;
-5361;bus;;;;
-5362;bus;;;;
-5402;bus;;;;
-5403;bus;;;;
-5404;bus;;;;
-5405;bus;;;;
-5604;bus;;;;
-5606;bus;;;;
-5701;bus;;;;
-5702;bus;;;;
-5703;bus;;;;
-5705;bus;;;;
-5706;bus;;;;
-5901;bus;;;;
-5902;bus;;;;
-5903;bus;;;;
-5904;bus;;;;
-5917;bus;;;;
-5918;bus;;;;
-5919;bus;;;;
-5920;bus;;;;
-5921;bus;;;;
-5922;bus;;;;
-5925;bus;;;;
-5931;bus;;;;
 6500;bus;;;;
 6501;bus;;;;
 6502;bus;;;;
@@ -872,10 +931,16 @@ X86;bus;;;;
 
 = Weitere Verbünde/Betreiber
 
-
-== Kostenlose Shuttle-Busse (kein 'network')
-
+== Kostenlose Shuttle-Busse
 ELB-Shuttle;bus;;;;
+Regionalpark-Shuttle;bus;;S Neugraben;S Neugraben;
+5777;bus;;Lüneburg, ZOB;Egestorf, Kirche;
+
+== Betriebsverkehr
+68;ferry;;AIRBUS;Teufelsbrück;HADAG Seetouristik und Fährdienst AG
+
+== Sonstige Verbindungen
+KIELIUS;bus;Airport Shuttle-Bus;Kiel;Hamburg Airport;Autokraft GmbH
 -
 
 

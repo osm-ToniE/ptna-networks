@@ -77,7 +77,7 @@ RT5;tram;Regiotram;Kassel;Melsungen;RTG
 
 == Busse
 
-- nur osm - Bestandslinien eingetragen, der NVV reagiert nicht auf Anfragen.
+- nur osm - Bestandslinien eingetragen, d.h. derzeit ist das eine IST-Analyse.
 
 === 10 .. 99
 10;bus;;Rasenallee;Auestadion;KVG

@@ -104,9 +104,9 @@
 9407/025;bus;Taufkirchen (Vils) - Dorfen - Buchbach - Velden
 9409;bus;Dorfen - Haag - Wasserburg
 9410;bus;Gars - Haag - Hohenlinden - Forstining - München
-9411;bus;Wasserburg - Soyen - Haag - [Isen] [Obernau]
-94111;bus;[Isen] [Oberornau] Haag - Soyen - Wasserburg
-94112;bus;[Isen] [Oberornau] Haag - Soyen - Wasserburg
+9411;bus;Wasserburg - Soyen - Haag - (Isen) (Obernau)
+94111;bus;(Isen) (Obernau) Haag - Soyen - Wasserburg
+94112;bus;(Isen) (Obernau) Haag - Soyen - Wasserburg
 9412;bus;Rettenbach - Pfaffing - Edling - Wasserburg
 9413;bus;Waldhausen - Schnaitsee - Wasserburg
 9414;bus;Wasserburg - Schonstett/Amerang - Halfing - Bad Endorf - Rosenheim
