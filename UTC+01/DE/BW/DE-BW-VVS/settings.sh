@@ -15,7 +15,7 @@ ANALYSIS_PAGE="Stuttgart/Transportation/Analyse"
 ANALYSIS_TALK="Talk:Stuttgart/Transportation/Analyse"
 WIKI_ROUTES_PAGE="Stuttgart/Transportation/VVS-Linien-gesamt"
 
-ANALYSIS_OPTIONS="--language=de --max-error=10 --check-version --check-access --check-stop-position --check-sequence --check-osm-separator --check-osm-separator --check-motorway-link --positive-notes --check-name-relaxed --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--language=de --max-error=10 --check-version --check-access --check-stop-position --check-sequence --check-osm-separator --check-osm-separator --check-motorway-link --check-name-relaxed --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --check-bus-stop 
 # --expect-network-long
