@@ -108,7 +108,7 @@ N27;tram;;Petuelring;Großhesseloher Brücke;SWM/MVG
 #
 == Bus
 === Express-Bus (München)
-X30;bus;ExpressBus !Ab 15.12.2019: Verlängert nach Arabellapark!;Harras U S R;Arabellapark U;SWM/MVG
+X30;bus;ExpressBus;Harras U S R;Arabellapark U;SWM/MVG
 X35;bus;ExpressBus;Moosach U S R;Alte Heide U;SWM/MVG
 X36;bus;ExpressBus;Allach S;Alte Heide U;SWM/MVG,
 X80;bus;ExpressBus;Puchheim S Süd;Moosach U S R;SWM/MVG
@@ -186,7 +186,7 @@ O7;bus;MVG-Museum-Shuttle;Giesing U S;MVG-Museum;SWM/MVG
 171;bus;!Ab 15.12.2019: 171 verkürzt und in beide Richtungen gleich und Haltestelle "Dientzenhoferstraße" entfällt!;Feldmoching U S R;Am Hart U;SWM/MVG
 172;bus;;Dachau S R;Am Hart U;SWM/MVG
 173;bus;;Feldmoching U S R;Petuelring U;SWM/MVG
-174;bus;!Ab 15.12.2019: neue Linie!;Dientzenhoferstraße;Am Hart U;SWM/MVG
+174;bus;;Dientzenhoferstraße;Am Hart U;SWM/MVG
 175;bus;;Ludwigsfeld;Georg-Brauchle-Ring U;SWM/MVG
 176;bus;;Karlsfelder Straße;Moosach U S R;SWM/MVG
 177;bus;;Petuelring U;Studentenstadt U;SWM/MVG
@@ -467,7 +467,7 @@ N272;bus;Nachtbus;Großhesseloher Brücke;Grünwald, Friedhof;Busservice Watzing
 #
 ==== Landkreis Fürstenfeldbruck - 800 - 899
 803;bus;;Inning, Marktplatz;Schöngeising, Bahnhofstraße;;
-804;bus;!Ab 15.12.2019: jede 2. Gahrt verlängert bis in die Ortsmitte von Grafrath!;Grafrath S;Schöngeising, Jexhof;;
+804;bus;!Ab 15.12.2019: jede 2. Fahrt verlängert bis in die Ortsmitte von Grafrath!;Grafrath S;Schöngeising, Jexhof;;
 805;bus;;Grafrath;Zankenhausen (-Türkenfeld, Schule);
 810;bus;!Neu ab 15.12.2019!;Mammendorf;Geltendorf;Neumeyr, Dünzelbach
 815;bus;;Fürstenfeldbruck S;Fürstenfeldbruck, Fliegerhorst;Busverkehr Südbayern

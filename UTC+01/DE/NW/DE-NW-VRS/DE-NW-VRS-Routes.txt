@@ -255,7 +255,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 113;bus;Quelle gtfs;Köln, Braunsfeld Aachener Str./Gürtel;Köln, Ehrenfeld Venloer Str./Gürtel;KVB Kölner Verkehrs-Betriebe AG
 118;bus;Quelle gtfs;Hürth, Efferen;Köln, Sülz Universität;KVB Kölner Verkehrs-Betriebe AG
 
-120;bus;!zum 15.12.2019 neue Haltestelle Alte Straße!;Köln, Chorweiler;Köln, Roggendorf Further Str.;KVB Kölner Verkehrs-Betriebe AG
+120;bus;zum 15.12.2019 neue Haltestelle Alte Straße;Köln, Chorweiler;Köln, Roggendorf Further Str.;KVB Kölner Verkehrs-Betriebe AG
 121;bus;Quelle gtfs;Köln, Langel linksrheinisch Langel Fähre;Köln, Nippes Neusser Str./Gürtel;KVB Kölner Verkehrs-Betriebe AG
 122;bus;Quelle gtfs;Köln, Longerich Wilhelm-Sollmann-Str.;Köln, Pesch Schulstr.;KVB Kölner Verkehrs-Betriebe AG
 123;bus;Quelle gtfs;Köln, Chorweiler;Köln, Roggendorf Further Str.;KVB Kölner Verkehrs-Betriebe AG
@@ -293,10 +293,10 @@ SB82;bus;;Kall;Vogelsang;RVK
 156;bus;Quelle gtfs;Köln, Mülheim Wiener Platz;Köln, Mülheim Neuer Mülheimer Friedhof;KVB Kölner Verkehrs-Betriebe AG
 157;bus;Quelle gtfs;Köln, Ostheim;Köln, Dünnwald Aeltgen-Dünwald-Str.;KVB Kölner Verkehrs-Betriebe AG
 158;bus;Quelle gtfs;Köln, Merheim LVR Kliniken;Köln, Merheim;KVB Kölner Verkehrs-Betriebe AG
-159;bus;!zum 15.12.2019 übernimmt Bus 159 einen Streckenabschnitt!;Köln, Poll Schüttewerk;Köln, Buchheim Herler Str.;KVB
+159;bus;zum 15.12.2019 übernimmt Bus 195 einen Streckenabschnitt;Köln, Poll Schüttewerk;Köln, Buchheim Herler Str.;KVB
 
 160;bus;Quelle gtfs;Köln, Porz Markt;Köln, Lind Linder Mauspfad;KVB Kölner Verkehrs-Betriebe AG
-161;bus;!Änderung zum 15.12.2019 Neue Endhaltestelle am Ende von Terminal 2!;Köln, Porz Markt;Köln, Grengel/Flughafen Köln/Bonn Flughafen Bf;KVB
+161;bus;Änderung zum 15.12.2019 Neue Endhaltestelle am Ende von Terminal 2;Köln, Porz Markt;Köln, Grengel/Flughafen Köln/Bonn Flughafen Bf;KVB
 162;bus;Quelle gtfs;Köln, Porz Markt;Köln, Wahnheide DLR;KVB Kölner Verkehrs-Betriebe AG
 # siehe 550/163: 163;bus;Quelle gtfs;Köln, Libur Kirche;Köln, Wahn Schulzentrum Wahn;KVB Kölner Verkehrs-Betriebe AG
 # siehe 501/164: 164;bus;Quelle gtfs;Niederkassel, Lülsdorf Nord;Köln, Wahn S-Bahn;KVB Kölner Verkehrs-Betriebe AG
@@ -317,7 +317,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 191;bus;Quelle gtfs;Köln, Ostheim;Köln, Ostheim Bertha-Benz-Karree;KVB Kölner Verkehrs-Betriebe AG
 192;bus;Quelle gtfs;Köln, Meschenich Kirche;Hürth, Kalscheuren Bf;KVB Kölner Verkehrs-Betriebe AG
 193;bus;Quelle gtfs;Köln, Kalk Corintostr.;Köln, Vingst;KVB Kölner Verkehrs-Betriebe AG
-195;bus;!neu zum 15.12.2019 übernimmt Streckenabschnitt von Bus 159!;Köln, Buchheim Herler Str.;Köln, Kochwiesenstr;KVB
+195;bus;neu zum 15.12.2019 übernimmt Streckenabschnitt von Bus 159;Köln, Buchheim Herler Str.;Köln, Kochwiesenstr;KVB
 196;bus;Quelle gtfs;Köln, Deutz Bf Deutz / Messe  LANXESS arena;Köln, Humboldt/Gremberg Am Grauen Stein;KVB Kölner Verkehrs-Betriebe AG
 
 

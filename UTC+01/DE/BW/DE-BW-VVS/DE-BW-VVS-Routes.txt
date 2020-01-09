@@ -160,7 +160,6 @@ X74;bus;;Weil der Stadt;Universität;
 113;bus;!Teilweise Oberleitungsbus?!;Berkheim;Esslingen (N) ZOB;
 114;bus;;Endersbach;Esslingen (N) ZOB;
 115;bus;;Zell;Esslingen (N) ZOB;
-116;bus;;Endersbach;Esslingen (N) ZOB;
 118;trolleybus;!Teilweise Oberleitungsbus?!;Esslingen ZOB;Esslingen ZOB;
 119;bus;;Denkendorf;Esslingen (N);
 120;bus;;Wolfschlugen;Esslingen (N);
@@ -370,6 +369,7 @@ X74;bus;;Weil der Stadt;Universität;
 560;bus;;Schäuber;Husarenhof;
 561;bus;;Bietigheim ZOB;Kammgarnspinnerei;
 562;bus;;Sachsenheim;Oberriexingen;
+563;bus;;Bietigheim Kammgarnspinnerei;Bietigheim Kronenzentrum;
 564;bus;;Freiberg (N);Kammgarnspinnerei;
 565;bus;;Friedhof St. Peter;Buch;
 566;bus;;Vaihingen (E);Bietigheim;
@@ -422,6 +422,7 @@ X74;bus;;Weil der Stadt;Universität;
 716;bus;;Sindelfingen ZOB;ZOB;
 717;bus;;Darmsheim;Sindelfingen ZOB;
 718;bus;;Darmsheim;Sindelfingen ZOB;
+720;bus;;Böblingen (ZOB);Goldberg;
 721;bus;;Böbl. Kreiskrankenh.;Diezenhalde;
 722;bus;;Böblingen Waldorfschule;Maichingen;
 723;bus;;Böbl. ZOB;ZOB;
@@ -578,11 +579,14 @@ N92;bus;;Filderstadt;Bernhausen Bf;
 S5;train;;;;Albtal-Verkehrs-Gesellschaft mbH;DB Regio
 #
 === Regional-Bahn
+IRE 1;train;;Aalen;Karlsruhe;
+RE 8;train;;Würzburg;Stuttgart;
+RE 17B;train;;Heidelberg;Stuttgart;
+RB 10;train;;Heilbronn;Stuttgart;
+RB13;train;;Crailsheim;Stuttgart;
+RB 17A;train;;Pforzheim;Stuttgart;
+RB 18;train;;Osterburken;Stuttgart;
 R1;train;;Ulm;Stuttgart;
-R2;train;;Aalen;Stuttgart;
-R3;train;;Crailsheim;Stuttgart;
-R4;train;;Heilbronn;Stuttgart;
-R5;train;;Pforzheim;Stuttgart;
 R7;train;;Stuttgart;Horb/Freudenstadt;
 R8;train;;Tübingen;Stuttgart;
 R73;train;;Tübingen;Herrenberg;
@@ -603,7 +607,7 @@ R83;train;;Bad Urach;Reutlingen;
 7627;bus;;Rottenburg (N);Ergenzingen;
 
 #
-== Nicht im VVS-Tarif
+== Sonderlinien (nicht im VVS-Tarif)
 23;tram;Oldtimerlinie;Straßenbahnmuseum;Ruhbank (Fernsehturm);
 
 </pre>

@@ -433,8 +433,8 @@ N4;bus;Nachtbus;Hildesheim;Groß Lafferde;Regionalverkehr Hildesheim
 472;bus;;Braunlage;Bad Sachsa;Hahne Reisen
 
 ==== BördeBus
-633;bus;;Döhren/Grasleben;Beendorf;BördeBus
-653;bus;;Oschersleben;Schöningen;BördeBus
+633;bus;!Nicht aufgeführt, da 'network'='marego'!;Döhren/Grasleben;Beendorf;BördeBus
+653;bus;!Nicht aufgeführt, da 'network'='marego'!;Oschersleben;Schöningen;BördeBus
 666;bus;;Belsdorf;Helmstedt;BördeBus
 
 ==== Personenverkehrsgesellschaft Altmarkkreis Salzwedel

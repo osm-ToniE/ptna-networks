@@ -370,22 +370,23 @@ S35;bus;AM West;Westerstede;Oldenburg;Gerdes
 463;bus;WM Süd;Elsfleth;Großenmeer;Weser-Ems-Bus
 
 === Busse 5xx
-501;bus;BHV;Bahnhofstraße;Schnellbus: H.-Plett-Str.;Bremerhaven Bus
-502;bus;BHV;Auerstraße;Heinrich-Plett-Straße;Bremerhaven Bus
-503;bus;BHV;Tiroler Straße;Heinrich-Plett-Straße;Bremerhaven Bus
-504;bus;BHV;Fischereihafen;Hauptbahnhof;Bremerhaven Bus
-505;bus;BHV;Siedewurt Wendeplatz;Debstedt Markt;Bremerhaven Bus
-506;bus;BHV;Schulzentrum Langen;Bahnhofstraße;Bremerhaven Bus
-507;bus;BHV;Bramel;Spaden;Bremerhaven Bus
-508;bus;BHV;Klinikum Bremerhaven;Heinrich-Plett-Straße;Bremerhaven Bus
-509;bus;BHV;Schulzentrum Langen;Tiroler Straße;Bremerhaven Bus
-510;bus;BHV;Am Seedeich;Hauptbahnhof;Bremerhaven Bus
-511;bus;BHV;Carsten Börger Straße;Schnellbus: H.-Plett-Str.;Bremerhaven Bus
-512;bus;BHV;Roter Sand;Überseering;Bremerhaven Bus
-513;bus;BHV;Plätternweg;Louise-Schröder-Str.;
-515;bus;BHV;Buschkämpen;Stadtverwaltung;
-516;bus;BHV;Carsten-Börger-Str.;Repower/Seewindstr.;
-517;bus;BHV ALT;Surheide;Veerenholzstraße;
+501;bus;BHV;Bahnhofstraße;Schnellbus: H.-Plett-Str.;BremerhavenBus
+502;bus;BHV;Auerstraße;Heinrich-Plett-Straße;BremerhavenBus
+503;bus;BHV;Tiroler Straße;Heinrich-Plett-Straße;BremerhavenBus
+504;bus;BHV;Fischereihafen;Hauptbahnhof;BremerhavenBus
+505;bus;BHV;Siedewurt Wendeplatz;Debstedt Markt;BremerhavenBus
+506;bus;BHV;Schulzentrum Langen;Bahnhofstraße;BremerhavenBus
+507;bus;BHV;Bramel;Spaden;BremerhavenBus
+508;bus;BHV;Klinikum Bremerhaven;Heinrich-Plett-Straße;BremerhavenBus
+509;bus;BHV;Schulzentrum Langen;Tiroler Straße;BremerhavenBus
+510;bus;BHV;Am Seedeich;Hauptbahnhof;BremerhavenBus
+511;bus;BHV;Carsten Börger Straße;Schnellbus: H.-Plett-Str.;BremerhavenBus
+512;bus;BHV;Roter Sand;Überseering;BremerhavenBus
+513;bus;BHV;Plätternweg;Louise-Schröder-Str.;BremerhavenBus
+515;bus;BHV;Buschkämpen;Stadtverwaltung;BremerhavenBus
+516;bus;BHV;Carsten-Börger-Str.;Repower/Seewindstr.;BremerhavenBus
+517;bus;BHV ALT;Surheide;Veerenholzstraße;BremerhavenBus
+HL;bus;BHV;Rotersand;Thünen-Institut;BremerhavenBus
 523;bus;;Wremen;Dorum;KVG Cuxhaven
 524;bus;;Dorum;Dorum Neufeld;KVG Cuxhaven
 525;bus;;Bad Bederkesa;Bremerhaven;KVG Cuxhaven
@@ -420,6 +421,7 @@ S35;bus;AM West;Westerstede;Oldenburg;Gerdes
 570;bus;;Hagen;Bremerhaven;Giese
 571;bus;;Beverstedt;Hagen;
 573;bus;;Sandstedt;Hagen;
+574;bus;;Uthlede;Hagen;Giese
 575;bus;;Beverstedt;Bremerhaven;
 577;bus;;Wellen;Schiffdorf;
 579;bus;;Beverstedt;Loxstedt;
@@ -583,8 +585,13 @@ S35;bus;AM West;Westerstede;Oldenburg;Gerdes
 918;bus;;Wardenburg;Friesoythe;Nienaber
 930;bus;;Löningen;Ahlhorn;Weser-Ems-Bus
 
+=== Busse >999
+1021;bus;LK CUX;Cuxhaven;Nordholz;Maass
+3860;bus;LK ROW;Zeven;Tostedt;von Ahrentschildt
+
 == Nacht-Linien
-ML;bus;BHV;Klinikum Bremerhaven;Langen;
+ML;bus;BHV;Klinikum Bremerhaven;Langen;BremerhavenBus
+NL;bus;BHV;Bremerhaven Carsten-Börger-Straße;Debstedt Markt;BremerhavenBus
 N1;tram;HB Straßenbahn;Huchting;Osterholz/Weserpark;BSAG
 N3;bus;HB Stadt;Rablinghausen;Kuhkamp;BSAG
 N4;tram;HB Straßenbahn;Arsten;Borgfeld;BSAG
@@ -617,12 +624,17 @@ N74;bus;VER Nord;Achim-Baden;Bremen;Weser-Ems-Bus
 N83;bus;Nachtschwärmer;Rotenburg/Wümme;Wehldorf;BSAG EVB Dierks Weser-Ems-Bus von Rahden Buschmann Wolters
 N84;bus;Nachtschwärmer;Rotenburg;Wehldorf;BSAG Weser-Ems-Bus Wolters
 N94;bus;HB Stadt Anruflinientaxi;Bf Blumenthal;Schwanewede;BSAG
-NL;bus;BHV;Bremerhaven Carsten-Börger-Straße;Debstedt Markt;
+
 == Sonderlinie
+
 Marktfahrten;bus;;Rotenburg;Thedinghausen;
+
 == SPNV
+
 #ref;type;comment;from;to;operator
+
 === RegionalExpress
+
 RE1;train;;Hannover;Emden/Norddeich;Deutsche Bahn
 RE4;train;;Bremen;Hamburg;Metronom
 RE8;train;;Bremerhaven-Lehe;Hannover;DB Regio Nord

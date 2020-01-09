@@ -802,6 +802,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 1789;bus;;Montpellier;Genf;FlixMobility GmbH
 1790;bus;;Paris;Metz;FlixMobility GmbH
 1792;bus;;Vannes;Paris;FlixMobility GmbH
+1794;bus;;Sevilla;Lagos;FlixMobility GmbH
 1797;bus;;Lyon Flughafen;Grenoble;FlixMobility GmbH
 1799;bus;;Mulhouse;Paris;FlixMobility GmbH
 
@@ -881,6 +882,7 @@ K608;bus;;Stockholm;Ljusdal;Härjedalingen
 K614;bus;;Stockholm;Sollefteå;YBuss
 K615;bus;;Stockholm;Hofors;SGS Bussen
 K618;bus;;Stockholm;Edsbyn;
+K701;bus;;Sevilla;Badajoz;BaseBus
 K702;bus;;Madrid;Aldeanueva del Camino;
 K767;bus;;Warschau;Kolberg;Voyager
 K780;bus;;Lissabon;Luxemburg;SOCIEDAD DE TRANSPORTES S.L.(=Iberocoach)
@@ -892,6 +894,8 @@ K785;bus;Seit 02.09.2018 nicht mehr buchbar, wurde eingestellt.;Porto;A Coruña;
 K786;bus;Seit 02.09.2018 nicht mehr buchbar, wurde eingestellt.;Fuengirola(Malaga);Porto;SOCIEDAD DE TRANSPORTES S.L.(=Iberocoach)
 K787;bus;;Krakau;Kolberg;Voyager
 K790;bus;;Barcelona;Pontevedra;SOCIEDAD DE TRANSPORTES S.L.(=Iberocoach)?
+K791;bus;;Barcelona;Moraleja;Monbus
+K792;bus;;Pontavedra;Irun;
 K801;bus;;Amsterdam;Sjenica;Garo Reisen
 K803;bus;;Ljubljana;Treviso Flughafen;Nomago
 K810;bus;;Prag;Třebíč;Trado Bus
@@ -1182,6 +1186,7 @@ N770;bus;;Paris;Kopenhagen;FlixMobility GmbH
 N778;bus;;Mailand;Toulouse Airport;FlixMobility GmbH
 N780;bus;;Paris;Berlin;FlixMobility GmbH
 N781;bus;;Barcelona;Brüssel;FlixMobility GmbH
+N785;bus;;Sevilla;A Coruña;FlixMobility GmbH
 N786;bus;;Toulouse;Lissabon;FlixMobility GmbH
 N788;bus;;Barcelona;Genf;FlixMobility GmbH
 N793;bus;;Lissabon;Madrid;FlixMobility GmbH
@@ -1255,6 +1260,7 @@ N990;bus;;Pančevo;Wien;FlixMobility GmbH
 N997;bus;;Rom;Zagreb;FlixMobility GmbH
 N998;bus;;Zürich;Virovitica;FlixMobility GmbH
 
+N1000;bus;;Porto;Malaga;FlixMobility GmbH
 N1131;bus;;Paris;Murcia;FlixMobility GmbH
 
 N1210;bus;;Warschau;Gdingen;FlixMobility GmbH

@@ -47,7 +47,7 @@
 - Verweis auf mehr [[Talk:Hamburger_Verkehrsverbund/Analyse|Informationen]] im Wiki.
 
 == Hinweis
-- Die Grunddaten für diese Analyse stammen aus verschiedenen Quellen, darunter dem Transparenzportal der Stadt Hamburg, dem Presse-Portal nahverkehrhamburg.de und mitwirkenden OSM-Mappern.
+- Die Datengrundlage für diese Analyse stammen aus verschiedenen Quellen, darunter dem [http://transparenz.hamburg.de/ Transparenzportal der Stadt Hamburg], dem [https://www.nahverkehrhamburg.de/ Presse-Portal nahverkehrhamburg.de], der [https://www.bahn.de/autokraft Firma Autokraft GmbH], der [https://www.kvg-bus.de/ Firma KVG Stade GmbH & Co. KG]  und mitwirkenden OSM-Mappern.
 -
 - Bei der Analyse ist 'network' derzeit entweder
 -
@@ -398,9 +398,9 @@ X86;bus;;;;
 8889-AST;bus;;;;
 
 == Busverkehr im Kreis Stormarn
-=== StadtBus
-394;bus;;;;
-=== RegionalBus
+264;bus;;;;Autokraft GmbH
+364;bus;;;;Autokraft GmbH
+
 
 == Busverkehr im Kreis Stormarn
 === StadtBus

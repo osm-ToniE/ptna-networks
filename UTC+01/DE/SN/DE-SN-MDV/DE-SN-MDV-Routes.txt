@@ -113,7 +113,7 @@ S 9;train;;Halle (Saale) Hbf;;DB Regio Südost
 1|1E;tram;;;;LVB
 2;tram;;;;LVB
 3|3E;tram;;;;LVB
-4|4E;tram;;;;LVB
+"4;4E|4|4E";tram;;;;LVB
 7;tram;;;;LVB
 8;tram;;;;LVB
 9;tram;;;;LVB
@@ -133,8 +133,7 @@ S 9;train;;Halle (Saale) Hbf;;DB Regio Südost
 3|3E|3E/16;tram;;;;HAVAG
 4;tram;;;;HAVAG
 5;tram;;;;HAVAG
-7;tram;;;;HAVAG
-7E;tram;;;;HAVAG
+7|7E;tram;;;;HAVAG
 8|8E;tram;;;;HAVAG
 9;tram;;;;HAVAG
 10;tram;;;;HAVAG
