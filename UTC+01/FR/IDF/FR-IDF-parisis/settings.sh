@@ -11,7 +11,7 @@ PREFIX="FR-IDF-parisis"
 OVERPASS_REUSE_ID="FR-IDF-Q13917-bus"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata=Q13917][type=boundary];(rel(area)[route~'bus'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG=""
+NETWORK_LONG="Val Parisis"
 NETWORK_SHORT="Parisis"
 
 ANALYSIS_PAGE=""
