@@ -236,6 +236,7 @@ SB23;bus;!Neu ab 28.08.2019!;Leverkusen Mitte;Monheim Busbahnhof;wupsi
 SB27;bus;!Neu ab 28.08.2019!;Leverkusen Rheindorf;Chempark Tor10;wupsi
 SB28;bus;!Neu ab 28.08.2019!;Leverkusen Mathildenhof;Chempark Tor1;wupsi
 SB29;bus;Neu ab 28.08.2019 ersetzt Bus224;Leverkusen Alt Steinbüchel;Chempark Tor10;wupsi
+SB33;bus;Neu ab 28.08.2019;Leverkusen Mitte;Creative Campus;wupsi
 SB40;bus;;Köln;Bensberg;RVK
 SB55/164;bus;!28.08.2019 LeadCity Bonn, nach Porz-Wahn verlängert!;Bonn Hbf;Porz-Wahn;SWB / RSVG
 # SB55;bus;bis 28.08.2019;Bonn;Lülsdorf;SWB;RSVG
@@ -303,7 +304,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 165;bus;Quelle gtfs;Köln, Porz Markt;Köln, Finkenberg Theodor-Heuss-Str.;KVB Kölner Verkehrs-Betriebe AG
 166;bus;Quelle gtfs;Köln, Porz Markt;Köln, Urbach Kaiserstr.;KVB Kölner Verkehrs-Betriebe AG
 167;bus;Quelle gtfs;Köln, Wahn S-Bahn;Köln, Wahn S-Bahn;KVB Kölner Verkehrs-Betriebe AG
-167/501;bus;Rundkurs Wahn-S und dann als Linie 501 bis Lülsdorf;;;
+167/SB55;bus;Rundkurs Wahn-S und dann als Linie SB55 (vormals 501) bis Lülsdorf;;;
 
 171;bus;Neu ab 15.12.2019;Köln, Wiener Platz;Köln, Breslauer Platz Hauptbahnhof;KVB
 172;bus;Neu ab 15.12.2019;Köln, Widdersdorf;Köln, Dom/Hbf;KVB
@@ -466,7 +467,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 === Bus 400 Rheinisch-Bergischer Kreis ...
 
 400;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach, Bensberg;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
-# 404;bus;;;;
+404;bus;Schulbuslinie in Kürten;Herkenrath;Kürten;wupsi
 420;bus;Quelle gtfs;Bergisch Gladbach, Bensberg;Overath Bf;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
 421;bus;Quelle gtfs;Bergisch Gladbach, Bensberg;Lindlar Busbf;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
 422;bus;Quelle gtfs;Overath, Immekeppel Haus Thal;Rösrath Bf;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
@@ -496,6 +497,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 
 440;bus;Quelle gtfs;Overath, Untereschbach;Lindlar, Frielinghausen;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
 441;bus;Quelle gtfs;Rösrath, Hoffnungsthal Rathausplatz;Rösrath Bf;RVK Regionalverkehr Köln GmbH NL Berg.Gladb.
+447;bus;AST;Bergisch Gladbach;Pannenberg;wupsi
 448;bus;;;;
 449;bus;;;;
 450;bus;Quelle gtfs;Bergisch Gladbach (S);Bergisch Gladbach (S);wupsi wupsi GmbH

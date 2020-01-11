@@ -179,6 +179,7 @@ R90;bus;;Blaufelden;Schrozberg;RufBus
 
 == Züge
 RB;train;;Öhringen Hbf;Hessental;WestFrankenBahn
+RE;train;;Heilbronn Hbf;Crailsheim;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
 RE;train;;Aschaffenburg;Crailsheim;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
 RE;train;;Stuttgart Hauptbahnhof;Nürnberg Hauptbahnhof;DB Regio AG Baden-Württemberg
 RB13;train;;Stuttgart;Crailsheim;Go-Ahead Verkehrsgesellschaft Deutschland GmbH

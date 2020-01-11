@@ -386,46 +386,42 @@ X86;bus;;;;
 796;bus;;;;
 
 == Busverkehr im Kreis Pinneberg
-=== StadtBus
 395;bus;;;;
-=== RegionalBus
 589;bus;;;;
 594;bus;;;;
 6668;bus;;;;
+
 === Anruf-Sammel-Taxi (AST)
 8769-AST;bus;;;;
 8888-AST;bus;;;;
 8889-AST;bus;;;;
 
 == Busverkehr im Kreis Stormarn
+169;bus;;;;Verkehrsbetriebe Hamburg-Holstein GmbH
 264;bus;;;;Autokraft GmbH
+268;bus;;;;Verkehrsbetriebe Hamburg-Holstein GmbH
+269;bus;;;;Verkehrsbetriebe Hamburg-Holstein GmbH
+333;bus;;;;Verkehrsbetriebe Hamburg-Holstein GmbH
 364;bus;;;;Autokraft GmbH
-
-
-== Busverkehr im Kreis Stormarn
-=== StadtBus
-169;bus;;;;
-268;bus;;;;
-269;bus;;;;
-369;bus;;;;
-376;bus;;;;
-536;bus;;;;
-769;bus;;;;
-776;bus;;;;
-648;bus;;;;
-658;bus;;;;
-896;bus;;;;
+369;bus;;;;Autokraft GmbH
+376;bus;;;;Verkehrsbetriebe Hamburg-Holstein GmbH
+433;bus;;;;Verkehrsbetriebe Hamburg-Holstein GmbH
+464;bus;;;;Autokraft GmbH
+465;bus;;;;Autokraft GmbH
+536;bus;;;;Verkehrsbetriebe Hamburg-Holstein GmbH
+648;bus;;;;Verkehrsbetriebe Hamburg-Holstein GmbH
+658;bus;;;;Verkehrsbetriebe Hamburg-Holstein GmbH
+764;bus;;;;Autokraft GmbH
+765;bus;;;;Autokraft GmbH
+769;bus;;;;Verkehrsbetriebe Hamburg-Holstein GmbH
+776;bus;;;;Verkehrsbetriebe Hamburg-Holstein GmbH
 8101;bus;;;;Autokraft GmbH
 8102;bus;;;;Autokraft GmbH
 8103;bus;;;;Autokraft GmbH
 8104;bus;;;;Autokraft GmbH
 8105;bus;;;;Autokraft GmbH
-8106;bus;;;;
-
-=== RegionalBus
-333;bus;;;;
-433;bus;;;;
-8110;bus;;;;
+8106;bus;;;;Autokraft GmbH
+8110;bus;;;;Autokraft GmbH
 8111;bus;;;;Autokraft GmbH
 8112;bus;;;;Autokraft GmbH
 8113;bus;;;;Autokraft GmbH
@@ -434,35 +430,95 @@ X86;bus;;;;
 8116;bus;;;;Autokraft GmbH
 8117;bus;;;;Autokraft GmbH
 8118;bus;;;;Autokraft GmbH
+8120;bus;;;;Autokraft GmbH
+8121;bus;;;;Autokraft GmbH
+8122;bus;;;;Autokraft GmbH
+8130;bus;;;;Autokraft GmbH
+8131;bus;;;;Autokraft GmbH
+8133;bus;;;;Autokraft GmbH
+8134;bus;;;;Autokraft GmbH
+8136;bus;;;;Autokraft GmbH
+8140;bus;;;;Autokraft GmbH
+8142;bus;;;;Autokraft GmbH
+8145;bus;;;;Autokraft GmbH
+8146;bus;;;;Autokraft GmbH
+8150;bus;;;;Autokraft GmbH
+8160;bus;;;;Autokraft GmbH
+8170;bus;;;;Autokraft GmbH
+8171;bus;;;;Autokraft GmbH
+8180;bus;;;;Autokraft GmbH
+8181;bus;;;;Autokraft GmbH
+8182;bus;;;;Autokraft GmbH
+8740;bus;;;;Autokraft GmbH
+8763;bus;;;;Autokraft GmbH
+8769;bus;;;;Autokraft GmbH
+8770;bus;;;;Autokraft GmbH
+8771;bus;;;;Autokraft GmbH
+8772;bus;;;;Autokraft GmbH
+8780;bus;;;;Autokraft GmbH
+8781;bus;;;;Autokraft GmbH
+
+== Anruf-Sammel-Taxi
 8119;bus;;;;Autokraft GmbH
-8120;bus;;;;
-8130;bus;;;;
-8140;bus;;;;
-8160;bus;;;;
-8170;bus;;;;
-8180;bus;;;;
-8181;bus;;;;
-8182;bus;;;;
+8129;bus;;;;Autokraft GmbH
+8139;bus;;;;Autokraft GmbH
 
 == Busverkehr im Kreis Herzogtum Lauenburg
-=== StadtBus
+131;bus;;;;
 443;bus;;;;
 539;bus;;;;
-8502;bus;;;;
-
-=== RegionalBus
-131;bus;;;;
 735;bus;;;;
+8502;bus;;;;
+8710;bus;;;;Autokraft GmbH
+8711;bus;;;;Autokraft GmbH
+8720;bus;;;;Autokraft GmbH
+8721;bus;;;;Autokraft GmbH
+8722;bus;;;;Autokraft GmbH
+8723;bus;;;;Autokraft GmbH
+8724;bus;;;;Autokraft GmbH
+8725;bus;;;;Autokraft GmbH
+8726;bus;;;;Autokraft GmbH
+8730;bus;;;;Autokraft GmbH
+8731;bus;;;;Autokraft GmbH
+8740;bus;;;;Autokraft GmbH
+8741;bus;;;;Autokraft GmbH
+8742;bus;;;;Autokraft GmbH
 8752;bus;;;;
 8754;bus;;;;
-8794;bus;;;;
 8755;bus;;;;
 8792;bus;;;;
+8794;bus;;;;
 8800;bus;;;;
-8810;bus;;;;
-8811;bus;;;;
-8830;bus;;;;
-8831;bus;;;;
+8810;bus;;;;Autokraft GmbH
+8811;bus;;;;Autokraft GmbH
+8812;bus;;;;Autokraft GmbH
+8813;bus;;;;Autokraft GmbH
+8814;bus;;;;Autokraft GmbH
+8820;bus;;;;Autokraft GmbH
+8821;bus;;;;Autokraft GmbH
+8822;bus;;;;Autokraft GmbH
+8823;bus;;;;Autokraft GmbH
+8830;bus;;;;Autokraft GmbH
+8831;bus;;;;Autokraft GmbH
+8832;bus;;;;Autokraft GmbH
+8833;bus;;;;Autokraft GmbH
+8840;bus;;;;Autokraft GmbH
+8841;bus;;;;Autokraft GmbH
+8842;bus;;;;Autokraft GmbH
+8843;bus;;;;Autokraft GmbH
+8850;bus;;;;Autokraft GmbH
+8851;bus;;;;Autokraft GmbH
+8852;bus;;;;Autokraft GmbH
+8860;bus;;;;Autokraft GmbH
+8861;bus;;;;Autokraft GmbH
+8870;bus;;;;Autokraft GmbH
+8871;bus;;;;Autokraft GmbH
+8880;bus;;;;Autokraft GmbH
+8888;bus;;;;Autokraft GmbH
+8889;bus;;;;Autokraft GmbH
+
+== Anruf-Sammel-Taxi
+8749;bus;;;;Autokraft GmbH
 
 == Busverkehr im Landkreis Lüneburg / weitere Infos unter https://www.luenebus.de/
 === Stadtverkehr Lüneburg
@@ -584,7 +640,7 @@ X86;bus;;;;
 440;bus;;;;KVG Stade GmbH & Co. KG
 540;bus;;;;KVG Stade GmbH & Co. KG
 647;bus;;;;KVG Stade GmbH & Co. KG
-2038;bus;;;;KVG Stade GmbH & Co. KG
+2038;bus;;Buxtehude, ZOB;Hollenstedt, Schulzentrum;KVG Stade GmbH & Co. KG
 4037;bus;;;;KVG Stade GmbH & Co. KG
 4038;bus;;;;KVG Stade GmbH & Co. KG
 4039;bus;;;;KVG Stade GmbH & Co. KG
@@ -702,7 +758,7 @@ X86;bus;;;;
 2030;bus;;;;KVG Stade GmbH & Co. KG
 2035;bus;;;;KVG Stade GmbH & Co. KG
 2036;bus;;;;KVG Stade GmbH & Co. KG
-2038;bus;;;;KVG Stade GmbH & Co. KG
+2038;bus;;Buxtehude, ZOB;Hollenstedt, Schulzentrum;KVG Stade GmbH & Co. KG
 2040;bus;;;;KVG Stade GmbH & Co. KG
 2050;bus;Baustellenverkehr bis auf Weiteres;;;KVG Stade GmbH & Co. KG
 2051;bus;Baustellenverkehr bis auf Weiteres;;;KVG Stade GmbH & Co. KG
@@ -769,6 +825,11 @@ X86;bus;;;;
 2376;bus;;;;KVG Stade GmbH & Co. KG
 2377;bus;;;;KVG Stade GmbH & Co. KG
 
+=== Bürgerbusse
+2311-KVG;bus;BürgerBus Samtgemeinde Fredenbeck;Fredenbeck;Mulsum;BürgerBus Samtgemeinde Fredenbeck e.V.
+2312-KVG;bus;BürgerBus Samtgemeinde Fredenbeck;Fredenbeck;Helmste;BürgerBus Samtgemeinde Fredenbeck e.V.
+2313-KVG;bus;BürgerBus Samtgemeinde Fredenbeck;Fredenbeck;Kutenholz;BürgerBus Samtgemeinde Fredenbeck e.V.
+2314-KVG;bus;BürgerBus Samtgemeinde Fredenbeck;Fredenbeck;Mulsum;BürgerBus Samtgemeinde Fredenbeck e.V.
 
 == Busse im Umland: Verteilung auf die Kreise noch erforderlich!
 6500;bus;;;;
@@ -842,18 +903,6 @@ X86;bus;;;;
 7975;bus;;;;
 7977;bus;;;;
 7980;bus;;;;
-8105;bus;;;;
-8121;bus;;;;
-8122;bus;;;;
-8131;bus;;;;
-8133;bus;;;;
-8134;bus;;;;
-8136;bus;;;;
-8142;bus;;;;
-8145;bus;;;;
-8146;bus;;;;
-8150;bus;;;;
-8171;bus;;;;
 8501;bus;;;;
 8511;bus;;;;
 8512;bus;;;;
@@ -861,63 +910,22 @@ X86;bus;;;;
 8514;bus;;;;
 8515;bus;;;;
 8700;bus;;;;
-8710;bus;;;;
-8711;bus;;;;
 8712;bus;;;;
 8713;bus;;;;
-8720;bus;;;;
-8721;bus;;;;
-8722;bus;;;;
-8723;bus;;;;
-8724;bus;;;;
-8725;bus;;;;
-8726;bus;;;;
-8730;bus;;;;
-8731;bus;;;;
 8732;bus;;;;
 8733;bus;;;;
 8734;bus;;;;
 8735;bus;;;;
-8740;bus;;;;
-8741;bus;;;;
-8742;bus;;;;
 8750;bus;;;;
 8751;bus;;;;
 8753;bus;;;;
 8760;bus;;;;
 8761;bus;;;;
 8762;bus;;;;
-8763;bus;;;;
-8770;bus;;;;
-8771;bus;;;;
-8772;bus;;;;
-8780;bus;;;;
-8781;bus;;;;
 8790;bus;;;;
 8791;bus;;;;
 8793;bus;;;;
-8812;bus;;;;
-8813;bus;;;;
-8814;bus;;;;
-8820;bus;;;;
-8821;bus;;;;
-8822;bus;;;;
-8823;bus;;;;
-8832;bus;;;;
-8833;bus;;;;
-8840;bus;;;;
-8841;bus;;;;
-8842;bus;;;;
-8843;bus;;;;
-8850;bus;;;;
-8851;bus;;;;
-8852;bus;;;;
-8860;bus;;;;
-8861;bus;;;;
 8862;bus;;;;
-8870;bus;;;;
-8871;bus;;;;
-8880;bus;;;;
 8881;bus;;;;
 8882;bus;;;;
 8884;bus;;;;
@@ -935,6 +943,7 @@ X86;bus;;;;
 ELB-Shuttle;bus;;;;
 Regionalpark-Shuttle;bus;;S Neugraben;S Neugraben;
 5777;bus;;Lüneburg, ZOB;Egestorf, Kirche;
+Heide-Shuttle;bus;;;;
 
 == Betriebsverkehr
 68;ferry;;AIRBUS;Teufelsbrück;HADAG Seetouristik und Fährdienst AG
