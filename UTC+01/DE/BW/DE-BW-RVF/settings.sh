@@ -8,7 +8,7 @@ PREFIX="DE-BW-RVF"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=public_traffic][name='Regio-Verkehrsverbund Freiburg'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Regio-Verkehrsverbund Freiburg|Nachtbus Freiburg"
-NETWORK_SHORT="RVF"
+NETWORK_SHORT="RVF|RVF Nachtbus"
 
 ANALYSIS_PAGE="Regio-Verkehrsverbund_Freiburg/Analyse"
 ANALYSIS_TALK="Talk:Regio-Verkehrsverbund_Freiburg/Analyse"
