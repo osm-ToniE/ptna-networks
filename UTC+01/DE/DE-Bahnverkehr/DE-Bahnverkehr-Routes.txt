@@ -252,7 +252,6 @@ RB;train;;Aschaffenburg;Miltenberg;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
 RB;train;;Wertheim;Miltenberg;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
 #RB;train;;Osterburken|Neckarsulm|Mosbach-Neckarelz|Heilbronn Hauptbahnhof;Stuttgart Hauptbahnhof|Bad Friedrichshall Hauptbahnhof;DB Regio
 RB;train;;Osterburken|Bad Mergentheim;Würzburg Hauptbahnhof;DB RegioNetz Verkehrs GmbH;Westfrankenbahn
-RB;train;;Basel Bad Bf;Lauchringen;DB
 RB;train;;Öhringen Hauptbahnhof;Schwäbisch Hall-Hessental;WestFrankenBahn
 RB;train;Trireno RB;Basel;Lauchringen;DB
 
@@ -1172,10 +1171,14 @@ KBS 831–867;train;;;;
 
 === 900 .. 999
 
+900;train;;;;
 905/1;train;KBS 905/Waldbahn 1;;;Die Länderbahn
 906/3;train;KBS 906/Waldbahn 3;;;Die Länderbahn
 907/2;train;KBS 907/Waldbahn 2;;;Die Länderbahn
 908/4;train;KBS 908/Waldbahn 4;;;Die Länderbahn
+910;train;;;;
+911;train;;;;
+912;train;;;;
 920;train;;;;
 930;train;;;;
 931;train;;;;
@@ -1210,10 +1213,12 @@ KBS 831–867;train;;;;
 976;train;;;;SWU Verkehr GmbH
 978;train;;;;
 980;train;;;;
+981;train;;;;
 983;train;;;;
 984;train;;;;
 985;train;;;;
 986;train;;;;
+989;train;;;;
 990;train;;;;
 991;train;;;;
 993;train;;;;
@@ -1223,7 +1228,7 @@ KBS 831–867;train;;;;
 === > 1000
 
 2980;train;;Herford;Himmighausen;DB Netz AG
-4125;train;Ehem. Erftalbahn;;;
+#4125;train;Ehem. Erftalbahn;;;
 9230 und 9231;train;Moerser Kreisbahn;;;Niederrheinische Verkehrsberiebe AG (NIAG)
 10007;train;Wangerooger Inselbahn;;;DB Fernverkehr AG Inselverkehr Wangerooge
 12426;train;;;;

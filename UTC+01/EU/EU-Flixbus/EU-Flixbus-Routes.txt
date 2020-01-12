@@ -742,7 +742,12 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 1556;bus;;Neapel;Ancona;FlixMobility GmbH
 1564;bus;Seit 05.11.2018 nicht mehr buchbar, wurde eingestellt;Isernia;Neapel;FlixMobility GmbH
 1589;bus;;Neapel;Sala Consilia;FlixMobility GmbH
-1590;bus;;Turin;Agrigent;FlixMobility GmbHFlixMobility GmbH
+1590;bus;;Turin;Agrigent;FlixMobility GmbH
+
+
+== 16xx-Linien (Frankreich)
+
+1649;bus;;Clermond-Ferrand;Nizza;FlixMobility GmbH
 
 
 == 17xx-Linien (Frankreich)
@@ -787,6 +792,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 1759;bus;;Paris;Straßburg;FlixMobility GmbH
 1760;bus;;Lyon Flughafen;Dijon;FlixMobility GmbH
 1761;bus;;Nantes;Rennes;FlixMobility GmbH
+1768;bus;;Toulouse;Nizza;FlixMobility GmbH
 1770;bus;;Lille;Brüssel;FlixMobility GmbH
 1771;bus;;Nantes;Bordeaux;FlixMobility GmbH
 1772;bus;;Vannes;Paris;FlixMobility GmbH
