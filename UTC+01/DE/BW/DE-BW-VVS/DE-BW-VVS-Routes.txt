@@ -68,6 +68,11 @@ U29;light_rail;;Hauptbahnhof;Botnang;
 U34;light_rail;;Heslach Vogelrain;Vogelsang;
 
 #
+== Zahnradbahn, Seilbahn
+10;tram;Zahnradbahn Zacke;Marienplatz;Degerloch;
+20;funicular;Seilbahn;Südheimer Platz;Waldfriedhof;
+
+#
 == S-Bahn
 S1;train;;Kirchheim (T);Herrenberg;
 S2;train;;Schorndorf;Filderstadt;
@@ -88,11 +93,6 @@ RB64;train;Teckbahn;Oberlenningen;Kirchheim (Teck);
 RB65;train;Tälesbahn;Neuffen;Nürtingen;
 
 #
-== Zahnradbahn, Seilbahn
-10;tram;Zahnradbahn Zacke;Marienplatz;Degerloch;
-20;funicular;Seilbahn;Südheimer Platz;Waldfriedhof;
-
-#
 #
 == Bus
 === Schnellbus
@@ -103,8 +103,9 @@ X20;bus;;Esslingen;Waiblingen;
 X46;bus;;Beilstein;Marbach (N);
 X60;bus;;Flughafen/Messe;Leonberg;
 X74;bus;;Weil der Stadt;Universität;
+
 #
-=== Bus 1 .. 99
+=== Bus 1 .. 99 (Stuttgart)
 40;bus;;Vogelsang;Wagenburgstraße;
 41;bus;;Lerchenrainschule;Berliner Platz;
 42;bus;;Erwin-Schoettle-Platz;Schlossplatz;
@@ -143,8 +144,9 @@ X74;bus;;Weil der Stadt;Universität;
 92;bus;;Heslach Vogelrain;Stuttgart;
 94;bus;;Leonb. Waldfriedhof;Blosenbergk.;
 99;bus;;Zuffenhausen;Stammheim;
+
 #
-=== Bus 100 .. 199
+=== Bus 100 .. 140 (Esslingen)
 101;trolleybus;!Teilweise Oberleitungsbus?!;Obertürkheim;Lerchenäcker;
 102;bus;;Mettingen;Zell;
 103;bus;;Hedelfingen;Zell;
@@ -170,6 +172,9 @@ X74;bus;;Weil der Stadt;Universität;
 132;bus;;Rüdern;Oberesslingen;
 138;bus;;Berkheim;Jägerhaus;
 140;bus;;Plochingen;Esslingen (N);
+
+#
+=== Bus 141 .. 199
 141;bus;;Plochingen Stumpenhof;ZOB;
 142;bus;;Reichenbach;Plochingen;
 143;bus;;Plochingen;Deizisau;
@@ -219,6 +224,7 @@ X74;bus;;Weil der Stadt;Universität;
 195;bus;;Nürtingen;Frickenhausen;
 196;bus;;Wendlingen (N);Nürtingen;
 198;bus;;Frickenhausen Bahnhof;Kohlberg;
+
 #
 === Bus 200 .. 299
 201;bus;;Bittenfeld;Waiblingen;
@@ -261,6 +267,7 @@ X74;bus;;Weil der Stadt;Universität;
 265;bus;;Schorndorf;Schorndorf;
 268;bus;;Lorch;Alfdorf;
 269;bus;;Vordersteinenberg;Alfdorf;
+
 #
 === Bus 300 .. 399
 310;bus;!jetzt Linie 333!;;;
@@ -301,6 +308,7 @@ X74;bus;;Weil der Stadt;Universität;
 390;bus;;Murrhardt;Backnang;
 391;bus;;Oppenweiler;Zell;
 393;bus;;Rudersberg;Backnang (Fahrrad2Go);
+
 #
 === Bus 400 .. 499
 402;bus;;Pattonville;Hochdorf;
@@ -339,6 +347,7 @@ X74;bus;;Weil der Stadt;Universität;
 467;bus;Berg- und Talbus;Prevorst;Backnang;
 477;bus;;Großaspach;Burgstall;
 488;bus;Ortsbus Kirchberg(M);Kirchberg (M) Bf;Kirchberg (M) Bf;
+
 #
 === Bus 500 .. 599
 501;bus;;Hemmingen;Feuerbach;
@@ -384,6 +393,7 @@ X74;bus;;Weil der Stadt;Universität;
 590;bus;;Hohenhaslach;Vaihingen (E);
 592;bus;;Hochdorf;Gündelbach;
 595;bus;;Hochdorf;Vaihingen (E);
+
 #
 === Bus 600 .. 699
 612;bus;;Hemmingen;Korntal;
@@ -406,6 +416,7 @@ X74;bus;;Weil der Stadt;Universität;
 665;bus;;Weil der Stadt Gymnasium;Bf;
 666;bus;;Pforzheim;Weil d. Stadt;
 670;bus;;Calw;Weil der Stadt;
+
 #
 === Bus 700 .. 799
 701;bus;;Sindelfingen Eichholz;Diezenhalde;
@@ -427,6 +438,7 @@ X74;bus;;Weil der Stadt;Universität;
 722;bus;;Böblingen Waldorfschule;Maichingen;
 723;bus;;Böbl. ZOB;ZOB;
 724;bus;;Böblingen Rauher Kapf;ZOB;
+725;bus;;Böblingen;Waldorfschule;
 726;bus;;Böblingen Geleener Straße;Eugen-Bolz-ZOB;
 728;bus;;Technologiepark;Böblingen ZOB;
 731;bus;;Dagersheim Ost;Böblingen ZOB;
@@ -460,6 +472,7 @@ X74;bus;;Weil der Stadt;Universität;
 790;bus;;Mötzingen;Herrenberg;
 791;bus;;Entringen;Herrenberg;
 794;bus;;Tailfingen;Herrenberg;
+
 #
 === Bus 800 .. 899
 806;bus;;Flughafen/Messe;EnBW City;
@@ -472,10 +485,12 @@ X74;bus;;Weil der Stadt;Universität;
 817;bus;;Plattenhardt;Sielmingen;
 818;bus;;Stetten;Musberg;
 819;bus;;Citybus Leinfelden-Echterdingen;Citybus Leinfelden-Echterdingen;
+
 #
 === Weitere
 BB40;bus;Marbacher BürgerBus;Marbach (N) Rathaus;Marbach (N) Niklastorstraße 9;
 MB1;bus;;Böblingen;Sindelfingen Mercedes-Benz Kundencenter;
+
 #
 === Nachtbus
 N1;bus;;Schlossplatz;Schlossplatz;
@@ -522,6 +537,7 @@ N77;bus;;Gärtringen;Gärtringen;
 N80;bus;;Herrenberg;Tübingen;
 N81;bus;;Wendlingen;Neckarhausen;
 N92;bus;;Filderstadt;Bernhausen Bf;
+
 #
 === Schulbus
 75E;bus;Schülerverkehr Interimsvergabe;Filderstadt/Aichtal;Filderstadt/Aichtal;
@@ -563,6 +579,7 @@ N92;bus;;Filderstadt;Bernhausen Bf;
 634A;bus;Schülerverkehr;Rutesheim;Weissach;
 653A;bus;;Rutesheim;Leonberg;
 655A;bus;;Rutesheim Schulzentrum;Rutesheim Bahnhof;
+728A;bus;;Diezenhalde;Tannenberg;
 761A;bus;;Weil im Schönbuch;Sindelfingen;
 763A;bus;;Schülerverkehr Calw;Böblingen;
 816A;bus;Schülerverkehr;Bonlanden;Neuhausen;
@@ -575,8 +592,8 @@ N92;bus;;Filderstadt;Bernhausen Bf;
 #
 = Linien mit Bezug zum VVS
 == Teilstrecken im VVS
-=== S-Bahn
-S5;train;;;;Albtal-Verkehrs-Gesellschaft mbH;DB Regio
+# === S-Bahn
+# S5;train;;;;Albtal-Verkehrs-Gesellschaft mbH;DB Regio
 #
 === Regional-Bahn
 IRE 1;train;;Aalen;Karlsruhe;
@@ -585,6 +602,7 @@ RE 17B;train;;Heidelberg;Stuttgart;
 RB 10;train;;Heilbronn;Stuttgart;
 RB13;train;;Crailsheim;Stuttgart;
 RB 17A;train;;Pforzheim;Stuttgart;
+RB 17C;train;;Bruchsal;Stuttgart;
 RB 18;train;;Osterburken;Stuttgart;
 R1;train;;Ulm;Stuttgart;
 R7;train;;Stuttgart;Horb/Freudenstadt;

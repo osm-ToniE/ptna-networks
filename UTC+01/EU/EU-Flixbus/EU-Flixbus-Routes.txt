@@ -574,6 +574,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 859;bus;;Prag;Bratislava;FlixMobility GmbH
 861;bus;;Prag;Venedig;FlixMobility GmbH
 864;bus;;München;Zlín;FlixMobility GmbH
+876;bus;;Krakau;Zagreb;FlixMobility GmbH
 895;bus;;Zagreb;Brünn;FlixMobility GmbH
 897;bus;;Zagreb;Varaždin;FlixMobility GmbH
 
@@ -1290,7 +1291,9 @@ N1362;bus;;Stettin;Zakopane;FlixMobility GmbH
 N1365;bus;;Berlin;Zakopane;FlixMobility GmbH
 N1376;bus;;Kopenhagen;Krakau;FlixMobility GmbH
 N1380;bus;;Prag;Gdingen;FlixMobility GmbH
+N1381;bus;;Berlin;Danzig;FlixMobility GmbH
 N1385;bus;;Berlin;Olstyn;FlixMobility GmbH
+N1390;bus;;Gdingen;Zakopane;FlixMobility GmbH
 N1392;bus;;Posen;Ustrzyki Górne;FlixMobility GmbH
 N1395;bus;;Wien;Gdingen;FlixMobility GmbH
 

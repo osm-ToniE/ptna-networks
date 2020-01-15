@@ -167,7 +167,7 @@ R3;train;;Nürnberg Hbf;Neuhaus;DB Regio AG Bayern
 #R3;train;Remsbahn;Nürnberg;Stuttgart;DB Regio AG
 R3;train;;Ulm;Donaueschingen;DB Regio
 R4;train;Allgäu-Franken-Express;Augsburg;Otting-Weilheim;DB Regio AG Bayern
-R4;train;;Nürnberg Hauptbahnhof;Amberg;DB Regio AG Bayern
+R4;train;;Nürnberg Hauptbahnhof;Amberg;DB Regio AG - Regio Bayern
 #"R85;R 4";train;;Stuttgart;Würzburg;DB Regio
 #R5;train;;Pforzheim;Stuttgart Hbf;
 R5;train;;Nürnberg;Parsberg;
@@ -184,7 +184,7 @@ R9;train;;Nürnberg;Allersberg (Rothsee);
 ==== R11 .. R20
 
 R11;train;;Augsburg;Schmiechen;
-R11;train;Rangaubahn;Fürth;Cadolzburg;DB Regio Mittelfranken
+R11;train;Rangaubahn;Fürth;Cadolzburg;DB Regio AG - Regio Bayern
 R12;train;;Fürth;Markt Erlbach;DB Regio Mittelfranken
 R15;train;;Bamberg;Haßfurt;DB
 
@@ -246,12 +246,12 @@ R99;train;Klosterstadtexpress;;;Deutsche Bahn
 ==== RB
 
 RB;train;;Lauda;Wertheim;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
-RB;train;;Bad Mergentheim;Würzburg;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
+#RB;train;;Bad Mergentheim;Würzburg;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
 RB;train;;Seckach;Miltenberg;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
 RB;train;;Aschaffenburg;Miltenberg;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
 RB;train;;Wertheim;Miltenberg;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
 #RB;train;;Osterburken|Neckarsulm|Mosbach-Neckarelz|Heilbronn Hauptbahnhof;Stuttgart Hauptbahnhof|Bad Friedrichshall Hauptbahnhof;DB Regio
-RB;train;;Osterburken|Bad Mergentheim;Würzburg Hauptbahnhof;DB RegioNetz Verkehrs GmbH;Westfrankenbahn
+RB;train;;Osterburken;Würzburg Hauptbahnhof;DB Regio AG Bayern
 RB;train;;Öhringen Hauptbahnhof;Schwäbisch Hall-Hessental;WestFrankenBahn
 RB;train;Trireno RB;Basel;Lauchringen;DB
 
@@ -411,7 +411,7 @@ RB49;train;;Gießen;Hanau;DB Regio
 RB49;train;;Ludwigshafen BASF;Wörth|Kaiserslautern;DB Regio Rhein-Neckar
 RB49;train;;Falkenberg (Elster);Cottbus, Hauptbahnhof;DB Regio Südost
 RB50;train;Der Lüner;Dortmund;Münster;Eurobahn
-RB50;train;;Dessau;Aschersleben;DB Regio Südost
+RB 50;train;;Dessau;Aschersleben;DB Regio Südost
 
 ==== RB51 .. RB60
 

@@ -68,14 +68,24 @@
 2062;bus;;San Francisco;Sacramento/Reno;
 2064;bus;;San Francisco;Reno;
 2100;bus;;Tucson;Las Vegas/Flagstaff;
+2110;bus;;Seattle;Eugene;
+2120;bus;;Portland;Spokane;
 2201;bus;;Los Angeles;Tucson;
 2203;bus;;El Paso;Phoenix;
 2211;bus;;New Orleans;San Antonio;
+2221;bus;;Dallas;New Orleans;
 2230;bus;;San Antonio;Dallas/Fort Worth;
 2240;bus;;Houston;Dallas/Fort Worth;
+2244;bus;;Dallas;Tulsa;
 2270;bus;;Austin;Pasadena;
+2411;bus;;Fort Lauderdale;Orlando;
+2412;bus;;Tallahasee;Orlando;
+2450;bus;;New Orleans;Atlanta;
 2600;bus;;Washington D.C/Rockville;New York;
 2601;bus;;Washington D.C/Richmond;New York;
+2602;bus;;Philadelphia;New York;
+2610;bus;;Boston;New York;
+2668;bus;;Columbus;Washington D.C.;
 N2003;bus;;San Diego;Vallejo;
 N2006;bus;;San Francisco;Los Angeles/Reno;
 N2008;bus;;San Francisco;Las Vegas;
@@ -87,6 +97,8 @@ N2203;bus;;Los Angeles; El Paso;
 N2201;bus;;Los Angeles;Tucson;
 N2210;bus;;New Orleans;San Antonio;
 N2221;bus;;Biloxi;Fort Worth;
+N2610;bus;;Boston;Washington D.C.;
+K26;bus;;San Francisco;Yosemite National Park;Gray Line of San Francisco
 </pre>
 
 [[Category:Bus routes in the United States]]

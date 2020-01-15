@@ -318,6 +318,7 @@ SB82;bus;;Kall;Vogelsang;RVK
 191;bus;Quelle gtfs;Köln, Ostheim;Köln, Ostheim Bertha-Benz-Karree;KVB Kölner Verkehrs-Betriebe AG
 192;bus;Quelle gtfs;Köln, Meschenich Kirche;Hürth, Kalscheuren Bf;KVB Kölner Verkehrs-Betriebe AG
 193;bus;Quelle gtfs;Köln, Kalk Corintostr.;Köln, Vingst;KVB Kölner Verkehrs-Betriebe AG
+194;bus;Taxibus;Köln, Poll Salmstraße;Köln, In der Kreuzau;KVB
 195;bus;neu zum 15.12.2019 übernimmt Streckenabschnitt von Bus 159;Köln, Buchheim Herler Str.;Köln, Kochwiesenstr;KVB
 196;bus;Quelle gtfs;Köln, Deutz Bf Deutz / Messe  LANXESS arena;Köln, Humboldt/Gremberg Am Grauen Stein;KVB Kölner Verkehrs-Betriebe AG
 

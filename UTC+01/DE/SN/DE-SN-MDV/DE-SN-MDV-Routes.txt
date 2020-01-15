@@ -359,13 +359,16 @@ SEV8;bus;;;;
 301;bus;;;;
 302;bus;;;;
 303;bus;;;;
+306;bus;;;;
 314;bus;;;;
 325;bus;;;;
 351;bus;;;;
 352;bus;;;;
-353;bus;;;;
+353;bus;;;;OBS
+353;bus;;;;ThüSac / RVG
 356;bus;;;;
-358;bus;;;;
+358;bus;;;;OBS
+358;bus;;;;ThüSac
 
 === Busse 401 - 481
 
@@ -382,12 +385,15 @@ SEV8;bus;;;;
 606;bus;;;;
 610;bus;;;;
 613;bus;;;;
+614;bus;;;;
 615;bus;;;;
 616;bus;;;;
+617;bus;;;;
 618;bus;;;;
-620;bus;;;;
-621a;bus;;;;
-621b;bus;;;;
+620;bus;;;;PVG Burgenlandkreis
+620;bus;;;;Regionalbus Leipzig GmbH
+621;bus;;;;PVG Burgenlandkreis
+621;bus;;;;Regionalbus Leipzig GmbH
 623;bus;;;;
 628;bus;;;;
 631;bus;;;;
