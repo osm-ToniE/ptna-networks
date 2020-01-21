@@ -12,7 +12,7 @@ NETWORK_SHORT="VHB"
 
 ANALYSIS_PAGE=""
 ANALYSIS_TALK=""
-WIKI_ROUTES_PAGE=""
+WIKI_ROUTES_PAGE="Verkehrsverbund_Hegau-Bodensee/Analyse/DE-BW-VHB-Routes"
 
 ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
@@ -48,5 +48,5 @@ PTNA_WWW_DISCUSSION_LINK="" #https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 
 # column 7 Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
 PTNA_WWW_ROUTES_NAME="VHB Linien"
-PTNA_WWW_ROUTES_LINK="" # https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
+PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
 
