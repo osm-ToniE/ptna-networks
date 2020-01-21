@@ -7,7 +7,7 @@
 PREFIX="DE-BW-VHB"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level=6][name='Landkreis Konstanz'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="Verkehrsverbund Hegau-Bodensee"
+NETWORK_LONG="Verkehrsverbund Hegau-Bodensee|Verkehrsverbund Hegau Bodensee|VHB Verkehrsverbund Hegau-Bodensee|VHB Verkehrsverbund Hegau Bodensee"
 NETWORK_SHORT="VHB"
 
 ANALYSIS_PAGE=""
