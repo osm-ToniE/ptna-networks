@@ -43,8 +43,8 @@
 
 = Überblick über die ÖPNV-Linien des "Regio-Verkehrsverbund Freiburg"
 
-- Verweis auf die Datei mit den [[Hamburger_Verkehrsverbund/Analyse/DE-HH-HVV-Routes|RVF Linien]] im Wiki.
-- Verweis auf mehr [[Talk:Hamburger_Verkehrsverbund/Analyse|Informationen]] im Wiki.
+- Verweis auf die Datei mit den [[Regio-Verkehrsverbund_Freiburg/Analyse/DE-HH-HVV-Routes|RVF Linien]] im Wiki.
+- Verweis auf mehr [[Talk:Regio-Verkehrsverbund_Freiburg/Analyse|Informationen]] im Wiki.
 
 == Hinweis
 
