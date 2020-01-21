@@ -43,8 +43,8 @@
 
 = Überblick über die ÖPNV-Linien des "Verkehrsverbund Hegau-Bodensee"
 
-# - Verweis auf die Datei mit den [[...|VHB Linien]] im Wiki.
-# - Verweis auf mehr [[...|Informationen]] im Wiki.
+- Verweis auf die Datei mit den [[Verkehrsverbund_Hegau-Bodensee/Analyse/DE-BW-VHB-Routes|VHB Linien]] im Wiki.
+- Verweis auf mehr [[Talk:Verkehrsverbund_Hegau-Bodensee/Analyse|Informationen]] im Wiki (in Vorbereitung).
 
 == Hinweis
 
@@ -54,12 +54,20 @@
 -
 - * "VHB"                             short form, oder
 -
-- * "Verkehrsverbund Hegau-Bodensee"  long form, oder
+- * "Verkehrsverbund Hegau-Bodensee"  korrekte long form, oder
+-
+- * "Verkehrsverbund Hegau Bodensee"  - nicht korrekt, sollte geändert werden
+-
+- * "VBH Verkehrsverbund Hegau-Bodensee"  - nicht korrekt, sollte geändert werden
+-
+- * "VHB Verkehrsverbund Hegau Bodensee"  - nicht korrekt, sollte geändert werden
 -
 - * leer, d.h. nicht gesetzt
 -
 #
 #ref;type;comment;from;to;operator
+
+== Regionalexpress
 
 
 </pre>
