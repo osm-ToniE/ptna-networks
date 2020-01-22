@@ -52,22 +52,48 @@
 -
 - Bei der Analyse ist 'network' derzeit entweder
 -
-- * "VHB"                             short form, oder
+- * "VHB"                             Kurzform, oder
 -
-- * "Verkehrsverbund Hegau-Bodensee"  korrekte long form, oder
--
-- * "Verkehrsverbund Hegau Bodensee"  - nicht korrekt, sollte geändert werden
--
-- * "VBH Verkehrsverbund Hegau-Bodensee"  - nicht korrekt, sollte geändert werden
--
-- * "VHB Verkehrsverbund Hegau Bodensee"  - nicht korrekt, sollte geändert werden
+- * "Verkehrsverbund Hegau-Bodensee"  korrekte Langform
 -
 - * leer, d.h. nicht gesetzt
+-
 -
 #
 #ref;type;comment;from;to;operator
 
 == Regionalexpress
 
+RE2;train;Schwarzwaldbahn;Karlsruhe Hbf;Konstanz;DB Regio
+Seehas;train;;Konstanz;Engen;SBB GmbH
+Seehäsle;train;;Radolfzell;Stockach;HZL
+730;train;Hochrheinbahn;Basel;Singen;DB
+731;train;Bodenseegürtelbahn;Radolfzell;Lindau;DB
+732;train;Hegau-Ablachtal-Bahn;Radolfzell;Mengen;
+739;train;;Lindau;Basel;DB
+-
 
+== Busse
+
+=== Konstanz
+
+"4/13;13/4|4/13|13/4";bus;;Bahnhof;Marktstätte / Bahnhof;Stadtwerke Konstanz	
+6;bus;;;;Stadtwerke Konstanz
+9|9A|9B|9C;bus;;Universität;Universität;Stadtwerke Konstanz
+11;bus;;Staad/Autofähre;Bahnhof Wollmatingen;Stadtwerke Konstanz
+12/3;bus;;Berchengebiet;Berchengebiet;Stadtwerke Konstanz
+-
+
+=== Radolfzell
+
+6;bus;;Radolfzell Bahnhof;Liggeringen Dorfmitte;Südbadenbus GmbH
+8;bus;;Radolfzell Bahnhof;Markelfingen Wildpark;Südbadenbus GmbH
+-
+
+=== Singen
+
+6;bus;;Bahnhof/Karstadt;Berliner Platz;Stadtwerke Singen
+9;bus;;Schlatt Im Brand;Bahnhof/Karstadt;Stadtwerke Singen
+10;bus;;Bahnhof;Friedhof / B 34;Stadtwerke Singen
+-
 </pre>

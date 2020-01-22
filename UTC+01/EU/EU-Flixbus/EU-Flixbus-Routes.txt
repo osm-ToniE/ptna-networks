@@ -319,7 +319,7 @@ Westbahn K485;train;;Wien;Salzburg;ÖBB
 441;bus;Seit 18.04.2018 nicht mehr buchbar, wurde eingestellt.;Ancona;Lecce;FlixMobility GmbH
 442;bus;Seit 30.09.2018 nicht mehr buchbar, wurde eingestellt.;Taranto;Pisa;FlixMobility GmbH
 443;bus;;Siena;Lecce;FlixMobility GmbH
-448;bus;;Nizza;Bologna;FlixMobility GmbH
+448;bus;Linie wurde eingstellt;Nizza;Bologna;FlixMobility GmbH
 450;bus;Seit 07.10.2018 nicht mehr buchbar, wurde eingestellt.;München;Tori del Benaco;FlixMobility GmbH
 451;bus;Saisonbus von Mai bis Oktober;München;Sirmione;FlixMobility GmbH
 452;bus;Seit 21.11.2017 nicht mehr buchbar, wurde eingestellt.;München;Livorno;FlixMobility GmbH
@@ -856,14 +856,15 @@ EL360;bus;;Paris;Antwerpen/Lüttich;Eurolines/Isiline
 EL400;bus;;Paris;Amsterdam;Eurolines/Isiline
 EL410;bus;;Paris;Bologna;Eurolines/Isiline
 EL450;bus;;Paris;London;Eurolines/Isiline
+EL460;bus;;Frankfurt(Main);Barcelona;Eurolines/Isiline
 EL550;bus;;Paris;Berlin;Eurolines/Isiline
 EL555;bus;;Berlin;Rotterdam;Eurolines
 EL700;bus;;Lyon;Prag;Eurolines
 EL750;bus;;Paris;Prag;Eurolines
 EL890;bus;;Amsterdam;Verona;Eurolines
-K188;bus;;Basel Airport;Lugano;Eurobus
-K188/E03;bus;;Zürich Flughafen;Basel;Eurobus
-K288/E02;bus;;Zürich Flughafen;Montreux;Eurobus
+K188;bus;Linie wurde vorerst eingestellt;Basel Airport;Lugano;Eurobus
+K188/E03;bus;Linie wurde vorerst eingestellt;Zürich Flughafen;Basel;Eurobus
+K288/E02;bus;Linie wurde vorerst eingestellt;Zürich Flughafen;Montreux;Eurobus
 K318;bus;;Warschau;Bialystock;ŹakExpress
 K319;bus;;Prag;Minsk;VisitTour
 K320;bus;;Warschau;Minsk;BayerTrans
@@ -874,7 +875,7 @@ K330;bus;;Mestre;Venedig Flughafen Marco Polo;ATVO Airport Shuttle
 K332;bus;;Fiera Milano City;Mailand Flughafen Malpensa;Malpensa Shuttle
 K358;bus;;Bergamo Flughafen;Mailand Flughafen Malpensa;Orio Shuttle
 K380;bus;;Breslau Flughafen;Breslau Busbahnhof;Polbus-PKS sp.z o.o.
-K388/E01;bus;;Genf Flughafen;St. Gallen;Eurobus
+K388/E01;bus;Linie wurde vorerst eingestellt;Genf Flughafen;St. Gallen;Eurobus
 K412;bus;;Cortina d'Ampezzo;Mestre;Cortina Express
 K471;bus;Seit 31.12.2017 nicht mehr so buchbar, wurde in 162 umbenannt.;Wien;Klagenfurt;Blaguss Reisen GmbH
 K472;bus;;Wien Erdberg;Wien Flughafen Schwechat;Blaguss Reisen GmbH
@@ -914,6 +915,7 @@ K815;bus;;Prag;Banská Bystrica;Turancar
 K816;bus;;Košice;Vieste;Turancar
 K832;bus;;Amsterdam;Eindhoven Flughafen;AirExpressBus
 K845;bus;;Wien Meidling;Sarajevo;
+K903;bus;;Belgrad;Montpellier;Sp Lasta
 K927;bus;;Zagreb;Zadar;Francuzević
 K928;bus;;Zagreb;Ilok;Francuzević
 K943;bus;;Sarajevo;Pula;Babić
@@ -1280,7 +1282,7 @@ N1293;bus;;Breslau;Budapest;FlixMobility GmbH
 N1300;bus;;Warschau;Prag;FlixMobility GmbH
 N1304;bus;;München;Warschau;FlixMobility GmbH
 N1305;bus;;Warschau;Paris;FlixMobility GmbH
-N1310;bus;;Jastrzębie-Zdrój;Medyka;FlixMobility GmbH
+N1310;bus;;Rotterdam;Medyka;FlixMobility GmbH
 N1311;bus;;Gdingen;Budapest;FlixMobility GmbH
 N1320;bus;;Warschau;Bonn;FlixMobility GmbH
 N1321;bus;;Berlin;Warschau;FlixMobility GmbH

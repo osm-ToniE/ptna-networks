@@ -383,6 +383,9 @@ SEV8;bus;;;;
 
 604;bus;;;;
 606;bus;;;;
+608;bus;;;;PVG Burgenlandkreis
+608;bus;;;;Regionalbus Leipzig GmbH
+609;bus;;;;
 610;bus;;;;
 613;bus;;;;
 614;bus;;;;
@@ -394,9 +397,12 @@ SEV8;bus;;;;
 620;bus;;;;Regionalbus Leipzig GmbH
 621;bus;;;;PVG Burgenlandkreis
 621;bus;;;;Regionalbus Leipzig GmbH
+622;bus;;;;PVG Burgenlandkreis
+622;bus;;;;Regionalbus Leipzig GmbH
 623;bus;;;;
 628;bus;;;;
 631;bus;;;;
+633;bus;;;;
 655;bus;;;;
 676;bus;;;;
 

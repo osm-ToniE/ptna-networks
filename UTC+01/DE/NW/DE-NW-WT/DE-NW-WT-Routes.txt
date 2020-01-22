@@ -523,6 +523,9 @@ X15;bus;;;;Regionalverkehr Münsterland GmbH
 
 B1;bus;;Hoetmar;Everswinkel;Bürgerbusverein Hoetmar;Regionalverkehr Münsterland GmbH
 B2;bus;;Hoetmar;Sendenhorst;Bürgerbusverein Hoetmar;Regionalverkehr Münsterland GmbH
+B6;bus;;Warendorf;Warendorf;Bürgerbus Warendorf-Süd;Regionalverkehr Münsterland GmbH
+B7;bus;;Warendorf;Warendorf;Bürgerbus Warendorf-Süd;Regionalverkehr Münsterland GmbH
+B8;bus;;Warendorf;Warendorf;Bürgerbus Warendorf-Süd;Regionalverkehr Münsterland GmbH
 
 C1;bus;;Ahlen;Ahlen;Verkehrsgesellschaft Ahlen mbH
 C2;bus;;Ahlen;Ahlen;Verkehrsgesellschaft Ahlen mbH
@@ -1356,6 +1359,7 @@ S6;bus;Stadtbus Herford;;;BVO Busverkehr Ostwestfalen GmbH
 790;bus;;Detmold;Lemgo;go.on Gesellschaft für Bus- und Schienenverkehr mbH
 792;bus;Naturparkbus;Detmold;Bad Pyrmont;Karl Köhne Omnibusbetriebe GmbH
 794;bus;;;;Karl Köhne Omnibusbetriebe GmbH
+800;bus;;;;Karl Köhne Omnibusbetriebe GmbH
 801;bus;;Bösingfeld;Rinteln;Karl Köhne Omnibusbetriebe GmbH
 802;bus;;Bösingfeld;Lemgo;Karl Köhne Omnibusbetriebe GmbH
 803;bus;;;;Karl Köhne Omnibusbetriebe GmbH
@@ -1996,8 +2000,8 @@ T661;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
 49;bus;;;;Märkische Verkehrsgesellschaft GmbH
 51;bus;;;;Märkische Verkehrsgesellschaft GmbH
 52;bus;;;;Märkische Verkehrsgesellschaft GmbH
-54;bus;;;;Märkische Verkehrsgesellschaft GmbH
 53;bus;;;;Märkische Verkehrsgesellschaft GmbH
+54;bus;;;;Märkische Verkehrsgesellschaft GmbH
 55;bus;;;;Märkische Verkehrsgesellschaft GmbH
 56;bus;;;;Märkische Verkehrsgesellschaft GmbH
 57;bus;;;;Märkische Verkehrsgesellschaft GmbH
@@ -2032,6 +2036,7 @@ T661;bus;;;;Regionalverkehr Ruhr-Lippe GmbH
 95;bus;;Meinerzhagen;Meinerzhagen;Märkische Verkehrsgesellschaft GmbH
 98;bus;;;;Märkische Verkehrsgesellschaft GmbH
 99;bus;;Brake;Kierspe;Märkische Verkehrsgesellschaft GmbH
+130;bus;;;;WB Westfalen Bus GmbH
 132;bus;;Neuenrade, Bahnhof|Balve, Höveringhausen|Balve, Schulzentrum|Garbeck, Schulstraße;Fröndenberg, Bahnhof P+R|Menden, Bahnhof|Menden, Nordwall;WB Westfalen Bus GmbH
 134;bus;;;;WB Westfalen Bus GmbH
 137;bus;;Balve;Volkringhausen;WB Westfalen Bus GmbH
@@ -2237,7 +2242,6 @@ NE18;bus;;;;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
 
 R20;bus;;Paderborn;Hövelhof;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
 R31;bus;;Neuenbeken;Willebadessen;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
-R32;bus;;Altenbeken;Bad Lippspringe;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
 R45;bus;;Paderborn;Delbrück;BVO Busverkehr Ostwestfalen GmbH
 R50;bus;;Paderborn;Schlangen;go.on - Gesellschaft für Bus- und Schienenverkehr mbH
 R51;bus;;Paderborn;Horn;go.on - Gesellschaft für Bus- und Schienenverkehr mbH

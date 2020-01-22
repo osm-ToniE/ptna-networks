@@ -47,8 +47,11 @@
 
 == Busse
 
+=== 3xx
+374;bus;;Penzberg;Wolfratshausen S;Regionalverkehr Obb.
+
 === 8xx
-825;bus;Oberteisendorf - Teisendorf - Saaldorf - Laufen
+#825;bus;Oberteisendorf - Teisendorf - Saaldorf - Laufen
 828;bus;Bad Reichenhall - Unterjettenberg - Melleck Ortsmitte
 829;bus;Bad Reichenhall - Anger - Teisendorf - Rückstetten
 836;bus;Berchtesgaden - Marktschellenberg - Freilassing
@@ -67,14 +70,15 @@
 852;bus;Freilassing - Saaldorf - Surheim - Laufen
 853;bus;Freilassing - Surheim - Saaldorf - Schign
 
-=== 2xxx
-2883;bus;FVO Turnbus Schongau
+#=== 2xxx
+#2883;bus;FVO Turnbus Schongau
 
 === 4xxx
 #4317;bus;gehört zum VVT;Seefeld i. T. - Weidach - Unterleutasch - Mittenwald
 #4327;bus;gehört zum VVT;Mittenwald - Scharnitz - Seefeld i. T. - Reith b. S. - Leithen
 4420;bus;Skibus Lenggries
-4608;bus;Mittenwald - Klais - Krün - Wallgau 
+4608;bus;Mittenwald - Klais - Krün - Wallgau
+4609;bus;Werksverkehr Roche - nur für Mitarbeiter
 4610;bus;München - Penzberg
 4860;bus;Skibus Spitzingsee
 
@@ -90,6 +94,10 @@
 
 === 90xx
 9001;bus;Ortsverkehr Holzkirchen, Linie 1 - 6
+
+=== 91xx
+9142;bus;Traunstein - Traunreut
+9150;bus;Trostberg - Waldhausen
 
 === 92xx
 9242;bus;;Trostberg;Traunreut;RVO
@@ -121,6 +129,7 @@
 9425;bus;Ortsbus Bad Endorf
 9427;bus;Bad Endorf - Höslwang - Pelham - Bad Endorf
 9428;bus;Rufbus Wasserburg
+9429;bus;Ortsbus Bernau
 9434;bus;Stadtbus Trostberg;Wäschhausen;Eglsee;RVO
 9436;bus;Palling - Waging
 9437;bus;Traunreut - Kirchweidach
@@ -132,9 +141,9 @@
 9443;bus;Stadtverkehr Traunstein
 9444;bus;Traunstein - Peterskirchen
 9445;bus;Seeon - Truchtlaching
-9446;bus;Rufbus Traunstein
+#9446;bus;Rufbus Traunstein
 9449;bus;Citybus Traunreut - Traunwalchen
-9455;bus;Vario-Bus des Landkreises Traunstein
+#9455;bus;Vario-Bus des Landkreises Traunstein
 9480;bus;Bürgerbus Amerang - Prien
 9490;bus;Rosenheim - Raubling - Neubeuern - Nußdorf - Windshausen
 9492;bus;Rosenheim - Prutting - Söchtenau - Halfing - Amerang
@@ -147,7 +156,7 @@
 9499;bus;(Riedering) Oberputting - Söllhuben - Zacking - Prien
 
 === 95xx
-9501;bus;Ortsbus Reit im Winkl
+#9501;bus;Ortsbus Reit im Winkl
 9502;bus;Sachrang - Aschau (Chiemgau) - Bernau - Felden
 9504;bus;Wanderbus Reit im Winkl / Unterwössen
 9505;bus;Reit im Winkl - Prien
@@ -161,16 +170,17 @@
 9513;bus;Traunreut - Chieming
 9514;bus;Traunstein - Bergen
 9515;bus;Traunstein - Teisendorf - Freilassing
-9516;bus;Ising Kapelle - Bad Endorf
+#9516;bus;Ising Kapelle - Bad Endorf
 9518;bus;Traunstein - Tittmoning (-Burghausen)
 9519;bus;(Traunstein) - Laufen
 9520;bus;Traunstein - Prien
 9522;bus;Traunstein - Schnaitsee
 9523;bus;Kienberg - Seeon (Traunstein)
 9526;bus;Traunstein - Bad Reichenhall
-9531;bus;Oberwössen - Schleching - Rottau - Grassau - Übersee Dampfersteg und zurück
+#9531;bus;Oberwössen - Schleching - Rottau - Grassau - Übersee Dampfersteg und zurück
 9532;bus;Dorfbus: Meisenbach - Zell - Infang - Rauschbergbahn - Grashofstraße / Dorfbus: Brandner Straße/Maiergschwendt - Brand - Unternberg
-9535;bus;Reit im Winkl - Ruhpolding - Inzell - Bad Reichenhall - Salzburg
+9533;bus;Dorflinie Ruhpolding Linie A
+#9535;bus;Reit im Winkl - Ruhpolding - Inzell - Bad Reichenhall - Salzburg
 9550;bus;Tegernsee - Rottach-Egern - Kreuth - Achenkirch - Maurach - Pertisau
 9551;bus;Tegernsee - Rottach-Egern - Bad Wiessee - Gmund - München
 9552;bus;Ringlinie Miesbach - Fischbachau - Schliersee - Miesbach
@@ -187,6 +197,7 @@
 9562;bus;Schliersee - Neuhaus - Spitzingsee
 9563;bus;Kleinhöhenkirchen - Weyarn - Wattersdorf - Miesbach
 9564;bus;Bad Tölz - Wackersberg - Arzbach - Lenggries
+9564a;bus;Lenggries Bahnhof - Brauneckbahn
 9565;bus;Bad Tölz, Stadtbus 2: Bahnhof - Flinthöhe - Karwendelsiedlung - ZOB
 9566;bus;Gültig ab 10.12.17
 9567;bus;Holzkirchen - Warngau - Wall - Miesbach
@@ -200,12 +211,13 @@
 9575;bus;Bad Tölz, Stadtbus 3: Bahnhof - Friedhof - Farchet u.z.
 9577;bus;Rosenheim - Raubling - Brannenburg - Flintsbach - Kufstein
 9578;bus;Au - Bad Feilnbach - Raubling - Rosenheim
-9579;bus;Au - Bad Feilnbach - Raubling - Brannenburg
+#9579;bus;Au - Bad Feilnbach - Raubling - Brannenburg
 9580;bus;Bad Aibling - Au - Bad Feilnbach
 9581;bus;Aying - Feldkirchen - Bruckmühl - Götting - Bad Aibling
 9582;bus;Bad Aibling - Bruckmühl - Feldkirchen - Aying/Holzolling
 9585;bus;Bruckmühl - Oberholzham - Beyharting
-9586;bus;Rad- und Wanderbus Chiemseeringlinie
+#9586;bus;Rad- und Wanderbus Chiemseeringlinie
+9588;bus;Schliersee - Bayrischzell - Kufstein
 9591;bus;Bad Tölz - Bad Heilbrunn - Penzberg
 9595;bus;Lenggries - Jachenau und zurück
 
@@ -223,16 +235,18 @@
 9614;bus;Penzberg - Iffeldorf - Seeshaupt - Bernried - Tutzing
 9615/1A;bus;Penzberg, Stadtbus 1: Bahnhof - Heiglhof - Kirnberg
 9617;bus;Penzberg - Iffeldorf - Antdorf - Habach - Sindelsdorf - Penzberg
+9618;bus;Garmisch-Partenkirchen - Mittenwald - Wallgau
 9620;bus;Murnau - Riegsee - Aidling - Murnau
 9621;bus;Murnau - Seehausen - Grafenaschau
 9622;bus;Oberammergau - Ettal - Schloss Linderhof und zurück
 9625/2;bus;Penzberg, Stadtbus 2: Dittenried - Bahnhof - Freiheit - Maxkron
 9630;bus;Stadtverkehr Weilheim (alle Linien)
-9631;bus;Murnau - Obersöchering / Uffing - Eglfing
-9635/3;bus;Penzberg, Stadtbus 3: Bahnhof - Firma Roche - Neue Heimat
-9641;bus;Murnau - Seehausen - Uffing - Kirnberg
+#9631;bus;Murnau - Obersöchering / Uffing - Eglfing
+9631_9641;bus;Murnau - Obersöchering / Uffing - Eglfing - Kirnberg
+#9635/3;bus;Penzberg, Stadtbus 3: Bahnhof - Firma Roche - Neue Heimat
+#9641;bus;Murnau - Seehausen - Uffing - Kirnberg
 9645/4;bus;Penzberg, Stadtbus 4: Direktverbindungen Firma Roche
-9649_93;bus;Ortsbus Dießen - Obermühlhausen - Dettenhofen - Dettenschwang/Wengen - Dießen
+#9649_93;bus;Ortsbus Dießen - Obermühlhausen - Dettenhofen - Dettenschwang/Wengen - Dießen
 9650;bus;Weilheim - Raisting - Dießen - Utting
 9651;bus;Weilheim - Peißenberg - Böbing - Rottenbuch - Steingaden - Füssen
 9652;bus;Weilheim - Wessobrunn - Rott - Reichling - Issing - Pürgen - Landsberg
@@ -272,7 +286,7 @@
 9821;bus;Schongau - Bernbeuren - Lechbruck - Prem - Steingaden
 9822;bus;Schongau - Peiting - Rottenbuch - Echelsbacher Brücke - Steingaden
 9824;bus;Landsberg - Fuchstal - Denklingen - Schongau
-9834;bus;Landsberg - Fuchstal/Denklingen/Apfeldorf
+#9834;bus;Landsberg - Fuchstal/Denklingen/Apfeldorf
 
 === Casino Blitz
 Casino Blitz;bus;;München;Garmisch-Partenkirchen;

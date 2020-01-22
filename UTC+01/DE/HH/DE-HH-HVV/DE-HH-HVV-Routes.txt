@@ -458,7 +458,7 @@ X86;bus;;;;
 8780;bus;;;;Autokraft GmbH
 8781;bus;;;;Autokraft GmbH
 
-== Anruf-Sammel-Taxi
+=== Anruf-Sammel-Taxi
 8119;bus;;;;Autokraft GmbH
 8129;bus;;;;Autokraft GmbH
 8139;bus;;;;Autokraft GmbH
@@ -517,7 +517,7 @@ X86;bus;;;;
 8888;bus;;;;Autokraft GmbH
 8889;bus;;;;Autokraft GmbH
 
-== Anruf-Sammel-Taxi
+=== Anruf-Sammel-Taxi
 8749;bus;;;;Autokraft GmbH
 
 == Busverkehr im Landkreis Lüneburg / weitere Infos unter https://www.luenebus.de/
@@ -572,7 +572,7 @@ X86;bus;;;;
 5901;bus;;;;KVG Stade GmbH & Co. KG
 5931;bus;;;;KVG Stade GmbH & Co. KG
 
-== Schulbus Verkehr
+=== Schulbus Verkehr
 5112;bus;;;;KVG Stade GmbH & Co. KG
 5114;bus;;;;KVG Stade GmbH & Co. KG
 5120;bus;;;;KVG Stade GmbH & Co. KG
@@ -597,14 +597,14 @@ X86;bus;;;;
 5922;bus;;;;KVG Stade GmbH & Co. KG
 5925;bus;;;;KVG Stade GmbH & Co. KG
 
-== Mein RufMobil
+=== Mein RufMobil
 5151;bus;;;;KVG Stade GmbH & Co. KG
 5152;bus;;;;KVG Stade GmbH & Co. KG
 5101;bus;;Bleckede, Bahnhof;Walmsburg, Kateminer Straße	;KVG Stade GmbH & Co. KG
 5251;bus;;;;KVG Stade GmbH & Co. KG
 5451;bus;;;;KVG Stade GmbH & Co. KG
 
-== Anruf-Sammel-Mobil
+=== Anruf-Sammel-Mobil
 5801;bus;;;;KVG Stade GmbH & Co. KG
 5802;bus;;;;KVG Stade GmbH & Co. KG
 5803;bus;;;;KVG Stade GmbH & Co. KG
@@ -683,7 +683,7 @@ X86;bus;;;;
 6702;bus;;;;KVG Stade GmbH & Co. KG
 6920;bus;;;;KVG Stade GmbH & Co. KG
 
-== Schulbus Verkehr
+=== Schulbus Verkehr
 247;bus;;;;KVG Stade GmbH & Co. KG
 347;bus;;;;KVG Stade GmbH & Co. KG
 447;bus;;;;KVG Stade GmbH & Co. KG
@@ -782,7 +782,7 @@ X86;bus;;;;
 2719;bus;;;;KVG Stade GmbH & Co. KG
 2927;bus;Verkehrt nicht zum HVV-Tarif;;;KVG Stade GmbH & Co. KG
 
-== Schulbus Verkehr
+=== Schulbus Verkehr
 2011;bus;;;;KVG Stade GmbH & Co. KG
 2017;bus;;;;KVG Stade GmbH & Co. KG
 2018;bus;;;;KVG Stade GmbH & Co. KG

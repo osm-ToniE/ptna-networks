@@ -246,7 +246,7 @@ R99;train;Klosterstadtexpress;;;Deutsche Bahn
 ==== RB
 
 RB;train;;Lauda;Wertheim;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
-#RB;train;;Bad Mergentheim;Würzburg;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
+RB;train;;Würzburg;Bad Mergentheim;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
 RB;train;;Seckach;Miltenberg;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
 RB;train;;Aschaffenburg;Miltenberg;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
 RB;train;;Wertheim;Miltenberg;"DB RegioNetz Verkehrs GmbH;Westfrankenbahn"
@@ -417,9 +417,9 @@ RB 50;train;;Dessau;Aschersleben;DB Regio Südost
 
 RB51;train;Westmünsterland-Bahn;Dortmund;Enschede;DB Regio AG NRW
 RB51;train;;Brandenburg Hauptbahnhof;Rathenow;Ostdeutsche Eisenbahn Gesellschaft
-RB51;train;;Falkenberg;Dessau;DB Regio Südost
 RB51;train;Pfälzische Maximiliansbahn;Karslruhe;Neustadt (Weinstraße);DB Regio Mitte
 RB51;train;Kinzigtalbahn;Bad Soden-Salmünster;Frankfurt;DB Regio AG Mitte
+RB 51;train;;Falkenberg;Dessau;DB Regio Südost
 RB 51;train;;Heilbad Heiligenstadt;Nordhausen;Abellio Rail Mitteldeutschland GmbH
 RB52;train;;Wörth;Lauterburg;DB Regio SüdWest
 RB52;train;Rhönbahn;Fulda;Gersfeld (Rhön);Hessische Landesbahn
@@ -690,7 +690,7 @@ RE 31;train;;Magdeburg;Blankenburg;Abellio Rail
 
 RE 42;train;;Nürnberg:Leipzig;DB Regio Südost
 RE42;train;Niers-Haard-Express;Münster;Mönchengladbach;DB Regio AG NRW
-RE 45;train;;Erfurt;Meiningen;DB
+RE 45|STB 44;train;;Erfurt;Meiningen;DB
 RE49;train;;Wuppertal;Wesel;Abellio Rail NRW GmbH
 RE50;train;Kinzigtalbahn;Fulda;Frankfurt (Main);DB Regio AG Mitte
 RE50;train;;Hildesheim;Wolfsburg;Metronom
@@ -731,7 +731,7 @@ RE99;train;Main-Sieg-Express;Siegen;Frankfurt;Hessische Landesbahn GmbH
 
 ==== RE101 ...
 
-RE103;train;;Gera;Mehltheuer;DB
+RE103|EBx 13;train;;Gera;Mehltheuer;DB
 -
 
 === Regional-S (RS)
@@ -835,7 +835,7 @@ S31;train;;Ubstadt|Odenheim|Bruchsal|Forbach|Stettfeld;Freudenstadt|Schopfloch|K
 S31;light_rail;!gehört diese evtl. zum KVV und nicht zu 'Verkehrs-Gemeinschaft Landkreis Freudenstadt (VGF)'!;;;Deutsche Bahn
 S32;train;;Karlsruhe;Menzingen;Albtal-Verkehrs-Gesellschaft mbH
 S33;train;;Bruchsal;Germersheim;DB Regio Mitte
-S41;light_rail;;Heilbronn;Mosbach (Baden);Albtal-Verkehrs-Gesellschaft mbH
+S41;train;;Heilbronn;Mosbach (Baden);Albtal-Verkehrs-Gesellschaft mbH
 S42;train;;Bad Rappenau|Heilbronn;Sinsheim;Albtal-Verkehrs-Gesellschaft mbH
 S51;train;;Germersheim|Wörth;Karlsruhe Europaplatz|Karlsruhe Albtalbahnhof|Karlsruhe Kolpingplatz|Karlsruhe Hbf;Albtal-Verkehrs-Gesellschaft mbH
 S52;train;;Germersheim;Karlsruhe Albtalbahnhof|Karlsruhe Europaplatz|Karlsruhe Tullastraße|Karlsruhe Kronenplatz;Albtal-Verkehrs-Gesellschaft mbH
@@ -1013,10 +1013,10 @@ EB 26;train;;Kranichfeld;Weimar;Erfurter Bahn GmbH
 EB 27;train;Pfefferminzbahn;Buttstädt;Sömmerda;Erfurter Bahn GmbH
 EB 32;train;;;;
 EB 40;train;;;;
-EB 46;train;;;;
+EB 46|STB 46;train;;Erfurt;Ilmenau|Bf Rennsteig;Süd-Thüringen-Bahn GmbH
 EB 50;train;;;;
 EBx 12;train;;;;
-EBx 13;train;;;;
+#EBx 13;train;;;;
 EBFH 1;train;;;;
 EFW;train;;;;
 Ex6;train;;;;
@@ -1053,8 +1053,8 @@ SOEG;train;;;;
 STB 41;train;;;;
 STB 42;train;;;;
 STB 43;train;;Wernshausen;Suhl;Süd Thüringen Bahn GmbH
-STB 44;train;;;;
-STB 46;train;;Erfurt;Ilmenau|Bf Rennsteig;Süd-Thüringen-Bahn GmbH
+#STB 44;train;;;;
+#STB 46;train;;Erfurt;Ilmenau|Bf Rennsteig;Süd-Thüringen-Bahn GmbH
 STB 48;train;;;;
 STx 45;train;;Ilmenau;Erfurt;Süd-Thüringen-Bahn GmbH
 STx 50;train;;Meiningen;Erfurt;Südzhüringenbahn
@@ -1229,7 +1229,7 @@ KBS 831–867;train;;;;
 
 2980;train;;Herford;Himmighausen;DB Netz AG
 #4125;train;Ehem. Erftalbahn;;;
-9230 und 9231;train;Moerser Kreisbahn;;;Niederrheinische Verkehrsberiebe AG (NIAG)
+#9230 und 9231;train;Moerser Kreisbahn;;;Niederrheinische Verkehrsberiebe AG (NIAG)
 10007;train;Wangerooger Inselbahn;;;DB Fernverkehr AG Inselverkehr Wangerooge
 12426;train;;;;
 12737;train;;;;

@@ -251,9 +251,9 @@ SB82;bus;;Kall;Vogelsang;RVK
 
 104;bus;Quelle gtfs;Köln, Dünnwald Leuchterstr.;Köln, Mülheim Wiener Platz;KVB Kölner Verkehrs-Betriebe AG
 106;bus;Quelle gtfs;Köln, Marienburg Südpark;Köln, Heumarkt;KVB Kölner Verkehrs-Betriebe AG
-109;bus;Quelle gtfs;Köln, Sülz Hermeskeiler Platz;Köln, Lindenthal Universitätsstr.;KVB Kölner Verkehrs-Betriebe AG
+#109;bus;Schienenersatzverkehr aus gtfs;Köln, Sülz Hermeskeiler Platz;Köln, Lindenthal Universitätsstr.;KVB Kölner Verkehrs-Betriebe AG
 
-113;bus;Quelle gtfs;Köln, Braunsfeld Aachener Str./Gürtel;Köln, Ehrenfeld Venloer Str./Gürtel;KVB Kölner Verkehrs-Betriebe AG
+#113;bus;Schienenersatzverkehr aus gtfs;Köln, Braunsfeld Aachener Str./Gürtel;Köln, Ehrenfeld Venloer Str./Gürtel;KVB Kölner Verkehrs-Betriebe AG
 118;bus;Quelle gtfs;Hürth, Efferen;Köln, Sülz Universität;KVB Kölner Verkehrs-Betriebe AG
 
 120;bus;zum 15.12.2019 neue Haltestelle Alte Straße;Köln, Chorweiler;Köln, Roggendorf Further Str.;KVB Kölner Verkehrs-Betriebe AG
