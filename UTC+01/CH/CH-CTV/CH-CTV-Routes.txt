@@ -45,9 +45,9 @@
 
 = Overview on Public Transport of "mobilis" = "Communauté tarifaire vaudoise"
 
-- Link to a list of expected routes [[Switzerland:Public_Transport/mobilis/Analysis/CH-mobilis-Routes|mobilis lines]] in OSM Wiki.
+- Link to a list of expected routes [[Switzerland:Public_Transport/Mobilis/Analysis/CH-mobilis-Routes|mobilis lines]] in OSM Wiki.
 -
-- Link to more [[Talk:Switzerland:Public_Transport/mobilis/Analysis|information]] in OSM Wiki.
+- Link to more [[Talk:Switzerland:Public_Transport/Mobilis/Analysis|information]] in OSM Wiki.
 -
 - !!!This is currently an analysis of what can be found in OSM!!!
 
