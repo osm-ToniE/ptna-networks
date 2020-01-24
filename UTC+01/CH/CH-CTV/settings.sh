@@ -4,15 +4,15 @@
 # set variales for analysis of network
 #
 
-PREFIX="CH-mobilis"
+PREFIX="CH-CTV"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][wikidata~'^(Q12771)$'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="Communauté tarifaire vaudoise|mobilis"
+NETWORK_LONG="Communauté tarifaire vaudoise|mobilis|Mobilis"
 NETWORK_SHORT="CTV"
 
-ANALYSIS_PAGE="Switzerland:Public_Transport/mobilis/Analysis"
-ANALYSIS_TALK="Talk:Switzerland:Public_Transport/mobilis/Analysis"
-WIKI_ROUTES_PAGE="Switzerland:Public_Transport/mobilis/Analysis/CH-mobilis-Routes"
+ANALYSIS_PAGE="Switzerland:Public_Transport/Mobilis/Analysis"
+ANALYSIS_TALK="Talk:Switzerland:Public_Transport/Mobilis/Analysis"
+WIKI_ROUTES_PAGE="Switzerland:Public_Transport/Mobilis/Analysis/CH-mobilis-lignes"
 
 ANALYSIS_OPTIONS="--language=fr --max-error=10 --check-access --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
