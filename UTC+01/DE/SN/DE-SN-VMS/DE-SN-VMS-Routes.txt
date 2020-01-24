@@ -506,6 +506,105 @@ V-92;bus;Rodewisch - Lengenfeld - Stangengrün - Irfersgrün;;;GVG
 === Chemnitz
 S91;bus;TU Campus - Humboldtplatz;;;Chemnitzer Verkehrs-AG
 S92;bus;Klaffenbach - Einsiedel;;;Chemnitzer Verkehrs-AG
+=== Zwickau
+26;bus;Neuplanitz, Baikal - Ebersbrunn - Stenn - Lichtentanne;;;Städtische Verkehrsbetriebe Zwickau GmbH
+=== Erzgebirgskreis
+331;bus;Aue - Schwarzenberg - Markersbach;;;Regionalverkehr Erzgebirge GmbH
+333;bus;OT Langenberg - Raschau - Markersbach - Schwarzenberg;;;Regionalverkehr Erzgebirge GmbH
+335;bus;Erlabrunn - Breitenbrunn - Antonshöhe - Antonstal;;;Regionalverkehr Erzgebirge GmbH
+336;bus;Schwarzenberg - Johanngeorgenstadt;;;Regionalverkehr Erzgebirge GmbH
+337;bus;Schwarzenberg - Crandorf - Antonshöhe;;;Regionalverkehr Erzgebirge GmbH
+339;bus;Breitenbrunn - Rittersgrün - Pöhla - Raschau;;;Regionalverkehr Erzgebirge GmbH
+358;bus;Bockau - Schneeberg;;;Regionalverkehr Erzgebirge GmbH
+381;bus;Bernsbach - Lauter;;;Regionalverkehr Erzgebirge GmbH
+382;bus;Lauter - Schwarzenberg;;;Regionalverkehr Erzgebirge GmbH
+416;bus;Tannenberg - Schlettau - Dörfel - Hermannsdorf - Elterlein;;;Regionalverkehr Erzgebirge GmbH
+421;bus;Oberwiesenthal - Bärenstein - Sehma;;;Regionalverkehr Erzgebirge GmbH
+423;bus;Annaberg-Buchholz - Wiesa - Schönfeld - Neundorf - Ehrenfriedersdorf;;;Regionalverkehr Erzgebirge GmbH
+424;bus;Geyersdorf - Mildenau - Neugrumbach - Grumbach - Jöhstadt;;;Regionalverkehr Erzgebirge GmbH
+459;bus;Haselbach - Dörnthal - Pfaffroda - Sayda - Hallbach - Olbernhau;;;Regionalverkehr Erzgebirge GmbH
+496;bus;Wolkenstein - Großrückerswalde;;;Regionalverkehr Erzgebirge GmbH
+498;bus;Marienberg - Zöblitz - Sorgau - Olbernhau;;;Regionalverkehr Erzgebirge GmbH
+=== Landkreis Mittelsachsen
+601;bus;Auerswalde - Garnsdorf - Köthensdorf - Claußnitz - Taura - Burgstädt;;;REGIOBUS Mittelsachsen GmbH
+602;bus;Herrenhaide - Taura - Köthensdorf / Burgstädt;;;REGIOBUS Mittelsachsen GmbH
+603;bus;Arnsdorf - Dittersdorf - Böhrigen - Naundorf - Etzdorf - Marbach;;;REGIOBUS Mittelsachsen GmbH
+604;bus;Dreiwerden - Schönborn - Seifersbach - Hainichen;;;REGIOBUS Mittelsachsen GmbH
+605;bus;Burgstädt -Garnsdorf - Oberlichtenau - Niederlichtenau - Merzdorf - Ottendorf;;;REGIOBUS Mittelsachsen GmbH
+606;bus;Rochlitz - Schwarzbach - Königsfeld - Rochlitz;;;REGIOBUS Mittelsachsen GmbH
+607;bus;Penig - Niedersteinbach - Langenleuba-Oberhain - Narsdorf;;;REGIOBUS Mittelsachsen GmbH
+608;bus;Langenstriegis - Schönerstadt - Dittersbach - Frankenberg;;;REGIOBUS Mittelsachsen GmbH
+609;bus;Chursdorf - Tauscha - Penig;;;REGIOBUS Mittelsachsen GmbH
+610;bus;Rochlitz - Lastau - Sachsendorf - Rochlitz;;;REGIOBUS Mittelsachsen GmbH
+611;bus;Niederfrohna - Tauscha - Chursdorf - Burgstädt - Mohsdorf;;;REGIOBUS Mittelsachsen GmbH
+612;bus;Stein - Wiederau - Königshain - Röllingshain - Claußnitz;;;REGIOBUS Mittelsachsen GmbH
+613;bus;Milkau - Crossen - Schweikershain - Erlau;;;REGIOBUS Mittelsachsen GmbH
+614;bus;Taura - Köthensdorf - Garnsdorf - Ottendorf - Oberlichtenau - Auerswalde - B;;;REGIOBUS Mittelsachsen GmbH
+urgstädt
+615;bus;Merzdorf - Oberlichtenau - Niederlichtenau - Frankenberg;;;REGIOBUS Mittelsachsen GmbH
+617;bus;Langenleuba-Oberhain - Niedersteinbach - Penig;;;REGIOBUS Mittelsachsen GmbH
+620;bus;Kaltofen - Pappendorf - Mobendorf - Riechberg - (Eulendorf) - Cunnersdorf - Berthelsdorf - Hainichen - Frankenberg;;;REGIOBUS Mittelsachsen GmbH
+621;bus;Bruchheim - Narsdorf - Rathendorf - Rochlitz;;;REGIOBUS Mittelsachsen GmbH
+623;bus;Dolsenhain - Kohren-Sahlis - Obergräfenhain -Penig;;;REGIOBUS Mittelsachsen GmbH
+624;bus;Weinsdorf - Ringethal - Rossau - Seifersbach - Greifendorf - Grünlichtenberg;;;REGIOBUS Mittelsachsen GmbH
+627;bus;Wiederau - Göritzhain - Stein;;;REGIOBUS Mittelsachsen GmbH
+654;bus;Kaufungen - (Waldenburg) - Wolkenburg - Penig;;;REGIOBUS Mittelsachsen GmbH
+663;bus;Lunzenau - Rochsburg - Arnsdorf - Penig;;;REGIOBUS Mittelsachsen GmbH
+665;bus;Obergräfenhain - Langenleuba-Oberhain;;;REGIOBUS Mittelsachsen GmbH
+680;bus;Beerwalde - Tanneberg - Crossen - Milkau - Geringswalde;;;REGIOBUS Mittelsachsen GmbH
+692;bus;Hainichen - Berthelsdorf;;;REGIOBUS Mittelsachsen GmbH
+791;bus;Kleinbobritzsch - Frauenstein - Burkersdorf - Dittersbach - Nassau (- Oberbobritzsch - Lichtenberg);;;REGIOBUS Mittelsachsen GmbH
+792;bus;Neuhermsdorf - Seyde - Hermsdorf - Reichenau - Frauenstein;;;REGIOBUS Mittelsachsen GmbH
+793;bus;Niederseida - Obersaida - Mittelsaida;;;REGIOBUS Mittelsachsen GmbH
+794;bus;Forchheim - Niedersaida - Mittelsaida - Großhartmannsdorf - Brand-Erbisdorf;;;REGIOBUS Mittelsachsen GmbH
+796;bus;Langenau - Oberreichenbach - Gahlenz;;;REGIOBUS Mittelsachsen GmbH
+797;bus;Freiberg - Zug - (Brand-Erbisdorf -) St. Michaelis;;;REGIOBUS Mittelsachsen GmbH
+798;bus;Halsbrücke - (Krummenhennersdorf -) Tuttendorf - Conradsdorf - Falkenberg - Naundorf - Niederschöna;;;REGIOBUS Mittelsachsen GmbH
+845;bus;Choren - Mochau - Naußlitz - Roßwein;;;REGIOBUS Mittelsachsen GmbH
+846;bus;Ostrau - Zschaitz - Lüttewitz - Haßlau - Roßwein;;;REGIOBUS Mittelsachsen GmbH
+847;bus;Roßwein - Niederstriegis - Grunau - Otzdorf - Neudorf;;;REGIOBUS Mittelsachsen GmbH
+848;bus;Zschaitz - Ostrau - Stauchitz;;;REGIOBUS Mittelsachsen GmbH
+850;bus;(Kiebitz - Strocken -) Westewitz - Großweitzschen - Döbeln;;;REGIOBUS Mittelsachsen GmbH
+851;bus;Heyda - Otzdorf - Knobelsdorf - Neudorf (- Döbeln);;;REGIOBUS Mittelsachsen GmbH
+852;bus;Döbeln - (Niederforst - Ossig -) Choren - Wetterwitz;;;REGIOBUS Mittelsachsen GmbH
+853;bus;Zschaitz - Trebanitz - Beicha - Mochau;;;REGIOBUS Mittelsachsen GmbH
+854;bus;Theeschütz - Lüttewitz - Mochau;;;REGIOBUS Mittelsachsen GmbH
+855;bus;Döbeln - Hermsdorf - Oberranschütz - Döbeln (- Technitz);;;REGIOBUS Mittelsachsen GmbH
+856;bus;Hartha - Gersdorf - Leisnig;;;REGIOBUS Mittelsachsen GmbH
+857;bus;(Neudorf -) Steina - Diedenhain - Hartha;;;REGIOBUS Mittelsachsen GmbH
+858;bus;Langenau - Hausdorf - Erlbach - Wallbach - Hartha -Waldheim;;;REGIOBUS Mittelsachsen GmbH
+859;bus;(Neudorf -) Steina - Diedenhain - Hartha;;;REGIOBUS Mittelsachsen GmbH;;;REGIOBUS Mittelsachsen GmbH
+860;bus;Leisnig - (Meinitz - Altenhof - Klosterbuch -) Gadewitz;;;REGIOBUS Mittelsachsen GmbH
+861;bus;Gadewitz - Mockritz (- Großweitzschen);;;REGIOBUS Mittelsachsen GmbH
+862;bus;Hartha - Waldheim (- Meinsberg - Limmritz);;;REGIOBUS Mittelsachsen GmbH
+863;bus;Marschwitz - Polkenberg - Bockelwitz - Kleinpelsen - Sitten;;;REGIOBUS Mittelsachsen GmbH
+=== Landkreis Zwickau
+801;bus;Zwickau - Brand - Lichtentanne;;;Regionalverkehr Westsachsen GmbH
+802;bus;Zwickau, Planitz - Wilkau-Haßlau;;;Reisedienst Gerhardt Kaiser GmbH
+803;bus;Thurm - Schlunzig - Mosel - Crossen;;;stendalbus GmbH
+804;bus;Marienau - Ortmannsdorf - Mülsen - Reinsdorf - Wilkau-Haßlau;;;Regionalverkehr Westsachsen GmbH
+805;bus;Reinsdorf - Vielau;;;Regionalverkehr Westsachsen GmbH
+807;bus;Silberstraße - Wiesenburg - Reinsdorf - Hartenstein;;;Regionalverkehr Westsachsen GmbH
+808;bus;Thurm - Mülsen - Reinsdorf - Wilkau-Haßlau;;;Regionalverkehr Westsachsen GmbH
+809;bus;Grünau - Langenbach - Weißbach - Burkersdorf - Kirchberg;;;Regionalverkehr Westsachsen GmbH
+810;bus;Fraureuth - Kirchberg;;;Regionalverkehr Westsachsen GmbH
+812;bus;Steinpleis - Werdau - Langenhessen - Neukirchen -Crimmitschau;;;Regionalverkehr Westsachsen GmbH
+813;bus;Werdau - Königswalde - Langenhessen;;;Regionalverkehr Westsachsen GmbH
+814;bus;Schülerverkehr Crimmitschau;;;Regionalverkehr Westsachsen GmbH
+815;bus;Trünzig - Langenbernsdorf - Werdau;;;Regionalverkehr Westsachsen GmbH
+821;bus;Lobsdorf - Niederlungwitz - Glauchau;;;Regionalverkehr Westsachsen GmbH
+822;bus;Eberbach - Reinholdshain - Niederlungwitz - Glauchau;;;Regionalverkehr Westsachsen GmbH
+823;bus;Glauchau - Wernsdorf - Thurm - Rothenbach - Glauchau;;;Regionalverkehr Westsachsen GmbH
+825;bus;Waldenburg - Wickersdorf - Niederwiera - Oberwiera - Meerane;;;Regionalverkehr Westsachsen GmbH
+826;bus;Meerane - Pfaffroda;;;Regionalverkehr Westsachsen GmbH
+828;bus;Niederschindmaas - Dennheritz - Glauchau;;;Regionalverkehr Westsachsen GmbH
+829;bus;Waldenburg - Weidensdorf - Meerane - Glauchau;;;Regionalverkehr Westsachsen GmbH
+830;bus;Niederwinkel - Wolkenburg - Waldenburg;;;Regionalverkehr Westsachsen GmbH
+831;bus;Niederwinkel - Waldenburg;;;Regionalverkehr Westsachsen GmbH
+832;bus;Uhlsdorf - Wolkenburg - Waldenburg;;;Regionalverkehr Westsachsen GmbH
+836;bus;Waldenburg - Oberwiera - Remse;;;Regionalverkehr Westsachsen GmbH
+838;bus;Glauchau - Remse;;;Regionalverkehr Westsachsen GmbH
+840;bus;Wolkenburg - Kaufungen - Limbach-Oberfrohna;;;Regionalverkehr Westsachsen GmbH
 == Sonderverkehrsmittel
 Drahtseilbahn;funicular;Drahtseilbahn Augustusburg - Erdmannsdorf;;;VMS
 Fichtelbergbahn;train;Cranzahl - Kurort Oberwiesenthal;;;SDG

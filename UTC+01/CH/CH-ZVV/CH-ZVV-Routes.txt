@@ -2,7 +2,7 @@
 #
 # This data is input for the PTNA tool - Public Transport Network Analysis - https://ptna.openstreetmap.de
 #
-# Purpose: provides a list of existing Flixbus routes and compares this list with what we can find in OSM
+# Purpose: provides a list of existing public transport routes and compares this list with what we can find in OSM
 #
 # Format: format is like in the OSM Wiki
 #
@@ -27,7 +27,7 @@
 # Format of the file: UTF-8
 #
 #
-# Cotents in CSV-Format
+# Contents in CSV-Format
 #
 # ref;type;comment;from;to;operator
 #
@@ -51,5 +51,500 @@
 -
 - !!!This is currently an analysis of what can be found in OSM!!!
 
+== S-Bahn Zürich
+S2;train;;;;SBB
+S3;train;;;;SBB
+S4;train;;;;SZU
+S5;train;;;;SBB
+S6;train;;;;SBB
+S7;train;;;;SBB
+S8;train;;;;SBB
+S9;train;;;;SBB
+S10;train;;;;SZU
+S11;train;;;;SBB
+S12;train;;;;SBB
+S13;train;;;;SOB
+S14;train;;;;SBB
+S15;train;;;;SBB
+S16;train;;;;SBB
+S17;train;;;;AVA
+S17;light_rail;;;;AVA
+S18;train;;;;FB
+S18;light_rail;;;;FB
+S19;train;;;;SBB
+S20;train;;;;SBB
+S21;train;;;;SBB
+S24;train;;;;SBB
+S25;train;;;;SBB
+S26;train;;;;THURBO
+S29;train;;;;THURBO
+S30;train;;;;THURBO
+S33;train;;;;THURBO
+S35;train;;;;THURBO
+S36;train;;;;THURBO
+S40;train;;;;SOB
+S41;train;;;;THURBO
+S42;train;;;;SBB
+
+
+== Verkehrsbetriebe Zürich (VBZ)
+=== VBZ Stadtnetz Zürich (Tram)
+2;tram;;;;VBZ
+3;tram;;;;VBZ
+4;tram;;;;VBZ
+5;tram;;;;VBZ
+6;tram;;;;VBZ
+7;tram;;;;VBZ
+8;tram;;;;VBZ
+9;tram;;;;VBZ
+10;tram;;;;VBZ
+11;tram;;;;VBZ
+12;tram;;;;VBZ
+13;tram;;;;VBZ
+14;tram;;;;VBZ
+15;tram;;;;VBZ
+17;tram;Linie temporär aufgehoben;;;VBZ
+
+=== VBZ Stadtnetz Zürich (Trolleybus)
+31;trolleybus;;;;VBZ
+32;trolleybus;;;;VBZ
+33;trolleybus;;;;VBZ
+46;trolleybus;;;;VBZ
+72;trolleybus;;;;VBZ
+
+=== VBZ Stadtnetz Zürich (Autobus)
+35;bus;;;;VBZ
+37;bus;;;;VBZ
+38;bus;;;;VBZ
+39;bus;;;;VBZ
+40;bus;;;;VBZ
+61;bus;;;;VBZ
+62;bus;;;;VBZ
+64;bus;;;;VBZ
+66;bus;;;;VBZ
+67;bus;;;;VBZ
+69;bus;;;;VBZ
+70;bus;;;;VBZ
+73;bus;;;;VBZ
+75;bus;;;;VBZ
+76;bus;;;;VBZ
+77;bus;;;;VBZ
+78;bus;;;;VBZ
+79;bus;;;;VBZ
+80;bus;;;;VBZ
+83;bus;;;;VBZ
+89;bus;;;;VBZ
+94;bus;;;;VBZ
+
+=== VBZ Überlandnetz Unterer Zimmerberg
+161;bus;;;;VBZ
+162;bus;;;;VBZ
+163;bus;;;;VBZ
+165;bus;;;;VBZ
+184;bus;;;;VBZ
+185;bus;;;;VBZ
+
+=== VBZ Überlandnetz Limmattal
+301;bus;;;;VBZ
+302;bus;;;;VBZ
+303;bus;;;;VBZ
+304;bus;;;;VBZ
+305;bus;;;;VBZ
+306;bus;;;;VBZ
+307;bus;;;;VBZ
+308;bus;;;;VBZ
+309;bus;;;;VBZ
+311;bus;;;;VBZ
+314;bus;;;;VBZ
+# 315;bus;Schulbus;;;VBZ
+325;bus;;;;VBZ
+
+=== VBZ Überlandnetz Oberes Glattal
+701;bus;;;;VBZ
+703;bus;;;;VBZ
+704;bus;;;;VBZ
+705;bus;;;;VBZ
+743;bus;;;;VBZ
+744;bus;;;;VBZ
+745;bus;;;;VBZ
+751;bus;;;;VBZ
+
+=== VBZ Überlandnetz Unterer Pfannenstil
+91;bus;;;;VBZ
+910;bus;;;;VBZ
+912;bus;;;;VBZ
+916;bus;;;;VBZ
+918;bus;;;;VBZ
+919;bus;;;;VBZ
+
+=== VBZ-betreute Bergbahnen
+23;funicular;Seilbahn Rigiblick;;;VBZ
+24;funicular;Polybahn;;;VBZ
+25;train;Dolderbahn;;;Db
+
+
+== Stadtbus Winterthur (SBW)
+=== SBW Stadtnetz Winterthur
+1;trolleybus;;;;SBW
+2;trolleybus;;;;SBW
+2E;bus;;;;SBW
+3;trolleybus;;;;SBW
+4;bus;;;;SBW
+5;bus;;;;SBW
+7;bus;;;;SBW
+9;bus;;;;SBW
+10;bus;;;;SBW
+12;bus;;;;SBW
+
+=== SBW Überlandnetz
+610;bus;;;;SBW
+611;bus;;;;SBW
+660;bus;;;;SBW
+674;bus;;;;SBW
+
+
+== Verkehrsbetriebe Glattal (VBG)
+=== VBG Busnetz Furttal
+449;bus;;;;VBG
+450;bus;;;;VBG
+451;bus;;;;VBG
+452;bus;;;;VBG
+453;bus;;;;VBG
+454;bus;;;;VBG
+455;bus;;;;VBG
+456;bus;;;;VBG
+485;bus;;;;VBG
+491;bus;;;;VBG
+593;bus;;;;VBG
+
+=== VBG Busnetz Effretikon
+640;bus;;;;VBG
+650;bus;;;;VBG
+652;bus;;;;VBG
+655;bus;;;;VBG
+656;bus;;;;VBG
+658;bus;;;;VBG
+659;bus;;;;VBG
+662;bus;;;;VBG
+
+=== VBG Busnetz Glatttal
+720;bus;;;;VBG
+721;bus;;;;VBG
+725;bus;;;;VBG
+726;bus;;;;VBG
+727;bus;;;;VBG
+731;bus;;;;VBG
+732;bus;;;;VBG
+733;bus;;;;VBG
+734;bus;;;;VBG
+735;bus;;;;VBG
+736;bus;;;;VBG
+737;bus;;;;VBG
+# 738;bus;;;;VBG
+742;bus;;;;VBG
+748;bus;;;;VBG
+749;bus;;;;VBG
+752;bus;;;;VBG
+754;bus;;;;VBG
+756;bus;;;;VBG
+759;bus;;;;VBG
+760;bus;;;;VBG
+761;bus;;;;VBG
+762;bus;;;;VBG
+764;bus;;;;VBG
+765;bus;;;;VBG
+766;bus;;;;VBG
+768;bus;;;;VBG
+769;bus;;;;VBG
+771;bus;;;;VBG
+772;bus;;;;VBG
+781;bus;;;;VBG
+787;bus;;;;VBG
+795;bus;;;;VBG
+796;bus;;;;VBG
+797;bus;;;;VBG
+
+
+== SZU Automobildienst (SZU Auto)
+=== SZU Auto Busnetz Zimmerberg
+121;bus;;;;SZU Auto
+122;bus;;;;SZU Auto
+123;bus;;;;SZU Auto
+125;bus;;;;SZU Auto
+126;bus;;;;SZU Auto
+127;bus;;;;SZU Auto
+128;bus;;;;SZU Auto
+129;bus;;;;SZU Auto
+131;bus;;;;SZU Auto
+132;bus;;;;SZU Auto
+133;bus;;;;SZU Auto
+134;bus;;;;SZU Auto
+136;bus;;;;SZU Auto
+137;bus;;;;SZU Auto
+140;bus;;;;SZU Auto
+142;bus;;;;SZU Auto
+145;bus;;;;SZU Auto
+151;bus;;;;SZU Auto
+152;bus;;;;SZU Auto
+153;bus;;;;SZU Auto
+156;bus;;;;SZU Auto
+170;bus;;;;SZU Auto
+
+=== SZU Auto/PAZ Busnetz Hirzel
+150;bus;;;;SZU Auto/PAZ
+155;bus;;;;SZU Auto/PAZ
+160;bus;;;;SZU Auto/PAZ
+
+=== Busbetrieb Wollerau-Samstagern (BWS)
+175;bus;;;;BWS
+176;bus;;;;BWS
+
+=== Autobusbetrieb Freienbach (ABF)
+188;bus;;;;ABF
+189;bus;;;;ABF
+
+=== Assoziiertes PAG Busnetz Höfe SZ
+180;bus;;;;PAG Ostschweiz
+190;bus;;;;PAG Ostschweiz
+195;bus;;;;PAG Ostschweiz
+
+
+== PostAuto Zürich (PAZ)
+=== PAZ Busnetz Knonaueramt
+200;bus;;;;PAZ
+201;bus;;;;PAZ
+205;bus;;;;PAZ
+210;bus;;;;PAZ
+212;bus;;;;PAZ
+214;bus;;;;PAZ
+215;bus;;;;PAZ
+220;bus;;;;PAZ
+221;bus;;;;PAZ
+223;bus;;;;PAZ
+225;bus;;;;PAZ
+227;bus;;;;PAZ
+228;bus;;;;PAZ
+229;bus;;;;PAZ
+230;bus;;;;PAZ
+232;bus;;;;PAZ
+235;bus;;;;PAZ
+236;bus;;;;PAZ
+240;bus;;;;PAZ
+245;bus;;;;PAZ
+280;bus;;;;PAZ
+
+=== PAZ Busnetz Unterland
+501;bus;;;;PAZ
+504;bus;;;;PAZ
+510;bus;;;;PAZ
+515;bus;;;;PAZ
+520;bus;;;;PAZ
+521;bus;;;;PAZ
+522;bus;;;;PAZ
+523;bus;;;;PAZ
+524;bus;;;;PAZ
+525;bus;;;;PAZ
+529;bus;;;;PAZ
+530;bus;;;;PAZ
+531;bus;;;;PAZ
+535;bus;;;;PAZ
+540;bus;;;;PAZ
+542;bus;;;;PAZ
+543;bus;;;;PAZ
+545;bus;;;;PAZ
+546;bus;;;;PAZ
+555;bus;;;;PAZ
+
+=== PAZ Busnetz Weinland
+605;bus;;;;PAZ
+612;bus;;;;PAZ
+615;bus;;;;PAZ
+620;bus;;;;PAZ
+621;bus;;;;PAZ
+623;bus;;;;PAZ
+630;bus;;;;PAZ
+634;bus;;;;PAZ
+670;bus;;;;PAZ
+671;bus;;;;PAZ
+675;bus;;;;PAZ
+676;bus;;;;PAZ
+677;bus;;;;PAZ
+679;bus;;;;PAZ
+680;bus;;;;PAZ
+681;bus;;;;PAZ
+682;bus;;;;PAZ
+
+=== PAZ Busnetz Oberland/Pfäffikon
+805;bus;;;;PAZ
+806;bus;;;;PAZ
+807;bus;;;;PAZ
+809;bus;;;;PAZ
+825;bus;;;;PAZ
+826;bus;;;;PAZ
+827;bus;;;;PAZ
+830;bus;;;;PAZ
+831;bus;;;;PAZ
+832;bus;;;;PAZ
+833;bus;;;;PAZ
+835;bus;;;;PAZ
+837;bus;;;;PAZ
+859;bus;;;;PAZ
+
+
+== Verkehrsbetriebe Zürichsee und Oberland (VZO)
+=== VZO Busnetz Oberland
+811;bus;;;;VZO
+812;bus;;;;VZO
+813;bus;;;;VZO
+816;bus;;;;VZO
+817;bus;;;;VZO
+818;bus;;;;VZO
+842;bus;;;;VZO
+845;bus;;;;VZO
+# 846;bus;;;;VZO
+850;bus;;;;VZO
+851;bus;;;;VZO
+852;bus;;;;VZO
+853;bus;;;;VZO
+854;bus;;;;VZO
+856;bus;;;;VZO
+857;bus;;;;VZO
+858;bus;;;;VZO
+862;bus;;;;VZO
+867;bus;;;;VZO
+869;bus;;;;VZO
+870;bus;;;;VZO
+# 871;bus;Buxi Hinwil;;;VZO
+875;bus;;;;VZO
+# 879;bus;Buxi Bubikon;;;VZO
+880;bus;;;;VZO
+882;bus;;;;VZO
+883;bus;;;;VZO
+884;bus;;;;VZO
+885;bus;;;;VZO
+888;bus;;;;VZO
+892;bus;;;;VZO/PAZ
+893;bus;;;;VZO/PAZ
+
+=== VZO Busnetz Pfannenstil
+921;bus;;;;VZO
+922;bus;;;;VZO
+923;bus;;;;VZO
+925;bus;;;;VZO
+931;bus;;;;VZO
+932;bus;;;;VZO
+940;bus;;;;VZO
+950;bus;;;;VZO
+951;bus;;;;VZO
+952;bus;;;;VZO
+955;bus;;;;VZO
+961;bus;;;;VZO
+962;bus;;;;VZO
+970;bus;;;;VZO
+972;bus;;;;VZO
+973;bus;;;;VZO
+974;bus;;;;VZO
+
+=== VZO Stadtbus Rapperswil-Jona
+991;bus;;;;VZO
+992;bus;;;;VZO
+993;bus;;;;VZO
+994;bus;;;;VZO
+995;bus;;;;VZO
+
+
+== Nachtnetz
+=== VBZ Nachtnetz Stadt
+N1;bus;;;;VBZ
+N2;bus;;;;VBZ
+N4;bus;;;;VBZ
+N5;bus;;;;VBZ
+N6;bus;;;;VBZ
+N7;bus;;;;VBZ
+N8;bus;;;;VBZ
+N11;bus;;;;VBZ
+N12;bus;;;;VBZ
+N13;bus;;;;VBZ
+N14;bus;;;;VBZ
+N15;bus;;;;VBZ
+N16;bus;;;;VBZ
+N17;bus;;;;VBZ
+N18;bus;;;;VBZ
+N19;bus;;;;VBZ
+
+=== Nachtnetz Limmattal
+N30;bus;;;;VBZ
+N31;bus;;;;AVA
+# N32;bus;;;;AVA
+# N33;bus;;;;RVBW
+
+=== VBG Nachtnetz
+N45;bus;;;;VBG
+N62;bus;;;;VBG
+N72;bus;;;;VBG
+N78;bus;;;;VBG
+
+=== VZO Nachtnetz
+N81;bus;;;;VZO
+N84;bus;;;;VZO
+N86;bus;;;;VZO
+N87;bus;;;;VZO
+N88;bus;;;;VZO
+N92;bus;;;;VZO
+N95;bus;;;;VZO
+
+=== SZU Auto Nachtnetz
+N26;bus;79.026;;;SZU Auto/PAZ
+N27;bus;79.027;;;SZU Auto
+
+=== PAZ Nachtnetz
+N22;bus;79.022;;;PAZ
+N23;bus;79.023;;;PAZ
+N24;bus;79.024;;;PAZ
+N51;bus;79.051;;;PAZ
+N52;bus;79.052;;;PAZ
+N53;bus;79.053;;;PAZ
+N54;bus;79.054;;;PAZ
+N60;bus;79.060;;;PAZ
+N63;bus;79.063;;;PAZ
+N64;bus;79.064;;;PAZ
+N68;bus;79.068;;;PAZ
+N69;bus;79.069;;;PAZ
+N82;bus;79.082;;;PAZ
+
+=== SBW Nachtnetz
+N59;bus;70.339;;;SBW
+N61;bus;70.357;;;SBW
+N65;bus;70.360;;;SBW
+N66;bus;70.361;;;SBW
+N67;bus;70.362;;;SBW
+
+
+== Assoziierte/verbundüberschreitende Linien
+=== A-Welle: PostAuto Nord (PAG)
+217;bus;50.217;;;PAG
+231;bus;50.231;;;PAG
+350;bus;50.350;;;PAG
+
+=== A-Welle: Aargau Verkehr AG (AVA)
+444;bus;50.444 (Schnellbus Bremgarten AG);;;AVA
+445;bus;50.445 (Schnellbus Remetschwil);;;AVA
+
+=== Ostwind: Busbetrieb Rapperswil-Eschenbach-Rüti ZH (BRER)
+621;bus;80.621;;;BRER: Schneider Linienbus
+622;bus;80.622;;;BRER: Schneider Linienbus
+# 623;bus;80.623;;;BRER: Schneider Linienbus
+631;bus;80.631;;;BRER: Schneider Linienbus
+
+=== Ostwind: PostAuto Ostschweiz (PAG)
+847;bus;80.847;;;PAG
+
+
+== Aufgehobene Linien
+# Wartungsabschnitt
+11;bus;;;;SBW
+124;bus;;;;SZU Auto
+213;bus;;;;PAZ
+814;bus;;;;VZO
 
 </pre>

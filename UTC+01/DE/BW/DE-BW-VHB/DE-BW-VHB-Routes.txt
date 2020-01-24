@@ -44,7 +44,7 @@
 = Überblick über die ÖPNV-Linien des "Verkehrsverbund Hegau-Bodensee"
 
 - Verweis auf die Datei mit den [[Verkehrsverbund_Hegau-Bodensee/Analyse/DE-BW-VHB-Routes|VHB Linien]] im Wiki.
-- Verweis auf mehr [[Talk:Verkehrsverbund_Hegau-Bodensee/Analyse|Informationen]] im Wiki (in Vorbereitung).
+- Verweis auf mehr [[Talk:Verkehrsverbund_Hegau-Bodensee/Analyse|Informationen]] im Wiki.
 
 == Hinweis
 

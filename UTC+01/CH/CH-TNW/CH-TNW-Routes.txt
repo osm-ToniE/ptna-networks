@@ -52,4 +52,104 @@
 - !!!This is currently an analysis of what can be found in OSM!!!
 
 
+== S-Bahn Basel
+S1;train;;;;SBB
+S3;train;;;;SBB
+S5;train;;;;SBB-D
+S6;train;;;;SBB-D
+S9;train;;;;SBB
+RB;train;;;;DB Regio
+RE;train;;;;DB Regio
+RE/RB;train;;;;DB Regio
+TER;train;;;;
+
+
+== Basler Verkehrsbetriebe (BVB)
+1;tram;;;;BVB
+2;tram;;;;BVB
+3;tram;;;;BVB
+6;tram;;;;BVB
+8;tram;;;;BVB
+14;tram;;;;BVB
+15;tram;;;;BVB
+16;tram;;;;BVB
+21;tram;;;;BVB
+30;bus;;;;BVB
+31;bus;;;;BVB
+32;bus;;;;BVB
+33;bus;;;;BVB
+34;bus;;;;BVB
+35;bus;;;;BVB
+36;bus;;;;BVB
+38;bus;;;;BVB
+# 39;bus;Schulbus;;;BVB
+42;bus;;;;BVB
+45;bus;;;;BVB
+46;bus;;;;BVB
+48;bus;;;;BVB
+50;bus;;;;BVB
+
+== Baselland Transport AG (BLT)
+10;tram;;;;BLT
+11;tram;;;;BLT
+17;tram;;;;BLT
+19;light_rail;;;;BLT
+37;bus;;;;BLT Auto
+47;bus;;;;BLT Auto
+58;bus;;;;BLT Auto
+59;bus;;;;BLT Auto
+60;bus;;;;BLT Auto
+61;bus;;;;BLT Auto
+62;bus;;;;BLT Auto
+63;bus;;;;BLT Auto
+64;bus;;;;BLT Auto
+65;bus;;;;BLT Auto
+66;bus;;;;BLT Auto
+92;bus;;;;BLT Auto
+93;bus;;;;BLT Auto
+
+== Autobus AG Liestal (AAGL)
+70;bus;;;;AAGL
+71;bus;;;;AAGL
+72;bus;;;;AAGL
+75;bus;;;;AAGL
+76;bus;;;;AAGL
+78;bus;;;;AAGL
+80;bus;;;;AAGL
+81;bus;;;;AAGL
+82;bus;;;;AAGL
+83;bus;;;;AAGL
+
+== PostAuto Nord (PAG)
+73;bus;;;;PAG
+84;bus;;;;PAG
+85;bus;;;;PAG
+86;bus;;;;PAG
+88;bus;;;;PAG
+89;bus;;;;PAG
+90;bus;;;;PAG
+94;bus;;;;PAG
+
+111;bus;;;;PAG
+112;bus;;;;PAG
+113;bus;;;;PAG
+114;bus;;;;PAG
+115;bus;;;;PAG
+116;bus;;;;PAG
+
+134;bus;;;;PAG
+135;bus;;;;PAG
+136;bus;;;;PAG
+137;bus;;;;PAG
+
+== Assoziierte/verbundüberschreitende Linien
+=== Südwestdeutsche Verkehrs-Aktiengesellschaft (SWEG)
+3;bus;;;;SWEG
+55;bus;;;;SWEG
+
+=== Distribus
+603;bus;;;;
+604;bus;;;;
+
+
 </pre>
