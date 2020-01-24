@@ -12,7 +12,7 @@ NETWORK_SHORT="bodo"
 
 ANALYSIS_PAGE="Bodensee-Oberschwaben_Verkehrsverbund/Analyse"
 ANALYSIS_TALK="Talk:Bodensee-Oberschwaben_Verkehrsverbund/Analyse"
-WIKI_ROUTES_PAGE="Bodensee-Oberschwaben_Verkehrsverbund/Analyse/DE-BW-bodo-Routes"
+WIKI_ROUTES_PAGE="Bodensee-Oberschwaben_Verkehrsverbund/Analyse/DE-BW-bodo-Linien"
 
 ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
@@ -29,7 +29,7 @@ ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name-relax
 # automatically build by PHP script
 
 # column 2 = Name + Link to Overpass-Turbo call to show area on map
-PTNA_WWW_REGION_NAME="Bodenseekreis, Landkreis Ravensburg"
+PTNA_WWW_REGION_NAME="Bodenseekreis, Landkreis Ravensburg, Landkreis Lindau"
 PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation%5Bboundary%3Dadministrative%5D%5Bwikidata~'^(Q8228|Q8225)$'%5D%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
 
 # column 3 = Name + Link to the network provider / transport association
