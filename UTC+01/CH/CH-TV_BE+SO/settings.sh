@@ -7,7 +7,7 @@
 PREFIX="CH-TV_BE+SO"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][wikidata~'^(Q11911|Q494663|Q661119|Q660262|Q660846)$'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="Tarifverbund Bern-Solothurn|Libero-Tarifverbund|Libero"
+NETWORK_LONG="Tarifverbund Bern-Solothurn|Libero-Tarifverbund|Libero|libero"
 NETWORK_SHORT="TV-BE/SO"
 
 ANALYSIS_PAGE="Switzerland:Public_Transport/Libero/Analysis"
