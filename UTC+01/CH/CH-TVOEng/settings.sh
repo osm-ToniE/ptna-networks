@@ -29,7 +29,7 @@ ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name-relax
 # automatically build by PHP script
 
 # column 2 = Name + Link to Overpass-Turbo call to show area on map
-PTNA_WWW_REGION_NAME="Teile der Region Maloja"
+PTNA_WWW_REGION_NAME="Oberengading - Teil der Region Maloja (GR)"
 PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation%5Bboundary%3Dadministrative%5D%5Bwikidata~%22^(Q23732284)$%22%5D%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
 
 # column 3 = Name + Link to the network provider / transport association
