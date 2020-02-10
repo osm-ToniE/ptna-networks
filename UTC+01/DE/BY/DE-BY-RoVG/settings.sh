@@ -10,9 +10,9 @@ OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=admini
 NETWORK_LONG="Rosenheimer Verkehrsgesellschaft|Rosenheimer Verkehrsgesellschaft mbH|Rosenheimer Verkehrsgesellschaft m.b.H.|Stadtverkehr Rosenheim|Stadtbus Kolbermoor"
 NETWORK_SHORT="RoVG"
 
-ANALYSIS_PAGE=""
-ANALYSIS_TALK=""
-WIKI_ROUTES_PAGE=""
+ANALYSIS_PAGE="Rosenheim/ÖPNV/Analyse"
+ANALYSIS_TALK="Talk:Rosenheim/ÖPNV/Analyse"
+WIKI_ROUTES_PAGE="Rosenheim/ÖPNV/RoVG-Linien"
 
 ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
@@ -48,5 +48,5 @@ PTNA_WWW_DISCUSSION_NAME="Discussion"
 PTNA_WWW_DISCUSSION_LINK= # "https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 
 # column 7 Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
-PTNA_WWW_ROUTES_NAME="RoVG Lines"
+PTNA_WWW_ROUTES_NAME="RoVG Linien"
 PTNA_WWW_ROUTES_LINK= # "https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
