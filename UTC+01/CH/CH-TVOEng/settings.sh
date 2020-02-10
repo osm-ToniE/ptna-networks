@@ -7,7 +7,7 @@
 PREFIX="CH-TVOEng"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][wikidata~'^(Q23732284)$'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG=" Tarifverbund Oberengadin|Engadin Mobil|engadin mobil|Engadin-Mobil|engadin-mobil"
+NETWORK_LONG=" Tarifverbund Oberengadin|Engadin Mobil|engadin mobil|Engadin-Mobil|engadin-mobil|Engadin Bus|Engadinbus|Engadinmobil"
 NETWORK_SHORT="TVOEng"
 
 ANALYSIS_PAGE="Switzerland:Public_Transport/Engadin-Mobil/Analysis"
