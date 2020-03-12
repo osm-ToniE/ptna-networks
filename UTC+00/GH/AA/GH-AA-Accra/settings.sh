@@ -8,7 +8,7 @@ PREFIX="GH-AA-Accra"
 
 PTNA_TIMEZONE="Africa/Accra"
 
-OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata=%27Q3761%27];(rel(area)[route~%27(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)%27][~%27network|operator%27~%27(Fernb|fernb|Flix|flix)%27];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata=Q3761][type=boundary];(rel(area)[route~%27(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)%27][~%27network|operator%27~%27(Fernb|fernb|Flix|flix)%27];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Flixbus"
 NETWORK_SHORT=""
 
