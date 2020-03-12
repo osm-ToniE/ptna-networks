@@ -9,7 +9,7 @@ PREFIX="ET-AA-Addis-Ababa"
 PTNA_TIMEZONE="Africa/Addis_Ababa"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata=%27Q3624%27][type=boundary];(rel(area)[route~%27(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)%27];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="Flixbus"
+NETWORK_LONG=""
 NETWORK_SHORT=""
 
 ANALYSIS_PAGE=
