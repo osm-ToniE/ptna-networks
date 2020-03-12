@@ -12,9 +12,9 @@ OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata=%27Q37
 NETWORK_LONG="Flixbus"
 NETWORK_SHORT=""
 
-ANALYSIS_PAGE="United_States/Transportation/Bus_Routes/Flixbus/Analysis"
-ANALYSIS_TALK="Talk:United_States/Transportation/Bus_Routes/Flixbus/Analysis"
-WIKI_ROUTES_PAGE="United_States/Transportation/Bus_Routes/Flixbus/Flixbus_Lines"
+ANALYSIS_PAGE=
+ANALYSIS_TALK=
+WIKI_ROUTES_PAGE=
 
 ANALYSIS_OPTIONS="--check-access --check-bus-stop --check-roundabouts --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
