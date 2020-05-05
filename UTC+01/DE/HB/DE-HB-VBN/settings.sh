@@ -14,9 +14,9 @@ ANALYSIS_PAGE="Bremen/Transport/Analyse"
 ANALYSIS_TALK="Talk:Bremen/Transport/Analyse"
 WIKI_ROUTES_PAGE="Bremen/Transport/Analyse/DE-HB-VBN-Linien"
 
-ANALYSIS_OPTIONS="--language=de --max-error=10 --positive-notes --check-access --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--language=de --max-error=10 --positive-notes --check-access --check-way-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
-# --check-bus-stop 
+# --check-bus-stop
 # --expect-network-long
 # --expect-network-short
 # --expect-network-short-for=
@@ -49,4 +49,3 @@ PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 # column 7 Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
 PTNA_WWW_ROUTES_NAME="VBN Linien"
 PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
-

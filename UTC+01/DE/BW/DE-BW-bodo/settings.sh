@@ -14,9 +14,9 @@ ANALYSIS_PAGE="Bodensee-Oberschwaben_Verkehrsverbund/Analyse"
 ANALYSIS_TALK="Talk:Bodensee-Oberschwaben_Verkehrsverbund/Analyse"
 WIKI_ROUTES_PAGE="Bodensee-Oberschwaben_Verkehrsverbund/Analyse/DE-BW-bodo-Linien"
 
-ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-way-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
-# --check-bus-stop 
+# --check-bus-stop
 # --expect-network-long
 # --expect-network-short
 # --expect-network-short-for=
@@ -49,4 +49,3 @@ PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 # column 7 Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
 PTNA_WWW_ROUTES_NAME="bodo Linien"
 PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
-

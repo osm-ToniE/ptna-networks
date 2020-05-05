@@ -14,9 +14,9 @@ ANALYSIS_PAGE="DE:WestfalenTarif/Analyse"
 ANALYSIS_TALK="DE_Talk:WestfalenTarif/Analyse"
 WIKI_ROUTES_PAGE="DE:WestfalenTarif/Analyse/WestfalenTarif-Linien"
 
-ANALYSIS_OPTIONS="--language=de --relaxed-begin-end-for=train,light_rail,tram,bus,share_taxi --positive-notes --max-error=10 --check-version --check-access --check-name-relaxed --check-stop-position --check-sequence --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=de --relaxed-begin-end-for=train,light_rail,tram,bus,share_taxi --positive-notes --max-error=10 --check-version --check-access --check-way-type --check-name-relaxed --check-stop-position --check-sequence --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline"
 
-# --check-bus-stop 
+# --check-bus-stop
 # --expect-network-long
 # --expect-network-short
 # --expect-network-long-for=
@@ -49,4 +49,3 @@ PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 # column 7 Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
 PTNA_WWW_ROUTES_NAME="WT Linien"
 PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
-

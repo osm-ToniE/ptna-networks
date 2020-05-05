@@ -14,10 +14,10 @@ ANALYSIS_PAGE="Mecklenburg-Vorpommern/ÖPNV/MVVG/Analyse"
 ANALYSIS_TALK="Talk:Mecklenburg-Vorpommern/ÖPNV/MVVG/Analyse"
 WIKI_ROUTES_PAGE="Mecklenburg-Vorpommern/ÖPNV/MVVG/Analyse/MVVG-Linien"
 
-ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-way-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --multiple-ref-type-entries=analyze
-# --check-bus-stop 
+# --check-bus-stop
 # --expect-network-long
 # --expect-network-short
 # --expect-network-short-for=
@@ -50,4 +50,3 @@ PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 # column 7 Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
 PTNA_WWW_ROUTES_NAME="MVVG Linien"
 PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
-

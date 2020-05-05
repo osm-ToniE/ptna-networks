@@ -16,14 +16,14 @@ ANALYSIS_PAGE="United_States/Transportation/Bus_Routes/Flixbus/Analysis"
 ANALYSIS_TALK="Talk:United_States/Transportation/Bus_Routes/Flixbus/Analysis"
 WIKI_ROUTES_PAGE="United_States/Transportation/Bus_Routes/Flixbus/Flixbus_Lines"
 
-ANALYSIS_OPTIONS="--allow-coach --check-access --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
+ANALYSIS_OPTIONS="--allow-coach --check-access --check-way-type --check-name --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
-# --check-bus-stop 
+# --check-bus-stop
 # --expect-network-long
 # --expect-network-short
 # --expect-network-short-for=
 # --expect-network-long-for=
-# 
+#
 
 #
 # extensions to support ptna-www and PHP in results/xx/index.php files by code in ptna-network.sh (section: upload results)
@@ -52,4 +52,3 @@ PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 # column 7 Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
 PTNA_WWW_ROUTES_NAME="Flixbus Lines"
 PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
-

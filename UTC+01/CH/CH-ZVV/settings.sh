@@ -14,10 +14,10 @@ ANALYSIS_PAGE="Switzerland:Public_Transport/ZVV/Analysis"
 ANALYSIS_TALK="Talk:Switzerland:Public_Transport/ZVV/Analysis"
 WIKI_ROUTES_PAGE="Switzerland:Public_Transport/ZVV/Analysis/CH-ZVV-Routes"
 
-ANALYSIS_OPTIONS="--max-error=10 --check-access --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--max-error=10 --check-access --check-way-type --check-way-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
-# --language=de 
-# --check-bus-stop 
+# --language=de
+# --check-bus-stop
 # --expect-network-long
 # --expect-network-short
 # --expect-network-short-for=
@@ -50,4 +50,3 @@ PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 # column 7 Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
 PTNA_WWW_ROUTES_NAME="ZVV Lines"
 PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
-

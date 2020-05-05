@@ -21,7 +21,7 @@ ANALYSIS_TALK="Talk:France/Bus_Pep's/Analysis"
 WIKI_ROUTES_PAGE=""
 GITHUB_ROUTES_PAGE="UTC+01/FR/IDF/$PREFIX/$PREFIX-Routes.txt"
 
-ANALYSIS_OPTIONS="--language=fr --check-access --check-bus-stop --check-name-relaxed --check-osm-separator --check-sequence --check-stop-position --check-version --coloured-sketchline --check-motorway-link --max-error=10 --multiple-ref-type-entries=analyze --positive-notes"
+ANALYSIS_OPTIONS="--language=fr --check-access --check-way-type --check-bus-stop --check-name-relaxed --check-osm-separator --check-sequence --check-stop-position --check-version --coloured-sketchline --check-motorway-link --max-error=10 --multiple-ref-type-entries=analyze --positive-notes"
 
 # --check-bus-stop
 # --expect-network-short
@@ -57,4 +57,3 @@ PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 # column 7 Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
 PTNA_WWW_ROUTES_NAME="$NETWORK_SHORT lignes"
 PTNA_WWW_ROUTES_LINK="https://github.com/osm-ToniE/ptna-networks/raw/master/$GITHUB_ROUTES_PAGE"
-

@@ -16,9 +16,9 @@ ANALYSIS_PAGE="Germany/Railway/Route_Network/Analysis"
 ANALYSIS_TALK="Talk:Germany/Railway/Route_Network/Analysis"
 WIKI_ROUTES_PAGE="Germany/Railway/Route_Network/Analysis/DE-Bahnverkehr-Routes"
 
-ANALYSIS_OPTIONS="--language=de --check-access --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--language=de --check-access --check-way-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,light_rail,monorail,tram"
 
-# --check-bus-stop 
+# --check-bus-stop
 # --expect-network-long
 # --expect-network-short-for=
 # --expect-network-long-for=
@@ -51,4 +51,3 @@ PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 # column 7 Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
 PTNA_WWW_ROUTES_NAME="Bahnlinien in DE"
 PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
-
