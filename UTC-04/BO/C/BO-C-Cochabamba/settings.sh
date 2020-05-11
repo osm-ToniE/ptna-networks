@@ -1,14 +1,14 @@
 #!/bin/bash
 
 #
-# set variales for analysis of network
+# set variables for analysis of network
 #
 
 PREFIX="BO-C-Cochabamba"
 
 PTNA_TIMEZONE="America/La_Paz"
 
-OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata~'^Q1952931$'][type=boundary];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata~'^Q1952931$'][type=boundary];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG=""
 NETWORK_SHORT=""
 
@@ -27,27 +27,27 @@ ANALYSIS_OPTIONS="--language=es --check-access --check-way-type --check-bus-stop
 #
 # extensions to support ptna-www and PHP in results/xx/index.php files by code in ptna-network.sh (section: upload results)
 #
-# column 1 = Name + Link to Analysis Result Page on server
+# Name + Link to Analysis Result Page on server
 # automatically build by PHP script
 
-# column 2 = Name + Link to Overpass-Turbo call to show area on map
+# Name + Link to Overpass-Turbo call to show area on map
 PTNA_WWW_REGION_NAME="Cochabamba / Cochabamba"
 PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%0A%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A%0A(%0A%0A%20%20relation%5B%22wikidata%22~%22^Q1952931$%22%5D%3B%0A)%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B"
 
-# column 3 = Name + Link to the network provider / transport association
+# Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="todas las asociaciones y operadores"
 PTNA_WWW_NETWORK_LINK=""
 
-# column 4 = Date and Time of last analysis in UTC and Local Time format
+# Date and Time of last analysis in UTC and Local Time format
 # automatically build by PHP script
 
-# column 5 = Date and Time of latest changes in UTC and Local Time format
+# Date and Time of latest changes in UTC and Local Time format
 # automatically build by PHP script
 
-# column 6 = Name + Link to discussion / documentation page (usually in OSM Wiki)
+# Name + Link to discussion / documentation page (usually in OSM Wiki)
 PTNA_WWW_DISCUSSION_NAME="Discusiones"
 PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 
-# column 7 Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
+# Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
 PTNA_WWW_ROUTES_NAME="Rutas en Cochabamba"
 PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
