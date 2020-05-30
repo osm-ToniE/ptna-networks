@@ -1,0 +1,100 @@
+<pre>
+#
+# This data is input for the tool: PTNA - Public Transport Network Analysis (https://ptna.openstreetmap.de)
+#
+# Format of the data:
+#       UTF-8
+#
+# Formatting:
+#       The formatting is based on the OSM Wiki.
+#
+# Links:
+#       [[...|..]] are (as in the OSM-Wiki) internal links to the OSM-Wiki
+#       [... ...]  are (as in the OSM-Wiki) external links to the Internet
+#
+# Headlines:
+#       Headlines start with '=', '==', '===', '====', ... at the beginning of a line
+#
+# Plain text:
+#       Plain text starts with '-' at the beginning of a line.
+#       Plain text may appear anywhere.
+#
+# New line:
+#       A new line (line feed) is introduced by a single '-' in a line
+#
+# Layout:
+#       !!!Text with yellow background!!                in plain text or headlines
+#       '''''Text with thick, italic letters''''        in plain text or headlines
+#       '''Thick letter text''                          in plain text or headlines
+#       ''Text with italic letters''                    in plain text or headlines
+#
+# Comments:
+#       Comments start with '#' at the beginning of a line.
+#       Comments in the middle are not recognized, i.e. '#' may appear within text.
+#
+# Reserved characters at the beginning of a line:
+#       '#' Comment line
+#       '=' Headlines of different categories
+#       '-' Plain text
+#       '@' at the beginning of a line is reserved for later extensions
+#       '+' at the beginning of a line is reserved for later extensions
+#       '~' at the beginning of a line is reserved for later extensions
+#       '$' at the beginning of a line is reserved for later extensions
+#       If one of the reserved characters is at the beginning of 'ref' (see below), put 'ref' in double quotes
+#
+#
+################################
+#
+# Definition of line information:
+#       Content in CSV format
+#       All fields containing ';' must be enclosed in double quotation marks (e.g. "139;142";bus;;; "Operator1;Operator";;)
+#
+# ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id
+#
+# ref           required
+#                   == tag 'ref' of route or route_master
+#                       250             defines that routes with 'ref'='250' are expected here
+#                       250|250a|250b   defines that routes with 'ref'='250' and 'ref'='250a' and 'ref'='250b' are allowed here
+#                                       whether this is allowed after PTv1/PTv2 is another matter
+#                       605/50          defines that here 'ref' of two 'network' are valid: it is checked,
+#                                       whether 'ref:network1'='605' and 'ref:network2'='50' exist
+#                       139;142"        defines that the route with two numbers exists in the same 'network'.
+#                       "+210"          enables the reserved character '+' at the beginning of 'ref'.
+#
+# type          required
+#                   == Content of the tag 'route' or 'route_master' (bus, train, tram, subway, ...)
+#
+# comment       can be empty, will not be evaluated, just output
+#                   == can contain comments like; call taxi, bus, express bus, ...
+#                       !text with yellow background! in comment (surrounded by simple !)
+#                       "Comment with ; in text"
+#
+# from          can be empty
+#                   == is used to differentiate between several routes with identical ref, type and operator
+#
+# to            can be empty
+#                   == is used to differentiate between several routes with identical ref, type and operator
+#
+# operator      can be empty
+#                   == is used to differentiate between several routes with identical ref and type
+#                       The value of 'operator' may contain ';', but must then be in "...".
+#
+# gtfs-feed     should be empty
+#                   == Reference to a source in the GTFS analysis of PTNA where this route can be found (e.g.: "DE-BY-MVV")
+#                       This should only be specified if 'operator:guid' and/or 'network:guid' of the OSM relation(s) are not set
+#
+# gtfs-route-id should be empty
+#                   == Reference to a "route_id" in the GTFS data that belongs to this route
+#                       This should only be specified if 'gtfs:route_id' of the OSM relation(s) is not set
+#
+################################
+#
+
+= Overview of the public transport lines of the ...
+
+- Reference to this list with the [[Sandbox|Template Lines]] in the OSM-Wiki.
+-
+- Reference to more [https://ptna.openstreetmap.de/de/config.php?network=... information] on this evaluation.
+-
+
+</pre>
