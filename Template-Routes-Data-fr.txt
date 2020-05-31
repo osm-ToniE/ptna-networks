@@ -79,13 +79,11 @@
 #                   == est utilisé pour différencier plusieurs itinéraires ayant une référence et un type identiques
 #                       La valeur de "operator" peut contenir " ;", mais doit alors être en "...".
 #
-# gtfs-feed     est normalement vide
+# gtfs-feed     peut être vide
 #                   == Référence à une source dans l'analyse GTFS de PTNA où ce parcours peut être trouvé (par exemple : "DE-BY-MVV")
-#                       Ceci ne doit être spécifié que si "operator:guid" et/ou "network:guid" de la (des) relation(s) OSM ne sont pas définis
 #
-# gtfs-route-id est normalement vide
+# gtfs-route-id peut être vide
 #                   == Référence à un "route_id" dans les données GTFS qui appartient à cette route
-#                       Ceci ne doit être spécifié que si "gtfs:route_id" de la ou des relations OSM n'est pas défini
 #
 ################################
 #

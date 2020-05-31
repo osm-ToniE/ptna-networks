@@ -79,13 +79,11 @@
 #                   == is used to differentiate between several routes with identical ref and type
 #                       The value of 'operator' may contain ';', but must then be in "...".
 #
-# gtfs-feed     should be empty
+# gtfs-feed     can be empty
 #                   == Reference to a source in the GTFS analysis of PTNA where this route can be found (e.g.: "DE-BY-MVV")
-#                       This should only be specified if 'operator:guid' and/or 'network:guid' of the OSM relation(s) are not set
 #
-# gtfs-route-id should be empty
+# gtfs-route-id can be empty
 #                   == Reference to a "route_id" in the GTFS data that belongs to this route
-#                       This should only be specified if 'gtfs:route_id' of the OSM relation(s) is not set
 #
 ################################
 #

@@ -79,13 +79,11 @@
 #                   == wird bei mehreren Linie mit identischem ref und type zur Differenzierung herangezogen
 #                       Der Wert von 'operator' darf ';' enthalten, muss dann aber in "..." stehen.
 #
-# gtfs-feed     sollte leer sein
+# gtfs-feed     kann leer sein
 #                   == Hinweis auf eine Quelle in der GTFS-Analyse von PTNA, in der diese Route gefunden werden kann (z.B.: "DE-BY-MVV")
-#                       Diese Angabe sollte nur dann gemacht weden, wenn 'operator:guid' und/oder 'network:guid' der OSM-Relation(en) nicht gesetzt sind
 #
-# gtfs-route-id sollte leer sein
+# gtfs-route-id kann leer sein
 #                   == Hinweis auf eine "route_id" in den GTFS-Daten, die zu dieser Line gehört
-#                       Diese Angabe sollte nur dann gemacht weden, wenn 'gtfs:route_id' der OSM-Relation(en) nicht gesetzt ist
 #
 ################################
 #
