@@ -23,9 +23,9 @@
 #       A new line (line feed) is introduced by a single '-' in a line
 #
 # Layout:
-#       !!!Text with yellow background!!                in plain text or headlines
-#       '''''Text with thick, italic letters''''        in plain text or headlines
-#       '''Thick letter text''                          in plain text or headlines
+#       !!!Text with yellow background!!!               in plain text or headlines
+#       '''''Text with thick, italic letters'''''       in plain text or headlines
+#       '''Text with thick letters'''                   in plain text or headlines
 #       ''Text with italic letters''                    in plain text or headlines
 #
 # Comments:

@@ -25,8 +25,8 @@
 # Layout:
 #       !!!Text mit gelbem Hintergrund!!!               in einfachem Text oder Überschriften
 #       '''''Text mit dicken, kursiven Buchstaben'''''  in einfachem Text oder Überschriften
-#       '''Text mit dicken Buchstaben''' in einfachem Text oder Überschriften
-#       ''Text mit kursiven Buchstaben'' in einfachem Text oder Überschriften
+#       '''Text mit dicken Buchstaben'''                in einfachem Text oder Überschriften
+#       ''Text mit kursiven Buchstaben''                in einfachem Text oder Überschriften
 #
 # Kommentare:
 #       Kommentare beginnen mit '#' am Anfang einer Zeile.
