@@ -22,7 +22,7 @@ ANALYSIS_TALK=""
 WIKI_ROUTES_PAGE=""
 GITHUB_ROUTES_PAGE="UTC+01/FR/IDF/$PREFIX/$PREFIX-Routes.txt"
 
-ANALYSIS_OPTIONS="--language=fr --check-access --check-way-type --check-bus-stop --check-name-relaxed --check-osm-separator --check-sequence --check-stop-position --check-version --coloured-sketchline --check-motorway-link --max-error=10 --multiple-ref-type-entries=analyze --positive-notes"
+ANALYSIS_OPTIONS="--language=fr --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --check-access --check-way-type --check-bus-stop --check-name-relaxed --check-osm-separator --check-sequence --check-stop-position --check-version --coloured-sketchline --check-motorway-link --max-error=10 --multiple-ref-type-entries=analyze --positive-notes"
 
 # --check-bus-stop
 # --expect-network-short

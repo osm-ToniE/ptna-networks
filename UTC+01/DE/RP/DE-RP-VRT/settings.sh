@@ -14,7 +14,7 @@ ANALYSIS_PAGE="Verkehrsverbund_Region_Trier/Analyse"
 ANALYSIS_TALK="Talk:Verkehrsverbund_Region_Trier/Analyse"
 WIKI_ROUTES_PAGE="Verkehrsverbund_Region_Trier/Analyse/DE-RP-VRT-Routes"
 
-ANALYSIS_OPTIONS="--language=de --check-access --check-way-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --expect-network-short --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --check-access --check-way-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --expect-network-short --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --check-bus-stop
 # --expect-network-long

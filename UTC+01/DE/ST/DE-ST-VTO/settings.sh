@@ -14,7 +14,7 @@ ANALYSIS_PAGE="Landkreis_Harz/Transportation/Analyse"
 ANALYSIS_TALK="Talk:Landkreis_Harz/Transportation/Analyse"
 WIKI_ROUTES_PAGE="Landkreis_Harz/Transportation/Analyse/DE-ST-VTO-Linien"
 
-ANALYSIS_OPTIONS="--language=de --max-error=10 --check-access --check-way-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-way-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --check-bus-stop
 # --expect-network-long
