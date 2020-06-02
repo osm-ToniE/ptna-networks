@@ -1,43 +1,92 @@
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+# Format des données :
+#       UTF-8
+#
+# Formatage :
+#       Le formatage est basé sur le Wiki OSM.
+#
+# Liens :
+#       [[...|...]] sont (comme dans l'OSM-Wiki) des liens internes vers l'OSM-Wiki
+#       [... ...]   sont (comme dans l'OSM-Wiki) des liens externes vers l'Internet
+#
+# Titres :
+#       Les titres commencent par "=", "==", "===", "====", ... au début d'une ligne
+#
+# Texte en clair :
+#       Le texte en clair commence par un "-" au début d'une ligne.
+#       Le texte en clair peut apparaître n'importe où.
+#
+# Nouvelle ligne :
+#       Une nouvelle ligne (saut de ligne) est introduite par un simple "-" dans une ligne
+#
+# Mise en page :
+#       !!!Texte sur fond jaune!!!                      en texte simple ou en titres
+#       '''''Texte en caractères italiques épais'''''   en texte simple ou en titres
+#       '''Texte en lettres épaisses'''                 en texte simple ou en gros titres
+#       ''Texte en italique''                           en texte clair ou en titres
+#
+# Commentaires :
+#       Les commentaires commencent par un "#" au début d'une ligne.
+#       Les commentaires au milieu ne sont pas reconnus, c'est-à-dire que le "#" peut apparaître dans le texte.
+#
+# Caractères réservés au début d'une ligne :
+#       '#' Ligne de commentaire
+#       '=' Titres des différentes catégories
+#       '-' Texte en clair
+#       "@" au début d'une ligne est réservé aux extensions ultérieures
+#       "+" au début d'une ligne est réservé aux extensions ultérieures
+#       "~" au début d'une ligne est réservé aux extensions ultérieures
+#       "$" au début d'une ligne est réservé aux extensions ultérieures
+#       Si l'un des caractères réservés se trouve au début de "ref" (voir ci-dessous), mettez "ref" entre guillemets
+#
+#
+################################
+#
+# Définition des informations sur les lignes :
+#       Contenu au format CSV
+#       Tous les champs contenant " ;" doivent être mis entre guillemets (par exemple, "139;142";bus;;; ; "Opérateur1;Opérateur"; ;)
+#
+# ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id
+#
+# ref           requis
+#                   == tag 'ref' de route ou route_master
+#                       250             définit que les itinéraires avec "ref"="250" sont attendus ici
+#                       250|250a|250b   définit que les itinéraires avec "ref'='250" et "ref'='250a" et "ref'='250b" sont autorisés ici
+#                                       la question de savoir si cela est autorisé après PTv1/PTv2 est une autre question
+#                       605/50          définit ici que les "ref" de deux "réseaux" sont valides : il est vérifié,
+#                                       si 'ref:network1'='605' et 'ref:network2'='50' existent
+#                       "139;142"       définit que la route avec deux numéros existe dans le même "réseau".
+#                       "+210"          permet de réserver le caractère "+" au début de "ref".
+#
+# type          requis
+#                   == Contenu du tag 'route' ou 'route_master' (bus, train, tram, métro, ...)
+#
+# comment       peut être vide, il ne sera pas évalué, mais seulement produit
+#                   == peut contenir des commentaires tels que : appeler un taxi, un bus, un bus express, ...
+#                       !texte sur fond jaune ! en commentaire (entouré de simple !)
+#                       "Commentaire avec ; dans le texte"
+#
+# from          peut être vide
+#                   == est utilisé pour différencier plusieurs itinéraires ayant une référence, un type et un opérateur identiques
+#
+# to            peut être vide
+#                   == est utilisé pour différencier plusieurs itinéraires ayant une référence, un type et un opérateur identiques
+#
+# operator      peut être vide
+#                   == est utilisé pour différencier plusieurs itinéraires ayant une référence et un type identiques
+#                       La valeur de "operator" peut contenir " ;", mais doit alors être en "...".
+#
+# gtfs-feed     peut être vide
+#                   == Référence à une source dans l'analyse GTFS de PTNA où ce parcours peut être trouvé (par exemple : "DE-BY-MVV")
+#
+# gtfs-route-id peut être vide
+#                   == Référence à un "route_id" dans les données GTFS qui appartient à cette route
+#
+################################
+#
 
-#
-# This data is *not* stored in the OSM Wiki but in GitHub 
-#
-# Format: format is like in the OSM Wiki
-#
-# Links: [[...|...]] are interne link like in the OSM Wiki
-#        [... ...] are external links
-#
-# Headers start with '=', '==', '===', '====', ... at the beginning of a line
-#
-# Simple text starts with '-' at the beginning of a line.
-#    A single '-' at the beginning of a line, followed by nothing:
-#    - if there was simple text before, it creates a line feed (i.e. encloses the text in a paragraph <p> ... </p>)
-#    - if there was no simple text before or a line feed, it creates an empty line (i.e. <p>&amp;nbsp;</p>)
-#
-# !!!Text yellow background!!! in simple text or headers
-# '''''Text mit bold and italics''''' in simple text or headers
-# '''Text with bold chars''' in simple text or headers
-# ''Text with italic chars'' in simple text or headers
-#
-# Comments start with '#' at the beginning of a line. '#' inside text is not recognized as the start of a comment, i.e.. '#' may occur inside of text.
-#
-# Format of the file: UTF-8
-#
-#
-# Contents in CSV-Format - if ';' is part of the field, then enclose that field in "..."
-#
-# ref;type;comment;from;to;operator
-#
-# - ref       == tag 'ref' of route or route_master
-#                250            defines that routes with 'ref'='250' are expected
-#                250|250a|250b  defines that routes with 'ref'='250' or 'ref'='250a' or 'ref'='250b' are expected - independent of whether this is allowed according to PTv1/PTv2
-# - type      == contents of tags 'route' respectively 'route_master'
-# - comment   == can include comments like; Bus, Expressbus, ...  will not be analyzed, but simply be printed out
-#                !Text with yellow background! in comment (surrounded by single !)
-# - from      == if there is more than one entry with "ref;type" and "operator" is the same, then 'from' and 'to are also used to distinguish between same line number in different cities/villages
-# - to        == if there is more than one entry with "ref;type" and "operator" is the same, then 'from' and 'to are also used to distinguish between same line number in different cities/villages
-# - operator  == if there is more than one entry with "ref;type", then "operator" is used to distinguish between same line number in different cities/villages
-#
 
 
 = Overview on '''Aérial''' Public Transport Lines
