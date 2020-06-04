@@ -36,7 +36,7 @@ PTNA_WWW_REGION_LINK="https://umap.openstreetmap.de/de/map/ptna-search-area-de-s
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="Donau-Iller-Nahverkehrsverbund-GmbH, Betreiber Stadtwerke Ulm"
-PTNA_WWW_NETWORK_LINK=""
+PTNA_WWW_NETWORK_LINK="https://www.swu.de/privatkunden/produkte-leistungen/mobilitaet/"
 
 # Date and Time of last analysis in UTC and Local Time format
 # automatically build by PHP script
