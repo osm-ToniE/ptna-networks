@@ -18,7 +18,6 @@ WIKI_ROUTES_PAGE="Belo_Horizonte/Public_Transport/Analysis/BHTrans_Lines"
 
 ANALYSIS_OPTIONS="--language=pt_BR --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --check-access --check-way-type --check-bus-stop --check-roundabouts --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=allow --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
-# --check-platform
 # --expect-network-short
 # --expect-network-long
 # --expect-network-short-for=
