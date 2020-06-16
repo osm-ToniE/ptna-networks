@@ -5,6 +5,7 @@
 #
 
 PREFIX="CH-CTGE"
+GTFS_FEED="CH-Alle"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][wikidata~'^(Q11917)$'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Transports Publics Genevois|Communauté tarifaire genevoise|Communauté Tarifaire Genevoise|unireso|Unireso"
@@ -14,7 +15,7 @@ ANALYSIS_PAGE="Switzerland:Public_Transport/Unireso/Analysis"
 ANALYSIS_TALK="Talk:Switzerland:Public_Transport/Unireso/Analysis"
 WIKI_ROUTES_PAGE="Switzerland:Public_Transport/Unireso/Analysis/CH-CTGE-Routes"
 
-ANALYSIS_OPTIONS="--language=fr --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-way-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--language=fr --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$GTFS_FEED --max-error=10 --check-access --check-way-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --language=de
 # --check-bus-stop
