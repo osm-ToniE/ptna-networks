@@ -8,7 +8,7 @@ PREFIX="AU-SA-Adelaide-Metro"
 
 PTNA_TIMEZONE="Australia/Adelaide"
 
-OVERPASS_QUERY="http://[2a01:4f8:120:6464::2]/api/interpreter?data=area[wikidata~'^(Q353997|Q1094063|Q1016835|Q1030580|Q1066185|Q1624414|Q1812769|Q1279553|Q56477743|Q1812778|Q976355|Q1533526|Q1537228|Q947334|Q2062776|Q1766439|Q1813391|Q1847617|Q1521840)$'][type=boundary];(rel(area)[route~%27(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)%27];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata~'^(Q353997|Q1094063|Q1016835|Q1030580|Q1066185|Q1624414|Q1812769|Q1279553|Q56477743|Q1812778|Q976355|Q1533526|Q1537228|Q947334|Q2062776|Q1766439|Q1813391|Q1847617|Q1521840)$'][type=boundary];(rel(area)[route~%27(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)%27];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 CALL_PARAMS="--header='Host: overpass-api.de'"
 NETWORK_LONG="Adelaide Metro"
 NETWORK_SHORT=""
