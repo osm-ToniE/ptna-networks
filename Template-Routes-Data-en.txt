@@ -47,43 +47,46 @@
 #
 # Definition of line information:
 #       Content in CSV format
-#       All fields containing ';' must be enclosed in double quotation marks (e.g. "139;142";bus;;; "Operator1;Operator";;)
+#       All fields containing ';' must be enclosed in double quotation marks (e.g. "139;142";bus;;; "Operator1;Operator";;;)
 #
-# ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id
+# ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-releasse-date
 #
-# ref           required
-#                   == tag 'ref' of route or route_master
-#                       250             defines that routes with 'ref'='250' are expected here
-#                       250|250a|250b   defines that routes with 'ref'='250' and 'ref'='250a' and 'ref'='250b' are allowed here
-#                                       whether this is allowed after PTv1/PTv2 is another matter
-#                       605/50          defines that here 'ref' of two 'network' are valid: it is checked,
-#                                       whether 'ref:network1'='605' and 'ref:network2'='50' exist
-#                       139;142"        defines that the route with two numbers exists in the same 'network'.
-#                       "+210"          enables the reserved character '+' at the beginning of 'ref'.
+# ref               required
+#                       == tag 'ref' of route or route_master
+#                           250             defines that routes with 'ref'='250' are expected here
+#                           250|250a|250b   defines that routes with 'ref'='250' and 'ref'='250a' and 'ref'='250b' are allowed here
+#                                           whether this is allowed after PTv1/PTv2 is another matter
+#                           605/50          defines that here 'ref' of two 'network' are valid: it is checked,
+#                                           whether 'ref:network1'='605' and 'ref:network2'='50' exist
+#                           139;142"        defines that the route with two numbers exists in the same 'network'.
+#                           "+210"          enables the reserved character '+' at the beginning of 'ref'.
 #
-# type          required
-#                   == Content of the tag 'route' or 'route_master' (bus, train, tram, subway, ...)
+# type              required
+#                       == Content of the tag 'route' or 'route_master' (bus, train, tram, subway, ...)
 #
-# comment       can be empty, will not be evaluated, just output
-#                   == can contain comments like; call taxi, bus, express bus, ...
-#                       !text with yellow background! in comment (surrounded by simple !)
-#                       "Comment with ; in text"
+# comment           can be empty, will not be evaluated, just output
+#                       == can contain comments like; call taxi, bus, express bus, ...
+#                           !text with yellow background! in comment (surrounded by simple !)
+#                           "Comment with ; in text"
 #
-# from          can be empty
-#                   == is used to differentiate between several routes with identical ref, type and operator
+# from              can be empty
+#                       == is used to differentiate between several routes with identical ref, type and operator
 #
-# to            can be empty
-#                   == is used to differentiate between several routes with identical ref, type and operator
+# to                can be empty
+#                       == is used to differentiate between several routes with identical ref, type and operator
 #
-# operator      can be empty
-#                   == is used to differentiate between several routes with identical ref and type
-#                       The value of 'operator' may contain ';', but must then be in "...".
+# operator          can be empty
+#                       == is used to differentiate between several routes with identical ref and type
+#                           The value of 'operator' may contain ';', but must then be in "...".
 #
-# gtfs-feed     can be empty
-#                   == Reference to a source in the GTFS analysis of PTNA where this route can be found (e.g.: "DE-BY-MVV")
+# gtfs-feed         can be empty
+#                       == Reference to a source in the GTFS analysis of PTNA where this route can be found (e.g.: "DE-BY-MVV")
 #
-# gtfs-route-id can be empty
-#                   == Reference to a "route_id" in the GTFS data that belongs to this route
+# gtfs-route-id     can be empty
+#                       == Reference to a "route_id" in the GTFS data that belongs to this route
+#
+# gtfs-release-date can be empty
+#                       == Reference to a "route_id" in the GTFS data that belongs to this route
 #
 ################################
 #

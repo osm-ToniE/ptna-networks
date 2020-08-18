@@ -47,43 +47,46 @@
 #
 # Définition des informations sur les lignes :
 #       Contenu au format CSV
-#       Tous les champs contenant " ;" doivent être mis entre guillemets (par exemple, "139;142";bus;;; ; "Opérateur1;Opérateur"; ;)
+#       Tous les champs contenant " ;" doivent être mis entre guillemets (par exemple, "139;142";bus;;; ; "Opérateur1;Opérateur";;;)
 #
-# ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id
+# ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
 #
-# ref           requis
-#                   == tag 'ref' de route ou route_master
-#                       250             définit que les itinéraires avec "ref"="250" sont attendus ici
-#                       250|250a|250b   définit que les itinéraires avec "ref'='250" et "ref'='250a" et "ref'='250b" sont autorisés ici
-#                                       la question de savoir si cela est autorisé après PTv1/PTv2 est une autre question
-#                       605/50          définit ici que les "ref" de deux "réseaux" sont valides : il est vérifié,
-#                                       si 'ref:network1'='605' et 'ref:network2'='50' existent
-#                       "139;142"       définit que la route avec deux numéros existe dans le même "réseau".
-#                       "+210"          permet de réserver le caractère "+" au début de "ref".
+# ref               requis
+#                       == tag 'ref' de route ou route_master
+#                           250             définit que les itinéraires avec "ref"="250" sont attendus ici
+#                           250|250a|250b   définit que les itinéraires avec "ref'='250" et "ref'='250a" et "ref'='250b" sont autorisés ici
+#                                           la question de savoir si cela est autorisé après PTv1/PTv2 est une autre question
+#                           605/50          définit ici que les "ref" de deux "réseaux" sont valides : il est vérifié,
+#                                           si 'ref:network1'='605' et 'ref:network2'='50' existent
+#                           "139;142"       définit que la route avec deux numéros existe dans le même "réseau".
+#                           "+210"          permet de réserver le caractère "+" au début de "ref".
 #
-# type          requis
-#                   == Contenu du tag 'route' ou 'route_master' (bus, train, tram, métro, ...)
+# type              requis
+#                       == Contenu du tag 'route' ou 'route_master' (bus, train, tram, métro, ...)
 #
-# comment       peut être vide, il ne sera pas évalué, mais seulement produit
-#                   == peut contenir des commentaires tels que : appeler un taxi, un bus, un bus express, ...
-#                       !texte sur fond jaune ! en commentaire (entouré de simple !)
-#                       "Commentaire avec ; dans le texte"
+# comment           peut être vide, il ne sera pas évalué, mais seulement produit
+#                       == peut contenir des commentaires tels que : appeler un taxi, un bus, un bus express, ...
+#                           !texte sur fond jaune ! en commentaire (entouré de simple !)
+#                           "Commentaire avec ; dans le texte"
 #
-# from          peut être vide
-#                   == est utilisé pour différencier plusieurs itinéraires ayant une référence, un type et un opérateur identiques
+# from              peut être vide
+#                       == est utilisé pour différencier plusieurs itinéraires ayant une référence, un type et un opérateur identiques
 #
-# to            peut être vide
-#                   == est utilisé pour différencier plusieurs itinéraires ayant une référence, un type et un opérateur identiques
+# to                peut être vide
+#                       == est utilisé pour différencier plusieurs itinéraires ayant une référence, un type et un opérateur identiques
 #
-# operator      peut être vide
-#                   == est utilisé pour différencier plusieurs itinéraires ayant une référence et un type identiques
-#                       La valeur de "operator" peut contenir " ;", mais doit alors être en "...".
+# operator          peut être vide
+#                       == est utilisé pour différencier plusieurs itinéraires ayant une référence et un type identiques
+#                           La valeur de "operator" peut contenir " ;", mais doit alors être en "...".
 #
-# gtfs-feed     peut être vide
-#                   == Référence à une source dans l'analyse GTFS de PTNA où ce parcours peut être trouvé (par exemple : "DE-BY-MVV")
+# gtfs-feed         peut être vide
+#                       == Référence à une source dans l'analyse GTFS de PTNA où ce parcours peut être trouvé (par exemple : "DE-BY-MVV")
 #
-# gtfs-route-id peut être vide
-#                   == Référence à un "route_id" dans les données GTFS qui appartient à cette route
+# gtfs-route-id     peut être vide
+#                       == Référence à un "route_id" dans les données GTFS qui appartient à cette route
+#
+# gtfs-release-date peut être vide
+#                       == Référence à un "route_id" dans les données GTFS qui appartient à cette route
 #
 ################################
 #
