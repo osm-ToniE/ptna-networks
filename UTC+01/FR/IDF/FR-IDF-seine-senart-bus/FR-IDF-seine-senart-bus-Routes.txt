@@ -48,7 +48,7 @@
 #       Contenu au format CSV
 #       Tous les champs contenant " ;" doivent être mis entre guillemets (par exemple, "139;142";bus;;; ; "Opérateur1;Opérateur"; ;)
 #
-# ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id
+# ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
 #
 # ref           requis
 #                   == tag 'ref' de route ou route_master
@@ -83,6 +83,9 @@
 #
 # gtfs-route-id peut être vide
 #                   == Référence à un "route_id" dans les données GTFS qui appartient à cette route
+#
+# gtfs-release-date peut être vide
+#                       == Référence à une version spécial des données GTFS (par example : "2020-08-18")
 #
 ################################
 #

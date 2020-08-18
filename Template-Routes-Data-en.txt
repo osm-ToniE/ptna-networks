@@ -86,7 +86,7 @@
 #                       == Reference to a "route_id" in the GTFS data that belongs to this route
 #
 # gtfs-release-date can be empty
-#                       == Reference to a "route_id" in the GTFS data that belongs to this route
+#                       == Reference to special release of the GTFS data (e.g.: "2020-08-18")
 #
 ################################
 #
