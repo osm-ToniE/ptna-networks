@@ -33,7 +33,7 @@ PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btim
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="Nordhessischer VerkehrsVerbund"
-PTNA_WWW_NETWORK_LINK=""
+PTNA_WWW_NETWORK_LINK="https://www.nvv.de/"
 
 # Date and Time of last analysis in UTC and Local Time format
 # automatically build by PHP script
