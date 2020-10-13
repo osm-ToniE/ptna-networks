@@ -34,7 +34,7 @@ PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btim
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="Verkehrsgemeinschaft Landkreis Deggendorf;Stadtbusnetz Deggendorf"
-PTNA_WWW_NETWORK_LINK="https://www.vld-online.de/"
+PTNA_WWW_NETWORK_LINK="https://www.vld-online.de/;http://www.artmeier-reisen.de/linienverkehr.html"
 
 # Date and Time of last analysis in UTC and Local Time format
 # automatically build by PHP script
