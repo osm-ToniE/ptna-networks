@@ -31,7 +31,7 @@ ANALYSIS_OPTIONS="--allow-coach --check-gtfs --link-gtfs --show-gtfs --gtfs-feed
 
 # Name + Link to Overpass-Turbo call to show area on map
 PTNA_WWW_REGION_NAME="Europe"
-PTNA_WWW_REGION_LINK="https://umap.openstreetmap.de/de/map/ptna-search-area-europe-flixbus_1636"
+PTNA_WWW_REGION_LINK="https://umap.openstreetmap.de/de/map/ptna-search-area-europe_1636"
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="Flixbus;Flixtrain"
