@@ -7,15 +7,14 @@
 PREFIX="RS-00-Belgrade"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata~'^(Q2074197)$'][type=boundary];(rel(area)[route~%27(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)%27];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-CALL_PARAMS="--header='Host: overpass-api.de'"
 NETWORK_LONG=""
-NETWORK_SHORT=""
+NETWORK_SHORT="ITS|ITS 1|ITS 2|ITS 1/2|ITS1|ITS2|ИТС|ИТС 2|БГ:Воз"
 
 ANALYSIS_PAGE=""
 ANALYSIS_TALK=""
 WIKI_ROUTES_PAGE=""
 
-ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --check-access --check-way-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=sr --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --check-access --check-way-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
 # --check-bus-stop
 # --expect-network-long
