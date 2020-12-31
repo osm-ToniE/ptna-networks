@@ -6,7 +6,7 @@
 
 PREFIX="DE-BY-INVG"
 
-OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level=6][name~'Ingolstadt'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level=6][name~'(Ingolstadt|Landkreis Eichstätt)'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Ingolstädter Verkehrsgesellschaft mbH"
 NETWORK_SHORT="INVG"
 
@@ -29,8 +29,8 @@ ANALYSIS_OPTIONS="--language=de --check-bus-stop --link-gtfs --show-gtfs --gtfs-
 # automatically build by PHP script
 
 # Name + Link to Overpass-Turbo call to show area on map
-PTNA_WWW_REGION_NAME="Stadt und Landkreis Ingolstadt"
-PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation%5Bboundary%3Dadministrative%5D%5Badmin_level%3D6%5D%5Bname~%27Ingolstadt%27%5D%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
+PTNA_WWW_REGION_NAME="Stadt und Landkreis Ingolstadt sowie Landkreis Eichstätt"
+PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation%5Bboundary%3Dadministrative%5D%5Badmin_level%3D6%5D%5Bname~%27(Ingolstadt|Landkreis%20Eichst%C3%A4tt)%27%5D%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="Ingolstädter Verkehrsgesellschaft mbH"
