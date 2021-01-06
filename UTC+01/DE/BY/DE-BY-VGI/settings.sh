@@ -7,8 +7,8 @@
 PREFIX="DE-BY-VGI"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level=6][name~'(Ingolstadt|Landkreis Eichstätt|Landkreis Pfaffenhofen an der Ilm|Landkreis Neuburg-Schrobenhausen)'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="Verkehrsgemeinschaft Region Ingolstadt"
-NETWORK_SHORT="VGI"
+NETWORK_LONG="Verkehrsgemeinschaft Region Ingolstadt|Bayerische Eisenbahngesellschaft"
+NETWORK_SHORT="VGI|BEG"
 
 ANALYSIS_PAGE="Ingolstadt/Transportation/Analyse"
 ANALYSIS_TALK="Talk:Ingolstadt/Transportation/Analyse"
