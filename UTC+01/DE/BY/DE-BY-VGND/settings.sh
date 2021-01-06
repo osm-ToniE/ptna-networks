@@ -7,8 +7,8 @@
 PREFIX="DE-BY-VGND"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level=6][name='Landkreis Neuburg-Schrobenhausen'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="Verkehrsgemeinschaft Neuburg an der Donau|Ingolstädter Verkehrsgesellschaft mbH|Regionalbus Augsburg|Regionalbus Augsburg GmbH|Seitz|Spangler|Stadtbus Schrobenhausen|Stadtlinie Neuburg|Werksbus MBB|Stadtbus SOB"
-NETWORK_SHORT="VGND|INVG|RBA|SOB"
+NETWORK_LONG="Verkehrsgemeinschaft Neuburg an der Donau|Regionalbus Augsburg|Regionalbus Augsburg GmbH|Seitz|Spangler|Stadtbus Schrobenhausen|Stadtlinie Neuburg|Werksbus MBB|Stadtbus SOB|Verkehrsgemeinschaft Region Ingolstadt"
+NETWORK_SHORT="VGND|RBA|SOB|VGI"
 
 ANALYSIS_PAGE="Neuburg_an_der_Donau/Transportation/Analyse"
 ANALYSIS_TALK="Talk:Neuburg_an_der_Donau/Transportation/Analyse"
