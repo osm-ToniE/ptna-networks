@@ -8,7 +8,7 @@ PREFIX="RS-00-Beograd"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata~'^(Q2074197)$'][type=boundary];(rel(area)[route~%27(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)%27];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG=""
-NETWORK_SHORT="ITS|ITS 1|ITS 2|ITS 1/2|ITS1|ITS2|ИТС|ИТС 2|БГ:Воз"
+NETWORK_SHORT="ITS|ITS 1|ITS 2|ITS 1/2|ITS1|ITS2|ИТС|ИТС 2|ИТС2|БГ:Воз"
 
 ANALYSIS_PAGE="Beograd/Javni_prevoz/Analiza"
 ANALYSIS_TALK="Talk:Beograd/Javni_prevoz/Analiza"
