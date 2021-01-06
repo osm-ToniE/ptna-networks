@@ -7,8 +7,8 @@
 PREFIX="DE-BY-VGA"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level=6][name='Landkreis Eichstätt'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="Verkehrsgmeinschaft Altmühltal|Jägle Verkehrsbetriebe|Regionalbus Augsburg|Regionalbus Augsburg GmbH|Ingolstädter Verkehrsgesellschaft mbH|Verkehrsverbund Großraum Nürnberg|Verkehrsverbund Großraum Nürnberg GmbH|Verkehrsgemeinschaft Landkreis Kelheim|Stadtlinie Eichstätt|Sillner|Buchberger Reisen"
-NETWORK_SHORT="VGA|JVB|RBA|INVG|VGN|VLK"
+NETWORK_LONG="Verkehrsgmeinschaft Altmühltal|Jägle Verkehrsbetriebe|Regionalbus Augsburg|Regionalbus Augsburg GmbH|Verkehrsverbund Großraum Nürnberg|Verkehrsverbund Großraum Nürnberg GmbH|Verkehrsgemeinschaft Landkreis Kelheim|Stadtlinie Eichstätt|Sillner|Buchberger Reisen|Verkehrsgemeinschaft Region Ingolstadt"
+NETWORK_SHORT="VGA|JVB|RBA|VGN|VLK|VGI"
 
 ANALYSIS_PAGE="Eichstätt/Transportation/Analyse"
 ANALYSIS_TALK="Talk:Eichstätt/Transportation/Analyse"
