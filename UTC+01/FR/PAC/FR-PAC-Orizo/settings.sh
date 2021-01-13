@@ -11,7 +11,7 @@ OVERPASS_REUSE_ID="FR-PAC-Q12792-train-tram-bus"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata=Q12792][type=boundary];(rel(area)[route~'(train|tram|bus)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Orizo"
-NETWORK_SHORT="Orizo"
+NETWORK_SHORT=""
 
 ANALYSIS_PAGE="Avignon/Transports_en_commun/Analyse"
 ANALYSIS_TALK="Talk:Avignon/Transports_en_commun/Analyse"
@@ -36,7 +36,7 @@ PTNA_WWW_REGION_NAME="Vaucluse"
 PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%0A[out%3Ajson][timeout%3A25]%3B%0A%0A(%0A%0A++relation[%22wikidata%22%3D%22Q12792%22]%3B%0A)%3B%0Aout+body%3B%0A%3E%3B%0Aout+skel+qt%3B{{data%3Aoverpass%2Cserver%3D%2F%2Foverpass.openstreetmap.fr%2Fapi%2F}}"
 
 # Name + Link to the network provider / transport association
-PTNA_WWW_NETWORK_NAME="$NETWORK_SHORT"
+PTNA_WWW_NETWORK_NAME="$NETWORK_LONG"
 PTNA_WWW_NETWORK_LINK="https://www.orizo.fr/"
 
 # Date and Time of last analysis in UTC and Local Time format
@@ -50,5 +50,5 @@ PTNA_WWW_DISCUSSION_NAME="Discussion"
 PTNA_WWW_DISCUSSION_LINK=""
 
 # Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
-PTNA_WWW_ROUTES_NAME="Lignes $NETWORK_SHORT"
+PTNA_WWW_ROUTES_NAME="Lignes $NETWORK_LONG"
 PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
