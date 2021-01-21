@@ -30,7 +30,7 @@ ANALYSIS_OPTIONS="--language=hr --check-gtfs --link-gtfs --show-gtfs --gtfs-feed
 # automatically build by PHP script
 
 # Name + Link to Overpass-Turbo call to show area on map
-PTNA_WWW_REGION_NAME="Grad Zagreb"
+PTNA_WWW_REGION_NAME="Grad Zagreb i Zagrebačka županija"
 PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation[wikidata~'^(Q1435|Q27038)$'][type=boundary][admin_level=6]%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
 
 # Name + Link to the network provider / transport association
