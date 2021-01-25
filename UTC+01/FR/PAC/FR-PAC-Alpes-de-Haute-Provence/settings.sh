@@ -7,10 +7,10 @@
 PREFIX="FR-PAC-Alpes-de-Haute-Provence"
 
 # avoid downloading same area/data if the data has already been downloaded and is not older than 1 hour (start analysis with: "ptna-networks.sh -fo" to 'f'orce download)
-OVERPASS_REUSE_ID="FR-PAC-Q3131-train-bus"
+# OVERPASS_REUSE_ID="FR-PAC-Q3131-train-bus"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata=Q3131][type=boundary];(rel(area)[route~'(train|bus)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="TER Provence-Alpes-Côte d'Azur|Trans’Agglo|PAA|RTUD|CCVUSP"
+NETWORK_LONG="TER Provence-Alpes-Côte d'Azur|Trans'Agglo|PAA|RTUD|CCVUSP"
 NETWORK_SHORT=""
 
 ANALYSIS_PAGE="Alpes-de-Haute-Provence/Transports_en_commun/Analyse"
@@ -36,7 +36,7 @@ PTNA_WWW_REGION_NAME="Alpes-de-Haute-Provence"
 PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=%0A[out%3Ajson][timeout%3A25]%3B%0A%0A(%0A%0A++relation[%22wikidata%22%3D%22Q3131%22]%3B%0A)%3B%0Aout+body%3B%0A%3E%3B%0Aout+skel+qt%3B{{data%3Aoverpass%2Cserver%3D%2F%2Foverpass.openstreetmap.fr%2Fapi%2F}}"
 
 # Name + Link to the network provider / transport association
-PTNA_WWW_NETWORK_NAME="TER Provence-Alpes-Côte d'Azur;Trans’Agglo;TUD;CCVUSP"
+PTNA_WWW_NETWORK_NAME="TER Provence-Alpes-Côte d'Azur;Trans'Agglo;TUD;CCVUSP"
 PTNA_WWW_NETWORK_LINK="https://www.ter.sncf.com/sud-provence-alpes-cote-d-azur;https://mobilite.dlva.fr/;https://www.provencealpesagglo.fr/;https://www.ccvusp.fr/"
 
 # Date and Time of last analysis in UTC and Local Time format
