@@ -7,11 +7,11 @@
 PREFIX="FR-PAC-Vaucluse"
 
 # avoid downloading same area/data if the data has already been downloaded and is not older than 1 hour (start analysis with: "ptna-networks.sh -fo" to 'f'orce download via 'o'verpass api)
-OVERPASS_REUSE_ID="FR-PAC-Q12792-Q1458257-train-tram-bus"
+# OVERPASS_REUSE_ID="FR-PAC-Q12792-Q1458257-train-tram-bus"
 
 # Use the Wikidata boundary of the Vaucluse département and a small political boundary to get the Orizo bus lines near Villeneuve-lès-Avignon
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:300];area[wikidata~'^(Q12792|Q1458257)$'][type=boundary];(rel(area)[route~'(train|tram|bus)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="TER Provence-Alpes-Côte d'Azur|TUB Bollène|Trans'CoVe|TCVO|Sorg'en bus|C mon bus"
+NETWORK_LONG="TER Provence-Alpes-Côte d'Azur|TUB Bollène|Trans'CoVe|TCVO|Sorg'en bus|C mon bus|Pays d'Aix mobilité"
 NETWORK_SHORT=""
 
 ANALYSIS_PAGE="Vaucluse/Transports_en_commun/Analyse"
@@ -37,8 +37,8 @@ PTNA_WWW_REGION_NAME="Vaucluse et Villeneuve-lès-Avignon"
 PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[wikidata~%27^(Q12792|Q1458257)%24%27][type%3Dboundary]%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B"
 
 # Name + Link to the network provider / transport association
-PTNA_WWW_NETWORK_NAME="TER Provence-Alpes-Côte d'Azur;TUB Bollène;Trans'CoVe;TCVO;Sorg'en bus;C mon bus"
-PTNA_WWW_NETWORK_LINK="https://www.ter.sncf.com/sud-provence-alpes-cote-d-azur;https://www.voyages-auran.com/reseaux/tub-bollene/lignes-regulieres;http://www.transcove.com;https://www.tcvo.fr/;https://www.sorgues.fr/vivre/transports.htm;http://www.luberonmontsdevaucluse.fr/agglomeration/c-mon-bus"
+PTNA_WWW_NETWORK_NAME="TER Provence-Alpes-Côte d'Azur;TUB Bollène;Trans'CoVe;TCVO;Sorg'en bus;C mon bus;Pays d'Aix Mobilité"
+PTNA_WWW_NETWORK_LINK="https://www.ter.sncf.com/sud-provence-alpes-cote-d-azur;https://www.voyages-auran.com/reseaux/tub-bollene/lignes-regulieres;http://www.transcove.com;https://www.tcvo.fr/;https://www.sorgues.fr/vivre/transports.htm;http://www.luberonmontsdevaucluse.fr/agglomeration/c-mon-bus;https://www.agglo-paysdaix.fr/transports.html"
 
 # Date and Time of last analysis in UTC and Local Time format
 # automatically build by PHP script
