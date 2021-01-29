@@ -7,10 +7,10 @@
 PREFIX="FR-PAC-Orizo"
 
 # avoid downloading same area/data if the data has already been downloaded and is not older than 1 hour (start analysis with: "ptna-networks.sh -fo" to 'f'orce download via 'o'verpass api)
-OVERPASS_REUSE_ID="FR-PAC-Q12792-Q1458257-train-tram-bus"
+OVERPASS_REUSE_ID="FR-PAC-Q1120105-train-tram-bus"
 
-# Use the Wikidata boundary of the Vaucluse département and a small political boundary to get the Orizo bus lines near Villeneuve-lès-Avignon
-OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:300];area[wikidata~'^(Q12792|Q1458257)$'][type=boundary];(rel(area)[route~'(train|tram|bus)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+# Use the Wikidata boundary of the Grand Avignon to get the Orizo bus lines near Villeneuve-lès-Avignon
+OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:300];area[wikidata=Q1120105][type=boundary];(rel(area)[route~'(train|tram|bus)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Orizo"
 NETWORK_SHORT=""
 
@@ -33,8 +33,8 @@ ANALYSIS_OPTIONS="--language=fr --check-bus-stop --link-gtfs --show-gtfs --gtfs-
 # automatically build by PHP script
 
 # Name + Link to Overpass-Turbo call to show area on map
-PTNA_WWW_REGION_NAME="Vaucluse et Villeneuve-lès-Avignon"
-PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[wikidata~%27^(Q12792|Q1458257)%24%27][type%3Dboundary]%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B"
+PTNA_WWW_REGION_NAME="Grand Avignon"
+PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[wikidata%3DQ1120105][type%3Dboundary]%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B{{data%3Aoverpass%2Cserver%3D%2F%2Foverpass.openstreetmap.fr%2Fapi%2F}}"
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="$NETWORK_LONG"
