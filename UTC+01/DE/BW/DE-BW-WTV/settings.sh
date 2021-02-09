@@ -10,9 +10,9 @@ OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=admini
 NETWORK_LONG="Waldshuter Tarifverbund|Waldshuter Tarifverbund GmbH"
 NETWORK_SHORT="WTV"
 
-ANALYSIS_PAGE= #"Waldshuter_Tarifverbund/Analyse"
-ANALYSIS_TALK= #"Talk:Waldshuter_Tarifverbund/Analyse"
-WIKI_ROUTES_PAGE= #"Waldshuter_Tarifverbund/Analyse/DE-BW-WTV-Routes"
+ANALYSIS_PAGE="Waldshuter_Tarifverbund/Analyse"
+ANALYSIS_TALK="Talk:Waldshuter_Tarifverbund/Analyse"
+WIKI_ROUTES_PAGE="Waldshuter_Tarifverbund/Analyse/DE-BW-WTV-Routes"
 
 ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --check-access --check-way-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
@@ -44,8 +44,8 @@ PTNA_WWW_NETWORK_LINK="https://www.wtv-online.de/"
 
 # Name + Link to discussion / documentation page (usually in OSM Wiki)
 PTNA_WWW_DISCUSSION_NAME="Diskussion"
-PTNA_WWW_DISCUSSION_LINK= #"https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
+PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 
 # Name + Link to list of expected public transport routes page (usually in OSM Wiki but can als be on GitHub)
 PTNA_WWW_ROUTES_NAME="WTV Linien"
-PTNA_WWW_ROUTES_LINK= #"https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
+PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
