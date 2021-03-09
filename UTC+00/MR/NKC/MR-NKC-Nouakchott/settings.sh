@@ -13,9 +13,9 @@ OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata=Q3688]
 NETWORK_LONG=""
 NETWORK_SHORT=""
 
-ANALYSIS_PAGE=""
-ANALYSIS_TALK=""
-WIKI_ROUTES_PAGE=""
+ANALYSIS_PAGE="Mauritania/Public_Transport/Nouakchott/Analysis"
+ANALYSIS_TALK="Talk:Mauritania/Public_Transport/Nouakchott/Analysis"
+WIKI_ROUTES_PAGE="Mauritania/Public_Transport/Nouakchott/Routes_in_Nouakchott"
 
 ANALYSIS_OPTIONS="--language=fr --positive-notes --check-bus-stop --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-way-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --expect-network-long --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
@@ -51,5 +51,5 @@ PTNA_WWW_DISCUSSION_NAME=""
 PTNA_WWW_DISCUSSION_LINK=""
 
 # Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
-PTNA_WWW_ROUTES_NAME= #"Lignes en Nouakchott"
-PTNA_WWW_ROUTES_LINK= #"https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
+PTNA_WWW_ROUTES_NAME="Lignes en Nouakchott"
+PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
