@@ -4,7 +4,7 @@
 # set variables for analysis of network
 #
 
-PREFIX="MR-NKC-Nouakchott"
+PREFIX="MR-NKC-Nouakchott-es"
 
 # avoid downloading same area/data if the data has already been downloaded and is not older than 1 hour (start analysis with: "ptna-networks.sh -fo" to 'f'orce download 'o'verpass data)
 OVERPASS_REUSE_ID="MR-NKC-Nouakchott-Q3688-all"
@@ -17,7 +17,7 @@ ANALYSIS_PAGE=""
 ANALYSIS_TALK=""
 WIKI_ROUTES_PAGE=""
 
-ANALYSIS_OPTIONS="--language=fr --positive-notes --check-bus-stop --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-way-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --expect-network-long --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--language=es --positive-notes --check-bus-stop --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-way-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --expect-network-long --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --check-gtfs
 # --expect-network-short
