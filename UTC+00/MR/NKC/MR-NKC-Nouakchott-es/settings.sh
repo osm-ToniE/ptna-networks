@@ -6,6 +6,8 @@
 
 PREFIX="MR-NKC-Nouakchott-es"
 
+PTNA_TIMEZONE="Africa/Nouakchott"
+
 # avoid downloading same area/data if the data has already been downloaded and is not older than 1 hour (start analysis with: "ptna-networks.sh -fo" to 'f'orce download 'o'verpass data)
 OVERPASS_REUSE_ID="MR-NKC-Nouakchott-Q3688-all"
 
