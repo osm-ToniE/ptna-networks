@@ -6,6 +6,8 @@
 
 PREFIX="DE-RP-RNN"
 
+PTNA_TIMEZONE="Europe/Berlin"
+
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][wikidata~'^(Q8569|Q8566|Q8572|Q8575)$'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Rhein-Nahe Nahverkehrsverbund|Rhein-Nahe Nahverkehrsverbund GmbH"
 NETWORK_SHORT="RNN"

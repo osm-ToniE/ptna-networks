@@ -6,6 +6,8 @@
 
 PREFIX="MA-01-Tetouan"
 
+PTNA_TIMEZONE="Africa/Casablanca"
+
 # avoid downloading same area/data if the data has already been downloaded and is not older than 1 hour (start analysis with: "ptna-networks.sh -fo" to 'f'orce download 'o'verpass data)
 # OVERPASS_REUSE_ID=""
 

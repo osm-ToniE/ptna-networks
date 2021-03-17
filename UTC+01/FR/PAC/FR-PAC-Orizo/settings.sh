@@ -6,6 +6,8 @@
 
 PREFIX="FR-PAC-Orizo"
 
+PTNA_TIMEZONE="Europe/Paris"
+
 # avoid downloading same area/data if the data has already been downloaded and is not older than 1 hour (start analysis with: "ptna-networks.sh -fo" to 'f'orce download via 'o'verpass api)
 # OVERPASS_REUSE_ID="FR-PAC-Q1120105-train-tram-bus"
 

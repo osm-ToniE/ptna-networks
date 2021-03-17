@@ -6,6 +6,8 @@
 
 PREFIX="FR-IDF-Peps"
 
+PTNA_TIMEZONE="Europe/Paris"
+
 # avoid downloading same area/data if the data has already been downloaded and is not older than 1 hour (start analysis with: "ptna-networks.sh -fo" to 'f'orce download)
 OVERPASS_REUSE_ID="FR-IDF-Q12753-bus"
 

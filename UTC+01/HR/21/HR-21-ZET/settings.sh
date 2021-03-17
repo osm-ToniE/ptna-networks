@@ -6,6 +6,8 @@
 
 PREFIX="HR-21-ZET"
 
+PTNA_TIMEZONE="Europe/Zagreb"
+
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata~'^(Q1435|Q27038)$'][type=boundary][admin_level=6];(rel(area)[route~%27(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)%27];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Zagrebački električni tramvaj"
 NETWORK_SHORT="ZET"
