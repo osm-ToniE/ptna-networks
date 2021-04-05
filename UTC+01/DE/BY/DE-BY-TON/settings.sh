@@ -6,6 +6,8 @@
 
 PREFIX="DE-BY-TON"
 
+PTNA_TIMEZONE="Europe/Berlin"
+
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata~'^(Q7042|Q10421|Q10419|Q10420|Q14803|Q10423)$'][type=boundary];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Tarif Oberpfalz Nord|Nahverkehrsgemeinschaft Weiden–Neustadt|Regionalbus Ostbayern|Stadtbus Weiden|Verkehrsgemeinschaft Amberg-Sulzbach|Verkehrsgemeinschaft Tirschenreuth|Landkreislinien Schwandorf"
 NETWORK_SHORT="TON|NWN|RBO|VAS|VGT"

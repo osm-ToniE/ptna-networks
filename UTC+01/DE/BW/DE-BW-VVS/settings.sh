@@ -6,6 +6,8 @@
 
 PREFIX="DE-BW-VVS"
 
+PTNA_TIMEZONE="Europe/Berlin"
+
 #OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=(rel(poly:'49.1287145 9.5478093 49.0293208 8.8694578 48.8891013 8.6834519 48.7580000 8.8062314 48.6239348 8.5938594 48.5161551 8.7307291 48.4410462 9.7229035 48.9504628 9.8629993')[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level=6][name~'(Stuttgart|Landkreis Ludwigsburg|Rems-Murr-Kreis|Landkreis Göppingen|Landkreis Esslingen|Landkreis Böblingen)'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(r.routes););out;"
 NETWORK_LONG="Verkehrs- und Tarifverbund Stuttgart"
