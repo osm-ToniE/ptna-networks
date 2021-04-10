@@ -1,0 +1,194 @@
+{
+  "type": "umap",
+  "uri": "https://umap.openstreetmap.de/de/map/ptna-search-area-de-sw-ding-swu_1637#12/48.3902/10.0044",
+  "properties": {
+    "easing": true,
+    "embedControl": true,
+    "fullscreenControl": true,
+    "searchControl": true,
+    "datalayersControl": true,
+    "zoomControl": true,
+    "slideshow": {},
+    "captionBar": false,
+    "limitBounds": {},
+    "tilelayer": {
+      "tms": false,
+      "name": "OSM Carto",
+      "maxZoom": 18,
+      "minZoom": 0,
+      "attribution": "Map data © by Openstreetmap contributors, Map Style CC-BY-SA licence 2.0",
+      "url_template": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+    },
+    "licence": "",
+    "description": "see: https://ptna.openstreetmap.de",
+    "name": "ptna-search-area-DE-SW-DING-SWU",
+    "displayPopupFooter": false,
+    "miniMap": false,
+    "moreControl": true,
+    "scaleControl": true,
+    "scrollWheelZoom": true,
+    "zoom": 12
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.004425048828127,
+      48.39016407044626
+    ]
+  },
+  "layers": [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Circle"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              9.868786,
+              48.357842
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Circle"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              9.935879,
+              48.319394
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Circle"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              10.116924,
+              48.334782
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Circle"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              10.076077,
+              48.43081
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Circle"
+            },
+            "name": "ptna-search-area-DE-BW-DING-SWU",
+            "description": "see: https://ptna.openstreetmap.de"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              9.989167,
+              48.453905
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "ptna-search-area-DE-BW-DING-SWU",
+            "description": "see: https://ptna.openstreetmap.de",
+            "_umap_options": {
+              "iconClass": "Circle"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              9.866177,
+              48.422626
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "DarkOrange",
+              "weight": "6",
+              "fillColor": "DarkOrange",
+              "fillOpacity": "0.2"
+            },
+            "name": "ptna-search-area-DE-BW-DING-SWU",
+            "description": "see: https://ptna.openstreetmap.de"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  9.989169,
+                  48.453904
+                ],
+                [
+                  9.866173,
+                  48.422631
+                ],
+                [
+                  9.868469,
+                  48.358154
+                ],
+                [
+                  9.936104,
+                  48.319794
+                ],
+                [
+                  10.116348,
+                  48.334639
+                ],
+                [
+                  10.076523,
+                  48.431371
+                ],
+                [
+                  9.989169,
+                  48.453904
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "name": "Ebene 1",
+        "id": 13103
+      }
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "type": "umap",
+  "uri": "https://umap.openstreetmap.de/de/map/ptna-search-area-europe_1636#4/56.99/21.09",
+  "properties": {
+    "easing": true,
+    "embedControl": true,
+    "fullscreenControl": true,
+    "searchControl": true,
+    "datalayersControl": true,
+    "zoomControl": true,
+    "slideshow": {},
+    "captionBar": false,
+    "limitBounds": {},
+    "tilelayer": {
+      "tms": false,
+      "name": "OSM Carto",
+      "maxZoom": 18,
+      "minZoom": 0,
+      "attribution": "Map data © by Openstreetmap contributors, Map Style CC-BY-SA licence 2.0",
+      "url_template": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+    },
+    "licence": "",
+    "description": "see: https://ptna.openstreetmap.de",
+    "name": "ptna-search-area-europe",
+    "displayPopupFooter": false,
+    "miniMap": false,
+    "moreControl": true,
+    "scaleControl": true,
+    "scrollWheelZoom": true,
+    "zoom": 4
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.093750000000004,
+      56.992882804633986
+    ]
+  },
+  "layers": [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Circle"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -23.073658,
+              66.656976
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Circle"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -8.995334,
+              36.709206
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Circle"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -5.621412,
+              35.940435
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Circle"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              14.433235,
+              35.613935
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Circle"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              24.131537,
+              34.700801
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Circle"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              32.744154,
+              34.438999
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Circle"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              34.772426,
+              35.861495
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Circle"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              28.282708,
+              36.549934
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Circle"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              26.315292,
+              38.45303
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Circle"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              26.049915,
+              40.371418
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Circle"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              29.573072,
+              41.37937
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Circle"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              38.338122,
+              46.980752
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Circle"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              41.312596,
+              68.597665
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Circle"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              28.389704,
+              71.289399
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "DarkOrange",
+              "opacity": "0.4",
+              "weight": "8",
+              "stroke": true,
+              "fill": true,
+              "fillColor": "DarkOrange",
+              "fillOpacity": "0.3"
+            }
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -23.073692,
+                  66.656976
+                ],
+                [
+                  -8.997803,
+                  36.712755
+                ],
+                [
+                  -5.625,
+                  35.938538
+                ],
+                [
+                  14.458008,
+                  35.659396
+                ],
+                [
+                  24.104004,
+                  34.707099
+                ],
+                [
+                  32.76123,
+                  34.435561
+                ],
+                [
+                  34.782715,
+                  35.83782
+                ],
+                [
+                  28.300781,
+                  36.547504
+                ],
+                [
+                  26.30127,
+                  38.448493
+                ],
+                [
+                  26.015625,
+                  40.417959
+                ],
+                [
+                  29.597168,
+                  41.381725
+                ],
+                [
+                  38.342285,
+                  46.962966
+                ],
+                [
+                  41.396484,
+                  68.59614
+                ],
+                [
+                  28.300781,
+                  71.333543
+                ],
+                [
+                  -23.073692,
+                  66.656976
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "weight": "3"
+            },
+            "name": "ptna-search-area-europe-flixbus",
+            "description": "This is the search area for the overpass-api query for the PTNA analysis of Flixbus in Europe\n\nhttps://ptna.openstreetmap.de\n\nhttp://overpass-api.de/api/interpreter?data=[timeout:900];(rel(poly:'66.6569762 -23.0736582 36.7092056 -8.9953345 35.9404351 -5.6214121 35.6139346 14.4332346 34.7008006 24.1315366 34.4389993 32.7441537 35.8614952 34.7724255 36.5499339 28.2827078 38.4530304 26.3152919 40.3714182 26.0499145 41.3793698 29.5730723 46.9807515 38.3381215 68.5976645 41.3125962 71.2893993 28.3897039')[route~'(bus|train|coach)'][~'network|operator'~'(Fernb|fernb|Flix|flix)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r.routes);node(w);node(r.routes););out;\n\n"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -23.203125,
+                66.789693
+              ]
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "name": "Ebene 1",
+        "id": 13102
+      }
+    }
+  ]
+}
