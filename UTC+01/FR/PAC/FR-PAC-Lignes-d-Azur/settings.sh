@@ -40,7 +40,7 @@ PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="TER Provence-Alpes-Côte d'Azur;Lignes d'Azur"
-PTNA_WWW_NETWORK_LINK="https://www.ter.sncf.com/sud-provence-alpes-cote-d-azur;https://www.envibus.fr/;https://sillages.paysdegrasse.fr/;https://www.palmbus.fr/;https://www.zestbus.fr/"
+PTNA_WWW_NETWORK_LINK="https://www.ter.sncf.com/sud-provence-alpes-cote-d-azur;https://www.lignesdazur.com/"
 
 # Date and Time of last analysis in UTC and Local Time format
 # automatically build by PHP script
