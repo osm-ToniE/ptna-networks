@@ -8,7 +8,7 @@ PREFIX="US-Flixbus"
 
 PTNA_TIMEZONE="America/Los_Angeles"
 
-OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=[timeout:1800];area[wikidata=%27Q30%27];(rel(area)[route~%27(bus|coach)%27][~%27network|operator%27~%27(Fernb|fernb|Flix|flix)%27];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=[timeout:1800];area[wikidata=%27Q30%27];(rel(area)[~'route'~'(bus|coach)'][~%27network|operator%27~%27(Fernb|fernb|Flix|flix)%27];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Flixbus|FlixBus"
 NETWORK_SHORT=""
 

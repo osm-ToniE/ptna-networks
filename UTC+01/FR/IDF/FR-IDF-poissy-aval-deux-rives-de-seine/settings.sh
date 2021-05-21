@@ -12,7 +12,7 @@ PTNA_TIMEZONE="Europe/Paris"
 # avoid downloading same area/data if the data has already been downloaded and is not older than 1.5 hours (start analysis with: "ptna-networks.sh -fo" to 'f'orce download)
 OVERPASS_REUSE_ID="FR-IDF-Q13917-bus"
 
-OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata=Q13917][type=boundary];(rel(area)[route~'bus'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata=Q13917][type=boundary];(rel(area)[~'route'~'bus'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Poissy Aval - 2 Rives de Seine|Poissy Aval - 2 rives de Seine|Poissy Aval - Deux Rives de Seine"
 NETWORK_SHORT=""
 

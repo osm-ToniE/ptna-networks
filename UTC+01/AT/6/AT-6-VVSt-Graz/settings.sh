@@ -8,7 +8,7 @@ PREFIX="AT-6-VVSt-Graz"
 
 PTNA_TIMEZONE="Europe/Vienna"
 
-OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata~'^Q13298$'][type=boundary];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata~'^Q13298$'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="S-Bahn Steiermark|Verkehrsverbund Steiermark"
 NETWORK_SHORT="VVSt"
 

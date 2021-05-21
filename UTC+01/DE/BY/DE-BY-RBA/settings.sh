@@ -8,7 +8,7 @@ PREFIX="DE-BY-RBA"
 
 PTNA_TIMEZONE="Europe/Berlin"
 
-OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level=5][name~'Schwaben'];(rel(area)[route~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level=5][name~'Schwaben'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Regionalbus Augsburg|Regionalbus Augsburg GmbH|Verkehrsgemeinschaft Donau-Ries|Stadtbus Donauwörth|Stadtbusse Dillingen|Regionalbus Isny|Netzwerk Bodensee und Oberschwaben|Verkehrsverbund Mittelschwaben|Landsberger Verkehrsgesellschaft|Verkehrsgemeinschaft Region Ingolstadt"
 NETWORK_SHORT="RBA|VDR|RBI|bodo|VVM|LVG|VGI"
 
