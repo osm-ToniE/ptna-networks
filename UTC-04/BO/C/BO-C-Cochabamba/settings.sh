@@ -16,7 +16,7 @@ ANALYSIS_PAGE="ES:Cochabamba/Transporte_público/Análisis"
 ANALYSIS_TALK="ES_talk:Cochabamba/Transporte_público/Análisis"
 WIKI_ROUTES_PAGE="ES:Cochabamba/Transporte_público/Análisis/Rutas_en_Cochabamba"
 
-ANALYSIS_OPTIONS="--language=es --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --check-access --check-way-type --check-bus-stop --check-roundabouts --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--language=es --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --check-access --check-way-type --check-service-type --check-bus-stop --check-roundabouts --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --expect-network-short
 # --expect-network-long

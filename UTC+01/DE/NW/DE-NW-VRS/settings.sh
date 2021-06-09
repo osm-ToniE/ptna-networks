@@ -19,7 +19,7 @@ ANALYSIS_PAGE="VRS/Analyse"
 ANALYSIS_TALK="Talk:VRS/Analyse"
 WIKI_ROUTES_PAGE="VRS/Analyse/VRS-Linien"
 
-ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-version --check-access --check-way-type --check-name-relaxed --check-stop-position --check-sequence --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze  --ptv1-compatibility=allow --relaxed-begin-end-for=train,subway,light_rail,monorail,tram --coloured-sketchline --expect-network-long"
+ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-version --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze  --ptv1-compatibility=allow --relaxed-begin-end-for=train,subway,light_rail,monorail,tram --coloured-sketchline --expect-network-long"
 
 # --positive-notes
 # --check-bus-stop

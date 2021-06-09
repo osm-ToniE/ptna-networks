@@ -16,7 +16,7 @@ ANALYSIS_PAGE="DE:WestfalenTarif/Analyse"
 ANALYSIS_TALK="DE_Talk:WestfalenTarif/Analyse"
 WIKI_ROUTES_PAGE="DE:WestfalenTarif/Analyse/WestfalenTarif-Linien"
 
-ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --relaxed-begin-end-for=train,light_rail,tram,bus,share_taxi --positive-notes --max-error=10 --check-version --check-access --check-way-type --check-name-relaxed --check-stop-position --check-sequence --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --relaxed-begin-end-for=train,light_rail,tram,bus,share_taxi --positive-notes --max-error=10 --check-version --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline"
 
 # --check-bus-stop
 # --expect-network-long

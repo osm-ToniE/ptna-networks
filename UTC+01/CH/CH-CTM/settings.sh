@@ -17,7 +17,7 @@ ANALYSIS_PAGE="Switzerland:Public_Transport/Arcobaleno/Analysis"
 ANALYSIS_TALK="Talk:Switzerland:Public_Transport/Arcobaleno/Analysis"
 WIKI_ROUTES_PAGE="Switzerland:Public_Transport/Arcobaleno/Analysis/CH-CTM-Routes"
 
-ANALYSIS_OPTIONS="--language=it --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$GTFS_FEED --max-error=10 --check-access --check-way-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--language=it --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$GTFS_FEED --max-error=10 --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --check-bus-stop
 # --expect-network-long
