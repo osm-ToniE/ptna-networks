@@ -11,7 +11,7 @@ PTNA_TIMEZONE="Europe/Paris"
 # avoid downloading same area/data if the data has already been downloaded and is not older than 1 hour (start analysis with: "ptna-networks.sh -fo" to 'f'orce download)
 # OVERPASS_REUSE_ID="FR-PAC-Q3240-train-bus"
 
-OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata=Q3240][type=boundary];(rel(area)[~'route'~'(train|bus)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata=Q3240][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="TER Provence-Alpes-Côte d'Azur|La Métropole Mobilité;L'Agglo en bus;La Métropole Mobilité - LeBus;La Métropole Mobilité - LeCar;Les Bus de l'Étang;Libébus;Ulysse;Lignes de l'Agglo;Pays d'Aix mobilité;Ciotabus;Envia"
 NETWORK_SHORT=""
 
@@ -52,5 +52,5 @@ PTNA_WWW_DISCUSSION_NAME="Discussion"
 PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 
 # Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
-PTNA_WWW_ROUTES_NAME="Lignes Zou !"
+PTNA_WWW_ROUTES_NAME="Lignes Bouches-du-Rhône"
 PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
