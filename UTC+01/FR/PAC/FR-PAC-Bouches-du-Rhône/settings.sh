@@ -12,7 +12,7 @@ PTNA_TIMEZONE="Europe/Paris"
 # OVERPASS_REUSE_ID="FR-PAC-Q3240-train-bus"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata=Q3240][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="TER Provence-Alpes-Côte d'Azur|La Métropole Mobilité;L'Agglo en bus;La Métropole Mobilité - LeBus;La Métropole Mobilité - LeCar;Les Bus de l'Étang;Libébus;Ulysse;Lignes de l'Agglo;Pays d'Aix mobilité;Ciotabus;Envia"
+NETWORK_LONG="TER Provence-Alpes-Côte d'Azur|La Métropole Mobilité|L'Agglo en bus|La Métropole Mobilité - LeBus|La Métropole Mobilité - LeCar|Les Bus de l'Étang|Libébus|Ulysse|Lignes de l'Agglo|Pays d'Aix mobilité|Ciotabus|Envia"
 NETWORK_SHORT=""
 
 ANALYSIS_PAGE="Bouches-du-Rhône/Transports_en_commun/Analyse"
