@@ -39,8 +39,8 @@ PTNA_WWW_REGION_NAME="Alpes-Maritimes"
 PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[wikidata%3DQ3139][type%3Dboundary]%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B{{data%3Aoverpass%2Cserver%3D%2F%2Foverpass.openstreetmap.fr%2Fapi%2F}}"
 
 # Name + Link to the network provider / transport association
-PTNA_WWW_NETWORK_NAME="TER Provence-Alpes-Côte d'Azur;Envibus;Sillages;Palm Bus;Zest"
-PTNA_WWW_NETWORK_LINK="https://www.ter.sncf.com/sud-provence-alpes-cote-d-azur;https://www.envibus.fr/;https://sillages.paysdegrasse.fr/;https://www.palmbus.fr/;https://www.zestbus.fr/"
+PTNA_WWW_NETWORK_NAME="Envibus;Sillages;Palm Bus;Zest"
+PTNA_WWW_NETWORK_LINK="https://www.envibus.fr/;https://sillages.paysdegrasse.fr/;https://www.palmbus.fr/;https://www.zestbus.fr/"
 
 # Date and Time of last analysis in UTC and Local Time format
 # automatically build by PHP script
