@@ -38,8 +38,8 @@ PTNA_WWW_REGION_NAME="Alpes-de-Haute-Provence et Vinon-Sur-Verdon"
 PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[wikidata~%27^(Q3131|Q221832)%24%27][type%3Dboundary]%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B"
 
 # Name + Link to the network provider / transport association
-PTNA_WWW_NETWORK_NAME="TER Provence-Alpes-Côte d'Azur;Trans'Agglo;TUD;CCVUSP"
-PTNA_WWW_NETWORK_LINK="https://www.ter.sncf.com/sud-provence-alpes-cote-d-azur;https://mobilite.dlva.fr/;https://www.provencealpesagglo.fr/;https://www.ccvusp.fr/"
+PTNA_WWW_NETWORK_NAME="Trans'Agglo;TUD;CCVUSP"
+PTNA_WWW_NETWORK_LINK="https://mobilite.dlva.fr/;https://www.provencealpesagglo.fr/;https://www.ccvusp.fr/"
 
 # Date and Time of last analysis in UTC and Local Time format
 # automatically build by PHP script
