@@ -39,8 +39,8 @@ PTNA_WWW_REGION_NAME="Métropole Toulon-Provence-Méditerranée"
 PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[wikidata%3DQ2986935][type%3Dboundary]%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B{{data%3Aoverpass%2Cserver%3D%2F%2Foverpass.openstreetmap.fr%2Fapi%2F}}"
 
 # Name + Link to the network provider / transport association
-PTNA_WWW_NETWORK_NAME="TER Provence-Alpes-Côte d'Azur;Mistral"
-PTNA_WWW_NETWORK_LINK="https://www.ter.sncf.com/sud-provence-alpes-cote-d-azur;https://www.reseaumistral.com/"
+PTNA_WWW_NETWORK_NAME="Mistral"
+PTNA_WWW_NETWORK_LINK="https://www.reseaumistral.com/"
 
 # Date and Time of last analysis in UTC and Local Time format
 # automatically build by PHP script
