@@ -13,7 +13,7 @@ PTNA_TIMEZONE="Europe/Paris"
 
 # Use the Wikidata boundary of the Vaucluse département
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:300];area[wikidata=Q12792][type=boundary];(rel(area)[~'route'~'(train|bus)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="TER Provence-Alpes-Côte d'Azur|TUB Bollène|Trans'CoVe|TCVO|Sorg'en bus|C mon bus|La Métropole Mobilité"
+NETWORK_LONG="TUB Bollène|Trans'CoVe|TCVO|Sorg'en bus|C mon bus|La Métropole Mobilité"
 NETWORK_SHORT=""
 
 ANALYSIS_PAGE="Vaucluse/Transports_en_commun/Analyse"
