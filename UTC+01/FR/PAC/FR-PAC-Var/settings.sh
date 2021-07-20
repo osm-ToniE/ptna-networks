@@ -13,7 +13,7 @@ PTNA_TIMEZONE="Europe/Paris"
 
 # Use the Wikidata boundary of the Var département
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:300];area[wikidata=Q12789][type=boundary];(rel(area)[~'route'~'(train|bus)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="TER Provence-Alpes-Côte d'Azur|Mouv'enbus|Tedbus|Agglobus Cavem|ASSB|SimpliBus|Saint-Tropez Bus"
+NETWORK_LONG="Mouv'enbus|Tedbus|Agglobus Cavem|ASSB|SimpliBus|Saint-Tropez Bus"
 NETWORK_SHORT=""
 
 ANALYSIS_PAGE="Var/Transports_en_commun/Analyse"
