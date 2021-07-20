@@ -13,7 +13,7 @@ PTNA_TIMEZONE="Europe/Paris"
 
 # Use the Wikidata boundary of the region around Toulon
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:300];area[wikidata=Q2986935][type=boundary];(rel(area)[~'route'~'(train|bus|ferry)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="TER Provence-Alpes-Côte d'Azur|Mistral"
+NETWORK_LONG="Mistral"
 NETWORK_SHORT=""
 
 ANALYSIS_PAGE="Toulon/Transports_en_commun/Analyse"
