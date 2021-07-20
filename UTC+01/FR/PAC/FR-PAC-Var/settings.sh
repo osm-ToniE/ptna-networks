@@ -39,8 +39,8 @@ PTNA_WWW_REGION_NAME="Var"
 PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[wikidata%3DQ12789][type%3Dboundary]%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B{{data%3Aoverpass%2Cserver%3D%2F%2Foverpass.openstreetmap.fr%2Fapi%2F}}"
 
 # Name + Link to the network provider / transport association
-PTNA_WWW_NETWORK_NAME="TER Provence-Alpes-Côte d'Azur;Mouv'enbus;Tedbus;Agglobus Cavem;ASSB;SimpliBus;Saint-Tropez Bus"
-PTNA_WWW_NETWORK_LINK="https://www.ter.sncf.com/sud-provence-alpes-cote-d-azur;https://www.caprovenceverte.fr/vie-pratique/transport-mobilite/;https://tedbus.dracenie.com/;https://www.agglobus-cavem.com/;https://www.agglo-sudsaintebaume.fr/transports-urbains/;https://www.simplibus.fr/;https://www.saint-tropez.fr/decouvrir/transports/"
+PTNA_WWW_NETWORK_NAME="Mouv'enbus;Tedbus;Agglobus Cavem;ASSB;SimpliBus;Saint-Tropez Bus"
+PTNA_WWW_NETWORK_LINK="https://www.caprovenceverte.fr/vie-pratique/transport-mobilite/;https://tedbus.dracenie.com/;https://www.agglobus-cavem.com/;https://www.agglo-sudsaintebaume.fr/transports-urbains/;https://www.simplibus.fr/;https://www.saint-tropez.fr/decouvrir/transports/"
 
 # Date and Time of last analysis in UTC and Local Time format
 # automatically build by PHP script
