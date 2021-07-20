@@ -13,7 +13,7 @@ PTNA_TIMEZONE="Europe/Paris"
 
 # Use the Wikidata boundary of the departement Alpes-Maritimes
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:300];area[wikidata=Q3333866][type=boundary];(rel(area)[~'route'~'(train|bus|tram)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="TER Provence-Alpes-Côte d'Azur|Lignes d'Azur"
+NETWORK_LONG="Lignes d'Azur"
 NETWORK_SHORT=""
 
 ANALYSIS_PAGE="Nice/Transports_en_commun/Analyse"
