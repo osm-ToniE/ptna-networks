@@ -39,8 +39,8 @@ PTNA_WWW_REGION_NAME="Vaucluse"
 PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[wikidata%3DQ12792][type%3Dboundary]%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B{{data%3Aoverpass%2Cserver%3D%2F%2Foverpass.openstreetmap.fr%2Fapi%2F}}"
 
 # Name + Link to the network provider / transport association
-PTNA_WWW_NETWORK_NAME="TER Provence-Alpes-Côte d'Azur;TUB Bollène;Trans'CoVe;TCVO;Sorg'en bus;C mon bus;La Métropole Mobilité"
-PTNA_WWW_NETWORK_LINK="https://www.ter.sncf.com/sud-provence-alpes-cote-d-azur;https://www.voyages-auran.com/reseaux/tub-bollene/lignes-regulieres;http://www.transcove.com;https://www.tcvo.fr/;https://www.sorgues.fr/vivre/transports.htm;http://www.luberonmontsdevaucluse.fr/agglomeration/c-mon-bus;https://www.lepilote.com/"
+PTNA_WWW_NETWORK_NAME="TUB Bollène;Trans'CoVe;TCVO;Sorg'en bus;C mon bus;La Métropole Mobilité"
+PTNA_WWW_NETWORK_LINK="https://www.voyages-auran.com/reseaux/tub-bollene/lignes-regulieres;http://www.transcove.com;https://www.tcvo.fr/;https://www.sorgues.fr/vivre/transports.htm;http://www.luberonmontsdevaucluse.fr/agglomeration/c-mon-bus;https://www.lepilote.com/"
 
 # Date and Time of last analysis in UTC and Local Time format
 # automatically build by PHP script
