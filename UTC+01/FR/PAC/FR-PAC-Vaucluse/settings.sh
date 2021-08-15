@@ -9,10 +9,10 @@ PREFIX="FR-PAC-Vaucluse"
 PTNA_TIMEZONE="Europe/Paris"
 
 # avoid downloading same area/data if the data has already been downloaded and is not older than 1 hour (start analysis with: "ptna-networks.sh -fo" to 'f'orce download via 'o'verpass api)
-# OVERPASS_REUSE_ID="FR-PAC-Q12792-train-bus"
+# OVERPASS_REUSE_ID="FR-PAC-Q12792-bus"
 
 # Use the Wikidata boundary of the Vaucluse département
-OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:300];area[wikidata=Q12792][type=boundary];(rel(area)[~'route'~'(train|bus)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:300];area[wikidata=Q12792][type=boundary];(rel(area)[~'route'~'bus'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="TUB Bollène|Trans'CoVe|TCVO|Sorg'en bus|C mon bus|La Métropole Mobilité - LeBus|La Métropole Mobilité - LeCar"
 NETWORK_SHORT=""
 
