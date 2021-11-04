@@ -16,11 +16,12 @@ ANALYSIS_PAGE="Landkreis_Schwäbisch_Hall/KV.SHA/Analyse"
 ANALYSIS_TALK="Talk:Landkreis_Schwäbisch_Hall/KV.SHA/Analyse"
 WIKI_ROUTES_PAGE="Landkreis_Schwäbisch_Hall/KV.SHA/Analyse/DE-BW-KV.SHA-Linien"
 
-ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --positive-notes --max-error=10 --check-version --check-access --check-way-type --check-service-type --check-name-relaxed --check-sequence --check-osm-separator --check-motorway-link --check-stop-position --multiple-ref-type-entries=analyze --ptv1-compatibility=allow --relaxed-begin-end-for=train,light_rail,subway,monorails,tram,bus --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --positive-notes --max-error=10 --check-version --check-access --check-way-type --check-service-type --check-name-relaxed --check-sequence --check-osm-separator --check-motorway-link --check-stop-position --multiple-ref-type-entries=analyze --relaxed-begin-end-for=train,light_rail,subway,monorails,tram,bus --coloured-sketchline"
 
 # --expect-network-long
 # --check-bus-stop
 # --expect-network-short
+# --ptv1-compatibility=allow
 
 #
 # extensions to support ptna-www and PHP in results/xx/index.php files by code in ptna-network.sh (section: upload results)
