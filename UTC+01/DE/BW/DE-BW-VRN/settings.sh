@@ -4,7 +4,7 @@
 # set variables for analysis of network
 #
 
-PREFIX="DE-RP-VRN"
+PREFIX="DE-BW-VRN"
 
 PTNA_TIMEZONE="Europe/Berlin"
 
@@ -14,7 +14,7 @@ NETWORK_SHORT="VRN"
 
 ANALYSIS_PAGE="Verkehrsverbund_Rhein-Neckar/Analyse"
 ANALYSIS_TALK="Talk:Verkehrsverbund_Rhein-Neckar/Analyse"
-WIKI_ROUTES_PAGE="Verkehrsverbund_Rhein-Neckar/Analyse/DE-RP-VRN-Linien"
+WIKI_ROUTES_PAGE="Verkehrsverbund_Rhein-Neckar/Analyse/VRN-Linien"
 
 ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-version --check-access --check-way-type --check-service-type --check-stop-position --check-sequence --check-osm-separator --check-osm-separator --check-motorway-link --positive-notes --check-name-relaxed --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
