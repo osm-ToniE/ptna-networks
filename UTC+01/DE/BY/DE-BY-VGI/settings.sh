@@ -35,8 +35,8 @@ PTNA_WWW_REGION_NAME="Region Ingolstadt"
 PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[boundary%3Dadministrative][admin_level%3D6][name~%27(Ingolstadt|Landkreis%20Eichst%C3%A4tt|Landkreis%20Pfaffenhofen%20an%20der%20Ilm|Landkreis%20Neuburg-Schrobenhausen)%27]%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
 
 # Name + Link to the network provider / transport association
-PTNA_WWW_NETWORK_NAME="Verkehrsgemeinschaft Region Ingolstadt"
-PTNA_WWW_NETWORK_LINK="https://www.invg.de/"
+PTNA_WWW_NETWORK_NAME="Verkehrsverbund Großraum Ingolstadt"
+PTNA_WWW_NETWORK_LINK="https://www.invg.de/start_vgi_de"
 
 # Date and Time of last analysis in UTC and Local Time format
 # automatically build by PHP script
