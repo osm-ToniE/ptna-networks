@@ -4,7 +4,7 @@
 # set variables for analysis of network
 #
 
-PREFIX="DE-BY-VVR"
+PREFIX="DE-MV-VVR"
 
 PTNA_TIMEZONE="Europe/Berlin"
 
