@@ -8,7 +8,7 @@ PREFIX="DE-BY-VVR"
 
 PTNA_TIMEZONE="Europe/Berlin"
 
-OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=[timeout:600];area[boundary=administrative][admin_level=6][name~'(Vorpommern)'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=[timeout:600];area[boundary=administrative][admin_level=6][name~'Vorpommern-Rügen'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Verkehrsgesellschaft Vorpommern-Rügen"
 NETWORK_SHORT="VVR"
 
@@ -32,8 +32,8 @@ ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --gtfs-feed=$PREFIX --m
 # automatically build by PHP script
 
 # Name + Link to Overpass-Turbo call to show area on map
-PTNA_WWW_REGION_NAME="Region Vorpommern"
-PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation%5Bboundary%3Dadministrative%5D%5Badmin_level%3D6%5D%5Bname~%27(Dachau%7CM%C3%BCnchen%7CEbersberg%7CErding%7CStarnberg%7CFreising%7CT%C3%B6lz%7CWolfratshausen%7CF%C3%BCrstenfeldbruck)%27%5D%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
+PTNA_WWW_REGION_NAME="Region Vorpommern-Rügen"
+PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[boundary%3Dadministrative][admin_level%3D6][name~%27Vorpommern-R%C3%BCgen%27]%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="Verkehrsgesellschaft Vorpommern-Rügen"
