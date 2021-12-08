@@ -16,10 +16,11 @@ ANALYSIS_PAGE="Mecklenburg-Vorpommern/Vorpommern/Transportation/Analyse"
 ANALYSIS_TALK="Talk:Mecklenburg-Vorpommern/Vorpommern/Transportation/Analyse"
 WIKI_ROUTES_PAGE="Mecklenburg-Vorpommern/Vorpommern/Transportation/VVR-Linien-gesamt"
 
-ANALYSIS_OPTIONS="--language=de --show-gtfs --check-gtfs --link-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --check-route-ref --check-way-type --check-service-type --multiple-ref-type-entries=analyze --coloured-sketchline --expect-network-long --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--language=de --show-gtfs --check-gtfs --link-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --check-route-ref --check-way-type --check-service-type --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --check-bus-stop
 # --positive-notes
+# --expect-network-long
 # --expect-network-short
 # --expect-network-short-for=
 # --expect-network-long-for=
