@@ -12,7 +12,7 @@ PTNA_TIMEZONE="Europe/Paris"
 # OVERPASS_REUSE_ID="FR-PAC-Q3333866-train-bus"
 
 # Use the Wikidata boundary of the departement Alpes-Maritimes
-OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:300];area[wikidata=Q3333866][type=boundary];(rel(area)[~'route'~'(train|bus|tram)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:300];area[wikidata=Q3333866][type=boundary];(rel(area)[~'route'~'(train|bus|tram)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Lignes d'Azur"
 NETWORK_SHORT=""
 

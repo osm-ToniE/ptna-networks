@@ -8,7 +8,7 @@ PREFIX="DE-Bahnverkehr"
 
 PTNA_TIMEZONE="Europe/Berlin"
 
-OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=[timeout:1800];area[boundary=administrative][admin_level=2][name='Deutschland'];(rel(area)[~'route'~'(train|light_rail|monorail)'];rel(br);rel[type='route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=[timeout:1800];area[boundary=administrative][admin_level=2][name='Deutschland'];(rel(area)[~'route'~'(train|light_rail|monorail)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 #NETWORK_LONG="DB InterCityExpress|DB InterCity|DB Regio|Deutsche Bahn AG|Deutsche Bahn|Bayerische Oberlandbahn|Bayerische Eisenbahngesellschaft|Verkehrsverbund Rhein-Neckar|Karlsruher Verkehrsverbund|EuroCity|EuroNight|SBB InterCity|ch-direct|TER Alsace|TER Grand Est|TER Lorraine|ÖBB Nightjet|ÖBB Railjet|ÖBB railjet"
 #NETWORK_SHORT="DB|BOB|Alex|VVS|VGN|VVO|VRN|MDV|RMV|NVV|VRB|GVH|ZVON|Agilis|agilis|Thalys|TER|SNCF TGV|TGV|ÖBB|VVT|SBB"
 NETWORK_LONG=""
