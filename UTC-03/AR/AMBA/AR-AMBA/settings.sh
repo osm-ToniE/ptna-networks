@@ -12,9 +12,9 @@ OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata~'^(Q14
 NETWORK_LONG=""
 NETWORK_SHORT=""
 
-ANALYSIS_PAGE= #"ES:Área_Metropolitana_de_Buenos_Aires/transporte_público/análisis"
-ANALYSIS_TALK= #"ES_talk:Área_Metropolitana_de_Buenos_Aires/transporte_público/análisis"
-WIKI_ROUTES_PAGE= #"ES:Área_Metropolitana_de_Buenos_Aires/transporte_público/análisis/AMBA_Rutas"
+ANALYSIS_PAGE="ES:Área_Metropolitana_de_Buenos_Aires/transporte_público/análisis"
+ANALYSIS_TALK="ES_talk:Área_Metropolitana_de_Buenos_Aires/transporte_público/análisis"
+WIKI_ROUTES_PAGE="ES:Área_Metropolitana_de_Buenos_Aires/transporte_público/análisis/AMBA_Rutas"
 
 ANALYSIS_OPTIONS="--language=es --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --check-access --check-way-type --check-service-type --check-bus-stop --check-roundabouts --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
@@ -45,8 +45,8 @@ PTNA_WWW_NETWORK_LINK=""
 
 # Name + Link to discussion / documentation page (usually in OSM Wiki)
 PTNA_WWW_DISCUSSION_NAME="Discusiones"
-PTNA_WWW_DISCUSSION_LINK= #"https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
+PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 
 # Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
 PTNA_WWW_ROUTES_NAME="AMBA Rutas"
-PTNA_WWW_ROUTES_LINK= #"https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
+PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
