@@ -9,8 +9,8 @@ PREFIX="DE-MV-MVVG"
 PTNA_TIMEZONE="Europe/Berlin"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level=6][name='Mecklenburgische Seenplatte'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="Gemeinschaftstarif Mecklenburgische Seenplatte|Müritz-Nationalpark-Tarif"
-NETWORK_SHORT=""
+NETWORK_LONG="Gemeinschaftstarif Mecklenburgische Seenplatte|Stadtlinienverkehr Demmin und Waren|Stadtverkehr Neustrelitz|Neubrandenburger Verkehrsbetriebe|Müritz-Nationalpark-Tarif"
+NETWORK_SHORT="GMS|NVB"
 
 ANALYSIS_PAGE="Mecklenburg-Vorpommern/ÖPNV/MVVG/Analyse"
 ANALYSIS_TALK="Talk:Mecklenburg-Vorpommern/ÖPNV/MVVG/Analyse"
