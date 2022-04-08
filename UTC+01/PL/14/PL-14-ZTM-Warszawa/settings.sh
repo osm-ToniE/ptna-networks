@@ -12,8 +12,8 @@ OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=admini
 NETWORK_LONG="Zarząd Transportu Miejskiego Warszawa"
 NETWORK_SHORT="ZTM Warszawa"
 
-ANALYSIS_PAGE="Warszawa/Public_Transport/Analysis/"
-ANALYSIS_TALK="Talk:Warszawa/Public_Transport/Analysis/"
+ANALYSIS_PAGE="Warszawa/Public_Transport/Analysis"
+ANALYSIS_TALK="Talk:Warszawa/Public_Transport/Analysis"
 WIKI_ROUTES_PAGE="Warszawa/Public_Transport/Analysis/ZTM"
 
 ANALYSIS_OPTIONS="--language=pl_PL --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
