@@ -10,7 +10,7 @@ PTNA_TIMEZONE="Europe/Vienna"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata~'^Q42880$'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Verkehrsverbund Tirol|CityBus Wörgl|Dorfbus St. Anton|Innsbrucker Verkehrsbetriebe|Skibus See|Skibus Stubaier Gletscher|Stadtbus Hall|Stadtverkehr Kufstein|Stadtverkehr Lienz"
-NETWORK_SHORT="VVT|INKB|INVB"
+NETWORK_SHORT="VVT|INKB|IVB"
 
 ANALYSIS_PAGE="Tirol/Transportation/Analyse"
 ANALYSIS_TALK="Talk:Tirol/Transportation/Analyse"
