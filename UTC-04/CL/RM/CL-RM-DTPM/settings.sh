@@ -10,7 +10,7 @@ PTNA_TIMEZONE="America/Santiago"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[name='Gran Santiago'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Red Metropolitana de Movilidad"
-NETWORK_SHORT="DTPM"
+NETWORK_SHORT="Red"
 
 ANALYSIS_PAGE="Chile/Public_Transport/Analysis"
 ANALYSIS_TALK="Talk:Chile/Public_Transport/Analysis/CL-DTPM-Routes"
@@ -49,5 +49,5 @@ PTNA_WWW_DISCUSSION_NAME="Discusiones"
 PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 
 # Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
-PTNA_WWW_ROUTES_NAME="Red Lines"
+PTNA_WWW_ROUTES_NAME="Recorridos"
 PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
