@@ -13,9 +13,9 @@ OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=admini
 NETWORK_LONG="Ruter"
 NETWORK_SHORT=""
 
-ANALYSIS_PAGE= #"Norway/Public_transport/Ruter/Analysis"
-ANALYSIS_TALK= #"Talk:Norway/Public_transport/Ruter/Analysis"
-WIKI_ROUTES_PAGE= #"Norway/Public_transport/Ruter/Analysis/Lines"
+ANALYSIS_PAGE="Norway/Public_transport/Ruter/Analysis"
+ANALYSIS_TALK="Talk:Norway/Public_transport/Ruter/Analysis"
+WIKI_ROUTES_PAGE="Norway/Public_transport/Ruter/Analysis/Lines"
 
 ANALYSIS_OPTIONS="--language=no --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$GTFS_FEED --max-error=10 --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
@@ -48,8 +48,8 @@ PTNA_WWW_NETWORK_LINK="https://ruter.no/"
 
 # Name + Link to discussion / documentation page (usually in OSM Wiki)
 PTNA_WWW_DISCUSSION_NAME="Discussion"
-PTNA_WWW_DISCUSSION_LINK= #"https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
+PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 
 # Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
 PTNA_WWW_ROUTES_NAME="Ruter Line"
-PTNA_WWW_ROUTES_LINK= #"https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
+PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
