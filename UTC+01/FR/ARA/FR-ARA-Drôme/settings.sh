@@ -13,9 +13,9 @@ OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:300];area[
 NETWORK_LONG="Montélibus|Citéa|Nyons Bus"
 NETWORK_SHORT=""
 
-ANALYSIS_PAGE="France:Drôme/Transports_en_commun/Analyse"
-ANALYSIS_TALK="Talk:France:Drôme/Transports_en_commun/Analyse"
-WIKI_ROUTES_PAGE="France:Drôme/Transports_en_commun/Lignes_Drôme"
+ANALYSIS_PAGE="Drôme/Transports_en_commun/Analyse"
+ANALYSIS_TALK="Talk:Drôme/Transports_en_commun/Analyse"
+WIKI_ROUTES_PAGE="Drôme/Transports_en_commun/Lignes_Drôme"
 
 ANALYSIS_OPTIONS="--language=fr --check-bus-stop --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --check-platform --check-roundabouts --expect-network-long --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
