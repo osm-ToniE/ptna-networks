@@ -13,8 +13,8 @@ NETWORK_LONG="Oberösterreichischer Verkehrsverbund"
 NETWORK_SHORT="OÖVV"
 
 ANALYSIS_PAGE="Austria/Nahverkehr_Oberösterreich/Analyse"
-ANALYSIS_TALK="Talk:Austria/Nahverkehr_Oberösterreich"
-WIKI_ROUTES_PAGE="Austria/Nahverkehr_Oberösterreich/OÖVV-Linien"
+ANALYSIS_TALK="Talk:Austria/Nahverkehr_Oberösterreich/Analyse"
+WIKI_ROUTES_PAGE="Austria/Nahverkehr_Oberösterreich/Analyse/OÖVV-Linien"
 
 ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
