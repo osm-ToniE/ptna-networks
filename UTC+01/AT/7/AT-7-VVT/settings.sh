@@ -12,9 +12,9 @@ OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata~'^Q428
 NETWORK_LONG="Verkehrsverbund Tirol|CityBus Wörgl|Dorfbus St. Anton|Innsbrucker Verkehrsbetriebe|Skibus See|Skibus Stubaier Gletscher|Stadtbus Hall|Stadtverkehr Kufstein|Stadtverkehr Lienz"
 NETWORK_SHORT="VVT|INKB|IVB"
 
-ANALYSIS_PAGE="Tirol/Transportation/Analyse"
-ANALYSIS_TALK="Talk:Tirol/Transportation/Analyse"
-WIKI_ROUTES_PAGE="Tirol/Transportation/Analyse/AT-7-VVT-Linien"
+ANALYSIS_PAGE="Austria/Nahverkehr_Tirol/Analyse"
+ANALYSIS_TALK="Talk:Austria/Nahverkehr_Tirol/Analyse"
+WIKI_ROUTES_PAGE="Austria/Nahverkehr_Tirol/Analyse/VVT-Linien"
 
 ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
