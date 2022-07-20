@@ -10,7 +10,7 @@ PTNA_TIMEZONE="Europe/Paris"
 
 # Use the Wikidata boundary of the departement Alpes-Maritimes
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:300];area[wikidata=Q3364][type=boundary];(rel(area)[~'route'~'(tram|bus)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="Montélibus|Citéa|Nyons Bus"
+NETWORK_LONG="Montélibus|Citéa|Nyons Bus|Cars Région Drôme"
 NETWORK_SHORT=""
 
 ANALYSIS_PAGE="Drôme/Transports_en_commun/Analyse"
@@ -36,8 +36,8 @@ PTNA_WWW_REGION_NAME="Drôme"
 PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[wikidata%3DQ3364][type%3Dboundary]%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B{{data%3Aoverpass%2Cserver%3D%2F%2Foverpass.openstreetmap.fr%2Fapi%2F}}"
 
 # Name + Link to the network provider / transport association
-PTNA_WWW_NETWORK_NAME="Montélibus;Citéa;Nyons Bus"
-PTNA_WWW_NETWORK_LINK="https://www.montelibus.fr/;https://www.vrd-mobilites.fr/bus/;https://www.nyons.com/vivre-nyons/transports/transports-collectifs"
+PTNA_WWW_NETWORK_NAME="Montélibus;Citéa;Nyons Bus;Cars Région Drôme"
+PTNA_WWW_NETWORK_LINK="https://www.montelibus.fr/;https://www.vrd-mobilites.fr/bus/;https://www.nyons.com/vivre-nyons/transports/transports-collectifs;https://www.oura.com/reseaux/cars-region-drome"
 
 # Date and Time of last analysis in UTC and Local Time format
 # automatically build by PHP script
