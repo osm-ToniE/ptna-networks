@@ -37,7 +37,7 @@ PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="Montélibus;Citéa;Nyons Bus;Cars Région Drôme"
-PTNA_WWW_NETWORK_LINK="https://www.montelibus.fr/;https://www.vrd-mobilites.fr/bus/;https://www.nyons.com/vivre-nyons/transports/transports-collectifs;https://www.oura.com/reseaux/cars-region-drome"
+PTNA_WWW_NETWORK_LINK="https://www.montelibus.fr/;https://www.vrd-mobilites.fr/bus/;https://www.nyons.com/vivre-nyons/transports/transports-collectifs;https://www.sradda.com/lignes-regulieres-autocar-drome.html"
 
 # Date and Time of last analysis in UTC and Local Time format
 # automatically build by PHP script
