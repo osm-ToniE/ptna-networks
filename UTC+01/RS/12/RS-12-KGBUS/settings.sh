@@ -12,9 +12,9 @@ OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area['ref:RS:naselje
 NETWORK_LONG=""
 NETWORK_SHORT="КГБУС|KGBUS"
 
-ANALYSIS_PAGE= #"Beograd/Javni_prevoz/Analiza"
-ANALYSIS_TALK= #"Talk:Beograd/Javni_prevoz/Analiza"
-WIKI_ROUTES_PAGE= #"Beograd/Javni_prevoz/Analiza/Beograd_Linije"
+ANALYSIS_PAGE="Kragujevac/Javni_prevoz/Analiza"
+ANALYSIS_TALK="Talk:Kragujevac/Javni_prevoz/Analiza"
+WIKI_ROUTES_PAGE="Kragujevac/Javni_prevoz/Analiza/KGBUS_Linije"
 
 ANALYSIS_OPTIONS="--language=sr --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=RS-00-BGPREVOZ --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
@@ -51,4 +51,4 @@ PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 
 # Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
 PTNA_WWW_ROUTES_NAME="КГБУС линије"
-PTNA_WWW_ROUTES_LINK= #"https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
+PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"

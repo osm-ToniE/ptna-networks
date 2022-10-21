@@ -12,9 +12,9 @@ OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata~'^(Q12
 NETWORK_LONG="Јавни градски превоз Ниш|Javni gradski prevoz Niš"
 NETWORK_SHORT="ЈГП Ниш|JGP Niš"
 
-ANALYSIS_PAGE= #"Beograd/Javni_prevoz/Analiza"
-ANALYSIS_TALK= #"Talk:Beograd/Javni_prevoz/Analiza"
-WIKI_ROUTES_PAGE= #"Beograd/Javni_prevoz/Analiza/Beograd_Linije"
+ANALYSIS_PAGE="Niš/Javni_prevoz/Analiza"
+ANALYSIS_TALK="Talk:Niš/Javni_prevoz/Analiza"
+WIKI_ROUTES_PAGE="Niš/Javni_prevoz/Analiza/JGP_Niš_Linije"
 
 ANALYSIS_OPTIONS="--language=sr --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=RS-20-JGP-NIS --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
@@ -51,4 +51,4 @@ PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 
 # Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
 PTNA_WWW_ROUTES_NAME="ЈГП Ниш линије"
-PTNA_WWW_ROUTES_LINK= #"https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
+PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"

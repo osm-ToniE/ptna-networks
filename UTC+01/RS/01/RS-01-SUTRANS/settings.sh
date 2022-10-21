@@ -12,9 +12,9 @@ OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata~'^(Q30
 NETWORK_LONG="Градски превоз Ужице|Gradski prevoz Užice"
 NETWORK_SHORT="Сутранс|Sutrans"
 
-ANALYSIS_PAGE= #"Beograd/Javni_prevoz/Analiza"
-ANALYSIS_TALK= #"Talk:Beograd/Javni_prevoz/Analiza"
-WIKI_ROUTES_PAGE= #"Beograd/Javni_prevoz/Analiza/Beograd_Linije"
+ANALYSIS_PAGE="Subotica/Javni_prevoz/Analiza"
+ANALYSIS_TALK="Talk:Subotica/Javni_prevoz/Analiza"
+WIKI_ROUTES_PAGE="Subotica/Javni_prevoz/Analiza/Sutrans_Linije"
 
 ANALYSIS_OPTIONS="--language=sr --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=RS-00-BGPREVOZ --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
@@ -51,4 +51,4 @@ PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 
 # Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
 PTNA_WWW_ROUTES_NAME="Сутранс линије"
-PTNA_WWW_ROUTES_LINK= #"https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
+PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
