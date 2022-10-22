@@ -16,7 +16,7 @@ ANALYSIS_PAGE="Niš/Javni_prevoz/Analiza"
 ANALYSIS_TALK="Talk:Niš/Javni_prevoz/Analiza"
 WIKI_ROUTES_PAGE="Niš/Javni_prevoz/Analiza/JGP_Niš_Linije"
 
-ANALYSIS_OPTIONS="--language=sr --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=RS-20-JGP-NIS --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=sr --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
 # --check-bus-stop
 # --expect-network-long
