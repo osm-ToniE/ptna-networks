@@ -12,7 +12,7 @@ PTNA_TIMEZONE="Europe/Paris"
 # OVERPASS_REUSE_ID="FR-PAC-Q3125-train-bus"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:300];area[wikidata~'^(Q3125|Q871282|Q1018595)$'][type=boundary];(rel(area)[~'route'~'(tram|bus)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="L'Agglo en bus|TUB Briançon|Navettes Queyras"
+NETWORK_LONG="L'Agglo en bus|AltiGo|Navettes Queyras"
 NETWORK_SHORT=""
 
 ANALYSIS_PAGE="Hautes-Alpes/Transports_en_commun/Analyse"
@@ -39,7 +39,7 @@ PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="L'Agglo en bus;Bustub Briançon;Navettes du Queyras"
-PTNA_WWW_NETWORK_LINK="https://www.gap-tallard-durance.fr/fr/lagglo-au-quotidien/transports-lagglo-en-bus/reseau-lagglo-en-bus/;https://www.bustub.com/fr;https://www.queyras-montagne.com/navettes-transports.html"
+PTNA_WWW_NETWORK_LINK="https://www.gap-tallard-durance.fr/fr/lagglo-au-quotidien/transports-lagglo-en-bus/reseau-lagglo-en-bus/;https://www.monaltigo.fr;https://www.queyras-montagne.com/navettes-transports.html"
 
 # Date and Time of last analysis in UTC and Local Time format
 # automatically build by PHP script
