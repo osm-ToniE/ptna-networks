@@ -11,7 +11,7 @@ PTNA_TIMEZONE="Europe/Paris"
 # avoid downloading same area/data if the data has already been downloaded and is not older than 1 hour (start analysis with: "ptna-networks.sh -fo" to 'f'orce download)
 # OVERPASS_REUSE_ID="FR-PAC-Q15104-train-bus"
 
-OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata=Q15104][type=boundary];(rel(area)[~'route'~'(train|bus)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata=Q15104][type=boundary];(rel(area)[~'route'~'(train|bus)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="TER Provence-Alpes-Côte d'Azur|Zou !"
 NETWORK_SHORT=""
 

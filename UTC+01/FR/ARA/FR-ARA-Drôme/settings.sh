@@ -9,7 +9,7 @@ PREFIX="FR-ARA-Drôme"
 PTNA_TIMEZONE="Europe/Paris"
 
 # Use the Wikidata boundary of the departement Drome plus the small boundary Guilherand-Granges to get all bus lines
-OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:300];area[wikidata~'^(Q3364|Q274292)$'][type=boundary];(rel(area)[~'route'~'(tram|bus)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata~'^(Q3364|Q274292)$'][type=boundary];(rel(area)[~'route'~'(tram|bus)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Montélibus|Citéa|Nyons Bus|Cars Région Drôme"
 NETWORK_SHORT=""
 
