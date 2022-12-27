@@ -10,8 +10,8 @@ GTFS_FEED="CH-Alle"
 PTNA_TIMEZONE="Europe/Zurich"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][wikidata~'^(Q11917)$'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="Transports Publics Genevois|Communauté tarifaire genevoise|Communauté Tarifaire Genevoise|unireso|Unireso"
-NETWORK_SHORT="CTGE|TPG"
+NETWORK_LONG="Communauté tarifaire genevoise|Communauté Tarifaire Genevoise|unireso|Unireso"
+NETWORK_SHORT="CTGE"
 
 ANALYSIS_PAGE="Switzerland:Public_Transport/Unireso/Analysis"
 ANALYSIS_TALK="Talk:Switzerland:Public_Transport/Unireso/Analysis"
