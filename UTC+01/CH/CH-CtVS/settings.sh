@@ -11,7 +11,7 @@ PTNA_TIMEZONE="Europe/Zurich"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][wikidata~'^(Q834)$'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG=""
-NETWORK_SHORT=""
+NETWORK_SHORT="CH-VS"
 
 ANALYSIS_PAGE="Switzerland:Public_Transport/Canton_de_Valais/Analysis"
 ANALYSIS_TALK="Talk:Switzerland:Public_Transport/Canton_de_Valais/Analysis"
@@ -32,11 +32,11 @@ ANALYSIS_OPTIONS="--language=fr --check-gtfs --link-gtfs --show-gtfs --gtfs-feed
 # automatically build by PHP script
 
 # Name + Link to Overpass-Turbo call to show area on map
-PTNA_WWW_REGION_NAME="Canton de Valais (VS)"
+PTNA_WWW_REGION_NAME="Canton de Valais/Kanton Wallis (VS)"
 PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation%5Bboundary%3Dadministrative%5D%5Bwikidata~%22^(Q834)$%22%5D%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
 
 # Name + Link to the network provider / transport association
-PTNA_WWW_NETWORK_NAME="Canton de Valais - divers"
+PTNA_WWW_NETWORK_NAME="Canton de Valais/Kanton Wallis - divers/diverse"
 PTNA_WWW_NETWORK_LINK=""
 
 # Date and Time of last analysis in UTC and Local Time format
