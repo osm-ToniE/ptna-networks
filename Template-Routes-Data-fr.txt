@@ -26,7 +26,7 @@
 #       !!!Texte sur fond jaune!!!                      en texte simple ou en titres
 #       '''''Texte en caractères italiques épais'''''   en texte simple ou en titres
 #       '''Texte en lettres épaisses'''                 en texte simple ou en gros titres
-#       ''Texte en italique''                           en texte clair ou en titres
+#       ''Texte en italique''                           en texte simple ou en titres
 #
 # Commentaires :
 #       Les commentaires commencent par un "#" au début d'une ligne.
