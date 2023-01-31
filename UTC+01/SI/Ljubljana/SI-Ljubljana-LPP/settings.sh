@@ -9,8 +9,8 @@ PREFIX="SI-Ljubljana-LPP"
 PTNA_TIMEZONE="Europe/Ljubljana"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level=7][name='Upravna Enota Ljubljana'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="Medkrajevni potniški promet|MPP Ljubljana - Urbana|Ljubljanski Potniški Promet"
-NETWORK_SHORT="MPP|LPP"
+NETWORK_LONG="MPP Ljubljana - Urbana|Ljubljanski Potniški Promet|PPP - Urbana"
+NETWORK_SHORT="MPP|LPP|PPP"
 
 ANALYSIS_PAGE="Bus_routes_in_Ljubljana/Analiza"
 ANALYSIS_TALK="Talk:Bus_routes_in_Ljubljana/Analiza"
