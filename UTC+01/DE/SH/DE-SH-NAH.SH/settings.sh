@@ -9,14 +9,14 @@ PREFIX="DE-SH-NAH.SH"
 PTNA_TIMEZONE="Europe/Berlin"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=[timeout:900];area[boundary=administrative][admin_level=4][name~'Schleswig-Holstein'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="Nahverkehrsverbund Schleswig-Holstein|Sylter Verkehrsgesellschaft"
+NETWORK_LONG="Nahverkehrsverbund Schleswig-Holstein|Sylter Verkehrsgesellschaft|Wyker Dampfschiffs-Reederei"
 NETWORK_SHORT="NAH.SH|WDR"
 
 ANALYSIS_PAGE="Schleswig-Holstein/NAH.SH/Analyse"
 ANALYSIS_TALK="Talk:Schleswig-Holstein/NAH.SH/Analyse"
 WIKI_ROUTES_PAGE="Schleswig-Holstein/NAH.SH/Analyse/DE-SH-NAH.SH-Linien"
 
-ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --positive-notes --max-error=10 --check-version --check-access --check-way-type --check-service-type --check-name-relaxed --check-sequence --check-osm-separator --check-motorway-link --check-stop-position --multiple-ref-type-entries=analyze --relaxed-begin-end-for=train,light_rail,tram,bus --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=DE-SH-Landesweit --positive-notes --max-error=10 --check-version --check-access --check-way-type --check-service-type --check-name-relaxed --check-sequence --check-osm-separator --check-motorway-link --check-stop-position --multiple-ref-type-entries=analyze --relaxed-begin-end-for=train,light_rail,tram,bus --coloured-sketchline"
 
 # --expect-network-long
 # --check-bus-stop
