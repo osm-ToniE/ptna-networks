@@ -32,7 +32,7 @@ ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --all
 # automatically build by PHP script
 
 # Name + Link to Overpass-Turbo call to show area on map
-PTNA_WWW_REGION_NAME="Metropolitain Area of Chicago (Cook County, DuPage County, Lake County, Will County)"
+PTNA_WWW_REGION_NAME="Chicago metropolitan area (Lake, Cook, DuPage and Will counties, Illinois)"
 PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%0A%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A%0A(%0A%0A%20%20relation%5Bwikidata~'^(Q108418|Q109626|Q484263|Q483942)$'%5D%3B%0A)%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B"
 
 # Name + Link to the network provider / transport association
