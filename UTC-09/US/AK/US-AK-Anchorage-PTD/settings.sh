@@ -36,7 +36,7 @@ PTNA_WWW_REGION_NAME="Anchorage, Alaska"
 PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%0A%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A%0A(%0A%0A%20%20relation%5B%22wikidata%22%3D%22Q39450%22%5D%3B%0A)%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B"
 
 # Name + Link to the network provider / transport association
-PTNA_WWW_NETWORK_NAME="Anchorage's Public Transportation Department (PTD)"
+PTNA_WWW_NETWORK_NAME="Anchorage's Public Transportation Department"
 PTNA_WWW_NETWORK_LINK="http://www.muni.org/Departments/transit/Pages/default.aspx"
 
 # Date and Time of last analysis in UTC and Local Time format
