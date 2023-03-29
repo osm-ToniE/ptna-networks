@@ -9,12 +9,12 @@ PREFIX="US-AK-Anchorage-PTD"
 PTNA_TIMEZONE="America/Anchorage"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=[timeout:1800];area[wikidata=%27Q39450%27];(rel(area)[~'route'~'(bus|coach|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG=""
-NETWORK_SHORT=""
+NETWORK_LONG="Municipality of Anchorage|People Mover|AnchorRIDES|RideShare"
+NETWORK_SHORT="PTD"
 
-ANALYSIS_PAGE= # "United_States/Transportation/Bus_Routes/Flixbus/Analysis"
-ANALYSIS_TALK= # "Talk:United_States/Transportation/Bus_Routes/Flixbus/Analysis"
-WIKI_ROUTES_PAGE= # "United_States/Transportation/Bus_Routes/Flixbus/Flixbus_Lines"
+ANALYSIS_PAGE="Alaska/Public_Transport/PTNA"
+ANALYSIS_TALK="Talk:Alaska/Public_Transport/PTNA"
+WIKI_ROUTES_PAGE="Alaska/Public_Transport/PTNA/Anchorage-PTD-Routes"
 
 ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --allow-coach --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
@@ -51,4 +51,4 @@ PTNA_WWW_DISCUSSION_LINK= # "https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 
 # Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
 PTNA_WWW_ROUTES_NAME="Anchorage-PTD Routes"
-PTNA_WWW_ROUTES_LINK= # "https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
+PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
