@@ -12,7 +12,7 @@ PTNA_TIMEZONE="Europe/Paris"
 # OVERPASS_REUSE_ID="FR-PAC-Q3131-train-bus"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata~'^(Q3131|Q221832)$'][type=boundary];(rel(area)[~'route'~'(train|tram|bus)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="Trans'Agglo|PAA|RTUD|CCVUSP"
+NETWORK_LONG="Trans'Agglo|PAA|RTUD|CCVUSP|La Navette Trèfle"
 NETWORK_SHORT=""
 
 ANALYSIS_PAGE="Alpes-de-Haute-Provence/Transports_en_commun/Analyse"
@@ -38,8 +38,8 @@ PTNA_WWW_REGION_NAME="Alpes-de-Haute-Provence et Vinon-Sur-Verdon"
 PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[wikidata~%27^(Q3131|Q221832)%24%27][type%3Dboundary]%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B"
 
 # Name + Link to the network provider / transport association
-PTNA_WWW_NETWORK_NAME="Trans'Agglo;TUD;CCVUSP"
-PTNA_WWW_NETWORK_LINK="https://mobilite.dlva.fr/;https://www.provencealpesagglo.fr/;https://www.ccvusp.fr/"
+PTNA_WWW_NETWORK_NAME="Trans'Agglo;TUD;CCVUSP;Ville de Sisteron"
+PTNA_WWW_NETWORK_LINK="https://mobilite.dlva.fr/;https://www.provencealpesagglo.fr/;https://www.ccvusp.fr/;https://www.sisteron.com/mes-services/mobilite"
 
 # Date and Time of last analysis in UTC and Local Time format
 # automatically build by PHP script
