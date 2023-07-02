@@ -40,7 +40,7 @@ PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="Mouv'enbus;Tedbus;Le Bus;ASSB;SimpliBus;Saint-Tropez Bus"
-PTNA_WWW_NETWORK_LINK="https://www.caprovenceverte.fr/vie-pratique/transport-mobilite/;https://tedbus.dracenie.com/;https://www.esterelcotedazur-lebus.fr/;https://www.agglo-sudsaintebaume.fr/transports-urbains/;https://www.simplibus.fr/;https://www.saint-tropez.fr/decouvrir/transports/"
+PTNA_WWW_NETWORK_LINK="https://www.caprovenceverte.fr/vie-pratique/transport-mobilite/;https://tedbus.dracenie.com/;https://www.esterelcotedazur-lebus.fr/;https://www.agglo-sudsaintebaume.fr/acceder-a-vos-services/transports/transports-urbains/;https://www.simplibus.fr/;https://www.saint-tropez.fr/decouvrir/transports/"
 
 # Date and Time of last analysis in UTC and Local Time format
 # automatically build by PHP script
