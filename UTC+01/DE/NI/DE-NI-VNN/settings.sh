@@ -9,7 +9,7 @@ PREFIX="DE-NI-VNN"
 PTNA_TIMEZONE="Europe/Berlin"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level=6][wikidata~'^(Q5897|Q5907|Q5922|Q5913|Q5910|Q5923|Q5906|Q5915)$'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="Verkehrsgemeinschaft Nordost-Niedersachsen"
+NETWORK_LONG="Verkehrsgemeinschaft Nordost-Niedersachsen;BürgerBus Fredenbeck;BürgerBus Horneburg;BürgerBus Bad Bevensen;Bürgerbus Bad Fallingbostel;Bürgerbus Neuenkirchen;Bürgerbus Schneverdingen;Bürgerbus Walsrode"
 NETWORK_SHORT="VNN"
 
 ANALYSIS_PAGE="Verkehrsgemeinschaft_Nordost-Niedersachsen/Analyse"
