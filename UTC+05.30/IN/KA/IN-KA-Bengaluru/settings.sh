@@ -4,17 +4,17 @@
 # set variables for analysis of network
 #
 
-PREFIX="IN-TN-Chennai"
+PREFIX="IN-KA-Bengaluru"
 
 PTNA_TIMEZONE="Asia/Kolkata"
 
-OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata='Q955990'][type=boundary];(rel(area)[~'route'~'(coach|bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata='Q4855063'][type=boundary];(rel(area)[~'route'~'(coach|bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG=""
 NETWORK_SHORT=""
 
-ANALYSIS_PAGE="Chennai/Transportation/Analysis"
-ANALYSIS_TALK="Talk:Chennai/Transportation/Analysis"
-WIKI_ROUTES_PAGE="Chennai/Transportation/Analysis/Chennai_Routes"
+ANALYSIS_PAGE="Bengaluru/Transportation/Analysis"
+ANALYSIS_TALK="Talk:Bengaluru/Transportation/Analysis"
+WIKI_ROUTES_PAGE="Bengaluru/Transportation/Analysis/Bengaluru_Routes"
 
 ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train,light_rail,subway --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
@@ -32,8 +32,8 @@ ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --che
 # automatically build by PHP script
 
 # Name + Link to Overpass-Turbo call to show area on map
-PTNA_WWW_REGION_NAME="Chennai metropolitan area, Tamil Nadu"
-PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation[wikidata='Q955990'][type=boundary]%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
+PTNA_WWW_REGION_NAME="Bangalore Metropolitan Region, Karnataka"
+PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation[wikidata='Q4855063'][type=boundary]%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME=""
@@ -50,5 +50,5 @@ PTNA_WWW_DISCUSSION_NAME="Discussion"
 PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 
 # Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
-PTNA_WWW_ROUTES_NAME="Chennai Routes"
+PTNA_WWW_ROUTES_NAME="Bengaluru Routes"
 PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
