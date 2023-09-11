@@ -38,8 +38,8 @@ PTNA_WWW_REGION_NAME="Hautes-Alpes, Claret (04) et Curbans (04)"
 PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[wikidata~%27^(Q3125|Q871282|Q1018595)%24%27][type%3Dboundary]%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B"
 
 # Name + Link to the network provider / transport association
-PTNA_WWW_NETWORK_NAME="L'Agglo en bus;Altigo;Navettes du Queyras"
-PTNA_WWW_NETWORK_LINK="https://www.gap-tallard-durance.fr/fr/lagglo-au-quotidien/transports-lagglo-en-bus/reseau-lagglo-en-bus/;https://www.monaltigo.fr;https://www.queyras-montagne.com/navettes-transports.html"
+PTNA_WWW_NETWORK_NAME="L'Agglo en bus;Altigo;Navettes du Queyras;Navettes Serre-Ponçon"
+PTNA_WWW_NETWORK_LINK="https://www.gap-tallard-durance.fr/fr/lagglo-au-quotidien/transports-lagglo-en-bus/reseau-lagglo-en-bus/;https://www.monaltigo.fr;https://www.queyras-montagne.com/navettes-transports.html;https://www.ccserreponcon.com/infos-pratiques/transports"
 
 # Date and Time of last analysis in UTC and Local Time format
 # automatically build by PHP script
