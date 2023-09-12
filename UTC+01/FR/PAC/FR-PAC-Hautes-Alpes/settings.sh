@@ -12,7 +12,7 @@ PTNA_TIMEZONE="Europe/Paris"
 # OVERPASS_REUSE_ID="FR-PAC-Q3125-train-bus"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata~'^(Q3125|Q871282|Q1018595)$'][type=boundary];(rel(area)[~'route'~'(tram|bus)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="L'Agglo en bus|AltiGo|Navettes Queyras"
+NETWORK_LONG="L'Agglo en bus|AltiGo|Navettes Queyras|Navettes Serre-Ponçon"
 NETWORK_SHORT=""
 
 ANALYSIS_PAGE="Hautes-Alpes/Transports_en_commun/Analyse"
