@@ -8,6 +8,7 @@ PREFIX="DE-BY-MVV"
 
 PTNA_TIMEZONE="Europe/Berlin"
 
+#OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=[timeout:900];area[boundary=administrative][wikidata~'^(Q1726|Q10500|Q10544|Q10541|Q10539|Q10504|Q10497|Q10522|Q10502|Q4007|Q10526|Q10523|Q3974|Q10475)$'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=[timeout:900];area[boundary=administrative][wikidata~'^(Q1726|Q10500|Q10544|Q10541|Q10539|Q10504|Q10497|Q10522|Q10502)$'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Münchner Verkehrs- und Tarifverbund|Münchner Linien|Linientaxi Grünwald|Lufthansa Express Bus|Bürgerbus Gauting|Bürgerbus Oberbiberg|Stadtbus Dorfen|Freisinger Parkhaus und Verkehrs-GmbH|Ortsverkehr Markt Glonn"
 NETWORK_SHORT="MVV"
@@ -33,6 +34,7 @@ ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --gtfs-feed=$PREFIX --m
 
 # Name + Link to Overpass-Turbo call to show area on map
 PTNA_WWW_REGION_NAME="Region München"
+#PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation%5Bboundary%3Dadministrative%5D%5Bwikidata~'^(Q1726|Q10500|Q10544|Q10541|Q10539|Q10504|Q10497|Q10522|Q10502|Q4007|Q10526|Q10523|Q3974|Q10475)$'%5D%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
 PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation%5Bboundary%3Dadministrative%5D%5Bwikidata~'^(Q1726|Q10500|Q10544|Q10541|Q10539|Q10504|Q10497|Q10522|Q10502)$'%5D%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
 
 # Name + Link to the network provider / transport association
