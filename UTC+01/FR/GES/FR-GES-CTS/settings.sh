@@ -10,11 +10,11 @@ PTNA_TIMEZONE="Europe/Paris"
 
 # Use the Wikidata boundary of the departement Drome plus the small boundary Guilherand-Granges to get all bus lines
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata='Q586704'][type=boundary];(rel(area)[~'route'~'(tram|bus)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="La Compagnie des Transports Strasbourgeois|Compagnie des Transports Strasbourgeois"
+NETWORK_LONG="Compagnie des Transports Strasbourgeois"
 NETWORK_SHORT="CTS"
 
-ANALYSIS_PAGE="Strasbourg/CTS/PTNA/Analyse"
-ANALYSIS_TALK="Talk:Strasbourg/CTS/PTNA/Analyse"
+ANALYSIS_PAGE="Strasbourg/CTS/Analyse"
+ANALYSIS_TALK="Talk:Strasbourg/CTS/Analyse"
 WIKI_ROUTES_PAGE="Strasbourg/CTS/PTNA"
 
 ANALYSIS_OPTIONS="--language=fr --check-bus-stop --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --check-platform --check-roundabouts --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
@@ -36,7 +36,7 @@ PTNA_WWW_REGION_NAME="Eurométropole de Strasbourg"
 PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[wikidata='Q586704'][type%3Dboundary]%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B{{data%3Aoverpass%2Cserver%3D%2F%2Foverpass.openstreetmap.fr%2Fapi%2F}}"
 
 # Name + Link to the network provider / transport association
-PTNA_WWW_NETWORK_NAME="La Compagnie des Transports Strasbourgeois"
+PTNA_WWW_NETWORK_NAME="Compagnie des Transports Strasbourgeois"
 PTNA_WWW_NETWORK_LINK="https://www.cts-strasbourg.eu/"
 
 # Date and Time of last analysis in UTC and Local Time format
