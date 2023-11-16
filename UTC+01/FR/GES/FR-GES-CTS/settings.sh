@@ -8,7 +8,6 @@ PREFIX="FR-GES-CTS"
 
 PTNA_TIMEZONE="Europe/Paris"
 
-# Use the Wikidata boundary of the departement Drome plus the small boundary Guilherand-Granges to get all bus lines
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata='Q586704'][type=boundary];(rel(area)[~'route'~'(tram|bus)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Compagnie des Transports Strasbourgeois"
 NETWORK_SHORT="CTS"
@@ -17,13 +16,12 @@ ANALYSIS_PAGE="Strasbourg/CTS/Analyse"
 ANALYSIS_TALK="Talk:Strasbourg/CTS/Analyse"
 WIKI_ROUTES_PAGE="Strasbourg/CTS/PTNA"
 
-ANALYSIS_OPTIONS="--language=fr --check-bus-stop --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--language=fr --check-bus-stop --positive-notes --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --check-gtfs
 # --expect-network-short
 # --expect-network-short-for=
 # --expect-network-long-for=
-# --positive-notes
 # --check-platform
 # --check-roundabouts
 
