@@ -9,8 +9,8 @@ PREFIX="DE-MV-Vorpommern-Greifswald"
 PTNA_TIMEZONE="Europe/Berlin"
 
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level=6][wikidata='Q2917'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG=""
-NETWORK_SHORT=""
+NETWORK_LONG='Kooperationsgemeinschaft „Vorpommern“|Verkehrsbetrieb Greifswald'
+NETWORK_SHORT="KGVP|VBG|VVG"
 
 ANALYSIS_PAGE="Landkreis_Vorpommern-Greifswald/ÖPNV/PTNA"
 ANALYSIS_TALK="Talk:Landkreis_Vorpommern-Greifswald/ÖPNV/PTNA"
