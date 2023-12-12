@@ -4,7 +4,7 @@
 # set variables for analysis of network
 #
 
-PREFIX="FR-ARA-Drôme"
+PREFIX="FR-ARA-Drome"
 
 PTNA_TIMEZONE="Europe/Paris"
 
