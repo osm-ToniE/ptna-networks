@@ -4,7 +4,7 @@
 # set variables for analysis of network
 #
 
-PREFIX="AT-OÖVV"
+PREFIX="AT-OOeVV"
 
 PTNA_TIMEZONE="Europe/Vienna"
 
