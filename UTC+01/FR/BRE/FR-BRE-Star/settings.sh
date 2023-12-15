@@ -9,8 +9,8 @@ PREFIX="FR-BRE-Star"
 PTNA_TIMEZONE="Europe/Paris"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata='Q12208'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG=""
-NETWORK_SHORT="FR:STAR"
+NETWORK_LONG="FR:STAR"
+NETWORK_SHORT=""
 
 ANALYSIS_PAGE="Rennes/Transports_en_commun/PTNA"
 ANALYSIS_TALK="Talk:Rennes/Transports_en_commun/PTNA"
