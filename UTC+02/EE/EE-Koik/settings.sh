@@ -32,7 +32,7 @@ ANALYSIS_OPTIONS="--language=et --check-gtfs --link-gtfs --show-gtfs --gtfs-feed
 # automatically build by PHP script
 
 # Name + Link to Overpass-Turbo call to show area on map
-PTNA_WWW_REGION_NAME="Esti"
+PTNA_WWW_REGION_NAME="Eesti"
 PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation[wikidata~'^(Q191)$'][type=boundary]%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
 
 # Name + Link to the network provider / transport association
@@ -50,5 +50,5 @@ PTNA_WWW_DISCUSSION_NAME="Konfiguratsioon"
 PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 
 # Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
-PTNA_WWW_ROUTES_NAME="Routes in Esti"
+PTNA_WWW_ROUTES_NAME="Routes in Eesti"
 PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
