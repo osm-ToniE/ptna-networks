@@ -4,7 +4,7 @@
 # set variables for analysis of network
 #
 
-PREFIX="EE-Tallinna-Transport"
+PREFIX="EE-Tallinna_Transport"
 
 PTNA_TIMEZONE="Europe/Tallinn"
 
