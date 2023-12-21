@@ -8,7 +8,7 @@ PREFIX="FR-OCC-Tisseo"
 
 PTNA_TIMEZONE="Europe/Paris"
 
-OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata='Q1120291'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata='Q12538'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Tisséo"
 NETWORK_SHORT=""
 
@@ -31,8 +31,8 @@ ANALYSIS_OPTIONS="--language=fr --positive-notes --check-bus-stop --link-gtfs --
 # automatically build by PHP script
 
 # Name + Link to Overpass-Turbo call to show area on map
-PTNA_WWW_REGION_NAME="Toulouse Métropole"
-PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[wikidata='Q1120291'][type%3Dboundary]%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B{{data%3Aoverpass%2Cserver%3D%2F%2Foverpass.openstreetmap.fr%2Fapi%2F}}"
+PTNA_WWW_REGION_NAME="Toulouse, Haute-Garonne"
+PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[wikidata='Q12538'][type%3Dboundary]%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B{{data%3Aoverpass%2Cserver%3D%2F%2Foverpass.openstreetmap.fr%2Fapi%2F}}"
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="Tisséo"
