@@ -8,6 +8,8 @@ PREFIX="NL-NH-ASD"
 
 PTNA_TIMEZONE="Europe/Amsterdam"
 
+# avoid downloading same area/data if the data has already been downloaded and is not older than 1 hour (start analysis with: "ptna-networks.sh -fo" to 'f'orce download)
+OVERPASS_REUSE_ID="NL-NH-Q9899-all"
 OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata='Q9899'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Stadsvervoer Amsterdam"
 NETWORK_SHORT=""
