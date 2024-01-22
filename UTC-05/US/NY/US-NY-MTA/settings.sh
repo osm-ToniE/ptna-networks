@@ -8,7 +8,7 @@ PREFIX="US-NY-MTA"
 
 PTNA_TIMEZONE="America/New_York"
 
-OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=[timeout:900];area[wikidata='Q60'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:900];area[wikidata='Q60'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Metropolitan Transportation Authority|MTA New York City Bus|NY Waterway|NYC Subway|NYC Transit|Staten Island Ferry|Staten Island Railway|Long Island Rail Road"
 NETWORK_SHORT="MTA|LIRR"
 
@@ -35,7 +35,7 @@ ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --check-access --check-wa
 
 # Name + Link to Overpass-Turbo call to show area on map
 PTNA_WWW_REGION_NAME="New York City, New York"
-PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%0A%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A%0A(%0A%0A%20%20relation%5Bwikidata='Q60'%5D%3B%0A)%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B"
+PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=%0A%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A%0A(%0A%0A%20%20relation%5Bwikidata='Q60'%5D%3B%0A)%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B"
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="Metropolitan Transportation Authority"

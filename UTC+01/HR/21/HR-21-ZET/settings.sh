@@ -8,7 +8,7 @@ PREFIX="HR-21-ZET"
 
 PTNA_TIMEZONE="Europe/Zagreb"
 
-OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata~'^(Q1435|Q27038)$'][type=boundary][admin_level=6];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[wikidata~'^(Q1435|Q27038)$'][type=boundary][admin_level=6];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Zagrebački električni tramvaj"
 NETWORK_SHORT="ZET"
 
@@ -33,7 +33,7 @@ ANALYSIS_OPTIONS="--language=hr --check-gtfs --link-gtfs --show-gtfs --gtfs-feed
 
 # Name + Link to Overpass-Turbo call to show area on map
 PTNA_WWW_REGION_NAME="Grad Zagreb i Zagrebačka županija"
-PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation[wikidata~'^(Q1435|Q27038)$'][type=boundary][admin_level=6]%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
+PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation[wikidata~'^(Q1435|Q27038)$'][type=boundary][admin_level=6]%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="Zagrebački električni tramvaj (ZET)"

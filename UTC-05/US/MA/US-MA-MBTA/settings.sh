@@ -8,7 +8,7 @@ PREFIX="US-MA-MBTA"
 
 PTNA_TIMEZONE="America/New_York"
 
-OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=[timeout:900];area[wikidata~'^(Q54076|Q54073|Q54093|Q54079|Q54072|Q54086|Q54082)$'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:900];area[wikidata~'^(Q54076|Q54073|Q54093|Q54079|Q54072|Q54086|Q54082)$'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Massachusetts Bay Transportation Authority"
 NETWORK_SHORT="MBTA"
 
@@ -32,7 +32,7 @@ ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --all
 
 # Name + Link to Overpass-Turbo call to show area on map
 PTNA_WWW_REGION_NAME="Bristol, Essex, Middlesex, Norfolk, Plymouth, Suffolk and Worcester Counties, Massachusetts"
-PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%0A%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A%0A(%0A%0A%20%20relation%5Bwikidata~'^(Q54076|Q54073|Q54093|Q54079|Q54072|Q54086|Q54082)$'%5D%3B%0A)%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B"
+PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=%0A%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A%0A(%0A%0A%20%20relation%5Bwikidata~'^(Q54076|Q54073|Q54093|Q54079|Q54072|Q54086|Q54082)$'%5D%3B%0A)%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B"
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="Massachusetts Bay Transportation Authority"

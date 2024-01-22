@@ -8,7 +8,7 @@ PREFIX="DE-BY-TON"
 
 PTNA_TIMEZONE="Europe/Berlin"
 
-OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=area[wikidata~'^(Q7042|Q10421|Q10419|Q10420|Q14803|Q10423)$'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[wikidata~'^(Q7042|Q10421|Q10419|Q10420|Q14803|Q10423)$'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Tarif Oberpfalz Nord|Nahverkehrsgemeinschaft Weiden–Neustadt|Regionalbus Ostbayern|Stadtbus Weiden|Verkehrsgemeinschaft Amberg-Sulzbach|Verkehrsgemeinschaft Tirschenreuth|Landkreislinien Schwandorf"
 NETWORK_SHORT="TON|NWN|RBO|VAS|VGT"
 
@@ -32,7 +32,7 @@ ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed
 
 # Name + Link to Overpass-Turbo call to show area on map
 PTNA_WWW_REGION_NAME="Region Nördliche Oberpfalz (Städte Amberg, Weiden in der Oberpfalz, Landkreise Amberg-Sulzbach, Neustadt a. d. Waldnaab, Schwandorf, Tirschenreuth)"
-PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation[wikidata~'^(Q7042|Q10421|Q10419|Q10420|Q14803|Q10423)$'][type=boundary]%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
+PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation[wikidata~'^(Q7042|Q10421|Q10419|Q10420|Q14803|Q10423)$'][type=boundary]%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="Tarif Oberpfalz Nord"

@@ -8,7 +8,7 @@ PREFIX="US-IL-Metra"
 
 PTNA_TIMEZONE="America/Chicago"
 
-OVERPASS_QUERY="http://overpass-api.de/api/interpreter?data=[timeout:900];area[wikidata~'^(Q108418|Q109626|Q484263|Q483942)$'];(rel(area)[~'route'~'(train)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:900];area[wikidata~'^(Q108418|Q109626|Q484263|Q483942)$'];(rel(area)[~'route'~'(train)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Metra"
 NETWORK_SHORT=""
 
@@ -33,7 +33,7 @@ ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --all
 
 # Name + Link to Overpass-Turbo call to show area on map
 PTNA_WWW_REGION_NAME="Chicago metropolitan area (Lake, Cook, DuPage and Will counties), Illinois"
-PTNA_WWW_REGION_LINK="http://overpass-turbo.eu/map.html?Q=%0A%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A%0A(%0A%0A%20%20relation%5Bwikidata~'^(Q108418|Q109626|Q484263|Q483942)$'%5D%3B%0A)%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B"
+PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=%0A%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A%0A(%0A%0A%20%20relation%5Bwikidata~'^(Q108418|Q109626|Q484263|Q483942)$'%5D%3B%0A)%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B"
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="Metra"
