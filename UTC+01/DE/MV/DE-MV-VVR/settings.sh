@@ -8,7 +8,7 @@ PREFIX="DE-MV-VVR"
 
 PTNA_TIMEZONE="Europe/Berlin"
 
-OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level=6][name~'Vorpommern-Rügen'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level=6][name~'Vorpommern-Rügen'];(rel(area)[~'route'~'(bus|tram|trolleybus|ferry|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Verkehrsgesellschaft Vorpommern-Rügen"
 NETWORK_SHORT="VVR"
 
@@ -16,7 +16,7 @@ ANALYSIS_PAGE="Mecklenburg-Vorpommern/Vorpommern/Transportation/Analyse"
 ANALYSIS_TALK="Talk:Mecklenburg-Vorpommern/Vorpommern/Transportation/Analyse"
 WIKI_ROUTES_PAGE="Mecklenburg-Vorpommern/Vorpommern/Transportation/VVR-Linien-gesamt"
 
-ANALYSIS_OPTIONS="--language=de --positive-notes --show-gtfs --check-gtfs --link-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --check-route-ref --check-way-type --check-service-type --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--language=de --positive-notes --show-gtfs --check-gtfs --link-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --check-route-ref --check-bus-stop --check-platform --check-roundabouts --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --check-bus-stop
 # --positive-notes
