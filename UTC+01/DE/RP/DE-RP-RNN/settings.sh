@@ -12,9 +12,9 @@ OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[boundary=admin
 NETWORK_LONG="Rhein-Nahe Nahverkehrsverbund|Rhein-Nahe Nahverkehrsverbund GmbH"
 NETWORK_SHORT="RNN"
 
-ANALYSIS_PAGE="RNN/Analyse"
-ANALYSIS_TALK="Talk:RNN/Analyse"
-WIKI_ROUTES_PAGE="RNN/Analyse/DE-RP-RNN-Linien"
+ANALYSIS_PAGE="Rhein-Nahe_Nahverkehrsverbund/Analyse"
+ANALYSIS_TALK="Talk:Rhein-Nahe_Nahverkehrsverbund/Analyse"
+WIKI_ROUTES_PAGE="Rhein-Nahe_Nahverkehrsverbund/Analyse/DE-RP-RNN-Linien"
 
 ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
