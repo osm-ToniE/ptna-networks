@@ -16,8 +16,9 @@ ANALYSIS_PAGE="Quebec_City/Public_Transport/Analysis"
 ANALYSIS_TALK="Talk:Quebec_City/Public_Transport/Analysis"
 WIKI_ROUTES_PAGE="Quebec_City/Public_Transport/Analysis/RTC-Routes"
 
-ANALYSIS_OPTIONS="--language=fr --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --allow-coach --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --max-error=20 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --check-bus-stop --check-roundabouts"
+ANALYSIS_OPTIONS="--language=fr --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --allow-coach --check-access --check-way-type --check-service-type --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --max-error=20 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --check-bus-stop --check-roundabouts"
 
+# --check-name-relaxed
 # --check-platform
 # --expect-network-long
 # --expect-network-short
