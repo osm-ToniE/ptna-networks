@@ -46,7 +46,7 @@ PTNA_WWW_NETWORK_LINK="https://www.bus-greiz.de/"
 # automatically build by PHP script
 
 # Name + Link to discussion / documentation page (usually in OSM Wiki)
-PTNA_WWW_DISCUSSION_NAME="Discussion"
+PTNA_WWW_DISCUSSION_NAME="Diskussion"
 PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 
 # Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
