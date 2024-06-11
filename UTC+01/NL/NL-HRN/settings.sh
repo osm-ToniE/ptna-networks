@@ -16,7 +16,7 @@ ANALYSIS_PAGE="NL-OV/PTNA"
 ANALYSIS_TALK="Talk:NL-OV/PTNA"
 WIKI_ROUTES_PAGE="NL-OV/PTNA/Hoofdrailnet_lijnen"
 
-ANALYSIS_OPTIONS="--language=nl --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=NL-Nationaal --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train,light_rail,monorail,aerialway,funicular --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=nl --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=NL-OVApi --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train,light_rail,monorail,aerialway,funicular --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
 # --check-bus-stop
 # --expect-network-long
