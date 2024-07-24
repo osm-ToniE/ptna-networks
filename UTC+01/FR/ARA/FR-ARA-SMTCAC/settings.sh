@@ -36,7 +36,7 @@ ANALYSIS_OPTIONS="--language=fr --positive-notes --link-gtfs --show-gtfs --gtfs-
 # automatically build by PHP script
 
 # Name + Link to Overpass-Turbo call to show area on map
-PTNA_WWW_REGION_NAME="Clermont Auvergne Métropole, le parc Vulcania et les villes de SayatDallet, Mezel, St Bonnet et Pérignat-sur-Allier"
+PTNA_WWW_REGION_NAME="Clermont Auvergne Métropole, le parc Vulcania et les villes de Sayat, Dallet, Mezel, St Bonnet et Pérignat-sur-Allier"
 PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[wikidata~%27^(Q762950|Q784302|Q677735|Q241561|Q608101|Q646289|Q1475214)%24%27]%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B{{data%3Aoverpass%2Cserver%3D%2F%2Foverpass.openstreetmap.fr%2Fapi%2F}}"
 
 # Name + Link to the network provider / transport association
