@@ -1,5 +1,5 @@
 #!/bin/bash
 
-BASEURL="http://download.openstreetmap.fr/extracts"
-SOURCE="europe.osm.pbf"
+BASEURL="https://download.geofabrik.de"
+SOURCE="europe-latest.osm.pbf"
 TARGET=europe.osm.pbf
