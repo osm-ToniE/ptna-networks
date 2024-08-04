@@ -8,6 +8,10 @@ PREFIX="DE-BY-MVV"
 
 PTNA_TIMEZONE="Europe/Berlin"
 
+# PTNA extract source is an alternative to using Overpass API: use planet extracts. This file will be filtered for relevant data (similar to '[~'route'~'(bus|tram|train|...')
+PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
+
+# just in case that using the planet extract file failed
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:900];area[boundary=administrative][wikidata~'^(Q1726|Q10500|Q10544|Q10541|Q10539|Q10504|Q10497|Q10522|Q10502|Q4007|Q10526|Q10523)$'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Münchner Verkehrs- und Tarifverbund|Münchner Linien|Linientaxi Grünwald|Lufthansa Express Bus|Bürgerbus Gauting|Bürgerbus Oberbiberg|Stadtbus Dorfen|Freisinger Parkhaus und Verkehrs-GmbH|Ortsverkehr Markt Glonn"
 NETWORK_SHORT="MVV"
