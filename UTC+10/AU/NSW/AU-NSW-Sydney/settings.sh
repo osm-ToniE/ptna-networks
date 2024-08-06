@@ -9,7 +9,7 @@ PREFIX="AU-NSW-Sydney"
 PTNA_TIMEZONE="Australia/Sydney"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[wikidata='Q3130'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="Sydney Buses"
+NETWORK_LONG=""
 NETWORK_SHORT=""
 
 ANALYSIS_PAGE="Sydney/Public_transport/PTNA/Analysis"
@@ -50,5 +50,5 @@ PTNA_WWW_DISCUSSION_NAME="Discussion"
 PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 
 # Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
-PTNA_WWW_ROUTES_NAME="Sydney Buses Routes"
+PTNA_WWW_ROUTES_NAME="Sydney Routes"
 PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
