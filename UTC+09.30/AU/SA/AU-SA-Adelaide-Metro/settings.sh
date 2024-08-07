@@ -32,7 +32,7 @@ ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --che
 # automatically build by PHP script
 
 # Name + Link to Overpass-Turbo call to show area on map
-PTNA_WWW_REGION_NAME="South Australia / Adelaide Metropolitan Area"
+PTNA_WWW_REGION_NAME="Adelaide Metropolitan Area, South Australia"
 PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation[wikidata~'^(Q353997|Q1094063|Q1016835|Q1030580|Q1066185|Q1624414|Q1812769|Q1279553|Q56477743|Q1812778|Q976355|Q1533526|Q1537228|Q947334|Q2062776|Q1766439|Q1813391|Q1847617|Q1521840)$'][type=boundary]%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
 
 # Name + Link to the network provider / transport association
