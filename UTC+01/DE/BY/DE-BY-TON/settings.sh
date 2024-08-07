@@ -8,6 +8,10 @@ PREFIX="DE-BY-TON"
 
 PTNA_TIMEZONE="Europe/Berlin"
 
+# PTNA extract source is an alternative to using Overpass API: use planet extracts. This file will be filtered for relevant data (similar to '[~'route'~'(bus|tram|train|...')
+PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
+
+# just in case that using the planet extract file failed
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[wikidata~'^(Q7042|Q10421|Q10419|Q10420|Q14803|Q10423)$'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Tarif Oberpfalz Nord|Nahverkehrsgemeinschaft Weiden–Neustadt|Regionalbus Ostbayern|Stadtbus Weiden|Verkehrsgemeinschaft Amberg-Sulzbach|Verkehrsgemeinschaft Tirschenreuth|Landkreislinien Schwandorf"
 NETWORK_SHORT="TON|NWN|RBO|VAS|VGT"
