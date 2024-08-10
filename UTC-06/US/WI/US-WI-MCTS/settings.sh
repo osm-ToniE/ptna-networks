@@ -6,7 +6,7 @@
 
 PREFIX="US-WI-MCTS"
 
-PTNA_TIMEZONE="America/Chicago"
+PTNA_TIMEZONE="US/Central"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:900];area[wikidata='Q502294'];(rel(area)[~'route'~'(bus)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Milwaukee County Transit System"

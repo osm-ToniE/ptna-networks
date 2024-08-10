@@ -6,7 +6,7 @@
 
 PREFIX="US-RI-RIPTA"
 
-PTNA_TIMEZONE="America/New_York"
+PTNA_TIMEZONE="US/Eastern"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:900];area[wikidata='Q1387'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Rhode Island Public Transit Authority"

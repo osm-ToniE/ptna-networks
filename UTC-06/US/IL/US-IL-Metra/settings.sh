@@ -6,7 +6,7 @@
 
 PREFIX="US-IL-Metra"
 
-PTNA_TIMEZONE="America/Chicago"
+PTNA_TIMEZONE="US/Central"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:900];area[wikidata~'^(Q108418|Q109626|Q484263|Q483942)$'];(rel(area)[~'route'~'(train)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Metra"
