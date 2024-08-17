@@ -19,7 +19,6 @@ historic
 indoor=room
 junction
 landcover
-man_made
 piste:type
 pipeline
 place
