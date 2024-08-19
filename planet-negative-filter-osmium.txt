@@ -29,6 +29,8 @@ room
 telecom
 tourism
 heritage
+healthcare
+geological
 n/emergency=fire_hydrant,assemply_point,emergency_access_point
 n/highway=stop,give_way,street_lamp,crossing,traffic_signals
 r/highway=pedestrian,service,living_street,footway,rest_area
