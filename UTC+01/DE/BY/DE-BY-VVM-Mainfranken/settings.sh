@@ -8,7 +8,7 @@ PREFIX="DE-BY-VVM-Mainfranken"
 
 PTNA_TIMEZONE="Europe/Berlin"
 
-# PTNA extract source is an alternative to using Overpass API: use planet extracts. This file will be filtered for relevant data (similar to '[~'route'~'(bus|tram|train|...')
+# PTNA extract source is an alternative to using Overpass API: use planet extracts. This file has been filtered for relevant data (similar to '[~'route'~'(bus|tram|train|...') during planet handling
 PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
 
 # just in case that using the planet extract file failed
