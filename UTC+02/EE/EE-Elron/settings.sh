@@ -16,7 +16,7 @@ ANALYSIS_PAGE="WikiProject_Estonia/Public_Transport/PTNA"
 ANALYSIS_TALK="Talk:WikiProject_Estonia/Public_Transport/PTNA"
 WIKI_ROUTES_PAGE="WikiProject_Estonia/Public_Transport/PTNA/Elron-liinid"
 
-ANALYSIS_OPTIONS="--language=et--check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=et --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
 # --check-bus-stop
 # --expect-network-long
