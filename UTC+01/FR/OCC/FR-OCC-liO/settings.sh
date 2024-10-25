@@ -9,7 +9,7 @@ PREFIX="FR-OCC-liO"
 PTNA_TIMEZONE="Europe/Paris"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata='Q18678265'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="Réseau interurbain liO Occitanie"
+NETWORK_LONG="Réseau interurbain liO Occitanie|Hérault Transport"
 NETWORK_SHORT="liO"
 
 ANALYSIS_PAGE="Occitanie/Transports_en_commun/PTNA"
