@@ -16,10 +16,11 @@ ANALYSIS_PAGE="Occitanie/Transports_en_commun/PTNA"
 ANALYSIS_TALK="Talk:Occitanie/Transports_en_commun/PTNA"
 WIKI_ROUTES_PAGE="Occitanie/Transports_en_commun/PTNA/Lignes-liO"
 
-ANALYSIS_OPTIONS="--language=fr --positive-notes --check-bus-stop --link-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --expect-network-long --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--language=fr --positive-notes --check-bus-stop --link-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --check-gtfs
 # --expect-network-short
+# --expect-network-long
 # --expect-network-short-for=
 # --expect-network-long-for=
 # --positive-notes
