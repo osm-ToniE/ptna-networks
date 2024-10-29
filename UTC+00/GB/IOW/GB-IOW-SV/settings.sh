@@ -8,6 +8,9 @@ PREFIX="GB-IOW-SV"
 
 PTNA_TIMEZONE="Europe/London"
 
+# PTNA extract source is an alternative to using Overpass API: use planet extracts. This file has been filtered for relevant data (similar to '[~'route'~'(bus|tram|train|...') during planet handling
+PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
+
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:900];area[wikidata='Q9679'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Southern Vectis"
 NETWORK_SHORT="SV"

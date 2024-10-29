@@ -8,6 +8,9 @@ PREFIX="GH-AA-Accra"
 
 PTNA_TIMEZONE="Africa/Accra"
 
+# PTNA extract source is an alternative to using Overpass API: use planet extracts. This file has been filtered for relevant data (similar to '[~'route'~'(bus|tram|train|...') during planet handling
+PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
+
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[wikidata=Q431729][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG=""
 NETWORK_SHORT=""
