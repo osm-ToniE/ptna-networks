@@ -4,17 +4,17 @@
 # set variables for analysis of network
 #
 
-PREFIX="FR-BRE-CTRL"
+PREFIX="FR-BRE-ILIZO"
 
 PTNA_TIMEZONE="Europe/Paris"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata~'^(Q12642|Q3389)$'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="CTRL"
+NETWORK_LONG="ILIZO|CTRL"
 NETWORK_SHORT=""
 
 ANALYSIS_PAGE="Bretagne/Transports_en_commun/KorriGo"
 ANALYSIS_TALK="Talk:Bretagne/Transports_en_commun/KorriGo"
-WIKI_ROUTES_PAGE="Bretagne/Transports_en_commun/KorriGo/CTRL"
+WIKI_ROUTES_PAGE="Bretagne/Transports_en_commun/KorriGo/ILIZO"
 
 ANALYSIS_OPTIONS="--language=fr --check-bus-stop --link-gtfs --gtfs-feed=FR-BRE-KorriGo --max-error=10 --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --expect-network-long --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
@@ -49,5 +49,5 @@ PTNA_WWW_DISCUSSION_NAME="Discussion"
 PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 
 # Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
-PTNA_WWW_ROUTES_NAME="Lignes CTRL"
+PTNA_WWW_ROUTES_NAME="Lignes ILIZO"
 PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
