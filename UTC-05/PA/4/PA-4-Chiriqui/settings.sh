@@ -4,7 +4,7 @@
 # set variables for analysis of network
 #
 
-PREFIX="PA-4-Ciriqui"
+PREFIX="PA-4-Chiriqui"
 
 PTNA_TIMEZONE="America/Panama"
 
