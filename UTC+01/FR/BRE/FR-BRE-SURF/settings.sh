@@ -12,9 +12,9 @@ OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[
 NETWORK_LONG="FR:SURF"
 NETWORK_SHORT=""
 
-ANALYSIS_PAGE="Foug%C3%A8res/Transports_en_commun/PTNA"
-ANALYSIS_TALK="Talk:Foug%C3%A8res/Transports_en_commun/PTNA"
-WIKI_ROUTES_PAGE="Foug%C3%A8res/Transports_en_commun/PTNA/Lignes-SURF"
+ANALYSIS_PAGE="Fougères/Transports_en_commun/PTNA"
+ANALYSIS_TALK="Talk:Fougères/Transports_en_commun/PTNA"
+WIKI_ROUTES_PAGE="Fougères/Transports_en_commun/PTNA/Lignes-SURF"
 
 ANALYSIS_OPTIONS="--language=fr --check-bus-stop --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
