@@ -39,7 +39,7 @@ PTNA_WWW_REGION_NAME="Landkreis Rhön-Grabfeld"
 PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation[wikidata='Q10465'][type=boundary]%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
 
 # Name + Link to the network provider / transport association
-PTNA_WWW_NETWORK_NAME="Verkehrsgemeinschaft Rhön-Grabfeld"
+PTNA_WWW_NETWORK_NAME="Verkehrsgemeinschaft Rhön-Grabfeld; wird am 2025-01-01 Teil des DE-BY-NVM"
 PTNA_WWW_NETWORK_LINK="https://www.rhoen-grabfeld.de/themen/mobilitaet/oepnv#vrg"
 
 # Date and Time of last analysis in UTC and Local Time format
