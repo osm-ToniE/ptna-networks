@@ -8,6 +8,9 @@ PREFIX="DE-BW-DING-SWU"
 
 PTNA_TIMEZONE="Europe/Berlin"
 
+# PTNA extract source is an alternative to using Overpass API: use planet extracts. This file has been filtered for relevant data (similar to '[~'route'~'(bus|tram|train|...') during planet handling
+PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
+
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=(rel(poly:'
 48.4539045 9.9891665 48.4226263 9.8661771 48.3578424 9.8687857 48.3193944 9.9358786 48.3347822 10.1169242 48.4308096 10.0760772')[~'route'~'(bus|tram)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Donau-Iller-Nahverkehrsverbund"
