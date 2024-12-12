@@ -8,6 +8,9 @@ PREFIX="DE-HH-HVV"
 
 PTNA_TIMEZONE="Europe/Berlin"
 
+# PTNA extract source is an alternative to using Overpass API: use planet extracts. This file has been filtered for relevant data (similar to '[~'route'~'(bus|tram|train|...') during planet handling
+PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
+
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level~'^(4|6)$'][wikidata~'^(Q1055|Q3006|Q3011|Q2980|Q3003|Q3000|Q5910|Q5907|Q5906)$'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Hamburger Verkehrsverbund"
 NETWORK_SHORT="HVV"
