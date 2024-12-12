@@ -8,6 +8,9 @@ PREFIX="DE-MV-MVVG"
 
 PTNA_TIMEZONE="Europe/Berlin"
 
+# PTNA extract source is an alternative to using Overpass API: use planet extracts. This file has been filtered for relevant data (similar to '[~'route'~'(bus|tram|train|...') during planet handling
+PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
+
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level=6][name='Mecklenburgische Seenplatte'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Gemeinschaftstarif Mecklenburgische Seenplatte|Stadtlinienverkehr Demmin und Waren|Stadtverkehr Neustrelitz|Neubrandenburger Verkehrsbetriebe|Müritz-Nationalpark-Ticket"
 NETWORK_SHORT="GMS|NVB"
