@@ -39,7 +39,7 @@ PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="L'Agglo en bus;Altigo;Navettes du Queyras;Navettes Serre-Ponçon;Transports du Pays des Écrins"
-PTNA_WWW_NETWORK_LINK="https://www.gap-tallard-durance.fr/fr/lagglo-au-quotidien/transports-lagglo-en-bus/reseau-lagglo-en-bus/;https://www.monaltigo.fr;https://www.queyras-montagne.com/navettes-transports.html;https://www.ccserreponcon.com/infos-pratiques/transports;https://www.paysdesecrins.com/infos-pratiques-hiver/acces-et-transports/sur-place"
+PTNA_WWW_NETWORK_LINK="https://www.gap-tallard-durance.fr/fr/lagglo-au-quotidien/transports-lagglo-en-bus/reseau-lagglo-en-bus/;https://www.monaltigo.fr;https://www.queyras-montagne.com/navettes-transports.html;https://www.ccserreponcon.com/infos-pratiques/transports-collectifs;https://www.paysdesecrins.com/infos-pratiques-hiver/acces-et-transports/sur-place"
 
 # Date and Time of last analysis in UTC and Local Time format
 # automatically build by PHP script
