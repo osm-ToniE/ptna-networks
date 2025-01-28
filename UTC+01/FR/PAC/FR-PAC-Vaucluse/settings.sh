@@ -13,7 +13,7 @@ PTNA_TIMEZONE="Europe/Paris"
 
 # Use the Wikidata boundary of the Vaucluse département
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata=Q12792][type=boundary];(rel(area)[~'route'~'bus'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="TUB Bollène|Trans'CoVe|TCVO|Sorg'en bus|C mon bus|La Métropole Mobilité - LeBus|La Métropole Mobilité - LeCar|Mobily"
+NETWORK_LONG="TUB Bollène|Trans'CoVe|TCVO|Sorg'en bus|C mon bus|La Métropole Mobilité|Mobily"
 NETWORK_SHORT=""
 
 ANALYSIS_PAGE="Vaucluse/Transports_en_commun/Analyse"
@@ -40,7 +40,7 @@ PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="TUB Bollène;Trans'CoVe;TCVO;Sorg'en bus;C mon bus;La Métropole Mobilité;Mobily Apt"
-PTNA_WWW_NETWORK_LINK="https://www.voyages-auran.com/reseaux/tub-bollene/lignes-regulieres;http://www.transcove.com;https://www.tcvo.fr/;https://www.sorgues.fr/vivre/transports.htm;http://www.luberonmontsdevaucluse.fr/agglomeration/c-mon-bus;https://www.lepilote.com/;http://www.apt.fr"
+PTNA_WWW_NETWORK_LINK="https://www.voyages-auran.com/reseaux/tub-bollene/lignes-regulieres;http://www.transcove.com;https://www.tcvo.fr/;https://www.sorgues.fr/vivre/transports.htm;https://www.luberonmontsdevaucluse.fr/se-deplacer-en-bus/;https://www.lametropolemobilite.fr/;https://www.apt.fr/Les-transports.html"
 
 # Date and Time of last analysis in UTC and Local Time format
 # automatically build by PHP script
