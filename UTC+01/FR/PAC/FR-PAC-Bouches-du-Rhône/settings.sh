@@ -39,7 +39,7 @@ PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=%0A[out%3Ajson][timeo
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="La Métropole Mobilité"
-PTNA_WWW_NETWORK_LINK="https://www.lepilote.com/"
+PTNA_WWW_NETWORK_LINK="https://www.lametropolemobilite.fr/"
 
 # Date and Time of last analysis in UTC and Local Time format
 # automatically build by PHP script
