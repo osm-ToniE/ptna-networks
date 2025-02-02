@@ -4,7 +4,7 @@
 # set variables for analysis of network
 #
 
-PREFIX="DE-BY-VLMÜ"
+PREFIX="DE-BY-VLMUE"
 
 PTNA_TIMEZONE="Europe/Berlin"
 

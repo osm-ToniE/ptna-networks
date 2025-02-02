@@ -4,7 +4,7 @@
 # set variables for analysis of network
 #
 
-PREFIX="FR-PAC-Bouches-du-Rhône"
+PREFIX="FR-PAC-Bouches-du-Rhone"
 
 PTNA_TIMEZONE="Europe/Paris"
 
