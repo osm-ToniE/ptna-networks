@@ -15,7 +15,7 @@ ANALYSIS_PAGE="La_Réunion/Transports_en_commun/PTNA/Estival"
 ANALYSIS_TALK="Talk:La_Réunion/Transports_en_commun/PTNA/Estival"
 WIKI_ROUTES_PAGE="La_Réunion/Transports_en_commun/PTNA/Lignes_Estival"
 
-ANALYSIS_OPTIONS="--language=fr --check-bus-stop --link-gtfs --show-gtfs --check-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-way-type --check-service-type --check-name-relaxed --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--language=fr --check-bus-stop --link-gtfs --show-gtfs --check-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --check-stop-position
 # --expect-network-long

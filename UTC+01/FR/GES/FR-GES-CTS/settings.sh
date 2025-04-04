@@ -16,7 +16,7 @@ ANALYSIS_PAGE="Strasbourg/CTS/Analyse"
 ANALYSIS_TALK="Talk:Strasbourg/CTS/Analyse"
 WIKI_ROUTES_PAGE="Strasbourg/CTS/PTNA"
 
-ANALYSIS_OPTIONS="--language=fr --check-bus-stop --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-platform --check-roundabouts --check-route-ref --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=fr --check-bus-stop --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-platform --check-roundabouts --check-route-ref --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline"
 
 # --positive-notes
 # --expect-network-short

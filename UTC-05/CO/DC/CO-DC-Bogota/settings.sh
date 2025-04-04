@@ -16,7 +16,7 @@ ANALYSIS_PAGE="ES:Colombia:Bogotá:Bogotá/Transporte_Público/Análisis"
 ANALYSIS_TALK="Talk:ES:Colombia:Bogotá:Bogotá/Transporte_Público/Análisis"
 WIKI_ROUTES_PAGE="ES:Colombia:Bogotá:Bogotá/Rutas_Transporte_Público"
 
-ANALYSIS_OPTIONS="--language=es --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --check-access --check-way-type --check-service-type --check-bus-stop --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--language=es --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --check-access --check-dates --check-way-type --check-service-type --check-bus-stop --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --expect-network-short
 # --expect-network-long

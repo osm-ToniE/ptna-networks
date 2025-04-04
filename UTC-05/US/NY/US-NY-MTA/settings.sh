@@ -16,7 +16,7 @@ ANALYSIS_PAGE="New_York_City/MTA/Analysis"
 ANALYSIS_TALK="Talk:New_York_City/MTA/Analysis"
 WIKI_ROUTES_PAGE="New_York_City/MTA/Analysis/MTA-Routes"
 
-ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --max-error=20 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --check-bus-stop --check-roundabouts"
+ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --max-error=20 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --check-bus-stop --check-roundabouts"
 
 # --gtfs-feed=$PREFIX
 # --allow-coach

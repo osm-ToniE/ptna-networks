@@ -16,7 +16,7 @@ ANALYSIS_PAGE="WikiProject_Liechtenstein/Public_Transport/Analysis/LI-Alle"
 ANALYSIS_TALK="Talk:WikiProject_Liechtenstein/Public_Transport/Analysis/LI-Alle"
 WIKI_ROUTES_PAGE="WikiProject_Liechtenstein/Public_Transport/Analysis/LI-Alle-Routes"
 
-ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed="CH-Alle" --check-access --check-way-type --check-service-type --check-bus-stop --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed="CH-Alle" --check-access --check-dates --check-way-type --check-service-type --check-bus-stop --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --check-roundabouts
 # --expect-network-long

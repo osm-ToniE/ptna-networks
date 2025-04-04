@@ -19,7 +19,7 @@ ANALYSIS_PAGE="Bretagne/Transports_en_commun/KorriGo"
 ANALYSIS_TALK="Talk:Bretagne/Transports_en_commun/KorriGo"
 WIKI_ROUTES_PAGE="Bretagne/Transports_en_commun/KorriGo/LRRON"
 
-ANALYSIS_OPTIONS="--language=fr --check-bus-stop --link-gtfs --show-gtfs --gtfs-feed=FR-BRE-KorriGo --max-error=10 --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--language=fr --check-bus-stop --link-gtfs --show-gtfs --gtfs-feed=FR-BRE-KorriGo --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --check-gtfs
 # --expect-network-short

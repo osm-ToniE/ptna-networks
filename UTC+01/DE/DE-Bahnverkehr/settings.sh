@@ -18,7 +18,7 @@ ANALYSIS_PAGE="Germany/Railway/Route_Network/Analysis"
 ANALYSIS_TALK="Talk:Germany/Railway/Route_Network/Analysis"
 WIKI_ROUTES_PAGE="Germany/Railway/Route_Network/Analysis/DE-Bahnverkehr-Routes"
 
-ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --check-access --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,light_rail,monorail,tram"
 
 # --check-bus-stop
 # --expect-network-long
