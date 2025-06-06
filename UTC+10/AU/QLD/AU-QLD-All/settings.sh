@@ -16,8 +16,9 @@ ANALYSIS_PAGE="Queensland/Public_transport/Analysis"
 ANALYSIS_TALK="Talk:Queensland/Public_transport/Analysis"
 WIKI_ROUTES_PAGE="Queensland/Public_transport/Analysis/Queensland_Routes"
 
-ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --gtfs-feed --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
+ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
+# --gtfs-feed
 # --check-bus-stop
 # --expect-network-long
 # --expect-network-short
