@@ -10,7 +10,7 @@ PTNA_TIMEZONE="Europe/Paris"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata='Q2989397'][type=boundary];(rel(area)[~'route'~'(trolleybus|bus)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Service de transport de l'agglomération nancéienne"
-NETWORK_SHORT="Stan"
+NETWORK_SHORT="STAN"
 
 ANALYSIS_PAGE="Nancy/Transports_en_commun/Analyse"
 ANALYSIS_TALK="Talk:Nancy/Transports_en_commun/Analyse"
