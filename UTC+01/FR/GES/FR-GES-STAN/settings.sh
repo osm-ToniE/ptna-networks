@@ -8,7 +8,7 @@ PREFIX="FR-GES-STAN"
 
 PTNA_TIMEZONE="Europe/Paris"
 
-OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata='Q2989397'][type=boundary];(rel(area)[~'route'~'(trolleybus|bus)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata='Q2989397'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Service de transport de l'agglomération nancéienne"
 NETWORK_SHORT="STAN|Stan"
 
@@ -16,9 +16,8 @@ ANALYSIS_PAGE="Nancy/Transports_en_commun/Analyse"
 ANALYSIS_TALK="Talk:Nancy/Transports_en_commun/Analyse"
 WIKI_ROUTES_PAGE="Nancy/Transports_en_commun/PTNA/Lignes-STAN"
 
-ANALYSIS_OPTIONS="--language=fr --check-bus-stop --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-platform --check-roundabouts --check-route-ref --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline"
+ANALYSIS_OPTIONS="--language=fr --check-bus-stop --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --positive-notes --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-platform --check-roundabouts --check-route-ref --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline"
 
-# --positive-notes
 # --expect-network-short
 # --expect-network-short-for=
 # --expect-network-long-for=
