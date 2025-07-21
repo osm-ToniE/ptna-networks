@@ -8,7 +8,7 @@ PREFIX="FR-SNCF"
 
 PTNA_TIMEZONE="Europe/Paris"
 
-OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[boundary=land_area][name='France (terres)'];(rel(area)[~'route'~'(train|light_rail|monorail)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata='Q212429'][type='boundary'];(rel(area)[~'route'~'(train|light_rail|monorail)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Société nationale des chemins de fer français"
 NETWORK_SHORT="SNCF|SNCF TGV|TER Auvergne-Rhône-Alpes|TER Bourgogne|TER Bourgogne-Franche-Comté|TER Bretagne|TER Centre - Val de Loire|TER Champagne-Ardenne|TER Franche-Comté|TER Grand Est|TER Hauts-de-France|TER Midi-Pyrénées|TER Normandie|TER Nouvelle-Aquitaine|TER Occitanie|TER Pays de la Loire|TER Provence-Alpes-Côte d'Azur|TGV|TGV Europe|TGV InOui|liO TER Occitanie"
 
@@ -35,7 +35,7 @@ ANALYSIS_OPTIONS="--language=fr --check-gtfs --link-gtfs --show-gtfs --gtfs-feed
 
 # Name + Link to Overpass-Turbo call to show area on map
 PTNA_WWW_REGION_NAME="France (terres)"
-PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[boundary=land_area][name='France (terres)']%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B{{data%3Aoverpass%2Cserver%3D%2F%2Foverpass.openstreetmap.fr%2Fapi%2F}}"
+PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[wikidata='Q212429'][type='boundary']%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B{{data%3Aoverpass%2Cserver%3D%2F%2Foverpass.openstreetmap.fr%2Fapi%2F}}"
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="Société nationale des chemins de fer français (SNCF)"
