@@ -12,9 +12,9 @@ OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[
 NETWORK_LONG="Société nationale des chemins de fer français"
 NETWORK_SHORT="SNCF|SNCF TGV|TER Auvergne-Rhône-Alpes|TER Bourgogne|TER Bourgogne-Franche-Comté|TER Bretagne|TER Centre - Val de Loire|TER Champagne-Ardenne|TER Franche-Comté|TER Grand Est|TER Hauts-de-France|TER Midi-Pyrénées|TER Normandie|TER Nouvelle-Aquitaine|TER Occitanie|TER Pays de la Loire|TER Provence-Alpes-Côte d'Azur|TGV|TGV Europe|TGV InOui|liO TER Occitanie"
 
-ANALYSIS_PAGE="France/Transports_en_commun/PTNA/Analyse"
-ANALYSIS_TALK="Talk:France/Transports_en_commun/PTNA/Analyse"
-WIKI_ROUTES_PAGE="France/Transports_en_commun/PTNA/Lignes-SNCF"
+ANALYSIS_PAGE="France/Voies_ferrées/PTNA/Analyse"
+ANALYSIS_TALK="Talk:France/Voies_ferrées/PTNA/Analyse"
+WIKI_ROUTES_PAGE="France/Voies_ferrées/PTNA"
 
 ANALYSIS_OPTIONS="--language=fr --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --positive-notes --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-route-ref --multiple-ref-type-entries=analyze --coloured-sketchline"
 
