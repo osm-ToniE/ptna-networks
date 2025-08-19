@@ -19,7 +19,7 @@ ANALYSIS_PAGE="Jersey/Public_transport/Analysis"
 ANALYSIS_TALK="Talk:Jersey/Public_transport/Analysis"
 WIKI_ROUTES_PAGE="Jersey/Public_transport/Analysis/Jersey-Routes"
 
-ANALYSIS_OPTIONS="--allow-coach --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --max-error=20 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
+ANALYSIS_OPTIONS="--allow-coach --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --max-error=20 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --table-show-also=from,via,to"
 
 # --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX
 # --check-bus-stop --check-roundabouts
