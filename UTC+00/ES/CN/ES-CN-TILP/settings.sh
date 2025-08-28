@@ -35,7 +35,7 @@ PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=%0A%5Bout%3Ajson%5D%5
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="Transportes Insular La Palma (TILP)"
-PTNA_WWW_NETWORK_LINK="https://www.grupotilp.com/"
+PTNA_WWW_NETWORK_LINK="https://www.tilp.es/"
 
 # Date and Time of last analysis in UTC and Local Time format
 # automatically build by PHP script
