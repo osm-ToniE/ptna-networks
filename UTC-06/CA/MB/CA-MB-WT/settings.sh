@@ -16,7 +16,7 @@ ANALYSIS_PAGE="Winnipeg/Public_Transport/Analysis"
 ANALYSIS_TALK="Talk:Winnipeg/Public_Transport/Analysis"
 WIKI_ROUTES_PAGE="Winnipeg/Public_Transport/Analysis/WT-Routes"
 
-ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --allow-coach --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-sequence --check-version --check-osm-separator --check-motorway-link --max-error=20 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --check-bus-stop"
+ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --allow-coach --check-access --check-dates --check-way-type --check-service-type --check-sequence --check-version --check-osm-separator --check-motorway-link --max-error=20 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --check-bus-stop"
 
 # --check-platform
 # --expect-network-long
@@ -24,6 +24,7 @@ ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --all
 # --expect-network-short-for=
 # --expect-network-long-for=
 # --relaxed-begin-end-for=bus
+# --check-name-relaxed
 
 #
 # extensions to support ptna-www and PHP in results/xx/index.php files by code in ptna-network.sh (section: upload results)
