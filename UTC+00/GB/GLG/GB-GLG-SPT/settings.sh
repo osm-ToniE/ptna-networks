@@ -14,7 +14,7 @@ PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
 # ptna-routes.pl will report their IDs to STDERR (*.log), they can be retrieved from a larger file using "osmium getid"
 PTNA_EXTRACT_GETIDS="united-kingdom"
 
-OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:900];area[wikidata='Q55934339'];(rel(area)[~'route'~'(bus|coach|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:900];area[wikidata~'^(Q55934339|Q208121|Q211889|Q207111|Q209142|Q211925|Q211091)$'];(rel(area)[~'route'~'(bus|coach|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Strathclyde Partnership for Transport"
 NETWORK_SHORT="SPT"
 
@@ -29,7 +29,7 @@ ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --all
 # --expect-network-long
 # --expect-network-short
 # --expect-network-short-for=
-# --expect-network-long-for=
+# --expect-network-long-ford
 # --relaxed-begin-end-for=bus
 
 #
@@ -39,8 +39,8 @@ ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --all
 # automatically build by PHP script
 
 # Name + Link to Overpass-Turbo call to show area on map
-PTNA_WWW_REGION_NAME="Glasgow, Scotland"
-PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=%0A%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A%0A(%0A%0A%20%20relation%5Bwikidata%3D'Q55934339'%5D%3B%0A)%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B"
+PTNA_WWW_REGION_NAME="City of Glasgow, Scotland, including (as search area) East Dunbartonshire, East Renfrewshire, North Lanarkshire, Renfrewshire, South Lanarkshire, West Dunbartonshire"
+PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=%0A%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A%0A(%0A%0A%20%20relation%5Bwikidata~'^(Q55934339|Q208121|Q211889|Q207111|Q209142|Q211925|Q211091)$'%5D%3B%0A)%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B"
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="Strathclyde Partnership for Transport (SPT)"
