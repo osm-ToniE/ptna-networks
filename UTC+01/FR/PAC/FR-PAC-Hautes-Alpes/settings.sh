@@ -8,8 +8,11 @@ PREFIX="FR-PAC-Hautes-Alpes"
 
 PTNA_TIMEZONE="Europe/Paris"
 
-# avoid downloading same area/data if the data has already been downloaded and is not older than 1 hour (start analysis with: "ptna-networks.sh -fo" to 'f'orce download)
-# OVERPASS_REUSE_ID="FR-PAC-Q3125-train-bus"
+# PTNA extract source is an alternative to using Overpass API: use planet extracts. This file has been filtered for relevant data (similar to '[~'route'~'(bus|tram|train|...') during planet handling
+PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
+# Relations as members of route_master/route relations cannot be extracted ("osmium extract") if they are outside the search area.
+# ptna-routes.pl will report their IDs to STDERR (*.log), they can be retrieved from a larger file using "osmium getid"
+PTNA_EXTRACT_GETIDS="xx-departement-hautes-alpes"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata~'^(Q3125|Q871282|Q1018595)$'][type=boundary];(rel(area)[~'route'~'(tram|bus)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="L'Agglo en bus|AltiGo|Navettes Villages 05|Navettes Queyras|VAÏ|Pays des Écrins"

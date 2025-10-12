@@ -12,7 +12,7 @@ PTNA_TIMEZONE="Europe/Paris"
 PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
 # Relations as members of route_master/route relations cannot be extracted ("osmium extract") if they are outside the search area.
 # ptna-routes.pl will report their IDs to STDERR (*.log), they can be retrieved from a larger file using "osmium getid"
-PTNA_EXTRACT_GETIDS="regions-20R-ARA-NAQ-OCC-PAC-PDL"
+PTNA_EXTRACT_GETIDS="xx-departement-alpes-de-hautes-provence"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata~'^(Q3131|Q221832)$'][type=boundary];(rel(area)[~'route'~'(train|tram|bus)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Trans'Agglo|PAA|RTUD|CCVUSP|La Navette Trèfle"
