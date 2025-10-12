@@ -8,6 +8,12 @@ PREFIX="FR-PDL-Aleop_44"
 
 PTNA_TIMEZONE="Europe/Paris"
 
+# PTNA extract source is an alternative to using Overpass API: use planet extracts. This file has been filtered for relevant data (similar to '[~'route'~'(bus|tram|train|...') during planet handling
+PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
+# Relations as members of route_master/route relations cannot be extracted ("osmium extract") if they are outside the search area.
+# ptna-routes.pl will report their IDs to STDERR (*.log), they can be retrieved from a larger file using "osmium getid"
+PTNA_EXTRACT_GETIDS="pays-de-la-loire"
+
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[wikidata~'^(Q28476540|Q612145|Q669556|Q596603|Q702180|Q180843)$'][type=boundary];(rel(area)[~'route'~'(train|tram|bus)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Aléop|Aléop - Loire Atlantique|Aléop en Loire-Atlantique|"
 NETWORK_SHORT=""
@@ -31,7 +37,7 @@ ANALYSIS_OPTIONS="--language=fr --check-bus-stop --link-gtfs --show-gtfs --gtfs-
 # automatically build by PHP script
 
 # Name + Link to Overpass-Turbo call to show area on map
-PTNA_WWW_REGION_NAME="Arrondissements de Châteaubriant-Ancenis, Cholet, La Roche-sur-Yon, Nantes, Radon, Saint-Nazaire"
+PTNA_WWW_REGION_NAME="Département Loire-Atlantique, Arrondissements de Cholet (Maine-et-Loire), La Roche-sur-Yon (Vendée), Radon (Ille-et-Vilaine)"
 PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[wikidata~%27^(Q28476540|Q612145|Q596603|Q669556|Q702180|Q180843)%24%27][type%3Dboundary]%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B"
 
 # Name + Link to the network provider / transport association
