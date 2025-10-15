@@ -12,7 +12,7 @@ PTNA_TIMEZONE="Europe/Berlin"
 PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
 # Relations as members of route_master/route relations cannot be extracted ("osmium extract") if they are outside the search area.
 # ptna-routes.pl will report their IDs to STDERR (*.log), they can be retrieved from a larger file using "osmium getid"
-PTNA_EXTRACT_GETIDS="germany"
+PTNA_EXTRACT_GETIDS="region-BW-BY-HE-RP-SL"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=(rel(poly:'
 48.4539045 9.9891665 48.4226263 9.8661771 48.3578424 9.8687857 48.3193944 9.9358786 48.3347822 10.1169242 48.4308096 10.0760772')[~'route'~'(bus|tram)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
