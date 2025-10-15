@@ -12,7 +12,7 @@ PTNA_TIMEZONE="Europe/Vienna"
 PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
 # Relations as members of route_master/route relations cannot be extracted ("osmium extract") if they are outside the search area.
 # ptna-routes.pl will report their IDs to STDERR (*.log), they can be retrieved from a larger file using "osmium getid"
-PTNA_EXTRACT_GETIDS="brugenland-nieder-oesterreich-wien"
+PTNA_EXTRACT_GETIDS="austria"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[wikidata~'^(Q43210|Q42497|Q1741)$'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Verkehrsverbund Ost-Region"
