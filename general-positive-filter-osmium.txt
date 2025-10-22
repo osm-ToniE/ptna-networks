@@ -20,7 +20,7 @@ r/removed:route
 r/was:route
 r/route_master
 r/proposed:route_master
-r/planned:roroute_masterute
+r/planned:route_master
 r/construction:route_master
 r/ruins:route_master
 r/demolished:route_master
