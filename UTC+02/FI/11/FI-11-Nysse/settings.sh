@@ -6,7 +6,7 @@
 
 PREFIX="FI-11-Nysse"
 
-PTNA_TIMEZONE="Europe/Tallinn"
+PTNA_TIMEZONE="Europe/Helsinki"
 
 # PTNA extract source is an alternative to using Overpass API: use planet extracts. This file has been filtered for relevant data (similar to '[~'route'~'(bus|tram|train|...') during planet handling
 PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
