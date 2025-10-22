@@ -12,7 +12,7 @@ PTNA_TIMEZONE="Europe/Berlin"
 PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
 # Relations as members of route_master/route relations cannot be extracted ("osmium extract") if they are outside the search area.
 # ptna-routes.pl will report their IDs to STDERR (*.log), they can be retrieved from a larger file using "osmium getid"
-PTNA_EXTRACT_GETIDS="germany"
+PTNA_EXTRACT_GETIDS="region-HB-HH-NI-NW-SH"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[boundary=administrative][admin_level~'^(4|6)$'][wikidata~'^(Q1055|Q3006|Q3011|Q2980|Q3003|Q3000|Q5910|Q5907|Q5906)$'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Hamburger Verkehrsverbund"
