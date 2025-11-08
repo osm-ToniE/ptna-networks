@@ -4,7 +4,7 @@
 # set variables for analysis of network
 #
 
-PREFIX="CA-ON-Burlington-Transit"
+PREFIX="CA-ON-BT"
 
 PTNA_TIMEZONE="America/Toronto"
 
