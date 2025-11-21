@@ -11,7 +11,7 @@ PTNA_TIMEZONE="US/Pacific"
 # avoid downloading same area/data if the data has already been downloaded and is not older than 1 hour (start analysis with: "ptna-networks.sh -fo" to 'f'orce download)
 OVERPASS_REUSE_ID="US-Q30-train"
 
-OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:1800];area[wikidata=%27Q30%27];(rel(area)[~'route'~'(train)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:1800];area[wikidata='Q30'];(rel(area)[~'route'~'(train)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Amtrak"
 NETWORK_SHORT=""
 
