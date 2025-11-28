@@ -12,7 +12,7 @@ PTNA_TIMEZONE="Europe/Paris"
 PTNA_EXTRACT_SOURCE="normandie.osm.pbf"
 # Relations as members of route_master/route relations cannot be extracted ("osmium extract") if they are outside the search area.
 # ptna-routes.pl will report their IDs to STDERR (*.log), they can be retrieved from a larger file using "osmium getid"
-PTNA_EXTRACT_GETIDS="regions-BFC-BRE-CVL-GES-HDF-IDF-NOR"
+PTNA_EXTRACT_GETIDS="france"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata='Q18677875'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Nomad|Nomad Car|NOMAD Cars|Nomad Car Calvados|Nomad Car Orne|Nomad Car Eure|Nomad Car Seine-Maritime"
