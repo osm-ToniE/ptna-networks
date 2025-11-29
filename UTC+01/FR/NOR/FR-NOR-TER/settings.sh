@@ -15,7 +15,7 @@ PTNA_EXTRACT_SOURCE="normandie.osm.pbf"
 PTNA_EXTRACT_GETIDS="france"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata='Q18677875'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG=""
+NETWORK_LONG="TER Normandie|TER Haute-Normandie"
 NETWORK_SHORT=""
 
 ANALYSIS_PAGE="France/Voies_ferrées/PTNA"
