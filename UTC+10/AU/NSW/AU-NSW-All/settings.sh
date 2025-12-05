@@ -16,7 +16,7 @@ ANALYSIS_PAGE="New_South_Wales/Public_transport/PTNA/Analysis"
 ANALYSIS_TALK="Talk:New_South_Wales/Public_transport/PTNA/Analysis"
 WIKI_ROUTES_PAGE="New_South_Wales/Public_transport/PTNA/Analysis/All_Routes"
 
-ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --gtfs-feed=AU-NSW-TfNSW --check-access --check-dates --check-from-via-to=relaxed --check-route-ref --check-way-type --check-service-type --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
+ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --gtfs-feed=AU-NSW-TfNSW --check-access --check-dates --check-from-to=relaxed --check-via=relaxed --check-route-ref --check-way-type --check-service-type --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
 # --check-name-relaxed
 # --check-bus-stop
