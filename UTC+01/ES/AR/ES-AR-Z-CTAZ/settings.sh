@@ -9,7 +9,7 @@ PREFIX="ES-AR-Z-CTAZ"
 PTNA_TIMEZONE="Europe/Madrid"
 
 # PTNA extract source is an alternative to using Overpass API: use planet extracts. This file has been filtered for relevant data (similar to '[~'route'~'(bus|tram|train|...') during planet handling
-PTNA_EXTRACT_SOURCE="zaragoza.osm.pbf"
+PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
 # Relations as members of route_master/route relations cannot be extracted ("osmium extract") if they are outside the search area.
 # ptna-routes.pl will report their IDs to STDERR (*.log), they can be retrieved from a larger file using "osmium getid"
 PTNA_EXTRACT_GETIDS="aragon"
