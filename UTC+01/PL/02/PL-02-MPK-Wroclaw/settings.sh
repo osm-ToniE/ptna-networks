@@ -8,6 +8,12 @@ PREFIX="PL-02-MPK-Wroclaw"
 
 PTNA_TIMEZONE="Europe/Warsaw"
 
+# PTNA extract source is an alternative to using Overpass API: use planet extracts. This file has been filtered for relevant data (similar to '[~'route'~'(bus|tram|train|...') during planet handling
+PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
+# Relations as members of route_master/route relations cannot be extracted ("osmium extract") if they are outside the search area.
+# ptna-routes.pl will report their IDs to STDERR (*.log), they can be retrieved from a larger file using "osmium getid"
+PTNA_EXTRACT_GETIDS="xx-region-south-west"
+
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:300];area[boundary=administrative][admin_level=7][wikidata='Q1799'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Miejskie Przedsiębiorstwo Komunikacyjne|Autobusy we Wrocławiu|Tramwaje we Wrocławiu|Wrocław|Wrocław (komunikacja podmiejska)"
 NETWORK_SHORT="MPK"
