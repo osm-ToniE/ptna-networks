@@ -13,7 +13,7 @@ PTNA_TIMEZONE="Europe/Zurich"
 PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
 # Relations as members of route_master/route relations cannot be extracted ("osmium extract") if they are outside the search area.
 # ptna-routes.pl will report their IDs to STDERR (*.log), they can be retrieved from a larger file using "osmium getid"
-PTNA_EXTRACT_GETIDS="xx-region-AG-AI-AR-BL-BS-GL-SG-SH-SO-SZ-TG-ZH-osmium"
+PTNA_EXTRACT_GETIDS="xx-region-AG-AI-AR-BL-BS-GL-SG-SH-SO-SZ-TG-ZH"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[boundary=administrative][wikidata~'^(Q74874|Q74818|Q74831|Q74826)$'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Tarifverbund Schwyz|Schwyzerpass"

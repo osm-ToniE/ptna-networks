@@ -12,7 +12,7 @@ PTNA_TIMEZONE="Europe/Luxembourg"
 PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
 # Relations as members of route_master/route relations cannot be extracted ("osmium extract") if they are outside the search area.
 # ptna-routes.pl will report their IDs to STDERR (*.log), they can be retrieved from a larger file using "osmium getid"
-PTNA_EXTRACT_GETIDS="luxembourg"
+PTNA_EXTRACT_GETIDS="region-europe-UTC+01-center"
 
 # avoid downloading same area/data if the data has already been downloaded and is not older than 1 hour (start analysis with: "ptna-networks.sh -fo" to 'f'orce download)
 OVERPASS_REUSE_ID="LU-All"
