@@ -4,7 +4,7 @@
 # set variables for analysis of network
 #
 
-PREFIX="FR-BRE-PENNARBED"
+PREFIX="FR-BRE-BREIZHGO_CAR_29"
 
 PTNA_TIMEZONE="Europe/Paris"
 
