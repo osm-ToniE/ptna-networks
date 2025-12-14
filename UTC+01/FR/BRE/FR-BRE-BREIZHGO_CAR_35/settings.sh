@@ -14,13 +14,13 @@ PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
 # ptna-routes.pl will report their IDs to STDERR (*.log), they can be retrieved from a larger file using "osmium getid"
 PTNA_EXTRACT_GETIDS="regions-BFC-BRE-CVL-GES-HDF-IDF-NOR"
 
-OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata~'^(Q12549|Q12589|Q3349)$'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata~'^(Q701131|Q701222|Q700557|Q701268|Q1115786|Q702180|Q374101|Q702196|Q659331|Q586597|Q702395)$'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="BREIZHGO_CAR_35"
 NETWORK_SHORT=""
 
-ANALYSIS_PAGE="Bretagne/Transports_en_commun/KorriGo"
-ANALYSIS_TALK="Talk:Bretagne/Transports_en_commun/KorriGo"
-WIKI_ROUTES_PAGE="Bretagne/Transports_en_commun/KorriGo/BREIZHGO_CAR_35"
+ANALYSIS_PAGE="User:Mga_geo/Transports_en_commun/BreizhGo_Car_en_Ille_et_Vilaine/PTNA"
+ANALYSIS_TALK="User_talk:Mga_geo/Transports_en_commun/BreizhGo_Car_en_Ille_et_Vilaine/PTNA"
+WIKI_ROUTES_PAGE="User:Mga_geo/Transports_en_commun/BreizhGo_Car_en_Ille_et_Vilaine/PTNA_csv"
 
 ANALYSIS_OPTIONS="--language=fr --check-bus-stop --link-gtfs --show-gtfs --gtfs-feed=FR-BRE-KorriGo --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
@@ -37,8 +37,8 @@ ANALYSIS_OPTIONS="--language=fr --check-bus-stop --link-gtfs --show-gtfs --gtfs-
 # automatically build by PHP script
 
 # Name + Link to Overpass-Turbo call to show area on map
-PTNA_WWW_REGION_NAME="Départements Côtes-d'Armor, Ille-et-Vilaine (Bretagne) et Manche (Normandie)"
-PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[wikidata~'^(Q12549|Q12589|Q3349)$'][type%3Dboundary]%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B{{data%3Aoverpass%2Cserver%3D%2F%2Foverpass.openstreetmap.fr%2Fapi%2F}}"
+PTNA_WWW_REGION_NAME="Arrondissements de Fougères-Vitré, Redon, Rennes, Saint-Malo (Ille-et-Vilaine), Dinan, Guingamp, Saint-Brieuc (Côtes-d'Armor), Avranches (Normandie), Châteaulin (Finistère), Pontivy, Vannes (Morbihan)"
+PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[wikidata~'^(Q701131|Q701222|Q700557|Q701268|Q1115786|Q702180|Q374101|Q702196|Q659331|Q586597|Q702395)$'][type%3Dboundary]%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B{{data%3Aoverpass%2Cserver%3D%2F%2Foverpass.openstreetmap.fr%2Fapi%2F}}"
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="BreizhGo en Ille-et-Vilaine"
