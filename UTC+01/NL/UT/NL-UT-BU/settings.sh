@@ -17,12 +17,12 @@ PTNA_EXTRACT_GETIDS="utrecht"
 # avoid downloading same area/data if the data has already been downloaded and is not older than 1 hour (start analysis with: "ptna-networks.sh -fo" to 'f'orce download)
 OVERPASS_REUSE_ID="NL-UT-Q776-all"
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[wikidata='Q776'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="Utrect Buiten"
+NETWORK_LONG="Utrecht Buiten"
 NETWORK_SHORT=""
 
 ANALYSIS_PAGE="NL-OV/PTNA"
 ANALYSIS_TALK="Talk:NL-OV/PTNA"
-WIKI_ROUTES_PAGE="NL-OV/PTNA/Utrect_Buiten_lijnen"
+WIKI_ROUTES_PAGE="NL-OV/PTNA/Utrecht_Buiten_lijnen"
 
 ANALYSIS_OPTIONS="--language=nl --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=NL-OVApi --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train,light_rail,tram --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
