@@ -6,7 +6,7 @@
 
 PREFIX="US-NV-RTC"
 
-PTNA_TIMEZONE="US/Pacific"
+PTNA_TIMEZONE="America/Los_Angeles"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[wikidata~'^Q108403$'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Regional Transportation Commission of Southern Nevada"

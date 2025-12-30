@@ -6,7 +6,7 @@
 
 PREFIX="US-IL-Pace"
 
-PTNA_TIMEZONE="US/Central"
+PTNA_TIMEZONE="America/Chicago"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:900];area[wikidata~'^(Q108418|Q109626|Q484263|Q483942|Q486112|Q487403)$'];(rel(area)[~'route'~'(bus)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Pace"

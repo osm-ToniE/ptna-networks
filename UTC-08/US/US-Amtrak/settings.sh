@@ -6,7 +6,7 @@
 
 PREFIX="US-Amtrak"
 
-PTNA_TIMEZONE="US/Pacific"
+PTNA_TIMEZONE="America/Los_Angeles"
 
 # avoid downloading same area/data if the data has already been downloaded and is not older than 1 hour (start analysis with: "ptna-networks.sh -fo" to 'f'orce download)
 OVERPASS_REUSE_ID="US-Q30-train"

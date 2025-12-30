@@ -6,7 +6,7 @@
 
 PREFIX="US-AK-Anchorage-PTD"
 
-PTNA_TIMEZONE="US/Alaska"
+PTNA_TIMEZONE="America/Anchorage"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:1800];area[wikidata='Q39450'];(rel(area)[~'route'~'(bus|coach|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Municipality of Anchorage|People Mover|AnchorRIDES|RideShare"

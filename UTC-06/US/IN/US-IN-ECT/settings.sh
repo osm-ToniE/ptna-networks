@@ -6,7 +6,7 @@
 
 PREFIX="US-IN-ECT"
 
-PTNA_TIMEZONE="US/Central"
+PTNA_TIMEZONE="America/Chicago"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:900];area[wikidata~'^(Q599694|Q591052|Q856860|Q932018)$'];(rel(area)[~'route'~'(train)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="East Chicago Transit"
