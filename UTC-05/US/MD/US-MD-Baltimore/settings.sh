@@ -6,7 +6,7 @@
 
 PREFIX="US-MD-Baltimore"
 
-PTNA_TIMEZONE="US/Eastern"
+PTNA_TIMEZONE="America/New_York"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:900];area[wikidata~'^(Q5092|Q488701|Q488668|Q398939)$'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="BaltimoreLink|Baltimore County Loop|Baltimore Light RailLink|Baltimore Metro SubwayLink|Charm City Circulator|MTA Express BusLink|MARC|MTA Commuter Bus|MTA Express BusLink|MTA LocalLink|rabbittransit|RTA|Shuttle-UM|TUTigerRide"
