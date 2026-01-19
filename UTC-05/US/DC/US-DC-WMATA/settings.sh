@@ -6,7 +6,7 @@
 
 PREFIX="US-DC-WMATA"
 
-PTNA_TIMEZONE="Anerica/New_York"
+PTNA_TIMEZONE="America/New_York"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:900];area[wikidata~'^(Q107126|Q341915|Q88|Q61|Q488659|Q26807|Q495310|Q408744|Q501785)$'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Washington Metropolitan Area Transport Authority|WMATA Metrobus|Washington Metro"
