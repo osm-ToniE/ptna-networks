@@ -22,7 +22,7 @@ ANALYSIS_PAGE="Beograd/Javni_prevoz/Analiza"
 ANALYSIS_TALK="Talk:Beograd/Javni_prevoz/Analiza"
 WIKI_ROUTES_PAGE="Beograd/Javni_prevoz/Analiza/Beograd_Linije"
 
-ANALYSIS_OPTIONS="--language=sr --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=RS-00-BGPREVOZ --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
+ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=sr --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=RS-00-BGPREVOZ --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
 # --check-bus-stop
 # --expect-network-long

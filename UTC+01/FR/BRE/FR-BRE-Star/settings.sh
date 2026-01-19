@@ -22,7 +22,7 @@ ANALYSIS_PAGE="Rennes/Transports_en_commun/PTNA"
 ANALYSIS_TALK="Talk:Rennes/Transports_en_commun/PTNA"
 WIKI_ROUTES_PAGE="Rennes/Transports_en_commun/PTNA/Lignes-STAR"
 
-ANALYSIS_OPTIONS="--language=fr --check-bus-stop --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=fr --check-bus-stop --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --check-gtfs
 # --expect-network-short

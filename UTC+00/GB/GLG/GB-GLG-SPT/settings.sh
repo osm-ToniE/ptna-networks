@@ -22,7 +22,7 @@ ANALYSIS_PAGE="Glasgow/PublicTransport/PTNA/Analysis"
 ANALYSIS_TALK="Talk:Glasgow/PublicTransport/PTNA/Analysis"
 WIKI_ROUTES_PAGE="Glasgow/PublicTransport/PTNA/SPT_Routes"
 
-ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --allow-coach --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --max-error=20 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --check-bus-stop --check-roundabouts"
+ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --allow-coach --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --max-error=20 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --check-bus-stop --check-roundabouts"
 
 # --check-motorway-link
 # --check-platform

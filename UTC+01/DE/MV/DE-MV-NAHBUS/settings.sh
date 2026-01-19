@@ -22,7 +22,7 @@ ANALYSIS_PAGE="Nordwestmecklenburg/ÖPNV/Analyse"
 ANALYSIS_TALK="Talk:Nordwestmecklenburg/ÖPNV/Analyse"
 WIKI_ROUTES_PAGE="Nordwestmecklenburg/ÖPNV/NAHBUS-Linien"
 
-ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --multiple-ref-type-entries=allow
 # --check-bus-stop

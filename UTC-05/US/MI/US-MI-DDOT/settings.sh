@@ -16,7 +16,7 @@ ANALYSIS_PAGE="Michigan/Public_Transport/PTNA/Analysis"
 ANALYSIS_TALK="Talk:Michigan/Public_Transport/PTNA/Analysis"
 WIKI_ROUTES_PAGE="Michigan/Public_Transport/PTNA/DDOT_Routes"
 
-ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --check-access --check-dates --check-way-type --check-service-type --check-stop-position --check-sequence --check-version --check-osm-separator --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
+ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --check-access --check-dates --check-way-type --check-service-type --check-stop-position --check-sequence --check-version --check-osm-separator --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
 # --check-bus-stop --check-roundabouts --expect-network-short
 # --check-name-relaxed

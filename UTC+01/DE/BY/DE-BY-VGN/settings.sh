@@ -23,7 +23,7 @@ ANALYSIS_PAGE="Nürnberg/Transportation/Analyse"
 ANALYSIS_TALK="Talk:Nürnberg/Transportation/Analyse"
 WIKI_ROUTES_PAGE="Nürnberg/Transportation/Analyse/DE-BY-VGN-Linien"
 
-ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-sequence --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-version --check-osm-separator --check-motorway-link --ptv1-compatibility=allow --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-sequence --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-version --check-osm-separator --check-motorway-link --ptv1-compatibility=allow --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --check-bus-stop
 # --expect-network-long

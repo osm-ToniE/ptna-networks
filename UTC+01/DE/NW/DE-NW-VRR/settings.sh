@@ -26,7 +26,7 @@ ANALYSIS_PAGE="VRR/Analyse"
 ANALYSIS_TALK="Talk:VRR/Analyse"
 WIKI_ROUTES_PAGE="VRR/Analyse/VRR-Linien"
 
-ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --positive-notes --max-error=10 --check-version --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-sequence --check-osm-separator --check-motorway-link --ptv1-compatibility=allow --multiple-ref-type-entries=analyze --relaxed-begin-end-for=train,light_rail,subway,monorail,tram,bus --coloured-sketchline"
+ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --positive-notes --max-error=10 --check-version --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-sequence --check-osm-separator --check-motorway-link --ptv1-compatibility=allow --multiple-ref-type-entries=analyze --relaxed-begin-end-for=train,light_rail,subway,monorail,tram,bus --coloured-sketchline"
 
 # --check-stop-position
 # --expect-network-long

@@ -16,7 +16,7 @@ ANALYSIS_PAGE="France/Voies_ferrées/PTNA/Analyse"
 ANALYSIS_TALK="Talk:France/Voies_ferrées/PTNA/Analyse"
 WIKI_ROUTES_PAGE="France/Voies_ferrées/PTNA"
 
-ANALYSIS_OPTIONS="--language=fr --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --positive-notes --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-route-ref --multiple-ref-type-entries=analyze --coloured-sketchline"
+ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=fr --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --positive-notes --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-route-ref --multiple-ref-type-entries=analyze --coloured-sketchline"
 
 # --check-bus-stop
 # --check-motorway-link

@@ -22,7 +22,7 @@ ANALYSIS_PAGE="Landkreis_Vorpommern-Greifswald/ÖPNV/PTNA"
 ANALYSIS_TALK="Talk:Landkreis_Vorpommern-Greifswald/ÖPNV/PTNA"
 WIKI_ROUTES_PAGE="Landkreis_Vorpommern-Greifswald/ÖPNV/PTNA-Linien"
 
-ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --coloured-sketchline --multiple-ref-type-entries=analyze --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --coloured-sketchline --multiple-ref-type-entries=analyze --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --check-bus-stop
 # --expect-network-long

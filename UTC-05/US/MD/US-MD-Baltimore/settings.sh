@@ -16,7 +16,7 @@ ANALYSIS_PAGE="Baltimore,_Maryland/Public_Transport/PTNA"
 ANALYSIS_TALK="Talk:Baltimore,_Maryland/Public_Transport/PTNA"
 WIKI_ROUTES_PAGE="Baltimore,_Maryland/Public_Transport/PTNA/Baltimore-Routes"
 
-ANALYSIS_OPTIONS="--allow-coach --check-access --check-dates --check-way-type --check-service-type --check-stop-position --check-sequence --check-version --check-osm-separator --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
+ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --allow-coach --check-access --check-dates --check-way-type --check-service-type --check-stop-position --check-sequence --check-version --check-osm-separator --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
 # --check-name-relaxed
 # --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX

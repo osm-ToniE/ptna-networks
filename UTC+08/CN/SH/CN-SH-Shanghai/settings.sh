@@ -16,7 +16,7 @@ ANALYSIS_PAGE="Shanghai/Public_transport/PTNA/Analysis"
 ANALYSIS_TALK="Talk:Shanghai/Public_transport/PTNA/Analysis"
 WIKI_ROUTES_PAGE="Shanghai/Public_transport/PTNA/Analysis/Shanghai_Routes"
 
-ANALYSIS_OPTIONS="--language=zh_CN --check-access --check-dates --check-route-ref --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
+ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=zh_CN --check-access --check-dates --check-route-ref --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
 # --check-gtfs --link-gtfs --show-gtfs
 # --gtfs-feed=

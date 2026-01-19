@@ -22,7 +22,7 @@ ANALYSIS_PAGE="Mecklenburg-Vorpommern/ÖPNV/MVVG/Analyse"
 ANALYSIS_TALK="Talk:Mecklenburg-Vorpommern/ÖPNV/MVVG/Analyse"
 WIKI_ROUTES_PAGE="Mecklenburg-Vorpommern/ÖPNV/MVVG/Analyse/MVVG-Linien"
 
-ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --multiple-ref-type-entries=analyze
 # --check-bus-stop

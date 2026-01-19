@@ -16,7 +16,7 @@ ANALYSIS_PAGE="Calgary/Transit/Analysis"
 ANALYSIS_TALK="Talk:Calgary/Transit/Analysis"
 WIKI_ROUTES_PAGE="Calgary/Transit/Analysis/PTNA/CT_Routes"
 
-ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --expect-network-long --allow-coach --check-access --check-dates --check-way-type --check-service-type --check-sequence --check-version --check-osm-separator --check-motorway-link --max-error=20 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --check-bus-stop"
+ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --expect-network-long --allow-coach --check-access --check-dates --check-way-type --check-service-type --check-sequence --check-version --check-osm-separator --check-motorway-link --max-error=20 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --check-bus-stop"
 
 # --check-platform
 # --expect-network-long

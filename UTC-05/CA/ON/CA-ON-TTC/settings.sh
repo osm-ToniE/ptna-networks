@@ -16,7 +16,7 @@ ANALYSIS_PAGE="Toronto_Transit_Commission/Analysis"
 ANALYSIS_TALK="Talk:Toronto_Transit_Commission/Analysis"
 WIKI_ROUTES_PAGE="Toronto_Transit_Commission/Analysis/PTNA/TTC_Routes"
 
-ANALYSIS_OPTIONS="--check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --allow-coach --check-access --check-dates --check-way-type --check-service-type --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --max-error=20 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --check-roundabouts"
+ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --allow-coach --check-access --check-dates --check-way-type --check-service-type --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --max-error=20 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --check-roundabouts"
 
 # --check-bus-stop
 # --check-name-relaxed

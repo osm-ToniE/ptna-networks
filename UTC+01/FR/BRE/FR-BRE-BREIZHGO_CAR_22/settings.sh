@@ -22,7 +22,7 @@ ANALYSIS_PAGE="User:Mga_geo/Transports_en_commun/BreizhGo_Car_en_Côtes_d’Armo
 ANALYSIS_TALK="User_talk:Mga_geo/Transports_en_commun/BreizhGo_Car_en_Côtes_d’Armor/PTNA"
 WIKI_ROUTES_PAGE="User:Mga_geo/Transports_en_commun/BreizhGo_Car_en_Côtes_d’Armor/PTNA_csv"
 
-ANALYSIS_OPTIONS="--language=fr --check-bus-stop --link-gtfs --show-gtfs --gtfs-feed=FR-BRE-KorriGo --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=fr --check-bus-stop --link-gtfs --show-gtfs --gtfs-feed=FR-BRE-KorriGo --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --check-gtfs
 # --expect-network-short

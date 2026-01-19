@@ -22,7 +22,7 @@ ANALYSIS_PAGE="Landkreis_Calw/Verkehrsgesellschaft_Bäderkreis_Calw/Analyse"
 ANALYSIS_TALK="Talk:Landkreis_Calw/Verkehrsgesellschaft_Bäderkreis_Calw/Analyse"
 WIKI_ROUTES_PAGE="Landkreis_Calw/Verkehrsgesellschaft_Bäderkreis_Calw/Analyse/DE-BW-VGC-Routes"
 
-ANALYSIS_OPTIONS="--language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --check-bus-stop
 # --expect-network-short

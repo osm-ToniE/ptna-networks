@@ -16,7 +16,7 @@ ANALYSIS_PAGE="Lévis/Public_Transport/Analysis"
 ANALYSIS_TALK="Talk:Lévis/Public_Transport/Analysis"
 WIKI_ROUTES_PAGE="Lévis/Public_Transport/Analysis/STLévis-Routes"
 
-ANALYSIS_OPTIONS="--language=fr --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --allow-coach --check-access --check-dates --check-way-type --check-service-type --check-stop-position --check-sequence --check-version --check-osm-separator --max-error=20 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --check-bus-stop --check-roundabouts"
+ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=fr --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --allow-coach --check-access --check-dates --check-way-type --check-service-type --check-stop-position --check-sequence --check-version --check-osm-separator --max-error=20 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --check-bus-stop --check-roundabouts"
 
 # --check-motorway-link
 # --check-name-relaxed
