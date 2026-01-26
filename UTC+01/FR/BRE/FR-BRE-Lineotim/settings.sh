@@ -41,7 +41,7 @@ PTNA_WWW_REGION_NAME="Arrondissements de Lannion (Côtes-d'Armor) et Morlaix (Fi
 PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[wikidata~'^(Q584641|Q547847)$'][type%3Dboundary]%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B{{data%3Aoverpass%2Cserver%3D%2F%2Foverpass.openstreetmap.fr%2Fapi%2F}}"
 
 # Name + Link to the network provider / transport association
-PTNA_WWW_NETWORK_NAME="LinéoTim"
+PTNA_WWW_NETWORK_NAME="Linéotim"
 PTNA_WWW_NETWORK_LINK="https://www.lineotim.com/fr/"
 
 # Date and Time of last analysis in UTC and Local Time format
@@ -55,5 +55,5 @@ PTNA_WWW_DISCUSSION_NAME="Discussion"
 PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 
 # Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
-PTNA_WWW_ROUTES_NAME="Lignes LinéoTim"
+PTNA_WWW_ROUTES_NAME="Lignes Linéotim"
 PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
