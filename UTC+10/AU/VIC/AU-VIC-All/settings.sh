@@ -16,7 +16,7 @@ ANALYSIS_PAGE="Victoria,_Australia/Public_transport/PTNA/Analysis"
 ANALYSIS_TALK="Talk:Victoria,_Australia/Public_transport/PTNA/Analysis"
 WIKI_ROUTES_PAGE="Victoria,_Australia/Public_transport/PTNA/Analysis/All_Routes"
 
-ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --check-gtfs --link-gtfs --show-gtfs --check-from-to=relaxed --check-via=relaxed --check-access --check-dates --check-route-ref --check-way-type --check-service-type --check-stop-position --check-sequence --check-version --check-osm-separator --relaxed-begin-end-for=train,light_rail,tram --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
+ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --check-gtfs --link-gtfs --show-gtfs --check-from-to=relaxed --check-via=relaxed --check-access --check-dates --check-route-ref --check-way-type --check-service-type --check-stop-position --check-sequence --check-version --check-osm-separator --relaxed-begin-end-for=train,light_rail,tram --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --show-operators --coloured-sketchline"
 
 # --check-motorway-link
 # --check-name-relaxed
