@@ -22,7 +22,7 @@ ANALYSIS_PAGE="Śląskie/Komunikacja_miejska/Analysis/Koleje_Śląskie"
 ANALYSIS_TALK="Talk:Śląskie/Komunikacja_miejska/Analysis/Koleje_Śląskie"
 WIKI_ROUTES_PAGE="Śląskie/Komunikacja_miejska/Analysis/Koleje_Śląskie/Koleje_Śląskie_Linie"
 
-ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=pl_PL --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --expect-network-long-for=ZTM --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
+ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=pl_PL --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --expect-network-long-for=KŚ --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
 # --language=de
 # --check-bus-stop
