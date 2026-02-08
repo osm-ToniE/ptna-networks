@@ -14,7 +14,7 @@ PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
 # ptna-routes.pl will report their IDs to STDERR (*.log), they can be retrieved from a larger file using "osmium getid"
 PTNA_EXTRACT_GETIDS="xx-region-south"
 
-OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:300];area[boundary=administrative][admin_level=4][wikidata~'^(224462)$'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:300];area[boundary=administrative][admin_level=4][wikidata='Q54181'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Koleje Śląskie"
 NETWORK_SHORT="KŚ"
 
@@ -38,7 +38,7 @@ ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=pl_PL --check-gtfs --link
 
 # Name + Link to Overpass-Turbo call to show area on map
 PTNA_WWW_REGION_NAME="Województwo Śląskie"
-PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[boundary%3Dadministrative][admin_level%3D4][wikidata~'^(224462)$']%3B)%3Bout body%3B>%3Bout skel qt%3B"
+PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[boundary%3Dadministrative][admin_level%3D4][wikidata='Q54181']%3B)%3Bout body%3B>%3Bout skel qt%3B"
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="Koleje Śląskie"
