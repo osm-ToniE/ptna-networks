@@ -15,7 +15,7 @@ PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
 PTNA_EXTRACT_GETIDS="nouvelle-aquitaine"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata='Q3278'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="Cars Régionaux Charente-Maritime|Cars Régionaux 17 - Charente-Maritime|Cars Régionaux 17|Lignes Interurbaines Nouvelle-Aquitaine|Nouvelle Aquitaine|Nouvelle-Aquitaine|Transports Nouvelle-Aquitaine|Transports de l'Agglomération Châtelleraudaise"
+NETWORK_LONG="Cars Régionaux Charente-Maritime|Cars Régionaux 17 - Charente-Maritime|Cars Régionaux 17|Lignes Interurbaines Nouvelle-Aquitaine|Nouvelle Aquitaine|Nouvelle-Aquitaine|Transports Nouvelle-Aquitaine|Transports de l'Agglomération Châtelleraudaise|Filéo"
 NETWORK_SHORT=""
 
 ANALYSIS_PAGE="Charente-Maritime/Transports_en_commun/PTNA"
