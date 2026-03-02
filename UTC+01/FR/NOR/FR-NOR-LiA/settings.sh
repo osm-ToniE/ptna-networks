@@ -41,7 +41,7 @@ PTNA_WWW_REGION_NAME="CU Le Havre Seine Métropole, Seine-Maritime"
 PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[wikidata='Q60642622'][type%3Dboundary]%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B{{data%3Aoverpass%2Cserver%3D%2F%2Foverpass.openstreetmap.fr%2Fapi%2F}}"
 
 # Name + Link to the network provider / transport association
-PTNA_WWW_NETWORK_NAME="Transport LiA"
+PTNA_WWW_NETWORK_NAME="LiA"
 PTNA_WWW_NETWORK_LINK="https://www.transports-lia.fr/"
 
 # Date and Time of last analysis in UTC and Local Time format
