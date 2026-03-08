@@ -6,7 +6,7 @@
 
 PREFIX="AR-AMBA"
 
-PTNA_TIMEZONE="America/Buenos_Aires"
+PTNA_TIMEZONE="America/Argentina/Buenos_Aires"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[wikidata~'^(Q1486|Q1308616|Q14638682|Q1855418|Q1399432|Q1239732|Q730109|Q2037611|Q2621603|Q2157253|Q1906802|Q1882267|Q2054829|Q2502677|Q2721011|Q2213772|Q1685960|Q2644735|Q2209426|Q2099330|Q2329785|Q2514038|Q2713086|Q2510045|Q1971695)$'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG=""
