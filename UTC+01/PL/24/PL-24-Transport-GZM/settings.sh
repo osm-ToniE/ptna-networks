@@ -16,7 +16,7 @@ PTNA_EXTRACT_GETIDS="xx-region-south"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:300];area[boundary=administrative][admin_level=7][wikidata~'^(Q588|Q985640|Q554421|Q104302|Q45197|Q108679|Q103892|Q554585|Q659905|Q158485|Q161605|Q461513|Q158488|Q584055|Q102350|Q553389|Q1001326|Q105084|Q276860|Q553379|Q345293|Q554471|Q11977|Q554760|Q276858|Q161595|Q105060|Q554595|Q554767|Q425965|Q329833|Q553468|Q553472|Q554565|Q553969|Q555554|Q553966|Q393171|Q1001207|Q553363|Q554128|Q553360|Q7342|Q1532946|Q325108|Q553460|Q185798|Q158006|Q841380|Q108672|Q553402|Q731079|Q553706|Q553668|Q651788|Q554553|Q553689)$'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Transport GZM"
-NETWORK_SHORT="ZTGZMM"
+NETWORK_SHORT=""
 
 ANALYSIS_PAGE="Śląskie/Komunikacja_miejska/Analysis/Zarząd_Transportu_Metropolitalnego"
 ANALYSIS_TALK="Talk:Śląskie/Komunikacja_miejska/Analysis/Zarząd_Transportu_Metropolitalnego"
