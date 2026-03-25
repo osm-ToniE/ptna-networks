@@ -15,7 +15,7 @@ PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
 PTNA_EXTRACT_GETIDS="isle-of-ireland"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:900];area[wikidata='Q26'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="Translink|Translink Metro|Translink Ulsterbus|Glider|Goldline|Goldliner|Goldliner Express|Ulsterbus Town Service|Ulsterbus Town Services|Ulsterbus|Foyle Metro|Airport Express|Metro|NIR"
+NETWORK_LONG="Translink|Translink Metro|Translink Ulsterbus|Glider|Goldliner|Ulsterbus Town Service|Ulsterbus Town Services|Ulsterbus|Foyle Metro|Metro|NIR"
 NETWORK_SHORT=""
 
 ANALYSIS_PAGE="Northern_Ireland/Public_transport/Analysis"
