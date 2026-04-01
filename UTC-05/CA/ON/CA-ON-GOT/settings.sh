@@ -8,6 +8,12 @@ PREFIX="CA-ON-GOT"
 
 PTNA_TIMEZONE="America/Toronto"
 
+# PTNA extract source is an alternative to using Overpass API: use planet extracts. This file has been filtered for relevant data (similar to '[~'route'~'(bus|tram|train|...') during planet handling
+PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
+# Relations as members of route_master/route relations cannot be extracted ("osmium extract") if they are outside the search area.
+# ptna-routes.pl will report their IDs to STDERR (*.log), they can be retrieved from a larger file using "osmium getid"
+PTNA_EXTRACT_GETIDS="level0-ca-state-Ontario"
+
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:90];area[wikidata~'^(Q1535009|Q1752156|Q730542|Q776930|Q384755|Q1437636|Q34183|Q1145335|Q1525404|Q504114|Q175735|Q384944|Q34180|Q385346|Q2373358)$'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="GO Transit"
 NETWORK_SHORT="GOT"
