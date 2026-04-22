@@ -17,6 +17,7 @@ craft
 golf
 historic
 indoor=room
+indoor=corridor
 junction
 landcover
 piste:type
@@ -43,4 +44,5 @@ r/type=*whitewater
 r/route_master=*historic
 r/route=*historic
 ra/highway=rest_area,services
+r/adr_les
 wikidata=Q55085720
