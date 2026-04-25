@@ -14,7 +14,7 @@ PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
 # ptna-routes.pl will report their IDs to STDERR (*.log), they can be retrieved from a larger file using "osmium getid"
 PTNA_EXTRACT_GETIDS="baden-wuerttemberg"
 
-OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[boundary=public_traffic][name='Regio-Verkehrsverbund Freiburg'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[boundary=administrative][wikidata~'^(Q2833|Q8195|Q8193)$'];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Regio-Verkehrsverbund Freiburg|Nachtbus Freiburg"
 NETWORK_SHORT="RVF|RVF Nachtbus"
 
@@ -38,7 +38,7 @@ ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=de --check-gtfs --link-gt
 
 # Name + Link to Overpass-Turbo call to show area on map
 PTNA_WWW_REGION_NAME="Stadt Freiburg im Breisgau; Landkreis Breisgau-Hochschwarzwald; Landkreis Emmendingen"
-PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation%5Bboundary%3Dpublic_traffic%5D%5Bname%3D%27Regio-Verkehrsverbund%20Freiburg%27%5D%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
+PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B(relation[boundary=administrative][wikidata~'^(Q2833|Q8195|Q8193)$']%3B)%3Bout%20body%3B%3E%3Bout%20skel%20qt%3B"
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="Regio-Verkehrsverbund Freiburg"
