@@ -2,14 +2,13 @@ highway=bus_stop,platform
 railway=stop,tram_stop,halt,station,platform
 *public_transport
 route_ref
-r/*type
 r/type=*route
 r/*type=*route
 r/ref
 r/ref_trips
 r/*route
-r/type=*network
-r/type=*public_transport
+r/*type=*network
+r/*type=*public_transport
 r/name
 r/network
 r/from
