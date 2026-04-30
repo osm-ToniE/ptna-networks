@@ -8,6 +8,12 @@ PREFIX="EU-Eurotrains"
 
 PTNA_TIMEZONE="Europe/Berlin"
 
+# PTNA extract source is an alternative to using Overpass API: use planet extracts. This file has been filtered for relevant data (similar to '[~'route'~'(bus|tram|train|...') during planet handling
+PTNA_EXTRACT_SOURCE="../europe-filtered.osm.pbf"
+# Relations as members of route_master/route relations cannot be extracted ("osmium extract") if they are outside the search area.
+# ptna-routes.pl will report their IDs to STDERR (*.log), they can be retrieved from a larger file using "osmium getid"
+PTNA_EXTRACT_GETIDS="europe"
+
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:1800];(rel(poly:'66.6569762 -23.0736582 36.7092056 -8.9953345 35.9404351 -5.6214121 35.6139346 14.4332346 34.7008006 24.1315366 34.4389993 32.7441537 35.8614952 34.7724255 36.5499339 28.2827078 38.4530304 26.3152919 40.3714182 26.0499145 41.3793698 29.5730723 46.9807515 38.3381215 68.5976645 41.3125962 71.2893993 28.3897039')[~'route'~'train'][~'name|ref|network|passengers|service'~'(EC|EN|ES|EU|Euro|international|long_distance)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG=""
 NETWORK_SHORT=""
