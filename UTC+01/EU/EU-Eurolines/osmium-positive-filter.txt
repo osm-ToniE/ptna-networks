@@ -1,2 +1,6 @@
+r/*name=*Eurolines
 r/*network=*Eurolines
 r/*operator=*Eurolines
+r/*name=*EuroLines
+r/*network=*EuroLines
+r/*operator=*EuroLines
