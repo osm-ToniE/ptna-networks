@@ -1,5 +1,2 @@
-r/*route=*bus
-r/*route=*train
-r/*route=*coach
 r/*network=*Eurolines
 r/*operator=*Eurolines
