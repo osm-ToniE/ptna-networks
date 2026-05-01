@@ -4,7 +4,7 @@
 # set variables for analysis of network
 #
 
-PREFIX="BR-RJ-SMRT"
+PREFIX="BR-RJ-SMTR"
 
 PTNA_TIMEZONE="America/Sao_Paulo"
 
@@ -20,7 +20,7 @@ NETWORK_SHORT=""
 
 ANALYSIS_PAGE="Rio_de_Janeiro/Transporte_público/Análise"
 ANALYSIS_TALK="Talk:Rio_de_Janeiro/Transporte_público/Análise"
-WIKI_ROUTES_PAGE="Rio_de_Janeiro/Transporte_público/SMRT_Linhas"
+WIKI_ROUTES_PAGE="Rio_de_Janeiro/Transporte_público/SMTR_Linhas"
 
 ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=pt_BR --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --check-access --check-dates --check-way-type --check-service-type --check-bus-stop --check-roundabouts --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --positive-notes --max-error=10 --multiple-ref-type-entries=allow --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
@@ -54,5 +54,5 @@ PTNA_WWW_DISCUSSION_NAME="Discussão"
 PTNA_WWW_DISCUSSION_LINK="https://wiki.openstreetmap.org/wiki/$ANALYSIS_TALK"
 
 # Name + Link to list of expected public ransport routes page (usually in OSM Wiki but can als be on GitHub)
-PTNA_WWW_ROUTES_NAME="SMRT Linhas"
+PTNA_WWW_ROUTES_NAME="SMTR Linhas"
 PTNA_WWW_ROUTES_LINK="https://wiki.openstreetmap.org/wiki/$WIKI_ROUTES_PAGE"
