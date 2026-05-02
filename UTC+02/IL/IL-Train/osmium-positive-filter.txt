@@ -1,0 +1,4 @@
+r/*route=*train
+r/*route=*subway
+r/*route=*light_rail
+r/*route=*monorail

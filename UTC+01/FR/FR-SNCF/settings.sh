@@ -8,6 +8,12 @@ PREFIX="FR-SNCF"
 
 PTNA_TIMEZONE="Europe/Paris"
 
+# PTNA extract source is an alternative to using Overpass API: use planet extracts. This file has been filtered for relevant data (similar to '[~'route'~'(bus|tram|train|...') during planet handling
+PTNA_EXTRACT_SOURCE="france.osm.pbf"
+# Relations as members of route_master/route relations cannot be extracted ("osmium extract") if they are outside the search area.
+# ptna-routes.pl will report their IDs to STDERR (*.log), they can be retrieved from a larger file using "osmium getid"
+PTNA_EXTRACT_GETIDS="europe-filtered"
+
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[wikidata='Q212429'][type='boundary'];(rel(area)[~'route'~'(train|light_rail|monorail)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Société nationale des chemins de fer français"
 NETWORK_SHORT="SNCF|SNCF TGV|TER Auvergne-Rhône-Alpes|TER Bourgogne|TER Bourgogne-Franche-Comté|TER Bretagne|TER Centre - Val de Loire|TER Champagne-Ardenne|TER Franche-Comté|TER Grand Est|TER Hauts-de-France|TER Midi-Pyrénées|TER Normandie|TER Nouvelle-Aquitaine|TER Occitanie|TER Pays de la Loire|TER Provence-Alpes-Côte d'Azur|TGV|TGV Europe|TGV InOui|liO TER Occitanie"

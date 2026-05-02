@@ -8,9 +8,13 @@ PREFIX="DE-Bahnverkehr"
 
 PTNA_TIMEZONE="Europe/Berlin"
 
+# PTNA extract source is an alternative to using Overpass API: use planet extracts. This file has been filtered for relevant data (similar to '[~'route'~'(bus|tram|train|...') during planet handling
+PTNA_EXTRACT_SOURCE="germany.osm.pbf"
+# Relations as members of route_master/route relations cannot be extracted ("osmium extract") if they are outside the search area.
+# ptna-routes.pl will report their IDs to STDERR (*.log), they can be retrieved from a larger file using "osmium getid"
+PTNA_EXTRACT_GETIDS="europe-filtered"
+
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:1800];area[boundary=administrative][admin_level=2][name='Deutschland'];(rel(area)[~'route'~'(train|light_rail|monorail)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-#NETWORK_LONG="DB InterCityExpress|DB InterCity|DB Regio|Deutsche Bahn AG|Deutsche Bahn|Bayerische Oberlandbahn|Bayerische Eisenbahngesellschaft|Verkehrsverbund Rhein-Neckar|Karlsruher Verkehrsverbund|EuroCity|EuroNight|SBB InterCity|ch-direct|TER Alsace|TER Grand Est|TER Lorraine|ÖBB Nightjet|ÖBB Railjet|ÖBB railjet"
-#NETWORK_SHORT="DB|BOB|Alex|VVS|VGN|VVO|VRN|MDV|RMV|NVV|VRB|GVH|ZVON|Agilis|agilis|Thalys|TER|SNCF TGV|TGV|ÖBB|VVT|SBB"
 NETWORK_LONG=""
 NETWORK_SHORT=""
 
