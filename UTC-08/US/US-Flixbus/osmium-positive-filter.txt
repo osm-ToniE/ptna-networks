@@ -1,0 +1,12 @@
+r/*name=*Fernb
+r/*name=*fernb
+r/*name=*Flix
+r/*name=*flix
+r/*network=*Fernb
+r/*network=*fernb
+r/*network=*Flix
+r/*network=*flix
+r/*operator=*Fernb
+r/*operator=*fernb
+r/*operator=*Flix
+r/*operator=*flix
