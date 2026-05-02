@@ -65,6 +65,7 @@ r/*route=*historic
 r/*route=*horse
 r/*route=*inline_skates
 r/*route=*junction
+r/*route=*light_rail
 r/*route=*motorboat
 r/*route=*motorcycle
 r/*route=*mtb
