@@ -15,8 +15,8 @@ PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
 PTNA_EXTRACT_GETIDS="level3-metro-manila"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[wikidata='Q13580'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="Manila LRT|Manila MRT|P2P|LTFRB National Capital Region"
-NETWORK_SHORT=""
+NETWORK_LONG="Manila LRT|Manila MRT|LTFRB National Capital Region|QCityBus"
+NETWORK_SHORT="P2P"
 
 ANALYSIS_PAGE="Philippines/Public_transport/PTNA/PH-00-Metro_Manila"
 ANALYSIS_TALK="Talk:Philippines/Public_transport/PTNA/PH-00-Metro_Manila"
