@@ -15,8 +15,8 @@ PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
 PTNA_EXTRACT_GETIDS="level3-java"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[wikidata~'^(Q3630|Q3540|Q3724)$'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="Transjakarta"
-NETWORK_SHORT=""
+NETWORK_LONG="PT Transportasi Jakarta"
+NETWORK_SHORT="Transjakarta"
 
 ANALYSIS_PAGE="Public_transport_in_Jakarta/PTNA"
 ANALYSIS_TALK="Talk:Public_transport_in_Jakarta/PTNA"
