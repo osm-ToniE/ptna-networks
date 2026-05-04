@@ -9,12 +9,12 @@ PREFIX="US-Amtrak"
 PTNA_TIMEZONE="America/Los_Angeles"
 
 # PTNA extract source is an alternative to using Overpass API: use planet extracts. This file has been filtered for relevant data (similar to '[~'route'~'(bus|tram|train|...') during planet handling
-PTNA_EXTRACT_SOURCE="level0-us-continental-us.osm.pbf"
+PTNA_EXTRACT_SOURCE="level0-us-the-lower-48.osm.pbf"
 # Relations as members of route_master/route relations cannot be extracted ("osmium extract") if they are outside the search area.
 # ptna-routes.pl will report their IDs to STDERR (*.log), they can be retrieved from a larger file using "osmium getid"
 PTNA_EXTRACT_GETIDS="north-america-filtered"
 
-OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:1800];area[wikidata='Q30'];(rel(area)[~'route'~'(train)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
+OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:1800];area[wikidata='Q578170'];(rel(area)[~'route'~'(train)'];rel(br);rel[type=%27route%27](r);)-%3E.routes;(.routes;%3C%3C;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG="Amtrak"
 NETWORK_SHORT=""
 
@@ -38,8 +38,8 @@ ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --check-gtfs --link-gtfs --show-gtfs
 # automatically build by PHP script
 
 # Name + Link to Overpass-Turbo call to show area on map
-PTNA_WWW_REGION_NAME="USA"
-PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=%0A%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A%0A(%0A%0A%20%20relation%5B%22wikidata%22%3D%22Q30%22%5D%3B%0A)%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B"
+PTNA_WWW_REGION_NAME="Contiguous United States (The Lower 48)"
+PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=%0A%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A%0A(%0A%0A%20%20relation%5B%22wikidata%22%3D%22Q578170%22%5D%3B%0A)%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B"
 
 # Name + Link to the network provider / transport association
 PTNA_WWW_NETWORK_NAME="Amtrak"
