@@ -15,7 +15,7 @@ PTNA_EXTRACT_SOURCE="$PREFIX.osm.pbf"
 PTNA_EXTRACT_GETIDS="level4-rio-de-janeiro"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[wikidata='Q8678'][type=boundary];(rel(area)[~'route'~'(bus|tram|train|subway|light_rail|trolleybus|ferry|monorail|aerialway|share_taxi|funicular)'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
-NETWORK_LONG="RioÔnibus|Metrô Rio|MOBI-Rio|Transcarioca|Santa Cruz|Intersul|Internorte"
+NETWORK_LONG="RioÔnibus|Metrô Rio|MOBI-Rio|Transcarioca|Santa Cruz|Intersul|Internorte|VLT Carioca|SuperVia"
 NETWORK_SHORT=""
 
 ANALYSIS_PAGE="Rio_de_Janeiro/Transporte_público/Análise"
