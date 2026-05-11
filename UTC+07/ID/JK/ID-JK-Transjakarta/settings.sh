@@ -18,9 +18,9 @@ OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[wikidata~'^(Q3
 NETWORK_LONG="PT Transportasi Jakarta"
 NETWORK_SHORT="Transjakarta"
 
-ANALYSIS_PAGE="Public_transport_in_Jakarta/PTNA"
-ANALYSIS_TALK="Talk:Public_transport_in_Jakarta/PTNA"
-WIKI_ROUTES_PAGE="Public_transport_in_Jakarta/PTNA/Transjakarta-Routes"
+ANALYSIS_PAGE="Transjakarta/PTNA"
+ANALYSIS_TALK="Talk:Transjakarta/PTNA"
+WIKI_ROUTES_PAGE="Transjakarta/PTNA/Transjakarta-Routes"
 
 ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=id --check-access --check-dates --check-route-ref --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --coloured-sketchline"
 
