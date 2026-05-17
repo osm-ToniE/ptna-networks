@@ -4,7 +4,7 @@
 # set variables for analysis of network
 #
 
-PREFIX="IN-TG-Hyderabad"
+PREFIX="IN-TS-Hyderabad"
 
 PTNA_TIMEZONE="Asia/Kolkata"
 
