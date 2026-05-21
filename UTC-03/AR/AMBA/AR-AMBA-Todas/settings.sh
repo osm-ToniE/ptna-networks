@@ -4,7 +4,7 @@
 # set variables for analysis of network
 #
 
-PREFIX="AR-AMBA"
+PREFIX="AR-AMBA-Todas"
 
 PTNA_TIMEZONE="America/Argentina/Buenos_Aires"
 
@@ -40,7 +40,7 @@ PTNA_WWW_REGION_NAME="Área Metropolitana de Buenos Aires / Argentina"
 PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=%0A%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A%0A(%0A%0A%20%20relation%5B%22wikidata%22~%22^(Q1486|Q1308616|Q14638682|Q1855418|Q1399432|Q1239732|Q730109|Q2037611|Q2621603|Q2157253|Q1906802|Q1882267|Q2054829|Q2502677|Q2721011|Q2213772|Q1685960|Q2644735|Q2209426|Q2099330|Q2329785|Q2514038|Q2713086|Q2510045|Q1971695)$%22%5D%3B%0A)%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B"
 
 # Name + Link to the network provider / transport association
-PTNA_WWW_NETWORK_NAME=""
+PTNA_WWW_NETWORK_NAME="Todas las asociaciones de transporte"
 PTNA_WWW_NETWORK_LINK=""
 
 # Date and Time of last analysis in UTC and Local Time format
