@@ -19,8 +19,8 @@ OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[boundary=publi
 NETWORK_LONG="Verkehrsverbund Rhein-Sieg|NRW Regionalverkehr"
 NETWORK_SHORT="VRS"
 
-EXPECT_NETWORK_SHORT_FOR="Verkehrsverbund Rhein-Sieg"
-EXPECT_NETWORK_SHORT_AS="VRS"
+#EXPECT_NETWORK_SHORT_FOR="Verkehrsverbund Rhein-Sieg"
+#EXPECT_NETWORK_SHORT_AS="VRS"
 
 ANALYSIS_PAGE="VRS/Analyse"
 ANALYSIS_TALK="Talk:VRS/Analyse"
