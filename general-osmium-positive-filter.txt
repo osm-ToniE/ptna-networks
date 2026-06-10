@@ -11,5 +11,4 @@ r/*route=*aerialway
 r/*route=*funicular
 r/*route=*share_taxi
 r/*route=*coach
-r/*type=*public_transport
 r/*network=*public_transport

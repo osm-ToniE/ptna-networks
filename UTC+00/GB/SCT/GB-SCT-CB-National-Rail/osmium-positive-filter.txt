@@ -1,3 +1,5 @@
+r/*type=*route
 r/*route=*train
 r/*route=*light_rail
 r/*route=*monorail
+r/*network=*public_transport

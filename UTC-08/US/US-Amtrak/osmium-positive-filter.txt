@@ -1,1 +1,3 @@
+r/*type=*route
 r/*route=*train
+r/*network=*public_transport

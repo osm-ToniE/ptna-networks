@@ -1,6 +1,8 @@
+r/*type=*route
 r/*route=*train
 r/*route=*subway
 r/*route=*light_rail
 r/*route=*monorail
 r/*route=*aerialway
 r/*route=*funicular
+r/*network=*public_transport

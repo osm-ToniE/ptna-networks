@@ -1,3 +1,4 @@
+r/*type=*route
 r/*route=*train
 r/*route=*subway
 r/*route=*light_rail
@@ -9,3 +10,4 @@ r/*route=*aerial
 r/*route=*coach
 r/*route=*funicular
 r/*route=*taxi
+r/*network=*public_transport
