@@ -22,7 +22,7 @@ ANALYSIS_PAGE="Queensland/Public_transport/Analysis"
 ANALYSIS_TALK="Talk:Queensland/Public_transport/Analysis"
 WIKI_ROUTES_PAGE="Queensland/Public_transport/Analysis/Queensland_Routes"
 
-ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --check-gtfs --link-gtfs --show-gtfs --check-access --check-roundabouts --check-dates --check-way-type --check-service-type --check-route-ref --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --show-operators --coloured-sketchline"
+ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --exclude-if-key-value='gtfs:feed=AU-NSW-TfNSW' --check-gtfs --link-gtfs --show-gtfs --check-access --check-roundabouts --check-dates --check-way-type --check-service-type --check-route-ref --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --relaxed-begin-end-for=train --max-error=10 --multiple-ref-type-entries=analyze --positive-notes --show-operators --coloured-sketchline"
 
 # --check-name-relaxed
 # --check-bus-stop
