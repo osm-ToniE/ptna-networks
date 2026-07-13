@@ -41,7 +41,7 @@ PTNA_WWW_REGION_NAME="Grand Est"
 PTNA_WWW_REGION_LINK="https://overpass-turbo.eu/map.html?Q=[out%3Ajson][timeout%3A25]%3B(relation[wikidata='Q18677983'][type%3Dboundary]%3B)%3Bout+body%3B%3E%3Bout+skel+qt%3B{{data%3Aoverpass%2Cserver%3D%2F%2Foverpass.openstreetmap.fr%2Fapi%2F}}"
 
 # Name + Link to the network provider / transport association
-PTNA_WWW_NETWORK_NAME="Lignes de train en Grand Est"
+PTNA_WWW_NETWORK_NAME="Lignes de train dans le Grand Est"
 PTNA_WWW_NETWORK_LINK=""
 
 # Date and Time of last analysis in UTC and Local Time format
