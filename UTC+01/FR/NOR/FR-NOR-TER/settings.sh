@@ -18,8 +18,8 @@ OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[
 NETWORK_LONG="TER Normandie|TER Haute-Normandie"
 NETWORK_SHORT=""
 
-ANALYSIS_PAGE="France/Voies_ferrées/PTNA"
-ANALYSIS_TALK="Talk:France/Voies_ferrées/PTNA"
+ANALYSIS_PAGE="France/Voies_ferrées"
+ANALYSIS_TALK="Talk:France/Voies_ferrées"
 WIKI_ROUTES_PAGE="France/Voies_ferrées/PTNA/NOR"
 
 ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=fr --positive-notes --check-bus-stop --link-gtfs --show-gtfs --gtfs-feed=FR-NOR-Atoumod --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
