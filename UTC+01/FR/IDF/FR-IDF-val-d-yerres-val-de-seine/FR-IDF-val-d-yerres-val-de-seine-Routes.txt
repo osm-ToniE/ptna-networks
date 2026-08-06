@@ -1,0 +1,65 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Val d'Yerres Val de Seine''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+4110;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00592;
+4111;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00582;
+4112;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C01886;
+4113;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00355;
+4114;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00358;
+4115;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00576;
+4116;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00376;
+4117;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00378;
+4118;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00356;
+4119;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00577;
+4120;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00602;
+4121;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00379;
+4122;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C01570;
+4130;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00598;
+4131;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00586;
+4132;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00591;
+4133;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00590;
+4134;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00580;
+4135;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00599;
+4150;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00363;
+4151;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00374;
+4152;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00600;
+4153;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00601;
+4154;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00589;
+4155;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C02103;
+4156;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C02104;
+4157;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C02782;
+4158;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00579;
+4159;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00364;
+4160;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00365;
+4161;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00366;
+4162;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C00367;
+9101;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C01562;
+N133;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C01648;
+N134;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C01642;
+N135;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C01643;
+RD14;bus;;;;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C02484;
+Soir;bus;;;Draveil;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C02260;
+Soir;bus;;;Boussy-Saint-Antoine;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C02508;
+Soir;bus;;;Montgeron;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C02768;
+Soir;bus;;;Vigneux-sur-Seine;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C02769;
+Soir;bus;;;Brunoy Sud;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C02770;
+Soir;bus;;;Crosne;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C02771;
+Soir;bus;;;Quincy-sous-Sénart;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C02772;
+Soir;bus;;;Yerres Nord;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C02773;
+Soir;bus;;;Yerres Sud;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C02774;
+Soir;bus;;;Villecresnes;Keolis Val d'Yerres Val de Seine;FR-IDF-IDFM;IDFM:C02775;

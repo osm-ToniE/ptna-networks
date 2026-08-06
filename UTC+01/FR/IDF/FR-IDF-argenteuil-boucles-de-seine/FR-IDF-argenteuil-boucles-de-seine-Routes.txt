@@ -1,0 +1,71 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Argenteuil - Boucles de Seine''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+6401;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C00298;
+6402;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C00312;
+6403;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C00297;
+6404;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C00330;
+6405;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C00335;
+6411;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C00292;
+6412;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C01473;
+6413;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C01681;
+6414;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C00295;
+6415;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C02150;
+6416;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C00308;
+6417;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C02149;
+6418;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C00303;
+6419;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C01250;
+6420;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C02264;
+6421;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C01755;
+6422;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C00294;
+6423;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C00317;
+6424;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C00306;
+6425;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C02731;
+6426;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C02730;
+6427;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C02144;
+6428;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C01476;
+6429;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C00337;
+6430;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C00332;
+6431;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C00324;
+6432;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C01478;
+6433;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C00316;
+6434;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C02142;
+6435;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C02152;
+6436;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C00334;
+6437;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C01822;
+6438;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C02629;
+6439;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C00336;
+6450;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C00325;
+6451;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C01491;
+6452;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C01492;
+6454;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C02146;
+6455;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C02151;
+6456;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C02360;
+6457;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C02361;
+6460;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C02683;
+6461;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C02684;
+6462;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C02685;
+6463;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C02686;
+6464;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C00309;
+6465;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C00310;
+6466;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C00311;
+6467;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C02153;
+6468;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C02147;
+6470;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C02145;
+6471;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C02148;
+6472;bus;;;;Keolis Argenteuil Boucles de Seine;FR-IDF-IDFM;IDFM:C01775;

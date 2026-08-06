@@ -1,0 +1,84 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Cœur d’Essonne''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+4501;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00090;
+4502;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C01663;
+4503;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00691;
+4504;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C01565;
+4505;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00666;
+4510;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00103;
+4511;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00086;
+4512;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00087;
+4513;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C02662;
+4514;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00089;
+4515;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00094;
+4516;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00667;
+4517;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00668;
+4518;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00670;
+4520;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C02397;
+4521;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00683;
+4522;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00684;
+4523;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00664;
+4524;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C02461;
+4530;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00323;
+4531;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C01495;
+4532;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C01950;
+4533;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C01498;
+4534;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C01497;
+4535;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C02418;
+4536;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C02663;
+4537;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00678;
+4538;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00681;
+4539;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00671;
+4540;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00662;
+4541;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00663;
+4542;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00679;
+4543;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00677;
+4550;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00682;
+4551;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00962;
+4552;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00963;
+4553;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00083;
+4554;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C01763;
+4555;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00972;
+4556;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00688;
+4570;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00971;
+4571;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C01703;
+4572;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C01704;
+4573;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C01705;
+4574;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C01706;
+4575;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C01707;
+4576;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00965;
+4577;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C02398;
+4578;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00966;
+4579;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C02399;
+4580;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C02039;
+4581;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C02065;
+4582;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00964;
+4583;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C01673;
+4584;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C02682;
+9114;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C02395;
+9115;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C00689;
+9118;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C01810;
+N123;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C02659;
+N131;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C01636;
+Soir;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C02661;
+TàD 4591;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C02466;
+TàD 4592;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C02467;
+TàD 4595;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C02468;
+TàD 4596;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C02383;
+TàD 4597;bus;;;;Transdev Cœur Essonne;FR-IDF-IDFM;IDFM:C02460;

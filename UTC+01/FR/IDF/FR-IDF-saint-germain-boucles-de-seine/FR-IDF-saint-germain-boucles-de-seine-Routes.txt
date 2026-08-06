@@ -1,0 +1,37 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Saint Germain Boucles de Seine''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+6301;bus;;;;Transdev Boucle des Lys;FR-IDF-IDFM;IDFM:C00160;
+6302;bus;;;;Transdev Boucle des Lys;FR-IDF-IDFM;IDFM:C00158;
+6304;bus;;;;Transdev Boucle des Lys;FR-IDF-IDFM;IDFM:C00149;
+6305;bus;;;;Transdev Boucle des Lys;FR-IDF-IDFM;IDFM:C00156;
+6306;bus;;;;Transdev Boucle des Lys;FR-IDF-IDFM;IDFM:C00161;
+6307;bus;;;;Transdev Boucle des Lys;FR-IDF-IDFM;IDFM:C00157;
+6308;bus;;;;Transdev Boucle des Lys;FR-IDF-IDFM;IDFM:C00144;
+6309;bus;;;;Transdev Boucle des Lys;FR-IDF-IDFM;IDFM:C00145;
+6311;bus;;;;Transdev Boucle des Lys;FR-IDF-IDFM;IDFM:C02615;
+6312;bus;;;;Transdev Boucle des Lys;FR-IDF-IDFM;IDFM:C02616;
+6315;bus;;;;Transdev Boucle des Lys;FR-IDF-IDFM;IDFM:C00150;
+6321;bus;;;;Transdev Boucle des Lys;FR-IDF-IDFM;IDFM:C00154;
+6350;bus;;;;Transdev Boucle des Lys;FR-IDF-IDFM;IDFM:C00153;
+6351;bus;;;;Transdev Boucle des Lys;FR-IDF-IDFM;IDFM:C02307;
+7824;bus;;;;Transdev Boucle des Lys;FR-IDF-IDFM;IDFM:C02269;
+7826;bus;;;;Transdev Boucle des Lys;FR-IDF-IDFM;IDFM:C00143;
+N153;bus;;;;Transdev Boucle des Lys;FR-IDF-IDFM;IDFM:C01422;
+Soir;bus;;;;Transdev Boucle des Lys;FR-IDF-IDFM;IDFM:C02491;
+TàD;bus;;;;Transdev Boucle des Lys;FR-IDF-IDFM;IDFM:C02503;

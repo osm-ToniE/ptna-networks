@@ -1,0 +1,49 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Plaine Saint-Denis''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+31;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01081;
+35;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01680;
+45;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C02244;
+54;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01092;
+95;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01126;
+139;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01165;
+150;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01174;
+153;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01177;
+168;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C02007;
+170;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01191;
+173;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01194;
+239;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01238;
+240;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C02834;
+250;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01242;
+252;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01244;
+253;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01245;
+254;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01808;
+255;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01246;
+256;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01247;
+261;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01249;
+268;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01251;
+269;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01252;
+270;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01253;
+302;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01273;
+337;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01756;
+353;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C02008;
+355;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01302;
+356;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01303;
+361;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01305;
+368;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01308;
+370;bus;;;;RATP Cap Plaine Saint-Denis;FR-IDF-IDFM;IDFM:C01309;

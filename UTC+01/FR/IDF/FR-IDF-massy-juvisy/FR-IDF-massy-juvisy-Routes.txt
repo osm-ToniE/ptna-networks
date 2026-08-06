@@ -1,0 +1,37 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Massy-Juvisy''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+119;bus;;;;RATP Cap Massy-Juvisy;FR-IDF-IDFM;IDFM:C01148;
+196;bus;;;;RATP Cap Massy-Juvisy;FR-IDF-IDFM;IDFM:C01216;
+197;bus;;;;RATP Cap Massy-Juvisy;FR-IDF-IDFM;IDFM:C01217;
+199;bus;;;;RATP Cap Massy-Juvisy;FR-IDF-IDFM;IDFM:C01218;
+216;bus;;;;RATP Cap Massy-Juvisy;FR-IDF-IDFM;IDFM:C01230;
+285;bus;;;;RATP Cap Massy-Juvisy;FR-IDF-IDFM;IDFM:C01262;
+292;bus;;;;RATP Cap Massy-Juvisy;FR-IDF-IDFM;IDFM:C01267;
+294;bus;;;;RATP Cap Massy-Juvisy;FR-IDF-IDFM;IDFM:C01268;
+297;bus;;;;RATP Cap Massy-Juvisy;FR-IDF-IDFM;IDFM:C01270;
+299;bus;;;;RATP Cap Massy-Juvisy;FR-IDF-IDFM;IDFM:C01271;
+319;bus;;;;RATP Cap Massy-Juvisy;FR-IDF-IDFM;IDFM:C01282;
+385;bus;;;;RATP Cap Massy-Juvisy;FR-IDF-IDFM;IDFM:C01313;
+395;bus;;;;RATP Cap Massy-Juvisy;FR-IDF-IDFM;IDFM:C01320;
+399;bus;;;;RATP Cap Massy-Juvisy;FR-IDF-IDFM;IDFM:C01322;
+485;bus;;;;RATP Cap Massy-Juvisy;FR-IDF-IDFM;IDFM:C01326;
+486;bus;;;;RATP Cap Massy-Juvisy;FR-IDF-IDFM;IDFM:C01821;
+487;bus;;;;RATP Cap Massy-Juvisy;FR-IDF-IDFM;IDFM:C01710;
+488;bus;;;;RATP Cap Massy-Juvisy;FR-IDF-IDFM;IDFM:C01327;
+492;bus;;;;RATP Cap Massy-Juvisy;FR-IDF-IDFM;IDFM:C01328;

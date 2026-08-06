@@ -1,0 +1,55 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Vexin''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+1101;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C00393;
+1102;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C00394;
+1103;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C00395;
+1104;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C02829;
+1110;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C01785;
+1111;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C01553;
+1112;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C01786;
+1113;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C00399;
+1114;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C00139;
+1115;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C00140;
+1116;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C01554;
+1117;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C02206;
+1118;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C02414;
+1119;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C02852;
+1130;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C00141;
+1131;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C00142;
+1132;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C01787;
+1133;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C01788;
+1134;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C01789;
+1135;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C01790;
+1136;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C01791;
+1137;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C01555;
+1138;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C01556;
+1139;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C01557;
+1140;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C01558;
+1141;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C01559;
+1142;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C01560;
+1143;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C02413;
+9504;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C01552;
+9513;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C02831;
+9514;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C02830;
+N150;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C01637;
+N152;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C01641;
+N154;bus;;;;Transdev Vexin;FR-IDF-IDFM;IDFM:C01647;
+TàD;bus;;;Vexin Ouest;Transdev Vexin;FR-IDF-IDFM;IDFM:C02748;
+TàD;bus;;;Vexin Est;Transdev Vexin;FR-IDF-IDFM;IDFM:C02746;
+TàD;bus;;;Vexin Est;Transdev Vexin;FR-IDF-IDFM;IDFM:C02749;

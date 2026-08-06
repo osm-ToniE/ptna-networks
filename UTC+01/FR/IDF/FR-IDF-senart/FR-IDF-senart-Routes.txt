@@ -1,0 +1,57 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Sénart''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+3702;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C01806;
+3703;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00843;
+3704;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00862;
+3705;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C01669;
+3711;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00845;
+3712;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00846;
+3713;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00847;
+3714;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00861;
+3722;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00863;
+3723;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00867;
+3724;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00865;
+3725;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00864;
+3726;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00866;
+3727;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C02458;
+3732;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00868;
+3733;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00871;
+3734;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00850;
+3735;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00869;
+3736;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00851;
+3737;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00852;
+3741;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00853;
+3742;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00854;
+3743;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00855;
+3751;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00837;
+3752;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C02681;
+3753;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00844;
+3754;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00839;
+3755;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00838;
+3771;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C02726;
+3772;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C02728;
+3773;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C02193;
+3774;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00860;
+3775;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00842;
+3776;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C02194;
+3777;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C02727;
+3778;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C02191;
+3779;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00840;
+7715;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00836;
+Tzen1;bus;;;;Transdev Senart;FR-IDF-IDFM;IDFM:C00859;

@@ -1,0 +1,40 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Terres d'Envol''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+1;bus;;;;Transdev Nord Seine-Saint-Denis;FR-IDF-IDFM;IDFM:C00189;
+15;bus;;;;Transdev Nord Seine-Saint-Denis;FR-IDF-IDFM;IDFM:C00197;
+39;bus;;;;Transdev Nord Seine-Saint-Denis;FR-IDF-IDFM;IDFM:C00213;
+43;bus;;;;Transdev Nord Seine-Saint-Denis;FR-IDF-IDFM;IDFM:C00214;
+45;bus;;;;Transdev Nord Seine-Saint-Denis;FR-IDF-IDFM;IDFM:C00216;
+607;bus;;;;Transdev Nord Seine-Saint-Denis;FR-IDF-IDFM;IDFM:C01578;
+609;bus;;;;Transdev Nord Seine-Saint-Denis;FR-IDF-IDFM;IDFM:C01579;
+610;bus;;;;Transdev Nord Seine-Saint-Denis;FR-IDF-IDFM;IDFM:C01580;
+612;bus;;;;Transdev Nord Seine-Saint-Denis;FR-IDF-IDFM;IDFM:C02630;
+615;bus;;;;Transdev Nord Seine-Saint-Denis;FR-IDF-IDFM;IDFM:C01583;
+616;bus;;;;Transdev Nord Seine-Saint-Denis;FR-IDF-IDFM;IDFM:C01584;
+617;bus;;;;Transdev Nord Seine-Saint-Denis;FR-IDF-IDFM;IDFM:C01585;
+618;bus;;;;Transdev Nord Seine-Saint-Denis;FR-IDF-IDFM;IDFM:C01586;
+619;bus;;;;Transdev Nord Seine-Saint-Denis;FR-IDF-IDFM;IDFM:C01587;
+620;bus;;;;Transdev Nord Seine-Saint-Denis;FR-IDF-IDFM;IDFM:C01588;
+637;bus;;;;Transdev Nord Seine-Saint-Denis;FR-IDF-IDFM;IDFM:C01591;
+642;bus;;;;Transdev Nord Seine-Saint-Denis;FR-IDF-IDFM;IDFM:C01594;
+702;bus;;;;Transdev Nord Seine-Saint-Denis;FR-IDF-IDFM;IDFM:C01549;
+703;bus;;;;Transdev Nord Seine-Saint-Denis;FR-IDF-IDFM;IDFM:C01550;
+T'bus 1;bus;;;;Transdev Nord Seine-Saint-Denis;FR-IDF-IDFM;IDFM:C02265;
+T'bus 2;bus;;;;Transdev Nord Seine-Saint-Denis;FR-IDF-IDFM;IDFM:C02266;
+T'bus 3;bus;;;;Transdev Nord Seine-Saint-Denis;FR-IDF-IDFM;IDFM:C02267;

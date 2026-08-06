@@ -1,0 +1,83 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Mantois''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+5401;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C01949;
+5402;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C01600;
+5403;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C01601;
+5404;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C02806;
+5405;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C01603;
+5406;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C01605;
+5407;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C01606;
+5408;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C01612;
+5409;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00731;
+5410;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C01428;
+5411;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C02480;
+5412;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C01797;
+5413;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C01796;
+5414;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C01604;
+5420;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C01602;
+5421;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00725;
+5422;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00740;
+5424;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00728;
+5425;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C01607;
+5426;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C01979;
+5427;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C01613;
+5431;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C02161;
+5432;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C01036;
+5433;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C01034;
+5435;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C01033;
+5436;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C02162;
+5437;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00288;
+5438;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00755;
+5441;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C02479;
+5442;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00120;
+5443;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00121;
+5444;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00108;
+5445;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00109;
+5447;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00735;
+5448;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00757;
+5451;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00748;
+5452;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00749;
+5455;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00733;
+5457;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00747;
+5458;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00761;
+5462;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C01798;
+5463;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C02807;
+5465;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00727;
+5467;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00730;
+5469;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00751;
+5470;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00752;
+5474;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C01035;
+5476;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00734;
+5477;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C02715;
+5478;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00736;
+5479;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00737;
+5480;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00738;
+5482;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00744;
+5484;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00118;
+5486;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00741;
+5489;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00758;
+5490;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00756;
+5491;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C00760;
+7820;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C02249;
+7823;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C02248;
+7825;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C02716;
+N151;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C01635;
+Soir;bus;;;Mantes-la-Ville;RD Mantois;FR-IDF-IDFM;IDFM:C02665;
+Soir;bus;;;Aubergenville;RD Mantois;FR-IDF-IDFM;IDFM:C02667;
+TàD;bus;;;;RD Mantois;FR-IDF-IDFM;IDFM:C02794;

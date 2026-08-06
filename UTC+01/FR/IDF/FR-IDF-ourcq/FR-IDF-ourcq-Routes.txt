@@ -1,0 +1,37 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Ourcq''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+61;bus;;;;Transdev Ourcq;FR-IDF-IDFM;IDFM:C01097;
+71;bus;;;;Transdev Ourcq;FR-IDF-IDFM;IDFM:C02246;
+75;bus;;;;Transdev Ourcq;FR-IDF-IDFM;IDFM:C01110;
+105;bus;;;;Transdev Ourcq;FR-IDF-IDFM;IDFM:C01134;
+133;bus;;;;Transdev Ourcq;FR-IDF-IDFM;IDFM:C01161;
+143;bus;;;;Transdev Ourcq;FR-IDF-IDFM;IDFM:C01168;
+145;bus;;;;Transdev Ourcq;FR-IDF-IDFM;IDFM:C01170;
+146;bus;;;;Transdev Ourcq;FR-IDF-IDFM;IDFM:C01171;
+147;bus;;;;Transdev Ourcq;FR-IDF-IDFM;IDFM:C01172;
+148;bus;;;;Transdev Ourcq;FR-IDF-IDFM;IDFM:C01173;
+151;bus;;;;Transdev Ourcq;FR-IDF-IDFM;IDFM:C01175;
+152;bus;;;;Transdev Ourcq;FR-IDF-IDFM;IDFM:C01176;
+234;bus;;;;Transdev Ourcq;FR-IDF-IDFM;IDFM:C01234;
+247;bus;;;;Transdev Ourcq;FR-IDF-IDFM;IDFM:C01695;
+248;bus;;;;Transdev Ourcq;FR-IDF-IDFM;IDFM:C01696;
+249;bus;;;;Transdev Ourcq;FR-IDF-IDFM;IDFM:C01241;
+251;bus;;;;Transdev Ourcq;FR-IDF-IDFM;IDFM:C01243;
+301;bus;;;;Transdev Ourcq;FR-IDF-IDFM;IDFM:C01272;
+346;bus;;;;Transdev Ourcq;FR-IDF-IDFM;IDFM:C01295;

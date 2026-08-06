@@ -1,0 +1,46 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Seine Orly''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+25;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C02243;
+27;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C01077;
+47;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C01088;
+62;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C01098;
+83;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C01115;
+89;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C01121;
+91;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C01122;
+125;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C01154;
+132;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C01160;
+162;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C01184;
+172;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C01193;
+180;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C01201;
+182;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C01203;
+282;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C00007;
+323;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C01287;
+325;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C01288;
+380;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C01809;
+480;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C00006;
+482;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C00001;
+483;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C00004;
+Licorne;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C00003;
+N14;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C01418;
+N15;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C01417;
+N21;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C01401;
+N22;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C01407;
+N23;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C01397;
+N24;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C01392;
+N31;bus;;;;Keolis Grand Paris Seine Orly;FR-IDF-IDFM;IDFM:C01400;

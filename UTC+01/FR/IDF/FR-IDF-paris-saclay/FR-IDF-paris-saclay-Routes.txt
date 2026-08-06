@@ -1,0 +1,72 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Paris Saclay''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+4601;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00074;
+4602;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C01697;
+4603;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00068;
+4604;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00069;
+4605;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00070;
+4606;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C01567;
+4607;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00072;
+4608;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00073;
+4609;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C01561;
+4610;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00490;
+4611;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00495;
+4612;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00503;
+4613;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00676;
+4614;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00075;
+4615;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C02155;
+4616;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00078;
+4617;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00680;
+4618;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C02355;
+4619;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00079;
+4621;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C01698;
+4622;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C01699;
+4626;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C02316;
+4627;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C02809;
+4634;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00093;
+4636;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C01766;
+4641;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00675;
+4642;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C01711;
+4643;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00674;
+4644;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00687;
+4650;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00673;
+4651;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C02396;
+4652;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C02818;
+4653;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00520;
+4654;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C02817;
+4655;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00076;
+4657;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C01752;
+4659;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C02224;
+4660;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00066;
+4661;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C01651;
+4662;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C02382;
+4663;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C01653;
+4664;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C01654;
+4665;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C02810;
+4666;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C02811;
+4670;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C02816;
+4671;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C02812;
+4672;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C02815;
+4673;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C02813;
+4674;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C02814;
+9105;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C01566;
+9108;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C01569;
+9160;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C00046;
+DM152S;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C02403;
+TàD;bus;;;;RD Saclay;FR-IDF-IDFM;IDFM:C02493;

@@ -1,0 +1,69 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Saint-Quentin-en-Yvelines''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+5101;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C00418;
+5102;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01869;
+5103;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01539;
+5104;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01527;
+5105;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01528;
+5106;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01531;
+5107;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01530;
+5110;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C00403;
+5111;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01871;
+5112;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C00416;
+5113;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C02170;
+5114;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C02169;
+5115;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01870;
+5120;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01524;
+5121;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01522;
+5122;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01526;
+5123;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C02216;
+5124;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C02217;
+5125;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C02218;
+5130;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01677;
+5131;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01676;
+5132;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01523;
+5133;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01537;
+5134;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01521;
+5140;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C00545;
+5141;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C00544;
+5142;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01535;
+5143;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01532;
+5144;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01533;
+5145;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01538;
+5150;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01541;
+5151;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01542;
+5152;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01540;
+5183;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C02171;
+5184;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C02172;
+5185;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C02173;
+5186;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C02174;
+5187;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C02175;
+5188;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C00535;
+5189;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C00536;
+5190;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C00537;
+5191;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C00538;
+5192;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C00539;
+5193;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C00540;
+5194;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C00541;
+5195;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C00542;
+5196;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C00543;
+5197;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01668;
+5198;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C01793;
+5199;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C00571;
+Soir;bus;;;;Francilité Saint-Quentin-en-Yvelines;FR-IDF-IDFM;IDFM:C02644;

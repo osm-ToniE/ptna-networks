@@ -1,0 +1,57 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Val Parisis''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+1401;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C00437;
+1410;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02842;
+1411;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02844;
+1412;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C00472;
+1413;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02846;
+1414;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02849;
+1420;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C00473;
+1421;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02257;
+1424;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02850;
+1425;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02851;
+1426;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02041;
+1427;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02005;
+1428;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C00463;
+1429;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02006;
+1430;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02847;
+1431;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02848;
+1432;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02049;
+1433;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02795;
+1434;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02040;
+1435;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C00480;
+1436;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C00481;
+1440;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C00484;
+1441;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C00487;
+1442;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02517;
+1450;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02845;
+1451;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C00455;
+1452;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C00458;
+1453;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C00459;
+1454;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C00460;
+1455;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C00461;
+1456;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C00478;
+N148;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02709;
+Navette;bus;;;;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C00479;
+Soir;bus;;;Cormeilles-en-Parisis;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02836;
+Soir;bus;;;Ermont-Eaubonne;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02837;
+Soir;bus;;;Franconville Nord;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02838;
+Soir;bus;;;Franconville Sud;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02839;
+Soir;bus;;;Montigny-Beauchamp;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02840;
+Soir;bus;;;Sannois;Francilité Val Parisis;FR-IDF-IDFM;IDFM:C02841;

@@ -1,0 +1,56 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Grand Melun''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+3601;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C00881;
+3602;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C00879;
+3603;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C00880;
+3604;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C00875;
+3605;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C00882;
+3606;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C00883;
+3607;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C00877;
+3608;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C00878;
+3609;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C00876;
+3610;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C00885;
+3611;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C00891;
+3612;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C00887;
+3613;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C02282;
+3630;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C00897;
+3631;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C02276;
+3632;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C02281;
+3633;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C00801;
+3634;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C00895;
+3651;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C00892;
+3652;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C00893;
+3653;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C00894;
+3654;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C00890;
+3655;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C01753;
+3656;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C00886;
+3657;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C02283;
+3658;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C02284;
+3659;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C02209;
+3660;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C02293;
+3661;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C02272;
+3662;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C02273;
+3663;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C02274;
+3664;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C02275;
+3665;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C00814;
+3666;bus;;;;Transdev Melun;FR-IDF-IDFM;IDFM:C02280;
+TàD;bus;;;Sainte Assise;Transdev Melun;FR-IDF-IDFM;IDFM:C02780;
+TàD;bus;;;Melun Nord;Transdev Melun;FR-IDF-IDFM;IDFM:C02779;
+TàD;bus;;;Boissise-le-Roi - Pringy;Transdev Melun;FR-IDF-IDFM;IDFM:C02781;
+TàD;bus;;;Saint-Fargeau;Transdev Melun;FR-IDF-IDFM;IDFM:C01895;

@@ -1,0 +1,52 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Vélizy Vallées''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+6122;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C00052;
+6123;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C00050;
+6124;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C00043;
+6131;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C01687;
+6132;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C00038;
+6133;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C00042;
+6134;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C01805;
+6135;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C00702;
+6136;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C00703;
+6140;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C00048;
+6142;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C00049;
+6145;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C00051;
+6160;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C01799;
+6161;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C01701;
+6162;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C01702;
+6163;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C00530;
+6164;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C01700;
+6171;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C00705;
+6172;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C00706;
+6173;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C00707;
+6174;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C00708;
+6175;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C00039;
+6176;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C00525;
+6177;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C01688;
+6178;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C00040;
+6179;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C01690;
+6180;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C01691;
+6181;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C01692;
+6182;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C01693;
+6183;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C00527;
+6184;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C01689;
+6185;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C02478;
+Soir;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C02513;
+TàD 6131;bus;;;;Keolis Vélizy Vallée de la Bièvre;FR-IDF-IDFM;IDFM:C02485;

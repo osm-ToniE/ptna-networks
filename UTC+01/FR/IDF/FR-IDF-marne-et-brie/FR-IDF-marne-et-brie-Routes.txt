@@ -1,0 +1,80 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Marne et Brie''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+206;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01221;
+207;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01222;
+209;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02437;
+211;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01225;
+212;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01226;
+213;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01227;
+220;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01232;
+310;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01278;
+312;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01279;
+313;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02872;
+320;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01283;
+321;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01285;
+421;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01323;
+602;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01574;
+603;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01575;
+604;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01576;
+605;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01577;
+613;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01581;
+623;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01589;
+643;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02092;
+644;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01595;
+700;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02062;
+701;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01423;
+702;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01426;
+703;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02129;
+704;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02137;
+705;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01427;
+706;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02131;
+707;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02136;
+708;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01717;
+709;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02133;
+710;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01548;
+713;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02130;
+714;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02138;
+717;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02135;
+718;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02139;
+719;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02132;
+723;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02866;
+724;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02867;
+729;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02868;
+730;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C00031;
+731;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02240;
+732;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02859;
+733;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02860;
+739;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02869;
+740;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C00033;
+749;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02870;
+750;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C00034;
+760;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C00032;
+761;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C00029;
+762;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02864;
+763;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02865;
+770;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C00030;
+771;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C00028;
+772;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02861;
+773;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02862;
+774;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02863;
+7719;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C00639;
+SOIR;bus;;;;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02876;
+TàD;bus;;;Bassin Chellois;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C01890;
+TàD;bus;;;Dimanche;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02788;
+TàD;bus;;;Desserte Hôpital;Keolis Grand Paris Vallée de la Marne;FR-IDF-IDFM;IDFM:C02789;

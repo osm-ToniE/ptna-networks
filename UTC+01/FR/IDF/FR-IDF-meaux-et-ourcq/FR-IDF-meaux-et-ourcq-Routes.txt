@@ -1,0 +1,75 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Meaux et Ourcq''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+2301;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00954;
+2302;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00953;
+2303;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00902;
+2304;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00958;
+2305;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02236;
+2306;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00900;
+2307;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00957;
+2308;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00955;
+2309;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00959;
+2310;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00908;
+2311;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00949;
+2312;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00912;
+2313;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00915;
+2314;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02234;
+2315;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00898;
+2317;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00948;
+2318;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00909;
+2319;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00914;
+2321;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00916;
+2322;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00917;
+2323;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00919;
+2324;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02235;
+2325;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02237;
+2326;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02230;
+2327;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02618;
+2331;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02252;
+2332;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02231;
+2333;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02232;
+2335;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00899;
+2340;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00927;
+2341;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00928;
+2342;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00929;
+2343;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02680;
+2346;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00930;
+2348;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02233;
+2349;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02229;
+2350;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00935;
+2351;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C01994;
+2352;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00937;
+2353;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00938;
+2354;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00939;
+2361;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00946;
+2364;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00940;
+2374;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00901;
+2375;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C01995;
+2376;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02676;
+2377;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00262;
+2378;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02786;
+2384;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02877;
+7702;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C01820;
+7709;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00961;
+7718;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00637;
+7720;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C00661;
+N141;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C01639;
+Soir;bus;;;Meaux Nord;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02489;
+Soir;bus;;;Meaux Sud;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02490;
+TàD;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02735;

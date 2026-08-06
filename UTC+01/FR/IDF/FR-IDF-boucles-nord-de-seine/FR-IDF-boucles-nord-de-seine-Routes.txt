@@ -1,0 +1,38 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Boucles Nord de Seine''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+66;bus;;;;RATP Cap Boucle Nord de Seine;FR-IDF-IDFM;IDFM:C01102;
+74;bus;;;;RATP Cap Boucle Nord de Seine;FR-IDF-IDFM;IDFM:C01109;
+85;bus;;;;RATP Cap Boucle Nord de Seine;FR-IDF-IDFM;IDFM:C01117;
+137;bus;;;;RATP Cap Boucle Nord de Seine;FR-IDF-IDFM;IDFM:C01163;
+138;bus;;;;RATP Cap Boucle Nord de Seine;FR-IDF-IDFM;IDFM:C01164;
+140;bus;;;;RATP Cap Boucle Nord de Seine;FR-IDF-IDFM;IDFM:C01166;
+166;bus;;;;RATP Cap Boucle Nord de Seine;FR-IDF-IDFM;IDFM:C01188;
+174;bus;;;;RATP Cap Boucle Nord de Seine;FR-IDF-IDFM;IDFM:C01195;
+175;bus;;;;RATP Cap Boucle Nord de Seine;FR-IDF-IDFM;IDFM:C01196;
+177;bus;;;;RATP Cap Boucle Nord de Seine;FR-IDF-IDFM;IDFM:C01198;
+178;bus;;;;RATP Cap Boucle Nord de Seine;FR-IDF-IDFM;IDFM:C01199;
+235;bus;;;;RATP Cap Boucle Nord de Seine;FR-IDF-IDFM;IDFM:C01235;
+237;bus;;;;RATP Cap Boucle Nord de Seine;FR-IDF-IDFM;IDFM:C01236;
+238;bus;;;;RATP Cap Boucle Nord de Seine;FR-IDF-IDFM;IDFM:C01237;
+274;bus;;;;RATP Cap Boucle Nord de Seine;FR-IDF-IDFM;IDFM:C01255;
+340;bus;;;;RATP Cap Boucle Nord de Seine;FR-IDF-IDFM;IDFM:C01292;
+363;bus;;;;RATP Cap Boucle Nord de Seine;FR-IDF-IDFM;IDFM:C02745;
+AUDONIE;bus;;;;RATP Cap Boucle Nord de Seine;FR-IDF-IDFM;IDFM:C01337;
+PORT;bus;;;;RATP Cap Boucle Nord de Seine;FR-IDF-IDFM;IDFM:C01839;
+RIVER;bus;;;;RATP Cap Boucle Nord de Seine;FR-IDF-IDFM;IDFM:C01356;

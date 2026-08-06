@@ -1,0 +1,72 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Fontainebleau - Moret''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+3401;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C00793;
+3403;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C00796;
+3404;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C00794;
+3405;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C00787;
+3406;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C00788;
+3407;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C01494;
+3408;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C01947;
+3409;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C00786;
+3411;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02202;
+3412;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C00797;
+3417;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02687;
+3418;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02721;
+3420;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02278;
+3421;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02159;
+3423;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02279;
+3424;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02277;
+3425;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02287;
+3426;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02290;
+3427;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02289;
+3429;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02156;
+3430;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C01448;
+3431;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C00818;
+3432;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C00817;
+3433;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C01450;
+3434;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C01445;
+3435;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C01446;
+3436;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C01447;
+3437;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C00828;
+3438;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C01444;
+3439;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C00799;
+3440;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02258;
+3441;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C00789;
+3442;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C00790;
+3443;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C00813;
+3444;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C00791;
+3445;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C00792;
+3447;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02720;
+3450;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02882;
+3451;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C01002;
+3452;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02612;
+3453;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C01003;
+3454;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C01012;
+3455;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C01011;
+3458;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C01008;
+3459;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02881;
+7711;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02854;
+N132;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C01633;
+N137;bus;;;;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02594;
+Soir;bus;;;Fontainebleau Avon;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02595;
+Soir;bus;;;Moret - Veneux les Sablons;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02596;
+TàD;bus;;;Gâtinais;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02572;
+TàD;bus;;;Bois-le-Roi Chartrettes;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02776;
+TàD;bus;;;Moret Seine et Loing;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02777;
+TàD;bus;;;Bière;Transdev Pays de Fontainebleau;FR-IDF-IDFM;IDFM:C02778;

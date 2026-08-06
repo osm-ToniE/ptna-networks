@@ -1,0 +1,68 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Provinois - Brie et Seine''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+3201;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01456;
+3202;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01464;
+3203;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01664;
+3204;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01043;
+3207;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01518;
+3208;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01517;
+3209;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01519;
+3210;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01724;
+3211;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01507;
+3212;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01508;
+3213;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01509;
+3214;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01510;
+3215;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01503;
+3216;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C02294;
+3217;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01725;
+3218;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01506;
+3219;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C02366;
+3240;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01452;
+3241;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01453;
+3242;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01457;
+3243;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01454;
+3244;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01455;
+3245;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C02056;
+3246;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01513;
+3247;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C02435;
+3248;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C02436;
+3249;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01512;
+3250;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01461;
+3251;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01501;
+3252;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01467;
+3253;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01468;
+3254;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C02432;
+3255;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C02433;
+3256;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01459;
+3257;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01462;
+3258;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01463;
+3259;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01726;
+3260;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01469;
+3261;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01504;
+3262;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01502;
+7704;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01499;
+7705;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01500;
+7707;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01505;
+Soir;bus;;;Provins;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C02584;
+Soir;bus;;;Nangis;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C02585;
+TàD;bus;;;Nangis / Saint-Just;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C02295;
+TàD;bus;;;Nangis / La-Chapelle-Rablais;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C02581;
+TàD;bus;;;Gare de Provins;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C02583;
+TàD;bus;;;Balade en Provinois;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C02613;
+TàD 3209;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01520;

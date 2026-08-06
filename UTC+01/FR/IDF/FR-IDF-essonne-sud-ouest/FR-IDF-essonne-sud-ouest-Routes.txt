@@ -1,0 +1,68 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Essonne Sud Ouest''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+4401;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C00975;
+4402;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C00976;
+4403;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C00982;
+4404;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02431;
+4405;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C00983;
+4406;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02057;
+4407;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C00977;
+4408;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C00978;
+4409;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C00984;
+4410;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C00979;
+4411;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02470;
+4412;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C00974;
+4413;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C00105;
+4414;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02472;
+4415;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02473;
+4416;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02066;
+4417;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02067;
+4418;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02068;
+4430;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C01975;
+4431;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C01976;
+4432;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C01977;
+4433;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C01978;
+4434;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02270;
+4435;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02271;
+4436;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C01708;
+4437;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C00082;
+4438;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C00969;
+4439;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C00967;
+4440;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C00970;
+4441;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C00098;
+4442;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C00097;
+4450;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C00176;
+4451;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02449;
+4452;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02450;
+4453;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02451;
+4454;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02452;
+4455;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02453;
+4456;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02296;
+4457;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C01568;
+4458;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02297;
+4459;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C00973;
+4461;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C00167;
+4462;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02185;
+4463;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02186;
+9102;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C01563;
+9103;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C01564;
+Soir;bus;;;;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02474;
+TàD;bus;;;Zonal Etrechy;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02792;
+TàD;bus;;;Zonal Etampes;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02793;
+TàD;bus;;;Zonal Dourdan;Transdev Sud-Ouest Essonne;FR-IDF-IDFM;IDFM:C02791;

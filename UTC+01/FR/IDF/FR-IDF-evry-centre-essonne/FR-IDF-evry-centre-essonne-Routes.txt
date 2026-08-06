@@ -1,0 +1,63 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Evry Centre Essonne''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+4201;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C01616;
+4202;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C01622;
+4203;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C00385;
+4204;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C01619;
+4205;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C00665;
+4212;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C01618;
+4213;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C01626;
+4214;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C01627;
+4215;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C02736;
+4216;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C01672;
+4217;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C01623;
+4218;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C01629;
+4219;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C01630;
+4220;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C01956;
+4221;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C01615;
+4222;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C02740;
+4223;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C00685;
+4230;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C00386;
+4231;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C00985;
+4232;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C00987;
+4233;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C00392;
+4234;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C02878;
+4240;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C01714;
+4241;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C01620;
+4242;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C02724;
+4243;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C00388;
+4244;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C01624;
+4245;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C01628;
+4246;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C01625;
+4250;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C02631;
+4251;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C02632;
+4270;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C02737;
+4271;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C00986;
+4272;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C02390;
+4273;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C00389;
+4274;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C00387;
+4275;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C00989;
+4276;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C00990;
+4277;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C00380;
+4278;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C02738;
+4279;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C02739;
+4280;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C00669;
+9112;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C02725;
+N139;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C01645;
+Tzen4;bus;;;;TISSE;FR-IDF-IDFM;IDFM:C02636;
