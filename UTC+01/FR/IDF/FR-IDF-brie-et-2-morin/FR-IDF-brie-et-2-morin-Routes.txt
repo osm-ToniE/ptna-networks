@@ -1,0 +1,89 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Brie et 2 Morin''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+2401;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02035;
+2402;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02036;
+2403;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02069;
+2404;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C00924;
+2405;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02365;
+2406;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C00941;
+2407;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C00944;
+2411;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02070;
+2412;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C00905;
+2413;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C00906;
+2414;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C00907;
+2415;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02072;
+2416;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C01715;
+2417;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02196;
+2418;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C00920;
+2419;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02077;
+2420;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C00922;
+2421;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C00923;
+2422;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C00926;
+2423;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C01057;
+2424;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C01059;
+2425;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C01060;
+2426;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02154;
+2427;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C01993;
+2428;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C00934;
+2450;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02093;
+2451;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02094;
+2452;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02095;
+2453;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02096;
+2454;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02097;
+2455;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02098;
+2456;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02071;
+2457;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02116;
+2458;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02117;
+2459;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02118;
+2460;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C01040;
+2461;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02073;
+2462;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02074;
+2463;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C01046;
+2464;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C01047;
+2465;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C01048;
+2466;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C01049;
+2470;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02318;
+2471;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C01716;
+2472;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02078;
+2473;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02079;
+2474;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C00951;
+2475;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02207;
+2476;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C00952;
+2480;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02195;
+2481;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C00921;
+2482;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02160;
+2483;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C00925;
+2484;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02400;
+2485;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02401;
+2490;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C00910;
+2491;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C00913;
+2492;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C00942;
+7701;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C01062;
+7708;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C00960;
+7712;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C00947;
+7717;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C01063;
+N130;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C01634;
+TàD;bus;;;Coulommiers;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02756;
+TàD;bus;;;Créçois;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02758;
+TàD;bus;;;Coulommiers;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02760;
+TàD;bus;;;Créçois;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02762;
+TàD;bus;;;Créçois;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02763;
+TàD;bus;;;Coulommiers;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02759;
+TàD;bus;;;Créçois;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02761;
+TàD 2429;bus;;;;Transdev Brie et 2 Morin;FR-IDF-IDFM;IDFM:C02291;

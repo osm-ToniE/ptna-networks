@@ -1,0 +1,36 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Croix du Sud''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+179;bus;;;;ATM Croix du Sud;FR-IDF-IDFM;IDFM:C01200;
+189;bus;;;;ATM Croix du Sud;FR-IDF-IDFM;IDFM:C01210;
+190;bus;;;;ATM Croix du Sud;FR-IDF-IDFM;IDFM:C01211;
+191;bus;;;;ATM Croix du Sud;FR-IDF-IDFM;IDFM:C01212;
+194;bus;;;;ATM Croix du Sud;FR-IDF-IDFM;IDFM:C01214;
+195;bus;;;;ATM Croix du Sud;FR-IDF-IDFM;IDFM:C01215;
+289;bus;;;;ATM Croix du Sud;FR-IDF-IDFM;IDFM:C01264;
+290;bus;;;;ATM Croix du Sud;FR-IDF-IDFM;IDFM:C01265;
+389;bus;;;;ATM Croix du Sud;FR-IDF-IDFM;IDFM:C01315;
+390;bus;;;;ATM Croix du Sud;FR-IDF-IDFM;IDFM:C01316;
+391;bus;;;;ATM Croix du Sud;FR-IDF-IDFM;IDFM:C01317;
+394;bus;;;;ATM Croix du Sud;FR-IDF-IDFM;IDFM:C01319;
+595;bus;;;;ATM Croix du Sud;FR-IDF-IDFM;IDFM:C01369;
+N12;bus;;;;ATM Croix du Sud;FR-IDF-IDFM;IDFM:C01420;
+N61;bus;;;;ATM Croix du Sud;FR-IDF-IDFM;IDFM:C01402;
+N62;bus;;;;ATM Croix du Sud;FR-IDF-IDFM;IDFM:C01403;
+N63;bus;;;;ATM Croix du Sud;FR-IDF-IDFM;IDFM:C01408;
+N66;bus;;;;ATM Croix du Sud;FR-IDF-IDFM;IDFM:C01807;

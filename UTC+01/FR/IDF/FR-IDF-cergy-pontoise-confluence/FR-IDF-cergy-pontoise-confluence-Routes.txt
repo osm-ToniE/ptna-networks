@@ -1,0 +1,51 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Cergy-Pontoise Confluence''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+1201;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C00772;
+1202;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C00769;
+1203;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C00763;
+1204;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C02226;
+1205;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C01475;
+1206;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C00764;
+1207;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C00774;
+1208;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C00778;
+1221;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C01685;
+1222;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C01674;
+1223;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C00770;
+1224;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C00771;
+1225;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C02086;
+1226;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C00781;
+1227;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C01480;
+1228;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C00783;
+1229;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C02141;
+1230;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C00762;
+1231;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C01477;
+1232;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C00782;
+1233;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C02085;
+1234;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C01479;
+1235;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C02625;
+1236;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C00765;
+1237;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C00773;
+1238;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C00766;
+1239;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C00767;
+1240;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C00768;
+1241;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C00784;
+1242;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C00785;
+1247;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C02855;
+1255;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C02225;
+1257;bus;;;;Francilité Seine et Oise;FR-IDF-IDFM;IDFM:C02705;

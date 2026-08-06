@@ -1,0 +1,47 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Bord de Marne''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+101;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01130;
+106;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01135;
+107;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01136;
+108;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01137;
+110;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01139;
+111;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01140;
+112;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01141;
+113;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01142;
+114;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01143;
+116;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01145;
+118;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01147;
+120;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01149;
+124;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01153;
+127;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01156;
+201;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01219;
+203;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01220;
+210;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01224;
+214;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01228;
+221;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01233;
+303;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01274;
+306;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01276;
+520;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01334;
+N11;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01415;
+N16;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01416;
+N32;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01404;
+N33;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01399;
+N34;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01398;
+N35;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01412;
+N71;bus;;;;RATP Cap Boucles de Marne;FR-IDF-IDFM;IDFM:C01410;

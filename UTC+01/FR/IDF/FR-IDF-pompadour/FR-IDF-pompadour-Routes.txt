@@ -1,0 +1,41 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Pompadour''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+103;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C01132;
+104;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C01133;
+117;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C01146;
+131;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C01159;
+181;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C01202;
+183;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C01204;
+184;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C01205;
+185;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C01206;
+186;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C01207;
+187;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C01208;
+192;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C01213;
+193;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C02288;
+208;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C01223;
+217;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C01231;
+281;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C01260;
+286;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C01263;
+308;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C01277;
+317;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C01280;
+372;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C01310;
+382;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C02459;
+393;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C01318;
+396;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C01321;
+TVM;bus;;;;RATP Cap Pompadour;FR-IDF-IDFM;IDFM:C01071;

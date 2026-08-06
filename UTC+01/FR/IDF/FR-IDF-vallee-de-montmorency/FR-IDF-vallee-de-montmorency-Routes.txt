@@ -1,0 +1,36 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Vallée de Montmorency''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+1510;bus;;;;Transdev Valmy;FR-IDF-IDFM;IDFM:C00299;
+1511;bus;;;;Transdev Valmy;FR-IDF-IDFM;IDFM:C00304;
+1512;bus;;;;Transdev Valmy;FR-IDF-IDFM;IDFM:C00301;
+1513;bus;;;;Transdev Valmy;FR-IDF-IDFM;IDFM:C00302;
+1514;bus;;;;Transdev Valmy;FR-IDF-IDFM;IDFM:C00315;
+1515;bus;;;;Transdev Valmy;FR-IDF-IDFM;IDFM:C01804;
+1516;bus;;;;Transdev Valmy;FR-IDF-IDFM;IDFM:C01802;
+1517;bus;;;;Transdev Valmy;FR-IDF-IDFM;IDFM:C02462;
+1518;bus;;;;Transdev Valmy;FR-IDF-IDFM;IDFM:C00446;
+1519;bus;;;;Transdev Valmy;FR-IDF-IDFM;IDFM:C00465;
+1520;bus;;;;Transdev Valmy;FR-IDF-IDFM;IDFM:C00485;
+1521;bus;;;;Transdev Valmy;FR-IDF-IDFM;IDFM:C00486;
+1527;bus;;;;Transdev Valmy;FR-IDF-IDFM;IDFM:C02463;
+1533;bus;;;;Transdev Valmy;FR-IDF-IDFM;IDFM:C00305;
+1537;bus;;;;Transdev Valmy;FR-IDF-IDFM;IDFM:C00307;
+Soir;bus;;;Écouen Ézanville;Transdev Valmy;FR-IDF-IDFM;IDFM:C02465;
+Soir;bus;;;Domont;Transdev Valmy;FR-IDF-IDFM;IDFM:C02464;
+TàD;bus;;;;Transdev Valmy;FR-IDF-IDFM;IDFM:C02422;

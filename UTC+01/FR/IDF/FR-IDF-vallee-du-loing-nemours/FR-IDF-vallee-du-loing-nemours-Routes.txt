@@ -1,0 +1,56 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Vallée du Loing - Nemours''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+34;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C00815;
+3501;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C00832;
+3502;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C00833;
+3503;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C00819;
+3504;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C00834;
+3505;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C00835;
+3506;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C01963;
+3510;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C00824;
+3511;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C01965;
+3512;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C01966;
+3513;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C01967;
+3514;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C02031;
+3515;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C00826;
+3516;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C01969;
+3517;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C01970;
+3518;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C00827;
+3519;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C01971;
+3530;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C00820;
+3531;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C01958;
+3532;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C01959;
+3533;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C01960;
+3534;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C00821;
+3535;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C01961;
+3536;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C00830;
+3537;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C01973;
+3540;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C00822;
+3541;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C01962;
+3542;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C01964;
+3543;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C00823;
+3544;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C00831;
+3546;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C01974;
+3547;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C02032;
+3550;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C01004;
+3556;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C01005;
+3557;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C01006;
+3559;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C02610;
+Soir;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C02750;
+TàD;bus;;;;Transdev Vallée du Loing;FR-IDF-IDFM;IDFM:C02747;

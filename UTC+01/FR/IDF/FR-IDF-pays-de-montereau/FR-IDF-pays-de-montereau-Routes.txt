@@ -1,0 +1,36 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Pays de Montereau''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+3301;bus;;;;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C01435;
+3302;bus;;;;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C01443;
+3303;bus;;;;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C01436;
+3304;bus;;;;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C01437;
+3305;bus;;;;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C01439;
+3306;bus;;;;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C01441;
+3307;bus;;;;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C01442;
+3308;bus;;;;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C01686;
+3310;bus;;;;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C01438;
+3311;bus;;;;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C01440;
+3315;bus;;;;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C01511;
+3319;bus;;;;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C01451;
+Ex46;bus;;;;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C00798;
+Soir;bus;;;;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C02580;
+TàD;bus;;;Montereau Nord;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C02575;
+TàD;bus;;;Montereau Ouest;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C02574;
+TàD;bus;;;Montereau Centre;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C02576;
+TàD;bus;;;Montereau Sud;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C02577;

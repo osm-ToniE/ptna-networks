@@ -1,0 +1,54 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Grand Versailles''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+6201;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C00692;
+6202;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C00693;
+6203;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C00694;
+6204;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C00695;
+6205;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C00696;
+6206;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C00697;
+6207;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C00698;
+6208;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C00699;
+6209;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C00700;
+6210;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C00701;
+6211;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C00408;
+6213;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C00704;
+6214;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C02286;
+6216;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C01489;
+6217;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C00113;
+6227;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C01482;
+6230;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C01772;
+6231;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C01484;
+6240;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C01868;
+6241;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C00425;
+6243;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C01872;
+6246;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C02239;
+6251;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C01873;
+6252;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C02219;
+6253;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C02183;
+6254;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C02184;
+6276;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C02076;
+6280;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C01493;
+6281;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C00327;
+6282;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C00328;
+6283;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C00122;
+6284;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C01934;
+6285;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C00709;
+6286;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C00710;
+6287;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C00420;
+6288;bus;;;;Transdev Versailles;FR-IDF-IDFM;IDFM:C02482;

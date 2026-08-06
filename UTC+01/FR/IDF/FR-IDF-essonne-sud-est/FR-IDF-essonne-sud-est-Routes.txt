@@ -1,0 +1,59 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Essonne Sud Est''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+4301;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C00319;
+4303;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C00322;
+4305;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C00092;
+4306;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C01811;
+4307;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02020;
+4308;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02021;
+4309;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02221;
+4316;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C01812;
+4318;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02599;
+4321;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C01764;
+4322;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C01765;
+4323;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C00100;
+4324;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C00101;
+4325;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C00102;
+4326;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C00104;
+4327;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02022;
+4328;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02023;
+4329;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02024;
+4330;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02025;
+4331;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02026;
+4332;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02387;
+4334;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C00391;
+4340;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C00382;
+4341;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C01013;
+4342;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C01014;
+4343;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C01015;
+4344;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C01016;
+4345;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02393;
+4346;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C01017;
+4347;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02607;
+4348;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02608;
+4349;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02609;
+Soir;bus;;;Mennecy;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02220;
+Soir;bus;;;Bouray;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02486;
+TàD 4301;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02496;
+TàD 4305;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02495;
+TàD 4306;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02821;
+TàD 4318;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02820;
+TàD 4342;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02822;
+TàD 4343;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02823;
+TàD 4344;bus;;;;Keolis Val d'Essonne Deux Vallées;FR-IDF-IDFM;IDFM:C02824;

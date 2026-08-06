@@ -1,0 +1,26 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Bièvre''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+401;bus;;;;RD Bièvre;FR-IDF-IDFM;IDFM:C00339;
+402;bus;;;;RD Bièvre;FR-IDF-IDFM;IDFM:C00340;
+408;bus;;;;RD Bièvre;FR-IDF-IDFM;IDFM:C00345;
+409;bus;;;;RD Bièvre;FR-IDF-IDFM;IDFM:C00346;
+412;bus;;;;RD Bièvre;FR-IDF-IDFM;IDFM:C00342;
+415;bus;;;;RD Bièvre;FR-IDF-IDFM;IDFM:C01658;
+418;bus;;;;RD Bièvre;FR-IDF-IDFM;IDFM:C01657;
+T10;bus;;;;RD Bièvre;FR-IDF-IDFM;IDFM:C02528;

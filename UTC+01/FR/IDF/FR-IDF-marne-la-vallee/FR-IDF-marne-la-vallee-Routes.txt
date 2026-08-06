@@ -1,0 +1,55 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Marne-la-Vallée''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+2220;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C00634;
+2221;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C00625;
+2222;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C00626;
+2223;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C00627;
+2224;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C01879;
+2225;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C00628;
+2226;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C00629;
+2228;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C01713;
+2229;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C00630;
+2231;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C02016;
+2233;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C00635;
+2234;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C00632;
+2235;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C02015;
+2244;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C00636;
+2245;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C02298;
+2250;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C00622;
+2251;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C00620;
+2252;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C00619;
+2253;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C00633;
+2254;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C02673;
+2260;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C00945;
+2261;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C00943;
+2262;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C00903;
+2263;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C00638;
+2264;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C00911;
+2280;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C02455;
+2281;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C02669;
+2282;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C02670;
+2283;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C02671;
+2284;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C02672;
+2290;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C00621;
+2291;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C00623;
+2292;bus;;;;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C00631;
+Soir;bus;;;Lagny - Thorigny;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C02688;
+Soir;bus;;;Bussy-st-Georges;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C02689;
+Soir;bus;;;Val d'Europe;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C02690;
+Soir;bus;;;Marne-la-Vallée Chessy;Transdev Marne-la-Vallée;FR-IDF-IDFM;IDFM:C02691;

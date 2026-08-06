@@ -1,0 +1,46 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Marne et Seine''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+100;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C00263;
+427;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C00574;
+428;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C00573;
+429;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C00594;
+430;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C01751;
+431;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C00552;
+432;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C00553;
+433;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C00554;
+434;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C00555;
+435;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C00556;
+436;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C00557;
+437;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C00084;
+438;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C00085;
+439;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C02456;
+440;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C00547;
+441;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C02426;
+442;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C02427;
+443;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C02111;
+444;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C02112;
+445;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C02351;
+446;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C02428;
+447;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C02429;
+448;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C02430;
+449;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C00597;
+450;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C00581;
+451;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C00548;
+C1;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C02796;
+N72;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C02668;

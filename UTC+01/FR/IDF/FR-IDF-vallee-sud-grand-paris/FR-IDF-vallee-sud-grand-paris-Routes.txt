@@ -1,0 +1,27 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Vallée Sud Grand Paris''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+3;bus;;;;Transdev Vallée Sud;FR-IDF-IDFM;IDFM:C00341;
+6;bus;;;;Transdev Vallée Sud;FR-IDF-IDFM;IDFM:C00343;
+7;bus;;;;Transdev Vallée Sud;FR-IDF-IDFM;IDFM:C00344;
+14;bus;;;;Transdev Vallée Sud;FR-IDF-IDFM;IDFM:C00350;
+AMIBUS;bus;;;;Transdev Vallée Sud;FR-IDF-IDFM;IDFM:C01366;
+CLAM;bus;;;;Transdev Vallée Sud;FR-IDF-IDFM;IDFM:C01357;
+FONT;bus;;;;Transdev Vallée Sud;FR-IDF-IDFM;IDFM:C01368;
+HIRO;bus;;;;Transdev Vallée Sud;FR-IDF-IDFM;IDFM:C01370;
+MONTBUS;bus;;;;Transdev Vallée Sud;FR-IDF-IDFM;IDFM:C01336;

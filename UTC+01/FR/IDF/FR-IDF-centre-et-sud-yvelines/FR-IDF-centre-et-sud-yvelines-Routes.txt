@@ -1,0 +1,126 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Centre et Sud Yvelines''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+5201;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00421;
+5206;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00423;
+5208;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00168;
+5209;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00057;
+5211;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00137;
+5212;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00138;
+5213;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00060;
+5214;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00414;
+5215;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00172;
+5216;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01957;
+5219;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00422;
+5221;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01980;
+5224;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00177;
+5225;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00178;
+5226;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00179;
+5227;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00522;
+5228;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00523;
+5230;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00181;
+5231;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01982;
+5232;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00488;
+5233;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00164;
+5235;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01983;
+5236;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00524;
+5237;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C02443;
+5240;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01985;
+5241;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01986;
+5242;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00516;
+5245;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01987;
+5249;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01953;
+5251;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01989;
+5259;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01954;
+5267;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01719;
+5270;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00124;
+5271;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00125;
+5277;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01720;
+5278;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00531;
+5279;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00515;
+5281;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00517;
+5282;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00505;
+5283;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00506;
+5284;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00507;
+5285;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00508;
+5286;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00509;
+5287;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00510;
+5288;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01874;
+5289;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00424;
+5290;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00519;
+5291;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00511;
+5292;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00512;
+5293;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00513;
+5294;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00514;
+5295;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00279;
+5296;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C02742;
+5297;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C02741;
+5298;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01991;
+5299;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00126;
+5301;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00182;
+5302;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00183;
+5303;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00184;
+5304;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C02638;
+5307;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01721;
+5310;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C02313;
+5311;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00163;
+5312;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00409;
+5313;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00489;
+5314;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00112;
+5315;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00401;
+5317;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01992;
+5318;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00173;
+5320;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00175;
+5322;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C02481;
+5323;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00276;
+5324;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00410;
+5325;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00166;
+5327;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00402;
+5328;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C02444;
+5330;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00518;
+5332;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00054;
+5333;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00187;
+5334;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00165;
+5337;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00504;
+5338;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01984;
+5340;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00533;
+5341;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00119;
+5342;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01981;
+5343;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C02448;
+5347;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00500;
+5348;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01988;
+5349;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01952;
+5355;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01990;
+5359;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00502;
+5363;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00498;
+5367;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00064;
+5371;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C02446;
+5379;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01955;
+7806;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00062;
+7810;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00170;
+7811;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C00171;
+7812;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01951;
+7817;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C02642;
+N122;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01421;
+N160;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C02635;
+N161;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C01646;
+N162;bus;;;;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C02634;
+Soir;bus;;;Saint-Rémy;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C02640;
+Soir;bus;;;Rambouillet;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C02641;
+TàD;bus;;;Vallée de Chevreuse;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C02856;
+TàD;bus;;;Pays de Limours;Transdev Sud Yvelines;FR-IDF-IDFM;IDFM:C02754;

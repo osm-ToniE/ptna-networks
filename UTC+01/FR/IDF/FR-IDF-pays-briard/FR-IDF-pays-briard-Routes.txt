@@ -1,0 +1,74 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Pays Briard''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+423;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C00551;
+3101;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C00546;
+3102;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02617;
+3103;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C00009;
+3104;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C00010;
+3105;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C00011;
+3106;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C00803;
+3107;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C00012;
+3108;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02619;
+3109;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C00024;
+3110;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C00014;
+3111;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C00015;
+3112;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02518;
+3113;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02519;
+3114;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C00016;
+3115;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C00020;
+3116;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02520;
+3117;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C00624;
+3118;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C00017;
+3119;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C00018;
+3120;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C01044;
+3121;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C00550;
+3122;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02090;
+3123;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C00019;
+3124;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C01045;
+3125;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02091;
+3126;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02120;
+3127;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02122;
+3128;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02089;
+3129;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02088;
+3130;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02121;
+3131;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02125;
+3132;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C01052;
+3133;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C01053;
+3134;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02087;
+3135;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02126;
+3136;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02127;
+3137;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02107;
+3138;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02128;
+3139;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C01058;
+3140;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02108;
+3141;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02620;
+3142;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02621;
+3143;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02109;
+3144;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02311;
+3145;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C00021;
+3146;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C00025;
+3147;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C00026;
+3148;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02124;
+7716;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C00027;
+BrieBus;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C00549;
+N142;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C01640;
+Soir;bus;;;Gretz-Armainvilliers;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02522;
+Soir;bus;;;Ozoir-la-Ferrière;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02523;
+TàD;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02521;
+TàD 3144;bus;;;;Keolis Portes et Val de Brie;FR-IDF-IDFM;IDFM:C02524;

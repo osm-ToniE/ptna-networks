@@ -1,0 +1,65 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Roissy Est''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+2101;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00245;
+2102;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00246;
+2103;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00247;
+2104;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00248;
+2107;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00250;
+2108;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00251;
+2109;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00252;
+2110;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00253;
+2111;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00254;
+2113;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C01801;
+2116;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00198;
+2117;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00199;
+2118;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00200;
+2119;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00201;
+2120;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00659;
+2121;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00202;
+2122;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00203;
+2123;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00204;
+2124;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C01866;
+2127;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00221;
+2128;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00656;
+2129;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C01776;
+2130;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00658;
+2150;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C02692;
+2151;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C02693;
+2152;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C02694;
+2153;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C02695;
+2154;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C02696;
+2155;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C02697;
+2156;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C02698;
+2157;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C02708;
+2158;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C02699;
+2159;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C02700;
+2160;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C02701;
+2161;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C02702;
+2162;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C02703;
+2163;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00260;
+2164;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C02704;
+2165;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C02706;
+2166;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C02707;
+2168;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C01777;
+2169;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00660;
+2171;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C01779;
+2176;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C00225;
+Soir;bus;;;Villeparisis;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C02476;
+Soir;bus;;;Mitry-le-Neuf;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C02591;
+TàD;bus;;;;Keolis Roissy Pays de France Est;FR-IDF-IDFM;IDFM:C02611;

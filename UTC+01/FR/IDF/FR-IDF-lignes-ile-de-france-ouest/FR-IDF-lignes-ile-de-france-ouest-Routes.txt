@@ -1,0 +1,34 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Lignes Île-de-France Ouest''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+5116;bus;;;;Francilité Express Ouest;FR-IDF-IDFM;IDFM:C00061;
+5117;bus;;;;Francilité Express Ouest;FR-IDF-IDFM;IDFM:C00413;
+5146;bus;;;;Francilité Express Ouest;FR-IDF-IDFM;IDFM:C00497;
+5153;bus;;;;Francilité Express Ouest;FR-IDF-IDFM;IDFM:C00521;
+5154;bus;;;;Francilité Express Ouest;FR-IDF-IDFM;IDFM:C01571;
+5234;bus;;;;Francilité Express Ouest;FR-IDF-IDFM;IDFM:C02637;
+7802;bus;;;;Francilité Express Ouest;FR-IDF-IDFM;IDFM:C02204;
+7803;bus;;;;Francilité Express Ouest;FR-IDF-IDFM;IDFM:C01490;
+7804;bus;;;;Francilité Express Ouest;FR-IDF-IDFM;IDFM:C00287;
+7805;bus;;;;Francilité Express Ouest;FR-IDF-IDFM;IDFM:C01543;
+7807;bus;;;;Francilité Express Ouest;FR-IDF-IDFM;IDFM:C00532;
+7808;bus;;;;Francilité Express Ouest;FR-IDF-IDFM;IDFM:C00652;
+7815;bus;;;;Francilité Express Ouest;FR-IDF-IDFM;IDFM:C00411;
+7816;bus;;;;Francilité Express Ouest;FR-IDF-IDFM;IDFM:C00151;
+7818;bus;;;;Francilité Express Ouest;FR-IDF-IDFM;IDFM:C00426;
+9111;bus;;;;Francilité Express Ouest;FR-IDF-IDFM;IDFM:C02201;

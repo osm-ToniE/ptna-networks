@@ -1,0 +1,44 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Haut Val d'Oise''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+100;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C01675;
+1301;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C01659;
+1302;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C01660;
+1303;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C00606;
+1304;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C00603;
+1305;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C01735;
+1309;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C00607;
+1312;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C00194;
+1314;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C00196;
+1316;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C00462;
+1317;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C00400;
+1346;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C00217;
+1347;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C00218;
+1348;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C00219;
+1349;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C02033;
+1350;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C00220;
+1351;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C00456;
+1352;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C02167;
+1353;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C00436;
+1354;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C02168;
+1356;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C01662;
+9518;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C01472;
+N147;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C02624;
+Soir;bus;;;Persan-Beaumont;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C02675;
+Soir;bus;;;Parc Haut Val d'Oise;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C02674;
+TàD;bus;;;;Keolis Nord Val d’Oise;FR-IDF-IDFM;IDFM:C02853;

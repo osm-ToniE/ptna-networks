@@ -1,0 +1,107 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''Poissy - Les Mureaux''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+6501;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02565;
+6502;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02566;
+6503;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00281;
+6504;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C01784;
+6505;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02567;
+6506;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02568;
+6507;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02569;
+6510;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00286;
+6511;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00111;
+6512;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00274;
+6513;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02570;
+6514;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02571;
+6515;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02537;
+6516;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C01937;
+6517;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00272;
+6518;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00651;
+6519;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02540;
+6521;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00106;
+6522;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00107;
+6523;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02441;
+6524;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02539;
+6525;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02541;
+6526;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00117;
+6527;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00641;
+6528;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00642;
+6529;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02542;
+6531;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00267;
+6532;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00280;
+6533;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00116;
+6534;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C01773;
+6535;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02798;
+6536;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00285;
+6537;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00649;
+6538;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02875;
+6540;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00270;
+6541;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00654;
+6542;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00640;
+6543;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00644;
+6550;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02799;
+6551;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02547;
+6552;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02548;
+6553;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02549;
+6554;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02550;
+6555;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02551;
+6556;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02552;
+6557;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02553;
+6558;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02554;
+6559;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02555;
+6560;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00128;
+6561;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00129;
+6562;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00130;
+6563;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02222;
+6564;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02556;
+6565;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02557;
+6566;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02558;
+6567;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02559;
+6568;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02560;
+6569;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02561;
+6570;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00275;
+6571;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00643;
+6572;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02562;
+6573;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00110;
+6574;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02563;
+6575;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02564;
+6576;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00454;
+6577;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02800;
+6578;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02801;
+6579;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02802;
+6580;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02803;
+6581;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02804;
+6582;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02805;
+6590;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02543;
+6591;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00271;
+6592;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02544;
+6593;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00115;
+6594;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02545;
+6595;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02536;
+7801;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00655;
+7809;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00273;
+7819;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00114;
+7821;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00753;
+7822;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C00754;
+N155;bus;;;;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02526;
+Soir;bus;;;Poissy;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02589;
+Soir;bus;;;Les Mureaux;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02627;
+Soir;bus;;;Vernouillet-Verneuil;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02626;
+Soir;bus;;;Carrières-sous-Poissy;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02628;
+TàD;bus;;;Nord Meulan - Les Mureaux;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02587;
+TàD;bus;;;Sud Meulan - Les Mureaux;Keolis Seine et Oise Est;FR-IDF-IDFM;IDFM:C02588;

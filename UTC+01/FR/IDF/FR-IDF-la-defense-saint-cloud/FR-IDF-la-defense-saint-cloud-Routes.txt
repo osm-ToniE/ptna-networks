@@ -1,0 +1,56 @@
+#
+# Cette page respecte le format CSV de PTNA. Pour plus d'informations, voir https://wiki.openstreetmap.org/wiki/FR:Public_Transport_Network_Analysis/Syntaxe_des_données_CSV
+#
+# Ces données sont entrées pour l'outil : PTNA - Analyse du réseau de transport public (https://ptna.openstreetmap.de)
+#
+
+
+= Overview on '''La Défense - Saint Cloud''' Public Transport Lines
+
+-
+- '''!!!This summary is a list of what has been published in open data by Île-de-France Mobilités and found in OSM!!!'''
+-
+- Feel free to modify the list on github
+-
+#
+#ref;type;comment;from;to;operator;gtfs-feed;gtfs-route-id;gtfs-release-date
+
+== Lines
+22;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01074;
+32;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01082;
+42;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01085;
+43;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01086;
+52;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01090;
+72;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01107;
+73;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01108;
+93;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01124;
+141;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01167;
+144;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01169;
+157;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01180;
+158;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01181;
+159;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01182;
+160;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01183;
+163;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01185;
+164;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01186;
+165;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01187;
+167;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01189;
+176;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01197;
+241;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01239;
+244;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01240;
+258;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01248;
+259;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C02000;
+263;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C02314;
+272;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01254;
+275;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01256;
+276;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01257;
+277;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C02744;
+278;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01258;
+304;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01275;
+360;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01304;
+366;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01306;
+367;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01307;
+378;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01311;
+426;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01481;
+459;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01485;
+467;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01324;
+471;bus;;;;RATP Cap Défense Seine Ouest;FR-IDF-IDFM;IDFM:C01488;
