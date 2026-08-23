@@ -20,7 +20,7 @@ OVERPASS_REUSE_ID="FR-IDF-Q13917-bus"
 
 OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=area[wikidata=Q13917][type=boundary];(rel(area)[~'route'~'bus'];rel(br);rel[~'type'~'route'](r);)->.routes;(.routes;<<;rel(r.routes);way(r);node(w);way(r.routes);node(w);node(r.routes););out;"
 NETWORK_LONG=""
-NETWORK_SHORT="Cœur d’Essonne"
+NETWORK_SHORT="Cœur d'Essonne"
 
 ANALYSIS_PAGE=""
 ANALYSIS_TALK=""
