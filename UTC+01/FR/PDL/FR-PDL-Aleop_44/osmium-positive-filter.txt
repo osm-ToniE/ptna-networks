@@ -1,0 +1,3 @@
+r/*route=*bus
+r/*route=*tram
+r/*route=*train
