@@ -73,3 +73,8 @@ N141;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C01639;
 Soir;bus;;;Meaux Nord;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02489;
 Soir;bus;;;Meaux Sud;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02490;
 TàD;bus;;;;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02735;
+TàD;bus;;;Ourcq Ouest;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02751;
+TàD;bus;;;Meaux Ouest;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02755;
+TàD;bus;;;Poincy - Meaux Av de la Victoire;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02753;
+TàD;bus;;;Meaux Est;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02757;
+TàD;bus;;;Ourcq Est;Transdev Marne-et-Ourcq;FR-IDF-IDFM;IDFM:C02787;

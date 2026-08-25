@@ -42,5 +42,5 @@
 449;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C00597;
 450;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C00581;
 451;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C00548;
-C1;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C02796;
+C1;aerialway;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C02666;
 N72;bus;;;;Transdev Côteaux de la Marne;FR-IDF-IDFM;IDFM:C02668;
