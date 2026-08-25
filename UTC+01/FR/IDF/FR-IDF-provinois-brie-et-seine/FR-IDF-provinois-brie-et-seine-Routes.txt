@@ -65,4 +65,6 @@ TàD;bus;;;Nangis / Saint-Just;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C022
 TàD;bus;;;Nangis / La-Chapelle-Rablais;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C02581;
 TàD;bus;;;Gare de Provins;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C02583;
 TàD;bus;;;Balade en Provinois;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C02613;
+TàD;bus;;;Bassée;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01896;
+TàD;bus;;;Balade du Montois;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C02582;
 TàD 3209;bus;;;;Francilité Grand Provinois;FR-IDF-IDFM;IDFM:C01520;

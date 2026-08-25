@@ -34,3 +34,4 @@ TàD;bus;;;Montereau Nord;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C02575;
 TàD;bus;;;Montereau Ouest;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C02574;
 TàD;bus;;;Montereau Centre;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C02576;
 TàD;bus;;;Montereau Sud;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C02577;
+TàD;bus;;;Montereau Est;Francilité Pays de Montereau;FR-IDF-IDFM;IDFM:C02578;
