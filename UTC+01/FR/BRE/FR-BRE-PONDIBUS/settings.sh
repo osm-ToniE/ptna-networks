@@ -18,9 +18,9 @@ OVERPASS_QUERY="https://overpass-api.de/api/interpreter?data=[timeout:600];area[
 NETWORK_LONG="PondiBus"
 NETWORK_SHORT=""
 
-ANALYSIS_PAGE="Bretagne/Transports_en_commun/KorriGo"
-ANALYSIS_TALK="Talk:Bretagne/Transports_en_commun/KorriGo"
-WIKI_ROUTES_PAGE="Bretagne/Transports_en_commun/KorriGo/PONDIBUS"
+ANALYSIS_PAGE="User:Mga_geo/Transports_en_commun/PondiBus/PTNA"
+ANALYSIS_TALK="User_talk:Mga_geo/Transports_en_commun/PondiBus/PTNA"
+WIKI_ROUTES_PAGE="User:Mga_geo/Transports_en_commun/PondiBus/PTNA_csv"
 
 ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=fr --check-bus-stop --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-version --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze --coloured-sketchline --relaxed-begin-end-for=train,subway,light_rail,monorail,tram"
 
