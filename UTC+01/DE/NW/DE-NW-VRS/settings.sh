@@ -22,9 +22,9 @@ NETWORK_SHORT="VRS"
 #EXPECT_NETWORK_SHORT_FOR="Verkehrsverbund Rhein-Sieg"
 #EXPECT_NETWORK_SHORT_AS="VRS"
 
-ANALYSIS_PAGE="VRS/Analyse"
-ANALYSIS_TALK="Talk:VRS/Analyse"
-WIKI_ROUTES_PAGE="VRS/Analyse/VRS-Linien"
+ANALYSIS_PAGE="DE:VRS/Analyse"
+ANALYSIS_TALK="DE_talk:VRS/Analyse"
+WIKI_ROUTES_PAGE="DE:VRS/Analyse/VRS-Linien"
 
 ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-version --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze  --ptv1-compatibility=allow --relaxed-begin-end-for=train,subway,light_rail,monorail,tram --coloured-sketchline"
 
