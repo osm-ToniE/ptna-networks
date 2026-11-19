@@ -26,13 +26,14 @@ ANALYSIS_PAGE="DE:VRS/Analyse"
 ANALYSIS_TALK="DE_talk:VRS/Analyse"
 WIKI_ROUTES_PAGE="DE:VRS/Analyse/VRS-Linien"
 
-ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-version --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-osm-separator --check-motorway-link --multiple-ref-type-entries=analyze  --ptv1-compatibility=allow --relaxed-begin-end-for=train,subway,light_rail,monorail,tram --coloured-sketchline"
+ANALYSIS_OPTIONS="--timezone=$PTNA_TIMEZONE --language=de --check-gtfs --link-gtfs --show-gtfs --gtfs-feed=$PREFIX --max-error=10 --check-version --check-access --check-dates --check-way-type --check-service-type --check-name-relaxed --check-stop-position --check-sequence --check-osm-separator --multiple-ref-type-entries=analyze  --ptv1-compatibility=allow --relaxed-begin-end-for=train,subway,light_rail,monorail,tram --coloured-sketchline"
 
 # --positive-notes
 # --check-bus-stop
 # --expect-network-short
 # --expect-network-long
 # --expect-network-long-for=
+# --check-motorway-link
 
 #
 # extensions to support ptna-www and PHP in results/xx/index.php files by code in ptna-network.sh (section: upload results)
